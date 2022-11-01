@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="it" type="array">
+			<label index="moduleFunction.tx_ttnews_modfunc1">gestione categorie tt_news</label>
+			<label index="title">Gestione Categorie News</label>
+			<label index="moveCategoryinto">sposta categoria in</label>
+			<label index="copyCategoryinto">copia categoria in</label>
+			<label index="copyCategoryafter">copia categoria dopo</label>
+			<label index="edit">Modifica record</label>
+			<label index="showInfo">Mostra informazioni</label>
+			<label index="unHide">Pubblica Record</label>
+			<label index="hide">Nascondo Record</label>
+			<label index="deleteWarning">Confermare l'eliminazione di questo record?</label>
+			<label index="delete">Elimina record (!)</label>
+			<label index="new">Crea nuova categoria in questo livello</label>
+			<label index="newsub">Crea nuova sottocategoria</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="it" type="array">
+			<label index="moduleFunction.tx_ttnews_modfunc1" type="integer">141629002</label>
+			<label index="title" type="integer">247215777</label>
+			<label index="edit" type="integer">148343509</label>
+			<label index="showInfo" type="integer">123490643</label>
+			<label index="unHide" type="integer">252474335</label>
+			<label index="hide" type="integer">64415334</label>
+			<label index="delete" type="integer">257712260</label>
+			<label index="moveCategoryinto" type="integer">26137556</label>
+			<label index="copyCategoryinto" type="integer">174822379</label>
+			<label index="copyCategoryafter" type="integer">142635098</label>
+			<label index="deleteWarning" type="integer">75838368</label>
+			<label index="new" type="integer">238746689</label>
+			<label index="newsub" type="integer">93810811</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="it" type="array">
+			<label index="moduleFunction.tx_ttnews_modfunc1">tt_news category manager</label>
+			<label index="title">News category manager</label>
+			<label index="edit">Edit record</label>
+			<label index="showInfo">Show information</label>
+			<label index="unHide">Unhide Record</label>
+			<label index="hide">Hide Record</label>
+			<label index="delete">Delete record (!)</label>
+			<label index="moveCategoryinto">move category into</label>
+			<label index="copyCategoryinto">copy category into</label>
+			<label index="copyCategoryafter">copy category after</label>
+			<label index="deleteWarning">Are you sure you want to delete this record?</label>
+			<label index="new">Create new category on this level</label>
+			<label index="newsub">Create new subcategory</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

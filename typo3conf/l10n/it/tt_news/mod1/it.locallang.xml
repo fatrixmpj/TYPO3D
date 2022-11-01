@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="it" type="array">
+			<label index="title">Gestione News</label>
+			<label index="function1">Gestione Categorie News</label>
+			<label index="showSubcatgories">Mostra sottocategorie</label>
+			<label index="hideSubcatgories">Nascondi sottocategorie</label>
+			<label index="path">Percorso:</label>
+			<label index="categories">Categorie:</label>
+			<label index="showOnlyEditable">Mostra solo elementi modificabili</label>
+			<label index="showThumbs">Mostra immagini</label>
+			<label index="allPages">tutte le pagine</label>
+			<label index="thisPage">questa pagina</label>
+			<label index="enterSearchLevels">Mostra news da:</label>
+			<label index="showingAll">News da tutte le categorie.</label>
+			<label index="showingOnlyCat">News dalla categoria:</label>
+			<label index="selectCategory">Seleziona una categoria</label>
+			<label index="expandAll">Espandi tutto</label>
+			<label index="showHiddenCategories">Mostra categorie nascoste</label>
+			<label index="treeTitle">Categorie News</label>
+			<label index="createArticle">Crea nuova news</label>
+			<label index="createArticleInCategory">Crea news in questa categoria</label>
+			<label index="edit">Modifica record</label>
+			<label index="showInfo">Mostra informazioni</label>
+			<label index="hide">Nascondi record</label>
+			<label index="delete">Elimina record (!)</label>
+			<label index="openFePreview">Apri anteprima</label>
+			<label index="first">Prima</label>
+			<label index="last">Ultima</label>
+			<label index="reload">Ricarica</label>
+			<label index="next">Prossima</label>
+			<label index="previous">Precedente</label>
+			<label index="pageIndicator">Pagina %1$s di %2$d</label>
+			<label index="rangeIndicator">Records %1$d - %2$d di %3$d</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="it" type="array">
+			<label index="title" type="integer">120421877</label>
+			<label index="function1" type="integer">247215777</label>
+			<label index="path" type="integer">266188054</label>
+			<label index="categories" type="integer">147031926</label>
+			<label index="showThumbs" type="integer">75897917</label>
+			<label index="allPages" type="integer">188435502</label>
+			<label index="thisPage" type="integer">137578391</label>
+			<label index="enterSearchLevels" type="integer">135586372</label>
+			<label index="expandAll" type="integer">218803276</label>
+			<label index="showHiddenCategories" type="integer">201911862</label>
+			<label index="edit" type="integer">148343509</label>
+			<label index="showInfo" type="integer">123490643</label>
+			<label index="hide" type="integer">64415334</label>
+			<label index="openFePreview" type="integer">124253571</label>
+			<label index="first" type="integer">133912045</label>
+			<label index="last" type="integer">223720198</label>
+			<label index="reload" type="integer">80857126</label>
+			<label index="next" type="integer">17482704</label>
+			<label index="previous" type="integer">231864181</label>
+			<label index="pageIndicator" type="integer">5369704</label>
+			<label index="rangeIndicator" type="integer">72735521</label>
+			<label index="showSubcatgories" type="integer">98194906</label>
+			<label index="hideSubcatgories" type="integer">120246215</label>
+			<label index="showOnlyEditable" type="integer">103903083</label>
+			<label index="showingAll" type="integer">170919618</label>
+			<label index="showingOnlyCat" type="integer">85175719</label>
+			<label index="selectCategory" type="integer">20771167</label>
+			<label index="treeTitle" type="integer">135137984</label>
+			<label index="createArticle" type="integer">257373865</label>
+			<label index="createArticleInCategory" type="integer">56241345</label>
+			<label index="delete" type="integer">257712260</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="it" type="array">
+			<label index="title">News Admin</label>
+			<label index="function1">News category manager</label>
+			<label index="path">Path:</label>
+			<label index="categories">Categories:</label>
+			<label index="showThumbs">Show images</label>
+			<label index="allPages">all pages</label>
+			<label index="thisPage">this page</label>
+			<label index="enterSearchLevels">Show news from:</label>
+			<label index="expandAll">Expand all</label>
+			<label index="showHiddenCategories">Show hidden categories</label>
+			<label index="edit">Edit record</label>
+			<label index="showInfo">Show information</label>
+			<label index="hide">Hide Record</label>
+			<label index="openFePreview">Open preview</label>
+			<label index="first">First</label>
+			<label index="last">Last</label>
+			<label index="reload">Reload</label>
+			<label index="next">Next</label>
+			<label index="previous">Previous</label>
+			<label index="pageIndicator">Page %1$s of %2$d</label>
+			<label index="rangeIndicator">Records %1$d - %2$d of %3$d</label>
+			<label index="showSubcatgories">Show subcategories</label>
+			<label index="hideSubcatgories">Hide subcategories</label>
+			<label index="showOnlyEditable">Show only editable records</label>
+			<label index="showingAll">Showing news from all categories.</label>
+			<label index="showingOnlyCat">Showing news from category: </label>
+			<label index="selectCategory">Please select a category </label>
+			<label index="treeTitle">News categories</label>
+			<label index="createArticle">Create new article</label>
+			<label index="createArticleInCategory">Create new article in this category</label>
+			<label index="delete">Delete record (!)</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

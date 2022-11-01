@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ru" type="array">
+			<label index="mlang_labels_tablabel">Центр заданий содержит обзор заданий, сообщения и инструкции</label>
+			<label index="mlang_labels_tabdescr">Центр задний предоставляет доступ к персональному списку действий (To-Do), сообщениям, заметкам, действиям и т.д. Здесь предоставлены ссылки на доступные вам модули внешнего интерфейса и последним редактировавшимся страницам. Центр заданий – место обзора и ослеживания персональных ежедневных задач и рабочих процессов вцелом.</label>
+			<label index="mlang_tabs_tab">Центр заданий</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ru" type="array">
+			<label index="mlang_labels_tablabel" type="integer">42729585</label>
+			<label index="mlang_labels_tabdescr" type="integer">95609552</label>
+			<label index="mlang_tabs_tab" type="integer">109318877</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ru" type="array">
+			<label index="mlang_labels_tabdescr">The task center provides access to your internal To-Do list, messages, Quick-note, actions etc. It also provides shortcuts to your available frontend modules and most recently edited pages. The Task Center is where you keep track of your daily tasks and workflows.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

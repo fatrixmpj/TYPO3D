@@ -1,0 +1,30 @@
+{
+    "name": "ifthenpay/omnipay-ifthenpay",
+    "description": "Ifthenpay driver for the Omnipay PHP payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "ifthenpay"
+    ],
+    "homepage": "https://www.ifthenpay.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ifthenpay, Lda",
+            "email": "suporte@ifthenpay.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Ifthenpay\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    },
+    "minimum-stability": "dev"
+}

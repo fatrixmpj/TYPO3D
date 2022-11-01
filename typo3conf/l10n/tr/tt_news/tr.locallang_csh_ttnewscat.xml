@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="tr" type="array">
+			<label index=".description">Haberler Sistem kategorilerinde yapılandırılıyor</label>
+			<label index="title.description">Varsayılan dil için kategori başlığı. Başlık belirli bir sayfa için kısayol  ya da kategori seçicisi olarak davranabilir.  ( &quot;categoryMode&quot; ile ayarlanır).</label>
+			<label index="title.details">Web sitesindeki kategori başlığının görünümü tt_news içerik elemanı (sayfa: kategor ayaları) ya da TypoScript(“categoryMode”)  içerisinden ayarlanabilir. Web sitesindeki ek diller için başlıklar “title language overlays” alanında eklenir.   Kategori başlıkları ve resimleri bir sayfaya kısayol olarak ya da kategori seçicisi (yani bir haberler listesinin içeriği kategoriler olarak filtrenebilir ) olarak davranabilir.  Kategorilere göre filtreleme  alt kategoriler için tekrarlayan şekilde (rekürsif) olarak çalışır.</label>
+			<label index="title_lang_ol.description">“Başlık dil örtüleri” alanında , diğer sayfa dillerinde kategori başlıklarını tanımlayabilirsiniz.</label>
+			<label index="title_lang_ol.details">Eğer web sitenizde birden fazla ek dil var ise, başlıkları  “|” karakteri ile ayırabilirsiniz. ith the &quot;|&quot; character.  &lt;strong&gt;Örnek:&lt;/strong&gt; Eğer 3 dile sahip (en, de, tr)  bir web siteniz var ise , varsayılan dil için kategori başlığını “başlık” alanında yazmak gerekir.  Türkçe ve Almanca başlıklar ise “title language overlays” alanında aşağıdaki resimde görüldüğü gibi yazılır.</label>
+			<label index="title_lang_ol.image_descr">Örtü başlıklarının sırası , sisteminizdeki dil sırası ile aynı olmak zorundadır.  Bu örnekte: Almanca=1, Türkçe = 2</label>
+			<label index="parent_category.description">Çalışılan kategoriyi, bu alandaki kategorinin alt kategorisi yap</label>
+			<label index="parent_category.details">“Ana Kategori” alanında , çalışılan kategoriyi  bu alanda seçili olan kategorinin bir alt kategorisi olarak  tanımlayabilirsiniz. Çalışılan kategori ve haberler, bu seçilen kategoriye atanacaktır. Bu tekrarlayan şekilde çalışır.  Çalışılan kategori için “Ekle” sihirbazı ile doğrudan yeni bir ana kategori oluşturulabilir. (toplam düğmesi) Ağaç listesindeki bazı kategoriler, gri renktedir ve seçilebilir değildir: çalışılan kategori her zaman için gri renktedir  ve asla seçilemez, ek olarak  TSConfig içersindeki bir arkayüz kullanıcı grubu  için bir kategori grubu tanımlamak ümkündür (örn. tt_newsPerms.tt_news_cat.allowedItems = 7,8,9) . Bu kategoride yer almayan tüm kategoriler,, bu grup üyeleri için seçilebilir olmayacaktır.   &lt;strong&gt;Tekrarlayan Kategoriler:&lt;/strong&gt;  Bazen içe içe geçen gruplar  sonsuz bir döngü yaratabilirler.  Tekrarlayan kategoriler , kategori ağacında gözükmeyecektir.  Eğer çalışılan kategori böyle bir döngünün parçası ise, tt_news bunu tespit eder ve resimdeki gibi bir mesaj gösterir. Sonsuz döngüyü kırmak için ,   çalışılan kategoride “ana kategori” alanı yeteri kadar boşluk ile doldurulur. Kayıt işleminden sonra aşağıdaki mesaj gözükür:   Kategori ağacının yüksekliği  Eklenti Yöneticisi– Extension Manager 'dan ayarlanabilir.</label>
+			<label index="parent_category.image_descr">Çalışılan kategori bir tekrarlayan kategoriler döngüsünün parçası ise, bu mesaj gözükür.</label>
+			<label index="hidden.description">Bu tt_news kategorisini ve ait tüm haberleri  geçici olarak görüntülemeden kaldırmak için kullanılır.</label>
+			<label index="hidden.details">Bir tt_news  haber kaydını düzenleneme esnasında bu seçeneği kullanmak oldukça pratiktir. Eğer seçili ise, haber  Yönetici panelinde &amp;gt;Öngörünüm &amp;gt; Gizli Kayıtları Göster seçeneğini etkinleştirmediğiniz sürece görüntülenmeyecektir. (Eğer  bir arka yüz kullanıcısı olarak giriş yapmışsanız )</label>
+			<label index="starttime.description">Başlangıç zamanı , hangi tarihten itibaren  kategorinin ve ona ait haberlerin online oalcağını belirler. Belirli bir tarihte , belirli ir kategoriden haberlerin “yayınlanması” için bunu kullanın. Eğer “Başlangıç” zamanı girilmemişse, kategori online olacaktır. ( gizlenmediği takdirde )</label>
+			<label index="starttime.syntax">Tarih formatı  DD-MM-YYYY şeklinderi. Değeri farklı yollarla  da girebilirsiniz. - Girilen değer hemen değerlendirilecektir. Eğer “d” değerini girerseniz günün tarihi eklenir.  “+10”  şeklinde günün tarihine 10 gün ekleyerek yeni bir tarih değeri hesaplayacak şekilde giriş de yapmak mümkündür. Örneği “d+10” bugünden itibaren 10 gün sonranı tarihi hesaplar.</label>
+			<label index="endtime.description">The &quot;Stop&quot; time is the date from which the category and the news which have this category assigned will not be online anymore.</label>
+			<label index="endtime.syntax">Bkz. tt_news_cat / Başlangıç (üstteki bölüm) .</label>
+			<label index="fe_group.description">tt_news kategorisi ve bu alanda seçilmiş olan  web sitesi kullanıcı grubunun (fe_groups) üyesi olmayan kullanıcılar için atanmış bu kategorideki tüm haberleri gizlemek için kullanılır.</label>
+			<label index="fe_group.details">Eğer “Erişim” bir kullanıcı grubu ismine düzenlenmiş ise, sadece seçili kullanıcı grubunun üyesi olduğu web sitesi kullanıcıları , giriş yaptıklarında bu kategori altındaki haberleri görebileceklerdir. “Girişte gizle” özel seçeneği, bu kategorideki haberlerin , giriş yapan web sitesi kullanıcılarının bu kategorideki haberleri göremeyeceği anlamına gelir. Benzer olarak “Giriş Göster”  ön yüze giriş yapan her kullanıcı için, söz konusu haberleri görünür yapar.</label>
+			<label index="image.description">Kategori başlığı yerine ( ya da ek olarak ) bir resim gösterilebilir.</label>
+			<label index="image.details">Her bir haber kategorisi için , kategori başlığı yerine gösterilecek bir resim yükleyebilir ya da atayabilirsiniz. Kategori Başlık/Resim davranışları, haber içerik elemanındaki  “Kategori Ayarları”  sayfasından ayarlanabilir.   Kategori başlık ya da resimleri bir sayfaya kısayol  ya da kategori seçicisi (haber listesi içeriği kategorilere göre listelenebilir)  olarak  davranabilir. Kategorilere göre  filtreleme ,  alt kategoriler için tekrarlayan şekilde çalışır.</label>
+			<label index="shortcut.description">Kategori başlık ve (veya ) resminin bağlantılı olduğu dahili bir sayfa.</label>
+			<label index="shortcut.details">Kategori başlıkları ya da resimler bir dahili sayfaya kısayol olarak da davranabilirler. Eğer bu etkinleştirilmişse, görünür bir sayfa kısayol olarak tanımlanır. Kategori başlığı ya da resim bu sayfayı işaret eder.</label>
+			<label index="shortcut_target.description">Haber kategori kısayolu için hedef</label>
+			<label index="shortcut_target.details">Kategori kısayolu için bir hedef tanımlayabilirsiniz. ( bu ayar web sitenizdeki hedef bağlantılara ait global ayar   dan daha fazla önceliğe sahiptir.)</label>
+			<label index="single_pid.description">Burada yazılan sayfa , Global olarak ayarlanmış “singlePid” üzerine gelir.</label>
+			<label index="single_pid.details">“Bu kategorideki haberler için detay görünüm sayfası” alanı , her bir kategori için, size detay görünüm sayfası tanımlama imkanı verir. Eğer bu özelliği kullanmak istiyorsanız , TypoScript ayarında useSPidFromCategory = 1&quot; satırını eklemeniz gerekir.  Eğer bir haber kaydı iki ya da daha fazla kategoriye ait ise, haber kaydına ait ilk kategori SinglePid'e alınır.</label>
+			<label index="description.description">Kategori ağacında , çalışılan kategori için tooltip olarak gözükecek bir tanım girebilirsiniz.</label>
+			<label index="description.details">Eğer  70 karakterden daha fazla açıklama girerseniz, Firefox ya da Mozilla\n da doğru olarak görüntülenmeyecektir. Solution: Bu problemi çözen bazı firefoz eklentileri mevcuttur. &quot;popup Alt Attribute&quot;  denendi ve en azından bende sorunsuz çalışıyor.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="tr" type="array">
+			<label index=".description" type="integer">157870280</label>
+			<label index="title.description" type="integer">266611085</label>
+			<label index="title.details" type="integer">244788100</label>
+			<label index="title_lang_ol.description" type="integer">97624453</label>
+			<label index="title_lang_ol.details" type="integer">214479957</label>
+			<label index="title_lang_ol.image_descr" type="integer">246945865</label>
+			<label index="parent_category.description" type="integer">156085422</label>
+			<label index="parent_category.details" type="integer">173118815</label>
+			<label index="parent_category.image_descr" type="integer">70014790</label>
+			<label index="hidden.description" type="integer">183184707</label>
+			<label index="hidden.details" type="integer">223516146</label>
+			<label index="starttime.description" type="integer">24253135</label>
+			<label index="starttime.syntax" type="integer">141141936</label>
+			<label index="endtime.description" type="integer">2001333</label>
+			<label index="endtime.syntax" type="integer">131110551</label>
+			<label index="fe_group.description" type="integer">101943889</label>
+			<label index="fe_group.details" type="integer">12024309</label>
+			<label index="image.description" type="integer">259887125</label>
+			<label index="image.details" type="integer">88972951</label>
+			<label index="shortcut.description" type="integer">177455732</label>
+			<label index="shortcut.details" type="integer">235767635</label>
+			<label index="shortcut_target.description" type="integer">110099690</label>
+			<label index="shortcut_target.details" type="integer">62054161</label>
+			<label index="single_pid.description" type="integer">144853978</label>
+			<label index="single_pid.details" type="integer">85734700</label>
+			<label index="description.description" type="integer">229227382</label>
+			<label index="description.details" type="integer">188796137</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="tr" type="array">
+			<label index=".description">tt_news categories.</label>
+			<label index="title.description">The category title for the default language. The title can act as shortcut to a certain page or as category selector (configured by &quot;categoryMode&quot;).</label>
+			<label index="title.details">The display of the category title on the website is configured in the tt_news content element (sheet: category settings) or by TypoScript (&quot;categoryMode&quot;). The titles for additional website languages are inserted in the field &quot;title language overlays&quot;.
+
+The category titles/images can act as shortcut to a page or as &quot;category selector&quot; which means: the contents of a news-list ist filtered by category. Filtering by category works recursive for subcategories.</label>
+			<label index="title_lang_ol.description">In the field &quot;title language overlays&quot; you can define category titles for other website languages.</label>
+			<label index="title_lang_ol.details">If you have more than one additional website language, you can split the titles with the &quot;|&quot; character.
+
+&lt;strong&gt;Example:&lt;/strong&gt;
+if you have a website with 3 languages (en,de,fr) it's required to write the category title for the default language in the field &quot;title&quot;. The titles for german an french are written to the field &quot;title language overlays&quot; like shown in the image below.</label>
+			<label index="title_lang_ol.image_descr">the order of the overlay titles has to be the same as the order of your system languages.
+In this example: en=0, german=1, french=2 </label>
+			<label index="parent_category.description">Make the current category to a subcategory of the category in this field.</label>
+			<label index="parent_category.details">In the field &quot;Parent category&quot; you can define the current category as a subcategory of the category which is selected in this field. That will include the current category and the newsitems which have this category assigned when the parent category is selected. This works recursive.
+A new parent category for the current category can also be created directly with the &quot;add&quot; wizard (the plus button).
+Some categories in the tree are printed in grey and are not selectable: the current category is never selectable, additionally it is possible to define a list of categories that are allowed for a certain BackEnd user group in the TSconfig of this group (f.e.: tt_newsPerms.tt_news_cat.allowedItems = 7,8,9). All categories that are not in this list will not be selectable for members of this group.
+
+&lt;strong&gt;Recursive categories:&lt;/strong&gt;
+Sometimes it might happen that some nested categories build an endless loop. Recursive categories will not be shown in the category tree. If the current category is part of such a loop, tt_news detects this and shows an error message (see image) in the category form. To break the endless loop it should be sufficient to empty the field &quot;parent_category&quot; from the current category record. After saving the record the error message should disappear.
+
+The height of the category tree can be configured in the extension manager.
+
+</label>
+			<label index="parent_category.image_descr">Error message when the current category is part of a loop of recursive categories.</label>
+			<label index="hidden.description">Use this to temporarily exclude this tt_news category from display and all news which are member of this category.</label>
+			<label index="hidden.details">Setting this option is practical while editing a new tt_news db-record. When it is set, the newsitem will not be displayed unless you - if you're logged in as backend user - enable the Admin Panel&amp;gt;Preview&amp;gt;Show hidden records option.</label>
+			<label index="starttime.description">The &quot;Start&quot; time determines the date from which the category an its news articles will be visible online. Use this to &quot;publish&quot; news articles from a certain category on a certain date. If &quot;Start&quot; time is not set, the category will be online instantly (unless it is hidden otherwise).</label>
+			<label index="starttime.syntax">Format is DD-MM-YYYY. You may enter the value in other ways - it will be evaluated immediately.
+If you insert eg. a &quot;d&quot; the current date is inserted. You can also append any value in the field with eg. &quot;+10&quot; which will add 10 days to the current value. For instance setting the value to &quot;d+10&quot; would select a date 10 days from now.</label>
+			<label index="endtime.description">The &quot;Stop&quot; time is the date from which the category and the news which have this category assigned will not be online anymore.</label>
+			<label index="endtime.syntax">See tt_news_cat / Start (click below).</label>
+			<label index="fe_group.description">Use this to hide the tt_news category and all news which have this category assigned for users that are not member of the website usergroup (fe_groups) which is selected in this field.</label>
+			<label index="fe_group.details">If &quot;Access&quot; is set to a usergroup name, only website users which are members of the selected usergroup will be able to view news with this category when they are logged in. The special option &quot;Hide at login&quot; means the news from this category will not be visible for website users that are logged in. Likewise &quot;Show at login&quot; will make those news visible for any logged in frontend user.</label>
+			<label index="image.description">An image which can be shown instead of (or additionally to) the category title.</label>
+			<label index="image.details">You can upload or assign an image for each news category which is shown f.e. instead of the category title. The behaviour of the category titles/images can be configured in the sheet &quot;Category settings&quot; in the news content element.
+
+The category titles/images can act as shortcut to a page or as &quot;category selector&quot; which means: the contents of a news-list ist filtered by category. Filtering by category works recursive for subcategories.</label>
+			<label index="shortcut.description">An internal page where the category titles and/or images are linked to.</label>
+			<label index="shortcut.details">Category titles or images can also act as shortcut to an internal page. If this is enabled and a visible page is defined as shortcut, the link from the category title or image points to this page.</label>
+			<label index="shortcut_target.description">Target for news category shortcut.</label>
+			<label index="shortcut_target.details">With the field &quot;Target for ...&quot; you can configure a target for the category shortcut (this setting will have priority over a global setting for link targets in your website).</label>
+			<label index="single_pid.description">The page which is defined here overrides the globally configured &quot;singlePid&quot;.</label>
+			<label index="single_pid.details">The field &quot;Single-view page for news from this category&quot; gives you the possibility to define a single-view page for each category. If you want to use this feature it is required to add &quot;useSPidFromCategory = 1&quot; to the TypoScript setup.
+If a news-record has 2 or more categories assigned the SinglePid will be taken from the first category which is assigned to the news record.</label>
+			<label index="description.description">Here you can enter a description for the current category which will be shown as tooltip in the category tree.</label>
+			<label index="description.details">If you have long description texts (&gt;70 chars) Firefox and Mozilla will not display the tooltips correctly.
+		Solution:
+		There are some Firefox extensions which correct this problem. I tried &quot;Popup Alt Attribute&quot; which works flawless for me.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

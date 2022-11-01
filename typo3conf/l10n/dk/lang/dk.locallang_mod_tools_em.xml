@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="dk" type="array">
+			<label index="mlang_labels_tablabel">TYPO3 Extension Manager</label>
+			<label index="mlang_labels_tabdescr">Håndterer TYPO3 udvidelser hvilket inkluderer plugins, moduler, klasseudvidelser, opsætningskode osv. fra et centralt lager.</label>
+			<label index="mlang_tabs_tab">Ext. Manager</label>
+			<label index="category_BE">Backend</label>
+			<label index="category_BE_modules">Backend modul</label>
+			<label index="category_FE">Frontend</label>
+			<label index="category_FE_plugins">Frontend plugins</label>
+			<label index="category_miscellanous">Diverse</label>
+			<label index="category_services">Services</label>
+			<label index="category_templates">Skabeloner</label>
+			<label index="category_examples">Eksempler</label>
+			<label index="category_documentation">Dokumentation</label>
+			<label index="state_alpha">Alfa</label>
+			<label index="state_beta">Beta</label>
+			<label index="state_stable">Stabil</label>
+			<label index="state_experimental">Eksperimentel</label>
+			<label index="state_test">Test</label>
+			<label index="state_obsolete">Forældet</label>
+			<label index="state_exclude_from_updates">Udeluk fra opdateringer</label>
+			<label index="type_system">System</label>
+			<label index="type_global">Global</label>
+			<label index="type_local">Lokal</label>
+			<label index="descr_system">System exstension (typo3/sysext/) - Altid distribueret med TYPO3 kilde kode (statisk).</label>
+			<label index="descr_global">Global extension (typo3/ext/) - Tilgængelig for delte ressourcer på serveren (dynamisk).</label>
+			<label index="descr_local">Lokal extension (typo3conf/ext/) - Lokalt tilgængelig for denne installation alene (dynamisk).</label>
+			<label index="security_header">Har du fundet et sikkerhedshul? Kontakt os venligst.</label>
+			<label index="security_descr">Hvis du tror du har fundet et sikkerhedshul i TYPO3 eller i en extension, så kontakt venligst %sTYPO3 security team%s! På forhånd tak!</label>
+			<label index="menu_loaded_extensions">Installerede extensions</label>
+			<label index="menu_install_extensions">Installér extensions</label>
+			<label index="menu_import_extensions">Importér extensions</label>
+			<label index="menu_translation_handling">Oversættelseshåndtering</label>
+			<label index="menu_settings">Indstillinger</label>
+			<label index="menu_extension_updates">Check for extension opdateringer</label>
+			<label index="list_order_category">Kategori</label>
+			<label index="list_order_author">Forfatter</label>
+			<label index="list_order_state">Status</label>
+			<label index="list_order_type">Type</label>
+			<label index="show_details">Detaljer</label>
+			<label index="show_description">Beskrivelse</label>
+			<label index="show_more_details">Flere detaljer</label>
+			<label index="show_technical">Teknisk (tager tid!)</label>
+			<label index="show_validating">Validering (tager tid!)</label>
+			<label index="show_changed">Ændret? (tager tid!)</label>
+			<label index="details_info">Information</label>
+			<label index="details_edit">Redigér filer</label>
+			<label index="details_backup_delete">Backup/Slet</label>
+			<label index="details_dump_db">Dump DB</label>
+			<label index="details_upload">Upload til TER</label>
+			<label index="details_update">OPDATER!</label>
+			<label index="header">Extension Manager</label>
+			<label index="group_by">Gruppér efter:</label>
+			<label index="show">Vis:</label>
+			<label index="display_shy">Vis &quot;generte&quot; extensions:</label>
+			<label index="only_my_ext">Kun mine extensions:</label>
+			<label index="show_obsolete">Vis forældede:</label>
+			<label index="go_back">Gå tilbage</label>
+			<label index="look_up">Slå op:</label>
+			<label index="loaded_exts">Installerede extensions</label>
+			<label index="global">global</label>
+			<label index="local">lokal</label>
+			<label index="list_or_look_up_all">alle</label>
+			<label index="look_up_button">Slå op:</label>
+			<label index="local_folder">Lokal (../typo3conf/ext/)</label>
+			<label index="global_folder">Global (typo3/ext/</label>
+			<label index="system_folder">System (typo3/sysext/)</label>
+			<label index="overwrite_ext">Overskriv eksisterende extension!</label>
+			<label index="upload_ext_file">Upload extension fil</label>
+			<label index="upload_ext_directly">Upload extension fil direkte (.t3x):</label>
+			<label index="previous_page">Forrige side</label>
+			<label index="next_page">Næste side</label>
+			<label index="showing_extensions_from_to">Viser extensions %s til %s</label>
+			<label index="security_settings">Sikkerhedsindstillinger</label>
+			<label index="notice">Note:</label>
+			<label index="user_settings">Brugerindstillinger</label>
+			<label index="enter_repository_username">Indtast repository brugernavn:</label>
+			<label index="enter_repository_password">Indtast repository password:</label>
+			<label index="mirror_use">Brug</label>
+			<label index="mirror_name">Navn</label>
+			<label index="mirror_url">URL</label>
+			<label index="mirror_country">Land</label>
+			<label index="mirror_sponsored_by">Sponsoreret af</label>
+			<label index="mirror_use_random">Tilfældig (anbefales!)</label>
+			<label index="enter_repository_url">Indtast repository URL:</label>
+			<label index="repository_settings">Repository indstillinger:</label>
+			<label index="translation_settings">Oversættelsesindstillinger</label>
+			<label index="languages_to_fetch">Sprog som skal hentes:</label>
+			<label index="translation_save_selection">Gem selektion</label>
+			<label index="translation_check_status_button">Check status fra repository</label>
+			<label index="translation_update_button">Opdatér fra repository</label>
+			<label index="translation_status">Oversættelsesstatus</label>
+			<label index="translation_n_a">N/A</label>
+			<label index="translation_status_ok">OK</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="dk" type="array">
+			<label index="mlang_labels_tablabel" type="integer">107630623</label>
+			<label index="mlang_labels_tabdescr" type="integer">61213035</label>
+			<label index="mlang_tabs_tab" type="integer">199372037</label>
+			<label index="category_BE" type="integer">48506818</label>
+			<label index="category_BE_modules" type="integer">39991288</label>
+			<label index="category_FE" type="integer">228047462</label>
+			<label index="category_FE_plugins" type="integer">41676017</label>
+			<label index="category_miscellanous" type="integer">59226864</label>
+			<label index="category_services" type="integer">160604400</label>
+			<label index="category_templates" type="integer">132093617</label>
+			<label index="category_examples" type="integer">267895036</label>
+			<label index="category_documentation" type="integer">95866758</label>
+			<label index="state_alpha" type="integer">101917333</label>
+			<label index="state_beta" type="integer">12090726</label>
+			<label index="state_stable" type="integer">262385651</label>
+			<label index="state_experimental" type="integer">117749078</label>
+			<label index="state_test" type="integer">13354593</label>
+			<label index="state_obsolete" type="integer">247663651</label>
+			<label index="state_exclude_from_updates" type="integer">143888087</label>
+			<label index="type_system" type="integer">172350102</label>
+			<label index="type_global" type="integer">80504452</label>
+			<label index="type_local" type="integer">84509186</label>
+			<label index="descr_system" type="integer">173969113</label>
+			<label index="descr_global" type="integer">252612860</label>
+			<label index="menu_loaded_extensions" type="integer">260059038</label>
+			<label index="menu_install_extensions" type="integer">32676540</label>
+			<label index="menu_import_extensions" type="integer">146373137</label>
+			<label index="menu_translation_handling" type="integer">145144065</label>
+			<label index="menu_settings" type="integer">256864370</label>
+			<label index="menu_extension_updates" type="integer">25562123</label>
+			<label index="list_order_category" type="integer">61717939</label>
+			<label index="list_order_author" type="integer">173111111</label>
+			<label index="list_order_state" type="integer">74066497</label>
+			<label index="list_order_type" type="integer">169845367</label>
+			<label index="show_details" type="integer">65812061</label>
+			<label index="show_description" type="integer">190479069</label>
+			<label index="show_more_details" type="integer">45443936</label>
+			<label index="show_technical" type="integer">250066851</label>
+			<label index="show_validating" type="integer">37927568</label>
+			<label index="show_changed" type="integer">72647157</label>
+			<label index="details_info" type="integer">176340495</label>
+			<label index="details_edit" type="integer">152858234</label>
+			<label index="details_backup_delete" type="integer">212437715</label>
+			<label index="details_dump_db" type="integer">256199650</label>
+			<label index="details_upload" type="integer">24268842</label>
+			<label index="details_update" type="integer">6145480</label>
+			<label index="header" type="integer">183301804</label>
+			<label index="group_by" type="integer">103901916</label>
+			<label index="show" type="integer">152556645</label>
+			<label index="display_shy" type="integer">161534753</label>
+			<label index="only_my_ext" type="integer">127072968</label>
+			<label index="show_obsolete" type="integer">215318356</label>
+			<label index="go_back" type="integer">36398395</label>
+			<label index="loaded_exts" type="integer">240199548</label>
+			<label index="local" type="integer">257809136</label>
+			<label index="list_or_look_up_all" type="integer">169351776</label>
+			<label index="local_folder" type="integer">93147331</label>
+			<label index="global_folder" type="integer">227434510</label>
+			<label index="system_folder" type="integer">86517354</label>
+			<label index="overwrite_ext" type="integer">235295098</label>
+			<label index="upload_ext_file" type="integer">29656114</label>
+			<label index="upload_ext_directly" type="integer">165137845</label>
+			<label index="previous_page" type="integer">142659442</label>
+			<label index="next_page" type="integer">57982630</label>
+			<label index="showing_extensions_from_to" type="integer">17518688</label>
+			<label index="security_settings" type="integer">52894231</label>
+			<label index="notice" type="integer">143897867</label>
+			<label index="user_settings" type="integer">46681867</label>
+			<label index="enter_repository_username" type="integer">15456621</label>
+			<label index="enter_repository_password" type="integer">94246548</label>
+			<label index="mirror_name" type="integer">77521672</label>
+			<label index="mirror_url" type="integer">241907994</label>
+			<label index="mirror_country" type="integer">93787849</label>
+			<label index="mirror_sponsored_by" type="integer">144405061</label>
+			<label index="mirror_use_random" type="integer">10642242</label>
+			<label index="enter_repository_url" type="integer">39840279</label>
+			<label index="repository_settings" type="integer">147968057</label>
+			<label index="translation_settings" type="integer">182771865</label>
+			<label index="languages_to_fetch" type="integer">227860784</label>
+			<label index="descr_local" type="integer">214026576</label>
+			<label index="security_header" type="integer">117854119</label>
+			<label index="security_descr" type="integer">196474613</label>
+			<label index="look_up" type="integer">214979080</label>
+			<label index="global" type="integer">164038963</label>
+			<label index="look_up_button" type="integer">175676653</label>
+			<label index="mirror_use" type="integer">181958704</label>
+			<label index="translation_save_selection" type="integer">64560181</label>
+			<label index="translation_check_status_button" type="integer">60776383</label>
+			<label index="translation_update_button" type="integer">75831201</label>
+			<label index="translation_status" type="integer">66476878</label>
+			<label index="translation_n_a" type="integer">58896629</label>
+			<label index="translation_status_ok" type="integer">235577377</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="dk" type="array">
+			<label index="mlang_labels_tablabel">TYPO3 Extension Manager</label>
+			<label index="mlang_labels_tabdescr">Manages TYPO3 extensions from a central repository, which includes plugins, modules, class extensions, configuration code etc.</label>
+			<label index="mlang_tabs_tab">Ext Manager</label>
+			<label index="category_BE">Backend</label>
+			<label index="category_BE_modules">Backend Modules</label>
+			<label index="category_FE">Frontend</label>
+			<label index="category_FE_plugins">Frontend Plugins</label>
+			<label index="category_miscellanous">Miscellaneous</label>
+			<label index="category_services">Services</label>
+			<label index="category_templates">Templates</label>
+			<label index="category_examples">Examples</label>
+			<label index="category_documentation">Documentation</label>
+			<label index="state_alpha">Alpha</label>
+			<label index="state_beta">Beta</label>
+			<label index="state_stable">Stable</label>
+			<label index="state_experimental">Experimental</label>
+			<label index="state_test">Test</label>
+			<label index="state_obsolete">Obsolete</label>
+			<label index="state_exclude_from_updates">Exclude From Updates</label>
+			<label index="type_system">System</label>
+			<label index="type_global">Global</label>
+			<label index="type_local">Local</label>
+			<label index="descr_system">System extension (typo3/sysext/) - Always distributed with the TYPO3 source code (static).</label>
+			<label index="descr_global">Global extension (typo3/ext/) - Available for shared source on server (dynamic).</label>
+			<label index="menu_loaded_extensions">Loaded extensions</label>
+			<label index="menu_install_extensions">Install extensions</label>
+			<label index="menu_import_extensions">Import extensions</label>
+			<label index="menu_translation_handling">Translation handling</label>
+			<label index="menu_settings">Settings</label>
+			<label index="menu_extension_updates">Check for extension updates</label>
+			<label index="list_order_category">Category</label>
+			<label index="list_order_author">Author</label>
+			<label index="list_order_state">State</label>
+			<label index="list_order_type">Type</label>
+			<label index="show_details">Details</label>
+			<label index="show_description">Description</label>
+			<label index="show_more_details">More details</label>
+			<label index="show_technical">Technical (takes time!)</label>
+			<label index="show_validating">Validating (takes time!)</label>
+			<label index="show_changed">Changed? (takes time!)</label>
+			<label index="details_info">Information</label>
+			<label index="details_edit">Edit files</label>
+			<label index="details_backup_delete">Backup/Delete</label>
+			<label index="details_dump_db">Dump DB</label>
+			<label index="details_upload">Upload to TER</label>
+			<label index="details_update">UPDATE!</label>
+			<label index="header">Extension Manager</label>
+			<label index="group_by">Group by:</label>
+			<label index="show">Show:</label>
+			<label index="display_shy">Display shy extensions:</label>
+			<label index="only_my_ext">Only my extensions:</label>
+			<label index="show_obsolete">Show obsolete:</label>
+			<label index="go_back">Go back</label>
+			<label index="loaded_exts">Loaded Extensions</label>
+			<label index="local">local</label>
+			<label index="list_or_look_up_all">all</label>
+			<label index="local_folder">Local (../typo3conf/ext/)</label>
+			<label index="global_folder">Global (typo3/ext/)</label>
+			<label index="system_folder">System (typo3/sysext/)</label>
+			<label index="overwrite_ext">Overwrite any existing extension!</label>
+			<label index="upload_ext_file">Upload extension file</label>
+			<label index="upload_ext_directly">Upload extension file directly (.t3x):</label>
+			<label index="previous_page">Prev page</label>
+			<label index="next_page">Next page</label>
+			<label index="showing_extensions_from_to">Showing extensions %s to %s</label>
+			<label index="security_settings">Security Settings</label>
+			<label index="notice">Notice:</label>
+			<label index="user_settings">User Settings</label>
+			<label index="enter_repository_username">Enter repository username:</label>
+			<label index="enter_repository_password">Enter repository password:</label>
+			<label index="mirror_name">Name</label>
+			<label index="mirror_url">URL</label>
+			<label index="mirror_country">Country</label>
+			<label index="mirror_sponsored_by">Sponsored by</label>
+			<label index="mirror_use_random">Random (recommended!)</label>
+			<label index="enter_repository_url">Enter repository URL:</label>
+			<label index="repository_settings">Repository settings</label>
+			<label index="translation_settings">Translation Settings</label>
+			<label index="languages_to_fetch">Languages to fetch:</label>
+			<label index="descr_local">Local extension (typo3conf/ext/) - Local for this TYPO3 installation only (dynamic).</label>
+			<label index="security_header">Found a security problem? Please get in touch with us!</label>
+			<label index="security_descr">If you think you have found a security issue in TYPO3 or an extension, please contact the %sTYPO3 security team%s! Thank you!</label>
+			<label index="look_up">Look up:</label>
+			<label index="global">global</label>
+			<label index="look_up_button">Look up</label>
+			<label index="mirror_use">Use</label>
+			<label index="translation_save_selection">Save selection</label>
+			<label index="translation_check_status_button">Check status against repository</label>
+			<label index="translation_update_button">Update from repository</label>
+			<label index="translation_status">Translation status</label>
+			<label index="translation_n_a">N/A</label>
+			<label index="translation_status_ok">OK</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

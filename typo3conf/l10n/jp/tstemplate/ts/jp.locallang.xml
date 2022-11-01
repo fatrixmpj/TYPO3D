@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="jp" type="array">
+			<label index="moduleTitle">テンプレートツール</label>
+			<label index="templateAnalyzer">テンプレート解析</label>
+			<label index="constantEditor">コンスタンツ編集</label>
+			<label index="infoModify">情報/修正</label>
+			<label index="objectBrowser">TypoScript オブジェクトブラウザー</label>
+			<label index="viewTemplates">テンプレートの表示</label>
+			<label index="pageName">ページ名</label>
+			<label index="templates"># テンプレート</label>
+			<label index="isRoot">ルートですか？</label>
+			<label index="isExt">拡張ですか？</label>
+			<label index="overview">これはデータベース中の1つ以上のテンプレートレコードを含むページの全体図です。 ページに行くためにページタイトルをクリックしてください。</label>
+			<label index="areYouSure">これで本当にいいですか？</label>
+			<label index="noTemplate">テンプレートがありません</label>
+			<label index="noTemplateDescription">このページにはテンプレートがありません！</label>
+			<label index="createTemplate">最初にコンスタンスを編集するのに、テンプレートレコードを作成してください！</label>
+			<label index="newWebsite">新規サイトを作成</label>
+			<label index="newWebsiteAction">新規サイトのテンプレートを作成</label>
+			<label index="extTemplate">拡張テンプレートを作成</label>
+			<label index="titleNewSiteStandard">標準の新規サイト</label>
+			<label index="titleNewSite">新規サイト</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="jp" type="array">
+			<label index="moduleTitle" type="integer">25422173</label>
+			<label index="templateAnalyzer" type="integer">99845697</label>
+			<label index="constantEditor" type="integer">6299451</label>
+			<label index="infoModify" type="integer">54689582</label>
+			<label index="objectBrowser" type="integer">103980788</label>
+			<label index="viewTemplates" type="integer">147171339</label>
+			<label index="pageName" type="integer">201990046</label>
+			<label index="templates" type="integer">238742573</label>
+			<label index="isRoot" type="integer">251629950</label>
+			<label index="isExt" type="integer">130245860</label>
+			<label index="noTemplate" type="integer">8182736</label>
+			<label index="noTemplateDescription" type="integer">40670108</label>
+			<label index="newWebsite" type="integer">18468574</label>
+			<label index="newWebsiteAction" type="integer">260099072</label>
+			<label index="extTemplate" type="integer">405812</label>
+			<label index="titleNewSiteStandard" type="integer">44728116</label>
+			<label index="titleNewSite" type="integer">13205855</label>
+			<label index="overview" type="integer">236778785</label>
+			<label index="areYouSure" type="integer">98783804</label>
+			<label index="createTemplate" type="integer">48618724</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="jp" type="array">
+			<label index="moduleTitle">Template tools</label>
+			<label index="templateAnalyzer">Template Analyzer</label>
+			<label index="constantEditor">Constant Editor</label>
+			<label index="infoModify">Info/Modify</label>
+			<label index="objectBrowser">TypoScript Object Browser</label>
+			<label index="viewTemplates">Viewing templates of</label>
+			<label index="pageName">Page name</label>
+			<label index="templates"># Templates</label>
+			<label index="isRoot">Is Root?</label>
+			<label index="isExt">Is Ext?</label>
+			<label index="noTemplate">No template</label>
+			<label index="noTemplateDescription">There was no template on this page!</label>
+			<label index="newWebsite">Create new website</label>
+			<label index="newWebsiteAction">Create template for a new site</label>
+			<label index="extTemplate">Create extension template</label>
+			<label index="titleNewSiteStandard">NEW SITE, based on standard</label>
+			<label index="titleNewSite">NEW SITE</label>
+			<label index="overview">This is an overview of the pages in the database containing one or more template records. Click a page title to go to the page.</label>
+			<label index="areYouSure">Are you sure you want to do this?</label>
+			<label index="createTemplate">Create a template record first in order to edit constants!</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

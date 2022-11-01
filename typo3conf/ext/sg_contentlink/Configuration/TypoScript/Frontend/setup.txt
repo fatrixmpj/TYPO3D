@@ -1,0 +1,19 @@
+# Change content rendering with user function
+tt_content.stdWrap.postUserFunc = SGalinski\SgContentlink\UserFunc\ContentElementRendering->wrapContentLinkAroundContent
+
+plugin.tx_sgcontentlink {
+	settings {
+		link {
+			overwrite {
+				defaultTarget = {$plugin.tx_sgcontentlink.settings.link.overwrite.defaultTarget}
+				defaultClass = {$plugin.tx_sgcontentlink.settings.link.overwrite.defaultClass}
+				defaultTitle = {$plugin.tx_sgcontentlink.settings.link.overwrite.defaultTitle}
+			}
+
+			add {
+				class = {$plugin.tx_sgcontentlink.settings.link.add.class}
+				title = {$plugin.tx_sgcontentlink.settings.link.add.title}
+			}
+		}
+	}
+}

@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+
+.powermail_form h3 {
+	display:none; 
+}
+
+.powermail_legend {
+	display:none !important;
+}
+
+
+.powermail_fieldset {
+	max-width:100%; 
+}
+
+
+
+.powermail_field textarea {
+    width: 100%;
+}
+
+
+.form-group.col-md-6 {
+	 width:100% !important;
+	float:none;
+	clear:both;
+}
+
+.powermail_input {
+	 width:100% !important;
+	float:none;
+	clear:both;
+}
+ 
+
+
+.powermail_form	label {
+	font-weight:700 !important; 
+	font-size:16px !important;
+	}
+
+
+.powermail_form .col-sm-2 {
+	width:100% !important;
+	float:none !important;
+}
+
+.powermail_form .col-sm-offset-2 {
+	margin-left:0% !important; 
+}
+
+.powermail_form .col-sm-10 {
+	width: 100% !important; 
+	float:none !important
+
+}
+
+.powermail_submit {
+	background-color:#fff;
+	display: inline-block;
+	padding: 8px 20px;
+	font-weight: normal;
+	line-height: 100%;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid #999;
+	border-radius: 0px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	text-decoration:none !important;
+	transition: all 0.15s ease;
+	margin-bottom:8px;
+	margin-top: 18px;
+}
+
+
+.powermail_submit:hover {
+	background-color:#2DBD89 !important;
+	color:#000; 
+}
+
+
+.form-horizontal .control-label {
+	text-align: left !important;
+}
+
+.fs-show {
+	display:block !important; 
+}
+
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+div.checkbox label {
+	font-size:18px !important;
+	font-weight:400 !important; 
+}
+
+input[type="radio"], input[type="checkbox"] {
+	margin-top: 6px !important;
+}
+
+
+.form-horizontal .control-label, .form-horizontal .radio, .form-horizontal .checkbox, .form-horizontal .radio-inline, .form-horizontal .checkbox-inline {
+	padding-top: 5px !important;
+}
+
+
+
+
+.form-control {
+	display: block;
+	width: 100%;
+	height: 34px;
+	padding: 5px 10px;
+	font-size: 18px !important;
+	line-height: 1.428571429;
+	color: #111 !important;
+	vertical-align: middle;
+/*	background-color: #E9E6E6 !important;*/
+	background-color: transparent !important;
+	border: 1px solid #CCC5C5 !important;
+	border-radius: 0px !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	-webkit-transition: none !important;
+	transition: none !important;
+}
+
+
+
+
+.btn {
+	border: none !important;
+	border-radius: 0px !important;
+	font-size:18px !important;
+}
+
+.btn-primary, .btn-primary:visited {
+    background-color:#19694C !important;
+    border-color: transparent !important;
+    color: #fff;
+}
+
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+	background-color:#2DBD89 !important;
+}
+
+
+option:checked, option:focus, option:active {
+  background-color:#ccc;
+}
+
+
+/* parsley errors */
+.tx-powermail .powermail_fieldset .parsley-errors-list {
+	margin: 3px 0 8px 0 !important;
+	background-color: transparent !important;
+	border: none !important;
+	font-size:16px !important;
+}
+
+.tx-powermail .powermail_fieldset .powermail_field_error, .tx-powermail .powermail_fieldset .parsley-error, .tx-powermail .powermail_fieldset .powermail_form .parsley-error:focus, .tx-powermail .powermail_fieldset div.error {
+	background-color: #EFE0E3 !important;
+	
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 920px) { 
+
+	.powermail_fieldset {
+		max-width:78% !important; 
+	}
+
+}
+
+
+
+@media screen and (max-width: 767px) { 
+
+	.powermail_fieldset {
+		max-width: 100% !important;
+	}
+
+	.powermail_form .col-sm-2 {
+		width: 100% !important;
+	}
+
+	.powermail_form .col-sm-10 {
+		width: 100% !important;
+	}
+	
+	.powermail_form .col-sm-offset-2 {
+		margin-left: 0% !important;
+		margin-top:20px; 
+	}
+	
+	
+}
+
+
+@media screen and (max-width: 680px) { 
+
+}
+
+
+
+
+@media screen and (max-width: 640px) { 
+	.form-group {
+		margin-bottom: 8px !important;
+	}
+	label {
+		font-weight:400 !important; 
+	}
+	
+	input[type=checkbox], input[type=radio]  {
+	  -ms-transform: scale(2); /* IE */
+	  -moz-transform: scale(2); /* FF */
+	  -webkit-transform: scale(2); /* Safari and Chrome */
+	  -o-transform: scale(2); /* Opera */
+	  padding: 10px;
+	  outline:0px !important; 
+	}
+	
+	
+}

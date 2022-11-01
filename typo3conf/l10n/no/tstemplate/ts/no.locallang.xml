@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="no" type="array">
+			<label index="moduleTitle">Malverktøy</label>
+			<label index="templateAnalyzer">Analyse av maler</label>
+			<label index="constantEditor">Konstantedigerer</label>
+			<label index="infoModify">Informasjon/Endre</label>
+			<label index="objectBrowser">TypoScript Objektutforskjer</label>
+			<label index="viewTemplates">Viser mal av</label>
+			<label index="pageName">Sidenavn</label>
+			<label index="templates"># Mal</label>
+			<label index="isRoot">Er rot?</label>
+			<label index="isExt">Er Ext</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="no" type="array">
+			<label index="moduleTitle" type="integer">25422173</label>
+			<label index="viewTemplates" type="integer">147171339</label>
+			<label index="templateAnalyzer" type="integer">99845697</label>
+			<label index="constantEditor" type="integer">6299451</label>
+			<label index="infoModify" type="integer">54689582</label>
+			<label index="objectBrowser" type="integer">103980788</label>
+			<label index="pageName" type="integer">201990046</label>
+			<label index="templates" type="integer">238742573</label>
+			<label index="isRoot" type="integer">251629950</label>
+			<label index="isExt" type="integer">130245860</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="no" type="array">
+			<label index="moduleTitle">Template tools</label>
+			<label index="viewTemplates">Viewing templates of</label>
+			<label index="templateAnalyzer">Template Analyzer</label>
+			<label index="constantEditor">Constant Editor</label>
+			<label index="infoModify">Info/Modify</label>
+			<label index="objectBrowser">TypoScript Object Browser</label>
+			<label index="pageName">Page name</label>
+			<label index="templates"># Templates</label>
+			<label index="isRoot">Is Root?</label>
+			<label index="isExt">Is Ext?</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

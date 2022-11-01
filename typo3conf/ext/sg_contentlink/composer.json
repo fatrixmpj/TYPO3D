@@ -1,0 +1,22 @@
+{
+  "name": "sgalinski/sg-contentlink",
+  "type": "typo3-cms-extension",
+  "description": "sgalinski Contentlink - Possibility to set a link around a whole content element. (Include static template)",
+  "homepage": "https://www.sgalinski.de",
+  "license": ["GPL-2.0+"],
+  "version": "1.4.2",
+  "support": {
+    "issues": "https://gitlab.sgalinski.de/typo3/sg_contentlink/issues"
+  },
+  "require": {
+    "typo3/cms-core": "7.6.0 - 8.7.99"
+  },
+  "replace": {
+    "sg_contentlink": "self.version"
+  },
+  "autoload": {
+    "psr-4": {
+      "SGalinski\\SgContentlink\\": "Classes/"
+    }
+  }
+}

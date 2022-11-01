@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="is" type="array">
+			<label index="tt_news">Fréttir</label>
+			<label index="tt_news.type.I.0">Fréttir</label>
+			<label index="tt_news.pi_flexform.sheet_general">Almennar stillingar</label>
+			<label index="tt_news.pi_flexform.sheet_template">Sniðmát</label>
+			<label index="tt_news.pi_flexform.sheet_category">Stillingar fyrir flokka</label>
+			<label index="tt_news.pi_flexform.sheet_misc">Aðrar stillingar</label>
+			<label index="tt_news.pi_flexform.what_to_display">Hvað skal birta:</label>
+			<label index="tt_news.pi_flexform.listOrderby">Raða eftir (LIST &amp; LATEST):</label>
+			<label index="tt_news.pi_flexform.ascDesc">Stafrófsröð eða öfug stafrófsröð (LIST &amp; LATEST):</label>
+			<label index="tt_news.pi_flexform.ascDesc_asc">Stafrófsröð</label>
+			<label index="tt_news.pi_flexform.ascDesc_desc">Öfug stafrófsröð</label>
+			<label index="tt_news.pi_flexform.select_deselect_categories">Flokka stillingar:</label>
+			<label index="tt_news.pi_flexform.category_selection">Veljið flokka:</label>
+			<label index="tt_news.pi_flexform.category_selection_showAll">Sýna alla (hunsa val hér fyrir neðan)</label>
+			<label index="tt_news.pi_flexform.category_selection_showSelected">Sýna fréttir úr völdum flokkum (EÐA)</label>
+			<label index="tt_news.pi_flexform.category_selection_showSelectedAND">Sýna fréttir úr völdum flokkum (OG)</label>
+			<label index="tt_news.pi_flexform.category_selection_DontShowSelected">Ekki sýna fréttir úr völdum flokkum (OG)</label>
+			<label index="tt_news.pi_flexform.category_selection_DontShowSelectedOR">Ekki sýna fréttir úr völdum flokkum (EÐA)</label>
+			<label index="tt_news.pi_flexform.useSubCategories">Nota undirflokka</label>
+			<label index="tt_news.pi_flexform.useSubCategories_TS">Stillt í TypoScript</label>
+			<label index="tt_news.pi_flexform.yes">Já</label>
+			<label index="tt_news.pi_flexform.no">Nei</label>
+			<label index="tt_news.pi_flexform.archive">Stillingar fyrir safn frétta (fyrir LIST)</label>
+			<label index="tt_news.pi_flexform.template_file">Sniðmáts skrá</label>
+			<label index="tt_news.pi_flexform.template_file_ref">Sniðmáts skrá</label>
+			<label index="tt_news.pi_flexform.catImageMode">Stillingar fyrir tengil í mynd fyrir flokk:</label>
+			<label index="tt_news.pi_flexform.catTextMode">Stillingar fyrir tengil í texta fyrir flokk:</label>
+			<label index="tt_news.pi_flexform.catImageMaxWidth">Hámarks breidd á mynd fyrir flokk:</label>
+			<label index="tt_news.pi_flexform.catImageMaxHeight">Hámarks hæð á mynd fyrir flokk:</label>
+			<label index="tt_news.pi_flexform.maxCatImages">Hámarks fjöldi mynda fyrir flokk:</label>
+			<label index="tt_news.pi_flexform.maxTextLength">Hámarks lengd á texta fyrir flokk:</label>
+			<label index="tt_news.pi_flexform.maxCatTexts">Hámarks fjöldi af textum með flokkum:</label>
+			<label index="tt_news.pi_flexform.PIDitemDisplay">Síðu Id fyrir heildarfrétt:</label>
+			<label index="tt_news.pi_flexform.backPid">Síðu Id til að fara til baka á:</label>
+			<label index="tt_news.pi_flexform.archive_nonarc">SÝNA ÓSAFNAÐAR FRÉTTIR</label>
+			<label index="tt_news.pi_flexform.archive_arc">SÝNA SAFNAÐAR FRÉTTIR</label>
+			<label index="tt_news.pi_flexform.archive_dontcare">Hunsa</label>
+			<label index="tt_news.pi_flexform.catLinkMode_TS">Stillt í TypoScript</label>
+			<label index="tt_news.pi_flexform.catLinkMode_dontshow">Ekki sýna</label>
+			<label index="tt_news.pi_flexform.catLinkMode_shownolink">Sýna, en ekki sem tengil</label>
+			<label index="tt_news.pi_flexform.catLinkMode_catshortcut">Virkar sem tengill í flýtileið flokka</label>
+			<label index="tt_news.pi_flexform.catLinkMode_catsel">Virkar sem flokka val</label>
+			<label index="tt_news.pi_flexform.firstImageIsPreview">Ekki sýna fyrstu myndina með heildarfrétt (fyrsta mynd sé einungis fyrir útdrátt)</label>
+			<label index="tt_news.pi_flexform.forceFirstImageIsPreview">Ekki sýna fyrstu myndina með heildarfrétt (þvinga að fyrsta mynd sé einungis fyrir útdrátt) jafnvel þó það sé bara ein mynd með fréttinni</label>
+			<label index="tt_news.pi_flexform.limit">Takmörkun: hámarks fjöldi í LIST og LATEST</label>
+			<label index="tt_news.pi_flexform.listStartId">List Byrjunar Id: Þvinga LIST og LATEST til að byrja frá því númeri</label>
+			<label index="tt_news.pi_flexform.noPageBrowser">Ekki sýna blaðsíðutal í LIST</label>
+			<label index="tt_news.pi_flexform.imageMaxWidth">Hámarks breidd mynda í frétt</label>
+			<label index="tt_news.pi_flexform.imageMaxHeight">Hámarks hæð mynda í frétt</label>
+			<label index="tt_news.pi_flexform.croppingLenght">stdWrap.crop fyrir undirtitil (stutt)</label>
+			<label index="tt_news.pi_flexform.maxWordsInSingleView">setja síðuskipti í SINGLE eftir þennan fjölda orða</label>
+			<label index="tt_news.categorymounts">tt_news: leyfðir/sýnilegir flokkar</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="is" type="array">
+			<label index="tt_news" type="integer">231848472</label>
+			<label index="tt_news.type.I.0" type="integer">231848472</label>
+			<label index="tt_news.pi_flexform.sheet_general" type="integer">86983571</label>
+			<label index="tt_news.pi_flexform.sheet_template" type="integer">41469073</label>
+			<label index="tt_news.pi_flexform.sheet_category" type="integer">44407777</label>
+			<label index="tt_news.pi_flexform.sheet_misc" type="integer">176871661</label>
+			<label index="tt_news.pi_flexform.what_to_display" type="integer">185349833</label>
+			<label index="tt_news.pi_flexform.listOrderby" type="integer">134932287</label>
+			<label index="tt_news.pi_flexform.ascDesc" type="integer">241845138</label>
+			<label index="tt_news.pi_flexform.ascDesc_asc" type="integer">217316127</label>
+			<label index="tt_news.pi_flexform.ascDesc_desc" type="integer">238876076</label>
+			<label index="tt_news.pi_flexform.select_deselect_categories" type="integer">206189891</label>
+			<label index="tt_news.pi_flexform.category_selection" type="integer">9582094</label>
+			<label index="tt_news.pi_flexform.category_selection_showAll" type="integer">116815203</label>
+			<label index="tt_news.pi_flexform.category_selection_showSelected" type="integer">84668655</label>
+			<label index="tt_news.pi_flexform.category_selection_showSelectedAND" type="integer">217381402</label>
+			<label index="tt_news.pi_flexform.category_selection_DontShowSelected" type="integer">78867519</label>
+			<label index="tt_news.pi_flexform.category_selection_DontShowSelectedOR" type="integer">67165235</label>
+			<label index="tt_news.pi_flexform.useSubCategories" type="integer">243209839</label>
+			<label index="tt_news.pi_flexform.useSubCategories_TS" type="integer">215933041</label>
+			<label index="tt_news.pi_flexform.yes" type="integer">154974727</label>
+			<label index="tt_news.pi_flexform.no" type="integer">196073266</label>
+			<label index="tt_news.pi_flexform.archive" type="integer">227455488</label>
+			<label index="tt_news.pi_flexform.template_file" type="integer">169140391</label>
+			<label index="tt_news.pi_flexform.template_file_ref" type="integer">236977835</label>
+			<label index="tt_news.pi_flexform.catImageMode" type="integer">241003713</label>
+			<label index="tt_news.pi_flexform.catTextMode" type="integer">251073050</label>
+			<label index="tt_news.pi_flexform.catImageMaxWidth" type="integer">260338394</label>
+			<label index="tt_news.pi_flexform.catImageMaxHeight" type="integer">121386792</label>
+			<label index="tt_news.pi_flexform.maxCatImages" type="integer">20301532</label>
+			<label index="tt_news.pi_flexform.maxTextLength" type="integer">182661528</label>
+			<label index="tt_news.pi_flexform.maxCatTexts" type="integer">130004</label>
+			<label index="tt_news.pi_flexform.PIDitemDisplay" type="integer">152868524</label>
+			<label index="tt_news.pi_flexform.backPid" type="integer">60625048</label>
+			<label index="tt_news.pi_flexform.archive_nonarc" type="integer">139345986</label>
+			<label index="tt_news.pi_flexform.archive_arc" type="integer">19268936</label>
+			<label index="tt_news.pi_flexform.archive_dontcare" type="integer">18128009</label>
+			<label index="tt_news.pi_flexform.catLinkMode_TS" type="integer">215933041</label>
+			<label index="tt_news.pi_flexform.catLinkMode_dontshow" type="integer">179962165</label>
+			<label index="tt_news.pi_flexform.catLinkMode_shownolink" type="integer">60554787</label>
+			<label index="tt_news.pi_flexform.catLinkMode_catshortcut" type="integer">125568930</label>
+			<label index="tt_news.pi_flexform.catLinkMode_catsel" type="integer">227793818</label>
+			<label index="tt_news.pi_flexform.firstImageIsPreview" type="integer">18580028</label>
+			<label index="tt_news.pi_flexform.forceFirstImageIsPreview" type="integer">223315918</label>
+			<label index="tt_news.pi_flexform.limit" type="integer">24675264</label>
+			<label index="tt_news.pi_flexform.listStartId" type="integer">174882474</label>
+			<label index="tt_news.pi_flexform.noPageBrowser" type="integer">17890256</label>
+			<label index="tt_news.pi_flexform.imageMaxWidth" type="integer">168392842</label>
+			<label index="tt_news.pi_flexform.imageMaxHeight" type="integer">225876668</label>
+			<label index="tt_news.pi_flexform.croppingLenght" type="integer">126885054</label>
+			<label index="tt_news.pi_flexform.maxWordsInSingleView" type="integer">128597142</label>
+			<label index="tt_news.categorymounts" type="integer">167364075</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="is" type="array">
+			<label index="tt_news">News</label>
+			<label index="tt_news.type.I.0">News</label>
+			<label index="tt_news.pi_flexform.sheet_general">General Settings</label>
+			<label index="tt_news.pi_flexform.sheet_template">Template</label>
+			<label index="tt_news.pi_flexform.sheet_category">Category Settings</label>
+			<label index="tt_news.pi_flexform.sheet_misc">Other Settings</label>
+			<label index="tt_news.pi_flexform.what_to_display">What to display:</label>
+			<label index="tt_news.pi_flexform.listOrderby">&quot;Order by&quot; this field (LIST &amp; LATEST):</label>
+			<label index="tt_news.pi_flexform.ascDesc">Ascending or Descending (LIST &amp; LATEST):</label>
+			<label index="tt_news.pi_flexform.ascDesc_asc">Ascending</label>
+			<label index="tt_news.pi_flexform.ascDesc_desc">Descending</label>
+			<label index="tt_news.pi_flexform.select_deselect_categories">Category mode:</label>
+			<label index="tt_news.pi_flexform.category_selection">Category selection</label>
+			<label index="tt_news.pi_flexform.category_selection_showAll">Show all (don't care about selection below)</label>
+			<label index="tt_news.pi_flexform.category_selection_showSelected">Show items with selected categories (OR)</label>
+			<label index="tt_news.pi_flexform.category_selection_showSelectedAND">Show items with selected categories (AND)</label>
+			<label index="tt_news.pi_flexform.category_selection_DontShowSelected">Do NOT show items with selected categories (AND)</label>
+			<label index="tt_news.pi_flexform.category_selection_DontShowSelectedOR">Do NOT show items with selected categories (OR)</label>
+			<label index="tt_news.pi_flexform.useSubCategories">Use subcategories</label>
+			<label index="tt_news.pi_flexform.useSubCategories_TS">Defined by TypoScript</label>
+			<label index="tt_news.pi_flexform.yes">Yes</label>
+			<label index="tt_news.pi_flexform.no">No</label>
+			<label index="tt_news.pi_flexform.archive">Archive setting (for LIST)</label>
+			<label index="tt_news.pi_flexform.template_file">Template file</label>
+			<label index="tt_news.pi_flexform.template_file_ref">Template file reference</label>
+			<label index="tt_news.pi_flexform.catImageMode">Category Image Link Mode:</label>
+			<label index="tt_news.pi_flexform.catTextMode">Category Text Link Mode:</label>
+			<label index="tt_news.pi_flexform.catImageMaxWidth">Max width of category image:</label>
+			<label index="tt_news.pi_flexform.catImageMaxHeight">Max height of category image:</label>
+			<label index="tt_news.pi_flexform.maxCatImages">Max number of category images:</label>
+			<label index="tt_news.pi_flexform.maxTextLength">Max length of category text:</label>
+			<label index="tt_news.pi_flexform.maxCatTexts">Max number of categorys texts:</label>
+			<label index="tt_news.pi_flexform.PIDitemDisplay">PageId for single news display:</label>
+			<label index="tt_news.pi_flexform.backPid">PageId to return to:</label>
+			<label index="tt_news.pi_flexform.archive_nonarc">SHOW NON-ARCHIVED</label>
+			<label index="tt_news.pi_flexform.archive_arc">SHOW ARCHIVED</label>
+			<label index="tt_news.pi_flexform.archive_dontcare">Don't Care</label>
+			<label index="tt_news.pi_flexform.catLinkMode_TS">Defined by TypoScript</label>
+			<label index="tt_news.pi_flexform.catLinkMode_dontshow">Don't display at all</label>
+			<label index="tt_news.pi_flexform.catLinkMode_shownolink">Display, but no links</label>
+			<label index="tt_news.pi_flexform.catLinkMode_catshortcut">Acts as link to category shortcuts</label>
+			<label index="tt_news.pi_flexform.catLinkMode_catsel">Acts as a category selector</label>
+			<label index="tt_news.pi_flexform.firstImageIsPreview">Don't display first image in single view (firstImageIsPreview)</label>
+			<label index="tt_news.pi_flexform.forceFirstImageIsPreview">Don't display first image in single view (forceFirstImageIsPreview) even when only one image is available</label>
+			<label index="tt_news.pi_flexform.limit">Limit: max items for LIST and LATEST</label>
+			<label index="tt_news.pi_flexform.listStartId">List StartId: Force LIST or LATEST to start from this item</label>
+			<label index="tt_news.pi_flexform.noPageBrowser">Don't display Pagebrowser in LIST</label>
+			<label index="tt_news.pi_flexform.imageMaxWidth">Max width for images in news records</label>
+			<label index="tt_news.pi_flexform.imageMaxHeight">Max height for images in news records</label>
+			<label index="tt_news.pi_flexform.croppingLenght">stdWrap.crop for the subheader (short)</label>
+			<label index="tt_news.pi_flexform.maxWordsInSingleView">insert pagebreak in SINGLE after this number of words</label>
+			<label index="tt_news.categorymounts">tt_news: allowed/visible categories</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

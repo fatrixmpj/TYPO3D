@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+			<label index="additionalStylesheet">Pfad zum Verzeichnis mit zusätzlichen Stylesheets</label>
+			<label index="nestingInListModule">Verschachtelung im Modul Liste aktivieren</label>
+			<label index="overlayShortcutTranslation">Sprach-Overlay für referenzierte Inhalts- und Seiten-Datensätze in "Datensatz einfügen"-Elementen verwenden.</label>
+			<label index="disableDragInWizard">Drag-In-Wizard deaktivieren.</label>
+			<label index="disableCopyFromPageButton">Schaltfläche "Kopieren von anderer Seite" deaktivieren.</label>
+			<label index="disableAutomaticUnusedColumnCorrection">Deaktivieren der automatischen Korrektur von Elementen in nicht genutzten Spalten zum colPos-Wert -2. Dadurch behalten Elemente ihre colPos-Werte bei, selbst wenn diese Spalte nicht mehr vorhanden sein sollte.</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

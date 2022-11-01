@@ -1,0 +1,12 @@
+{
+	"name": "frey_aimeos",
+	"description": "TYPO3 frey_aimeos extension",
+	"type": "metapackage",
+	"prefer-stable": true,
+	"minimum-stability": "dev",
+	"require": {
+	},
+	"extra": {
+		"ext-path": "Resources/Extensions/"
+	}
+}

@@ -1,0 +1,111 @@
+page.includeCSS.aimeos = {$plugin.tx_aimeos.theme.css.aimeos}
+page.includeCSS.aimeos-custom = {$plugin.tx_aimeos.theme.css.custom}
+
+page.includeJSFooterlibs.polyfill = https://cdn.polyfill.io/v2/polyfill.min.js
+page.includeJSFooterlibs.polyfill.external = 1
+page.includeJSFooterlibs.jquery = https://code.jquery.com/jquery-2.2.4.min.js
+page.includeJSFooterlibs.jquery.external = 1
+page.includeJSFooterlibs.jquery-ui = EXT:aimeos/Resources/Public/Themes/jquery-ui.custom.min.js
+
+page.includeJSFooter.aimeos = {$plugin.tx_aimeos.theme.js.aimeos}
+page.includeJSFooter.aimeos-detail = {$plugin.tx_aimeos.theme.js.aimeos-detail}
+page.includeJSFooter.aimeos-theme = {$plugin.tx_aimeos.theme.js.aimeos-theme}
+page.includeJSFooter.aimeos-custom = {$plugin.tx_aimeos.theme.js.aimeos-custom}
+
+plugin.tx_aimeos {
+	features {
+		requireCHashArgumentForActionArguments = 0
+		skipDefaultArguments = 1
+	}
+	mvc {
+		throwPageNotFoundExceptionIfActionCantBeResolved = 0
+		callDefaultActionIfActionCantBeResolved = 1
+	}
+	view {
+		pluginNamespace = ai
+	}
+	settings {
+		admin.jsonadm.url {
+			config.absoluteUri = 1
+			options.config.absoluteUri = 1
+		}
+		client {
+			html {
+				common {
+					content.baseurl = {$plugin.tx_aimeos.common.content.baseurl}
+					template.baseurl = {$plugin.tx_aimeos.theme.baseurl}
+				}
+				account.download.url.config.absoluteUri = 1
+				catalog {
+					count.url.config.type = 191351524
+					suggest.url.config.type = 191351524
+					stock.url.config.type = 191351524
+				}
+				checkout {
+					confirm.url.config {
+						absoluteUri = 1
+						namespace = 0
+					}
+					update.url.config {
+						type = 191351525
+						absoluteUri = 1
+						namespace = 0
+					}
+				}
+			}
+			jsonapi.url.config.absoluteUri = 1
+		}
+	}
+}
+
+
+module.tx_aimeos.settings.typo3.admin.default = {$module.tx_aimeos.typo3.admin.default}
+module.tx_aimeos.settings.client.html.common.content.baseurl = {$module.tx_aimeos.common.content.baseurl}
+
+
+aimeosJs = PAGE
+aimeosJs {
+	typeNum = 191351524
+	headerData >
+	config {
+		additionalHeaders.10.header = Content-type:application/javascript
+		disableAllHeaderCode = 1
+		disableCharsetHeader = 1
+		disablePrefixComment = 1
+	}
+	10 = CONTENT
+	10 {
+		table = tt_content
+		select.orderBy = sorting
+		select.languageField = sys_language_uid
+	}
+}
+
+aimeosPlain = PAGE
+aimeosPlain {
+	typeNum = 191351525
+	headerData >
+	config {
+		additionalHeaders.10.header = Content-type:text/plain
+		disableAllHeaderCode = 1
+		disableCharsetHeader = 1
+		disablePrefixComment = 1
+	}
+	10 = CONTENT
+	10 {
+		table = tt_content
+		select.orderBy = sorting
+		select.languageField = sys_language_uid
+	}
+}
+
+[globalVar = TSFE:type=191351524][globalVar = TSFE:type=191351525]
+tt_content.stdWrap >
+tt_content.list = COA
+tt_content.list.20 = CASE
+tt_content.list.20.key.field = list_type
+tt_content.list.templateName >
+tt_content.list.templateRootPaths >
+tt_content.list.partialRootPaths >
+tt_content.list.layoutRootPaths >
+[end]

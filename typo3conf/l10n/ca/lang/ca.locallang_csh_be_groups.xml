@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ca" type="array">
+			<label index=".description">Aquest és l'administrador de grups d'usuaris del rerefons disponible per als usuaris del rerefons. Aquests grups determinen els permisos per als usuaris del rerefons.</label>
+			<label index="title.description">Nom del grup d'usuaris del rerefons.</label>
+			<label index="db_mountpoints.description">Assigna punts d'entrada per a l'arbre de pàgines dels usuaris.</label>
+			<label index="file_mountpoints.description">Assigna punts d'entrada per a l'arbre de carpetes de fitxers.</label>
+			<label index="pagetypes_select.description">Selecciona quins Tipus de pàgines poden utilitzar els membres del grup.</label>
+			<label index="tables_modify.description">Selecciona quines taules poden modificar els membres.</label>
+			<label index="tables_select.description">Selecciona quines taules pot veure l'usuari en les llistes de registres (no és necessari especificar aquí les taules per a modificació).</label>
+			<label index="non_exclude_fields.description">Alguns camps de les taules no estan disponibles per defecte. Aquests camps poden ser activats explícitament per als membres del grup aquí.</label>
+			<label index="hidden.description">Desactiva un grup d'usuaris.</label>
+			<label index="hidden.details">Si desactives un grup d'usuaris, tots els usuaris que siguin membres del grup no heretaran cap de les propietats que el grup els oferia.</label>
+			<label index="lockToDomain.description">Introdueix el nom de l'equip des del qual l'usuari està forçat a autenticar-se.</label>
+			<label index="groupMods.description">Selecciona els mòduls de rerefons disponibles per als membres del grup.</label>
+			<label index="description.description">Introdueix una petita descripció del grup d'usuaris, per a què s'utilitza i quis han de ser els membres. Això és només per a ús intern.</label>
+			<label index="TSconfig.description">Configuració addicional mitjançant valors d'estil de TypoScript (Avançat).</label>
+			<label index="TSconfig.syntax">Estil de TypoScript sense condicions ni constants.</label>
+			<label index="hide_in_lists.description">Aquesta opció prevé al grup d'usuaris d'aparèixer en les llistes on són seleccionats els grups d'usuaris.</label>
+			<label index="subgroup.description">Selecciona grups d'usuaris del rerefons que seran inclosos automàticament per a membres d'aquest grup.</label>
+			<label index="subgroup.details">Les propietats o subgrups són afegits a les propietats d'aquests grups i bàsicament seran afegits a la llista de grups membres de qualsevol usuari que sigui membre d'aquest grup.
+Aquesta característica ofereix una bona manera de crear grups d'usuaris de 'Supervisors'.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ca" type="array">
+			<label index=".description" type="integer">24692837</label>
+			<label index="title.description" type="integer">122308063</label>
+			<label index="db_mountpoints.description" type="integer">79572288</label>
+			<label index="file_mountpoints.description" type="integer">172594607</label>
+			<label index="pagetypes_select.description" type="integer">44094257</label>
+			<label index="tables_modify.description" type="integer">138526409</label>
+			<label index="tables_select.description" type="integer">79180839</label>
+			<label index="non_exclude_fields.description" type="integer">17658287</label>
+			<label index="hidden.description" type="integer">190841262</label>
+			<label index="hidden.details" type="integer">191806419</label>
+			<label index="lockToDomain.description" type="integer">139426379</label>
+			<label index="groupMods.description" type="integer">249603367</label>
+			<label index="description.description" type="integer">189455419</label>
+			<label index="TSconfig.description" type="integer">211026111</label>
+			<label index="TSconfig.syntax" type="integer">185290164</label>
+			<label index="hide_in_lists.description" type="integer">169107711</label>
+			<label index="subgroup.description" type="integer">244521906</label>
+			<label index="subgroup.details" type="integer">41206182</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ca" type="array">
+			<label index=".description">This is the Backend administration user groups available for the Backend users. These determine the access credentials for the Backend users.</label>
+			<label index="title.description">Name of the Backend usergroup. The name should be descriptive and can always be changed later.</label>
+			<label index="db_mountpoints.description">Define page tree root points for the group members.</label>
+			<label index="file_mountpoints.description">Define startpoints for the file folder tree.</label>
+			<label index="pagetypes_select.description">Select which 'Types' of Pages the members may set.</label>
+			<label index="tables_modify.description">Select which tables the members may modify.</label>
+			<label index="tables_select.description">Select which tables the members may see in record lists ('modify' tables does not need to be re-entered here!).</label>
+			<label index="non_exclude_fields.description">Certain table fields are not available by default. Those fields can be explicitly enabled for the group members here.</label>
+			<label index="hidden.description">Disables a user group.</label>
+			<label index="hidden.details">If you disable a user group all users which are members of the group will in effect not inherit any properties this group may have given them.</label>
+			<label index="lockToDomain.description">Enter the host name from which the user is forced to login.</label>
+			<label index="groupMods.description">Select available backend modules for the group members.</label>
+			<label index="description.description">Enter a short description of the user group, what it is for and who should be members. This is for internal use only.</label>
+			<label index="TSconfig.description">User TSconfig: Additional configuration through TypoScript style values (Advanced).</label>
+			<label index="TSconfig.syntax">TypoScript syntax without conditions and constants.</label>
+			<label index="hide_in_lists.description">This option will prevent the user group from showing up in lists, where user groups are selected.</label>
+			<label index="subgroup.description">Select backend user groups which are automatically included for members of this group.</label>
+			<label index="subgroup.details">The properties of subgroups are added to the properties of this group and basically they will simply be added to the list of member groups of any user which is a member of this group.
+This feature provides a great way to create 'Supervisor' user groups.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

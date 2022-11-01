@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ru" type="array">
+			<label index="Insert/Modify Acronym">Вставить/изменить акроним или аббревиатуру</label>
+			<label index="Acronym-contextMenuTitle">Вставить/изменить аббревиатуру</label>
+			<label index="Term_to_abridge">Термин для сокращения</label>
+			<label index="Defined_acronym">Предопределенные акронимы</label>
+			<label index="Defined_abbr">Предопределенные аббревиатуры</label>
+			<label index="Term">Термин</label>
+			<label index="Unabridged_term">Не сокращенный термин</label>
+			<label index="Select_a_term">Выберете термин</label>
+			<label index="Abridged_term">Сокращенный термин</label>
+			<label index="Acronym">Акроним</label>
+			<label index="Abbreviation">Аббревиатура</label>
+			<label index="Select_an_acronym">Выберете акроним</label>
+			<label index="Select_an_abbr">Выберете аббревиатуру</label>
+			<label index="Use_this_term">Использовать этот термин</label>
+			<label index="Use_this_term_explain">Связать данный термин с текущим выбором</label>
+			<label index="Delete">Удалить</label>
+			<label index="Select_a_language">Выберете язык</label>
+			<label index="Language_abbr_helpText">Это язык, для которого определена аббревиатура</label>
+			<label index="Language_acronym_helpText">Это язык, для которого определен акроним</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ru" type="array">
+			<label index="Insert/Modify Acronym" type="integer">2385255</label>
+			<label index="Acronym-contextMenuTitle" type="integer">26462660</label>
+			<label index="Term_to_abridge" type="integer">224305925</label>
+			<label index="Defined_acronym" type="integer">167542566</label>
+			<label index="Defined_abbr" type="integer">47765727</label>
+			<label index="Term" type="integer">217445129</label>
+			<label index="Unabridged_term" type="integer">237868245</label>
+			<label index="Select_a_term" type="integer">49671357</label>
+			<label index="Abridged_term" type="integer">251609431</label>
+			<label index="Acronym" type="integer">151597373</label>
+			<label index="Abbreviation" type="integer">190109069</label>
+			<label index="Select_an_acronym" type="integer">155425752</label>
+			<label index="Select_an_abbr" type="integer">104667508</label>
+			<label index="Use_this_term" type="integer">230433853</label>
+			<label index="Use_this_term_explain" type="integer">184559175</label>
+			<label index="Delete" type="integer">254438473</label>
+			<label index="Select_a_language" type="integer">242213579</label>
+			<label index="Language_abbr_helpText" type="integer">143789</label>
+			<label index="Language_acronym_helpText" type="integer">265833598</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ru" type="array">
+			<label index="Insert/Modify Acronym">Insert/Modify Acronym or Abbreviation</label>
+			<label index="Acronym-contextMenuTitle">Insert/modify abbreviation</label>
+			<label index="Term_to_abridge">Term to abridge</label>
+			<label index="Defined_acronym">Pre-defined acronyms</label>
+			<label index="Defined_abbr">Pre-defined abbreviations</label>
+			<label index="Term">Term</label>
+			<label index="Unabridged_term">Unabridged Term</label>
+			<label index="Select_a_term">Select a term</label>
+			<label index="Abridged_term">Abridged Term</label>
+			<label index="Acronym">Acronym</label>
+			<label index="Abbreviation">Abbreviation</label>
+			<label index="Select_an_acronym">Select an acronym</label>
+			<label index="Select_an_abbr">Select an abbreviation</label>
+			<label index="Use_this_term">Use this term</label>
+			<label index="Use_this_term_explain">Associate this term to the current selection</label>
+			<label index="Delete">Delete</label>
+			<label index="Select_a_language">Select a language</label>
+			<label index="Language_abbr_helpText">This is the language for which the abbreviation is defined</label>
+			<label index="Language_acronym_helpText">This is the language for which the acronym is defined</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,137 @@
+<?xml version="1.0" ?><xliff version="1.0">
+	<file datatype="plaintext" date="2015-04-04T14:18:19Z" original="messages" product-name="aimeos" source-language="en" target-language="zh">
+		<header/>
+		<body>
+			<trans-unit id="jsonapi-options.target" xml:space="preserve">
+				<source>Page with JSON REST API plugin</source>
+			</trans-unit>
+			<trans-unit id="account-download.target" xml:space="preserve">
+				<source>Account download page</source>
+				<target>帳號下載頁面</target>
+			</trans-unit>
+			<trans-unit id="account-download-error.target" xml:space="preserve">
+				<source>Error page if download is prohibited</source>
+			</trans-unit>
+			<trans-unit id="account-favorite.target" xml:space="preserve">
+				<source>Favorite products page</source>
+				<target>我的最愛商品頁面</target>
+			</trans-unit>
+			<trans-unit id="account-watch.target" xml:space="preserve">
+				<source>Watched products page</source>
+				<target>關注中商品頁面</target>
+			</trans-unit>
+			<trans-unit id="catalog-filter.tree-startid" xml:space="preserve">
+				<source>Display categories beginning from the following node</source>
+				<target>顯示型錄-從接續的node開始</target>
+			</trans-unit>
+			<trans-unit id="catalog-filter.tree-levels-always" xml:space="preserve">
+				<source>Always display these category levels</source>
+				<target>總是顯示這些型錄層級</target>
+			</trans-unit>
+			<trans-unit id="catalog-filter.tree-levels-only" xml:space="preserve">
+				<source>Only display up to these category levels</source>
+				<target>只顯示最多這些型錄層級</target>
+			</trans-unit>
+			<trans-unit id="catalog-filter.attribute-types" xml:space="preserve">
+				<source>Displayed attribute types for faceted search</source>
+			</trans-unit>
+			<trans-unit id="catalog-list.target" xml:space="preserve">
+				<source>Catalog list page</source>
+				<target>商品型錄列表頁面</target>
+			</trans-unit>
+			<trans-unit id="catalog-suggest.target" xml:space="preserve">
+				<source>Page with suggestions for search filter</source>
+				<target>頁面-含有推薦商品for搜尋篩選</target>
+			</trans-unit>
+			<trans-unit id="catalog-list.catid-default" xml:space="preserve">
+				<source>Default category if no parameter is available</source>
+				<target>預設型錄（無可用參數時）</target>
+			</trans-unit>
+			<trans-unit id="catalog-list.sort" xml:space="preserve">
+				<source>Default sorting of the product list</source>
+				<target>產品清單默認排序</target>
+			</trans-unit>
+			<trans-unit id="catalog-list.sort-relevance" xml:space="preserve">
+				<source>Relevance (position)</source>
+			</trans-unit>
+			<trans-unit id="catalog-list.sort-name" xml:space="preserve">
+				<source>Name (A-Z)</source>
+				<target>名稱（A-Z）</target>
+			</trans-unit>
+			<trans-unit id="catalog-list.sort-namedesc" xml:space="preserve">
+				<source>Name (Z-A)</source>
+				<target>名稱（Z-A）</target>
+			</trans-unit>
+			<trans-unit id="catalog-list.sort-price" xml:space="preserve">
+				<source>Price (lowest first)</source>
+				<target>價格（低到高）</target>
+			</trans-unit>
+			<trans-unit id="catalog-list.sort-pricedesc" xml:space="preserve">
+				<source>Price (highest first)</source>
+				<target>價格（高到低）</target>
+			</trans-unit>
+			<trans-unit id="catalog-list.sort-ctime" xml:space="preserve">
+				<source>Creation time (oldest first)</source>
+			</trans-unit>
+			<trans-unit id="catalog-list.sort-ctimedesc" xml:space="preserve">
+				<source>Creation time (newest first)</source>
+			</trans-unit>
+			<trans-unit id="catalog-detail.target" xml:space="preserve">
+				<source>Catalog detail page</source>
+				<target>商品型錄系詳細頁面</target>
+			</trans-unit>
+			<trans-unit id="catalog-detail.prodid-default" xml:space="preserve">
+				<source>Default product ID if no parameter is available</source>
+				<target>預設商品ID（無可用參數時）</target>
+			</trans-unit>
+			<trans-unit id="catalog-session-pinned.target" xml:space="preserve">
+				<source>Page with catalog session plugin</source>
+				<target>頁面-含有型錄session插件</target>
+			</trans-unit>
+			<trans-unit id="catalog-count.target" xml:space="preserve">
+				<source>Page with product counts for catalog filter</source>
+				<target>頁面-含有商品數量以供篩選</target>
+			</trans-unit>
+			<trans-unit id="catalog-stock.target" xml:space="preserve">
+				<source>Page with stock level data</source>
+				<target>頁面-含庫存資料</target>
+			</trans-unit>
+			<trans-unit id="basket-standard.target" xml:space="preserve">
+				<source>Basket page</source>
+				<target>購物車頁面</target>
+			</trans-unit>
+			<trans-unit id="checkout-standard.target" xml:space="preserve">
+				<source>Checkout page</source>
+				<target>結帳頁面</target>
+			</trans-unit>
+			<trans-unit id="checkout-standard-summary-option-terms.target" xml:space="preserve">
+				<source>Terms and conditions page</source>
+				<target>條款和協議</target>
+			</trans-unit>
+			<trans-unit id="checkout-standard-summary-option-terms-privacy.target" xml:space="preserve">
+				<source>Privacy policy page</source>
+				<target>隱私政策頁面</target>
+			</trans-unit>
+			<trans-unit id="checkout-standard-summary-option-terms-cancel.target" xml:space="preserve">
+				<source>Cancellation policy page</source>
+				<target>取消訂單規定頁面</target>
+			</trans-unit>
+			<trans-unit id="checkout-confirm.target" xml:space="preserve">
+				<source>Confirmation page</source>
+				<target>確認頁面</target>
+			</trans-unit>
+			<trans-unit id="checkout-update.target" xml:space="preserve">
+				<source>Page with &quot;checkout payment update&quot; plugin</source>
+				<target>頁面-含有結帳付款狀態更新插件</target>
+			</trans-unit>
+			<trans-unit id="default.typo3.tsconfig" xml:space="preserve">
+				<source>TypoScript configuration</source>
+				<target>TypoScript設定</target>
+			</trans-unit>
+			<trans-unit id="default.error.tsconfig.invalid" xml:space="preserve">
+				<source>The TypoScript configuration is invalid</source>
+				<target>TypoScript設定無效</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

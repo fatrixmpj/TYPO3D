@@ -1,0 +1,1503 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="cz" type="array">
+			<label index="mlang_labels_tablabel">Správce rozšíření TYPO3</label>
+			<label index="mlang_labels_tabdescr">Spravuje rozšíření TYPO3 dostupná z centrálního úložiště, která zahrnují pluginy, moduly, rozšíření tříd, konfigurační kódy atd.</label>
+			<label index="mlang_tabs_tab">Správce rozšíření</label>
+			<label index="category_BE">Backend</label>
+			<label index="category_BE_modules">Moduly backendu</label>
+			<label index="category_FE">Frontend</label>
+			<label index="category_FE_plugins">Pluginy frontendu</label>
+			<label index="category_miscellanous">Různé</label>
+			<label index="category_services">Služby</label>
+			<label index="category_templates">Šablony</label>
+			<label index="category_examples">Příklady</label>
+			<label index="category_documentation">Dokumentace</label>
+			<label index="state_alpha">Alfa</label>
+			<label index="state_beta">Beta</label>
+			<label index="state_stable">Stabilní</label>
+			<label index="state_experimental">Experimentální</label>
+			<label index="state_test">Testovací</label>
+			<label index="state_obsolete">Zastaralé</label>
+			<label index="state_exclude_from_updates">Vyjmout z aktualizací</label>
+			<label index="type_system">Systémové</label>
+			<label index="type_global">Globální</label>
+			<label index="type_local">Lokální</label>
+			<label index="descr_system">Rozšíření systému (typo3/sysext/) - Vždy distribuováno se zdrojovým kódem TYPO3 (statické).</label>
+			<label index="descr_global">Globální rozšíření (typo3/ext/) - K dispozici na serveru pro sdílené zdroje (dynamické).</label>
+			<label index="descr_local">Lokální rozšíření (typo3conf/ext/) - Místní pouze pro tuto instalaci TYPO3 (dynamické).</label>
+			<label index="privacy_notice">Při interakci s online úložištěm můžou být za účelem statistik zaslány a v úložišti uloženy některé informace o serveru.</label>
+			<label index="security_header">Nalezli jste bezpečnostní problém? Prosíme, ozvěte se nám!</label>
+			<label index="security_descr">Pokud si myslíte, že jste našli slabé místo v zabezpečení TYPO3 nebo v jeho rozšíření, kontaktujte %sbezpečnostní tým TYPO3%s! Děkujeme vám!</label>
+			<label index="menu_loaded_extensions">Nahraná rozšíření</label>
+			<label index="menu_install_extensions">Instalace rozšíření</label>
+			<label index="menu_import_extensions">Import rozšíření</label>
+			<label index="menu_translation_handling">Manipulace s překlady</label>
+			<label index="menu_settings">Nastavení</label>
+			<label index="menu_extension_updates">Zkontrolovat aktualizace rozšíření</label>
+			<label index="list_order_category">Kategorie</label>
+			<label index="list_order_author">Autor</label>
+			<label index="list_order_state">Stav</label>
+			<label index="list_order_type">Typ</label>
+			<label index="show_details">Podrobnosti</label>
+			<label index="show_description">Popis</label>
+			<label index="show_more_details">Více podrobností</label>
+			<label index="show_technical">Technické (trvá dlouho!)</label>
+			<label index="show_validating">Potvrzovací (trvá dlouho!)</label>
+			<label index="show_changed">Změněné? (trvá dlouho!)</label>
+			<label index="details_info">Informace</label>
+			<label index="details_edit">Upravit soubory</label>
+			<label index="details_backup_delete">Záloha/Odstranit</label>
+			<label index="details_dump_db">Vypsat DB</label>
+			<label index="details_upload">Nahrát na TER</label>
+			<label index="details_update">AKTUALIZOVAT!</label>
+			<label index="header">Správce rozšíření</label>
+			<label index="group_by">Seskupit podle:</label>
+			<label index="show">Zobrazit:</label>
+			<label index="display_shy">Ukázat opatrná rozšíření:</label>
+			<label index="only_my_ext">Pouze má rozšíření:</label>
+			<label index="show_obsolete">Zobrazit zastaralá:</label>
+			<label index="go_back">Jít zpět</label>
+			<label index="look_up">Podívat se po:</label>
+			<label index="loaded_exts">Načtená rozšíření</label>
+			<label index="how_to_install">Pokud chcete použít rozšíření v TYPO3, měli byste jednoduše kliknout na tlačítko &quot;plus&quot; tlačítko %s.</label>
+			<label index="how_to_uninstall">Nainstalovaná rozšíření může být také opět odstraněna - stačí kliknout na tlačítko Odstranit %s.</label>
+			<label index="available_extensions">Dostupná rozšíření - seskupena podle: %s</label>
+			<label index="do_update">Aktualizovat rozšíření v '%s' z online úložiště na server</label>
+			<label index="global">globální</label>
+			<label index="local">lokální</label>
+			<label index="excluded_from_updates">Rozšíření je vyloučeno z aktualizací! Můžete to změnit v příslušném souboru ext_emconf.php.</label>
+			<label index="import_to_local_dir">Importovat toto rozšíření z online úložiště do 'místního' adresáře typo3conf/ext/.</label>
+			<label index="list_or_look_up">Vypsat nebo vyhledat %s rozšíření</label>
+			<label index="list_or_look_up_all">všechna</label>
+			<label index="list_or_look_up_reviewed">přezkoumaná</label>
+			<label index="look_up_button">Vyhledat</label>
+			<label index="privacy_notice_header">UPOZORNĚNÍ NA SOUKROMÍ:</label>
+			<label index="extensions_repository_group_by">Rozšíření v Úložišti rozšíření TYPO3 (online) - seskupená podle:</label>
+			<label index="extension_required_short">Rq</label>
+			<label index="list_of_local_extensions">Toto je seznam rozšíření, která jsou k dispozici lokálně, ale ne v úložišti.</label>
+			<label index="might_be_user_defined">Mohou být uživatelsky definována a měla by být pak předřazena jako user_.</label>
+			<label index="only_on_this_server">Rozšíření nalezená pouze na tomto serveru.</label>
+			<label index="no_matching_extensions">Nebyla nalezena žádná odpovídající rozšíření.</label>
+			<label index="connect_to_ter">Připojit se na aktuální zrcadlo a načíst aktuální seznam dostupných pluginů z Úložiště rozšíření TYPO3.</label>
+			<label index="retrieve_update">Načíst/Aktualizovat</label>
+			<label index="ext_list_last_updated">(poslední aktualizace: %s)</label>
+			<label index="in_repository">Rozšíření v Úložišti rozšíření TYPO3</label>
+			<label index="upload_t3x">Nahrát soubor rozšíření (.t3x)</label>
+			<label index="upload_to_location">...do umístění:</label>
+			<label index="local_folder">Lokálního (../typo3conf/ext/)</label>
+			<label index="global_folder">Globalního (typo3/ext/)</label>
+			<label index="system_folder">Systémového (typo3/sysext/)</label>
+			<label index="overwrite_ext">Přepsat všechny existující rozšíření!</label>
+			<label index="upload_ext_file">Nahrát soubor rozšíření</label>
+			<label index="upload_ext_directly">Nahrát soubor rozšíření přímo (.t3x):</label>
+			<label index="previous_page">Předchozí stránka</label>
+			<label index="next_page">Další stránka</label>
+			<label index="showing_extensions_from_to">Zobrazuji rozšíření %s až %s</label>
+			<label index="security_settings">Nastavení zabezpečení</label>
+			<label index="show_exts_without_security_check">Povolit nepřezkoumaná rozšíření (základní bezpečnostní kontrola):</label>
+			<label index="notice">Oznámení:</label>
+			<label index="security_notice">Ujistěte se, že víte, jaké důsledky může mít zatrhnutí tohoto pole. Zkontrolujte %sinformace na typo3.org o bezpečnostním přezkoumaní%s!</label>
+			<label index="user_settings">Uživatelská nastavení</label>
+			<label index="enter_repository_username">Vložte uživatelské jméno úložiště:</label>
+			<label index="enter_repository_password">Vložte heslo úložiště:</label>
+			<label index="repository_password_info">Toto &lt;em&gt;není&lt;/ em&gt; heslo do backendu TYPO3! Tato uživatelská informace je potřeba k přihlášení na typo3.org s vaším tamějším účtem!</label>
+			<label index="mirror_selection">Výběr zrcadla</label>
+			<label index="mirror_list_url">Vložte URL se seznamem zrcadel:</label>
+			<label index="mirror_select">Vyberte zrcadlo níže. Tento seznam byl sestaven z online seznamu zrcadel získaných z výše uvedeného URL.</label>
+			<label index="mirror_list">Seznam zrcadel</label>
+			<label index="mirror_list_reload">Klikněte zde pro obnovení seznamu.</label>
+			<label index="mirror_use">Použít</label>
+			<label index="mirror_name">Jméno</label>
+			<label index="mirror_url">URL</label>
+			<label index="mirror_country">Země</label>
+			<label index="mirror_sponsored_by">Sponzorováno díky</label>
+			<label index="mirror_use_random">Náhodné (doporučeno!)</label>
+			<label index="enter_repository_url">Vložte URL úložiště:</label>
+			<label index="repository_url_hint">Pokud nastavíte URL úložiště, má přednost před použitím zrcadla. Pomocí tohoto lze vybrat konkrétní (soukromé) úložiště.</label>
+			<label index="repository_settings">Nastavení úložiště</label>
+			<label index="translation_settings">Nastavení překladu</label>
+			<label index="languages_to_fetch">Stáhnout jazyky:</label>
+			<label index="translation_info">Pro vybrané jazyky se SR pokusí stáhnout a nainstalovat soubory s překlady, pokud jsou tyto k dispozici, pokaždé, když je nainstalováno nějaké rozšíření. (To nahrazuje &lt;code&gt;csh_*&lt;/code&gt; rozšíření, které byly používány pro instalaci základních překladů před TYPO3 verzí 4!)</label>
+			<label index="translation_loaded_exts">Chcete-li požádat o aktualizaci nebo instalaci pro již nahraná rozšíření, viz níže.</label>
+			<label index="translation_save_selection">Uložit výběr</label>
+			<label index="translation_check_status_button">Zkontrolovat stav proti úložišti</label>
+			<label index="translation_update_button">Aktualizovat z úložiště</label>
+			<label index="translation_status">Stav překladu</label>
+			<label index="translation_check_status">Kontroluji stav překladu, čekejte prosím...</label>
+			<label index="translation_table_check">Tato tabulka ukazuje stav překladů nahraných rozšíření.</label>
+			<label index="translation_extension_key">Klíč rozšíření</label>
+			<label index="translation_checking_extension">Kontroluji stav překladu pro rozšíření \&quot;%s\&quot;...</label>
+			<label index="translation_no_translation">Není dostupný žádný překlad</label>
+			<label index="translation_n_a">N/A</label>
+			<label index="translation_not_installed">Nenainstalováno/Neznámé</label>
+			<label index="translation_status_unknown">???</label>
+			<label index="translation_needs_update">Je třeba aktualizovat</label>
+			<label index="translation_status_update">UPD</label>
+			<label index="translation_is_ok">Je aktuální</label>
+			<label index="translation_status_ok">OK</label>
+			<label index="translation_check_done">Kontrola provedena.</label>
+			<label index="translation_update_status">Aktualizuji překlady, čekejte prosím...</label>
+			<label index="translation_table_update">Tato tabulka ukazuje výsledky aktualizace překladů nahraných rozšíření.</label>
+			<label index="translation_full_check_update">Pokud chcete provést plnou kontrolu nebo aktualizaci, vymažte l10n zip soubory ze složky typo3temp.</label>
+			<label index="translation_updating_extension">Aktualizuji překlad pro rozšíření \&quot;%s\&quot;...</label>
+			<label index="translation_has_been_updated">Byl aktualizován</label>
+			<label index="translation_status_error">ERR</label>
+			<label index="translation_problems">Možné důvody: problémy se sítí, je vypnutý allow_url_fopen, v Instalačním nástroji není povolen cURL</label>
+			<label index="translation_status_could_not_fetch">Nelze získat stav překladu</label>
+			<label index="translation_update_done">Aktualizace provedena.</label>
+			<label index="translation_unpacking_failed">Rozbalení jazykového balíčku se nezdařilo!</label>
+			<label index="ext_load_details_button">Načíst podrobnosti</label>
+			<label index="ext_or">nebo</label>
+			<label index="ext_import_update_button">Importovat/Aktualizovat</label>
+			<label index="ext_import_update_to">do:</label>
+			<label index="ext_import_global">Globální:</label>
+			<label index="ext_import_local">Lokální:</label>
+			<label index="ext_import_system">Systémové:</label>
+			<label index="ext_import_overwrite">(PŘEPSAT)</label>
+			<label index="ext_import_folder_empty">(prázdný)</label>
+			<label index="ext_import_excluded_from_updates">Toto rozšření je vyloučeno z aktualizací! Můžete to změnit ve složce rozšíření v souboru ext_emconf.php.</label>
+			<label index="ext_import_select_command">Vyberte příkaz</label>
+			<label index="ext_import_remote_ext_details">Detaily vzdáleného rozšíření</label>
+			<label index="ext_import_list_not_updated">Chyba: seznam se nepodařilo načíst z %s.</label>
+			<label index="ext_import_list_updated">Seznam zrcadel byl aktualizován a nyní obsahuje %s položek.</label>
+			<label index="ext_import_list_empty">Seznam zrcadel nebyl aktualizován, protože neobsahuje žádné položky.</label>
+			<label index="ext_import_md5_not_updated">Chyba: MD5 součet rozšíření se nepodařilo načíst z %s.</label>
+			<label index="ext_import_extlist_updated_header">Seznam rozšíření aktualizován</label>
+			<label index="ext_import_extlist_updated">Seznam rozšíření byl aktualizován a nyní obsahuje %s položek rozšíření.</label>
+			<label index="ext_import_list_unchanged_header">Nejsou k dispozici žádné aktualizace</label>
+			<label index="ext_import_list_unchanged">Seznam rozšíření se vzdáleně nezměnil a nebyl tedy dotažen.</label>
+			<label index="ext_import_ext_already_installed_loaded">Rozšíření bylo již nainstalováno a zavedeno.</label>
+			<label index="ext_import_p_localconf">Do localconf.php nelze zapisovat!</label>
+			<label index="ext_import_ext_loaded">Rozšíření bylo již nainstalováno, bylo zavedeno.</label>
+			<label index="ext_import_ext_n_a">Rozšíření není k dispozici v odpovídající verzi.</label>
+			<label index="ext_import_ext_imported">Rozšíření bylo importováno z úložiště a zavedeno.</label>
+			<label index="ext_import_ext_not_loaded">Rozšíření je v úložišti, ale nelze je načíst.</label>
+			<label index="ext_import_ext_n_a_rep">Rozšíření není v úložišti k dispozici.</label>
+			<label index="ext_import_file_not_uploaded">Soubor nebyl nahrán?!</label>
+			<label index="ext_import_file_empty">Soubor je prázdný!</label>
+			<label index="ext_import_ext_present_no_overwrite">Verze rozšíření byla již v '%s' přítomna a příznak přepsání nebyl nastaven.</label>
+			<label index="ext_import_ext_present_nothing_done">Takže nic se neudělalo...</label>
+			<label index="ext_import_no_key">V souboru není klíč rozšíření. Podivné...</label>
+			<label index="ext_import_wrong_file_format">Špatný formát souboru. Žádná rozeznaná data, %s.</label>
+			<label index="ext_import_no_file">Žádný soubor nebyl nahrán! Pravděpodobně byl soubor pro vnitřní limit PHP pro nahrávané soubory příliš velký.</label>
+			<label index="ext_import_file_not_created">Chyba: Soubor '%s' nelze vytvořit!!!</label>
+			<label index="ext_import_file_corrupted">Chyba: MD5 souboru '%s' je odlišný od md5 původního souboru - takže je soubor poškozen!</label>
+			<label index="ext_import_success">Rozšíření importováno</label>
+			<label index="ext_import_success_folder">Vytvořena složka: %s</label>
+			<label index="ext_import_no_conf_file">Chyba: Nelze najít '%s'.</label>
+			<label index="ext_import_ext_type">Typ instalace:</label>
+			<label index="ext_import_cache_files_removed">Soubory keše byly odstraněny a budou přepsány po dalším přístupu.</label>
+			<label index="ext_import_install_uninstall">Instalace/Odinstalace rozšíření:</label>
+			<label index="ext_import_uninstall">Odinstalace rozšíření</label>
+			<label index="ext_import_install">Instalace rozšíření</label>
+			<label index="ext_import_imported">Rozšíření bylo importováno.</label>
+			<label index="ext_import_close_check">Zavřít okno a překontrolovat závislosti.</label>
+			<label index="ext_import_ext_path_different">Chyba: Cesta k rozšíření '%s' byla jiná, než se čekalo...</label>
+			<label index="ext_import_ext_only_here">Chyba: Rozšíření lze nainstalovat pouze do cesty %s (lockType=%s).</label>
+			<label index="ext_import_no_ext_key_files">Chyba: Žádný klíč rozšíření!!! Proč? - Nikdo neví... (nebo v poli souborů nejsou žádné soubory...)</label>
+			<label index="ext_import_data_transfer">Chyba: Přenos dat neuspěl. %s</label>
+			<label index="ext_import_no_install_here">Chyba: Instalace není pro tuto cestu (%s) povolena.</label>
+			<label index="ext_import_results">Výsledky importu rozšíření</label>
+			<label index="ext_details_ext">Rozšíření:</label>
+			<label index="ext_details_new_tables_fields">Předtím, než bude moci být rozšíření nainstalováno, je třeba aktualizovat databázi o nové tabulky nebo pole.</label>
+			<label index="ext_details_new_tables_fields_select">Prosím vyberte, které operace mají být provedeny:</label>
+			<label index="ext_details_installing">Instaluji %s:</label>
+			<label index="ext_details_db_needs_update">Databázi je třeba aktualizovat</label>
+			<label index="ext_details_remove_ext">Odebrat rozšíření</label>
+			<label index="ext_details_removing">Odebírám %s:</label>
+			<label index="ext_details_ext_installed_removed">Rozšíření bylo %s.</label>
+			<label index="ext_details_ext_installed_with_key">Rozšíření &quot;%s&quot; bylo nainstalováno.</label>
+			<label index="ext_details_ext_removed_with_key">Rozšíření &quot;%s&quot; bylo odebráno.</label>
+			<label index="ext_details_installed">nainstalováno</label>
+			<label index="ext_details_removed">odebráno</label>
+			<label index="ext_details_write_access_error">Chyba při zápisu</label>
+			<label index="ext_details_write_error_localconf">Zdá se, že do typo3conf/localconf.php nelze zapisovat, takže rozšíření nelze nainstalovat automaticky!</label>
+			<label index="ext_details_error_downloading">Chyba při pokusu stáhnout soubor rozšíření...</label>
+			<label index="ext_details_md5_previous">MD5: %s (Předchozí soubor)</label>
+			<label index="ext_details_no_changes">Žádné změny souboru nebyly detekovány!</label>
+			<label index="ext_details_file">Soubor: %s</label>
+			<label index="ext_details_md5_current">MD5: %s (Současný soubor)</label>
+			<label index="ext_details_md5_submitted">MD5: %s (Odeslaný soubor)</label>
+			<label index="ext_details_saving_failed_changes_lost">Uložení se nezdařilo, obsah nebyl správně zapsán na disk. Změny byly ztraceny!</label>
+			<label index="ext_details_file_saved">Soubor uložen</label>
+			<label index="ext_details_file_save_button">Uložit soubor</label>
+			<label index="ext_details_saving_disabled">[ULOŽENÍ JE ZAKÁZÁNO - Může být povoleno $TYPO3_CONF_VARS['EXT']['noEdit'] příznakem]</label>
+			<label index="ext_details_cancel_button">Zrušit</label>
+			<label index="ext_details_edit_file">Upravit soubor:</label>
+			<label index="ext_details_filesize_exceeded_kb">Velikost souboru překročila %s kilobajtů</label>
+			<label index="ext_details_file_too_large">Soubory větší než %s kilobajtů není dovoleno upravovat.</label>
+			<label index="ext_details_fatal_edit_error">Fatální chyba úprav: Soubor '%s' nebyl uvnitř správné cesty tohoto rozšíření TYPO3!</label>
+			<label index="ext_details_loaded_and_running">Rozšíření je nainstalováno (zavedeno a běží)!</label>
+			<label index="ext_details_remove_button">Klikněte zde pro odstranění rozšíření:</label>
+			<label index="ext_details_not_loaded">Rozšíření &lt;strong&gt;není&lt;/ strong&gt; nyní nainstalováno.</label>
+			<label index="ext_details_install_button">Klikněte zde pro instalaci rozšíření:</label>
+			<label index="ext_details_always_loaded">Toto rozšíření je součástí seznamu TYPO3_CONF_VARS['SYS']['requiredExt'] a je proto vždy zavedeno.</label>
+			<label index="ext_details_current_status">Současný stav:</label>
+			<label index="ext_details_update_needed">Potřebná aktualizace:</label>
+			<label index="ext_details_notice_static_data">(Upozornění: &quot;Statické údaje&quot; nemusí být &lt;em&gt;nutně&lt;/ em&gt; aktualizovány. Měli byste jen importovat statická data pokaždé, když zaktualizujete rozšíření.)</label>
+			<label index="ext_details_configuration">Konfigurace:</label>
+			<label index="ext_details_notice_clear_cache">(&lt;em&gt;Upozornění: Možná budete muset po konfiguraci rozšíření vymazat cache. To je vyžadováno v případě, že rozšíření přidává TypoScript v závislosti na nastavení.&lt;/em&gt;)</label>
+			<label index="ext_details_details">Podrobnosti:</label>
+			<label index="ext_details_no_unique_ext">Rozšíření mají předponu klíče &quot;USER_&quot;, což naznačuje, že je to uživatelsky definované rozšíření s žádnou oficiální jednoznačnou identifikací. Proto jej nelze nahrát.</label>
+			<label index="ext_details_no_username">Nemáte ještě nastaveno výchozí uživatelské jméno/heslo. %sJděte na &quot;Nastavení&quot;%s pokud tak chcete učinit.</label>
+			<label index="ext_details_upload_to_ter">Nahrát rozšíření do úložiště</label>
+			<label index="ext_details_delete">Odstranit</label>
+			<label index="ext_details_backup">Zálohovat</label>
+			<label index="ext_details_update_em_conf">Aktualizovat SR_CONF</label>
+			<label index="ext_details_ext_files">Soubory rozšíření</label>
+			<label index="ext_details_update">Aktualizovat:</label>
+			<label index="ext_details_no_update_object">Žádný objekt k aktualizaci</label>
+			<label index="reqInstExt_install_import">Instalace/Import:</label>
+			<label index="reqInstExt_ext_key">Klíč rozšíření:</label>
+			<label index="reqInstExt_import_install_selected">Importovat a instalovat vybrané</label>
+			<label index="reqInstExt_return">Návrat</label>
+			<label index="reqInstExt_imp_inst_ext">Import/Instalace rozšíření:</label>
+			<label index="updatesForm_make_updates">Provést aktualizace</label>
+			<label index="extDumpTables_tables_fields">Vyžadována struktura tabulek a polí</label>
+			<label index="extDumpTables_bytes_written_to">%s bytů zapsáno do %s</label>
+			<label index="extDumpTables_dumping_content">Vypisuji obsah tabulek pro statické tabulky:</label>
+			<label index="extDumpTables_static_tables">Statické tabulky</label>
+			<label index="extDumpTables_write_static">Nyní zapisuji aktuální obsah statických tabulek do ext_tables_static+adt.sql!</label>
+			<label index="extDumpTables_dumping_db_structure">Vypisuji stávající strukturu databáze pro:</label>
+			<label index="extDumpTables_tables">Tabulky:</label>
+			<label index="extDumpTables_solo_fields">Jednotlivá pole:</label>
+			<label index="extDumpTables_write_dump">Nyní zapisuji tento výpis do ext_tables.sql!</label>
+			<label index="extDumpTables_based_on">Tento výpis je založen na dvou faktorech:</label>
+			<label index="extDumpTables_based_on_one">1) Všechny tabulky v ext_tables.sql, které &lt;em&gt;nejsou&lt;/em&gt; nalezeny v seznamu &quot;modify_tables&quot; v ext_emconf.php jsou vypsány se současnou strukturou databáze.</label>
+			<label index="extDumpTables_based_on_two">2) Pro každou tabulku, která &lt;em&gt;je&lt;/em&gt; uvedena v &quot;modify_tables&quot;, budou znovu přepsána čerstvými ekvivalenty z databáze všechna pole a klíče nalezené pro tuto tabulku v ext_tables.sql.</label>
+			<label index="extDumpTables_bottomline">Celkově to znamená: Všechny tabulky jsou vypsány z databáze bez ohledu na to, která pole a které klíče jsou definovány v ext_tables.sql. Ale pro tabulky, které jsou jen upravené, s žádnými NOVÝMI poli přidanými do databáze, musí musí v té či oné formě existovat ext_tables.sql soubor také.</label>
+			<label index="extFileList_file">Soubor:</label>
+			<label index="extFileList_size">Velikost:</label>
+			<label index="extFileList_edit">Upravit:</label>
+			<label index="extFileList_download">Stáhnout...</label>
+			<label index="extFileList_edit_file">Upravit soubor</label>
+			<label index="extFileList_total">Celkem:</label>
+			<label index="extDelete_ext_active">Toto rozšíření je v současné době nainstalováno (zavedeno a aktivní), a tak nemůže být odstraněno!</label>
+			<label index="extDelete_wrong_scope">Nelze odstranit (a instalovat/aktualizovat) rozšíření v %s rozsahu.</label>
+			<label index="extDelete_remove_dir_failed">CHYBA: Nelze odstranit adresář rozšíření '%s'. Došlo k následující chybě:</label>
+			<label index="extDelete_removed_header">Rozšíření odstraněno</label>
+			<label index="extDelete_removed">Odebráno rozšíření v cestě '%s'!</label>
+			<label index="extDelete_sure">Jste si jisti, že chcete odstranit toto rozšíření ze serveru?</label>
+			<label index="extDelete_from_server">ODSTRANIT ROZŠÍŘENÍ ZE SERVERU</label>
+			<label index="extDelete_from_location">(v '%s' místě '%s'!)</label>
+			<label index="extDelete_backup">(Možná byste si měli nejprve udělat zálohu, viz výše.)</label>
+			<label index="extDelete_neither_global_nor_local">Toto rozšíření není ani globální, ani lokální a proto nemůže být odstraněno.</label>
+			<label index="extUpdateEMCONF_sure">Jste si jisti, že chcete aktualizovat EM_CONF?</label>
+			<label index="extUpdateEMCONF_file">Aktualizovat soubor rozšíření EM_CONF</label>
+			<label index="extUpdateEMCONF_info_changes">Pokud jsou v rámci rozšíření soubory změněny, přidány nebo odstraněny, je to je obvykle detekováno a zobrazeno, takže víte, že toto rozšíření bylo změněno na místní úrovni a je ho třeba nahrát nebo alespoň nenechat přepsat.</label>
+			<label index="extUpdateEMCONF_info_reset">Aktualizace tohoto souboru znamená reset této kontroly.</label>
+			<label index="extBackup_select">Vyberte si:</label>
+			<label index="extBackup_files">Soubory rozšíření:</label>
+			<label index="extBackup_download">Stáhnout rozšíření '%s' jako soubor.</label>
+			<label index="extBackup_md5">MD5:</label>
+			<label index="extBackup_data_tables">Tabulky s daty:</label>
+			<label index="extBackup_static_tables">Statické tabulky:</label>
+			<label index="extBackup_unexpected_error">Došlo k neočekávané chybě. Objevily se problémy s klíčem rozšíření nebo s daty rozšíření.</label>
+			<label index="extBackup_dump_table">Vypisuji tabulku '%s'</label>
+			<label index="extBackup_number_of_records">%s záznamů</label>
+			<label index="extBackup_table_not_there">Neexistuje.</label>
+			<label index="extBackup_dump_all_tables">Výpis všech existujících tabulek.</label>
+			<label index="extBackup_download_all_data">Stáhněte si všechna data z:</label>
+			<label index="extBackup_nothing_to_dump">Nic k vypsání...</label>
+			<label index="extInfoArray_general_info">Obecné informace:</label>
+			<label index="extInfoArray_title">Název:</label>
+			<label index="extInfoArray_description">Popis:</label>
+			<label index="extInfoArray_author">Autor:</label>
+			<label index="extInfoArray_version">Verze:</label>
+			<label index="extInfoArray_category">Kategorie:</label>
+			<label index="extInfoArray_state">Stav:</label>
+			<label index="extInfoArray_shy">Opatrné:</label>
+			<label index="extInfoArray_internal">Interní:</label>
+			<label index="extInfoArray_depends_on">Závisí na:</label>
+			<label index="extInfoArray_conflicts_with">Koliduje s:</label>
+			<label index="extInfoArray_suggests">Navrhuje:</label>
+			<label index="extInfoArray_priority">Priorita:</label>
+			<label index="extInfoArray_clear_cache">Vymazat keš:</label>
+			<label index="extInfoArray_incl_modules">Obsahuje moduly:</label>
+			<label index="extInfoArray_lock_type">Zamknout typ instalace:</label>
+			<label index="extInfoArray_load_in_frontend">Nahrát do frontendu:</label>
+			<label index="extInfoArray_modifies_tables">Upraví tabulky:</label>
+			<label index="extInfoArray_inst_status">Stav instalace:</label>
+			<label index="extInfoArray_inst_type">Typ instalace:</label>
+			<label index="extInfoArray_inst_twice">Dvojitá instalace:</label>
+			<label index="extInfoArray_root_files">Kořenové soubory:</label>
+			<label index="extInfoArray_table_error">Chyba tabulky!</label>
+			<label index="extInfoArray_missing_fields">Zřejmě chybí jedno nebo více požadovaných polí/tabulek v databázi!</label>
+			<label index="extInfoArray_static_table_error">Chyba statické tabulky!</label>
+			<label index="extInfoArray_static_tables_missing_empty">Statické tabulky chybí nebo jsou prázdné!</label>
+			<label index="extInfoArray_db_update_needed">Databáze bude muset být aktualizována po instalaci tohoto rozšíření.</label>
+			<label index="extInfoArray_tables_ok">Všechny požadované tabulky jsou již v databázi!</label>
+			<label index="extInfoArray_db_requirements">Požadavky na databázi:</label>
+			<label index="extInfoArray_db_status">Stav databáze:</label>
+			<label index="extInfoArray_flags">Příznaky:</label>
+			<label index="extInfoArray_config_template">Config šablona:</label>
+			<label index="extInfoArray_typoscript_files">Soubory TypoScriptu:</label>
+			<label index="extInfoArray_language_files">Jazykové soubory:</label>
+			<label index="extInfoArray_upload_folder">Složka pro nahrání:</label>
+			<label index="extInfoArray_create_directories">Vytvořit adresáře:</label>
+			<label index="extInfoArray_module_names">Jména modulů:</label>
+			<label index="extInfoArray_class_names">Jména tříd:</label>
+			<label index="extInfoArray_code_warnings">Varování kódu:</label>
+			<label index="extInfoArray_dev_relevant">(relevantní pro vývojáře)</label>
+			<label index="extInfoArray_annoyances">Nepříjemností pojmenování:</label>
+			<label index="extInfoArray_exception">[výjimka]</label>
+			<label index="extInfoArray_difference_detected">Byl zjištěn rozdíl mezi původně nainstalovanou verzi a tou současnou!</label>
+			<label index="extInfoArray_modified_files">Změněné soubory:</label>
+			<label index="extInfoArray_files_changed">Soubory změněny:</label>
+			<label index="extInfoArray_additional_fields">Další pole:</label>
+			<label index="extInfoArray_double_installation_infotext">Rozšíření %s s tímto klíčem je také na serveru k dispozici, ale nelze jej načíst, protože má přednost &quot;%s&quot; verze.</label>
+			<label index="repositoryUploadForm_username">Uživatelské jméno pro úložiště:</label>
+			<label index="repositoryUploadForm_password">Heslo pro úložiště:</label>
+			<label index="repositoryUploadForm_changelog">Changelog pro nahrání:</label>
+			<label index="repositoryUploadForm_command">Příkaz pro nahrání:</label>
+			<label index="repositoryUploadForm_new_bugfix">Nová bugfix verze (poslední %s)</label>
+			<label index="repositoryUploadForm_new_sub_version">Nová sub verze (poslední %s)</label>
+			<label index="repositoryUploadForm_new_main_version">Nová hlavní verze (poslední %s)</label>
+			<label index="repositoryUploadForm_upload">Nahrát rozšíření</label>
+			<label index="listRowHeader_modifies_tables_short">Změn. tabulky:</label>
+			<label index="listRowHeader_modules">Moduly:</label>
+			<label index="listRowHeader_clear_cache_short">Vymaz. keš?</label>
+			<label index="listRowHeader_tables_fields">Tabulky/Pole</label>
+			<label index="listRowHeader_ts_files">TS soubory:</label>
+			<label index="listRowHeader_affects">Ovlivní:</label>
+			<label index="listRowHeader_config">Config:</label>
+			<label index="listRowHeader_locallang">locallang:</label>
+			<label index="listRowHeader_classes">Třídy:</label>
+			<label index="listRowHeader_changed_files">Změněné soubory:</label>
+			<label index="listRowHeader_ext_key">Klíč rozšíření:</label>
+			<label index="listRowHeader_download_short">DL:</label>
+			<label index="listRowHeader_documentation_short">Dok:</label>
+			<label index="listRowHeader_type">Typ:</label>
+			<label index="listRowHeader_title_upload_date">Datum nahrání verze v úložišti.</label>
+			<label index="listRowHeader_upload_date">Datum nahrání:</label>
+			<label index="listRowHeader_title_current_version">Aktuální verze rozšíření na tomto serveru. Je-li vytištěna tučným písmem, existuje v úložišti novější verze! Pak byste měli aktualizovat.</label>
+			<label index="listRowHeader_current_version">Akt. ver:</label>
+			<label index="listRowHeader_title_current_type">Aktuální typ instalace rozšíření na tomto serveru.</label>
+			<label index="listRowHeader_current_type">Akt. typ:</label>
+			<label index="listRowHeader_title_number_of_downloads">Počet stažení: všech verzí/této verze</label>
+			<label index="listRow_files">Soubory:</label>
+			<label index="listRow_local_manual">Lokální Open Office manuál</label>
+			<label index="helperFunction_install_extension">Instalace rozšíření...</label>
+			<label index="helperFunction_import_not_possible">Import do lokální i globální cesty je zakázán v TYPO3_CONF_VARS!</label>
+			<label index="detailedExtAnalysis_keys">klíče</label>
+			<label index="detailedExtAnalysis_tables_are">Některé tabulky nebo pole %s!</label>
+			<label index="detailedExtAnalysis_tables_are_missing">chybí</label>
+			<label index="detailedExtAnalysis_tables_are_of_wrong_type">mají špatný typ</label>
+			<label index="detailedExtAnalysis_static_tables_missing">Chybí statické tabulky!</label>
+			<label index="detailedExtAnalysis_wrong_mod_path">Nastavená cesta TYPO3_MOD_PATH &quot;%s&quot; je odlišná od &quot;%s&quot;, která by měla být správně.</label>
+			<label index="detailedExtAnalysis_mconf_missing">Žádná definice MCONF[name] proměnné se uvnitř nenachází!</label>
+			<label index="detailedExtAnalysis_be_module_conf_missing">Konf. soubor &quot;%s&quot; backend modulu by měl existovat, ale neexistuje!</label>
+			<label index="detailedExtAnalysis_module_folder_missing">Složka &quot;%s&quot; backend modulu by měla existovat, ale neexistuje!</label>
+			<label index="detailedExtAnalysis_unconfigured_module">Vypadá to, že v &quot;%s&quot; je backend modul, který není nastaven v ext_emconf.php.</label>
+			<label index="detailedExtAnalysis_module">Modul</label>
+			<label index="detailedExtAnalysis_module_and_more">Modul+</label>
+			<label index="detailedExtAnalysis_loadTCA">loadTCA</label>
+			<label index="detailedExtAnalysis_TCA">TCA</label>
+			<label index="detailedExtAnalysis_plugin">Plugin</label>
+			<label index="detailedExtAnalysis_plugin_st43">Plugin/ST43</label>
+			<label index="detailedExtAnalysis_page_ts">Stránka-TSConfig</label>
+			<label index="detailedExtAnalysis_user_ts">Uživatel-TSConfig</label>
+			<label index="detailedExtAnalysis_ts_setup">TS/Nastavení</label>
+			<label index="detailedExtAnalysis_ts_constants">TS/Konstanty</label>
+			<label index="detailedExtAnalysis_constants">Konstanty</label>
+			<label index="detailedExtAnalysis_setup">Nastavení</label>
+			<label index="detailedExtAnalysis_no_upload_folder">Chyba: Složku pro nahrání &quot;%s&quot; neexistuje!</label>
+			<label index="detailedExtAnalysis_class_ok">Soubor třídy &quot;%s&quot; obsahuje třídu &quot;%s&quot;, tak jak by měl.</label>
+			<label index="detailedExtAnalysis_class_not_ok">Soubor třídy &quot;%s&quot; neobsahuje třídu &quot;%s&quot;!</label>
+			<label index="detailedExtAnalysis_xclass_ok">'XCLASS OK v %s</label>
+			<label index="detailedExtAnalysis_xclass_no_include">Nemohu najít prohlášení include_once pro XCLASS!</label>
+			<label index="detailedExtAnalysis_xclass_incorrect">Soubor s klíčem XCLASS &quot;%s&quot; byl odlišný od &quot;%s&quot;, který by měl být!</label>
+			<label index="detailedExtAnalysis_no_xclass_filename">Žádný soubor s klíčem XCLASS nebyl nalezen v souboru &quot;%s&quot;. Možná je to chyba regex kódování...</label>
+			<label index="detailedExtAnalysis_no_xclass_found">Žádný zařazovací kód XCLASS nebyl nalezen v souboru &quot;%s&quot;.</label>
+			<label index="rmExtDir_could_not_be_deleted">Chyba: &quot;%s&quot; nemůže být smazán!</label>
+			<label index="rmExtDir_error_file">Chyba: &quot;%s&quot; buď nebyl soubor, nebo byl stejný jako odstraněný adresář, nebo prostě mimo odstraněný adresář &quot;%s&quot;!</label>
+			<label index="rmExtDir_error_files_left">Chyba: &quot;%s&quot; není možné odstranit (jsou tam soubory, které zůstaly?)</label>
+			<label index="rmExtDir_error_no_dir">Chyba: &quot;%s&quot; nebyl žádný adresář!</label>
+			<label index="rmExtDir_error_folders_left">Chyba: Adresář rozšíření &quot;%s&quot; není možné odstranit (jsou tam soubory nebo složky, které zůstaly?)</label>
+			<label index="rmExtDir_error">Chyba:</label>
+			<label index="rmExtDir_error_unallowed_path">Chyba: Neoprávněná cesta k odstranění:</label>
+			<label index="clearMakeExtDir_no_ext_key">FATÁLNÍ CHYBA: Klíč rozšíření nebyl z nějakého VELMI podivného důvodu nastaven. Nic nebylo uděláno...</label>
+			<label index="clearMakeExtDir_could_not_remove_dir">CHYBA: Nelze odstranit adresář rozšíření &quot;%s&quot;. Důvody:</label>
+			<label index="clearMakeExtDir_could_not_create_dir">CHYBA: Nelze vytvořit adresář rozšíření &quot;%s&quot;!</label>
+			<label index="clearMakeExtDir_no_dir">CHYBA: Cesta k instalaci rozšíření &quot;%s&quot; nebyla žádným adresářem!</label>
+			<label index="writeModPath_ok">TYPO3_MOD_PATH a $BACK_PATH byly aktualizovány v &quot;%s&quot;!</label>
+			<label index="writeModPath_notRequired">Poznámka: Modul &quot;%s&quot; používá modulové API pro registraci modulu, TYPO3_MOD_PATH a $BACK_PATH nevyžaduje.</label>
+			<label index="writeModPath_error">Chyba: Buďto TYPO3_MOD_PATH nebo $BACK_PATH nebyl v souboru &quot;%s&quot; nalezen. Musíte to ručně nastavit!</label>
+			<label index="updateLocalEM_CONF_ok">Soubor &quot;%s&quot; byl aktualizován vyčištěným EM_CONF polem.</label>
+			<label index="updateLocalEM_CONF_not_writable">Chyba: &quot;%s&quot; nebyl zapisovatelný!</label>
+			<label index="updateLocalEM_CONF_not_found">Chyba: Žádný soubor &quot;%s&quot; nebyl nalezen. NEPANIKAŘTE!</label>
+			<label index="updateLocalEM_CONF_no_content">Žádný obsah pro zapsání do &quot;%s&quot;!</label>
+			<label index="makeUploadArray_error_size">Chyba: Celková velikost nekomprimovaných dat pro nahrání (%s) překračuje %s!</label>
+			<label index="makeUploadArray_error_path">Chyba: Cesta rozšíření pro rozšíření &quot;%s&quot; nebyla nalezena!</label>
+			<label index="checkDependencies_ignored">Závislost na %s ignorována jak bylo požadováno.</label>
+			<label index="checkDependencies_php_too_low">Současná verze PHP (%s) je nižší, než je požadováno (%s).</label>
+			<label index="checkDependencies_ignore_requirement">Ignorovat tento požadavek na verzi</label>
+			<label index="checkDependencies_php_too_high">Současná verze PHP (%s) je vyšší, než je povoleno (%s).</label>
+			<label index="checkDependencies_typo3_too_low">Současná verze TYPO3 (%s) je nižší, než je požadováno (%s).</label>
+			<label index="checkDependencies_typo3_too_high">Současná verze TYPO3 (%s) je vyšší, než je povoleno (%s).</label>
+			<label index="checkDependencies_ext_not_available">Rozšíření &quot;%s&quot; nebylo v systému k dispozici. Prosím, importujte jej z Úložiště rozšíření TYPO3.</label>
+			<label index="checkDependencies_import_ext">Importujte toto rozšíření do 'lokálního' adresáře typo3conf/ext/ z online úložiště.</label>
+			<label index="checkDependencies_import_now">Importovat nyní (otevře nové okno)</label>
+			<label index="checkDependencies_ignore_ext_requirement">Ignorovat tento požadavek rozšíření</label>
+			<label index="checkDependencies_ext_not_installed">Rozšíření &quot;%s&quot; (%s) nebylo nainstalováno. Prosím, nainstalujte ho jako první.</label>
+			<label index="checkDependencies_install_now">Instalovat nyní (otevře nové okno)</label>
+			<label index="checkDependencies_ext_too_low">Současná verze rozšíření &quot;%s&quot; (%s) je nižší, než je požadováno (%s).</label>
+			<label index="checkDependencies_ext_too_high">Současná verze rozšíření &quot;%s&quot; (%s) je vyšší, než je povoleno (%s).</label>
+			<label index="checkDependencies_conflict_ignored">Konflikt s %s ignorován jak bylo požadováno.</label>
+			<label index="checkDependencies_conflict_remove">Rozšíření &quot;%s&quot; a &quot;%s&quot; (%s) spolu navzájem kolidují. Prosím, odstraňte &quot;%s&quot;, pokud chcete instalovat &quot;%s&quot;.</label>
+			<label index="checkDependencies_remove_now">Odstranit nyní (otevře nové okno)</label>
+			<label index="checkDependencies_ignore_conflict">Ignorovat tuto chybu konfliktu</label>
+			<label index="checkDependencies_conflict_error">Chyba konfliktu</label>
+			<label index="checkDependencies_suggestion_ignored">Návrh %s ignorován jak bylo požadováno.</label>
+			<label index="checkDependencies_suggest_import">Rozšíření &quot;%s&quot; nebylo v systému k dispozici. Možná jej budete chtít importovat z Úložiště rozšíření TYPO3.</label>
+			<label index="checkDependencies_ignore_suggestion">Ignorovat tento návrh</label>
+			<label index="checkDependencies_suggest_installation">Rozšíření &quot;%s&quot; (%s) nebylo nainstalováno. Možná jej budete chtít nainstalovat.</label>
+			<label index="checkDependencies_exts_suggested_by_ext">Rozšíření navržená rozšířením &quot;%s&quot;</label>
+			<label index="checkDependencies_try_again">Zkusit znovu</label>
+			<label index="removeExtFromList_dependency">Rozšíření '%s' jsou závislá na rozšíření, které se snažíte odstranit. Operace nebyla dokončena.</label>
+			<label index="removeExtFromList_dependency_error">Chyba závislostí</label>
+			<label index="checkUploadFolder_clear_cache">Vymazat keš</label>
+			<label index="checkUploadFolder_clear_cache_requested">Toto rozšíření vyžaduje vymazání keše, pokud je instalováno/odstraňováno.</label>
+			<label index="checkUploadFolder_clear_all_cache">Vymazání všech keší:</label>
+			<label index="checkUploadFolder_create_upload_folder">Vytvořit složku pro nahrání</label>
+			<label index="checkUploadFolder_upload_folder_needed">Rozšíření vyžaduje existenci složky pro nahrání '%s'.</label>
+			<label index="checkUploadFolder_create_dir">Vytvořit adresář '%s':</label>
+			<label index="checkUploadFolder_error">CHYBA: cestu '%s' nelze vytvořit.</label>
+			<label index="checkUploadFolder_create_folder">Vytvořit složku</label>
+			<label index="checkUploadFolder_folder_needed">Rozšíření vyžaduje existenci složky '%s'.</label>
+			<label index="checkDBupdates_add_fields">Přidat pole</label>
+			<label index="checkDBupdates_changing_fields">Měněná pole</label>
+			<label index="checkDBupdates_add_tables">Přidat tabulky</label>
+			<label index="checkDBupdates_rows">Řádky:</label>
+			<label index="checkDBupdates_table_exists">Tabulka existuje!</label>
+			<label index="checkDBupdates_import_static_data">Importovat statická data</label>
+			<label index="tsStyleConfigForm_note">Poznámka</label>
+			<label index="tsStyleConfigForm_additional_config">Toto rozšíření poskytuje další možnosti konfigurace, které budou dostupné, jakmile bude nainstalováno.</label>
+			<label index="dumpStaticTables_table_not_found">Fatální chyba: Tabulka pro výpis nebyla v databázi nalezena...</label>
+			<label index="terCommunication_ext_version">Rozšíření je nyní k dispozici ve verzi %s.</label>
+			<label index="display_nle">Zahrnout nezavedená rozšíření od výpisu</label>
+			<label index="display_files">Zobrazit seznam změněných souborů</label>
+			<label index="header_upd_ext">V TER existují nové verze následujících rozšíření</label>
+			<label index="header_vers_ret">Informace o verzích</label>
+			<label index="tab_mod_name">Rozšíření</label>
+			<label index="tab_mod_key">Klíč-Rozš</label>
+			<label index="tab_mod_loc_ver">Lokální</label>
+			<label index="tab_mod_rem_ver">Vzdálený</label>
+			<label index="tab_mod_comment">Komentář-Uploadu</label>
+			<label index="tab_mod_location">Umístění</label>
+			<label index="msg_warn_diff">Byl zjištěn rozdíl mezi původně instalovanou verzí a verzí současnou!</label>
+			<label index="msg_modified">Změněné soubory:</label>
+			<label index="write_protected">(chráněno proti zápisu)</label>
+			<label index="note_last_update">Poslední aktualizace seznamu rozšíření:</label>
+			<label index="note_last_update_new">Poslední aktualizace seznamu rozšíření: %s.</label>
+			<label index="note_last_update2">Použít pro získání/aktualizaci seznamu &quot;Získat/Aktualizovat&quot; v sekci &quot;Import rozšíření&quot;.</label>
+			<label index="note_last_update2_new">Chcete-li získat a aktualizovat seznam, %sjděte do sekce &quot;Import rozšíření&quot; a použijte tlačítko &quot;Načíst/Aktualizovat&quot;%s.</label>
+			<label index="double_inclusion">%1$s je nadřazeno %2$s</label>
+			<label index="globalext">Globálně nainstalované rozšíření</label>
+			<label index="localext">Lokálně nainstalované rozšíření</label>
+			<label index="sysext">Systémové rozšíření</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="cz" type="array">
+			<label index="mlang_labels_tablabel" type="integer">107630623</label>
+			<label index="mlang_labels_tabdescr" type="integer">61213035</label>
+			<label index="mlang_tabs_tab" type="integer">199372037</label>
+			<label index="display_nle" type="integer">76478189</label>
+			<label index="display_files" type="integer">249361233</label>
+			<label index="header_upd_ext" type="integer">181851683</label>
+			<label index="header_vers_ret" type="integer">56356629</label>
+			<label index="tab_mod_name" type="integer">104746642</label>
+			<label index="tab_mod_key" type="integer">13174148</label>
+			<label index="tab_mod_loc_ver" type="integer">84509186</label>
+			<label index="tab_mod_rem_ver" type="integer">260376821</label>
+			<label index="tab_mod_comment" type="integer">111200332</label>
+			<label index="tab_mod_location" type="integer">216383317</label>
+			<label index="msg_warn_diff" type="integer">64279198</label>
+			<label index="msg_modified" type="integer">76649526</label>
+			<label index="note_last_update" type="integer">21754082</label>
+			<label index="note_last_update2" type="integer">164114497</label>
+			<label index="category_BE" type="integer">48506818</label>
+			<label index="category_BE_modules" type="integer">39991288</label>
+			<label index="category_FE" type="integer">228047462</label>
+			<label index="category_FE_plugins" type="integer">41676017</label>
+			<label index="category_miscellanous" type="integer">59226864</label>
+			<label index="category_services" type="integer">160604400</label>
+			<label index="category_templates" type="integer">132093617</label>
+			<label index="category_examples" type="integer">267895036</label>
+			<label index="category_documentation" type="integer">95866758</label>
+			<label index="state_alpha" type="integer">101917333</label>
+			<label index="state_beta" type="integer">12090726</label>
+			<label index="state_stable" type="integer">262385651</label>
+			<label index="state_experimental" type="integer">117749078</label>
+			<label index="state_test" type="integer">13354593</label>
+			<label index="state_obsolete" type="integer">247663651</label>
+			<label index="state_exclude_from_updates" type="integer">143888087</label>
+			<label index="type_system" type="integer">172350102</label>
+			<label index="type_global" type="integer">80504452</label>
+			<label index="type_local" type="integer">84509186</label>
+			<label index="descr_system" type="integer">173969113</label>
+			<label index="descr_global" type="integer">252612860</label>
+			<label index="descr_local" type="integer">214026576</label>
+			<label index="privacy_notice" type="integer">178654049</label>
+			<label index="security_header" type="integer">117854119</label>
+			<label index="security_descr" type="integer">196474613</label>
+			<label index="menu_loaded_extensions" type="integer">260059038</label>
+			<label index="menu_install_extensions" type="integer">32676540</label>
+			<label index="menu_import_extensions" type="integer">146373137</label>
+			<label index="menu_translation_handling" type="integer">145144065</label>
+			<label index="menu_settings" type="integer">256864370</label>
+			<label index="menu_extension_updates" type="integer">25562123</label>
+			<label index="list_order_category" type="integer">61717939</label>
+			<label index="list_order_author" type="integer">173111111</label>
+			<label index="list_order_state" type="integer">74066497</label>
+			<label index="list_order_type" type="integer">169845367</label>
+			<label index="show_details" type="integer">65812061</label>
+			<label index="show_description" type="integer">190479069</label>
+			<label index="show_more_details" type="integer">45443936</label>
+			<label index="show_technical" type="integer">250066851</label>
+			<label index="show_validating" type="integer">37927568</label>
+			<label index="show_changed" type="integer">72647157</label>
+			<label index="details_info" type="integer">176340495</label>
+			<label index="details_edit" type="integer">152858234</label>
+			<label index="details_backup_delete" type="integer">212437715</label>
+			<label index="details_dump_db" type="integer">256199650</label>
+			<label index="details_upload" type="integer">24268842</label>
+			<label index="details_update" type="integer">6145480</label>
+			<label index="header" type="integer">183301804</label>
+			<label index="group_by" type="integer">103901916</label>
+			<label index="show" type="integer">152556645</label>
+			<label index="display_shy" type="integer">161534753</label>
+			<label index="only_my_ext" type="integer">127072968</label>
+			<label index="show_obsolete" type="integer">215318356</label>
+			<label index="go_back" type="integer">36398395</label>
+			<label index="look_up" type="integer">214979080</label>
+			<label index="loaded_exts" type="integer">240199548</label>
+			<label index="how_to_install" type="integer">11572123</label>
+			<label index="how_to_uninstall" type="integer">131984233</label>
+			<label index="available_extensions" type="integer">25295122</label>
+			<label index="do_update" type="integer">234901991</label>
+			<label index="global" type="integer">164038963</label>
+			<label index="local" type="integer">257809136</label>
+			<label index="excluded_from_updates" type="integer">131336271</label>
+			<label index="import_to_local_dir" type="integer">251854984</label>
+			<label index="list_or_look_up" type="integer">19667991</label>
+			<label index="list_or_look_up_all" type="integer">169351776</label>
+			<label index="list_or_look_up_reviewed" type="integer">33011349</label>
+			<label index="look_up_button" type="integer">175676653</label>
+			<label index="privacy_notice_header" type="integer">8725908</label>
+			<label index="extensions_repository_group_by" type="integer">245654686</label>
+			<label index="extension_required_short" type="integer">5868421</label>
+			<label index="list_of_local_extensions" type="integer">149207239</label>
+			<label index="might_be_user_defined" type="integer">17648872</label>
+			<label index="only_on_this_server" type="integer">201322750</label>
+			<label index="no_matching_extensions" type="integer">154119575</label>
+			<label index="connect_to_ter" type="integer">123859820</label>
+			<label index="retrieve_update" type="integer">246441639</label>
+			<label index="ext_list_last_updated" type="integer">187496920</label>
+			<label index="in_repository" type="integer">179197715</label>
+			<label index="upload_t3x" type="integer">222196646</label>
+			<label index="upload_to_location" type="integer">84155771</label>
+			<label index="local_folder" type="integer">93147331</label>
+			<label index="global_folder" type="integer">227434510</label>
+			<label index="system_folder" type="integer">86517354</label>
+			<label index="overwrite_ext" type="integer">235295098</label>
+			<label index="upload_ext_file" type="integer">29656114</label>
+			<label index="upload_ext_directly" type="integer">165137845</label>
+			<label index="previous_page" type="integer">142659442</label>
+			<label index="next_page" type="integer">57982630</label>
+			<label index="showing_extensions_from_to" type="integer">17518688</label>
+			<label index="security_settings" type="integer">52894231</label>
+			<label index="show_exts_without_security_check" type="integer">239448483</label>
+			<label index="notice" type="integer">143897867</label>
+			<label index="security_notice" type="integer">19720336</label>
+			<label index="user_settings" type="integer">46681867</label>
+			<label index="enter_repository_username" type="integer">15456621</label>
+			<label index="enter_repository_password" type="integer">94246548</label>
+			<label index="repository_password_info" type="integer">152753913</label>
+			<label index="mirror_selection" type="integer">174106801</label>
+			<label index="mirror_list_url" type="integer">92924656</label>
+			<label index="mirror_select" type="integer">97150564</label>
+			<label index="mirror_list" type="integer">39410603</label>
+			<label index="mirror_list_reload" type="integer">265703385</label>
+			<label index="mirror_use" type="integer">181958704</label>
+			<label index="mirror_name" type="integer">77521672</label>
+			<label index="mirror_url" type="integer">241907994</label>
+			<label index="mirror_country" type="integer">93787849</label>
+			<label index="mirror_sponsored_by" type="integer">144405061</label>
+			<label index="mirror_use_random" type="integer">10642242</label>
+			<label index="enter_repository_url" type="integer">39840279</label>
+			<label index="repository_url_hint" type="integer">210228726</label>
+			<label index="repository_settings" type="integer">147968057</label>
+			<label index="translation_settings" type="integer">182771865</label>
+			<label index="languages_to_fetch" type="integer">227860784</label>
+			<label index="translation_info" type="integer">40145184</label>
+			<label index="translation_loaded_exts" type="integer">53451211</label>
+			<label index="translation_save_selection" type="integer">64560181</label>
+			<label index="translation_check_status_button" type="integer">60776383</label>
+			<label index="translation_update_button" type="integer">75831201</label>
+			<label index="translation_status" type="integer">66476878</label>
+			<label index="translation_check_status" type="integer">191787672</label>
+			<label index="translation_table_check" type="integer">181299927</label>
+			<label index="translation_extension_key" type="integer">260594172</label>
+			<label index="translation_checking_extension" type="integer">244656683</label>
+			<label index="translation_no_translation" type="integer">12077510</label>
+			<label index="translation_n_a" type="integer">58896629</label>
+			<label index="translation_not_installed" type="integer">88191540</label>
+			<label index="translation_status_unknown" type="integer">13742220</label>
+			<label index="translation_needs_update" type="integer">129833729</label>
+			<label index="translation_status_update" type="integer">121319786</label>
+			<label index="translation_is_ok" type="integer">142206942</label>
+			<label index="translation_status_ok" type="integer">235577377</label>
+			<label index="translation_check_done" type="integer">224042569</label>
+			<label index="translation_update_status" type="integer">25142961</label>
+			<label index="translation_table_update" type="integer">190043473</label>
+			<label index="translation_full_check_update" type="integer">176027065</label>
+			<label index="translation_updating_extension" type="integer">97380508</label>
+			<label index="translation_has_been_updated" type="integer">253868063</label>
+			<label index="translation_status_error" type="integer">215100333</label>
+			<label index="translation_problems" type="integer">130579038</label>
+			<label index="translation_status_could_not_fetch" type="integer">132966796</label>
+			<label index="translation_update_done" type="integer">178941472</label>
+			<label index="translation_unpacking_failed" type="integer">212684101</label>
+			<label index="ext_load_details_button" type="integer">198307679</label>
+			<label index="ext_or" type="integer">243385572</label>
+			<label index="ext_import_update_button" type="integer">167767871</label>
+			<label index="ext_import_update_to" type="integer">235443110</label>
+			<label index="ext_import_global" type="integer">90713888</label>
+			<label index="ext_import_local" type="integer">216551926</label>
+			<label index="ext_import_system" type="integer">91430039</label>
+			<label index="ext_import_overwrite" type="integer">28138109</label>
+			<label index="ext_import_folder_empty" type="integer">166091601</label>
+			<label index="ext_import_excluded_from_updates" type="integer">87260599</label>
+			<label index="ext_import_select_command" type="integer">136512744</label>
+			<label index="ext_import_remote_ext_details" type="integer">121596218</label>
+			<label index="ext_import_list_not_updated" type="integer">143828460</label>
+			<label index="ext_import_list_updated" type="integer">204695244</label>
+			<label index="ext_import_list_empty" type="integer">33622908</label>
+			<label index="ext_import_md5_not_updated" type="integer">180164424</label>
+			<label index="ext_import_extlist_updated_header" type="integer">258626655</label>
+			<label index="ext_import_extlist_updated" type="integer">138626244</label>
+			<label index="ext_import_list_unchanged_header" type="integer">163038498</label>
+			<label index="ext_import_list_unchanged" type="integer">228446867</label>
+			<label index="ext_import_ext_already_installed_loaded" type="integer">213295302</label>
+			<label index="ext_import_p_localconf" type="integer">127769165</label>
+			<label index="ext_import_ext_loaded" type="integer">114084702</label>
+			<label index="ext_import_ext_n_a" type="integer">250303950</label>
+			<label index="ext_import_ext_imported" type="integer">50373641</label>
+			<label index="ext_import_ext_not_loaded" type="integer">35774773</label>
+			<label index="ext_import_ext_n_a_rep" type="integer">49540167</label>
+			<label index="ext_import_file_not_uploaded" type="integer">215552403</label>
+			<label index="ext_import_file_empty" type="integer">12649753</label>
+			<label index="ext_import_ext_present_no_overwrite" type="integer">49486365</label>
+			<label index="ext_import_ext_present_nothing_done" type="integer">131208222</label>
+			<label index="ext_import_no_key" type="integer">3572407</label>
+			<label index="ext_import_wrong_file_format" type="integer">254074457</label>
+			<label index="ext_import_no_file" type="integer">215740718</label>
+			<label index="ext_import_file_not_created" type="integer">73877086</label>
+			<label index="ext_import_file_corrupted" type="integer">204936521</label>
+			<label index="ext_import_success" type="integer">178896799</label>
+			<label index="ext_import_success_folder" type="integer">6957019</label>
+			<label index="ext_import_no_conf_file" type="integer">21713265</label>
+			<label index="ext_import_ext_type" type="integer">223655273</label>
+			<label index="ext_import_cache_files_removed" type="integer">204195262</label>
+			<label index="ext_import_install_uninstall" type="integer">257003543</label>
+			<label index="ext_import_uninstall" type="integer">114893423</label>
+			<label index="ext_import_install" type="integer">151134537</label>
+			<label index="ext_import_imported" type="integer">44461259</label>
+			<label index="ext_import_close_check" type="integer">229495548</label>
+			<label index="ext_import_ext_path_different" type="integer">21150070</label>
+			<label index="ext_import_ext_only_here" type="integer">112802957</label>
+			<label index="ext_import_no_ext_key_files" type="integer">218646565</label>
+			<label index="ext_import_data_transfer" type="integer">168776807</label>
+			<label index="ext_import_no_install_here" type="integer">134927685</label>
+			<label index="ext_import_results" type="integer">238702995</label>
+			<label index="ext_details_ext" type="integer">195304692</label>
+			<label index="ext_details_new_tables_fields" type="integer">148906233</label>
+			<label index="ext_details_new_tables_fields_select" type="integer">28439434</label>
+			<label index="ext_details_installing" type="integer">148043876</label>
+			<label index="ext_details_db_needs_update" type="integer">58350234</label>
+			<label index="ext_details_remove_ext" type="integer">51743885</label>
+			<label index="ext_details_removing" type="integer">104972761</label>
+			<label index="ext_details_ext_installed_removed" type="integer">173634945</label>
+			<label index="ext_details_ext_installed_with_key" type="integer">43997959</label>
+			<label index="ext_details_ext_removed_with_key" type="integer">120183178</label>
+			<label index="ext_details_installed" type="integer">120793430</label>
+			<label index="ext_details_removed" type="integer">185018478</label>
+			<label index="ext_details_write_access_error" type="integer">146955917</label>
+			<label index="ext_details_write_error_localconf" type="integer">205619661</label>
+			<label index="ext_details_error_downloading" type="integer">217029478</label>
+			<label index="ext_details_md5_previous" type="integer">104209809</label>
+			<label index="ext_details_no_changes" type="integer">267908204</label>
+			<label index="ext_details_file" type="integer">179701564</label>
+			<label index="ext_details_md5_current" type="integer">3080474</label>
+			<label index="ext_details_md5_submitted" type="integer">173802982</label>
+			<label index="ext_details_saving_failed_changes_lost" type="integer">74365891</label>
+			<label index="ext_details_file_saved" type="integer">28797589</label>
+			<label index="ext_details_file_save_button" type="integer">56437089</label>
+			<label index="ext_details_saving_disabled" type="integer">233685625</label>
+			<label index="ext_details_cancel_button" type="integer">245659783</label>
+			<label index="ext_details_edit_file" type="integer">108591294</label>
+			<label index="ext_details_filesize_exceeded_kb" type="integer">235001786</label>
+			<label index="ext_details_file_too_large" type="integer">15265481</label>
+			<label index="ext_details_fatal_edit_error" type="integer">214043830</label>
+			<label index="ext_details_loaded_and_running" type="integer">133762175</label>
+			<label index="ext_details_remove_button" type="integer">260893984</label>
+			<label index="ext_details_not_loaded" type="integer">230023282</label>
+			<label index="ext_details_install_button" type="integer">197087479</label>
+			<label index="ext_details_always_loaded" type="integer">57359862</label>
+			<label index="ext_details_current_status" type="integer">104612007</label>
+			<label index="ext_details_update_needed" type="integer">82227477</label>
+			<label index="ext_details_notice_static_data" type="integer">95699794</label>
+			<label index="ext_details_configuration" type="integer">69003025</label>
+			<label index="ext_details_notice_clear_cache" type="integer">189444037</label>
+			<label index="ext_details_details" type="integer">45792851</label>
+			<label index="ext_details_no_unique_ext" type="integer">52240357</label>
+			<label index="ext_details_no_username" type="integer">85892427</label>
+			<label index="ext_details_upload_to_ter" type="integer">106500836</label>
+			<label index="ext_details_delete" type="integer">254438473</label>
+			<label index="ext_details_backup" type="integer">55577504</label>
+			<label index="ext_details_update_em_conf" type="integer">2487481</label>
+			<label index="ext_details_ext_files" type="integer">81081961</label>
+			<label index="ext_details_update" type="integer">60645742</label>
+			<label index="ext_details_no_update_object" type="integer">254610866</label>
+			<label index="reqInstExt_install_import" type="integer">106622691</label>
+			<label index="reqInstExt_ext_key" type="integer">81025106</label>
+			<label index="reqInstExt_import_install_selected" type="integer">177768116</label>
+			<label index="reqInstExt_return" type="integer">159972723</label>
+			<label index="reqInstExt_imp_inst_ext" type="integer">214585837</label>
+			<label index="updatesForm_make_updates" type="integer">204030221</label>
+			<label index="extDumpTables_tables_fields" type="integer">136519730</label>
+			<label index="extDumpTables_bytes_written_to" type="integer">93588748</label>
+			<label index="extDumpTables_dumping_content" type="integer">238891624</label>
+			<label index="extDumpTables_static_tables" type="integer">26535199</label>
+			<label index="extDumpTables_write_static" type="integer">167302837</label>
+			<label index="extDumpTables_dumping_db_structure" type="integer">267468222</label>
+			<label index="extDumpTables_tables" type="integer">267355363</label>
+			<label index="extDumpTables_solo_fields" type="integer">80931534</label>
+			<label index="extDumpTables_write_dump" type="integer">106021078</label>
+			<label index="extDumpTables_based_on" type="integer">43999233</label>
+			<label index="extDumpTables_based_on_one" type="integer">198656218</label>
+			<label index="extDumpTables_based_on_two" type="integer">37269275</label>
+			<label index="extDumpTables_bottomline" type="integer">35685627</label>
+			<label index="extFileList_file" type="integer">182590850</label>
+			<label index="extFileList_size" type="integer">183911828</label>
+			<label index="extFileList_edit" type="integer">202632783</label>
+			<label index="extFileList_download" type="integer">28790904</label>
+			<label index="extFileList_edit_file" type="integer">24704589</label>
+			<label index="extFileList_total" type="integer">107760721</label>
+			<label index="extDelete_ext_active" type="integer">128075070</label>
+			<label index="extDelete_wrong_scope" type="integer">196847440</label>
+			<label index="extDelete_remove_dir_failed" type="integer">156164089</label>
+			<label index="extDelete_removed_header" type="integer">43070362</label>
+			<label index="extDelete_removed" type="integer">27084555</label>
+			<label index="extDelete_sure" type="integer">234517821</label>
+			<label index="extDelete_from_server" type="integer">222962579</label>
+			<label index="extDelete_from_location" type="integer">229332189</label>
+			<label index="extDelete_backup" type="integer">181931095</label>
+			<label index="extDelete_neither_global_nor_local" type="integer">142688164</label>
+			<label index="extUpdateEMCONF_sure" type="integer">226564358</label>
+			<label index="extUpdateEMCONF_file" type="integer">216092307</label>
+			<label index="extUpdateEMCONF_info_changes" type="integer">27578713</label>
+			<label index="extUpdateEMCONF_info_reset" type="integer">49360377</label>
+			<label index="extBackup_select" type="integer">38305327</label>
+			<label index="extBackup_files" type="integer">88863235</label>
+			<label index="extBackup_download" type="integer">260197237</label>
+			<label index="extBackup_md5" type="integer">58246729</label>
+			<label index="extBackup_data_tables" type="integer">39924371</label>
+			<label index="extBackup_static_tables" type="integer">88860425</label>
+			<label index="extBackup_unexpected_error" type="integer">141888167</label>
+			<label index="extBackup_dump_table" type="integer">156641477</label>
+			<label index="extBackup_number_of_records" type="integer">80811233</label>
+			<label index="extBackup_table_not_there" type="integer">207721590</label>
+			<label index="extBackup_dump_all_tables" type="integer">67618672</label>
+			<label index="extBackup_download_all_data" type="integer">7558136</label>
+			<label index="extBackup_nothing_to_dump" type="integer">5752670</label>
+			<label index="extInfoArray_general_info" type="integer">49729751</label>
+			<label index="extInfoArray_title" type="integer">85903807</label>
+			<label index="extInfoArray_description" type="integer">218120871</label>
+			<label index="extInfoArray_author" type="integer">152306160</label>
+			<label index="extInfoArray_version" type="integer">164794579</label>
+			<label index="extInfoArray_category" type="integer">90868382</label>
+			<label index="extInfoArray_state" type="integer">25371920</label>
+			<label index="extInfoArray_shy" type="integer">21297338</label>
+			<label index="extInfoArray_internal" type="integer">124965201</label>
+			<label index="extInfoArray_depends_on" type="integer">169202552</label>
+			<label index="extInfoArray_conflicts_with" type="integer">183736461</label>
+			<label index="extInfoArray_suggests" type="integer">255969608</label>
+			<label index="extInfoArray_priority" type="integer">6238968</label>
+			<label index="extInfoArray_clear_cache" type="integer">126842261</label>
+			<label index="extInfoArray_incl_modules" type="integer">172813552</label>
+			<label index="extInfoArray_lock_type" type="integer">126575042</label>
+			<label index="extInfoArray_load_in_frontend" type="integer">207428021</label>
+			<label index="extInfoArray_modifies_tables" type="integer">156381722</label>
+			<label index="extInfoArray_inst_status" type="integer">224739582</label>
+			<label index="extInfoArray_inst_type" type="integer">174066315</label>
+			<label index="extInfoArray_inst_twice" type="integer">80256210</label>
+			<label index="extInfoArray_root_files" type="integer">156979189</label>
+			<label index="extInfoArray_table_error" type="integer">166375900</label>
+			<label index="extInfoArray_missing_fields" type="integer">195532222</label>
+			<label index="extInfoArray_static_table_error" type="integer">20752800</label>
+			<label index="extInfoArray_static_tables_missing_empty" type="integer">247351750</label>
+			<label index="extInfoArray_db_update_needed" type="integer">266753109</label>
+			<label index="extInfoArray_tables_ok" type="integer">26578429</label>
+			<label index="extInfoArray_db_requirements" type="integer">34910430</label>
+			<label index="extInfoArray_db_status" type="integer">252706479</label>
+			<label index="extInfoArray_flags" type="integer">29952933</label>
+			<label index="extInfoArray_config_template" type="integer">1492711</label>
+			<label index="extInfoArray_typoscript_files" type="integer">52446163</label>
+			<label index="extInfoArray_language_files" type="integer">113387872</label>
+			<label index="extInfoArray_upload_folder" type="integer">171115643</label>
+			<label index="extInfoArray_create_directories" type="integer">212018375</label>
+			<label index="extInfoArray_module_names" type="integer">45817047</label>
+			<label index="extInfoArray_class_names" type="integer">16276872</label>
+			<label index="extInfoArray_code_warnings" type="integer">141344744</label>
+			<label index="extInfoArray_dev_relevant" type="integer">103941342</label>
+			<label index="extInfoArray_annoyances" type="integer">2948419</label>
+			<label index="extInfoArray_exception" type="integer">190604010</label>
+			<label index="extInfoArray_difference_detected" type="integer">237273941</label>
+			<label index="extInfoArray_modified_files" type="integer">189691965</label>
+			<label index="extInfoArray_files_changed" type="integer">89037593</label>
+			<label index="extInfoArray_additional_fields" type="integer">184250327</label>
+			<label index="extInfoArray_double_installation_infotext" type="integer">113250667</label>
+			<label index="repositoryUploadForm_username" type="integer">230952458</label>
+			<label index="repositoryUploadForm_password" type="integer">60401354</label>
+			<label index="repositoryUploadForm_changelog" type="integer">42512237</label>
+			<label index="repositoryUploadForm_command" type="integer">261692860</label>
+			<label index="repositoryUploadForm_new_bugfix" type="integer">226687842</label>
+			<label index="repositoryUploadForm_new_sub_version" type="integer">26590187</label>
+			<label index="repositoryUploadForm_new_main_version" type="integer">212590824</label>
+			<label index="repositoryUploadForm_upload" type="integer">228933115</label>
+			<label index="listRowHeader_modifies_tables_short" type="integer">44577781</label>
+			<label index="listRowHeader_modules" type="integer">63120059</label>
+			<label index="listRowHeader_clear_cache_short" type="integer">255093955</label>
+			<label index="listRowHeader_tables_fields" type="integer">110568035</label>
+			<label index="listRowHeader_ts_files" type="integer">243899267</label>
+			<label index="listRowHeader_affects" type="integer">153760170</label>
+			<label index="listRowHeader_config" type="integer">130263348</label>
+			<label index="listRowHeader_locallang" type="integer">133143</label>
+			<label index="listRowHeader_classes" type="integer">255220180</label>
+			<label index="listRowHeader_changed_files" type="integer">128252877</label>
+			<label index="listRowHeader_ext_key" type="integer">263729793</label>
+			<label index="listRowHeader_download_short" type="integer">5673046</label>
+			<label index="listRowHeader_documentation_short" type="integer">197682187</label>
+			<label index="listRowHeader_type" type="integer">241539922</label>
+			<label index="listRowHeader_title_upload_date" type="integer">56768899</label>
+			<label index="listRowHeader_upload_date" type="integer">180205965</label>
+			<label index="listRowHeader_title_current_version" type="integer">1628925</label>
+			<label index="listRowHeader_current_version" type="integer">235122306</label>
+			<label index="listRowHeader_title_current_type" type="integer">244813433</label>
+			<label index="listRowHeader_current_type" type="integer">142396409</label>
+			<label index="listRowHeader_title_number_of_downloads" type="integer">98015568</label>
+			<label index="listRow_files" type="integer">147226768</label>
+			<label index="listRow_local_manual" type="integer">140882467</label>
+			<label index="helperFunction_install_extension" type="integer">23898918</label>
+			<label index="helperFunction_import_not_possible" type="integer">239500328</label>
+			<label index="detailedExtAnalysis_keys" type="integer">21987374</label>
+			<label index="detailedExtAnalysis_tables_are" type="integer">181376767</label>
+			<label index="detailedExtAnalysis_tables_are_missing" type="integer">245504065</label>
+			<label index="detailedExtAnalysis_tables_are_of_wrong_type" type="integer">115013556</label>
+			<label index="detailedExtAnalysis_static_tables_missing" type="integer">46226025</label>
+			<label index="detailedExtAnalysis_wrong_mod_path" type="integer">157447800</label>
+			<label index="detailedExtAnalysis_mconf_missing" type="integer">5829195</label>
+			<label index="detailedExtAnalysis_be_module_conf_missing" type="integer">9716461</label>
+			<label index="detailedExtAnalysis_module_folder_missing" type="integer">90307565</label>
+			<label index="detailedExtAnalysis_unconfigured_module" type="integer">79496732</label>
+			<label index="detailedExtAnalysis_module" type="integer">240514906</label>
+			<label index="detailedExtAnalysis_module_and_more" type="integer">103049215</label>
+			<label index="detailedExtAnalysis_loadTCA" type="integer">217466270</label>
+			<label index="detailedExtAnalysis_TCA" type="integer">255358179</label>
+			<label index="detailedExtAnalysis_plugin" type="integer">67748233</label>
+			<label index="detailedExtAnalysis_plugin_st43" type="integer">237971710</label>
+			<label index="detailedExtAnalysis_page_ts" type="integer">53016013</label>
+			<label index="detailedExtAnalysis_user_ts" type="integer">95774643</label>
+			<label index="detailedExtAnalysis_ts_setup" type="integer">91818744</label>
+			<label index="detailedExtAnalysis_ts_constants" type="integer">114180457</label>
+			<label index="detailedExtAnalysis_constants" type="integer">172054547</label>
+			<label index="detailedExtAnalysis_setup" type="integer">181548907</label>
+			<label index="detailedExtAnalysis_no_upload_folder" type="integer">157698144</label>
+			<label index="detailedExtAnalysis_class_ok" type="integer">61049133</label>
+			<label index="detailedExtAnalysis_class_not_ok" type="integer">230148868</label>
+			<label index="detailedExtAnalysis_xclass_ok" type="integer">157260932</label>
+			<label index="detailedExtAnalysis_xclass_no_include" type="integer">252303255</label>
+			<label index="detailedExtAnalysis_xclass_incorrect" type="integer">224853257</label>
+			<label index="detailedExtAnalysis_no_xclass_filename" type="integer">11661044</label>
+			<label index="detailedExtAnalysis_no_xclass_found" type="integer">216665656</label>
+			<label index="note_last_update2_new" type="integer">82608541</label>
+			<label index="double_inclusion" type="integer">3008643</label>
+			<label index="globalext" type="integer">61812468</label>
+			<label index="localext" type="integer">79708142</label>
+			<label index="sysext" type="integer">210174513</label>
+			<label index="write_protected" type="integer">77321665</label>
+			<label index="note_last_update_new" type="integer">208672109</label>
+			<label index="rmExtDir_could_not_be_deleted" type="integer">208849834</label>
+			<label index="rmExtDir_error_file" type="integer">76386441</label>
+			<label index="rmExtDir_error_files_left" type="integer">185438918</label>
+			<label index="rmExtDir_error_no_dir" type="integer">179728502</label>
+			<label index="rmExtDir_error_folders_left" type="integer">61182378</label>
+			<label index="rmExtDir_error" type="integer">64615700</label>
+			<label index="rmExtDir_error_unallowed_path" type="integer">118885</label>
+			<label index="clearMakeExtDir_no_ext_key" type="integer">250907226</label>
+			<label index="clearMakeExtDir_could_not_remove_dir" type="integer">116949687</label>
+			<label index="clearMakeExtDir_could_not_create_dir" type="integer">99357987</label>
+			<label index="clearMakeExtDir_no_dir" type="integer">12636497</label>
+			<label index="writeModPath_ok" type="integer">156254271</label>
+			<label index="writeModPath_notRequired" type="integer">213018075</label>
+			<label index="writeModPath_error" type="integer">229319633</label>
+			<label index="updateLocalEM_CONF_ok" type="integer">48938494</label>
+			<label index="updateLocalEM_CONF_not_writable" type="integer">76658812</label>
+			<label index="updateLocalEM_CONF_not_found" type="integer">130885846</label>
+			<label index="updateLocalEM_CONF_no_content" type="integer">95600466</label>
+			<label index="makeUploadArray_error_size" type="integer">230520773</label>
+			<label index="makeUploadArray_error_path" type="integer">160404840</label>
+			<label index="checkDependencies_ignored" type="integer">19679185</label>
+			<label index="checkDependencies_php_too_low" type="integer">200567565</label>
+			<label index="checkDependencies_ignore_requirement" type="integer">250675282</label>
+			<label index="checkDependencies_php_too_high" type="integer">25283235</label>
+			<label index="checkDependencies_typo3_too_low" type="integer">72361823</label>
+			<label index="checkDependencies_typo3_too_high" type="integer">163345837</label>
+			<label index="checkDependencies_ext_not_available" type="integer">116687645</label>
+			<label index="checkDependencies_import_ext" type="integer">99972580</label>
+			<label index="checkDependencies_import_now" type="integer">106020617</label>
+			<label index="checkDependencies_ignore_ext_requirement" type="integer">258534519</label>
+			<label index="checkDependencies_ext_not_installed" type="integer">9505568</label>
+			<label index="checkDependencies_install_now" type="integer">198030097</label>
+			<label index="checkDependencies_ext_too_low" type="integer">220944774</label>
+			<label index="checkDependencies_ext_too_high" type="integer">36100515</label>
+			<label index="checkDependencies_conflict_ignored" type="integer">133223709</label>
+			<label index="checkDependencies_conflict_remove" type="integer">113631678</label>
+			<label index="checkDependencies_remove_now" type="integer">132600585</label>
+			<label index="checkDependencies_ignore_conflict" type="integer">69161503</label>
+			<label index="checkDependencies_conflict_error" type="integer">74919087</label>
+			<label index="checkDependencies_suggestion_ignored" type="integer">161604272</label>
+			<label index="checkDependencies_suggest_import" type="integer">17290137</label>
+			<label index="checkDependencies_ignore_suggestion" type="integer">92971715</label>
+			<label index="checkDependencies_suggest_installation" type="integer">236916660</label>
+			<label index="checkDependencies_exts_suggested_by_ext" type="integer">205419283</label>
+			<label index="checkDependencies_try_again" type="integer">261184149</label>
+			<label index="removeExtFromList_dependency" type="integer">209015936</label>
+			<label index="removeExtFromList_dependency_error" type="integer">116573287</label>
+			<label index="checkUploadFolder_clear_cache" type="integer">127667564</label>
+			<label index="checkUploadFolder_clear_cache_requested" type="integer">166576000</label>
+			<label index="checkUploadFolder_clear_all_cache" type="integer">1516325</label>
+			<label index="checkUploadFolder_create_upload_folder" type="integer">161647780</label>
+			<label index="checkUploadFolder_upload_folder_needed" type="integer">103191162</label>
+			<label index="checkUploadFolder_create_dir" type="integer">231441814</label>
+			<label index="checkUploadFolder_error" type="integer">127868786</label>
+			<label index="checkUploadFolder_create_folder" type="integer">98311831</label>
+			<label index="checkUploadFolder_folder_needed" type="integer">13571863</label>
+			<label index="checkDBupdates_add_fields" type="integer">184763950</label>
+			<label index="checkDBupdates_changing_fields" type="integer">180374335</label>
+			<label index="checkDBupdates_add_tables" type="integer">88854222</label>
+			<label index="checkDBupdates_rows" type="integer">254407209</label>
+			<label index="checkDBupdates_table_exists" type="integer">149549498</label>
+			<label index="checkDBupdates_import_static_data" type="integer">122682699</label>
+			<label index="tsStyleConfigForm_note" type="integer">61891740</label>
+			<label index="tsStyleConfigForm_additional_config" type="integer">80874963</label>
+			<label index="dumpStaticTables_table_not_found" type="integer">174923541</label>
+			<label index="terCommunication_ext_version" type="integer">105755277</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="cz" type="array">
+			<label index="mlang_labels_tablabel">TYPO3 Extension Manager</label>
+			<label index="mlang_labels_tabdescr">Manages TYPO3 extensions from a central repository, which includes plugins, modules, class extensions, configuration code etc.</label>
+			<label index="mlang_tabs_tab">Ext Manager</label>
+			<label index="display_nle">Include not loaded extensions into listing</label>
+			<label index="display_files">Display the list of changed files</label>
+			<label index="header_upd_ext">There are new versions of the following extensions in the TER</label>
+			<label index="header_vers_ret">Version information</label>
+			<label index="tab_mod_name">Extension</label>
+			<label index="tab_mod_key">Ext-Key</label>
+			<label index="tab_mod_loc_ver">Local</label>
+			<label index="tab_mod_rem_ver">Remote</label>
+			<label index="tab_mod_comment">Upload-Comment</label>
+			<label index="tab_mod_location">Location</label>
+			<label index="msg_warn_diff">A difference between the originally installed version and the current was detected!</label>
+			<label index="msg_modified">Modified Files:</label>
+			<label index="note_last_update">Last update of the list of extensions:</label>
+			<label index="note_last_update2">To get and update the list, go to the section &quot;Import extensions&quot; and use the button &quot;Retrieve/Update&quot;.</label>
+			<label index="category_BE">Backend</label>
+			<label index="category_BE_modules">Backend Modules</label>
+			<label index="category_FE">Frontend</label>
+			<label index="category_FE_plugins">Frontend Plugins</label>
+			<label index="category_miscellanous">Miscellaneous</label>
+			<label index="category_services">Services</label>
+			<label index="category_templates">Templates</label>
+			<label index="category_examples">Examples</label>
+			<label index="category_documentation">Documentation</label>
+			<label index="state_alpha">Alpha</label>
+			<label index="state_beta">Beta</label>
+			<label index="state_stable">Stable</label>
+			<label index="state_experimental">Experimental</label>
+			<label index="state_test">Test</label>
+			<label index="state_obsolete">Obsolete</label>
+			<label index="state_exclude_from_updates">Exclude From Updates</label>
+			<label index="type_system">System</label>
+			<label index="type_global">Global</label>
+			<label index="type_local">Local</label>
+			<label index="descr_system">System extension (typo3/sysext/) - Always distributed with the TYPO3 source code (static).</label>
+			<label index="descr_global">Global extension (typo3/ext/) - Available for shared source on server (dynamic).</label>
+			<label index="descr_local">Local extension (typo3conf/ext/) - Local for this TYPO3 installation only (dynamic).</label>
+			<label index="privacy_notice">When you interact with the online repository, server information may be sent and stored in the repository for statistics.</label>
+			<label index="security_header">Found a security problem? Please get in touch with us!</label>
+			<label index="security_descr">If you think you have found a security issue in TYPO3 or an extension, please contact the %sTYPO3 security team%s! Thank you!</label>
+			<label index="menu_loaded_extensions">Loaded extensions</label>
+			<label index="menu_install_extensions">Install extensions</label>
+			<label index="menu_import_extensions">Import extensions</label>
+			<label index="menu_translation_handling">Translation handling</label>
+			<label index="menu_settings">Settings</label>
+			<label index="menu_extension_updates">Check for extension updates</label>
+			<label index="list_order_category">Category</label>
+			<label index="list_order_author">Author</label>
+			<label index="list_order_state">State</label>
+			<label index="list_order_type">Type</label>
+			<label index="show_details">Details</label>
+			<label index="show_description">Description</label>
+			<label index="show_more_details">More details</label>
+			<label index="show_technical">Technical (takes time!)</label>
+			<label index="show_validating">Validating (takes time!)</label>
+			<label index="show_changed">Changed? (takes time!)</label>
+			<label index="details_info">Information</label>
+			<label index="details_edit">Edit files</label>
+			<label index="details_backup_delete">Backup/Delete</label>
+			<label index="details_dump_db">Dump DB</label>
+			<label index="details_upload">Upload to TER</label>
+			<label index="details_update">UPDATE!</label>
+			<label index="header">Extension Manager</label>
+			<label index="group_by">Group by:</label>
+			<label index="show">Show:</label>
+			<label index="display_shy">Display shy extensions:</label>
+			<label index="only_my_ext">Only my extensions:</label>
+			<label index="show_obsolete">Show obsolete:</label>
+			<label index="go_back">Go back</label>
+			<label index="look_up">Look up:</label>
+			<label index="loaded_exts">Loaded Extensions</label>
+			<label index="how_to_install">If you want to use an extension in TYPO3, you should simply click the &quot;plus&quot; button %s .</label>
+			<label index="how_to_uninstall">Installed extensions can also be removed again - just click the remove button %s .</label>
+			<label index="available_extensions">Available Extensions - Grouped by: %s</label>
+			<label index="do_update">Update the extension in '%s' from online repository to server</label>
+			<label index="global">global</label>
+			<label index="local">local</label>
+			<label index="excluded_from_updates">The extension is excluded from updates! You can change this in the appropriate ext_emconf.php file.</label>
+			<label index="import_to_local_dir">Import this extension from online repository to the 'local' directory typo3conf/ext/.</label>
+			<label index="list_or_look_up">List or look up %s extensions</label>
+			<label index="list_or_look_up_all">all</label>
+			<label index="list_or_look_up_reviewed">reviewed</label>
+			<label index="look_up_button">Look up</label>
+			<label index="privacy_notice_header">PRIVACY NOTICE:</label>
+			<label index="extensions_repository_group_by">Extensions in TYPO3 Extension Repository (online) - Grouped by:</label>
+			<label index="extension_required_short">Rq</label>
+			<label index="list_of_local_extensions">This is the list of extensions which are available locally, but not in the repository.</label>
+			<label index="might_be_user_defined">They might be user-defined and should be prepended user_ then.</label>
+			<label index="only_on_this_server">Extensions found only on this server</label>
+			<label index="no_matching_extensions">No matching extensions found.</label>
+			<label index="connect_to_ter">Connect to the current mirror and retrieve the current list of available plugins from the TYPO3 Extension Repository.</label>
+			<label index="retrieve_update">Retrieve/Update</label>
+			<label index="ext_list_last_updated">(last update: %s)</label>
+			<label index="in_repository">Extensions in TYPO3 Extension Repository</label>
+			<label index="upload_t3x">Upload extension file (.t3x):</label>
+			<label index="upload_to_location">...to location:</label>
+			<label index="local_folder">Local (../typo3conf/ext/)</label>
+			<label index="global_folder">Global (typo3/ext/)</label>
+			<label index="system_folder">System (typo3/sysext/)</label>
+			<label index="overwrite_ext">Overwrite any existing extension!</label>
+			<label index="upload_ext_file">Upload extension file</label>
+			<label index="upload_ext_directly">Upload extension file directly (.t3x):</label>
+			<label index="previous_page">Prev page</label>
+			<label index="next_page">Next page</label>
+			<label index="showing_extensions_from_to">Showing extensions %s to %s</label>
+			<label index="security_settings">Security Settings</label>
+			<label index="show_exts_without_security_check">Enable extensions without review (basic security check):</label>
+			<label index="notice">Notice:</label>
+			<label index="security_notice">Make sure you know what consequences enabling this checkbox might have. Check the %sinformation on typo3.org about security reviews%s!</label>
+			<label index="user_settings">User Settings</label>
+			<label index="enter_repository_username">Enter repository username:</label>
+			<label index="enter_repository_password">Enter repository password:</label>
+			<label index="repository_password_info">This is &lt;em&gt;not&lt;/em&gt; your password to the TYPO3 backend! This user information is what is needed to log in at typo3.org with your account there!</label>
+			<label index="mirror_selection">Mirror selection</label>
+			<label index="mirror_list_url">Enter mirror list URL:</label>
+			<label index="mirror_select">Select a mirror from below. This list is built from the online mirror list retrieved from the URL above.</label>
+			<label index="mirror_list">Mirror list</label>
+			<label index="mirror_list_reload">Click here to reload the list.</label>
+			<label index="mirror_use">Use</label>
+			<label index="mirror_name">Name</label>
+			<label index="mirror_url">URL</label>
+			<label index="mirror_country">Country</label>
+			<label index="mirror_sponsored_by">Sponsored by</label>
+			<label index="mirror_use_random">Random (recommended!)</label>
+			<label index="enter_repository_url">Enter repository URL:</label>
+			<label index="repository_url_hint">If you set a repository URL, this overrides the use of a mirror. Use this to select a specific (private) repository.</label>
+			<label index="repository_settings">Repository settings</label>
+			<label index="translation_settings">Translation Settings</label>
+			<label index="languages_to_fetch">Languages to fetch:</label>
+			<label index="translation_info">For the selected languages the EM tries to download and install translation files if available, whenever an extension is installed. (This replaces the &lt;code&gt;csh_*&lt;/code&gt; extensions that were used to install core translations before TYPO3 version 4!)</label>
+			<label index="translation_loaded_exts">To request an update or installation for already loaded extensions, see below.</label>
+			<label index="translation_save_selection">Save selection</label>
+			<label index="translation_check_status_button">Check status against repository</label>
+			<label index="translation_update_button">Update from repository</label>
+			<label index="translation_status">Translation status</label>
+			<label index="translation_check_status">Checking translation status, please wait...</label>
+			<label index="translation_table_check">This table shows the status of the translations of the loaded extensions.</label>
+			<label index="translation_extension_key">Extension key</label>
+			<label index="translation_checking_extension">Checking translation status for extension \&quot;%s\&quot;...</label>
+			<label index="translation_no_translation">No translation available</label>
+			<label index="translation_n_a">N/A</label>
+			<label index="translation_not_installed">Not installed/Unknown</label>
+			<label index="translation_status_unknown">???</label>
+			<label index="translation_needs_update">Needs update</label>
+			<label index="translation_status_update">UPD</label>
+			<label index="translation_is_ok">Is up to date</label>
+			<label index="translation_status_ok">OK</label>
+			<label index="translation_check_done">Check done.</label>
+			<label index="translation_update_status">Updating translations, please wait...</label>
+			<label index="translation_table_update">This table shows the update results of the translations of the loaded extensions.</label>
+			<label index="translation_full_check_update">If you want to force a full check or update, delete the l10n zip-files from the typo3temp folder.</label>
+			<label index="translation_updating_extension">Updating translation for extension \&quot;%s\&quot;...</label>
+			<label index="translation_has_been_updated">Has been updated</label>
+			<label index="translation_status_error">ERR</label>
+			<label index="translation_problems">Possible reasons: Network problems, allow_url_fopen is off, cURL is not enabled in the Install Tool</label>
+			<label index="translation_status_could_not_fetch">Could not fetch translation status</label>
+			<label index="translation_update_done">Update done.</label>
+			<label index="translation_unpacking_failed">Unpacking the language pack failed!</label>
+			<label index="ext_load_details_button">Load details</label>
+			<label index="ext_or">or</label>
+			<label index="ext_import_update_button">Import/Update</label>
+			<label index="ext_import_update_to">to:</label>
+			<label index="ext_import_global">Global:</label>
+			<label index="ext_import_local">Local:</label>
+			<label index="ext_import_system">System:</label>
+			<label index="ext_import_overwrite">(OVERWRITE)</label>
+			<label index="ext_import_folder_empty">(empty)</label>
+			<label index="ext_import_excluded_from_updates">This extension is excluded from updates! You can change this in the ext_emconf.php file in the extension folder.</label>
+			<label index="ext_import_select_command">Select command</label>
+			<label index="ext_import_remote_ext_details">Remote Extension Details</label>
+			<label index="ext_import_list_not_updated">Error: The list could not be fetched from %s.</label>
+			<label index="ext_import_list_updated">The mirror list has been updated and now contains %s entries.</label>
+			<label index="ext_import_list_empty">The mirror list was not updated as it contained no entries.</label>
+			<label index="ext_import_md5_not_updated">Error: The extension MD5 sum could not be fetched from %s.</label>
+			<label index="ext_import_extlist_updated_header">Extension list updated</label>
+			<label index="ext_import_extlist_updated">The extensions list has been updated and now contains %s extension entries.</label>
+			<label index="ext_import_list_unchanged_header">No updates available</label>
+			<label index="ext_import_list_unchanged">The extension list has not changed remotely, it has thus not been fetched.</label>
+			<label index="ext_import_ext_already_installed_loaded">Extension already installed and loaded.</label>
+			<label index="ext_import_p_localconf">localconf.php is not writable!</label>
+			<label index="ext_import_ext_loaded">Extension was already installed, it has been loaded.</label>
+			<label index="ext_import_ext_n_a">Extension not available in matching version.</label>
+			<label index="ext_import_ext_imported">Extension has been imported from repository and loaded.</label>
+			<label index="ext_import_ext_not_loaded">Extension is in repository, but could not be loaded.</label>
+			<label index="ext_import_ext_n_a_rep">Extension not available in repository.</label>
+			<label index="ext_import_file_not_uploaded">File was not uploaded?!</label>
+			<label index="ext_import_file_empty">File is empty!</label>
+			<label index="ext_import_ext_present_no_overwrite">A version  of the extension was already present in '%s' and the overwrite flag was not set.</label>
+			<label index="ext_import_ext_present_nothing_done">So nothing was done...</label>
+			<label index="ext_import_no_key">No extension key in file. Strange...</label>
+			<label index="ext_import_wrong_file_format">Wrong file format. No data recognized, %s.</label>
+			<label index="ext_import_no_file">No file uploaded! Probably the file was too large for PHPs internal limit for uploadable files.</label>
+			<label index="ext_import_file_not_created">Error: File '%s' could not be created!!!</label>
+			<label index="ext_import_file_corrupted">Error: File '%s' MD5 was different from the md5 of the original file - so the file is corrupted!</label>
+			<label index="ext_import_success">Extension imported</label>
+			<label index="ext_import_success_folder">Folder created: %s</label>
+			<label index="ext_import_no_conf_file">Error: Could not find '%s'.</label>
+			<label index="ext_import_ext_type">Installation Type:</label>
+			<label index="ext_import_cache_files_removed">Cache-files are removed and will be re-written upon next hit.</label>
+			<label index="ext_import_install_uninstall">Install/Uninstall Extension:</label>
+			<label index="ext_import_uninstall">Uninstall extension</label>
+			<label index="ext_import_install">Install extension</label>
+			<label index="ext_import_imported">The extension has been imported.</label>
+			<label index="ext_import_close_check">Close window and recheck dependencies.</label>
+			<label index="ext_import_ext_path_different">Error: The extension path '%s' was different than expected...</label>
+			<label index="ext_import_ext_only_here">Error: The extension can only be installed in the path %s (lockType=%s).</label>
+			<label index="ext_import_no_ext_key_files">Error: No extension key!!! Why? - nobody knows... (Or there are no files in the file array...)</label>
+			<label index="ext_import_data_transfer">Error: The data transfer did not succeed. %s</label>
+			<label index="ext_import_no_install_here">Error: Installation is not allowed in this path (%s).</label>
+			<label index="ext_import_results">Extension import results</label>
+			<label index="ext_details_ext">Extension:</label>
+			<label index="ext_details_new_tables_fields">Before the extension can be installed the database needs to be updated with new tables or fields.</label>
+			<label index="ext_details_new_tables_fields_select">Please select which operations to perform:</label>
+			<label index="ext_details_installing">Installing %s:</label>
+			<label index="ext_details_db_needs_update">Database needs to be updated</label>
+			<label index="ext_details_remove_ext">Remove extension</label>
+			<label index="ext_details_removing">Removing %s:</label>
+			<label index="ext_details_ext_installed_removed">The extension has been %s.</label>
+			<label index="ext_details_ext_installed_with_key">The extension &quot;%s&quot; has been installed.</label>
+			<label index="ext_details_ext_removed_with_key">The extension &quot;%s&quot; has been removed.</label>
+			<label index="ext_details_installed">installed</label>
+			<label index="ext_details_removed">removed</label>
+			<label index="ext_details_write_access_error">Write access error</label>
+			<label index="ext_details_write_error_localconf">typo3conf/localconf.php seems not to be writable, so the extension cannot be installed automatically!</label>
+			<label index="ext_details_error_downloading">Error while trying to download the extension file...</label>
+			<label index="ext_details_md5_previous">MD5: %s (Previous File)</label>
+			<label index="ext_details_no_changes">No changes to the file detected!</label>
+			<label index="ext_details_file">File: %s</label>
+			<label index="ext_details_md5_current">MD5: %s (Current File)</label>
+			<label index="ext_details_md5_submitted">MD5: %s (Submitted File)</label>
+			<label index="ext_details_saving_failed_changes_lost">Saving failed, the content was not correctly written to disk. Changes have been lost!</label>
+			<label index="ext_details_file_saved">File saved.</label>
+			<label index="ext_details_file_save_button">Save file</label>
+			<label index="ext_details_saving_disabled">[SAVING IS DISABLED - It can be enabled with the $TYPO3_CONF_VARS['EXT']['noEdit'] flag]</label>
+			<label index="ext_details_cancel_button">Cancel</label>
+			<label index="ext_details_edit_file">Edit file:</label>
+			<label index="ext_details_filesize_exceeded_kb">Filesize exceeded %s KBytes</label>
+			<label index="ext_details_file_too_large">Files larger than %s KBytes are not allowed to be edited.</label>
+			<label index="ext_details_fatal_edit_error">Fatal Edit error: File '%s' was not inside the correct path of the TYPO3 Extension!</label>
+			<label index="ext_details_loaded_and_running">The extension is installed (loaded and running)!</label>
+			<label index="ext_details_remove_button">Click here to remove the extension:</label>
+			<label index="ext_details_not_loaded">The extension is &lt;strong&gt;not&lt;/strong&gt; installed yet.</label>
+			<label index="ext_details_install_button">Click here to install the extension:</label>
+			<label index="ext_details_always_loaded">This extension is entered in the TYPO3_CONF_VARS['SYS']['requiredExt'] list and is therefore always loaded.</label>
+			<label index="ext_details_current_status">Current status:</label>
+			<label index="ext_details_update_needed">Update needed:</label>
+			<label index="ext_details_notice_static_data">(Notice: &quot;Static data&quot; may not &lt;em&gt;need&lt;/em&gt; to be updated. You will only have to import static data each time you upgrade the extension.)</label>
+			<label index="ext_details_configuration">Configuration:</label>
+			<label index="ext_details_notice_clear_cache">(&lt;em&gt;Notice: You may need to clear the cache after the configuration of the extension. This is required if the extension adds TypoScript depending on these settings.&lt;/em&gt;)</label>
+			<label index="ext_details_details">Details:</label>
+			<label index="ext_details_no_unique_ext">The extensions has an extension key prefixed &quot;user_&quot; which indicates that it is a user-defined extension with no official unique identification. Therefore it cannot be uploaded.</label>
+			<label index="ext_details_no_username">You have not configured a default username/password yet. %sGo to &quot;Settings&quot;%s if you want to do that.</label>
+			<label index="ext_details_upload_to_ter">Upload extension to repository</label>
+			<label index="ext_details_delete">Delete</label>
+			<label index="ext_details_backup">Backup</label>
+			<label index="ext_details_update_em_conf">Update EM_CONF</label>
+			<label index="ext_details_ext_files">Extension files</label>
+			<label index="ext_details_update">Update:</label>
+			<label index="ext_details_no_update_object">No update object</label>
+			<label index="reqInstExt_install_import">Install/Import:</label>
+			<label index="reqInstExt_ext_key">Extension Key:</label>
+			<label index="reqInstExt_import_install_selected">Import and Install selected</label>
+			<label index="reqInstExt_return">Return</label>
+			<label index="reqInstExt_imp_inst_ext">Import/Install Extensions:</label>
+			<label index="updatesForm_make_updates">Make updates</label>
+			<label index="extDumpTables_tables_fields">Table and field structure required</label>
+			<label index="extDumpTables_bytes_written_to">%sbytes written to %s</label>
+			<label index="extDumpTables_dumping_content">Dumping table content for static tables:</label>
+			<label index="extDumpTables_static_tables">Static tables</label>
+			<label index="extDumpTables_write_static">Write current static table contents to ext_tables_static+adt.sql now!</label>
+			<label index="extDumpTables_dumping_db_structure">Dumping current database structure for:</label>
+			<label index="extDumpTables_tables">Tables:</label>
+			<label index="extDumpTables_solo_fields">Solo-fields:</label>
+			<label index="extDumpTables_write_dump">Write this dump to ext_tables.sql now!</label>
+			<label index="extDumpTables_based_on">This dump is based on two factors:</label>
+			<label index="extDumpTables_based_on_one">1) All tablenames in ext_tables.sql which are &lt;em&gt;not&lt;/em&gt; found in the &quot;modify_tables&quot; list in ext_emconf.php are dumped with the current database structure.</label>
+			<label index="extDumpTables_based_on_two">2) For any tablenames which &lt;em&gt;are&lt;/em&gt; listed in &quot;modify_tables&quot; all fields and keys found for the table in ext_tables.sql will be re-dumped with the fresh equivalents from the database.</label>
+			<label index="extDumpTables_bottomline">Bottomline is: Whole tables are dumped from database with no regard to which fields and keys are defined in ext_tables.sql. But for tables which are only modified, any NEW fields added to the database must in some form or the other exist in the ext_tables.sql file as well.</label>
+			<label index="extFileList_file">File:</label>
+			<label index="extFileList_size">Size:</label>
+			<label index="extFileList_edit">Edit:</label>
+			<label index="extFileList_download">Download...</label>
+			<label index="extFileList_edit_file">Edit file</label>
+			<label index="extFileList_total">Total:</label>
+			<label index="extDelete_ext_active">This extension is currently installed (loaded and active) and so cannot be deleted!</label>
+			<label index="extDelete_wrong_scope">You cannot delete (and install/update) extensions in the %s scope.</label>
+			<label index="extDelete_remove_dir_failed">ERROR: Could not remove extension directory '%s'. The following errors occurred:</label>
+			<label index="extDelete_removed_header">Extension deleted</label>
+			<label index="extDelete_removed">Removed extension in path '%s'!</label>
+			<label index="extDelete_sure">Are you sure you want to delete this extension from the server?</label>
+			<label index="extDelete_from_server">DELETE EXTENSION FROM SERVER</label>
+			<label index="extDelete_from_location">(in the '%s' location '%s'!)</label>
+			<label index="extDelete_backup">(Maybe you should make a backup first, see above.)</label>
+			<label index="extDelete_neither_global_nor_local">This extension is neither a global nor a local one and so cannot be removed.</label>
+			<label index="extUpdateEMCONF_sure">Are you sure you want to update EM_CONF?</label>
+			<label index="extUpdateEMCONF_file">Update extension EM_CONF file</label>
+			<label index="extUpdateEMCONF_info_changes">If files are changed, added or removed to an extension this is normally detected and displayed so you know that this extension has been altered locally and may need to be uploaded or at least not overwritten.</label>
+			<label index="extUpdateEMCONF_info_reset">Updating this file will reset this check.</label>
+			<label index="extBackup_select">Make selection:</label>
+			<label index="extBackup_files">Extension files:</label>
+			<label index="extBackup_download">Download extension '%s' as a file.</label>
+			<label index="extBackup_md5">MD5:</label>
+			<label index="extBackup_data_tables">Data tables:</label>
+			<label index="extBackup_static_tables">Static tables:</label>
+			<label index="extBackup_unexpected_error">An unexpected error has occurred. There are problems with your extension key or with the extension data.</label>
+			<label index="extBackup_dump_table">Dump table '%s'</label>
+			<label index="extBackup_number_of_records">%s records</label>
+			<label index="extBackup_table_not_there">Did not exist.</label>
+			<label index="extBackup_dump_all_tables">Dump all existing tables.</label>
+			<label index="extBackup_download_all_data">Download all data from:</label>
+			<label index="extBackup_nothing_to_dump">Nothing to dump...</label>
+			<label index="extInfoArray_general_info">General information:</label>
+			<label index="extInfoArray_title">Title:</label>
+			<label index="extInfoArray_description">Description:</label>
+			<label index="extInfoArray_author">Author:</label>
+			<label index="extInfoArray_version">Version:</label>
+			<label index="extInfoArray_category">Category:</label>
+			<label index="extInfoArray_state">State:</label>
+			<label index="extInfoArray_shy">Shy:</label>
+			<label index="extInfoArray_internal">Internal:</label>
+			<label index="extInfoArray_depends_on">Depends on:</label>
+			<label index="extInfoArray_conflicts_with">Conflicts with:</label>
+			<label index="extInfoArray_suggests">Suggests:</label>
+			<label index="extInfoArray_priority">Priority:</label>
+			<label index="extInfoArray_clear_cache">Clear cache:</label>
+			<label index="extInfoArray_incl_modules">Includes modules:</label>
+			<label index="extInfoArray_lock_type">Lock installation Type:</label>
+			<label index="extInfoArray_load_in_frontend">Load in frontend:</label>
+			<label index="extInfoArray_modifies_tables">Modifies tables:</label>
+			<label index="extInfoArray_inst_status">Installation status:</label>
+			<label index="extInfoArray_inst_type">Type of installation:</label>
+			<label index="extInfoArray_inst_twice">Double installation:</label>
+			<label index="extInfoArray_root_files">Root files:</label>
+			<label index="extInfoArray_table_error">Table error!</label>
+			<label index="extInfoArray_missing_fields">Probably one or more required fields/tables are missing in the database!</label>
+			<label index="extInfoArray_static_table_error">Static table error!</label>
+			<label index="extInfoArray_static_tables_missing_empty">The static tables are missing or empty!</label>
+			<label index="extInfoArray_db_update_needed">The database will need to be updated when this extension is installed.</label>
+			<label index="extInfoArray_tables_ok">All required tables are already in the database!</label>
+			<label index="extInfoArray_db_requirements">Database requirements:</label>
+			<label index="extInfoArray_db_status">Database status:</label>
+			<label index="extInfoArray_flags">Flags:</label>
+			<label index="extInfoArray_config_template">Config template:</label>
+			<label index="extInfoArray_typoscript_files">TypoScript files:</label>
+			<label index="extInfoArray_language_files">Language files:</label>
+			<label index="extInfoArray_upload_folder">Upload folder:</label>
+			<label index="extInfoArray_create_directories">Create directories:</label>
+			<label index="extInfoArray_module_names">Module names:</label>
+			<label index="extInfoArray_class_names">Class names:</label>
+			<label index="extInfoArray_code_warnings">Code warnings:</label>
+			<label index="extInfoArray_dev_relevant">(developer-relevant)</label>
+			<label index="extInfoArray_annoyances">Naming annoyances:</label>
+			<label index="extInfoArray_exception">[exception]</label>
+			<label index="extInfoArray_difference_detected">A difference between the originally installed version and the current one was detected!</label>
+			<label index="extInfoArray_modified_files">Modified files:</label>
+			<label index="extInfoArray_files_changed">Files changed:</label>
+			<label index="extInfoArray_additional_fields">Additional fields:</label>
+			<label index="extInfoArray_double_installation_infotext">A %s extension with this key is also available on the server, but cannot be loaded, because the &quot;%s&quot; version takes precedence.</label>
+			<label index="repositoryUploadForm_username">Repository Username:</label>
+			<label index="repositoryUploadForm_password">Repository Password:</label>
+			<label index="repositoryUploadForm_changelog">Changelog for upload:</label>
+			<label index="repositoryUploadForm_command">Upload command:</label>
+			<label index="repositoryUploadForm_new_bugfix">New bugfix version (latest %s)</label>
+			<label index="repositoryUploadForm_new_sub_version">New sub version (latest %s)</label>
+			<label index="repositoryUploadForm_new_main_version">New main version (latest %s)</label>
+			<label index="repositoryUploadForm_upload">Upload extension</label>
+			<label index="listRowHeader_modifies_tables_short">Mod. Tables:</label>
+			<label index="listRowHeader_modules">Modules:</label>
+			<label index="listRowHeader_clear_cache_short">Cl. Cache?</label>
+			<label index="listRowHeader_tables_fields">Tables/Fields:</label>
+			<label index="listRowHeader_ts_files">TS files:</label>
+			<label index="listRowHeader_affects">Affects:</label>
+			<label index="listRowHeader_config">Config:</label>
+			<label index="listRowHeader_locallang">locallang:</label>
+			<label index="listRowHeader_classes">Classes:</label>
+			<label index="listRowHeader_changed_files">Changed files:</label>
+			<label index="listRowHeader_ext_key">Extension key:</label>
+			<label index="listRowHeader_download_short">DL:</label>
+			<label index="listRowHeader_documentation_short">Doc:</label>
+			<label index="listRowHeader_type">Type:</label>
+			<label index="listRowHeader_title_upload_date">Date of upload of the repository version.</label>
+			<label index="listRowHeader_upload_date">Upload date:</label>
+			<label index="listRowHeader_title_current_version">Current version of the extension on this server. If printed bold, there is a newer version in the repository! Then you should upgrade.</label>
+			<label index="listRowHeader_current_version">Cur. Ver:</label>
+			<label index="listRowHeader_title_current_type">Current type of installation of the extension on this server.</label>
+			<label index="listRowHeader_current_type">Cur. Type:</label>
+			<label index="listRowHeader_title_number_of_downloads">Number of downloads: all versions/this version</label>
+			<label index="listRow_files">Files:</label>
+			<label index="listRow_local_manual">Local Open Office Manual</label>
+			<label index="helperFunction_install_extension">Install extension...</label>
+			<label index="helperFunction_import_not_possible">Import to both local and global path is disabled in TYPO3_CONF_VARS!</label>
+			<label index="detailedExtAnalysis_keys">keys</label>
+			<label index="detailedExtAnalysis_tables_are">Some tables or fields are %s!</label>
+			<label index="detailedExtAnalysis_tables_are_missing">missing</label>
+			<label index="detailedExtAnalysis_tables_are_of_wrong_type">of wrong type</label>
+			<label index="detailedExtAnalysis_static_tables_missing">Static table(s) missing!</label>
+			<label index="detailedExtAnalysis_wrong_mod_path">Configured TYPO3_MOD_PATH &quot;%s&quot; is different from &quot;%s&quot;, which it should be.</label>
+			<label index="detailedExtAnalysis_mconf_missing">No definition of MCONF[name] variable found inside!</label>
+			<label index="detailedExtAnalysis_be_module_conf_missing">Backend module conf file &quot;%s&quot; should exist, but does not!</label>
+			<label index="detailedExtAnalysis_module_folder_missing">Backend module folder &quot;%s&quot; should exist, but does not!</label>
+			<label index="detailedExtAnalysis_unconfigured_module">It seems like there is a backend module in &quot;%s&quot; which is not configured in ext_emconf.php.</label>
+			<label index="detailedExtAnalysis_module">Module</label>
+			<label index="detailedExtAnalysis_module_and_more">Module+</label>
+			<label index="detailedExtAnalysis_loadTCA">loadTCA</label>
+			<label index="detailedExtAnalysis_TCA">TCA</label>
+			<label index="detailedExtAnalysis_plugin">Plugin</label>
+			<label index="detailedExtAnalysis_plugin_st43">Plugin/ST43</label>
+			<label index="detailedExtAnalysis_page_ts">Page-TSconfig</label>
+			<label index="detailedExtAnalysis_user_ts">User-TSconfig</label>
+			<label index="detailedExtAnalysis_ts_setup">TS/Setup</label>
+			<label index="detailedExtAnalysis_ts_constants">TS/Constants</label>
+			<label index="detailedExtAnalysis_constants">Constants</label>
+			<label index="detailedExtAnalysis_setup">Setup</label>
+			<label index="detailedExtAnalysis_no_upload_folder">Error: Upload folder &quot;%s&quot; did not exist!</label>
+			<label index="detailedExtAnalysis_class_ok">Class filename &quot;%s&quot; contained the class &quot;%s&quot; just as it should.</label>
+			<label index="detailedExtAnalysis_class_not_ok">Class filename &quot;%s&quot; did NOT contain the class &quot;%s&quot;!</label>
+			<label index="detailedExtAnalysis_xclass_ok">'XCLASS OK in %s.</label>
+			<label index="detailedExtAnalysis_xclass_no_include">Couldn't find the include_once statement for XCLASS!</label>
+			<label index="detailedExtAnalysis_xclass_incorrect">The XCLASS filename-key &quot;%s&quot; was different from &quot;%s&quot; which it should have been!</label>
+			<label index="detailedExtAnalysis_no_xclass_filename">No XCLASS filename-key found in file &quot;%s&quot;. Maybe a regex coding error here...</label>
+			<label index="detailedExtAnalysis_no_xclass_found">No XCLASS inclusion code found in file &quot;%s&quot;.</label>
+			<label index="note_last_update2_new">To get and update the list, %sgo to the section &quot;Import extensions&quot; and use the button &quot;Retrieve/Update&quot;%s.</label>
+			<label index="double_inclusion">%1$s takes precedence over %2$s</label>
+			<label index="globalext">Globally installed extension</label>
+			<label index="localext">Locally installed extension</label>
+			<label index="sysext">System extension</label>
+			<label index="write_protected">(write-protected)</label>
+			<label index="note_last_update_new">Last update of the list of extensions: %s.</label>
+			<label index="rmExtDir_could_not_be_deleted">Error: &quot;%s&quot; could not be deleted!</label>
+			<label index="rmExtDir_error_file">Error: &quot;%s&quot; was either not a file, or it was equal to the removed directory or simply outside the removed directory &quot;%s&quot;!</label>
+			<label index="rmExtDir_error_files_left">Error: &quot;%s&quot; could not be removed (are there files left?)</label>
+			<label index="rmExtDir_error_no_dir">Error: &quot;%s&quot; was no directory!</label>
+			<label index="rmExtDir_error_folders_left">Error: Extension directory &quot;%s&quot; could not be removed (are there files or folders left?)</label>
+			<label index="rmExtDir_error">Error:</label>
+			<label index="rmExtDir_error_unallowed_path">Error: Unallowed path to remove:</label>
+			<label index="clearMakeExtDir_no_ext_key">FATAL ERROR: Extension key was not set for some VERY strange reason. Nothing done...</label>
+			<label index="clearMakeExtDir_could_not_remove_dir">ERROR: Could not remove extension directory &quot;%s&quot;. Reasons:</label>
+			<label index="clearMakeExtDir_could_not_create_dir">ERROR: Could not create extension directory &quot;%s&quot;!</label>
+			<label index="clearMakeExtDir_no_dir">ERROR: The extension install path &quot;%s&quot; was no directory!</label>
+			<label index="writeModPath_ok">TYPO3_MOD_PATH and $BACK_PATH were updated in &quot;%s&quot;!</label>
+			<label index="writeModPath_notRequired">Notice: Module &quot;%s&quot; uses module-API to register module, TYPO3_MOD_PATH and $BACK_PATH not required.</label>
+			<label index="writeModPath_error">Error: Either TYPO3_MOD_PATH or $BACK_PATH was not found in the &quot;%s&quot; file. You must manually configure that!</label>
+			<label index="updateLocalEM_CONF_ok">The file &quot;%s&quot; was updated with a cleaned up EM_CONF array.</label>
+			<label index="updateLocalEM_CONF_not_writable">Error: &quot;%s&quot; was not writable!</label>
+			<label index="updateLocalEM_CONF_not_found">Error: No file &quot;%s&quot; found. DON'T PANIC!</label>
+			<label index="updateLocalEM_CONF_no_content">No content to write to &quot;%s&quot;!</label>
+			<label index="makeUploadArray_error_size">Error: The total size of the uncompressed upload (%s) exceeds %s!</label>
+			<label index="makeUploadArray_error_path">Error: Extension path for extension &quot;%s&quot; not found!</label>
+			<label index="checkDependencies_ignored">Dependency on %s ignored as requested.</label>
+			<label index="checkDependencies_php_too_low">The running PHP version (%s) is lower than required (%s).</label>
+			<label index="checkDependencies_ignore_requirement">Ignore this version requirement</label>
+			<label index="checkDependencies_php_too_high">The running PHP version (%s) is higher than allowed (%s).</label>
+			<label index="checkDependencies_typo3_too_low">The running TYPO3 version (%s) is lower than required (%s).</label>
+			<label index="checkDependencies_typo3_too_high">The running TYPO3 version (%s) is higher than allowed (%s).</label>
+			<label index="checkDependencies_ext_not_available">The extension &quot;%s&quot; was not available in the system. Please import it from the TYPO3 Extension Repository.</label>
+			<label index="checkDependencies_import_ext">Import this extension to the 'local' directory typo3conf/ext/ from online repository.</label>
+			<label index="checkDependencies_import_now">Import now (opens a new window)</label>
+			<label index="checkDependencies_ignore_ext_requirement">Ignore this extension requirement</label>
+			<label index="checkDependencies_ext_not_installed">Extension &quot;%s&quot; (%s) was not installed. Please install it first.</label>
+			<label index="checkDependencies_install_now">Install now (opens a new window)</label>
+			<label index="checkDependencies_ext_too_low">The running version of extension &quot;%s&quot; (%s) is lower than required (%s).</label>
+			<label index="checkDependencies_ext_too_high">The running version of extension &quot;%s&quot; (%s) is higher than allowed (%s).</label>
+			<label index="checkDependencies_conflict_ignored">Conflict with %s ignored as requested.</label>
+			<label index="checkDependencies_conflict_remove">The extensions &quot;%s&quot; and &quot;%s&quot; (%s) will conflict with each other. Please remove &quot;%s&quot;, if you want to install &quot;%s&quot;.</label>
+			<label index="checkDependencies_remove_now">Remove now (opens a new window)</label>
+			<label index="checkDependencies_ignore_conflict">Ignore this conflict error</label>
+			<label index="checkDependencies_conflict_error">Conflict Error</label>
+			<label index="checkDependencies_suggestion_ignored">Suggestion of %s ignored as requested.</label>
+			<label index="checkDependencies_suggest_import">Extension &quot;%s&quot; was not available in the system. You may want to import it from the TYPO3 Extension Repository.</label>
+			<label index="checkDependencies_ignore_suggestion">Ignore this suggestion</label>
+			<label index="checkDependencies_suggest_installation">Extension &quot;%s&quot; (%s) was not installed. You may want to install it.</label>
+			<label index="checkDependencies_exts_suggested_by_ext">Extensions suggested by extension &quot;%s&quot;</label>
+			<label index="checkDependencies_try_again">Try again</label>
+			<label index="removeExtFromList_dependency">The extension(s) '%s' depend(s) on the extension you are trying to remove. The operation was not completed.</label>
+			<label index="removeExtFromList_dependency_error">Dependency Error</label>
+			<label index="checkUploadFolder_clear_cache">Clear cache</label>
+			<label index="checkUploadFolder_clear_cache_requested">This extension requests the cache to be cleared when it is installed/removed.</label>
+			<label index="checkUploadFolder_clear_all_cache">Clear all cache:</label>
+			<label index="checkUploadFolder_create_upload_folder">Create upload folder</label>
+			<label index="checkUploadFolder_upload_folder_needed">The extension requires the upload folder '%s' to exist.</label>
+			<label index="checkUploadFolder_create_dir">Create directory '%s':</label>
+			<label index="checkUploadFolder_error">ERROR: The path '%s' could not be created.</label>
+			<label index="checkUploadFolder_create_folder">Create folder</label>
+			<label index="checkUploadFolder_folder_needed">The extension requires the folder '%s' to exist.</label>
+			<label index="checkDBupdates_add_fields">Add fields</label>
+			<label index="checkDBupdates_changing_fields">Changing fields</label>
+			<label index="checkDBupdates_add_tables">Add tables</label>
+			<label index="checkDBupdates_rows">Rows:</label>
+			<label index="checkDBupdates_table_exists">Table exists!</label>
+			<label index="checkDBupdates_import_static_data">Import static data</label>
+			<label index="tsStyleConfigForm_note">Note</label>
+			<label index="tsStyleConfigForm_additional_config">This extension provides additional configuration options which become available once it is installed.</label>
+			<label index="dumpStaticTables_table_not_found">Fatal error: Table for dump not found in database...</label>
+			<label index="terCommunication_ext_version">The extension is now available in version %s.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2014-05-05T23:59:32Z" product-name="imagecycle" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="pi1_title" xml:space="preserve">
+        <source>Image cycle</source>
+      <target></target></trans-unit>
+      <trans-unit id="pi1_plus_wiz_description" xml:space="preserve">
+        <source>Add an image cycle to your content</source>
+      <target></target></trans-unit>
+      <trans-unit id="pi2_title" xml:space="preserve">
+        <source>Coin-Slider</source>
+      <target></target></trans-unit>
+      <trans-unit id="pi2_plus_wiz_description" xml:space="preserve">
+        <source>Add a Coin-Slider to your content</source>
+      <target></target></trans-unit>
+      <trans-unit id="pi3_title" xml:space="preserve">
+        <source>Nivo-Slider</source>
+      <target></target></trans-unit>
+      <trans-unit id="pi3_plus_wiz_description" xml:space="preserve">
+        <source>Add a Nivo-Slider to your content</source>
+      <target></target></trans-unit>
+      <trans-unit id="pi3_theme_info" xml:space="preserve">
+        <source>Theme information</source>
+      <target></target></trans-unit>
+      <trans-unit id="pi3_theme_orman" xml:space="preserve">
+        <source>Note: Images used in the slider for the Orman Theme should have the dimensions 568px x 268px</source>
+      <target></target></trans-unit>
+      <trans-unit id="pi3_theme_pascal" xml:space="preserve">
+        <source>Note: Images used in the slider for the Pascal Theme should have the dimensions 630px x 235px and works best with 4 images</source>
+      <target></target></trans-unit>
+      <trans-unit id="pi4_title" xml:space="preserve">
+        <source>Cross-Slider</source>
+      <target></target></trans-unit>
+      <trans-unit id="pi4_plus_wiz_description" xml:space="preserve">
+        <source>Add a Cross-Slider to your content</source>
+      <target></target></trans-unit>
+      <trans-unit id="pi5_title" xml:space="preserve">
+        <source>Slice-Box</source>
+      <target></target></trans-unit>
+      <trans-unit id="pi5_plus_wiz_description" xml:space="preserve">
+        <source>Add a Slice-Box to your content</source>
+      <target></target></trans-unit>
+      <trans-unit id="cms_layout.style" xml:space="preserve">
+        <source>Display: %s</source>
+      <target></target></trans-unit>
+      <trans-unit id="cms_layout.not_configured" xml:space="preserve">
+        <source>Plugin is not configured!</source>
+      <target></target></trans-unit>
+      <trans-unit id="cms_layout.from_ts" xml:space="preserve">
+        <source>From Typoscript</source>
+      <target></target></trans-unit>
+      <trans-unit id="extmng.classInnerHeader" xml:space="preserve">
+        <source>Warning!</source>
+      <target></target></trans-unit>
+      <trans-unit id="extmng.classInner" xml:space="preserve">
+        <source>You have to use the "Update"-Button below to ensure proper working for all functions in this extension.</source>
+      <target></target></trans-unit>
+    </body>
+  </file>
+</xliff>

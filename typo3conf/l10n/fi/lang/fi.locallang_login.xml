@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fi" type="array">
+			<label index="labels.username">Käyttäjätunnus</label>
+			<label index="labels.password">Salasana</label>
+			<label index="labels.interface">Käyttöliittymä</label>
+			<label index="labels.submitLogin">Kirjaudu sisään</label>
+			<label index="labels.submitLogout">Kirjaudu ulos</label>
+			<label index="availableInterfaces">Hallinnointinäkymä,Www-näkymä,Perinteinen hallinointinäkymä</label>
+			<label index="headline">Kirjaudu TYPO3-hallinnointiin ###SITENAME###</label>
+			<label index="info.about">Tämä on TYPO3-hallinnointiin kirjautuminen. Tarvitset käyttäjätunnuksen ja salasanan päästäksesi hallinnointiin. Jos olet sivuston ###SITENAME### vierailija, ole hyvä ja mene julkiselle sivustolle ###SITELINK###</label>
+			<label index="info.reset">Tyhjennä tämä lomake</label>
+			<label index="clear">Tyhjennä tämä kenttä!</label>
+			<label index="newsheadline">Tärkeä viesti:</label>
+			<label index="error.login">Kirjautumisesi ei onnistunut. Varmista, että kirjoitit käyttäjätunnuksesi ja salasanasi oikein, muista isot ja pienet kirjaimet.</label>
+			<label index="error.javascript">Ole hyvä ja aktivoi JavaScript!</label>
+			<label index="error.cookies">Ole hyvä ja aktivoi evästeet!</label>
+			<label index="error.capslock">Huomaa: isot kirjaimet päällä!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fi" type="array">
+			<label index="labels.username" type="integer">257964500</label>
+			<label index="labels.password" type="integer">231098347</label>
+			<label index="labels.interface" type="integer">63023816</label>
+			<label index="labels.submitLogin" type="integer">161344120</label>
+			<label index="labels.submitLogout" type="integer">185346853</label>
+			<label index="availableInterfaces" type="integer">191890180</label>
+			<label index="headline" type="integer">240658539</label>
+			<label index="info.about" type="integer">56042511</label>
+			<label index="info.reset" type="integer">155169575</label>
+			<label index="clear" type="integer">226364655</label>
+			<label index="newsheadline" type="integer">32077743</label>
+			<label index="error.login" type="integer">104583019</label>
+			<label index="error.javascript" type="integer">213516707</label>
+			<label index="error.cookies" type="integer">87593890</label>
+			<label index="error.capslock" type="integer">125844377</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fi" type="array">
+			<label index="labels.username">Username</label>
+			<label index="labels.password">Password</label>
+			<label index="labels.interface">Interface</label>
+			<label index="labels.submitLogin">Login</label>
+			<label index="labels.submitLogout">Log Out</label>
+			<label index="availableInterfaces">Backend,Front End,Traditional Backend</label>
+			<label index="headline">Login to the TYPO3 Backend on ###SITENAME###</label>
+			<label index="info.about">This is the backend login of TYPO3. You need username and password to access this administration interface. If you are a visitor of ###SITENAME###, please visit the public website: ###SITELINK###</label>
+			<label index="info.reset">Reset this form</label>
+			<label index="clear">Clear this field!</label>
+			<label index="newsheadline">Important Messages:</label>
+			<label index="error.login">Your login attempt did not succeed. Make sure to spell your username and password correctly, including upper/lowercase characters.</label>
+			<label index="error.javascript">Activate JavaScript, please!</label>
+			<label index="error.cookies">Activate Cookies, please!</label>
+			<label index="error.capslock">Attention: Caps lock enabled!</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="it" type="array">
+			<label index="mlang_labels_tablabel">TYPO3 Extension Manager</label>
+			<label index="mlang_labels_tabdescr">Consente di gestire le &quot;estensioni&quot; di TYPO3 attraverso un repository centrale che contiene plugin, moduli aggiuntivi, estensioni alle classi esistenti, codice di configurazione, ecc.</label>
+			<label index="mlang_tabs_tab">Ext Manager</label>
+			<label index="category_BE">Backend</label>
+			<label index="category_BE_modules">Moduli Backend</label>
+			<label index="category_FE">Frontend</label>
+			<label index="category_FE_plugins">Plugins Frontend</label>
+			<label index="category_miscellanous">Vari</label>
+			<label index="category_services">Servizi</label>
+			<label index="category_templates">Templates</label>
+			<label index="category_examples">Esempi</label>
+			<label index="category_documentation">Documentazione</label>
+			<label index="state_alpha">Alpha</label>
+			<label index="state_beta">Beta</label>
+			<label index="state_stable">Stabile</label>
+			<label index="state_experimental">Sperimentale</label>
+			<label index="state_test">Test</label>
+			<label index="state_obsolete">Obsoleto</label>
+			<label index="state_exclude_from_updates">Escludi dagli aggiornamenti</label>
+			<label index="type_system">Sistema</label>
+			<label index="type_global">Globale</label>
+			<label index="type_local">Locale</label>
+			<label index="security_header">Hai trovato un problema di sicurezza? Contattaci!</label>
+			<label index="menu_loaded_extensions">Estensioni caricate</label>
+			<label index="menu_install_extensions">Installa estensioni</label>
+			<label index="menu_import_extensions">Importa estensioni</label>
+			<label index="menu_translation_handling">Gestione Traduzioni</label>
+			<label index="menu_settings">Configurazione</label>
+			<label index="menu_extension_updates">Verifica aggiornamenti</label>
+			<label index="list_order_category">Categoria</label>
+			<label index="list_order_author">Autore</label>
+			<label index="list_order_state">Stato</label>
+			<label index="list_order_type">Tipo</label>
+			<label index="show_details">Dettagli</label>
+			<label index="show_description">Descrizione</label>
+			<label index="show_more_details">Maggiori dettagli</label>
+			<label index="details_info">Informazioni</label>
+			<label index="details_edit">Modifica files</label>
+			<label index="details_backup_delete">Backup / Elimina</label>
+			<label index="details_dump_db">Esporta DB</label>
+			<label index="details_upload">Carica nel TER</label>
+			<label index="details_update">AGGIORNA!</label>
+			<label index="header">Gestione Estensioni</label>
+			<label index="group_by">Raggruppa per:</label>
+			<label index="show">Mostra</label>
+			<label index="display_shy">Mostra estensioni di sistema:</label>
+			<label index="only_my_ext">Solo le mie estensioni:</label>
+			<label index="show_obsolete">Mostra obsolete:</label>
+			<label index="go_back">Torna indietro</label>
+			<label index="loaded_exts">Estensioni caricate:</label>
+			<label index="global">globale</label>
+			<label index="local">locale</label>
+			<label index="list_or_look_up_all">tutte</label>
+			<label index="list_or_look_up_reviewed">revisionate</label>
+			<label index="translation_save_selection">Salva selezione</label>
+			<label index="translation_update_button">Aggiorna dal repository</label>
+			<label index="translation_status">Stato traduzione</label>
+			<label index="translation_check_status">Controllando lo stato delle traduzioni, attendere prego...</label>
+			<label index="translation_no_translation">Traduzione non disponibile</label>
+			<label index="translation_not_installed">Non installata</label>
+			<label index="translation_status_unknown">???</label>
+			<label index="translation_needs_update">Necessita aggiornamento</label>
+			<label index="translation_is_ok">E' aggiornata</label>
+			<label index="translation_status_ok">OK</label>
+			<label index="translation_check_done">Verifica eseguita.</label>
+			<label index="translation_update_done">Aggiornamento eseguito.</label>
+			<label index="ext_or">o</label>
+			<label index="ext_import_update_button">Importa/Aggiorna</label>
+			<label index="ext_import_update_to">a:</label>
+			<label index="ext_import_global">Globale:</label>
+			<label index="ext_import_local">Locale:</label>
+			<label index="ext_import_system">Sistema:</label>
+			<label index="ext_import_overwrite">(SOVRASCRIVI)</label>
+			<label index="ext_import_folder_empty">(vuota)</label>
+			<label index="ext_import_select_command">Seleziona comando</label>
+			<label index="ext_import_extlist_updated_header">Lista estensioni aggiornata</label>
+			<label index="ext_import_uninstall">Rimuovi estensione</label>
+			<label index="ext_import_install">Installa estensione</label>
+			<label index="ext_details_ext">Estensione:</label>
+			<label index="ext_details_remove_ext">Rimuovi estensione</label>
+			<label index="ext_details_removing">RImuovendo %s:</label>
+			<label index="ext_details_ext_installed_removed">L'estensione è stata %s.</label>
+			<label index="ext_details_installed">installata</label>
+			<label index="ext_details_removed">rimossa</label>
+			<label index="ext_details_write_access_error">Errore in accesso per scrittura</label>
+			<label index="ext_details_file_saved">File salvato</label>
+			<label index="ext_details_file_save_button">Salva file</label>
+			<label index="ext_details_edit_file">Modifica file:</label>
+			<label index="ext_details_remove_button">Clicca qui per rimuovere l'estensione:</label>
+			<label index="ext_details_current_status">Stato attuale:</label>
+			<label index="ext_details_update_needed">Aggiornamento necessario:</label>
+			<label index="ext_details_upload_to_ter">Carica estensione nel repository</label>
+			<label index="ext_details_delete">Elimina</label>
+			<label index="ext_details_backup">Backup</label>
+			<label index="ext_details_update">Aggiorna:</label>
+			<label index="reqInstExt_install_import">Installa/Aggiorna:</label>
+			<label index="reqInstExt_imp_inst_ext">Importa/Installa Estensioni:</label>
+			<label index="updatesForm_make_updates">Effettua aggiornamenti</label>
+			<label index="extDumpTables_tables">Tabelle:</label>
+			<label index="extInfoArray_title">Titolo:</label>
+			<label index="extInfoArray_description">Descrizione:</label>
+			<label index="extInfoArray_author">Autore:</label>
+			<label index="extInfoArray_version">Versione:</label>
+			<label index="extInfoArray_category">Categoria:</label>
+			<label index="extInfoArray_state">Stato:</label>
+			<label index="extInfoArray_internal">Interna:</label>
+			<label index="extInfoArray_depends_on">Dipende da:</label>
+			<label index="extInfoArray_conflicts_with">Conflitto con:</label>
+			<label index="extInfoArray_suggests">Suggerimenti:</label>
+			<label index="extInfoArray_priority">Priorità:</label>
+			<label index="extInfoArray_clear_cache">Cancella cache:</label>
+			<label index="listRowHeader_modules">Moduli:</label>
+			<label index="checkDependencies_install_now">Installa ora (apre nuova finestra)</label>
+			<label index="checkUploadFolder_create_folder">Crea directory</label>
+			<label index="checkDBupdates_add_fields">Aggiungi campi</label>
+			<label index="checkDBupdates_changing_fields">Modifica campi</label>
+			<label index="checkDBupdates_add_tables">Aggiungi tabelle</label>
+			<label index="tsStyleConfigForm_note">Nota</label>
+			<label index="display_nle">Includi nella lista anche le estensioni non caricate</label>
+			<label index="display_files">Mostra la lista dei files modificati</label>
+			<label index="header_upd_ext">Ci sono nuove versioni delle seguenti estensioni</label>
+			<label index="header_vers_ret">Informazioni sulla versione</label>
+			<label index="tab_mod_name">Estensione</label>
+			<label index="tab_mod_key">Ext-Key</label>
+			<label index="tab_mod_loc_ver">Locale</label>
+			<label index="tab_mod_rem_ver">Remoto</label>
+			<label index="tab_mod_comment">Ultimo commento</label>
+			<label index="tab_mod_location">Locazione</label>
+			<label index="msg_warn_diff">C'è una differenza tra la versione originale e quella attualmente installata!</label>
+			<label index="msg_modified">Files modificati</label>
+			<label index="write_protected">(protetto in scrittura)</label>
+			<label index="note_last_update">Ultimo aggiornamento all'elenco delle estensioni:</label>
+			<label index="note_last_update_new">Ultimo aggiornamento all'elenco delle estensioni: %s.</label>
+			<label index="globalext">Estensione installata globale</label>
+			<label index="localext">Estensione installata locale</label>
+			<label index="sysext">Estensione di sistema</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="it" type="array">
+			<label index="mlang_labels_tablabel" type="integer">107630623</label>
+			<label index="mlang_labels_tabdescr" type="integer">61213035</label>
+			<label index="mlang_tabs_tab" type="integer">199372037</label>
+			<label index="tab_mod_name" type="integer">104746642</label>
+			<label index="tab_mod_key" type="integer">13174148</label>
+			<label index="tab_mod_loc_ver" type="integer">84509186</label>
+			<label index="tab_mod_rem_ver" type="integer">260376821</label>
+			<label index="tab_mod_comment" type="integer">111200332</label>
+			<label index="tab_mod_location" type="integer">216383317</label>
+			<label index="msg_modified" type="integer">76649526</label>
+			<label index="note_last_update" type="integer">21754082</label>
+			<label index="display_nle" type="integer">76478189</label>
+			<label index="display_files" type="integer">249361233</label>
+			<label index="header_upd_ext" type="integer">181851683</label>
+			<label index="header_vers_ret" type="integer">56356629</label>
+			<label index="msg_warn_diff" type="integer">64279198</label>
+			<label index="category_BE" type="integer">48506818</label>
+			<label index="category_BE_modules" type="integer">39991288</label>
+			<label index="category_FE" type="integer">228047462</label>
+			<label index="category_FE_plugins" type="integer">41676017</label>
+			<label index="category_miscellanous" type="integer">59226864</label>
+			<label index="category_services" type="integer">160604400</label>
+			<label index="category_templates" type="integer">132093617</label>
+			<label index="category_examples" type="integer">267895036</label>
+			<label index="category_documentation" type="integer">95866758</label>
+			<label index="state_alpha" type="integer">101917333</label>
+			<label index="state_beta" type="integer">12090726</label>
+			<label index="state_stable" type="integer">262385651</label>
+			<label index="state_experimental" type="integer">117749078</label>
+			<label index="state_test" type="integer">13354593</label>
+			<label index="state_obsolete" type="integer">247663651</label>
+			<label index="state_exclude_from_updates" type="integer">143888087</label>
+			<label index="type_system" type="integer">172350102</label>
+			<label index="type_global" type="integer">80504452</label>
+			<label index="type_local" type="integer">84509186</label>
+			<label index="security_header" type="integer">117854119</label>
+			<label index="menu_loaded_extensions" type="integer">260059038</label>
+			<label index="menu_install_extensions" type="integer">32676540</label>
+			<label index="menu_import_extensions" type="integer">146373137</label>
+			<label index="menu_translation_handling" type="integer">145144065</label>
+			<label index="menu_settings" type="integer">256864370</label>
+			<label index="menu_extension_updates" type="integer">25562123</label>
+			<label index="list_order_category" type="integer">61717939</label>
+			<label index="list_order_author" type="integer">173111111</label>
+			<label index="list_order_state" type="integer">74066497</label>
+			<label index="list_order_type" type="integer">169845367</label>
+			<label index="show_details" type="integer">65812061</label>
+			<label index="show_description" type="integer">190479069</label>
+			<label index="show_more_details" type="integer">45443936</label>
+			<label index="details_info" type="integer">176340495</label>
+			<label index="details_edit" type="integer">152858234</label>
+			<label index="details_backup_delete" type="integer">212437715</label>
+			<label index="details_dump_db" type="integer">256199650</label>
+			<label index="details_upload" type="integer">24268842</label>
+			<label index="details_update" type="integer">6145480</label>
+			<label index="header" type="integer">183301804</label>
+			<label index="group_by" type="integer">103901916</label>
+			<label index="show" type="integer">152556645</label>
+			<label index="display_shy" type="integer">161534753</label>
+			<label index="only_my_ext" type="integer">127072968</label>
+			<label index="show_obsolete" type="integer">215318356</label>
+			<label index="go_back" type="integer">36398395</label>
+			<label index="loaded_exts" type="integer">240199548</label>
+			<label index="global" type="integer">164038963</label>
+			<label index="local" type="integer">257809136</label>
+			<label index="translation_needs_update" type="integer">129833729</label>
+			<label index="ext_or" type="integer">243385572</label>
+			<label index="ext_import_overwrite" type="integer">28138109</label>
+			<label index="ext_import_uninstall" type="integer">114893423</label>
+			<label index="ext_import_install" type="integer">151134537</label>
+			<label index="ext_details_ext" type="integer">195304692</label>
+			<label index="ext_details_remove_ext" type="integer">51743885</label>
+			<label index="ext_details_delete" type="integer">254438473</label>
+			<label index="ext_details_backup" type="integer">55577504</label>
+			<label index="ext_details_update" type="integer">60645742</label>
+			<label index="checkDependencies_install_now" type="integer">198030097</label>
+			<label index="note_last_update_new" type="integer">208672109</label>
+			<label index="globalext" type="integer">61812468</label>
+			<label index="localext" type="integer">79708142</label>
+			<label index="sysext" type="integer">210174513</label>
+			<label index="list_or_look_up_all" type="integer">169351776</label>
+			<label index="list_or_look_up_reviewed" type="integer">33011349</label>
+			<label index="ext_details_removing" type="integer">104972761</label>
+			<label index="ext_details_ext_installed_removed" type="integer">173634945</label>
+			<label index="ext_details_installed" type="integer">120793430</label>
+			<label index="ext_details_removed" type="integer">185018478</label>
+			<label index="ext_details_write_access_error" type="integer">146955917</label>
+			<label index="ext_details_file_saved" type="integer">28797589</label>
+			<label index="ext_details_file_save_button" type="integer">56437089</label>
+			<label index="ext_details_edit_file" type="integer">108591294</label>
+			<label index="ext_details_remove_button" type="integer">260893984</label>
+			<label index="ext_details_upload_to_ter" type="integer">106500836</label>
+			<label index="reqInstExt_imp_inst_ext" type="integer">214585837</label>
+			<label index="updatesForm_make_updates" type="integer">204030221</label>
+			<label index="extDumpTables_tables" type="integer">267355363</label>
+			<label index="extInfoArray_title" type="integer">85903807</label>
+			<label index="extInfoArray_description" type="integer">218120871</label>
+			<label index="extInfoArray_author" type="integer">152306160</label>
+			<label index="extInfoArray_version" type="integer">164794579</label>
+			<label index="extInfoArray_category" type="integer">90868382</label>
+			<label index="extInfoArray_state" type="integer">25371920</label>
+			<label index="extInfoArray_internal" type="integer">124965201</label>
+			<label index="extInfoArray_depends_on" type="integer">169202552</label>
+			<label index="extInfoArray_conflicts_with" type="integer">183736461</label>
+			<label index="extInfoArray_suggests" type="integer">255969608</label>
+			<label index="extInfoArray_priority" type="integer">6238968</label>
+			<label index="extInfoArray_clear_cache" type="integer">126842261</label>
+			<label index="listRowHeader_modules" type="integer">63120059</label>
+			<label index="checkUploadFolder_create_folder" type="integer">98311831</label>
+			<label index="checkDBupdates_add_fields" type="integer">184763950</label>
+			<label index="checkDBupdates_changing_fields" type="integer">180374335</label>
+			<label index="checkDBupdates_add_tables" type="integer">88854222</label>
+			<label index="tsStyleConfigForm_note" type="integer">61891740</label>
+			<label index="write_protected" type="integer">77321665</label>
+			<label index="translation_save_selection" type="integer">64560181</label>
+			<label index="translation_update_button" type="integer">75831201</label>
+			<label index="translation_status" type="integer">66476878</label>
+			<label index="translation_check_status" type="integer">191787672</label>
+			<label index="translation_no_translation" type="integer">12077510</label>
+			<label index="translation_not_installed" type="integer">88191540</label>
+			<label index="translation_status_unknown" type="integer">13742220</label>
+			<label index="translation_is_ok" type="integer">142206942</label>
+			<label index="translation_status_ok" type="integer">235577377</label>
+			<label index="translation_check_done" type="integer">224042569</label>
+			<label index="translation_update_done" type="integer">178941472</label>
+			<label index="ext_import_update_button" type="integer">167767871</label>
+			<label index="ext_import_update_to" type="integer">235443110</label>
+			<label index="ext_import_global" type="integer">90713888</label>
+			<label index="ext_import_local" type="integer">216551926</label>
+			<label index="ext_import_system" type="integer">91430039</label>
+			<label index="ext_import_folder_empty" type="integer">166091601</label>
+			<label index="ext_import_select_command" type="integer">136512744</label>
+			<label index="ext_import_extlist_updated_header" type="integer">258626655</label>
+			<label index="ext_details_current_status" type="integer">104612007</label>
+			<label index="ext_details_update_needed" type="integer">82227477</label>
+			<label index="reqInstExt_install_import" type="integer">106622691</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="it" type="array">
+			<label index="mlang_labels_tablabel">TYPO3 Extension Manager</label>
+			<label index="mlang_labels_tabdescr">Manages TYPO3 extensions from a central repository, which includes plugins, modules, class extensions, configuration code etc.</label>
+			<label index="mlang_tabs_tab">Ext Manager</label>
+			<label index="tab_mod_name">Extension</label>
+			<label index="tab_mod_key">Ext-Key</label>
+			<label index="tab_mod_loc_ver">Local</label>
+			<label index="tab_mod_rem_ver">Remote</label>
+			<label index="tab_mod_comment">Upload-Comment</label>
+			<label index="tab_mod_location">Location</label>
+			<label index="msg_modified">Modified Files:</label>
+			<label index="note_last_update">Last update of the list of extensions:</label>
+			<label index="display_nle">Include not loaded extensions into listing</label>
+			<label index="display_files">Display the list of changed files</label>
+			<label index="header_upd_ext">There are new versions of the following extensions in the TER</label>
+			<label index="header_vers_ret">Version information</label>
+			<label index="msg_warn_diff">A difference between the originally installed version and the current was detected!</label>
+			<label index="category_BE">Backend</label>
+			<label index="category_BE_modules">Backend Modules</label>
+			<label index="category_FE">Frontend</label>
+			<label index="category_FE_plugins">Frontend Plugins</label>
+			<label index="category_miscellanous">Miscellaneous</label>
+			<label index="category_services">Services</label>
+			<label index="category_templates">Templates</label>
+			<label index="category_examples">Examples</label>
+			<label index="category_documentation">Documentation</label>
+			<label index="state_alpha">Alpha</label>
+			<label index="state_beta">Beta</label>
+			<label index="state_stable">Stable</label>
+			<label index="state_experimental">Experimental</label>
+			<label index="state_test">Test</label>
+			<label index="state_obsolete">Obsolete</label>
+			<label index="state_exclude_from_updates">Exclude From Updates</label>
+			<label index="type_system">System</label>
+			<label index="type_global">Global</label>
+			<label index="type_local">Local</label>
+			<label index="security_header">Found a security problem? Please get in touch with us!</label>
+			<label index="menu_loaded_extensions">Loaded extensions</label>
+			<label index="menu_install_extensions">Install extensions</label>
+			<label index="menu_import_extensions">Import extensions</label>
+			<label index="menu_translation_handling">Translation handling</label>
+			<label index="menu_settings">Settings</label>
+			<label index="menu_extension_updates">Check for extension updates</label>
+			<label index="list_order_category">Category</label>
+			<label index="list_order_author">Author</label>
+			<label index="list_order_state">State</label>
+			<label index="list_order_type">Type</label>
+			<label index="show_details">Details</label>
+			<label index="show_description">Description</label>
+			<label index="show_more_details">More details</label>
+			<label index="details_info">Information</label>
+			<label index="details_edit">Edit files</label>
+			<label index="details_backup_delete">Backup/Delete</label>
+			<label index="details_dump_db">Dump DB</label>
+			<label index="details_upload">Upload to TER</label>
+			<label index="details_update">UPDATE!</label>
+			<label index="header">Extension Manager</label>
+			<label index="group_by">Group by:</label>
+			<label index="show">Show:</label>
+			<label index="display_shy">Display shy extensions:</label>
+			<label index="only_my_ext">Only my extensions:</label>
+			<label index="show_obsolete">Show obsolete:</label>
+			<label index="go_back">Go back</label>
+			<label index="loaded_exts">Loaded Extensions</label>
+			<label index="global">global</label>
+			<label index="local">local</label>
+			<label index="translation_needs_update">Needs update</label>
+			<label index="ext_or">or</label>
+			<label index="ext_import_overwrite">(OVERWRITE)</label>
+			<label index="ext_import_uninstall">Uninstall extension</label>
+			<label index="ext_import_install">Install extension</label>
+			<label index="ext_details_ext">Extension:</label>
+			<label index="ext_details_remove_ext">Remove extension</label>
+			<label index="ext_details_delete">Delete</label>
+			<label index="ext_details_backup">Backup</label>
+			<label index="ext_details_update">Update:</label>
+			<label index="checkDependencies_install_now">Install now (opens a new window)</label>
+			<label index="note_last_update_new">Last update of the list of extensions: %s.</label>
+			<label index="globalext">Globally installed extension</label>
+			<label index="localext">Locally installed extension</label>
+			<label index="sysext">System extension</label>
+			<label index="list_or_look_up_all">all</label>
+			<label index="list_or_look_up_reviewed">reviewed</label>
+			<label index="ext_details_removing">Removing %s:</label>
+			<label index="ext_details_ext_installed_removed">The extension has been %s.</label>
+			<label index="ext_details_installed">installed</label>
+			<label index="ext_details_removed">removed</label>
+			<label index="ext_details_write_access_error">Write access error</label>
+			<label index="ext_details_file_saved">File saved.</label>
+			<label index="ext_details_file_save_button">Save file</label>
+			<label index="ext_details_edit_file">Edit file:</label>
+			<label index="ext_details_remove_button">Click here to remove the extension:</label>
+			<label index="ext_details_upload_to_ter">Upload extension to repository</label>
+			<label index="reqInstExt_imp_inst_ext">Import/Install Extensions:</label>
+			<label index="updatesForm_make_updates">Make updates</label>
+			<label index="extDumpTables_tables">Tables:</label>
+			<label index="extInfoArray_title">Title:</label>
+			<label index="extInfoArray_description">Description:</label>
+			<label index="extInfoArray_author">Author:</label>
+			<label index="extInfoArray_version">Version:</label>
+			<label index="extInfoArray_category">Category:</label>
+			<label index="extInfoArray_state">State:</label>
+			<label index="extInfoArray_internal">Internal:</label>
+			<label index="extInfoArray_depends_on">Depends on:</label>
+			<label index="extInfoArray_conflicts_with">Conflicts with:</label>
+			<label index="extInfoArray_suggests">Suggests:</label>
+			<label index="extInfoArray_priority">Priority:</label>
+			<label index="extInfoArray_clear_cache">Clear cache:</label>
+			<label index="listRowHeader_modules">Modules:</label>
+			<label index="checkUploadFolder_create_folder">Create folder</label>
+			<label index="checkDBupdates_add_fields">Add fields</label>
+			<label index="checkDBupdates_changing_fields">Changing fields</label>
+			<label index="checkDBupdates_add_tables">Add tables</label>
+			<label index="tsStyleConfigForm_note">Note</label>
+			<label index="write_protected">(write-protected)</label>
+			<label index="translation_save_selection">Save selection</label>
+			<label index="translation_update_button">Update from repository</label>
+			<label index="translation_status">Translation status</label>
+			<label index="translation_check_status">Checking translation status, please wait...</label>
+			<label index="translation_no_translation">No translation available</label>
+			<label index="translation_not_installed">Not installed/Unknown</label>
+			<label index="translation_status_unknown">???</label>
+			<label index="translation_is_ok">Is up to date</label>
+			<label index="translation_status_ok">OK</label>
+			<label index="translation_check_done">Check done.</label>
+			<label index="translation_update_done">Update done.</label>
+			<label index="ext_import_update_button">Import/Update</label>
+			<label index="ext_import_update_to">to:</label>
+			<label index="ext_import_global">Global:</label>
+			<label index="ext_import_local">Local:</label>
+			<label index="ext_import_system">System:</label>
+			<label index="ext_import_folder_empty">(empty)</label>
+			<label index="ext_import_select_command">Select command</label>
+			<label index="ext_import_extlist_updated_header">Extension list updated</label>
+			<label index="ext_details_current_status">Current status:</label>
+			<label index="ext_details_update_needed">Update needed:</label>
+			<label index="reqInstExt_install_import">Install/Import:</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

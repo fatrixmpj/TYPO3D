@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="no" type="array">
+			<label index="mlang_labels_tablabel">TYPO3 Extension-administrasjon</label>
+			<label index="mlang_labels_tabdescr">Håndterer TYPO3-utvidelser, slik som plugins, moduler, class extensions, konfigurasjonskode m.m., fra et sentralt lager.</label>
+			<label index="mlang_tabs_tab">Ext. administrajon</label>
+			<label index="category_BE">Backend</label>
+			<label index="category_BE_modules">Backend moduler</label>
+			<label index="category_FE">Frontend</label>
+			<label index="category_FE_plugins">Frontend moduler</label>
+			<label index="category_miscellanous">Diverse</label>
+			<label index="category_services">Services</label>
+			<label index="category_templates">Maler</label>
+			<label index="category_examples">Eksempler</label>
+			<label index="category_documentation">Dokumentasjon</label>
+			<label index="state_alpha">Alpha</label>
+			<label index="state_beta">Beta</label>
+			<label index="state_stable">Stabil</label>
+			<label index="state_experimental">Eksperimentell</label>
+			<label index="state_test">Test</label>
+			<label index="state_obsolete">Foreldet</label>
+			<label index="state_exclude_from_updates">Ekskluder fra oppdateringer</label>
+			<label index="type_system">System</label>
+			<label index="type_global">Global</label>
+			<label index="type_local">Lokal</label>
+			<label index="menu_loaded_extensions">Lastede extensions</label>
+			<label index="menu_install_extensions">Installer extensions</label>
+			<label index="menu_import_extensions">Importer extensions</label>
+			<label index="menu_translation_handling">Språkhåndtering</label>
+			<label index="menu_settings">Oppsett</label>
+			<label index="menu_extension_updates">Sjekk for extensions oppdateringer</label>
+			<label index="list_order_category">Kategori</label>
+			<label index="list_order_author">Forfatter</label>
+			<label index="list_order_state">Fase</label>
+			<label index="list_order_type">Type</label>
+			<label index="show_details">Detaljer</label>
+			<label index="show_description">Beskrivelse</label>
+			<label index="show_more_details">Flere detaljer</label>
+			<label index="show_technical">Teknisk (tar tid!)</label>
+			<label index="show_validating">Validere (tar tid!)</label>
+			<label index="show_changed">Endrede? (tar tid!)</label>
+			<label index="details_info">Informasjon</label>
+			<label index="details_edit">Rediger filer</label>
+			<label index="details_backup_delete">Sikkerhetskopi/Slett</label>
+			<label index="details_dump_db">Dump DB</label>
+			<label index="details_upload">Last opp til TER</label>
+			<label index="details_update">OPPDATER!</label>
+			<label index="header">Extensions administrasjon</label>
+			<label index="group_by">Gruuper ved:</label>
+			<label index="show">Vis:</label>
+			<label index="display_shy">Vis skjulte extensions:</label>
+			<label index="only_my_ext">Bare mine extensions:</label>
+			<label index="show_obsolete">Vis foreldet:</label>
+			<label index="go_back">Tilbake:</label>
+			<label index="look_up">Finn:</label>
+			<label index="loaded_exts">Lastede extensions</label>
+			<label index="display_nle">Inkluder ikke lastede extensions i listen</label>
+			<label index="display_files">Vis liste over endra filer</label>
+			<label index="header_upd_ext">Det er nye versjoner av følgende extensions i TER</label>
+			<label index="header_vers_ret">Versjonsinformasjon</label>
+			<label index="tab_mod_name">Extension</label>
+			<label index="tab_mod_key">Ext-nøkkel</label>
+			<label index="tab_mod_loc_ver">Lokal</label>
+			<label index="tab_mod_rem_ver">Fjern</label>
+			<label index="tab_mod_comment">Opplastingskommentar</label>
+			<label index="tab_mod_location">Plassering</label>
+			<label index="msg_warn_diff">En forskjell mellom den opprinnelig installerte og gjeldende versjon er oppdaget.</label>
+			<label index="msg_modified">Endrede filer:</label>
+			<label index="write_protected">(skrivebeskyttet)</label>
+			<label index="note_last_update">Siste oppdatering av oversikten over extensions</label>
+			<label index="note_last_update2">Bruk &quot;Hent/oppdater&quot; i &quot;Importer Extensions&quot; for å hente/oppdatere listen</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="no" type="array">
+			<label index="mlang_labels_tablabel" type="integer">107630623</label>
+			<label index="mlang_labels_tabdescr" type="integer">61213035</label>
+			<label index="mlang_tabs_tab" type="integer">199372037</label>
+			<label index="display_nle" type="integer">76478189</label>
+			<label index="display_files" type="integer">249361233</label>
+			<label index="header_upd_ext" type="integer">181851683</label>
+			<label index="header_vers_ret" type="integer">56356629</label>
+			<label index="tab_mod_name" type="integer">104746642</label>
+			<label index="tab_mod_key" type="integer">13174148</label>
+			<label index="tab_mod_loc_ver" type="integer">84509186</label>
+			<label index="tab_mod_rem_ver" type="integer">260376821</label>
+			<label index="tab_mod_comment" type="integer">111200332</label>
+			<label index="tab_mod_location" type="integer">216383317</label>
+			<label index="msg_warn_diff" type="integer">64279198</label>
+			<label index="msg_modified" type="integer">76649526</label>
+			<label index="note_last_update" type="integer">21754082</label>
+			<label index="note_last_update2" type="integer">164114497</label>
+			<label index="category_BE" type="integer">48506818</label>
+			<label index="category_BE_modules" type="integer">39991288</label>
+			<label index="category_FE" type="integer">228047462</label>
+			<label index="category_FE_plugins" type="integer">41676017</label>
+			<label index="category_miscellanous" type="integer">59226864</label>
+			<label index="category_services" type="integer">160604400</label>
+			<label index="category_templates" type="integer">132093617</label>
+			<label index="category_examples" type="integer">267895036</label>
+			<label index="category_documentation" type="integer">95866758</label>
+			<label index="state_alpha" type="integer">101917333</label>
+			<label index="state_beta" type="integer">12090726</label>
+			<label index="state_stable" type="integer">262385651</label>
+			<label index="state_experimental" type="integer">117749078</label>
+			<label index="state_test" type="integer">13354593</label>
+			<label index="state_obsolete" type="integer">247663651</label>
+			<label index="state_exclude_from_updates" type="integer">143888087</label>
+			<label index="type_system" type="integer">172350102</label>
+			<label index="type_global" type="integer">80504452</label>
+			<label index="type_local" type="integer">84509186</label>
+			<label index="menu_loaded_extensions" type="integer">260059038</label>
+			<label index="menu_install_extensions" type="integer">32676540</label>
+			<label index="menu_import_extensions" type="integer">146373137</label>
+			<label index="menu_translation_handling" type="integer">145144065</label>
+			<label index="menu_settings" type="integer">256864370</label>
+			<label index="menu_extension_updates" type="integer">25562123</label>
+			<label index="list_order_category" type="integer">61717939</label>
+			<label index="list_order_author" type="integer">173111111</label>
+			<label index="list_order_type" type="integer">169845367</label>
+			<label index="show_details" type="integer">65812061</label>
+			<label index="show_description" type="integer">190479069</label>
+			<label index="show_more_details" type="integer">45443936</label>
+			<label index="details_info" type="integer">176340495</label>
+			<label index="details_edit" type="integer">152858234</label>
+			<label index="details_backup_delete" type="integer">212437715</label>
+			<label index="details_dump_db" type="integer">256199650</label>
+			<label index="details_upload" type="integer">24268842</label>
+			<label index="details_update" type="integer">6145480</label>
+			<label index="list_order_state" type="integer">74066497</label>
+			<label index="show_technical" type="integer">250066851</label>
+			<label index="show_validating" type="integer">37927568</label>
+			<label index="show_changed" type="integer">72647157</label>
+			<label index="header" type="integer">183301804</label>
+			<label index="group_by" type="integer">103901916</label>
+			<label index="show" type="integer">152556645</label>
+			<label index="display_shy" type="integer">161534753</label>
+			<label index="only_my_ext" type="integer">127072968</label>
+			<label index="show_obsolete" type="integer">215318356</label>
+			<label index="go_back" type="integer">36398395</label>
+			<label index="look_up" type="integer">214979080</label>
+			<label index="loaded_exts" type="integer">240199548</label>
+			<label index="write_protected" type="integer">77321665</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="no" type="array">
+			<label index="mlang_labels_tablabel">TYPO3 Extension Manager</label>
+			<label index="mlang_labels_tabdescr">Manages TYPO3 extensions from a central repository, which includes plugins, modules, class extensions, configuration code etc.</label>
+			<label index="mlang_tabs_tab">Ext Manager</label>
+			<label index="display_nle">Include not loaded extensions into listing</label>
+			<label index="display_files">Display the list of changed files</label>
+			<label index="header_upd_ext">There are new versions of the following extensions in the TER</label>
+			<label index="header_vers_ret">Version information</label>
+			<label index="tab_mod_name">Extension</label>
+			<label index="tab_mod_key">Ext-Key</label>
+			<label index="tab_mod_loc_ver">Local</label>
+			<label index="tab_mod_rem_ver">Remote</label>
+			<label index="tab_mod_comment">Upload-Comment</label>
+			<label index="tab_mod_location">Location</label>
+			<label index="msg_warn_diff">A difference between the originally installed version and the current was detected!</label>
+			<label index="msg_modified">Modified Files:</label>
+			<label index="note_last_update">Last update of the list of extensions:</label>
+			<label index="note_last_update2">To get and update the list, go to the section &quot;Import extensions&quot; and use the button &quot;Retrieve/Update&quot;.</label>
+			<label index="category_BE">Backend</label>
+			<label index="category_BE_modules">Backend Modules</label>
+			<label index="category_FE">Frontend</label>
+			<label index="category_FE_plugins">Frontend Plugins</label>
+			<label index="category_miscellanous">Miscellaneous</label>
+			<label index="category_services">Services</label>
+			<label index="category_templates">Templates</label>
+			<label index="category_examples">Examples</label>
+			<label index="category_documentation">Documentation</label>
+			<label index="state_alpha">Alpha</label>
+			<label index="state_beta">Beta</label>
+			<label index="state_stable">Stable</label>
+			<label index="state_experimental">Experimental</label>
+			<label index="state_test">Test</label>
+			<label index="state_obsolete">Obsolete</label>
+			<label index="state_exclude_from_updates">Exclude From Updates</label>
+			<label index="type_system">System</label>
+			<label index="type_global">Global</label>
+			<label index="type_local">Local</label>
+			<label index="menu_loaded_extensions">Loaded extensions</label>
+			<label index="menu_install_extensions">Install extensions</label>
+			<label index="menu_import_extensions">Import extensions</label>
+			<label index="menu_translation_handling">Translation handling</label>
+			<label index="menu_settings">Settings</label>
+			<label index="menu_extension_updates">Check for extension updates</label>
+			<label index="list_order_category">Category</label>
+			<label index="list_order_author">Author</label>
+			<label index="list_order_type">Type</label>
+			<label index="show_details">Details</label>
+			<label index="show_description">Description</label>
+			<label index="show_more_details">More details</label>
+			<label index="details_info">Information</label>
+			<label index="details_edit">Edit files</label>
+			<label index="details_backup_delete">Backup/Delete</label>
+			<label index="details_dump_db">Dump DB</label>
+			<label index="details_upload">Upload to TER</label>
+			<label index="details_update">UPDATE!</label>
+			<label index="list_order_state">State</label>
+			<label index="show_technical">Technical (takes time!)</label>
+			<label index="show_validating">Validating (takes time!)</label>
+			<label index="show_changed">Changed? (takes time!)</label>
+			<label index="header">Extension Manager</label>
+			<label index="group_by">Group by:</label>
+			<label index="show">Show:</label>
+			<label index="display_shy">Display shy extensions:</label>
+			<label index="only_my_ext">Only my extensions:</label>
+			<label index="show_obsolete">Show obsolete:</label>
+			<label index="go_back">Go back</label>
+			<label index="look_up">Look up:</label>
+			<label index="loaded_exts">Loaded Extensions</label>
+			<label index="write_protected">(write-protected)</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,16 @@
+plugin.tx_sgcontentlink {
+	settings {
+		link {
+			overwrite {
+				defaultTarget =
+				defaultClass =
+				defaultTitle =
+			}
+
+			add {
+				class =
+				title =
+			}
+		}
+	}
+}

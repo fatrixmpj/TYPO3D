@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2014-05-05T23:59:32Z" product-name="imagecycle" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="tx_dam.tx_jfdam_link" xml:space="preserve">
+        <source>Link</source>
+      <target></target></trans-unit>
+      <trans-unit id="pages.tx_imagecycle_div" xml:space="preserve">
+        <source>Image Cycle</source>
+      <target></target></trans-unit>
+      <trans-unit id="pages.tx_imagecycle_mode" xml:space="preserve">
+        <source>Imagescycle mode</source>
+      <target></target></trans-unit>
+      <trans-unit id="pages.tx_imagecycle_damimages" xml:space="preserve">
+        <source>Images in DAM (dam)</source>
+      <target></target></trans-unit>
+      <trans-unit id="pages.tx_imagecycle_damcategories" xml:space="preserve">
+        <source>Images from DAM category (dam_catedit)</source>
+      <target></target></trans-unit>
+      <trans-unit id="pages.tx_imagecycle_images" xml:space="preserve">
+        <source>Images from Upload</source>
+      <target></target></trans-unit>
+      <trans-unit id="pages.tx_imagecycle_hrefs" xml:space="preserve">
+        <source>Image links</source>
+      <target></target></trans-unit>
+      <trans-unit id="pages.tx_imagecycle_captions" xml:space="preserve">
+        <source>Image Captions</source>
+      <target></target></trans-unit>
+      <trans-unit id="pages.tx_imagecycle_effect" xml:space="preserve">
+        <source>Effect</source>
+      <target></target></trans-unit>
+      <trans-unit id="pages.tx_imagecycle_stoprecursion" xml:space="preserve">
+        <source>Stop Recursion (Reset)</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.tx_imagecycle_title" xml:space="preserve">
+        <source>Image Cycle</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.tx_imagecycle_activate" xml:space="preserve">
+        <source>Activate</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.tx_imagecycle_duration" xml:space="preserve">
+        <source>Duration in ms</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.list_type_pi1" xml:space="preserve">
+        <source>Image cycle</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.list_type_pi2" xml:space="preserve">
+        <source>Coin-Slider</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.list_type_pi3" xml:space="preserve">
+        <source>Nivo-Slider</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.list_type_pi4" xml:space="preserve">
+        <source>Cross-Slide</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.list_type_pi5" xml:space="preserve">
+        <source>Slice-Box</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sheet_general" xml:space="preserve">
+        <source>General</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.mode" xml:space="preserve">
+        <source>Mode</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.mode.I.recursiv" xml:space="preserve">
+        <source>Recursiv</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.mode.I.upload" xml:space="preserve">
+        <source>Upload Images</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.mode.I.folder" xml:space="preserve">
+        <source>Folder</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.mode.I.rte" xml:space="preserve">
+        <source>Upload with RTE</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.mode.I.data" xml:space="preserve">
+        <source>Upload with data</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.mode.I.dam" xml:space="preserve">
+        <source>DAM (dam)</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.mode.I.dam_catedit" xml:space="preserve">
+        <source>DAM category (dam_catedit)</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.damimages" xml:space="preserve">
+        <source>Images in DAM (dam)</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.damcategories" xml:space="preserve">
+        <source>Images from DAM category (dam_catedit)</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.folder" xml:space="preserve">
+        <source>Image folder</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.uploadRTE" xml:space="preserve">
+        <source>Slide images</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.image" xml:space="preserve">
+        <source>Slide Image</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.href" xml:space="preserve">
+        <source>Image link</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.caption" xml:space="preserve">
+        <source>Image Caption</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.hide" xml:space="preserve">
+        <source>Hide</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.captionsData" xml:space="preserve">
+        <source>Image Caption</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.images" xml:space="preserve">
+        <source>Slide Images</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.hrefs" xml:space="preserve">
+        <source>Image links</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.captions" xml:space="preserve">
+        <source>Image Captions</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.onlyFirstImage" xml:space="preserve">
+        <source>First image only</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sheet_settings" xml:space="preserve">
+        <source>Settings</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.imagewidth" xml:space="preserve">
+        <source>Width</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.imageheight" xml:space="preserve">
+        <source>Height</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.thumbwidth" xml:space="preserve">
+        <source>Thumb width</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.thumbheight" xml:space="preserve">
+        <source>Thumb height</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.showcaption" xml:space="preserve">
+        <source>Show caption</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.showControl" xml:space="preserve">
+        <source>Show Control</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.showPager" xml:space="preserve">
+        <source>Show Pager</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.random" xml:space="preserve">
+        <source>Random order</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.cleartypeNoBg" xml:space="preserve">
+        <source>Clear type no background</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.stoponmousover" xml:space="preserve">
+        <source>Stop animation if mouse over</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.stopAfterOneCycle" xml:space="preserve">
+        <source>Stop animation after one cycle</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.pausedBegin" xml:space="preserve">
+        <source>Paused at beginning</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sheet_movement" xml:space="preserve">
+        <source>Movement</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.type" xml:space="preserve">
+        <source>Type of movement</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.transition" xml:space="preserve">
+        <source>Type of transition</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.transitiondir" xml:space="preserve">
+        <source>Direction of transition</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.transitionduration" xml:space="preserve">
+        <source>Duration of transition (ms)</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.displayduration" xml:space="preserve">
+        <source>Duration of display (ms)</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.delayduration" xml:space="preserve">
+        <source>Duration of delay (ms)</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.fastOnEvent" xml:space="preserve">
+        <source>Speed of transitions when triggered manually (ms)</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sync" xml:space="preserve">
+        <source>Simultaneously animation</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sheet_special" xml:space="preserve">
+        <source>Special</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.options" xml:space="preserve">
+        <source>Enter own options (see http://malsup.com/jquery/cycle/)</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.optionsOverride" xml:space="preserve">
+        <source>Override all options</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.coinEffect" xml:space="preserve">
+        <source>Coin effect</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.coinSpw" xml:space="preserve">
+        <source>Squares per width</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.coinSph" xml:space="preserve">
+        <source>Squares per height</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.coinDelay" xml:space="preserve">
+        <source>Delay beetwen squares in ms</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.coinSDelay" xml:space="preserve">
+        <source>Delay beetwen squares in ms</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.coinOpacity" xml:space="preserve">
+        <source>Opacity of title and navigation</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.coinTitleSpeed" xml:space="preserve">
+        <source>Speed of title appereance in ms</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.coinNavigation" xml:space="preserve">
+        <source>Show navigation</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.coinLinks" xml:space="preserve">
+        <source>Show images as links</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.coinHoverPause" xml:space="preserve">
+        <source>Pause on hover</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.optionsCoin" xml:space="preserve">
+        <source>Enter own options (see http://workshop.rs/projects/coin-slider/)</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.nivoEffect" xml:space="preserve">
+        <source>Nivo effect</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.nivoSlices" xml:space="preserve">
+        <source>Count of slices</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.nivoBoxCols" xml:space="preserve">
+        <source>Count of box cols</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.nivoBoxRows" xml:space="preserve">
+        <source>Count of box rows</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.nivoAnimSpeed" xml:space="preserve">
+        <source>Speed of the animation in ms</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.nivoPauseTime" xml:space="preserve">
+        <source>Delay in ms</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.nivoStartSlide" xml:space="preserve">
+        <source>Set starting Slide</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.nivoStartRandom" xml:space="preserve">
+        <source>Start Random</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.nivoTheme" xml:space="preserve">
+        <source>Theme to use</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.nivoDirectionNav" xml:space="preserve">
+        <source>Show navigation</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.nivoDirectionNavHide" xml:space="preserve">
+        <source>Show navigation on hover</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.nivoControlNav" xml:space="preserve">
+        <source>Show control</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.nivoControlNavThumbs" xml:space="preserve">
+        <source>Use thumb control</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.nivoKeyboardNav" xml:space="preserve">
+        <source>Use left and right arrows for navigation</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.nivoPauseOnHover" xml:space="preserve">
+        <source>Stop animation while hovering</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.nivoManualAdvance" xml:space="preserve">
+        <source>Force manual transitions</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.nivoResponsive" xml:space="preserve">
+        <source>Responsive</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.nivoCaptionOpacity" xml:space="preserve">
+        <source>Universal caption opacity</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.optionsNivo" xml:space="preserve">
+        <source>Enter own options (see http://nivo.dev7studios.com/#usage)</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.crossTransition" xml:space="preserve">
+        <source>Effect of transition</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.crossTransitionDir" xml:space="preserve">
+        <source>Direction of transition</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.crossTime" xml:space="preserve">
+        <source>The duration of the transition in milliseconds</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.crossFade" xml:space="preserve">
+        <source>The duration of the fade in milliseconds</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.crossVariant" xml:space="preserve">
+        <source>Stop pad while fade</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.crossFromTo" xml:space="preserve">
+        <source>Stack of effects to use ("from | to", for example: "100% 80% 1x | 100% 0% 1.7x")</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.optionsCross" xml:space="preserve">
+        <source>Enter own options (see http://tobia.github.com/CrossSlide/)</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sliceColorHiddenSides" xml:space="preserve">
+        <source>Color of the hidden sides</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sliceShowInfo" xml:space="preserve">
+        <source>Show info automatically</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sliceOrientation" xml:space="preserve">
+        <source>Orientation</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.slicePerspective" xml:space="preserve">
+        <source>Perspective</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sliceSlicesCount" xml:space="preserve">
+        <source>Slices count</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sliceDisperseFactor" xml:space="preserve">
+        <source>Disperse factor</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sliceSequentialRotation" xml:space="preserve">
+        <source>Sequential rotation</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sliceSequentialFactor" xml:space="preserve">
+        <source>Sequential factor</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sliceSpeed3d" xml:space="preserve">
+        <source>3D Speed</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sliceSlideshow" xml:space="preserve">
+        <source>Slideshow</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sliceSlideshowTime" xml:space="preserve">
+        <source>Slideshow time</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sliceEasing" xml:space="preserve">
+        <source>Easing</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sheet_fallback" xml:space="preserve">
+        <source>Fallback</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.sliceSpeed" xml:space="preserve">
+        <source>Fallback speed</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.optionsSlice" xml:space="preserve">
+        <source>Enter own options (see http://tympanus.net/codrops/2011/09/05/slicebox-3d-image-slider/)</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.from_ts" xml:space="preserve">
+        <source>From Typoscript</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.no" xml:space="preserve">
+        <source>No</source>
+      <target></target></trans-unit>
+      <trans-unit id="tt_content.pi_flexform.yes" xml:space="preserve">
+        <source>Yes</source>
+      <target></target></trans-unit>
+    </body>
+  </file>
+</xliff>

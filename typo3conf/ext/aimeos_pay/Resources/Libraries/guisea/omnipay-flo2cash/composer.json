@@ -1,0 +1,40 @@
+{
+    "name": "guisea/omnipay-flo2cash",
+    "type": "library",
+    "description": "flo2cash driver for the Omnipay payment processing library",
+    "keywords": [
+        "flo2cash",
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "homepage": "https://github.com/guisea/omnipay-flo2cash",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aaron Guise",
+            "email": "aaron@guise.net.nz"
+        },
+        {
+            "name": "Contributors",
+            "homepage": "https://github.com/guisea/omnipay-flo2cash/contributors"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Flo2cash\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0",
+        "codeclimate/php-test-reporter": "dev-master"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}

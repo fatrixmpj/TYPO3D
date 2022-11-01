@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Date: Tue, 07 Apr 2015 10:57:07 GMT
+Server: nginx/1.5.8
+Content-Type: text/html; charset=UTF-8
+Vary: Accept-Encoding
+X-Powered-By: Servlet/3.0 JSP/2.2
+Via: 1.1 online-safest.com
+Powered-By-ChinaCache: MISS from 26098213TC
+Transfer-Encoding: chunked
+
+<?xml version="1.0" encoding="UTF-8"?>
+<respon><merNo>20777</merNo><gatewayNo>20777001</gatewayNo><tradeNo>T2015040718570911195094</tradeNo><orderNo>TX4567890</orderNo><orderAmount>12.34</orderAmount><orderCurrency>USD</orderCurrency><orderStatus>1</orderStatus><orderInfo>Transaction succeeded</orderInfo><signInfo>7A2214CC6D72B38567F031BC3C4705CCB9CAA0F70EA9C2CBDB8BDD07CF8765DB</signInfo><remark>Free Text Description</remark><riskInfo>|||0.0|0.0|||||10.32.46.23|US|</riskInfo><authTypeStatus>0</authTypeStatus></respon>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index="mod_indexed_search">Geïndexeerd zoeken</label>
+			<label index="mod2_indexed_search">Statistieken zoeken</label>
+			<label index="ignoreExtensions">De extensie %s wordt genegeerd.</label>
+			<label index="pdfToolsNotFound">PDF werkset is niet gevonden in pad '%1$spdftotext' en/of '%1$spdfinfo'&quot;</label>
+			<label index="pdfToolsDisabled">PDF werkset uitgeschakeld</label>
+			<label index="pdfToolsFailed">PDFtoText werkt niet op document: '%s'. Misschien is het PDF bestand geblokkeerd voor afdrukken of is het versleuteld.</label>
+			<label index="catdocNotFound">'catdoc' programma voor het lezen van MS Word bestanden is niet gevonden in pad '%scatdoc'</label>
+			<label index="catdocDisabled">catdoc werkset (Word bestanden) uitgeschakeld</label>
+			<label index="ppthtmlNotFound">'ppthtml' programma voor het lezen van MS powerpoint bestanden is niet gevonden in pad '%sppthtml'</label>
+			<label index="ppthtmlDisabled">ppthtml werkset (MS Powerpoint bestanden) is uitgeschakeld</label>
+			<label index="xlhtmlNotFound">'xlhtml' programma voor het lezen van MS Excel bestanden is niet gevonden in pad '%sxlhtml'</label>
+			<label index="xlhtmlDisabled">xlhtml werkset (MS Excel bestanden) is uitgeschakeld</label>
+			<label index="unzipNotFound">'unzip' programma voor het lezen van OpenOffice.org bestanden is niet gevonden in pad '%sunzip'</label>
+			<label index="unzipDisabled">unzip werkset (OpenOffice.org bestanden) is uitgeschakeld</label>
+			<label index="unrtfNotFound">'unrtf' programma voor het lezen van RTF bestanden is niet gevonden in pad '%sunrtf'</label>
+			<label index="unrtfDisabled">unrtf werkset (RTF bestanden) is uitgeschakeld</label>
+			<label index="extension.PDF">PDF (*.%s)</label>
+			<label index="extension.DOC">MS Word (*.%s)</label>
+			<label index="extension.PP">MS Powerpoint (*.%s)</label>
+			<label index="extension.XLS">MS Excel (*.%s)</label>
+			<label index="extension.SXC">OpenOffice.org Calc (*.%s)</label>
+			<label index="extension.SXI">OpenOffice.org Impress (*.%s)</label>
+			<label index="extension.SXW">OpenOffice.org Writer (*.%s)</label>
+			<label index="extension.ODS">ODF Spreadsheet (*.%s)</label>
+			<label index="extension.ODP">ODF Presentation (*.%s)</label>
+			<label index="extension.ODT">ODF Text (*.%s)</label>
+			<label index="extension.RTF">Rich Text Format (*.%s)</label>
+			<label index="extension.images">Afbeeldingen (*.%s)</label>
+			<label index="extension.HTML">Webpagina's (*.%s)</label>
+			<label index="extension.TXT">Tekstbestanden (*.%s)</label>
+			<label index="extension.CSV">Kommagescheiden Waardes (CSV) (*.%s)</label>
+			<label index="extension.XML">eXtensible Markup Language (XML) (*.%s)</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index="mod_indexed_search" type="integer">108129979</label>
+			<label index="mod2_indexed_search" type="integer">252429738</label>
+			<label index="ignoreExtensions" type="integer">129990630</label>
+			<label index="pdfToolsNotFound" type="integer">139780392</label>
+			<label index="pdfToolsDisabled" type="integer">133455367</label>
+			<label index="pdfToolsFailed" type="integer">199532090</label>
+			<label index="catdocNotFound" type="integer">122226442</label>
+			<label index="catdocDisabled" type="integer">92904902</label>
+			<label index="ppthtmlNotFound" type="integer">82919580</label>
+			<label index="ppthtmlDisabled" type="integer">57737846</label>
+			<label index="xlhtmlNotFound" type="integer">43678817</label>
+			<label index="xlhtmlDisabled" type="integer">68804079</label>
+			<label index="unzipNotFound" type="integer">118265412</label>
+			<label index="unzipDisabled" type="integer">162573747</label>
+			<label index="unrtfNotFound" type="integer">58987940</label>
+			<label index="unrtfDisabled" type="integer">117861334</label>
+			<label index="extension.PDF" type="integer">202271440</label>
+			<label index="extension.DOC" type="integer">67928791</label>
+			<label index="extension.PP" type="integer">72731058</label>
+			<label index="extension.XLS" type="integer">32247620</label>
+			<label index="extension.SXC" type="integer">72241381</label>
+			<label index="extension.SXI" type="integer">104480828</label>
+			<label index="extension.SXW" type="integer">256847135</label>
+			<label index="extension.ODS" type="integer">179765088</label>
+			<label index="extension.ODP" type="integer">89648274</label>
+			<label index="extension.ODT" type="integer">91556367</label>
+			<label index="extension.RTF" type="integer">236019502</label>
+			<label index="extension.images" type="integer">120818870</label>
+			<label index="extension.HTML" type="integer">2354619</label>
+			<label index="extension.TXT" type="integer">213510463</label>
+			<label index="extension.CSV" type="integer">112256493</label>
+			<label index="extension.XML" type="integer">26571658</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index="mod_indexed_search">Indexed search</label>
+			<label index="mod2_indexed_search">Indexed search statistics</label>
+			<label index="ignoreExtensions">Extension %s was set to be ignored.</label>
+			<label index="pdfToolsNotFound">PDF tools was not found in paths '%1$spdftotext' and/or '%1$spdfinfo'&quot;</label>
+			<label index="pdfToolsDisabled">PDF tools disabled</label>
+			<label index="pdfToolsFailed">PDFtoText Failed on this document: '%s'. Maybe the PDF file is locked for printing or encrypted.</label>
+			<label index="catdocNotFound">'catdoc' tool for reading Word-files was not found in path '%scatdoc'</label>
+			<label index="catdocDisabled">catdoc tools (Word-files) disabled</label>
+			<label index="ppthtmlNotFound">'ppthtml' tool for reading Powerpoint-files was not found in path '%sppthtml'</label>
+			<label index="ppthtmlDisabled">ppthtml tools (Powerpoint-files) disabled</label>
+			<label index="xlhtmlNotFound">'xlhtml' tool for reading Excel-files was not found in path '%sxlhtml'</label>
+			<label index="xlhtmlDisabled">xlhtml tools (Excel-files) disabled</label>
+			<label index="unzipNotFound">'unzip' tool for reading OpenOffice.org-files was not found in path '%sunzip'</label>
+			<label index="unzipDisabled">unzip tool (OpenOffice.org-files) disabled</label>
+			<label index="unrtfNotFound">'unrtf' tool for reading RTF-files was not found in path '%sunrtf'</label>
+			<label index="unrtfDisabled">unrtf tool (RTF-files) disabled</label>
+			<label index="extension.PDF">PDF (*.%s)</label>
+			<label index="extension.DOC">MS Word (*.%s)</label>
+			<label index="extension.PP">MS Powerpoint (*.%s)</label>
+			<label index="extension.XLS">MS Excel (*.%s)</label>
+			<label index="extension.SXC">OpenOffice.org Calc (*.%s)</label>
+			<label index="extension.SXI">OpenOffice.org Impress (*.%s)</label>
+			<label index="extension.SXW">OpenOffice.org Writer (*.%s)</label>
+			<label index="extension.ODS">ODF Spreadsheet (*.%s)</label>
+			<label index="extension.ODP">ODF Presentation (*.%s)</label>
+			<label index="extension.ODT">ODF Text (*.%s)</label>
+			<label index="extension.RTF">Rich Text Format (*.%s)</label>
+			<label index="extension.images">Images (*.%s)</label>
+			<label index="extension.HTML">Webpages (*.%s)</label>
+			<label index="extension.TXT">Textfiles (*.%s)</label>
+			<label index="extension.CSV">Comma-Separated Values (*.%s)</label>
+			<label index="extension.XML">Extensible Markup Language (*.%s)</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

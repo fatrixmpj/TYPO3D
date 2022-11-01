@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+			<label index="mlang_tabs_tab">Nachrichten</label>
+			<label index="mlang_labels_tablabel">Verwalte Nachrichten in einem separaten Modul</label>
+			<label index="mlang_labels_tabdescr">Dieses Modul bietet eine einfache Möglichkeit an Nachrichten und Kategorien zu verwalten.</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

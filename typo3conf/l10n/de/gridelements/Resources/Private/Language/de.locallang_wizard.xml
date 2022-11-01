@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+			<label index="grid_maxitems">Maximale Anzahl von Elementen</label>
+			<label index="grid_maxitemsHelp">Geben Sie die maximale Anzahl von Elementen ein, die innerhalb dieser Spalte angelegt oder dorthin bewegt werden dürfen.</label>
+			<label index="grid_allowed">Zulässige CE</label>
+			<label index="grid_allowedHelp">Wählen Sie die Content-Element-Typen aus, die innerhalb dieser Spalte angelegt oder dorthin bewegt werden dürfen.</label>
+			<label index="grid_allowedGridTypes">Zulässige Raster-Elemente</label>
+			<label index="grid_allowedGridTypesHelp">Wählen Sie die Raster-Element-Typen aus, die innerhalb dieser Spalte angelegt oder dorthin bewegt werden dürfen.</label>
+			<label index="grid_allowedListTypes">Zulässige Plugins</label>
+			<label index="grid_allowedListTypesHelp">Wählen Sie die Plugin-Typen aus, die innerhalb dieser Spalte angelegt oder dorthin bewegt werden dürfen.</label>
+			<label index="grid_disallowed">Unzulässige CE</label>
+			<label index="grid_disallowedHelp">Wählen Sie die Content-Element-Typen aus, die NICHT innerhalb dieser Spalte angelegt oder dorthin bewegt werden dürfen.</label>
+			<label index="grid_disallowedGridTypes">Unzulässige Raster-Elemente</label>
+			<label index="grid_disallowedGridTypesHelp">Wählen Sie die Raster-Element-Typen aus, die NICHT innerhalb dieser Spalte angelegt oder dorthin bewegt werden dürfen.</label>
+			<label index="grid_disallowedListTypes">Unzulässige Plugins</label>
+			<label index="grid_disallowedListTypesHelp">Wählen Sie die Plugin-Typen aus, die NICHT innerhalb dieser Spalte angelegt oder dorthin bewegt werden dürfen.</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

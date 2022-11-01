@@ -1,0 +1,59 @@
+
+[globalVar = LIT:1 = {$plugin.cljqueryfancybox.includejquerycore}]
+page.includeJSFooterlibs {
+	jquery = //code.jquery.com/jquery-3.2.1.min.js
+	jquery.external = 1
+	jquery.forceOnTop = 1
+	jquery.disableCompression = 1
+  jquery.excludeFromConcatenation = 1
+}
+[global]
+
+page.includeJSFooter {
+	jquery_fancybox = EXT:cl_jquery_fancybox/Resources/Public/JavaScript/fancybox3/jquery.fancybox.min.js
+	fancybox_helper = EXT:cl_jquery_fancybox/Resources/Public/JavaScript/fancybox3/helper.js
+}
+
+page.includeCSS {
+	fancybox = EXT:cl_jquery_fancybox/Resources/Public/CSS/fancybox3/jquery.fancybox.min.css
+	fancybox.media = screen
+}
+
+
+page.jsFooterInline.800 = COA
+page.jsFooterInline.800 {
+	wrap = jQuery(document).ready(function() { jQuery('a[class*=lightbox],a[rel*=lightbox]').fancybox({|});  });
+	10 = TEXT
+	10.value (
+		'speed' : {$plugin.cljqueryfancybox.speed},
+		'loop' : {$plugin.cljqueryfancybox.loop},
+		'opacity' : '{$plugin.cljqueryfancybox.opacity}',
+		'margin' : [44, 0],
+		'gutter' : {$plugin.cljqueryfancybox.gutter},
+		'infobar' : {$plugin.cljqueryfancybox.infobar},
+		'buttons' : {$plugin.cljqueryfancybox.buttons},
+		'slideShow' : {$plugin.cljqueryfancybox.slideShow},
+		'fullScreen' : {$plugin.cljqueryfancybox.fullScreen},
+		'thumbs' : {$plugin.cljqueryfancybox.thumbs},
+		'closeBtn' : {$plugin.cljqueryfancybox.closeBtn},
+		'smallBtn' : '{$plugin.cljqueryfancybox.smallBtn}',
+
+		'baseClass' : '{$plugin.cljqueryfancybox.baseClass}',
+		'slideClass' : '{$plugin.cljqueryfancybox.slideClass}',
+		'parentEl' : '{$plugin.cljqueryfancybox.parentEl}',
+		'touch' : {$plugin.cljqueryfancybox.touch},
+		'keyboard' : {$plugin.cljqueryfancybox.keyboard},
+		'focus' : {$plugin.cljqueryfancybox.focus},
+		'closeClickOutside' : {$plugin.cljqueryfancybox.closeClickOutside},
+
+		'beforeShow' : function(opts) {
+			this.title = (jQuery(this.group[this.index]).attr('title') != undefined ? jQuery(this.group[this.index]).attr('title') : jQuery(this.group[this.index]).find('img').attr('title'));
+		}
+	)
+}
+
+
+
+
+# FSC
+lib.fluidContent.settings.media.popup.linkParams.ATagParams.dataWrap = class="{$styles.content.textmedia.linkWrap.lightboxCssClass}" data-fancybox="{$styles.content.textmedia.linkWrap.lightboxRelAttribute}"

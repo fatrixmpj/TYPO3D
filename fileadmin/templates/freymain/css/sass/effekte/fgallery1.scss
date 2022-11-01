@@ -1,0 +1,79 @@
+/* Scss Document */
+
+.row.fotogallery1 {
+	margin-right:-5px !important;
+	margin-left:-5px !important;
+}
+
+.fotogallery1  .fcol {
+	padding-left:0px !important;
+	padding-right:0px !important;
+}
+
+
+.fotogallery1 .frow {
+	margin: 0;
+	padding: 0;
+
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	-ms-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+}
+
+
+.fotogallery1 .f1, .fotogallery1 .f2  {
+	width:100%;
+	padding-top:50%; /* 2:1 Aspect Radio */
+	position:relative; 
+	overflow:hidden; 
+}
+
+
+.fotogallery1 .f1 img, .fotogallery1 .f2 img {
+	width:100%;
+	height:auto; 
+}
+
+
+.fotogallery1 .f3 div {
+	height:100%;
+	width:100%; 
+}
+
+.fotogallery1 .f3 {
+    width: 100%;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+    position: relative; 
+}
+
+.fotogallery1 .f3 img {
+	/*height:100% !important;
+	width:auto; */
+}
+
+
+.fotogallery1 .frow > div {
+	position:absolute; 
+	top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+	
+	border: 5px solid #fff !important;
+   overflow: hidden !important;
+}
+
+
+
+
+
+
+@media screen and (max-width: 680px) { 
+
+	.fotogallery1 div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
+		margin-top: 0px !important;
+	}
+	
+}
+

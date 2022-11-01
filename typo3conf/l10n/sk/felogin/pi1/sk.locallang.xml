@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="sk" type="array">
+			<label index="ll_welcome_header">Prihlásenie</label>
+			<label index="ll_welcome_message">Napíšte Vaše prihlasovacie meno a heslo:</label>
+			<label index="ll_logout_header">Boli ste odhlásený</label>
+			<label index="ll_logout_message">Boli ste odhlásený z tejto stránky. Môžete sa znova prihlásiť.</label>
+			<label index="ll_error_header">Chyba prihlásenia</label>
+			<label index="ll_error_message">Prihlásenie bolo neúspešné. Pravdepodobne ste nesprávne zadali prihlasovacie meno a heslo. Uistite sa, či ste napísali správne veľké a malé znaky. Ďalšou možnosťou, prečo prihlásenie zlyhalo je, že nemáte vo Vašom internetovom prehliadači povolené cookies.</label>
+			<label index="ll_success_header">Prebehlo prihlásenie</label>
+			<label index="ll_success_message">Ste prihlásený ako '###USER###'</label>
+			<label index="ll_status_header">Stav prihlásenia</label>
+			<label index="ll_status_message">Toto je Váš aktuálny stav prihlásenia:</label>
+			<label index="cookie_warning">Varovanie: Je možné, že nemáte povolené cookies vo Vašom internetovom prehliadači.</label>
+			<label index="username">Užívateľské meno:</label>
+			<label index="password">Heslo:</label>
+			<label index="login">Prihlásiť</label>
+			<label index="permalogin">Ostať prihlásený:</label>
+			<label index="logout">Odhlásiť</label>
+			<label index="send_password">Odoslať heslo</label>
+			<label index="reset_password">Zmeniť heslo</label>
+			<label index="ll_change_password_header">Zmeňte svoje heslo</label>
+			<label index="ll_change_password_message">Prosím, napíšte Vaše nové heslo dvakrát. Heslo musí mať dĺžku minimálne %s znakov.</label>
+			<label index="ll_change_password_done_message">Vaše heslo bolo uložené. Teraz sa môžete prihlásiť pomocou Vášho nového hesla.</label>
+			<label index="change_password">Zmeňte svoje heslo</label>
+			<label index="newpassword_label1">Napíšte nové heslo</label>
+			<label index="newpassword_label2">Zopakujte heslo</label>
+			<label index="your_email">Váš email:</label>
+			<label index="ll_forgot_header">Zabudli ste heslo?</label>
+			<label index="ll_forgot_email_password">Vaše heslo
+Dobrý deň %s
+
+Vaše užívateľské meno je &quot;%s&quot;
+Vaše heslo je &quot;%s&quot;</label>
+			<label index="ll_forgot_validate_reset_password">Vaše nové heslo
+Dobrý deň %s
+
+Tento email bolo odoslaný po zadaní žiadosti na zmenu hesla. Prosím, kliknite na nasledujúci odkaz.
+%s
+
+Kvôli bezpečnosti je odkaz aktívny len určený čas (%s). Ak dovtedy nekliknente na odkaz, budete musieť zopakovať žiadosť o zmenu hesla.</label>
+			<label index="ll_forgot_message">Prosím napíšte mailovú adresu, ktorú ste zadali pri registrácii. Potom stlačte &quot;Odoslať heslo&quot; a Vaše prihlasovacie údaje budú odoslané mailom. Uistite sa, či ste mailovú adresu napísali správne.</label>
+			<label index="ll_forgot_message_emailSent">Vaše heslo bude odoslané na mailovú adresu %s</label>
+			<label index="ll_forgot_header_backToLogin">Späť na prihlacovací formulár</label>
+			<label index="ll_enter_your_data">Užívateľské meno alebo emailová adresa:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="sk" type="array">
+			<label index="username" type="integer">212632006</label>
+			<label index="password" type="integer">187963993</label>
+			<label index="login" type="integer">161344120</label>
+			<label index="permalogin" type="integer">192836582</label>
+			<label index="logout" type="integer">3292644</label>
+			<label index="send_password" type="integer">244443771</label>
+			<label index="your_email" type="integer">165004462</label>
+			<label index="ll_forgot_header" type="integer">1726109</label>
+			<label index="ll_forgot_email_password" type="integer">100562706</label>
+			<label index="ll_welcome_header" type="integer">236929731</label>
+			<label index="ll_welcome_message" type="integer">165291194</label>
+			<label index="ll_logout_header" type="integer">128821468</label>
+			<label index="ll_error_header" type="integer">165006287</label>
+			<label index="ll_success_header" type="integer">236890074</label>
+			<label index="ll_success_message" type="integer">127181223</label>
+			<label index="ll_status_header" type="integer">261174419</label>
+			<label index="ll_status_message" type="integer">110223230</label>
+			<label index="ll_forgot_message_emailSent" type="integer">214484910</label>
+			<label index="ll_forgot_header_backToLogin" type="integer">71375192</label>
+			<label index="ll_logout_message" type="integer">246637860</label>
+			<label index="ll_forgot_message" type="integer">194258101</label>
+			<label index="change_password" type="integer">21487294</label>
+			<label index="newpassword_label1" type="integer">165306039</label>
+			<label index="newpassword_label2" type="integer">206168884</label>
+			<label index="ll_enter_your_data" type="integer">17378791</label>
+			<label index="reset_password" type="integer">101133955</label>
+			<label index="ll_change_password_header" type="integer">21487294</label>
+			<label index="ll_change_password_message" type="integer">36773711</label>
+			<label index="ll_error_message" type="integer">91350987</label>
+			<label index="cookie_warning" type="integer">70334511</label>
+			<label index="ll_change_password_done_message" type="integer">116196406</label>
+			<label index="ll_forgot_validate_reset_password" type="integer">30237957</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="sk" type="array">
+			<label index="username">Username:</label>
+			<label index="password">Password:</label>
+			<label index="login">Login</label>
+			<label index="permalogin">Stay logged in:</label>
+			<label index="logout">Logout</label>
+			<label index="send_password">Send password</label>
+			<label index="your_email">Your email:</label>
+			<label index="ll_forgot_header">Forgot your password?</label>
+			<label index="ll_forgot_email_password">Your password
+Hi %s
+
+Your username is &quot;%s&quot;
+Your password is &quot;%s&quot;
+			</label>
+			<label index="ll_welcome_header">User login</label>
+			<label index="ll_welcome_message">Enter your username and password here in order to log in on the website:</label>
+			<label index="ll_logout_header">You have logged out.</label>
+			<label index="ll_error_header">Login failure</label>
+			<label index="ll_success_header">Login successful</label>
+			<label index="ll_success_message">You are now logged in as '###USER###'</label>
+			<label index="ll_status_header">Current status</label>
+			<label index="ll_status_message">This is your current status:</label>
+			<label index="ll_forgot_message_emailSent">Your password has now been sent to the email address %s</label>
+			<label index="ll_forgot_header_backToLogin">Return to login form</label>
+			<label index="ll_logout_message">You just logged out from your user session on this website. You can login again or as another user by the form below.</label>
+			<label index="ll_forgot_message">Please enter the email address by which you registered your user account. Then press &quot;Send password&quot; and your password will immediately be emailed to you. Make sure to spell your email address correctly.</label>
+			<label index="change_password">Change your password</label>
+			<label index="newpassword_label1">Enter new password</label>
+			<label index="newpassword_label2">Repeat new password</label>
+			<label index="ll_enter_your_data">Username or email address:</label>
+			<label index="reset_password">Reset Password</label>
+			<label index="ll_change_password_header">Change your password</label>
+			<label index="ll_change_password_message">Please enter your new password twice. Password needs a minimum length of %s chars.</label>
+			<label index="ll_error_message">An error occurred during login. Most likely you didn't enter the username or password correctly.
+Be certain that you enter them precisely as they are, including upper/lower case.
+Another possibility is that cookies might be disabled in your web browser.</label>
+			<label index="cookie_warning">Warning: There is a possibility that cookies are not enabled in your web browser! If your login disappears on your next click that is the case and you should enable cookies (or accept cookies from this website) immediately!</label>
+			<label index="ll_change_password_done_message">Your password has been saved. You can now login with your new password.</label>
+			<label index="ll_forgot_validate_reset_password">Your new password
+Dear %s,
+
+This email was sent in response to your request to reset your password. Please click on the link below. 
+%s
+
+For security reasons, this link is only active until %s. If you do not visit the link before then, you will need to repeat the password reset steps.
+			</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

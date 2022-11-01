@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ru" type="array">
+			<label index="moduleTitle">Инструменты шаблонирования</label>
+			<label index="templateAnalyzer">Анализ шаблона</label>
+			<label index="constantEditor">Редактор констант</label>
+			<label index="infoModify">Информация/изменение</label>
+			<label index="objectBrowser">Проводник по объектам TypoScript</label>
+			<label index="viewTemplates">Просмотр шаблонов</label>
+			<label index="pageName">Название страницы</label>
+			<label index="templates"># Шаблонов</label>
+			<label index="isRoot">Корень</label>
+			<label index="isExt">Расширение</label>
+			<label index="overview">Это - краткий обзор страниц в базе данных, содержащих одну или несколько записей шаблонов. Щелкните по заголовку страницы для перехода к ней.</label>
+			<label index="areYouSure">Вы уверены, что хотите это сделать?</label>
+			<label index="noTemplate">Нет шаблона</label>
+			<label index="noTemplateDescription">На этой странице нет шаблона!</label>
+			<label index="createTemplate">Перед редактированием констант, сначала нужно создать запись шаблона!</label>
+			<label index="createTemplateToEditConfiguration">Для редактирования своих настроек, необходимо создать запись шаблона ниже.</label>
+			<label index="newWebsite">Создать новый сайт</label>
+			<label index="newWebsiteDescription">Если нужно, чтобы эта страница стала корнем нового сайта, созданного на основе одного из стандартных шаблонов, нажмите кнопку ниже:</label>
+			<label index="newWebsiteAction">Создать шаблон для нового сайта</label>
+			<label index="extTemplate">Создать шаблон расширение</label>
+			<label index="extTemplateDescription">Шаблон расширение позволяет ввести значения TypoScript, которые затронут только текущую страницу с подстраницами.</label>
+			<label index="extTemplateAction">Щелкните здесь для создания шаблона расширения.</label>
+			<label index="goToClosest">Перейти к ближайшей странице с шаблоном</label>
+			<label index="goToClosestDescription">Ближайший шаблон имеется на странице '%s' (uid %s).</label>
+			<label index="goToClosestAction">Щелкните здесь для перехода</label>
+			<label index="titleNewSiteStandard">НОВЫЙ САЙТ, на стандартной основе</label>
+			<label index="titleNewSite">НОВЫЙ САЙТ</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ru" type="array">
+			<label index="moduleTitle" type="integer">25422173</label>
+			<label index="viewTemplates" type="integer">147171339</label>
+			<label index="templateAnalyzer" type="integer">99845697</label>
+			<label index="constantEditor" type="integer">6299451</label>
+			<label index="infoModify" type="integer">54689582</label>
+			<label index="objectBrowser" type="integer">103980788</label>
+			<label index="pageName" type="integer">201990046</label>
+			<label index="templates" type="integer">238742573</label>
+			<label index="isRoot" type="integer">251629950</label>
+			<label index="isExt" type="integer">130245860</label>
+			<label index="overview" type="integer">236778785</label>
+			<label index="areYouSure" type="integer">98783804</label>
+			<label index="noTemplate" type="integer">8182736</label>
+			<label index="noTemplateDescription" type="integer">40670108</label>
+			<label index="createTemplate" type="integer">48618724</label>
+			<label index="newWebsite" type="integer">18468574</label>
+			<label index="newWebsiteDescription" type="integer">230498313</label>
+			<label index="newWebsiteAction" type="integer">260099072</label>
+			<label index="extTemplate" type="integer">405812</label>
+			<label index="extTemplateDescription" type="integer">53295941</label>
+			<label index="extTemplateAction" type="integer">29079988</label>
+			<label index="goToClosest" type="integer">111276478</label>
+			<label index="goToClosestDescription" type="integer">219139555</label>
+			<label index="goToClosestAction" type="integer">19590923</label>
+			<label index="titleNewSiteStandard" type="integer">44728116</label>
+			<label index="titleNewSite" type="integer">13205855</label>
+			<label index="createTemplateToEditConfiguration" type="integer">173214788</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ru" type="array">
+			<label index="moduleTitle">Template tools</label>
+			<label index="viewTemplates">Viewing templates of</label>
+			<label index="templateAnalyzer">Template Analyzer</label>
+			<label index="constantEditor">Constant Editor</label>
+			<label index="infoModify">Info/Modify</label>
+			<label index="objectBrowser">TypoScript Object Browser</label>
+			<label index="pageName">Page name</label>
+			<label index="templates"># Templates</label>
+			<label index="isRoot">Is Root?</label>
+			<label index="isExt">Is Ext?</label>
+			<label index="overview">This is an overview of the pages in the database containing one or more template records. Click a page title to go to the page.</label>
+			<label index="areYouSure">Are you sure you want to do this?</label>
+			<label index="noTemplate">No template</label>
+			<label index="noTemplateDescription">There was no template on this page!</label>
+			<label index="createTemplate">Create a template record first in order to edit constants!</label>
+			<label index="newWebsite">Create new website</label>
+			<label index="newWebsiteDescription">If you want this page to be the root of a new website, optionally based on one of the standard templates, then press the button below:</label>
+			<label index="newWebsiteAction">Create template for a new site</label>
+			<label index="extTemplate">Create extension template</label>
+			<label index="extTemplateDescription">An extension template allows you to enter TypoScript values that will affect only this page and subpages.</label>
+			<label index="extTemplateAction">Click here to create an extension template.</label>
+			<label index="goToClosest">Go to closest page with template</label>
+			<label index="goToClosestDescription">Closest template is on page '%s' (uid %s).</label>
+			<label index="goToClosestAction">Click here to go.</label>
+			<label index="titleNewSiteStandard">NEW SITE, based on standard</label>
+			<label index="titleNewSite">NEW SITE</label>
+			<label index="createTemplateToEditConfiguration">You need to create a template record below in order to edit your configuration.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

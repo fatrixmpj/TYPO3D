@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ro" type="array">
+			<label index=".description">categorii tt_news</label>
+			<label index="title.description">Titlul categoriei pentru limba implicită. Titlul poate fi folosit ca scurtătură la orice pagină sau ca selector de categorie (configurat folosind &quot;categoryMode&quot;)</label>
+			<label index="endtime.description">Timpul de &quot;Stop&quot; e data începând cu care categoria şi ştirile care au această categorie nu vor mai fi disponibile online.</label>
+			<label index="image.description">O imagine care poate fi afişată în locul (sau adiţional) titlului categoriei.</label>
+			<label index="shortcut.description">O pagină internă la care sunt legate titlurile de categorii sau/şi imaginile.</label>
+			<label index="shortcut_target.description">Ţinta pentru categoriile de ştiri folosite pe post de scurtături</label>
+			<label index="shortcut_target.details">Folosind câmpul &quot;ţintă pentru...&quot; puteţi configura o referinţă la care va lega categoria (această setare va avea prioritate asupra setărilor globale pentru ţinte/referiri folosite de linkuri)</label>
+			<label index="single_pid.description">Pagina configurată aici va suprascrie câmpul global &quot;singlePid&quot;.</label>
+			<label index="description.description">Aici puteţi introduce o descriere pentru categoria curentă, descriere ce va fi afişată ca şi tooltip în arborele de categorii</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ro" type="array">
+			<label index=".description" type="integer">157870280</label>
+			<label index="title.description" type="integer">266611085</label>
+			<label index="shortcut_target.description" type="integer">110099690</label>
+			<label index="shortcut_target.details" type="integer">62054161</label>
+			<label index="single_pid.description" type="integer">144853978</label>
+			<label index="description.description" type="integer">229227382</label>
+			<label index="endtime.description" type="integer">2001333</label>
+			<label index="image.description" type="integer">259887125</label>
+			<label index="shortcut.description" type="integer">177455732</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ro" type="array">
+			<label index=".description">tt_news categories.</label>
+			<label index="title.description">The category title for the default language. The title can act as shortcut to a certain page or as category selector (configured by &quot;categoryMode&quot;).</label>
+			<label index="shortcut_target.description">Target for news category shortcut.</label>
+			<label index="shortcut_target.details">With the field &quot;Target for ...&quot; you can configure a target for the category shortcut (this setting will have priority over a global setting for link targets in your website).</label>
+			<label index="single_pid.description">The page which is defined here overrides the globally configured &quot;singlePid&quot;.</label>
+			<label index="description.description">Here you can enter a description for the current category which will be shown as tooltip in the category tree.</label>
+			<label index="endtime.description">The &quot;Stop&quot; time is the date from which the category and the news which have this category assigned will not be online anymore.</label>
+			<label index="image.description">An image which can be shown instead of (or additionally to) the category title.</label>
+			<label index="shortcut.description">An internal page where the category titles and/or images are linked to.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

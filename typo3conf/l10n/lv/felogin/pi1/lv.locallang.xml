@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lv" type="array">
+			<label index="ll_welcome_header">Lietotāja autorizācija</label>
+			<label index="ll_welcome_message">Ievadiet savu lietotāja vārdu un paroli, lai autorizētos šajā vietnē.</label>
+			<label index="ll_logout_header">Jūsu autorizācija ir beigta.</label>
+			<label index="ll_logout_message">Jūs tikko pārtraucāt lietotāja autorizācijas periodu šajā vietnē. Jūs varat autorizēties vēlreiz vai pieslēgties kā cits lietotājs izmantojot  zemāk norādīto formu.</label>
+			<label index="ll_error_header">Autorizācijas kļūda</label>
+			<label index="ll_success_header">Autorizācija veiksmīga</label>
+			<label index="ll_success_message">Jūs esat autorizējies kā '###USER###'</label>
+			<label index="ll_status_header">Pašreizējais status</label>
+			<label index="ll_status_message">Šis ir jūsu patreizējais status:</label>
+			<label index="username">Lietotāja vārds:</label>
+			<label index="password">Parole:</label>
+			<label index="login">Autorizēties</label>
+			<label index="permalogin">Atcerēties autorizāciju</label>
+			<label index="logout">Iziet</label>
+			<label index="send_password">Nosūtīt paroli</label>
+			<label index="reset_password">Atiestatīt paroli</label>
+			<label index="ll_change_password_header">Mainīt paroli</label>
+			<label index="ll_change_password_message">Lūdzu ievadiet jauno paroli divreiz. Paroles jāsatur vismaz %s simboli.</label>
+			<label index="change_password">Paroles maiņa</label>
+			<label index="newpassword_label1">Ievadiet jauno paroli:</label>
+			<label index="newpassword_label2">Atkārtojiet paroli:</label>
+			<label index="your_email">Jūsu e-pasts:</label>
+			<label index="ll_forgot_header">Aizmirsāt savu paroli?</label>
+			<label index="ll_forgot_email_password">Jūsu parole
+Sveicināti %s
+
+Jūsu lietotāja vārds ir &quot;%s&quot;
+Jūsu parole ir &quot;%s&quot;</label>
+			<label index="ll_forgot_message_emailSent">Jūsu parole tika nosūtīta uz sekojošo e-pasta adresi: %s</label>
+			<label index="ll_forgot_header_backToLogin">Atgriezties uz autorizācijas formu</label>
+			<label index="ll_enter_your_data">Lietotāja vārds vai e-pasta adrese:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lv" type="array">
+			<label index="ll_welcome_header" type="integer">236929731</label>
+			<label index="ll_welcome_message" type="integer">165291194</label>
+			<label index="ll_logout_header" type="integer">128821468</label>
+			<label index="ll_logout_message" type="integer">246637860</label>
+			<label index="ll_error_header" type="integer">165006287</label>
+			<label index="ll_success_header" type="integer">236890074</label>
+			<label index="ll_success_message" type="integer">127181223</label>
+			<label index="ll_status_header" type="integer">261174419</label>
+			<label index="ll_status_message" type="integer">110223230</label>
+			<label index="username" type="integer">212632006</label>
+			<label index="password" type="integer">187963993</label>
+			<label index="login" type="integer">161344120</label>
+			<label index="permalogin" type="integer">192836582</label>
+			<label index="logout" type="integer">3292644</label>
+			<label index="send_password" type="integer">244443771</label>
+			<label index="your_email" type="integer">165004462</label>
+			<label index="ll_forgot_header" type="integer">1726109</label>
+			<label index="ll_forgot_email_password" type="integer">100562706</label>
+			<label index="ll_forgot_message_emailSent" type="integer">214484910</label>
+			<label index="ll_forgot_header_backToLogin" type="integer">71375192</label>
+			<label index="reset_password" type="integer">101133955</label>
+			<label index="ll_change_password_header" type="integer">21487294</label>
+			<label index="ll_change_password_message" type="integer">36773711</label>
+			<label index="change_password" type="integer">21487294</label>
+			<label index="newpassword_label1" type="integer">165306039</label>
+			<label index="newpassword_label2" type="integer">206168884</label>
+			<label index="ll_enter_your_data" type="integer">17378791</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lv" type="array">
+			<label index="ll_welcome_header">User login</label>
+			<label index="ll_welcome_message">Enter your username and password here in order to log in on the website:</label>
+			<label index="ll_logout_header">You have logged out.</label>
+			<label index="ll_logout_message">You just logged out from your user session on this website. You can login again or as another user by the form below.</label>
+			<label index="ll_error_header">Login failure</label>
+			<label index="ll_success_header">Login successful</label>
+			<label index="ll_success_message">You are now logged in as '###USER###'</label>
+			<label index="ll_status_header">Current status</label>
+			<label index="ll_status_message">This is your current status:</label>
+			<label index="username">Username:</label>
+			<label index="password">Password:</label>
+			<label index="login">Login</label>
+			<label index="permalogin">Stay logged in:</label>
+			<label index="logout">Logout</label>
+			<label index="send_password">Send password</label>
+			<label index="your_email">Your email:</label>
+			<label index="ll_forgot_header">Forgot your password?</label>
+			<label index="ll_forgot_email_password">Your password
+Hi %s
+
+Your username is &quot;%s&quot;
+Your password is &quot;%s&quot;
+			</label>
+			<label index="ll_forgot_message_emailSent">Your password has now been sent to the email address %s</label>
+			<label index="ll_forgot_header_backToLogin">Return to login form</label>
+			<label index="reset_password">Reset Password</label>
+			<label index="ll_change_password_header">Change your password</label>
+			<label index="ll_change_password_message">Please enter your new password twice. Password needs a minimum length of %s chars.</label>
+			<label index="change_password">Change your password</label>
+			<label index="newpassword_label1">Enter new password</label>
+			<label index="newpassword_label2">Repeat new password</label>
+			<label index="ll_enter_your_data">Username or email address:</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

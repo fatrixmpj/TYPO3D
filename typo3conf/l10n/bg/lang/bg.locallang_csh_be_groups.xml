@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="bg" type="array">
+			<label index=".description">Това е backend администраторските потребителски групи налични за Backend потребителите. В тази група се определят правата на Backend потребителите.</label>
+			<label index="title.description">Име на Backend потребителската група. Името трябва да бъде описателно и може да бъде сменено в последствие.</label>
+			<label index="title.details">Backend потребителските групи са идентифицирани чрез стойноста на тяхното &quot;uid&quot; поле (integer) и следователно заглавието виниаги може да бъде променяно. &quot;uid&quot; - то не може да бъде променяно.</label>
+			<label index="title.image_descr">Заглавието на потр. група се показва в списъците.</label>
+			<label index="db_mountpoints.description">Задаване на root точки от потребителското дърво на членовете на групата.</label>
+			<label index="file_mountpoints.description">Задаване на стартови точки за дървото от файлови папки .</label>
+			<label index="pagetypes_select.description">Изберете кои 'Типовe' на страници ще могат да бъдат задавани от  членовете.</label>
+			<label index="tables_modify.description">Изберете кои таблици могат да бъдат променяни от членовете.</label>
+			<label index="hidden.description">Забранява потр. група</label>
+			<label index="hidden.details">Ако забраните една потр. група, всички потребители, които са нейни членове като резултат няма да наследят свойствата на тази група, които свойства може да им бъдат дадени в противен случай.</label>
+			<label index="lockToDomain.description">Въведете името на хоста, от който се изисква логване от страна на потребителя.</label>
+			<label index="groupMods.description">Изберете наличните backend модули за членовете на групата.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="bg" type="array">
+			<label index=".description" type="integer">24692837</label>
+			<label index="title.description" type="integer">122308063</label>
+			<label index="db_mountpoints.description" type="integer">79572288</label>
+			<label index="file_mountpoints.description" type="integer">172594607</label>
+			<label index="pagetypes_select.description" type="integer">44094257</label>
+			<label index="tables_modify.description" type="integer">138526409</label>
+			<label index="title.details" type="integer">131557834</label>
+			<label index="title.image_descr" type="integer">254619996</label>
+			<label index="hidden.description" type="integer">190841262</label>
+			<label index="hidden.details" type="integer">191806419</label>
+			<label index="lockToDomain.description" type="integer">139426379</label>
+			<label index="groupMods.description" type="integer">249603367</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="bg" type="array">
+			<label index=".description">This is the Backend administration user groups available for the Backend users. These determine the access credentials for the Backend users.</label>
+			<label index="title.description">Name of the Backend usergroup. The name should be descriptive and can always be changed later.</label>
+			<label index="db_mountpoints.description">Define page tree root points for the group members.</label>
+			<label index="file_mountpoints.description">Define startpoints for the file folder tree.</label>
+			<label index="pagetypes_select.description">Select which 'Types' of Pages the members may set.</label>
+			<label index="tables_modify.description">Select which tables the members may modify.</label>
+			<label index="title.details">Backend Usergroups are identified by their &quot;uid&quot; field value (integer) and therefore the title can always be changed. The &quot;uid&quot; can never be changed for a user group.</label>
+			<label index="title.image_descr">The usergroup title is shown in the record lists.</label>
+			<label index="hidden.description">Disables a user group.</label>
+			<label index="hidden.details">If you disable a user group all users which are members of the group will in effect not inherit any properties this group may have given them.</label>
+			<label index="lockToDomain.description">Enter the host name from which the user is forced to login.</label>
+			<label index="groupMods.description">Select available backend modules for the group members.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

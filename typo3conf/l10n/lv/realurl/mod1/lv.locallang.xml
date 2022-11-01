@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lv" type="array">
+			<label index="title">RealURL menedžments</label>
+			<label index="description">Šis paplašinājums pārvalda RealURL konfigurāciju. Apakšējās tabulas ir izkārtotas secībā, kādā Jums vajadzētu lietot veidojot RealURL konfigurāciju</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lv" type="array">
+			<label index="title" type="integer">33161543</label>
+			<label index="description" type="integer">152073919</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lv" type="array">
+			<label index="title">RealURL management</label>
+			<label index="description">This module manages RealURL configuration. Tabs below are placed in the order you should use them when creating RealURL configuration.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

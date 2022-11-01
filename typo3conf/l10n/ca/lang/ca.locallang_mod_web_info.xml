@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ca" type="array">
+			<label index="title">Informació de les pàgines</label>
+			<label index="depth_0">Aquesta pàgina</label>
+			<label index="depth_1">1 nivell</label>
+			<label index="depth_2">2 nivells</label>
+			<label index="depth_3">3 nivells</label>
+			<label index="mlang_labels_tablabel">Informació de les pàgines, i.e.: estadístiques, quadern de bitàcola, conteo de registres.</label>
+			<label index="mlang_tabs_tab">Informació</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ca" type="array">
+			<label index="title" type="integer">9265976</label>
+			<label index="depth_0" type="integer">98872550</label>
+			<label index="depth_1" type="integer">200641290</label>
+			<label index="depth_2" type="integer">228799796</label>
+			<label index="depth_3" type="integer">195275893</label>
+			<label index="mlang_labels_tablabel" type="integer">71381826</label>
+			<label index="mlang_tabs_tab" type="integer">67476226</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ca" type="array">
+			<label index="title">Page information</label>
+			<label index="depth_0">This page</label>
+			<label index="depth_1">1 level</label>
+			<label index="depth_2">2 levels</label>
+			<label index="depth_3">3 levels</label>
+			<label index="mlang_labels_tablabel">Page related information, eg. hit statistics, change log, record counts</label>
+			<label index="mlang_tabs_tab">Info</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

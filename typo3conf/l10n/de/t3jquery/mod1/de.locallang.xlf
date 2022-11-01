@@ -1,0 +1,404 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2014-05-06T01:03:25Z" product-name="t3jquery" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="title" xml:space="preserve" approved="yes">
+        <source>jQuery Setup</source>
+      <target state="translated">jQuery-Konfiguration</target></trans-unit>
+      <trans-unit id="version_in_use" xml:space="preserve" approved="yes">
+        <source>Versions in use: %s</source>
+      <target state="translated">Version im Einsatz: %s</target></trans-unit>
+      <trans-unit id="integrate_from_cdn" xml:space="preserve" approved="yes">
+        <source>You are using CDN to integrate the jQuery-Libs, there are no further settings.</source>
+      <target state="translated">Sie nutzen CDN zur Integration der jQuery-Bibliothek, es gibt keine weiteren Einstellungen.</target></trans-unit>
+      <trans-unit id="function1" xml:space="preserve" approved="yes">
+        <source>Create custom jQuery JS library</source>
+      <target state="translated">Erstellung einer individuellen jQuery-JS-Bibliothek</target></trans-unit>
+      <trans-unit id="function2" xml:space="preserve" approved="yes">
+        <source>Analyze .js for jQuery dependencies</source>
+      <target state="translated">JS-Analyse auf jQuery-Abhängigkeiten</target></trans-unit>
+      <trans-unit id="function3" xml:space="preserve" approved="yes">
+        <source>Process &amp; Analyze t3jquery.txt in extensions</source>
+      <target state="translated">JS-Analyse von t3jquery.txt in Extensions</target></trans-unit>
+      <trans-unit id="function4" xml:space="preserve" approved="yes">
+        <source>Compress your own javascript file</source>
+      <target state="translated">Komprimieren eigener JS-Dateien</target></trans-unit>
+      <trans-unit id="function5" xml:space="preserve" approved="yes">
+        <source>Display class.t3jquery.php API</source>
+      <target state="translated">Anzeige der class.t3jquery.php-API</target></trans-unit>
+      <trans-unit id="jquery.analyze.dependencies" xml:space="preserve" approved="yes">
+        <source>jQuery dependencies found in file:</source>
+      <target state="translated">jQuery-Abhängigkeiten in folgender Datei:</target></trans-unit>
+      <trans-unit id="jquery.analyze.none" xml:space="preserve" approved="yes">
+        <source>None</source>
+      <target state="translated">Keine</target></trans-unit>
+      <trans-unit id="jquery.analyze.packed" xml:space="preserve" approved="yes">
+        <source>File is either not ending in .js or file is compressed with Packer!</source>
+      <target state="translated">Datei endet nicht auf .js oder ist bereits komprimiert!</target></trans-unit>
+      <trans-unit id="jquery.button.check" xml:space="preserve" approved="yes">
+        <source>Check</source>
+      <target state="translated">Analysieren</target></trans-unit>
+      <trans-unit id="jquery.button.compress" xml:space="preserve" approved="yes">
+        <source>Compress</source>
+      <target state="translated">Komprimieren</target></trans-unit>
+      <trans-unit id="jquery.button.create" xml:space="preserve" approved="yes">
+        <source>Create jQuery Library</source>
+      <target state="translated">jQuery-Bibliothek erstellen</target></trans-unit>
+      <trans-unit id="jquery.button.mergejq" xml:space="preserve" approved="yes">
+        <source>Merge &amp; Use</source>
+      <target state="translated">Vereinigen &amp; Benützen</target></trans-unit>
+      <trans-unit id="jquery.button.selectall" xml:space="preserve" approved="yes">
+        <source>Select all</source>
+      <target state="translated">Alles auswählen</target></trans-unit>
+      <trans-unit id="jquery.button.selectnone" xml:space="preserve" approved="yes">
+        <source>Deselect all</source>
+      <target state="translated">Auswahl löschen</target></trans-unit>
+      <trans-unit id="jquery.button.usejq" xml:space="preserve" approved="yes">
+        <source>Use</source>
+      <target state="translated">Benützen</target></trans-unit>
+      <trans-unit id="jquery.compress.compress" xml:space="preserve" approved="yes">
+        <source>Paste in your UNCOMPRESSED javascript into this field:</source>
+      <target state="translated">Hier das &lt;em&gt;unkomprimierte&lt;/em&gt; JavaScript einfügen:</target></trans-unit>
+      <trans-unit id="jquery.compress.decompress" xml:space="preserve" approved="yes">
+        <source>A COMPRESSED version of your javascript will appear in this field.</source>
+      <target state="translated">Die &lt;em&gt;komprimierte&lt;/em&gt; Version:</target></trans-unit>
+      <trans-unit id="jquery.compress.description" xml:space="preserve" approved="yes">
+        <source>This module can be used for compressing your own javascript file(s), using the same compression (Packer or JsMin) used for compressing the jQuery library.</source>
+      <target state="translated">Durch dieses Modul wird die Möglichkeit zur Verfügung gestellt, eigene JavaScript-Dateien zu komprimieren. Verwendet wird &lt;a href="http://joliclic.free.fr/php/javascript-packer/en/" target="_blank"&gt;die PHP5-version&lt;/a&gt; von &lt;a href="http://dean.edwards.name/packer/" target="_blank"&gt;Dean Edwards Packer&lt;/a&gt; oder &lt;a href="http://www.crockford.com/javascript/jsmin.html" target="_blank"&gt;JSMin&lt;/a&gt;.</target></trans-unit>
+      <trans-unit id="jquery.compress.nomunge" xml:space="preserve" approved="yes">
+        <source>Minify only:</source>
+      <target state="translated">Nur verkleinern:</target></trans-unit>
+      <trans-unit id="jquery.compress.nomunge.yes" xml:space="preserve" approved="yes">
+        <source>Yes</source>
+      <target state="translated">Ja</target></trans-unit>
+      <trans-unit id="jquery.compress.nomunge.no" xml:space="preserve" approved="yes">
+        <source>No</source>
+      <target state="translated">Nein</target></trans-unit>
+      <trans-unit id="jquery.compression" xml:space="preserve" approved="yes">
+        <source>Choose compression type</source>
+      <target state="translated">Kompressionsstufe auswählen</target></trans-unit>
+      <trans-unit id="jquery.compression.jsmin.description" xml:space="preserve" approved="yes">
+        <source>Cleans comments and whitespace, Compression by &lt;a href="http://www.crockford.com/javascript/jsmin.html"&gt;JSMin&lt;/a&gt;.</source>
+      <target state="translated">Säubert Kommentare und Leerzeichen, Kompression mit &lt;a href="http://www.crockford.com/javascript/jsmin.html" target="_blank"&gt;JSMin&lt;/a&gt;.</target></trans-unit>
+      <trans-unit id="jquery.compression.jsmin.name" xml:space="preserve" approved="yes">
+        <source>JsMin Compression</source>
+      <target state="translated">JsMin-Komprimierung</target></trans-unit>
+      <trans-unit id="jquery.compression.nodocs.description" xml:space="preserve" approved="yes">
+        <source>Uncompressed, removes only documentation</source>
+      <target state="translated">Unkomprimiert, löscht lediglich die Dokumentation.</target></trans-unit>
+      <trans-unit id="jquery.compression.nodocs.name" xml:space="preserve" approved="yes">
+        <source>No Documentation</source>
+      <target state="translated">Ohne Dokumentation</target></trans-unit>
+      <trans-unit id="jquery.compression.none.description" xml:space="preserve" approved="yes">
+        <source>Full Source, includes documentation. Recommended while testing &amp; building.</source>
+      <target state="translated">Unkomprimiert, inklusive Dokumentation. Empfehlenswert während der Entwicklung.</target></trans-unit>
+      <trans-unit id="jquery.compression.none.name" xml:space="preserve" approved="yes">
+        <source>No Compression</source>
+      <target state="translated">Keine Komprimierung</target></trans-unit>
+      <trans-unit id="jquery.compression.packer.description" xml:space="preserve" approved="yes">
+        <source>Uses &lt;a href="http://joliclic.free.fr/php/javascript-packer/en/" target="_blank"&gt;the php5 version&lt;/a&gt; of &lt;a href="http://dean.edwards.name/packer/" target="_blank"&gt;Dean Edwards Packer&lt;/a&gt;.</source>
+      <target state="translated">Verwendet &lt;a href="http://joliclic.free.fr/php/javascript-packer/en/" target="_blank"&gt;die PHP5-Version&lt;/a&gt; von &lt;a href="http://dean.edwards.name/packer/" target="_blank"&gt;Dean Edwards Packer&lt;/a&gt;.</target></trans-unit>
+      <trans-unit id="jquery.compression.packer.name" xml:space="preserve" approved="yes">
+        <source>Packer Compression</source>
+      <target state="translated">Packer-Komprimierung</target></trans-unit>
+      <trans-unit id="jquery.extension.missingLibrary" xml:space="preserve">
+        <source>jQuery Library missing:</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.extension.missingLibrary.ui" xml:space="preserve">
+        <source>Some of your extensions require jQuery-UI. You need to add this manually in the extension-manager.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.extension.missingLibrary.tools" xml:space="preserve">
+        <source>Some of your extensions require jQuery-TOOLS. You need to add this manually in the extension-manager.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.extension.em" xml:space="preserve">
+        <source>Click here</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.extension.dependencies" xml:space="preserve" approved="yes">
+        <source>jQuery dependencies found selected extensions:</source>
+      <target state="translated">jQuery-Abhängikeiten in den Extenions gefunden:</target></trans-unit>
+      <trans-unit id="jquery.extension.description" xml:space="preserve" approved="yes">
+        <source>Select the extensions you want processed and checked for jQuery dependencies.</source>
+      <target state="translated">Extensions auswählen, die auf jQuery-Abhängigkeiten geprüft werden sollen.</target></trans-unit>
+      <trans-unit id="jquery.extension.extkey" xml:space="preserve" approved="yes">
+        <source>Extension Key:</source>
+      <target state="translated">Extension-Key:</target></trans-unit>
+      <trans-unit id="jquery.extension.title" xml:space="preserve" approved="yes">
+        <source>Title:</source>
+      <target state="translated">Titel:</target></trans-unit>
+      <trans-unit id="jquery.extension.version" xml:space="preserve" approved="yes">
+        <source>Version:</source>
+      <target state="translated">Version:</target></trans-unit>
+      <trans-unit id="jquery.header1" xml:space="preserve" approved="yes">
+        <source>Choose the jQuery Components you need:</source>
+      <target state="translated">Benötigte Komponenten auswählen:</target></trans-unit>
+      <trans-unit id="jquery.header2" xml:space="preserve" approved="yes">
+        <source>Find the jQuery Components you need</source>
+      <target state="translated">Benötigten Komponenten finden</target></trans-unit>
+      <trans-unit id="jquery.header3" xml:space="preserve" approved="yes">
+        <source>Find the jQuery Components you need</source>
+      <target state="translated">Vorhandene Extensions analysieren</target></trans-unit>
+      <trans-unit id="jquery.header4" xml:space="preserve" approved="yes">
+        <source>Compress your own javascript file</source>
+      <target state="translated">Komprimieren eigener JS-Dateien</target></trans-unit>
+      <trans-unit id="jquery.header5" xml:space="preserve" approved="yes">
+        <source>Display class.t3jquery.php API</source>
+      <target state="translated">Anzeige der class.t3jquery.php-API</target></trans-unit>
+      <trans-unit id="jquery.packito.description" xml:space="preserve" approved="yes">
+        <source>Select the uncompressed Javascript file you want to check for jQuery dependencies.</source>
+      <target state="translated">Unkomprimiertes JavaScript auswählen, das auf jQuery-Abhängigkeiten geprüft werden soll.</target></trans-unit>
+      <trans-unit id="jquery.packito.local" xml:space="preserve" approved="yes">
+        <source>or Local file:</source>
+      <target state="translated">oder lokale Datei:</target></trans-unit>
+      <trans-unit id="jquery.packito.note" xml:space="preserve" approved="yes">
+        <source>&lt;em&gt;Note: Only files with the extension &lt;strong&gt;.js&lt;/strong&gt; is accepted.&lt;br /&gt; Local extension dirs can be accessed using EXT:. ie. EXT:t3jquery/res/jqconfig.js&lt;/em&gt;</source>
+      <target state="translated">&lt;em&gt;Achtung: Nur Dateien mit &lt;strong&gt;.js&lt;/strong&gt; werden akzeptiert.&lt;br /&gt; Extension-Verzeichnisse können mit EXT: abgerufen werden. zB. EXT:t3jquery/res/jqconfig.js&lt;/em&gt;</target></trans-unit>
+      <trans-unit id="jquery.packito.remote" xml:space="preserve" approved="yes">
+        <source>Remote file:</source>
+      <target state="translated">Datei am Server:</target></trans-unit>
+      <trans-unit id="jquery.component.jquery" xml:space="preserve" approved="yes">
+        <source>The jQuery, required for UI Core.</source>
+      <target state="translated">jQuery, für UI-Kern erforderlich.</target></trans-unit>
+      <trans-unit id="jquery.component.noConflict" xml:space="preserve" approved="yes">
+        <source>Activates the noConflict mode of jQuery to work with other JS-Frameworks</source>
+      <target state="translated">Aktiviert den noConflict-Modus für jQuery, damit Sie auch mit anderen JS-Frameworks arbeiten können.</target></trans-unit>
+      <trans-unit id="jquery.component.uicore" xml:space="preserve" approved="yes">
+        <source>The core of jQuery UI, required for all interactions and widgets.</source>
+      <target state="translated">Die Basis des jQuery-UI. Erforderlich für alle Interaktionen und Widgets.</target></trans-unit>
+      <trans-unit id="jquery.component.widget" xml:space="preserve" approved="yes">
+        <source>Core utility for building UI controls.</source>
+      <target state="translated">Widget, für alle Widgets erforderlich.</target></trans-unit>
+      <trans-unit id="jquery.component.mouse" xml:space="preserve" approved="yes">
+        <source>Track and handle mouse-based interactions.</source>
+      <target state="translated">Mouse, für alle Interaktionen mit der Maus erforderlich.</target></trans-unit>
+      <trans-unit id="jquery.component.position" xml:space="preserve" approved="yes">
+        <source>Place elements at specific locations in relation to other elements.</source>
+      <target state="translated">Plaziert Elemente an einer bestimmten Stelle in Relation zu anderen Elementen.</target></trans-unit>
+      <trans-unit id="jquery.component.draggable" xml:space="preserve" approved="yes">
+        <source>Allow elements to be moved using the mouse.</source>
+      <target state="translated">Macht alle Elemente einer Seite ziehbar.</target></trans-unit>
+      <trans-unit id="jquery.component.droppable" xml:space="preserve" approved="yes">
+        <source>Create targets for draggable elements.</source>
+      <target state="translated">Generierte Ziele für ziehbare Elemente.</target></trans-unit>
+      <trans-unit id="jquery.component.resizable" xml:space="preserve" approved="yes">
+        <source>Change the size of an element using the mouse.</source>
+      <target state="translated">Macht alle Elemente einer Seite in der Größe veränderbar.</target></trans-unit>
+      <trans-unit id="jquery.component.selectable" xml:space="preserve" approved="yes">
+        <source>Use the mouse to select elements, individually or in a group.</source>
+      <target state="translated">Macht eine Liste mit Elementen durch die Maus auswählbar, indem man einen Rahmen aufzieht oder darauf klickt.</target></trans-unit>
+      <trans-unit id="jquery.component.sortable" xml:space="preserve" approved="yes">
+        <source>Reorder elements in a list or grid using the mouse.</source>
+      <target state="translated">Macht eine Liste mit Einträgen sortierbar.</target></trans-unit>
+      <trans-unit id="jquery.component.accordion" xml:space="preserve" approved="yes">
+        <source>Displays collapsible content panels for presenting information in a limited amount of space.</source>
+      <target state="translated">Erzeugt ein Akkordeon-Navigationswidget.</target></trans-unit>
+      <trans-unit id="jquery.component.autocomplete" xml:space="preserve" approved="yes">
+        <source>Enables users to quickly find and select from a pre-populated list of values as they type, leveraging searching and filtering.</source>
+      <target state="translated">Auto-Vervollständigung ermöglicht es Benutzern, während der Eingabe schnell aus einer Liste vordefinierter Werte zu wählen, wenn sie zu einem Eingabefeld hinzugefügt wird. Das erleichtert Suchen und Filtern.</target></trans-unit>
+      <trans-unit id="jquery.component.button" xml:space="preserve">
+        <source>Enhances standard form elements like buttons, inputs and anchors to themeable buttons with appropriate hover and active styles.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.dialog" xml:space="preserve" approved="yes">
+        <source>Open content in an interactive overlay.</source>
+      <target state="translated">Öffnet vorhandenes Markup in einem ziehbaren und in der Größe veränderbaren Dialog.</target></trans-unit>
+      <trans-unit id="jquery.component.slider" xml:space="preserve" approved="yes">
+        <source>Drag a handle to select a numeric value.</source>
+      <target state="translated">Ein flexible Regler mit Begrenzungen auf dem mit der Tastatur zugegriffen werden kann.</target></trans-unit>
+      <trans-unit id="jquery.component.tabs" xml:space="preserve" approved="yes">
+        <source>A single content area with multiple panels, each associated with a header in a list.</source>
+      <target state="translated">Transformiert ein Set mit Containerelementen in eine Tabstruktur.</target></trans-unit>
+      <trans-unit id="jquery.component.datepicker" xml:space="preserve" approved="yes">
+        <source>Select a date from a popup or inline calendar.</source>
+      <target state="translated">Eine Datumsauswahl, die aus einer Eingabe heraus aktiviert werden kann oder angezeigt werden kann.</target></trans-unit>
+      <trans-unit id="jquery.component.progressbar" xml:space="preserve" approved="yes">
+        <source>Display status of a determinate or indeterminate process.</source>
+      <target state="translated">Ein Statusindikator. Er kann für den Ladefortschritt oder als Prozentindikator benutzt werden.</target></trans-unit>
+      <trans-unit id="jquery.component.menu" xml:space="preserve">
+        <source>Themeable menu with mouse and keyboard interactions for navigation.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.spinner" xml:space="preserve">
+        <source>Enhance a text input for entering numeric values, with up/down buttons and arrow key handling.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.tooltip" xml:space="preserve">
+        <source>Customizable, themeable tooltips, replacing native tooltips.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.effects.core" xml:space="preserve" approved="yes">
+        <source>Extends the internal jQuery effects, includes morphing, easing and is required by all other effects.</source>
+      <target state="translated">Erweitert die internen jQuery-Effekte, beinhaltet Morphing, Easng und wird von allen anderen Effekten benötigt.</target></trans-unit>
+      <trans-unit id="jquery.component.effects.blind" xml:space="preserve" approved="yes">
+        <source>Blinds the element.</source>
+      <target state="translated">Blendet das Element aus.</target></trans-unit>
+      <trans-unit id="jquery.component.effects.bounce" xml:space="preserve" approved="yes">
+        <source>Bounces an element horizontally or vertically n-times.</source>
+      <target state="translated">Das Element hüpft n-mal horizontal oder vertikal.</target></trans-unit>
+      <trans-unit id="jquery.component.effects.clip" xml:space="preserve" approved="yes">
+        <source>Clips the element on and off like an old TV.</source>
+      <target state="translated">Schaltet ein Element, wie einen alten Fernsehr, an und aus.</target></trans-unit>
+      <trans-unit id="jquery.component.effects.drop" xml:space="preserve" approved="yes">
+        <source>A Drop out effect by moving the element in one direction and hiding it at the same time.</source>
+      <target state="translated">Ein Ausblend-Effekt, bei dem das Element in eine Richtung bewegt und gleichzeitig versteckt wird.</target></trans-unit>
+      <trans-unit id="jquery.component.effects.explode" xml:space="preserve" approved="yes">
+        <source>The element explodes in all directions into n pieces. Also supports imploding again.</source>
+      <target state="translated">Das Element explodiert nach allen Richtungen in n Stücken. Es kann auch wieder implodieren.</target></trans-unit>
+      <trans-unit id="jquery.component.effects.fade" xml:space="preserve" approved="yes">
+        <source>The element will fades in or out.</source>
+      <target state="translated">Das Element wird ein- oder ausgeblendet.</target></trans-unit>
+      <trans-unit id="jquery.component.effects.fold" xml:space="preserve" approved="yes">
+        <source>Folds the element first horizontally and then vertically.</source>
+      <target state="translated">Faltet das Element erst horizontal und dann vertikal.</target></trans-unit>
+      <trans-unit id="jquery.component.effects.highlight" xml:space="preserve" approved="yes">
+        <source>Highlights the background of the element in a defined color for a custom duration.</source>
+      <target state="translated">Hebt den Hintergrund des Elements in einer definierten Farbe für eine bestimmte Zeit hervor.</target></trans-unit>
+      <trans-unit id="jquery.component.effects.pulsate" xml:space="preserve" approved="yes">
+        <source>The element pulsates n times by changing the opacity to zero and back.</source>
+      <target state="translated">Das Element pulsiert n-mal durch Veränderung der Transparenz.</target></trans-unit>
+      <trans-unit id="jquery.component.effects.scale" xml:space="preserve" approved="yes">
+        <source>Grow or shrink any element and it's content and restore it again.</source>
+      <target state="translated">Beliebige Elemente und ihren Inhalt wachsen oder schrumpfen lassen und wiederherstellen.</target></trans-unit>
+      <trans-unit id="jquery.component.effects.shake" xml:space="preserve" approved="yes">
+        <source>Shakes the element horizontally or vertically n times.</source>
+      <target state="translated">Bewegt das Element n-mal horizontal oder vertikal hin und her (Schütteleffekt).</target></trans-unit>
+      <trans-unit id="jquery.component.effects.slide" xml:space="preserve" approved="yes">
+        <source>The element slides in and out of the viewport.</source>
+      <target state="translated">Das Element wird in den sichtbaren Fensterbereich hinein und heraus bewegt.</target></trans-unit>
+      <trans-unit id="jquery.component.effects.transfer" xml:space="preserve" approved="yes">
+        <source>Transfer effect from one element to another.</source>
+      <target state="translated">Übergangseffekt von einem Element zu einem anderen.</target></trans-unit>
+      <trans-unit id="jquery.component.easing" xml:space="preserve">
+        <source>A jQuery plugin to give advanced easing options.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.mousewheel" xml:space="preserve">
+        <source>Adds mouse wheel support for your application! Just call mousewheel to add the event and call unmousewheel to remove the event.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.lint" xml:space="preserve">
+        <source>jQuery Lint works over the top of jQuery and diligently reports errors and any incorrect usage of jQuery. It will also, to some extent, offer guidance on best practices and performance concerns.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.mobile" xml:space="preserve">
+        <source>Touch-Optimized Web Framework for Smartphones &amp; Tablets.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.cookie" xml:space="preserve">
+        <source>A simple, lightweight jQuery plugin for reading, writing and deleting cookies</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.migrate" xml:space="preserve">
+        <source>The plugin restores deprecated features and behaviors so that older code will still run properly on jQuery 1.9 and later</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.bootstrap" xml:space="preserve">
+        <source>Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.bootstrap.transition" xml:space="preserve">
+        <source>Extends the jQuery.support object to CSS3 transition</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.bootstrap.modal" xml:space="preserve">
+        <source>A streamlined, but flexible, take on the traditional javascript modal plugin with only the minimum required functionality and smart defaults.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.bootstrap.dropdown" xml:space="preserve">
+        <source>Add dropdown menus to nearly anything in Bootstrap with this simple plugin. Bootstrap features full dropdown menu support on in the navbar, tabs, and pills.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.bootstrap.scrollspy" xml:space="preserve">
+        <source>The ScrollSpy plugin is for automatically updating nav targets based on scroll position.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.bootstrap.tab" xml:space="preserve">
+        <source>This plugin adds quick, dynamic tab and pill functionality for transitioning through local content.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.bootstrap.tooltip" xml:space="preserve">
+        <source>Inspired by the excellent jQuery.tipsy plugin written by Jason Frame; Tooltips are an updated version, which don't rely on images, use css3 for animations, and data-attributes for local title storage.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.bootstrap.popover" xml:space="preserve">
+        <source>Add small overlays of content, like those on the iPad, to any element for housing secondary information.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.bootstrap.alert" xml:space="preserve">
+        <source>The alert plugin is a tiny class for adding close functionality to alerts.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.bootstrap.button" xml:space="preserve">
+        <source>Do more with buttons. Control button states or create groups of buttons for more components like toolbars.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.bootstrap.collapse" xml:space="preserve">
+        <source>Get base styles and flexible support for collapsible components like accordions and navigation.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.bootstrap.carousel" xml:space="preserve">
+        <source>A generic plugin for cycling through elements.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.bootstrap.typeahead" xml:space="preserve">
+        <source>A basic, easily extended plugin for quickly creating elegant typeaheads with any form text input.</source>
+      <target></target></trans-unit>
+      <trans-unit id="jquery.component.bootstrap.affix" xml:space="preserve">
+        <source>This plugin will set fixed position to elements.</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.tabs" xml:space="preserve" approved="yes">
+        <source>The most important UI widget on the web</source>
+      <target state="translated">Das wichtigste UI Widget im Netz</target></trans-unit>
+      <trans-unit id="tools.component.tabsslideshow" xml:space="preserve" approved="yes">
+        <source>Transforms tabs into a working slideshow</source>
+      <target state="translated">Verwandelt Tabs in eine funktionierende Diashow</target></trans-unit>
+      <trans-unit id="tools.component.tabshistory" xml:space="preserve">
+        <source>The ability to navigate through tabs with the browser's back and forward buttons</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.tooltip" xml:space="preserve" approved="yes">
+        <source>The second most important UI widget on the web.</source>
+      <target state="translated">Das zweitwichtigste UI Widget im Netz</target></trans-unit>
+      <trans-unit id="tools.component.tooltipslide" xml:space="preserve">
+        <source>A sliding tooltip effect with customized sliding directions, dimensions and speeds</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.tooltipdynamic" xml:space="preserve" approved="yes">
+        <source>Dynamic positioning of the tooltip so that it always stays in the viewport</source>
+      <target state="translated">Dynamische Positionierung des Tooltips, so dass es immer innerhalb des sichtbaren Bereichs bleibt</target></trans-unit>
+      <trans-unit id="tools.component.scrollable" xml:space="preserve">
+        <source>A generic HTML scrolling widget</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.scrollablecircular" xml:space="preserve">
+        <source>Makes an infinite loop from the scrollable items so that there is no beginning or end</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.scrollableautoscroll" xml:space="preserve">
+        <source>Makes the scrolling behaviour automatic. highly configurable</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.scrollablenavigator" xml:space="preserve">
+        <source>Provides navigation buttons for switching between pages in scrollable</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.scrollablemousewheel" xml:space="preserve">
+        <source>Enables mousewheel support for scrollable</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.overlay" xml:space="preserve">
+        <source>A generic HTML overlaying widget</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.overlaygallery" xml:space="preserve">
+        <source>A plugin for creating "lightbox" style image galleries</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.overlayapple" xml:space="preserve">
+        <source>An overlay effect that you have seen on apple.com</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.formdateinput" xml:space="preserve" approved="yes">
+        <source>HTML5 date input for humans</source>
+      <target state="translated">HTML5 Datumseingabe für Menschen</target></trans-unit>
+      <trans-unit id="tools.component.formrangeinput" xml:space="preserve" approved="yes">
+        <source>HTML5 range input for humans</source>
+      <target state="translated">HTML5 Bereichseingabe für Menschen</target></trans-unit>
+      <trans-unit id="tools.component.formvalidator" xml:space="preserve" approved="yes">
+        <source>HTML5 input validation for humans</source>
+      <target state="translated">HTML5 Eingabevalidierung für Menschen</target></trans-unit>
+      <trans-unit id="tools.component.flashembed" xml:space="preserve">
+        <source>The future of Flash embedding. Works as a standalone tool and jQuery is not required. flowplayer.js contains this script.</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.history" xml:space="preserve" approved="yes">
+        <source>Back button for AJAX apps</source>
+      <target state="translated">Zurück Schaltfläche für AJAX Anwendungen</target></trans-unit>
+      <trans-unit id="tools.component.expose" xml:space="preserve">
+        <source>Makes your HTML stand out from its surroundings</source>
+      <target></target></trans-unit>
+      <trans-unit id="tools.component.mousewheel" xml:space="preserve" approved="yes">
+        <source>A generic mousewheel support for jQuery</source>
+      <target state="translated">Eine standard Mausrad-Unterstützung für jQuery</target></trans-unit>
+      <trans-unit id="tools.component.flowplayer" xml:space="preserve" approved="yes">
+        <source>The JavaScript component of Flowplayer - the Video player for the Web</source>
+      <target state="translated">Die Javascript Komponente des Flowplayers - Der VideoPlayer fürs Netz</target></trans-unit>
+      <trans-unit id="tools.component.flowplayercontrolbar" xml:space="preserve" approved="yes">
+        <source>Generate video controls with HTML and CSS</source>
+      <target state="translated">Erzeuge Video-Bedienelemente mit HTML und CSS</target></trans-unit>
+      <trans-unit id="tools.component.flowplayerplaylist" xml:space="preserve" approved="yes">
+        <source>Generate video playlists with HTML and CSS</source>
+      <target state="translated">Erzeuge Video Spiellisten mit HTML und CSS</target></trans-unit>
+      <trans-unit id="tools.component.flowplayerembedding" xml:space="preserve">
+        <source>Generates embedding codes for Flowplayer</source>
+      <target></target></trans-unit>
+    </body>
+  </file>
+</xliff>

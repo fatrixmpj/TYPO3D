@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ga" type="array">
+			<label index=".description">categorías de novas</label>
+			<label index="title.description">O título da categoría para a linguaxe por defecto. O título pode actuar como atallo a unha páxina concreta ou como selector de categorias (configurado por &quot;categoryMode&quot;).</label>
+			<label index="title.details">O mostrado ou non do título da categoría configurase no elemento de contido de tt_news. (sheet: category settings) ou mediante TypoScript (&quot;categoryMode&quot;). Os títulos para as linguaxes adicionais do website ponse no campo &quot;title language overlays&quot;. 
+
+Os títulos das categoras ou das imaxes poden actuar como atallos as páxinas de 
+&quot;category selector&quot; o cal significa: Os contidos dun listado de novas son 
+filtrados por categora. O filtrado por categoras é recursivo para as 
+subcategorías.</label>
+			<label index="title_lang_ol.description">No campo &quot;title language overlays&quot; podes definir os títulos que terán as categoras nas outras linguaxes do website.</label>
+			<label index="title_lang_ol.details">Se tes máis dunha linguaxe adicional no website, podes separar aqui os títulos separados pola caracter &quot;|&quot; . &lt;strong&gt;Exemplo:&lt;/strong&gt; Se tes un website con tres linguaxes 
+(en,de,fr) requirese escribir o título da categora pra a linguaxe por defecto no campo &quot;título&quot;. O titulo pra o aleman e o francés escribense no campo &quot;title language overlays&quot; tal e como se mostra na imaxe de abaixo.</label>
+			<label index="title_lang_ol.image_descr">O orden dos títulos das outras linguaxes teñen que ser os mesmos ordere que o do sistema de linguaxes. Neste exempro inglés=0, alemán=1 e francés=2.</label>
+			<label index="parent_category.description">Liga unha categoría á súa categoría pai neste campo.</label>
+			<label index="parent_category.details">No campo &quot;categoría pai&quot; podes definir a categoría acutal como nunha subcategoría da categoría que selecciona neste campo. Isto vai incluir a categoría acutal da nova que ten esta categoría asignada cando a categoría pai está seleccionada. Isto é recursivo.
+
+Unha categoría pai pra a categoría actual pode ser creada directamente no wizard &quot;add&quot; ( o botón máis). Algunhas categorías da árbore pintanse en gris e non son seleccionables, a categoría actual nunca é seleccionable, ademais é posible definir unha lista de categorías que se permiten pra alguns usuarios de grupos de backend no campo TSconfig dese grupo (f.e.: tt_newsPerms.tt_news_cat.allowedItems= 7,8,9). Todas as categorías que non están nesta lista non serán seleccionables para membros dese grupo).
+
+&lt;strong&gt;Categorías recursivas:&lt;/strong&gt; Algunhas veces pode suceder que algunhas categorías anidadas fan un bucle infinito. As categorías recursivas non se mostrarán na árbore de categorías. Se a categoría actual forma parte dun bucle, tt_news detectao e mostra unha mensaxe de error (mira a imaxe) no formulario de categorías. Pra romper o bucle infinito será suficiente vaciar o campo &quot;categoría pai&quot; do rexistro de categorías actual. Despois de salvar o rexistro a mensaxe de error debería desaparecer.
+
+O alto da árbore de categorías pode ser configurado no manexador de extensións.</label>
+			<label index="parent_category.image_descr">Mostrase unha mensaxe de error cando a categoría pai é parte dun bucle de categorías recursivas.</label>
+			<label index="hidden.description">Usa isto para excluir temporalmente esta categoría de tt_news da pantalla e todas as novas que son membros de esta categoría.</label>
+			<label index="hidden.details">Indicando esta opción é practico cando se edita un rexistro de novas da base de datos. Cando está posta a nova non será mostrada hasta que ti - tras loguearte no sistema como usuario de backend- activas no panel de administración o mostrado de campos ocultos. (Admin panel&amp;gt;Preview&amp;gt;Show hidden records option).</label>
+			<label index="starttime.description">O tempo de comenzo &quot;start time&quot; determina a fecha dende a cal a categoría e o seu artículo de novas será visible online. Usa isto para &quot;publicar&quot; novas dunha categoría determinada nunha data concreta. Se non se pon &quot;start time&quot; a categoría porase &quot;online&quot; instantaneamente (a no ser que estea oculta ).</label>
+			<label index="starttime.syntax">O formato e DD-MM-YYYY. Podes introducir o valor doutras formas- será evaluado inmediatamente.
+Se se inserta por exempro unha &quot;d&quot; mostrarase a fecha actual. Ademáis podes añadir calquer valor neste campo , por exempro, &quot;+10&quot; o que añádirá 10 días o valor actual. Por exempro poñendo o valor &quot;d+10&quot; seleccionara dez días a partires de agora.</label>
+			<label index="endtime.description">A data de parada &quot;stop time&quot; é a data dende a cal a categoría e as novas que teñen esta categoría asignada non estará online nunca máis.</label>
+			<label index="endtime.syntax">Mirar tt_news_cat/ Start</label>
+			<label index="fe_group.description">Usa isto pra esconder a categoría de tt_news e todalas novas que teñan esta categoría asignada pra os usuarios que non son membros do grupo de usuarios de frontend que se escolle neste campo.</label>
+			<label index="fe_group.details">Se o campo &quot;Access&quot; ten asignado algun grupo de usuarios, só se lles vai permitir ver as novas ó grupos de usuarios que son membros do grupo seleccionado cando se loguean. A opción especial  &quot;hide at login&quot; significa que as novas desta categoría non serán visibles pra os usuarios do website que están logueados. Da mesma forma &quot;show at login&quot; fará que esas novas sexan visibles pra calquera usuario de frontend que esté logueado.</label>
+			<label index="image.description">Unha imaxe que será mostrada en vez de (o adicionalmente a) ó titulo da categoría.</label>
+			<label index="image.details">Podes subir ou asignar unha imaxe pra cada categoría de novas que se mostra no f.e. en vez do título da categoría. O comportamento dos títulos das categorías ou das imaxes pode ser configurado na pestaña de configuracion de categoría &quot;Category settings&quot; do elemento de contido &quot;novas&quot;.
+
+Os títulos e as imaxes das categorías poden actuar como atallos ás páxinas como &quot;selector de categorias&quot; o cal significa: Os contidos do listado de novas serán filtradospor categoría. O filtrado por categoría é recursivo pra as subcategorías.</label>
+			<label index="shortcut.description">Unha páxina interna á que se ligan os títulos e as imaxes das categorías.</label>
+			<label index="shortcut.details">Os títulos e as imaxes das categorías poden actuar tamen como ligazóns á páxinas internas. Se isto é activado e unha páxina visible se define como atallo, o ligazón dende a categoría apunta a esta páxina.</label>
+			<label index="shortcut_target.description">Destino do atallo de tt_news.</label>
+			<label index="shortcut_target.details">Co campo &quot;Target for..&quot; (Destino pra..)&quot; podes configurar o destino pra o atallo da categoría. Esta configuración tendrá a prioridad sobre a configuración golbal pra ligazóns no website.</label>
+			<label index="single_pid.description">A páxina que se define aqui substitúe a que se configura globalmente como &quot;single pid&quot;.</label>
+			<label index="single_pid.details">O campo vista individual pra as novas desta categoría &quot;single view page for news from this category&quot; dalle a posibilidade de definir unha páxina single-view pra cada categoría. Se queres podes usar esta hai que engadir  useSPidFromCategory = 1 no campo Setup de typoscript.
+
+Se un rexistro de novas ten duas ou máis categorías asignadas, o &quot;single pid&quot; será collido da primeira categoría que se lle asigna o rexistro de novas.</label>
+			<label index="description.description">Aqui podes introducir unha descrición pra a categoría actual que será mostrada cmo unha &quot;tooktip&quot; na arbore de categorías.</label>
+			<label index="description.details">Se tes texstos longos (&gt;70 caracteres) Firefox e mozilla non mosstrarán o tooltips de forma correcta:
+Solución:
+Algunhas extensións de firefox solucionan  este problema. Intentei &quot;popup alt attribute&quot; que funciona perfectamente pra min.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ga" type="array">
+			<label index=".description" type="integer">157870280</label>
+			<label index="title.description" type="integer">266611085</label>
+			<label index="title.details" type="integer">244788100</label>
+			<label index="title_lang_ol.description" type="integer">97624453</label>
+			<label index="title_lang_ol.details" type="integer">214479957</label>
+			<label index="title_lang_ol.image_descr" type="integer">246945865</label>
+			<label index="parent_category.description" type="integer">156085422</label>
+			<label index="parent_category.details" type="integer">173118815</label>
+			<label index="parent_category.image_descr" type="integer">70014790</label>
+			<label index="hidden.description" type="integer">183184707</label>
+			<label index="hidden.details" type="integer">223516146</label>
+			<label index="starttime.description" type="integer">24253135</label>
+			<label index="starttime.syntax" type="integer">141141936</label>
+			<label index="endtime.description" type="integer">2001333</label>
+			<label index="endtime.syntax" type="integer">131110551</label>
+			<label index="fe_group.description" type="integer">101943889</label>
+			<label index="fe_group.details" type="integer">12024309</label>
+			<label index="image.description" type="integer">259887125</label>
+			<label index="image.details" type="integer">88972951</label>
+			<label index="shortcut.description" type="integer">177455732</label>
+			<label index="shortcut.details" type="integer">235767635</label>
+			<label index="shortcut_target.description" type="integer">110099690</label>
+			<label index="shortcut_target.details" type="integer">62054161</label>
+			<label index="single_pid.description" type="integer">144853978</label>
+			<label index="single_pid.details" type="integer">85734700</label>
+			<label index="description.description" type="integer">229227382</label>
+			<label index="description.details" type="integer">188796137</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ga" type="array">
+			<label index=".description">tt_news categories.</label>
+			<label index="title.description">The category title for the default language. The title can act as shortcut to a certain page or as category selector (configured by &quot;categoryMode&quot;).</label>
+			<label index="title.details">The display of the category title on the website is configured in the tt_news content element (sheet: category settings) or by TypoScript (&quot;categoryMode&quot;). The titles for additional website languages are inserted in the field &quot;title language overlays&quot;.
+
+The category titles/images can act as shortcut to a page or as &quot;category selector&quot; which means: the contents of a news-list ist filtered by category. Filtering by category works recursive for subcategories.</label>
+			<label index="title_lang_ol.description">In the field &quot;title language overlays&quot; you can define category titles for other website languages.</label>
+			<label index="title_lang_ol.details">If you have more than one additional website language, you can split the titles with the &quot;|&quot; character.
+
+&lt;strong&gt;Example:&lt;/strong&gt;
+if you have a website with 3 languages (en,de,fr) it's required to write the category title for the default language in the field &quot;title&quot;. The titles for german an french are written to the field &quot;title language overlays&quot; like shown in the image below.</label>
+			<label index="title_lang_ol.image_descr">the order of the overlay titles has to be the same as the order of your system languages.
+In this example: en=0, german=1, french=2 </label>
+			<label index="parent_category.description">Make the current category to a subcategory of the category in this field.</label>
+			<label index="parent_category.details">In the field &quot;Parent category&quot; you can define the current category as a subcategory of the category which is selected in this field. That will include the current category and the newsitems which have this category assigned when the parent category is selected. This works recursive.
+A new parent category for the current category can also be created directly with the &quot;add&quot; wizard (the plus button).
+Some categories in the tree are printed in grey and are not selectable: the current category is never selectable, additionally it is possible to define a list of categories that are allowed for a certain BackEnd user group in the TSconfig of this group (f.e.: tt_newsPerms.tt_news_cat.allowedItems = 7,8,9). All categories that are not in this list will not be selectable for members of this group.
+
+&lt;strong&gt;Recursive categories:&lt;/strong&gt;
+Sometimes it might happen that some nested categories build an endless loop. Recursive categories will not be shown in the category tree. If the current category is part of such a loop, tt_news detects this and shows an error message (see image) in the category form. To break the endless loop it should be sufficient to empty the field &quot;parent_category&quot; from the current category record. After saving the record the error message should disappear.
+
+The height of the category tree can be configured in the extension manager.
+
+</label>
+			<label index="parent_category.image_descr">Error message when the current category is part of a loop of recursive categories.</label>
+			<label index="hidden.description">Use this to temporarily exclude this tt_news category from display and all news which are member of this category.</label>
+			<label index="hidden.details">Setting this option is practical while editing a new tt_news db-record. When it is set, the newsitem will not be displayed unless you - if you're logged in as backend user - enable the Admin Panel&amp;gt;Preview&amp;gt;Show hidden records option.</label>
+			<label index="starttime.description">The &quot;Start&quot; time determines the date from which the category an its news articles will be visible online. Use this to &quot;publish&quot; news articles from a certain category on a certain date. If &quot;Start&quot; time is not set, the category will be online instantly (unless it is hidden otherwise).</label>
+			<label index="starttime.syntax">Format is DD-MM-YYYY. You may enter the value in other ways - it will be evaluated immediately.
+If you insert eg. a &quot;d&quot; the current date is inserted. You can also append any value in the field with eg. &quot;+10&quot; which will add 10 days to the current value. For instance setting the value to &quot;d+10&quot; would select a date 10 days from now.</label>
+			<label index="endtime.description">The &quot;Stop&quot; time is the date from which the category and the news which have this category assigned will not be online anymore.</label>
+			<label index="endtime.syntax">See tt_news_cat / Start (click below).</label>
+			<label index="fe_group.description">Use this to hide the tt_news category and all news which have this category assigned for users that are not member of the website usergroup (fe_groups) which is selected in this field.</label>
+			<label index="fe_group.details">If &quot;Access&quot; is set to a usergroup name, only website users which are members of the selected usergroup will be able to view news with this category when they are logged in. The special option &quot;Hide at login&quot; means the news from this category will not be visible for website users that are logged in. Likewise &quot;Show at login&quot; will make those news visible for any logged in frontend user.</label>
+			<label index="image.description">An image which can be shown instead of (or additionally to) the category title.</label>
+			<label index="image.details">You can upload or assign an image for each news category which is shown f.e. instead of the category title. The behaviour of the category titles/images can be configured in the sheet &quot;Category settings&quot; in the news content element.
+
+The category titles/images can act as shortcut to a page or as &quot;category selector&quot; which means: the contents of a news-list ist filtered by category. Filtering by category works recursive for subcategories.</label>
+			<label index="shortcut.description">An internal page where the category titles and/or images are linked to.</label>
+			<label index="shortcut.details">Category titles or images can also act as shortcut to an internal page. If this is enabled and a visible page is defined as shortcut, the link from the category title or image points to this page.</label>
+			<label index="shortcut_target.description">Target for news category shortcut.</label>
+			<label index="shortcut_target.details">With the field &quot;Target for ...&quot; you can configure a target for the category shortcut (this setting will have priority over a global setting for link targets in your website).</label>
+			<label index="single_pid.description">The page which is defined here overrides the globally configured &quot;singlePid&quot;.</label>
+			<label index="single_pid.details">The field &quot;Single-view page for news from this category&quot; gives you the possibility to define a single-view page for each category. If you want to use this feature it is required to add &quot;useSPidFromCategory = 1&quot; to the TypoScript setup.
+If a news-record has 2 or more categories assigned the SinglePid will be taken from the first category which is assigned to the news record.</label>
+			<label index="description.description">Here you can enter a description for the current category which will be shown as tooltip in the category tree.</label>
+			<label index="description.details">If you have long description texts (&gt;70 chars) Firefox and Mozilla will not display the tooltips correctly.
+		Solution:
+		There are some Firefox extensions which correct this problem. I tried &quot;Popup Alt Attribute&quot; which works flawless for me.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

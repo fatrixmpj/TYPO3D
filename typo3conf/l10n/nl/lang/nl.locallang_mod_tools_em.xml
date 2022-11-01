@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index="mlang_labels_tablabel">TYPO3 Extensie Manager</label>
+			<label index="mlang_labels_tabdescr">Beheer van TYPO3 extensies vanuit een centrale repository, waaronder plugins, modules, class extensies, configuratie code enz. vanuit een centraal depot.</label>
+			<label index="mlang_tabs_tab">Extensie Manager</label>
+			<label index="category_BE">Backend</label>
+			<label index="category_BE_modules">Backend modules</label>
+			<label index="category_FE">Frontend</label>
+			<label index="category_FE_plugins">Frontend plugins</label>
+			<label index="category_miscellanous">Divers</label>
+			<label index="category_services">Services</label>
+			<label index="category_templates">Templates</label>
+			<label index="category_examples">Voorbeelden</label>
+			<label index="category_documentation">Documentatie</label>
+			<label index="state_alpha">Alfa</label>
+			<label index="state_beta">Beta</label>
+			<label index="state_stable">Stabiel</label>
+			<label index="state_experimental">Experimenteel</label>
+			<label index="state_test">Test</label>
+			<label index="state_obsolete">Overbodig</label>
+			<label index="state_exclude_from_updates">Uitsluiten van updates</label>
+			<label index="type_system">Systeem</label>
+			<label index="type_global">Globaal</label>
+			<label index="type_local">Lokaal</label>
+			<label index="descr_system">Systeemextensie (typo3/sysext) - Wordt altijd verspreid met de TYPO3 broncode (statisch).</label>
+			<label index="descr_global">Globale extensie (typo3/ext) - Beschikbaar voor gedeelde bron op server (dynamisch).</label>
+			<label index="descr_local">Lokale extensie (typo3conf/ext/) - Lokaal (alleen) voor deze installatie van TYPO3 (dynamisch).</label>
+			<label index="privacy_notice">Bij interactie met de online repository, kan er voor statistische doeleinden serverinformatie worden verstuurd en opgeslagen in de repository</label>
+			<label index="security_header">Veiligheidsprobleem gevonden? Neem contact met ons op!</label>
+			<label index="security_descr">Veiligheidsissue in TYPO3 of een extensie gevonden? Neem aub contact op met het %sTYPO3 security team%s! Alvast bedankt!</label>
+			<label index="menu_loaded_extensions">Geladen extensies</label>
+			<label index="menu_install_extensions">Installeer extensies</label>
+			<label index="menu_import_extensions">Importeer extensies</label>
+			<label index="menu_translation_handling">Vertaling</label>
+			<label index="menu_settings">Instellingen</label>
+			<label index="menu_extension_updates">Controleer voor extensie updates</label>
+			<label index="list_order_category">Categorie</label>
+			<label index="list_order_author">Auteur</label>
+			<label index="list_order_state">Staat</label>
+			<label index="list_order_type">Type</label>
+			<label index="show_details">Details</label>
+			<label index="show_description">Beschrijving</label>
+			<label index="show_more_details">Meer details</label>
+			<label index="show_technical">Technisch (kan even duren!)</label>
+			<label index="show_validating">Valideren (kan even duren!)</label>
+			<label index="show_changed">Veranderd? (kan even duren!)</label>
+			<label index="details_info">Informatie</label>
+			<label index="details_edit">Bewerk bestanden</label>
+			<label index="details_backup_delete">Backup/Verwijderen</label>
+			<label index="details_dump_db">Dump DB</label>
+			<label index="details_upload">Uploaden naar TER</label>
+			<label index="details_update">UPDATE!</label>
+			<label index="header">Extensie Manager</label>
+			<label index="group_by">Groeperen aan de hand van:</label>
+			<label index="show">Toon:</label>
+			<label index="display_shy">Toon stille extensies:</label>
+			<label index="only_my_ext">Alleen mijn extensies:</label>
+			<label index="show_obsolete">Toon verouderde extensies:</label>
+			<label index="go_back">Ga terug</label>
+			<label index="look_up">Opzoeken:</label>
+			<label index="loaded_exts">Geladen Extensies</label>
+			<label index="how_to_install">Om een extensie in TYPO3 te gebruiken, klik het &quot;plus&quot; icoon %s.</label>
+			<label index="how_to_uninstall">Geinstalleerde extensies kunnen ook weer verwijderd worden - klik daarvoor het &quot;min&quot; icoon %s.</label>
+			<label index="available_extensions">Beschikbare Extensies: Gegroepeerd aan de hand van: %s</label>
+			<label index="do_update">Update de extensie in '%s' vanuit de online repository naar de server</label>
+			<label index="global">globaal</label>
+			<label index="local">lokaal</label>
+			<label index="excluded_from_updates">De extensie is uitgesloten van updates! Dit kan gewijzigd worden in het betreffende ext_emconf.php bestand.</label>
+			<label index="import_to_local_dir">Importeer deze extensie vanuit de online repository naar de 'lokale' directory typo3conf/ext/.</label>
+			<label index="list_or_look_up">Lijst weergeven of opzoeken %s extensies</label>
+			<label index="list_or_look_up_all">alle</label>
+			<label index="list_or_look_up_reviewed">gerecenseerd</label>
+			<label index="look_up_button">Opzoeken</label>
+			<label index="privacy_notice_header">Privacyverklaring:</label>
+			<label index="extensions_repository_group_by">Extensies in TYPO3 Extensie Repository (online) - Gegroepeerd aan de hand van:</label>
+			<label index="extension_required_short">Vp</label>
+			<label index="list_of_local_extensions">Dit is de lijst van extensies die lokaal aanwezig zijn, maar niet in de repository.</label>
+			<label index="might_be_user_defined">Deze kunnen gebruikersgedefinieerd zijn en moeten als zodanig voorafgegaan worden door 'user_'.</label>
+			<label index="only_on_this_server">Op de server aanwezige extensies</label>
+			<label index="no_matching_extensions">Geen overeenkomstige extensies gevonden.</label>
+			<label index="connect_to_ter">Verbind met de huidige mirror en haal daarvan de lijst van beschikbare plugins vanuit de TYPO3 Extensie Repository binnen.</label>
+			<label index="retrieve_update">Ophalen/Updaten</label>
+			<label index="ext_list_last_updated">(laatste update: %s)</label>
+			<label index="in_repository">Extensies in TYPO3 Extensie Repository</label>
+			<label index="upload_t3x">Upload extensie bestand (.t3x):</label>
+			<label index="upload_to_location">...naar lokatie:</label>
+			<label index="local_folder">Lokaal (../typo3conf/ext/)</label>
+			<label index="global_folder">Globaal (typo3/ext/)</label>
+			<label index="system_folder">Systeem (typo3/sysext/)</label>
+			<label index="overwrite_ext">Overschrijf elke reeds bestaande extensie!</label>
+			<label index="upload_ext_file">Upload extensie bestand</label>
+			<label index="upload_ext_directly">Upload extensie bestand rechtstreeks (.t3x):</label>
+			<label index="previous_page">Vorige pagina</label>
+			<label index="next_page">Volgende pagina</label>
+			<label index="showing_extensions_from_to">Extensies %s tot %s tonen</label>
+			<label index="security_settings">Veiligheidsinstellingen</label>
+			<label index="show_exts_without_security_check">Extensies die niet beoordeeld zijn toestaan (basale veiligheidsinstelling):</label>
+			<label index="notice">Opmerking:</label>
+			<label index="security_notice">Zorg er voor dat u er van op de hoogte bent wat de consequenties van het aanvinken van dit selectievak betekend. Lees %sinformatie op typo3.org over veligheidsrecenties%s!</label>
+			<label index="user_settings">Gebruikersinstellingen</label>
+			<label index="enter_repository_username">Repository gebruikernaam invullen:</label>
+			<label index="enter_repository_password">Repository wachtwoord invullen:</label>
+			<label index="repository_password_info">Dit is &lt;em&gt;niet&lt;/em&gt; uw wachtwoord voor de TYPO3 backend! Deze informatie is nodig om in te loggen in uw account op typo3.org!</label>
+			<label index="mirror_selection">Keuze mirror</label>
+			<label index="mirror_list_url">Vul de URL van de mirror lijst in:</label>
+			<label index="mirror_select">Selecteer hieronder een mirror. Deze lijst wordt opgebouwd aan de hand van een online mirror lijst die van bovenstaande URL wordt opgehaald.</label>
+			<label index="mirror_list">Lijst van mirrors</label>
+			<label index="mirror_list_reload">Klik hier om de lijst te verversen.</label>
+			<label index="mirror_use">Gebruik</label>
+			<label index="mirror_name">Naam</label>
+			<label index="mirror_url">URL</label>
+			<label index="mirror_country">Land</label>
+			<label index="mirror_sponsored_by">Gesponsored door</label>
+			<label index="mirror_use_random">Willekeurig (aanbevolen!)</label>
+			<label index="enter_repository_url">URL van de repository invullen:</label>
+			<label index="repository_url_hint">Als u zelf een URL van een repository invult, dan worden de mirrors niet gebruikt. Gebruik deze om gebruik te maken van een specifieke (privé) repository.</label>
+			<label index="repository_settings">Instellingen Repository</label>
+			<label index="translation_settings">Instellingen Vertaling</label>
+			<label index="languages_to_fetch">Op te halen talen:</label>
+			<label index="translation_info">Voor de geselecteerde talen zal de EM vertalingen downloaden en installeren als deze beschikbaar zijn wanneer een extensie wordt geinstalleerd.</label>
+			<label index="translation_loaded_exts">Voor een update of installatie van reeds geladen extensies zie hieronder.</label>
+			<label index="translation_save_selection">selectie opslaan</label>
+			<label index="translation_check_status_button">Controleer status aan de hand van repository</label>
+			<label index="translation_update_button">Updaten vanuit repository</label>
+			<label index="translation_status">Status van vertaling</label>
+			<label index="translation_check_status">Controle status van vertaling, even wachten...</label>
+			<label index="translation_table_check">Deze tabel toont de status van de vertalingen van geladen extensies.</label>
+			<label index="translation_extension_key">Extensie sleutel</label>
+			<label index="translation_checking_extension">Controle status van vertaling voor extensie \&quot;%s\&quot;...</label>
+			<label index="translation_no_translation">Geen vertaling beschikbaar</label>
+			<label index="translation_n_a">N/A</label>
+			<label index="translation_not_installed">Niet geinstalleerd/Onbekend</label>
+			<label index="translation_status_unknown">???</label>
+			<label index="translation_needs_update">Update nodig</label>
+			<label index="translation_status_update">UPD</label>
+			<label index="translation_is_ok">Is actueel</label>
+			<label index="translation_status_ok">OK</label>
+			<label index="translation_check_done">Contole gedaan.</label>
+			<label index="translation_update_status">Updaten van vertalingen, even wachten...</label>
+			<label index="translation_table_update">Deze tabel toont de resultaten van de geactualiseerde vertalingen van de geladen extensies.</label>
+			<label index="translation_full_check_update">Wanneer u een volledige controle of update wilt uitvoeren, verwijder dan de l10n zip-bestanden uit de typo3temp map.</label>
+			<label index="translation_updating_extension">Updaten vertaling van extensie \&quot;%s\&quot;...</label>
+			<label index="translation_has_been_updated">Is geupdate</label>
+			<label index="translation_status_error">FOUT</label>
+			<label index="translation_problems">Mogelijke redenen: Netwerk problemen, allow_url_fopen staat uit, cURL is niet ingeschakeld in de Instalatie Werkset</label>
+			<label index="translation_status_could_not_fetch">Kon vertaalstatus niet ophalen</label>
+			<label index="translation_update_done">Update gedaan.</label>
+			<label index="translation_unpacking_failed">Het uitpakken van de vertaling is mislukt!</label>
+			<label index="ext_load_details_button">Details laden</label>
+			<label index="ext_or">of</label>
+			<label index="ext_import_update_button">Importeren/Updaten</label>
+			<label index="ext_import_update_to">naar:</label>
+			<label index="ext_import_global">Globaal:</label>
+			<label index="ext_import_local">Lokaal:</label>
+			<label index="ext_import_system">Systeem:</label>
+			<label index="ext_import_overwrite">(OVERSCHRIJVEN)</label>
+			<label index="ext_import_folder_empty">(leeg)</label>
+			<label index="ext_import_excluded_from_updates">Deze extensie wordt niet geupdate! Dit kan gewijzigd worden in het ext_emconf.php bestand in de extensiemap.</label>
+			<label index="ext_import_select_command">Kies commando</label>
+			<label index="ext_import_remote_ext_details">Extensie details op afstand</label>
+			<label index="ext_import_list_not_updated">Foutmelding: De lijst kon niet worden samengesteld van %s</label>
+			<label index="ext_import_list_updated">De mirror werd geactualiseerd en bevat nu %s items.</label>
+			<label index="ext_import_list_empty">De mirror kon niet geactualiseerd worden en bevat nu geen items.</label>
+			<label index="ext_import_md5_not_updated">Foutmelding: De MD5 som voor de extensie kon niet worden opgehaald van %s.</label>
+			<label index="ext_import_extlist_updated_header">Extensielijst geactualiseerd</label>
+			<label index="ext_import_extlist_updated">De extensielijst is geactualiseerd en bevat nu %s extensies.</label>
+			<label index="ext_import_list_unchanged_header">Er zijn geen updates voor TYPO3 op dit moment</label>
+			<label index="ext_import_list_unchanged">Er zijn geen wijzigingen in de extensielijst. Deze is dus ook niet opgehaald.</label>
+			<label index="ext_import_ext_already_installed_loaded">De extensie is reeds geïnstalleerd en geladen.</label>
+			<label index="ext_import_p_localconf">localconf.php is niet schrijfbaar!</label>
+			<label index="ext_import_ext_loaded">De extensie was reeds geïnstalleerd en is nu geladen.</label>
+			<label index="ext_import_ext_n_a">De extensie is niet aanwezig voor de overeenkomstige versie.</label>
+			<label index="ext_import_ext_imported">De extensie is geïmporteerd vanuit de repository en geladen.</label>
+			<label index="ext_import_ext_not_loaded">De extensie bevindt zich niet in de repository</label>
+			<label index="ext_import_ext_n_a_rep">De extensie is niet beschikbaar in de repository</label>
+			<label index="ext_import_file_not_uploaded">Is het bestand wel geüpload?</label>
+			<label index="ext_import_file_empty">Het bestand is leeg!</label>
+			<label index="ext_import_ext_present_no_overwrite">Er is al een versie van de extensie aanwezig in '%s' al is deze niet overschreven</label>
+			<label index="display_nle">Toon ook de extensies die niet geladen zijn in deze lijst</label>
+			<label index="display_files">Toon de lijst van gewijzigde bestanden</label>
+			<label index="header_upd_ext">Er zijn nieuwe versies van de volgende extensies in de TER</label>
+			<label index="header_vers_ret">Versie-informatie</label>
+			<label index="tab_mod_name">Extensie</label>
+			<label index="tab_mod_key">Ext-key</label>
+			<label index="tab_mod_loc_ver">Lokaal</label>
+			<label index="tab_mod_rem_ver">Op afstand</label>
+			<label index="tab_mod_comment">Uploadcommentaar</label>
+			<label index="tab_mod_location">Locatie</label>
+			<label index="msg_warn_diff">Er is een verschil tussen de origineel geinstalleerde en de huidige versie geconstateerd!</label>
+			<label index="msg_modified">Gewijzigde bestanden</label>
+			<label index="note_last_update">Laatste wijziging van extensielijst:</label>
+			<label index="note_last_update2">Gebruik &quot;Ophalen/Updaten&quot; in &quot;Importeer Extensies&quot; sectie om de lijst te actualiseren.</label>
+			<label index="globalext">Globaal geïnstalleerde extensie</label>
+			<label index="localext">Lokaal geïnstalleerde extensie</label>
+			<label index="sysext">Ssyteemextensie</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index="mlang_labels_tablabel" type="integer">107630623</label>
+			<label index="mlang_labels_tabdescr" type="integer">61213035</label>
+			<label index="mlang_tabs_tab" type="integer">199372037</label>
+			<label index="display_nle" type="integer">76478189</label>
+			<label index="display_files" type="integer">249361233</label>
+			<label index="header_upd_ext" type="integer">181851683</label>
+			<label index="header_vers_ret" type="integer">56356629</label>
+			<label index="tab_mod_name" type="integer">104746642</label>
+			<label index="tab_mod_key" type="integer">13174148</label>
+			<label index="tab_mod_loc_ver" type="integer">84509186</label>
+			<label index="tab_mod_rem_ver" type="integer">260376821</label>
+			<label index="tab_mod_comment" type="integer">111200332</label>
+			<label index="tab_mod_location" type="integer">216383317</label>
+			<label index="msg_warn_diff" type="integer">64279198</label>
+			<label index="msg_modified" type="integer">76649526</label>
+			<label index="note_last_update" type="integer">21754082</label>
+			<label index="note_last_update2" type="integer">164114497</label>
+			<label index="category_BE" type="integer">48506818</label>
+			<label index="category_BE_modules" type="integer">39991288</label>
+			<label index="category_FE" type="integer">228047462</label>
+			<label index="category_FE_plugins" type="integer">41676017</label>
+			<label index="category_miscellanous" type="integer">59226864</label>
+			<label index="category_services" type="integer">160604400</label>
+			<label index="category_templates" type="integer">132093617</label>
+			<label index="category_examples" type="integer">267895036</label>
+			<label index="category_documentation" type="integer">95866758</label>
+			<label index="state_alpha" type="integer">101917333</label>
+			<label index="state_beta" type="integer">12090726</label>
+			<label index="state_stable" type="integer">262385651</label>
+			<label index="state_experimental" type="integer">117749078</label>
+			<label index="state_test" type="integer">13354593</label>
+			<label index="state_obsolete" type="integer">247663651</label>
+			<label index="state_exclude_from_updates" type="integer">143888087</label>
+			<label index="type_system" type="integer">172350102</label>
+			<label index="type_global" type="integer">80504452</label>
+			<label index="type_local" type="integer">84509186</label>
+			<label index="descr_system" type="integer">173969113</label>
+			<label index="descr_global" type="integer">252612860</label>
+			<label index="descr_local" type="integer">214026576</label>
+			<label index="privacy_notice" type="integer">178654049</label>
+			<label index="security_header" type="integer">117854119</label>
+			<label index="security_descr" type="integer">196474613</label>
+			<label index="menu_loaded_extensions" type="integer">260059038</label>
+			<label index="menu_install_extensions" type="integer">32676540</label>
+			<label index="menu_import_extensions" type="integer">146373137</label>
+			<label index="menu_translation_handling" type="integer">145144065</label>
+			<label index="menu_settings" type="integer">256864370</label>
+			<label index="menu_extension_updates" type="integer">25562123</label>
+			<label index="list_order_category" type="integer">61717939</label>
+			<label index="list_order_author" type="integer">173111111</label>
+			<label index="list_order_state" type="integer">74066497</label>
+			<label index="list_order_type" type="integer">169845367</label>
+			<label index="show_details" type="integer">65812061</label>
+			<label index="show_description" type="integer">190479069</label>
+			<label index="show_more_details" type="integer">45443936</label>
+			<label index="show_technical" type="integer">250066851</label>
+			<label index="show_validating" type="integer">37927568</label>
+			<label index="show_changed" type="integer">72647157</label>
+			<label index="details_info" type="integer">176340495</label>
+			<label index="details_edit" type="integer">152858234</label>
+			<label index="details_backup_delete" type="integer">212437715</label>
+			<label index="details_dump_db" type="integer">256199650</label>
+			<label index="details_upload" type="integer">24268842</label>
+			<label index="details_update" type="integer">6145480</label>
+			<label index="header" type="integer">183301804</label>
+			<label index="group_by" type="integer">103901916</label>
+			<label index="show" type="integer">152556645</label>
+			<label index="display_shy" type="integer">161534753</label>
+			<label index="only_my_ext" type="integer">127072968</label>
+			<label index="show_obsolete" type="integer">215318356</label>
+			<label index="go_back" type="integer">36398395</label>
+			<label index="look_up" type="integer">214979080</label>
+			<label index="loaded_exts" type="integer">240199548</label>
+			<label index="how_to_install" type="integer">11572123</label>
+			<label index="how_to_uninstall" type="integer">131984233</label>
+			<label index="available_extensions" type="integer">25295122</label>
+			<label index="do_update" type="integer">234901991</label>
+			<label index="global" type="integer">164038963</label>
+			<label index="local" type="integer">257809136</label>
+			<label index="excluded_from_updates" type="integer">131336271</label>
+			<label index="import_to_local_dir" type="integer">251854984</label>
+			<label index="list_or_look_up" type="integer">19667991</label>
+			<label index="list_or_look_up_all" type="integer">169351776</label>
+			<label index="list_or_look_up_reviewed" type="integer">33011349</label>
+			<label index="look_up_button" type="integer">175676653</label>
+			<label index="privacy_notice_header" type="integer">8725908</label>
+			<label index="extensions_repository_group_by" type="integer">245654686</label>
+			<label index="extension_required_short" type="integer">5868421</label>
+			<label index="list_of_local_extensions" type="integer">149207239</label>
+			<label index="might_be_user_defined" type="integer">17648872</label>
+			<label index="only_on_this_server" type="integer">201322750</label>
+			<label index="no_matching_extensions" type="integer">154119575</label>
+			<label index="connect_to_ter" type="integer">123859820</label>
+			<label index="retrieve_update" type="integer">246441639</label>
+			<label index="ext_list_last_updated" type="integer">187496920</label>
+			<label index="in_repository" type="integer">179197715</label>
+			<label index="upload_t3x" type="integer">222196646</label>
+			<label index="upload_to_location" type="integer">84155771</label>
+			<label index="local_folder" type="integer">93147331</label>
+			<label index="global_folder" type="integer">227434510</label>
+			<label index="system_folder" type="integer">86517354</label>
+			<label index="overwrite_ext" type="integer">235295098</label>
+			<label index="upload_ext_file" type="integer">29656114</label>
+			<label index="upload_ext_directly" type="integer">165137845</label>
+			<label index="previous_page" type="integer">142659442</label>
+			<label index="next_page" type="integer">57982630</label>
+			<label index="showing_extensions_from_to" type="integer">17518688</label>
+			<label index="security_settings" type="integer">52894231</label>
+			<label index="show_exts_without_security_check" type="integer">239448483</label>
+			<label index="notice" type="integer">143897867</label>
+			<label index="security_notice" type="integer">19720336</label>
+			<label index="user_settings" type="integer">46681867</label>
+			<label index="enter_repository_username" type="integer">15456621</label>
+			<label index="enter_repository_password" type="integer">94246548</label>
+			<label index="repository_password_info" type="integer">152753913</label>
+			<label index="mirror_selection" type="integer">174106801</label>
+			<label index="mirror_list_url" type="integer">92924656</label>
+			<label index="mirror_select" type="integer">97150564</label>
+			<label index="mirror_list" type="integer">39410603</label>
+			<label index="mirror_list_reload" type="integer">265703385</label>
+			<label index="mirror_use" type="integer">181958704</label>
+			<label index="mirror_name" type="integer">77521672</label>
+			<label index="mirror_url" type="integer">241907994</label>
+			<label index="mirror_country" type="integer">93787849</label>
+			<label index="mirror_sponsored_by" type="integer">144405061</label>
+			<label index="mirror_use_random" type="integer">10642242</label>
+			<label index="enter_repository_url" type="integer">39840279</label>
+			<label index="repository_url_hint" type="integer">210228726</label>
+			<label index="repository_settings" type="integer">147968057</label>
+			<label index="translation_settings" type="integer">182771865</label>
+			<label index="languages_to_fetch" type="integer">227860784</label>
+			<label index="translation_info" type="integer">40145184</label>
+			<label index="translation_loaded_exts" type="integer">53451211</label>
+			<label index="translation_save_selection" type="integer">64560181</label>
+			<label index="translation_check_status_button" type="integer">60776383</label>
+			<label index="translation_update_button" type="integer">75831201</label>
+			<label index="translation_status" type="integer">66476878</label>
+			<label index="translation_check_status" type="integer">191787672</label>
+			<label index="translation_table_check" type="integer">181299927</label>
+			<label index="translation_extension_key" type="integer">260594172</label>
+			<label index="translation_checking_extension" type="integer">244656683</label>
+			<label index="translation_no_translation" type="integer">12077510</label>
+			<label index="translation_n_a" type="integer">58896629</label>
+			<label index="translation_not_installed" type="integer">88191540</label>
+			<label index="translation_status_unknown" type="integer">13742220</label>
+			<label index="translation_needs_update" type="integer">129833729</label>
+			<label index="translation_status_update" type="integer">121319786</label>
+			<label index="translation_is_ok" type="integer">142206942</label>
+			<label index="translation_status_ok" type="integer">235577377</label>
+			<label index="translation_check_done" type="integer">224042569</label>
+			<label index="translation_update_status" type="integer">25142961</label>
+			<label index="translation_table_update" type="integer">190043473</label>
+			<label index="translation_full_check_update" type="integer">176027065</label>
+			<label index="translation_updating_extension" type="integer">97380508</label>
+			<label index="translation_has_been_updated" type="integer">253868063</label>
+			<label index="translation_status_error" type="integer">215100333</label>
+			<label index="translation_problems" type="integer">130579038</label>
+			<label index="translation_status_could_not_fetch" type="integer">132966796</label>
+			<label index="translation_update_done" type="integer">178941472</label>
+			<label index="translation_unpacking_failed" type="integer">212684101</label>
+			<label index="ext_load_details_button" type="integer">198307679</label>
+			<label index="ext_or" type="integer">243385572</label>
+			<label index="ext_import_update_button" type="integer">167767871</label>
+			<label index="ext_import_update_to" type="integer">235443110</label>
+			<label index="ext_import_global" type="integer">90713888</label>
+			<label index="ext_import_local" type="integer">216551926</label>
+			<label index="ext_import_system" type="integer">91430039</label>
+			<label index="ext_import_overwrite" type="integer">28138109</label>
+			<label index="ext_import_folder_empty" type="integer">166091601</label>
+			<label index="ext_import_excluded_from_updates" type="integer">87260599</label>
+			<label index="ext_import_select_command" type="integer">136512744</label>
+			<label index="ext_import_remote_ext_details" type="integer">121596218</label>
+			<label index="ext_import_list_not_updated" type="integer">143828460</label>
+			<label index="ext_import_list_updated" type="integer">204695244</label>
+			<label index="ext_import_list_empty" type="integer">33622908</label>
+			<label index="ext_import_md5_not_updated" type="integer">180164424</label>
+			<label index="ext_import_extlist_updated_header" type="integer">258626655</label>
+			<label index="ext_import_extlist_updated" type="integer">138626244</label>
+			<label index="ext_import_list_unchanged_header" type="integer">163038498</label>
+			<label index="ext_import_list_unchanged" type="integer">228446867</label>
+			<label index="ext_import_ext_already_installed_loaded" type="integer">213295302</label>
+			<label index="ext_import_p_localconf" type="integer">127769165</label>
+			<label index="ext_import_ext_loaded" type="integer">114084702</label>
+			<label index="ext_import_ext_n_a" type="integer">250303950</label>
+			<label index="ext_import_ext_imported" type="integer">50373641</label>
+			<label index="ext_import_ext_not_loaded" type="integer">35774773</label>
+			<label index="ext_import_ext_n_a_rep" type="integer">49540167</label>
+			<label index="ext_import_file_not_uploaded" type="integer">215552403</label>
+			<label index="ext_import_file_empty" type="integer">12649753</label>
+			<label index="ext_import_ext_present_no_overwrite" type="integer">49486365</label>
+			<label index="globalext" type="integer">61812468</label>
+			<label index="localext" type="integer">79708142</label>
+			<label index="sysext" type="integer">210174513</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index="mlang_labels_tablabel">TYPO3 Extension Manager</label>
+			<label index="mlang_labels_tabdescr">Manages TYPO3 extensions from a central repository, which includes plugins, modules, class extensions, configuration code etc.</label>
+			<label index="mlang_tabs_tab">Ext Manager</label>
+			<label index="display_nle">Include not loaded extensions into listing</label>
+			<label index="display_files">Display the list of changed files</label>
+			<label index="header_upd_ext">There are new versions of the following extensions in the TER</label>
+			<label index="header_vers_ret">Version information</label>
+			<label index="tab_mod_name">Extension</label>
+			<label index="tab_mod_key">Ext-Key</label>
+			<label index="tab_mod_loc_ver">Local</label>
+			<label index="tab_mod_rem_ver">Remote</label>
+			<label index="tab_mod_comment">Upload-Comment</label>
+			<label index="tab_mod_location">Location</label>
+			<label index="msg_warn_diff">A difference between the originally installed version and the current was detected!</label>
+			<label index="msg_modified">Modified Files:</label>
+			<label index="note_last_update">Last update of the list of extensions:</label>
+			<label index="note_last_update2">To get and update the list, go to the section &quot;Import extensions&quot; and use the button &quot;Retrieve/Update&quot;.</label>
+			<label index="category_BE">Backend</label>
+			<label index="category_BE_modules">Backend Modules</label>
+			<label index="category_FE">Frontend</label>
+			<label index="category_FE_plugins">Frontend Plugins</label>
+			<label index="category_miscellanous">Miscellaneous</label>
+			<label index="category_services">Services</label>
+			<label index="category_templates">Templates</label>
+			<label index="category_examples">Examples</label>
+			<label index="category_documentation">Documentation</label>
+			<label index="state_alpha">Alpha</label>
+			<label index="state_beta">Beta</label>
+			<label index="state_stable">Stable</label>
+			<label index="state_experimental">Experimental</label>
+			<label index="state_test">Test</label>
+			<label index="state_obsolete">Obsolete</label>
+			<label index="state_exclude_from_updates">Exclude From Updates</label>
+			<label index="type_system">System</label>
+			<label index="type_global">Global</label>
+			<label index="type_local">Local</label>
+			<label index="descr_system">System extension (typo3/sysext/) - Always distributed with the TYPO3 source code (static).</label>
+			<label index="descr_global">Global extension (typo3/ext/) - Available for shared source on server (dynamic).</label>
+			<label index="descr_local">Local extension (typo3conf/ext/) - Local for this TYPO3 installation only (dynamic).</label>
+			<label index="privacy_notice">When you interact with the online repository, server information may be sent and stored in the repository for statistics.</label>
+			<label index="security_header">Found a security problem? Please get in touch with us!</label>
+			<label index="security_descr">If you think you have found a security issue in TYPO3 or an extension, please contact the %sTYPO3 security team%s! Thank you!</label>
+			<label index="menu_loaded_extensions">Loaded extensions</label>
+			<label index="menu_install_extensions">Install extensions</label>
+			<label index="menu_import_extensions">Import extensions</label>
+			<label index="menu_translation_handling">Translation handling</label>
+			<label index="menu_settings">Settings</label>
+			<label index="menu_extension_updates">Check for extension updates</label>
+			<label index="list_order_category">Category</label>
+			<label index="list_order_author">Author</label>
+			<label index="list_order_state">State</label>
+			<label index="list_order_type">Type</label>
+			<label index="show_details">Details</label>
+			<label index="show_description">Description</label>
+			<label index="show_more_details">More details</label>
+			<label index="show_technical">Technical (takes time!)</label>
+			<label index="show_validating">Validating (takes time!)</label>
+			<label index="show_changed">Changed? (takes time!)</label>
+			<label index="details_info">Information</label>
+			<label index="details_edit">Edit files</label>
+			<label index="details_backup_delete">Backup/Delete</label>
+			<label index="details_dump_db">Dump DB</label>
+			<label index="details_upload">Upload to TER</label>
+			<label index="details_update">UPDATE!</label>
+			<label index="header">Extension Manager</label>
+			<label index="group_by">Group by:</label>
+			<label index="show">Show:</label>
+			<label index="display_shy">Display shy extensions:</label>
+			<label index="only_my_ext">Only my extensions:</label>
+			<label index="show_obsolete">Show obsolete:</label>
+			<label index="go_back">Go back</label>
+			<label index="look_up">Look up:</label>
+			<label index="loaded_exts">Loaded Extensions</label>
+			<label index="how_to_install">If you want to use an extension in TYPO3, you should simply click the &quot;plus&quot; button %s .</label>
+			<label index="how_to_uninstall">Installed extensions can also be removed again - just click the remove button %s .</label>
+			<label index="available_extensions">Available Extensions - Grouped by: %s</label>
+			<label index="do_update">Update the extension in '%s' from online repository to server</label>
+			<label index="global">global</label>
+			<label index="local">local</label>
+			<label index="excluded_from_updates">The extension is excluded from updates! You can change this in the appropriate ext_emconf.php file.</label>
+			<label index="import_to_local_dir">Import this extension from online repository to the 'local' directory typo3conf/ext/.</label>
+			<label index="list_or_look_up">List or look up %s extensions</label>
+			<label index="list_or_look_up_all">all</label>
+			<label index="list_or_look_up_reviewed">reviewed</label>
+			<label index="look_up_button">Look up</label>
+			<label index="privacy_notice_header">PRIVACY NOTICE:</label>
+			<label index="extensions_repository_group_by">Extensions in TYPO3 Extension Repository (online) - Grouped by:</label>
+			<label index="extension_required_short">Rq</label>
+			<label index="list_of_local_extensions">This is the list of extensions which are available locally, but not in the repository.</label>
+			<label index="might_be_user_defined">They might be user-defined and should be prepended user_ then.</label>
+			<label index="only_on_this_server">Extensions found only on this server</label>
+			<label index="no_matching_extensions">No matching extensions found.</label>
+			<label index="connect_to_ter">Connect to the current mirror and retrieve the current list of available plugins from the TYPO3 Extension Repository.</label>
+			<label index="retrieve_update">Retrieve/Update</label>
+			<label index="ext_list_last_updated">(last update: %s)</label>
+			<label index="in_repository">Extensions in TYPO3 Extension Repository</label>
+			<label index="upload_t3x">Upload extension file (.t3x):</label>
+			<label index="upload_to_location">...to location:</label>
+			<label index="local_folder">Local (../typo3conf/ext/)</label>
+			<label index="global_folder">Global (typo3/ext/)</label>
+			<label index="system_folder">System (typo3/sysext/)</label>
+			<label index="overwrite_ext">Overwrite any existing extension!</label>
+			<label index="upload_ext_file">Upload extension file</label>
+			<label index="upload_ext_directly">Upload extension file directly (.t3x):</label>
+			<label index="previous_page">Prev page</label>
+			<label index="next_page">Next page</label>
+			<label index="showing_extensions_from_to">Showing extensions %s to %s</label>
+			<label index="security_settings">Security Settings</label>
+			<label index="show_exts_without_security_check">Enable extensions without review (basic security check):</label>
+			<label index="notice">Notice:</label>
+			<label index="security_notice">Make sure you know what consequences enabling this checkbox might have. Check the %sinformation on typo3.org about security reviews%s!</label>
+			<label index="user_settings">User Settings</label>
+			<label index="enter_repository_username">Enter repository username:</label>
+			<label index="enter_repository_password">Enter repository password:</label>
+			<label index="repository_password_info">This is &lt;em&gt;not&lt;/em&gt; your password to the TYPO3 backend! This user information is what is needed to log in at typo3.org with your account there!</label>
+			<label index="mirror_selection">Mirror selection</label>
+			<label index="mirror_list_url">Enter mirror list URL:</label>
+			<label index="mirror_select">Select a mirror from below. This list is built from the online mirror list retrieved from the URL above.</label>
+			<label index="mirror_list">Mirror list</label>
+			<label index="mirror_list_reload">Click here to reload the list.</label>
+			<label index="mirror_use">Use</label>
+			<label index="mirror_name">Name</label>
+			<label index="mirror_url">URL</label>
+			<label index="mirror_country">Country</label>
+			<label index="mirror_sponsored_by">Sponsored by</label>
+			<label index="mirror_use_random">Random (recommended!)</label>
+			<label index="enter_repository_url">Enter repository URL:</label>
+			<label index="repository_url_hint">If you set a repository URL, this overrides the use of a mirror. Use this to select a specific (private) repository.</label>
+			<label index="repository_settings">Repository settings</label>
+			<label index="translation_settings">Translation Settings</label>
+			<label index="languages_to_fetch">Languages to fetch:</label>
+			<label index="translation_info">For the selected languages the EM tries to download and install translation files if available, whenever an extension is installed. (This replaces the &lt;code&gt;csh_*&lt;/code&gt; extensions that were used to install core translations before TYPO3 version 4!)</label>
+			<label index="translation_loaded_exts">To request an update or installation for already loaded extensions, see below.</label>
+			<label index="translation_save_selection">Save selection</label>
+			<label index="translation_check_status_button">Check status against repository</label>
+			<label index="translation_update_button">Update from repository</label>
+			<label index="translation_status">Translation status</label>
+			<label index="translation_check_status">Checking translation status, please wait...</label>
+			<label index="translation_table_check">This table shows the status of the translations of the loaded extensions.</label>
+			<label index="translation_extension_key">Extension key</label>
+			<label index="translation_checking_extension">Checking translation status for extension \&quot;%s\&quot;...</label>
+			<label index="translation_no_translation">No translation available</label>
+			<label index="translation_n_a">N/A</label>
+			<label index="translation_not_installed">Not installed/Unknown</label>
+			<label index="translation_status_unknown">???</label>
+			<label index="translation_needs_update">Needs update</label>
+			<label index="translation_status_update">UPD</label>
+			<label index="translation_is_ok">Is up to date</label>
+			<label index="translation_status_ok">OK</label>
+			<label index="translation_check_done">Check done.</label>
+			<label index="translation_update_status">Updating translations, please wait...</label>
+			<label index="translation_table_update">This table shows the update results of the translations of the loaded extensions.</label>
+			<label index="translation_full_check_update">If you want to force a full check or update, delete the l10n zip-files from the typo3temp folder.</label>
+			<label index="translation_updating_extension">Updating translation for extension \&quot;%s\&quot;...</label>
+			<label index="translation_has_been_updated">Has been updated</label>
+			<label index="translation_status_error">ERR</label>
+			<label index="translation_problems">Possible reasons: Network problems, allow_url_fopen is off, cURL is not enabled in the Install Tool</label>
+			<label index="translation_status_could_not_fetch">Could not fetch translation status</label>
+			<label index="translation_update_done">Update done.</label>
+			<label index="translation_unpacking_failed">Unpacking the language pack failed!</label>
+			<label index="ext_load_details_button">Load details</label>
+			<label index="ext_or">or</label>
+			<label index="ext_import_update_button">Import/Update</label>
+			<label index="ext_import_update_to">to:</label>
+			<label index="ext_import_global">Global:</label>
+			<label index="ext_import_local">Local:</label>
+			<label index="ext_import_system">System:</label>
+			<label index="ext_import_overwrite">(OVERWRITE)</label>
+			<label index="ext_import_folder_empty">(empty)</label>
+			<label index="ext_import_excluded_from_updates">This extension is excluded from updates! You can change this in the ext_emconf.php file in the extension folder.</label>
+			<label index="ext_import_select_command">Select command</label>
+			<label index="ext_import_remote_ext_details">Remote Extension Details</label>
+			<label index="ext_import_list_not_updated">Error: The list could not be fetched from %s.</label>
+			<label index="ext_import_list_updated">The mirror list has been updated and now contains %s entries.</label>
+			<label index="ext_import_list_empty">The mirror list was not updated as it contained no entries.</label>
+			<label index="ext_import_md5_not_updated">Error: The extension MD5 sum could not be fetched from %s.</label>
+			<label index="ext_import_extlist_updated_header">Extension list updated</label>
+			<label index="ext_import_extlist_updated">The extensions list has been updated and now contains %s extension entries.</label>
+			<label index="ext_import_list_unchanged_header">No updates available</label>
+			<label index="ext_import_list_unchanged">The extension list has not changed remotely, it has thus not been fetched.</label>
+			<label index="ext_import_ext_already_installed_loaded">Extension already installed and loaded.</label>
+			<label index="ext_import_p_localconf">localconf.php is not writable!</label>
+			<label index="ext_import_ext_loaded">Extension was already installed, it has been loaded.</label>
+			<label index="ext_import_ext_n_a">Extension not available in matching version.</label>
+			<label index="ext_import_ext_imported">Extension has been imported from repository and loaded.</label>
+			<label index="ext_import_ext_not_loaded">Extension is in repository, but could not be loaded.</label>
+			<label index="ext_import_ext_n_a_rep">Extension not available in repository.</label>
+			<label index="ext_import_file_not_uploaded">File was not uploaded?!</label>
+			<label index="ext_import_file_empty">File is empty!</label>
+			<label index="ext_import_ext_present_no_overwrite">A version  of the extension was already present in '%s' and the overwrite flag was not set.</label>
+			<label index="globalext">Globally installed extension</label>
+			<label index="localext">Locally installed extension</label>
+			<label index="sysext">System extension</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

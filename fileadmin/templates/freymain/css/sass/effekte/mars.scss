@@ -1,0 +1,249 @@
+/******************************************************************************/
+/** MARS EFFECT  **/
+/******************************************************************************/
+
+
+.ref .csc-textpic-imagecolumn {
+	display: none;
+}
+
+.ref .csc-textpic-imagecolumn.csc-textpic-firstcol {
+	display: block !important;
+}
+
+.ref div.csc-textpic-imagecolumn.csc-textpic-firstcol {
+	position: relative !important;
+}
+
+.ref  div.csc-textpic-imagerow {
+  display:none !important;
+}
+.ref div.csc-textpic-imagerow:first-child {
+  display:inline !important;
+}
+
+															
+
+
+.mars { position:relative;  }
+
+.mars .csc-textpic-imagewrap {
+	position:relative;
+}
+
+.mars div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
+  margin-bottom: 0px !important;
+  margin-top:0px !important;
+ background-color: #2e5d5a !important;
+}
+
+.mars .csc-textpic-text {
+	position: absolute; bottom: 0;   left: 0; 
+	width:100%; height:50px; 
+	/*padding:12px 0px 12px 0px;*/
+	color:#ffe500;
+	font-weight:700; 
+	text-align:left !important; 
+	background: rgba(35, 76, 150, .85);
+}
+
+.mars .csc-textpic-text > .csc-header {
+	position:relative;
+	height:50px; 
+}
+
+
+.mars h1 {
+	font-size:18px !important;
+	color:#ffe500 !important;
+	font-weight:700; 
+	margin-bottom:0px !important; 
+	padding-left:10px; 
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.mars p { 
+	opacity:0; 
+	webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+	font-size:16px;
+	font-weight:400;
+}
+
+
+.mars a { margin-top:8px; }
+.mars a .fa { font-size:1.6em; color:#fff; }
+.mars a .fa:hover { color:#fff; }
+
+
+.mars img { width:100% !important; height:auto !important; max-width:100% !important; }
+#gridrow div[class*="col-sm"] { margin-bottom:30px !important; }
+
+
+.mars img {
+	max-width: none;
+	width: -webkit-calc(100% + 60px);
+	width: calc(100% + 60px);
+	opacity: 1;
+		
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-0px,0,0) scale(1.12);
+	transform: translate3d(-0px,0,0) scale(1.12);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.mars .csc-textpic-imagewrap:hover:hover img {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0) scale(1);
+	transform: translate3d(0,0,0) scale(1);
+}
+
+
+
+
+
+/*******************************************************************************/
+/* ANTIQUE BROWSER FIX */  
+/*******************************************************************************/
+
+/* IE 9 + IE 10 + 11 */
+@media screen and (min-width:0\0) { 
+
+	.mars img {
+		max-width: none;
+		width: 100% !important;
+
+		-ms-transition:none !important;
+		transition:none !important;
+		-ms-transform:none !important;
+		transform:none !important;
+	}
+	
+	.mars .csc-textpic-imagewrap:hover:hover img {
+		-ms-transition:none !important;
+		transition:none !important;
+		-ms-transform:none !important;
+		transform:none !important;
+	}
+	
+	
+}
+
+
+
+
+
+/*******************************************************************************/
+/* MEDIA QUERIES */  
+/*******************************************************************************/
+
+@media screen and (max-width: 800px) {
+	.mars .csc-textpic-imagewrap:hover  h2 { margin-top:15px !important; }
+}
+
+@media screen and (max-width: 767px) {
+	/*.mars.col-sm-3 { width:25% !important; float:left !important;  } */
+	#gridrow div[class*="col-sm-3"] {  width:33.333% !important; float:left !important; }
+	#gridrow div[class*="col-sm-4"] {  width:33.333% !important; float:left !important; }
+	#gridrow div[class*="col-sm-6"] {  width:33.333% !important; float:left !important; }
+	#gridrow h2 {font-size:16px !important;}
+	/* .mars h2 {font-size:17px !important;} */
+}
+
+@media screen and (max-width: 680px) {
+	#gridrow div[class*="col-sm"] {  width:50% !important; float:left !important; }
+
+}
+
+@media screen and (max-width: 520px) {
+	#gridrow h2 {font-size:16px !important; }
+	#gridrow p { font-size:15px;	}
+	
+	.mars h1, .ref h1 {
+		font-size: 16px !important;
+	}
+}
+
+
+
+
+
+/*******************************************************************************/
+/* PRINT CSS */  
+/*******************************************************************************/
+@media print {
+	
+	#gridrow div[class*="col-sm"] {
+		margin-bottom: 5px !important;
+	}
+	
+	.rer, .mars {
+		height:auto !important; 
+	}
+	
+	.mars, .mars h1, .mars p {
+		color: #000 !important;
+		background-color: #fff;
+	}
+
+	.mars .csc-textpic-text {
+		position: relative !important;
+		bottom: initial !important;
+		left: initial !important;
+		width: 100%;
+		height:auto !important;
+		color: #111;
+		padding: 0px; 
+		font-weight: 400;
+		text-align: left !important;
+		background: none !;
+	}
+
+	
+	.mars h1 {
+		font-size:16px !important;
+		color:#000 !important;
+		font-weight:400 !important; 
+		margin-bottom:0px !important; 
+		padding-left:0px; 
+		position:relative !;
+		padding-top:4px; 
+		top: 0;
+		transform: none !important;
+		height:auto; 
+		
+	}
+	
+	.mars img {
+		max-width: 300px !important;
+		width:100%;
+		height:auto; 
+		max-height:100% !important; 
+		opacity: 1;
+		
+	-webkit-transition: none !important; ;
+	transition: none !important; 
+	-webkit-transform: none !important; 
+	transform: none !important; 
+	}
+	
+	div.csc-textpic, div.csc-textpic div.csc-textpic-imagerow {
+	overflow: auto; 
+	}
+
+	.txtwrap {
+		padding: 0px !important;
+	}
+	div { /*border:1px solid grey*/ }
+}
+

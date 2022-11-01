@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index="title">RealURL beheer</label>
+			<label index="description">Deze modules beheert de RealURL configuratie. De hieronder weergegeven opties zijn in een logische volgorde weergegeven. Gebruik ze in deze volgorde tijdens het aanmaken van de RealURL configuratie.</label>
+			<label index="menuitem_init">Init</label>
+			<label index="menuitem_preVars">Pre-vars</label>
+			<label index="menuitem_fixedPostVars">Vaste Post-vars</label>
+			<label index="menuitem_postVarSets">Post-var sets</label>
+			<label index="menuitem_pagePath">Paginapad</label>
+			<label index="menuitem_fileName">Bestandsnamen</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index="title" type="integer">33161543</label>
+			<label index="description" type="integer">152073919</label>
+			<label index="menuitem_init" type="integer">156965367</label>
+			<label index="menuitem_fileName" type="integer">248164827</label>
+			<label index="menuitem_preVars" type="integer">150109858</label>
+			<label index="menuitem_fixedPostVars" type="integer">82063543</label>
+			<label index="menuitem_postVarSets" type="integer">160970384</label>
+			<label index="menuitem_pagePath" type="integer">124501476</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index="title">RealURL management</label>
+			<label index="description">This module manages RealURL configuration. Tabs below are placed in the order you should use them when creating RealURL configuration.</label>
+			<label index="menuitem_init">Init</label>
+			<label index="menuitem_fileName">File names</label>
+			<label index="menuitem_preVars">Pre-vars</label>
+			<label index="menuitem_fixedPostVars">Fixed Post-vars</label>
+			<label index="menuitem_postVarSets">Post var sets</label>
+			<label index="menuitem_pagePath">Path path</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

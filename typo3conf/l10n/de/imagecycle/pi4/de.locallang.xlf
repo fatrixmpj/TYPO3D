@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2014-05-05T23:59:32Z" product-name="imagecycle" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="list" xml:space="preserve">
+        <source>list</source>
+      <target></target></trans-unit>
+    </body>
+  </file>
+</xliff>

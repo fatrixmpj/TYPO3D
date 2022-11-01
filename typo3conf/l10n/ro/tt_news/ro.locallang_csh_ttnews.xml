@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ro" type="array">
+			<label index=".description">Sistem versatil de ştiri pentru TYPO3.</label>
+			<label index="title.description">Introduceţi un antet pentru înregistrările tt_news</label>
+			<label index="hidden.description">Foloseşte această opţiune pentru a nu mai afişa acestă ştire temporar.</label>
+			<label index="starttime.description">Timpul de &quot;Start&quot; determină data de la care ştirea va fi afişată.</label>
+			<label index="endtime.description">Timpul de &quot;Oprire&quot; determină data de la care ştirea nu va mai fi afişată.</label>
+			<label index="editlock.description">Dacă este setată, opţiunea nu mai permite editarea decât de către utilizatori admin.</label>
+			<label index="datetime.description">Data introdusă aici va fi afişată ca data şi/sau ora articolului.</label>
+			<label index="archivedate.description">Data introdusă în acest câmp va determina dacă ştirile sunt tratate ca şi &quot;arhivate&quot;.</label>
+			<label index="sys_language_uid.description">Limba ştirii.</label>
+			<label index="sys_language_uid.details">Aceasta ar trebui să fie limba standard, decât dacă ştirea e o traducere a altei ştiri.</label>
+			<label index="l18n_parent.description">Ştirea din limba standard, ştire a cărui traducere este această înregistrare.</label>
+			<label index="author.description">Autorul ştirii.</label>
+			<label index="author_email.description">Adresa email a autorului</label>
+			<label index="short.description">Text folosit ca teaser pentru ştire.</label>
+			<label index="bodytext.description">Conţinutul principal al ştirii.</label>
+			<label index="keywords.description">Aici puteţi introduce valorile folosite ca şi &amp;lt;meta&amp;gt; informaţii în headerul paginii (pluginul &quot;metatags&quot; e necesar).</label>
+			<label index="image.description">Aici puteţi ataşa imagini care să fie afişate împreună cu ştirea.</label>
+			<label index="imagecaption.description">Textul afişat sub imagine(i).</label>
+			<label index="imagecaption.details">Introduceţi valoarea pentru fiecare imagine pe rând nou.</label>
+			<label index="imagealttext.description">Text folosit ca şi atributul &quot;alt&quot; pentru tagul HTML al imaginilor.</label>
+			<label index="imagealttext.details">Introduceţi valoarea pentru fiecare imagine pe rând nou.</label>
+			<label index="imagetitletext.description">Text folosit ca şi atributul &quot;title&quot; pentru tagul HTML al imaginilor.</label>
+			<label index="imagetitletext.details">Introduceţi valoarea pentru fiecare imagine pe rând nou.</label>
+			<label index="related.description">Ştiri sau pagini asemănătoare.</label>
+			<label index="news_files.description">Aici puteţi ataşa fişiere la ştire.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ro" type="array">
+			<label index=".description" type="integer">175288138</label>
+			<label index="starttime.description" type="integer">24586625</label>
+			<label index="endtime.description" type="integer">130304282</label>
+			<label index="editlock.description" type="integer">215647851</label>
+			<label index="sys_language_uid.description" type="integer">165373654</label>
+			<label index="sys_language_uid.details" type="integer">74726112</label>
+			<label index="author.description" type="integer">121595033</label>
+			<label index="author_email.description" type="integer">221235019</label>
+			<label index="bodytext.description" type="integer">138969162</label>
+			<label index="hidden.description" type="integer">6132646</label>
+			<label index="datetime.description" type="integer">47151714</label>
+			<label index="archivedate.description" type="integer">172799812</label>
+			<label index="l18n_parent.description" type="integer">137796876</label>
+			<label index="short.description" type="integer">221863442</label>
+			<label index="keywords.description" type="integer">198346701</label>
+			<label index="image.description" type="integer">164360171</label>
+			<label index="imagecaption.description" type="integer">75144587</label>
+			<label index="imagecaption.details" type="integer">265539770</label>
+			<label index="imagealttext.description" type="integer">218565992</label>
+			<label index="imagealttext.details" type="integer">265539770</label>
+			<label index="imagetitletext.description" type="integer">54171941</label>
+			<label index="imagetitletext.details" type="integer">265539770</label>
+			<label index="related.description" type="integer">14923382</label>
+			<label index="news_files.description" type="integer">22096386</label>
+			<label index="title.description" type="integer">56318264</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ro" type="array">
+			<label index=".description">Versatile news system for TYPO3.</label>
+			<label index="starttime.description">The &quot;Start&quot; time determines the date from which the tt_news db-record will be available online.</label>
+			<label index="endtime.description">The &quot;End&quot; time determines the date from which the tt_news db-record will NOT be available online anymore.</label>
+			<label index="editlock.description">If this is enabled non-admin users can't open the record anymore.</label>
+			<label index="sys_language_uid.description">The language of the news record.</label>
+			<label index="sys_language_uid.details">This should be the default language unless this record is a translation of another record.</label>
+			<label index="author.description">The author of the news record.</label>
+			<label index="author_email.description">The email address of the news author.</label>
+			<label index="bodytext.description">This is the main text for the news article.</label>
+			<label index="hidden.description">Use this to temporarily exclude this tt_news db-record from display.</label>
+			<label index="datetime.description">The value entered here will be shown as date and/or time in news articles.</label>
+			<label index="archivedate.description">The date entered in this field will determine if news are handled as &quot;archived&quot; or not.</label>
+			<label index="l18n_parent.description">The news record in the default language where the current record is a translation from.</label>
+			<label index="short.description">A short teaser text for the news article.</label>
+			<label index="keywords.description">Here you can enter some keywords that will be inserted as &amp;lt;meta&amp;gt; keywords in the page header (plugin &quot;metatags&quot; required).</label>
+			<label index="image.description">Here you can assign images that will be shown in the news record.</label>
+			<label index="imagecaption.description">The caption which is shown under the image(s).</label>
+			<label index="imagecaption.details">The field will be split by linebreaks.</label>
+			<label index="imagealttext.description">The text entered here will be inserted as &quot;alt&quot; attribure of the image HTML-tag.</label>
+			<label index="imagealttext.details">The field will be split by linebreaks.</label>
+			<label index="imagetitletext.description">The text entered here will be inserted as &quot;title&quot; attribure of the image HTML-tag.</label>
+			<label index="imagetitletext.details">The field will be split by linebreaks.</label>
+			<label index="related.description">Related news articles or pages.</label>
+			<label index="news_files.description">Here you can attach files to a news record.</label>
+			<label index="title.description">Enter a headline for the tt_news db-record.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

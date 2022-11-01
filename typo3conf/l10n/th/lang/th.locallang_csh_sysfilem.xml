@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index=".description">Filemounts อธิบาย filepath บนเซิร์ฟเวอร์หรือญาติแน่นอน</label>
+			<label index=".details">โดยการสร้างไฟล์ติดบันทึกและวางอ้างอิงถึงใน Backend usergroup คุณสามารถให้เข้าถึงผู้ใช้ไปยังไฟล์ติดใน&gt; module List File 
+Filemounts อาจกำหนดค่าการเข้าถึงซึ่งเส้นทางที่อยู่บนเซิร์ฟเวอร์ที่ผู้ใช้มี FTP เข้าถึง แค่อย่าลืมกำหนดสิทธิ์แฟ้มบนเซิร์ฟเวอร์ได้อย่างถูกต้องเพื่อให้ผู้ใช้ webserver (ซึ่ง PHP สามารถใช้งานได้) ได้อย่างน้อยอ่านที่เข้าถึง - dir FTP 
+คุณสามารถติดเส้นทางแน่นอนหากพวกเขาเป็นฐานในเส้นทางที่กำหนดไว้ใน $ TYPO3_CONF_VARS [พ.ศ. ] [lockRootPath]</label>
+			<label index="title.description">ป้อนชื่อสำหรับ filemount ชื่อนี้จะปรากฏเป็นชื่อของไฟล์ติดเมื่อใช้กับผู้ใช้และกลุ่ม</label>
+			<label index="path.description">ใส่เส้นทางของ filemount ญาติหรือสมบูรณ์ขึ้นอยู่กับการตั้งค่าของฐาน</label>
+			<label index="path.details">ถ้าฐานตั้งสัมพันธ์เส้นทางติดพบในโฟลเดอร์ย่อย fileadmin&quot;/&quot;ของเว็บไซต์ คุณควรใส่ fileadmin โฟลเดอร์ย่อยใน /&quot;เส้นทางเป็น เช่นถ้าคุณต้องการติดเข้าถึง&quot;fileadmin / user_uploads / ทั้งหมด /&quot;แล้วป้อนค่า&quot;user_uploads / ทั้งหมด&quot;เป็นเส้นทางค่าของ 
+ถ้าฐานเป็นที่สุดควรป้อนพา ธ สมบูรณ์บนเซิร์ฟเวอร์เช่น &quot;/ home ftp_upload /&quot;หรือ&quot;C : / home ftp_upload /&quot; ต่อคุณต้องให้แน่ใจว่าการตั้งค่าตัวแปร $ TYPO3_CONF_VARS [พ.ศ. ] [lockRootPath] มีส่วนแรกของเส้นทางที่คุณต้องการติด 
+
+&lt;strong&gt;หมายเหตุ :&lt;/strong&gt; ในกรณีใด ๆ ให้ตรวจสอบผู้ใช้เว็บเซิร์ฟเวอร์ที่ PHP &lt;em&gt;ทำงานเป็นอย่างน้อยเข้าอ่าน&lt;/em&gt; ถึงเส้นทาง ถ้าไม่ติดก็จะไม่ปรากฏไม่มีคำเตือนใดๆ 
+หากคุณมีปัญหา -- โดยเฉพาะอย่างยิ่งกับสมบูรณ์ mounts -- พยายามที่จะติดอะไร&quot;ง่าย&quot;เช่นเส้นทางสัมพันธ์ใน fileadmin หากที่ได้ผลให้ลองเส้นทางที่สมบูรณ์ 
+
+ของคุณตั้งค่า PHP อาจกำหนดข้อ จำกัด อื่น ๆ ที่คุณถ้า safe_mode หรือ open_basedir เปิดใช้งาน จากนั้นใช้เส้นทางญาติ</label>
+			<label index="path.image_descr">นี้เป็นญาติ filemount to&quot;fileadmin /&quot; โฟลเดอร์ที่ติดตั้งคือ&quot;fileadmin user_upload / /&quot;ตั้งแต่ user_upload&quot;&quot;เขต&quot;เป็นค่าของ&quot;Path 
+โครงสร้างไดเรกทอรีของ fileadmin&quot;/&quot;ที่คุณจะเห็นโฟลเดอร์&quot;user_upload ในรายการด้านล่างของ</label>
+			<label index="hidden.description">ใช้ตัวเลือกนี้ชั่วคราวปิด filemount</label>
+			<label index="hidden.details">ผู้ใช้ทั้งหมด backend ใช้ติดจะไม่สามารถเข้าถึงอีกต่อไป ซึ่งรวมถึง'ผู้ใช้ Admin'</label>
+			<label index="base.description">กำหนดว่าค่าของเขตข้อมูลเส้นทางคือการได้รับการยอมรับเป็นเส้นทางแน่นอนในเซิร์ฟเวอร์หรือเส้นทางเทียบกับ fileadmin โฟลเดอร์ย่อย / การเว็บไซต์</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index=".description" type="integer">90189964</label>
+			<label index=".details" type="integer">72796230</label>
+			<label index="title.description" type="integer">240983894</label>
+			<label index="path.description" type="integer">40932089</label>
+			<label index="path.details" type="integer">83621925</label>
+			<label index="path.image_descr" type="integer">198168257</label>
+			<label index="hidden.description" type="integer">191012042</label>
+			<label index="hidden.details" type="integer">244149635</label>
+			<label index="base.description" type="integer">89456305</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+			<label index=".description">Filemounts describe a filepath on the server, relative or absolute.</label>
+			<label index=".details">By creating a file mount record and placing a reference to it in a Backend usergroup you can allow a user access to the file mount in the File&gt;List module.
+Filemounts may also configure access to a path on the server to which the user has FTP-access. Just remember to set file-permissions on the server correctly so the webserver user (which PHP is running as) has at least read access to the FTP-dir.
+You can only mount absolute paths if they are within the base path set in $TYPO3_CONF_VARS[BE][lockRootPath]</label>
+			<label index="title.description">Enter a title for the filemount. The title will appear as the name of the file mount when it is applied to users and groups.</label>
+			<label index="path.description">Enter the path of the filemount, relative or absolute depending on the settings of BASE.</label>
+			<label index="path.details">If BASE is set to relative, the path mounted is found in the subfolder &quot;fileadmin/&quot; of the website. Then you should enter the subfolder in &quot;fileadmin/&quot; as path. For instance if you want to mount access to &quot;fileadmin/user_uploads/all/&quot; then enter the value &quot;user_uploads/all&quot; as the value of PATH.
+If BASE is absolute you should enter the absolute path on the server, eg. &quot;/home/ftp_upload&quot; or &quot;C:/home/ftp_upload&quot;. Further you must make sure the configuration variable $TYPO3_CONF_VARS[BE][lockRootPath] contains the first part of the path you want to mount.
+
+&lt;strong&gt;Notice:&lt;/strong&gt; In any case, make sure the webserver user which PHP is running as has &lt;em&gt;at least&lt;/em&gt; read-access to the path. If not, the mount will simply not appear without any warnings.
+If you have problems - especially with absolute mounts - try to mount something &quot;simple&quot; like a relative path in fileadmin. If that is working well, try the absolute path.
+
+Your PHP-configuration may also impose other restrictions on you if safe_mode or open_basedir is enabled. Then use relative paths.</label>
+			<label index="path.image_descr">This is a filemount relative to &quot;fileadmin/&quot;. The mounted folder is &quot;fileadmin/user_upload/&quot; since &quot;user_upload&quot; is the value of the &quot;Path&quot; field.
+The directory structure of &quot;fileadmin/&quot; where you can see the &quot;user_upload&quot; folder in the bottom of the list.</label>
+			<label index="hidden.description">Use this option to temporarily disable the filemount.</label>
+			<label index="hidden.details">All backend users using the mount will not have access anymore. This includes 'Admin'-users.</label>
+			<label index="base.description">Determines whether the value of the PATH field is to be recognized as an absolute path on the server or a path relative to the fileadmin/ subfolder to the website.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

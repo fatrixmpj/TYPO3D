@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <title>Unbenanntes Dokument</title>
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script>
+
+  $( function() {
+
+    $( "#delivery-freyversand\\.datum" ).datepicker();
+
+  } );
+
+  </script>
+
+
+ </head>
+
+ <body>
+<div class="col-sm-6">
+   <ul class="form-list form-horizontal">
+    <li class="form-item form-group freyversand.datum">
+       <label class="col-md-5" for="delivery-freyversand.datum" class="form-item-label">
+       gewünschtes Lieferdatum - Format (JJJJ-MM-TT)
+       </label>
+       <div class="col-md-7">
+        <input class="form-control col-md-7" type="date"
+							id="delivery-freyversand.datum" class="form-item-value"
+							name="ai[c_delivery][15][freyversand.datum]"
+							value=""
+						/>
+      </div>
+     </li>
+    <li class="form-item form-group freyversand.drittperson">
+       <label class="col-md-5" for="delivery-freyversand.drittperson" class="form-item-label">
+       Darf bei einer Drittperson abgegeben werden
+       </label>
+       <div class="col-md-7">
+        <input class="form-control col-md-7" type="checkbox" id="delivery-freyversand.drittperson" class="form-item-value"
+							name="ai[c_delivery][15][freyversand.drittperson]" value="1"
+							checked="checked"						/>
+      </div>
+     </li>
+    <li class="form-item form-group freyversand.tuer">
+       <label class="col-md-5" for="delivery-freyversand.tuer" class="form-item-label">
+       Darf an der Tür abgegeben werden
+       </label>
+       <div class="col-md-7">
+        <input class="form-control col-md-7" type="checkbox" id="delivery-freyversand.tuer" class="form-item-value"
+							name="ai[c_delivery][15][freyversand.tuer]" value="1"
+							checked="checked"						/>
+      </div>
+     </li>
+    <li class="form-item form-group freyversand.abholung">
+       <label class="col-md-5" for="delivery-freyversand.abholung" class="form-item-label">
+       Abholung im Laden
+       </label>
+       <div class="col-md-7">
+        <input class="form-control col-md-7" type="checkbox" id="delivery-freyversand.abholung" class="form-item-value"
+							name="ai[c_delivery][15][freyversand.abholung]" value="1"
+							checked="checked"						/>
+      </div>
+     </li>
+  </ul>
+ </div>
+
+</body>
+</html>

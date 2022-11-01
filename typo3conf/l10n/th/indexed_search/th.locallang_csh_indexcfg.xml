@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index=".description">การตั้งค่าค้นหาใส่ดัชนีคุณสามารถตั้งค่าการสร้างดัชนีของทรัพยากรที่มีภายนอกต้นไม้หน้า TYPO3 ซึ่งอาจเป็นห้องสมุดของระเบียน (เช่นข่าว), โครงสร้างไดเรกทอรีของแฟ้ม (เช่นไฟล์ PDF) หรือ URL ภายนอกที่จะรวบรวมข้อมูลความลึกบาง -- หรือเนื้อหาของบุคคลที่สามให้จากส่วนขยายอื่น ๆ ผ่านทางตะขอ</label>
+			<label index=".details">บันทึกการกำหนดค่าดัชนีมีการใช้การตั้งค่าการสร้างดัชนีจะเกิดขึ้นวันที่และเวลาที่เกี่ยวข้องกับการที่ส่วนหนึ่งของต้นไม้หน้า ต้องการสิ่งสำคัญที่จะทราบได้ว่าซอฟต์แวร์รวบรวมข้อมูล&quot;นามสกุล&quot;ต้องติดตั้งตั้งแต่เครื่องยนต์ทำดัชนีใช้ซอฟต์แวร์รวบรวมข้อมูล&quot;คิวเป็นอุปกรณ์ขยายเวลา -- และการใช้ซอฟต์แวร์รวบรวมข้อมูล&quot;หมายถึงการขยายการใช้ cron งานเพื่อเปิดใช้งานจาก เปลือก</label>
+			<label index="title.description">ให้ชื่อของการตั้งค่า</label>
+			<label index="description.description">ถ้าต้องการให้มันใส่คำอธิบายหรือบันทึกสำคัญอื่น ๆ ในสาขานี้</label>
+			<label index="hidden.description">ปิดใช้งานการตั้งค่าโดยช่องทำเครื่องหมายนี้ พิการหากตั้งค่าที่จะข้ามจาก cron ซอฟต์แวร์รวบรวมข้อมูลงาน</label>
+			<label index="hidden.details">แจ้งให้ทราบ; ปิดใช้งานการสร้างดัชนีจะไม่ซ่อนเนื้อหาการสร้างดัชนีแล้วในผลการค้นหา!</label>
+			<label index="starttime.description">ตั้งเวลาเริ่มต้นสำหรับการตั้งค่า หากตั้งค่าที่จะข้ามจากงาน cron ซอฟต์แวร์รวบรวมข้อมูลจนถึงขณะนี้ถึง</label>
+			<label index="timer_frequency.description">ใช้การตั้งค่านี้เพื่อปรับความถี่ที่คุณต้องการการสร้างดัชนีใหม่เพื่อให้ทำงานสำหรับการตั้งค่า</label>
+			<label index="timer_offset.description">ปรับชดเชยในสิ่งที่เวลาของวันที่คุณต้องการการสร้างดัชนีในการทำงาน</label>
+			<label index="timer_next_indexing.description">ฟิลด์นี้จะมีวันที่และเวลาของการสร้างดัชนีที่เกิดขึ้นครั้งถัดไป ถ้าซ้ายว่างทำดัชนีต่อไปจะเกิดขึ้นทันทีที่ cron script จะทำงานอีก (โดยทั่วไปในนาทีถัดไป) และชุดต่อไปในครั้งต่อไปตามความถี่และการชดเชย</label>
+			<label index="type.description">เลือกชนิดของการกำหนดค่าดัชนีที่นี่</label>
+			<label index="type.details">&lt;b&gt;Records&lt;/b&gt; -- คุณจะสามารถบันทึกในหน้าดัชนีที่ระบุจากตารางฐานข้อมูลที่ระบุ คุณสามารถกำหนดเขตข้อมูลจากที่บันทึกคุณต้องการดัชนีและวิธีการเพิ่มเติม GET พารามิเตอร์ควรมีลักษณะดังนี้เมื่อเชื่อมโยงไปยังผลการค้นหา 
+&lt;b&gt;ไฟล์&lt;/b&gt; -- ใช้ดัชนีไดเรกทอรีทั้งหมดของไฟล์จากโฟลเดอร์ fileadmin / คุณสามารถเลือกระบุหลายระดับของการเรียกซ้ำคุณต้องการ 
+&lt;b&gt;ภายนอก URL&lt;/b&gt; -- ช่วยให้คุณดัชนีเว็บไซต์ภายนอกและค้นหาจากการติดตั้ง TYPO3 ของคุณ คุณสามารถระบุวิธีลึกซอฟต์แวร์รวบรวมข้อมูลควรจะไปในที่ภายนอก URL 
+&lt;b&gt;ต้นไม้ Page&lt;/b&gt; -- ช่วยให้คุณดัชนีต้นไม้หน้าใช้สคริปต์ cron ชนิดนี้จะไม่เป็นประโยชน์เป็นชนิดชนิดการค้นหาอื่น ๆ เช่น 
+&lt;b&gt;ค่า Meta&lt;/b&gt; -- คะแนนการทำชุดดัชนีอื่น ๆ ในการกำหนดค่าที่จะค้นหา ไม่สามารถใช้ cron งานการสร้างดัชนีตาม 
+&lt;b&gt;ที่กำหนดเอง&lt;/b&gt; -- นามสกุลอื่น ๆ อาจลงทะเบียนประเภทที่กำหนดเองการกำหนดค่า</label>
+			<label index="table2index.description">ระบุตารางฐานข้อมูลที่บันทึกจากดัชนี</label>
+			<label index="alternative_source_pid.description">โดยเริ่มต้นทำดัชนีจะเลือกบันทึกจากหน้า id ที่กำหนดค่าดัชนีจะถูกเก็บไว้ หากคุณต้องการหน้าทางเลือกเป็นที่มาของบันทึกของคุณคุณสามารถป้อนที่นี่</label>
+			<label index="get_params.description">ใส่ GET พารามิเตอร์ที่จำเป็นเพื่อแสดงผลการค้นหา คุณสามารถใช้ # # # UID # # # เป็นเครื่องหมายในพารามิเตอร์แม่แบบ</label>
+			<label index="get_params.details">Notice : GET พารามิเตอร์ที่ต่อท้าย URL ให้พารามิเตอร์ของที่หน้า Indexing Configuration ถูกเก็บไว้ (ซึ่งจะต้องหน้าปลั๊กอินที่มีอยู่สามารถที่จะแสดงผลด้วยระเบียน!) 
+ค่าตัวอย่าง :&quot;&amp; showUid = # # # UID # # #&quot;</label>
+			<label index="fieldlist.description">ใส่เครื่องหมายจุลภาครายการเขตข้อมูลเพื่อจัดทำดัชนี ชื่อเขตข้อมูลแรกจะใช้สำหรับผลการค้นหาชื่อ</label>
+			<label index="fieldlist.details">&lt;b&gt;เช่นหัว&quot;,&lt;/b&gt; bodytext, image_caption&quot;ดัชนีจะหัว Bodytext และคำอธิบายฟิลด์ภาพจาก tt_content&quot; แจ้งให้ทราบว่าคุณต้องใช้ชื่อเขตข้อมูลในฐานข้อมูลจริงไม่ได้สะกดผิด!</label>
+			<label index="chashcalc.description">หากตรวจสอบ, URL ในผลการค้นหาสำหรับบันทึกจะถูกเข้ารหัสด้วย&quot;และ cHash&quot;พารามิเตอร์เพื่อให้ cachable ใช้เฉพาะการสนับสนุนจากปลั๊กอิน!</label>
+			<label index="recordsbatch.description">Enter วิธีการบันทึกหลายดัชนีเช่นกระบวนการสร้างดัชนี (แต่ละจำนวนต่อนาที) เริ่มต้น 100 ระเบียน</label>
+			<label index="records_indexonchange.description">หากตั้งตำแหน่งใหม่และเปลี่ยนจากตารางนี้จะจัดทำดัชนีผ่านเบ็ดใน core (TCEmain) หมายความว่าพวกเขาจะสามารถค้นหาได้ทันทีนอกจากระบบ</label>
+			<label index="externalUrl.description">ป้อน URL ของเว็บไซต์ภายนอกที่คุณต้องการดัชนี</label>
+			<label index="url_deny.description">ใส่ URL ในบรรทัดในแต่ละที่ซอฟต์แวร์รวบรวมข้อมูลไม่ควร decend</label>
+			<label index="url_deny.details">ตัวอย่าง : 
+หากคุณต้องการดัชนี&quot;http://typo3.org/&quot;แต่ไม่&quot;http://typo3.org/extensions/&quot;และ&quot;http://typo3.org/downloads/&quot;แล้วคุณก็ใส่ทั้งสอง URLs ลงในช่องนี้ : 
+
+http://typo3.org/downloads/ 
+http://typo3.org/extensions/</label>
+			<label index="filepath.description">ใส่ filepath ภายใน fileadmin / ไฟล์ที่คุณต้องการที่จะจัดทำดัชนี</label>
+			<label index="filepath.details">ตัวอย่าง :&quot;fileadmin / จดหมายข่าว /&quot;</label>
+			<label index="extensions.description">ถ้าคุณต้องการเฉพาะดัชนีไฟล์เท่านั้นในไดเรกทอรีป้อนรายการของนามสกุลไฟล์ที่นี่ เช่น :&quot;html pdf, doc&quot;</label>
+			<label index="depth.description">ระดับของการเรียกซ้ำ</label>
+			<label index="depth.details">สำหรับการทำดัชนีไฟล์เป็นระดับของไดเรกทอรี decend สำหรับภายนอก URL ที่เป็นความลึกที่ซอฟต์แวร์รวบรวมข้อมูลจะไปกับการเชื่อมโยง</label>
+			<label index="indexcfgs.description">เมื่อค้นหาจะดำเนินการในการตั้งค่าสร้างดัชนีการค้นหาที่แท้จริงจะเกิดขึ้นในเนื้อหาการจัดทำดัชนีจากการกำหนดค่าที่แสดงไว้ที่นี่ คุณยังสามารถปหน้าและถ้าคุณทำเช่นนั้นการค้นหาจะเกิดขึ้นในการกำหนดค่าดัชนีที่พบในหน้าเว็บเหล่านั้น</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index=".description" type="integer">236048633</label>
+			<label index=".details" type="integer">33180133</label>
+			<label index="title.description" type="integer">101115713</label>
+			<label index="description.description" type="integer">71563733</label>
+			<label index="hidden.description" type="integer">205875653</label>
+			<label index="hidden.details" type="integer">154935713</label>
+			<label index="starttime.description" type="integer">80561389</label>
+			<label index="timer_frequency.description" type="integer">217866213</label>
+			<label index="timer_offset.description" type="integer">106785971</label>
+			<label index="timer_next_indexing.description" type="integer">20548169</label>
+			<label index="type.description" type="integer">17983076</label>
+			<label index="type.details" type="integer">234105237</label>
+			<label index="table2index.description" type="integer">12518999</label>
+			<label index="alternative_source_pid.description" type="integer">4661618</label>
+			<label index="get_params.description" type="integer">203820507</label>
+			<label index="get_params.details" type="integer">186603052</label>
+			<label index="fieldlist.description" type="integer">145915429</label>
+			<label index="fieldlist.details" type="integer">66869317</label>
+			<label index="chashcalc.description" type="integer">116193731</label>
+			<label index="recordsbatch.description" type="integer">185749442</label>
+			<label index="records_indexonchange.description" type="integer">267790567</label>
+			<label index="externalUrl.description" type="integer">166464570</label>
+			<label index="url_deny.description" type="integer">103424011</label>
+			<label index="url_deny.details" type="integer">215945478</label>
+			<label index="filepath.description" type="integer">22108393</label>
+			<label index="filepath.details" type="integer">73154051</label>
+			<label index="extensions.description" type="integer">255817846</label>
+			<label index="depth.description" type="integer">199251578</label>
+			<label index="depth.details" type="integer">106342963</label>
+			<label index="indexcfgs.description" type="integer">10425425</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+			<label index=".description">The Indexed Search configuration allows you to set up indexing of resources which are external to the TYPO3 page tree. This could be a library of records (like news), a directory structure of files (like PDFs) or an external URL to be crawled to some depth - or third-party content provided from other extensions via hooks.</label>
+			<label index=".details">The Indexing Configuration records are used to set up how the indexing occurs, at which time and related to which part of the page tree. An important requirement to keep in mind is that the &quot;crawler&quot; extension must be installed since the indexing engine uses the &quot;crawler&quot; extensions queue as a timing device - and using the &quot;crawler&quot; extension means using a cron-job to activate it from the shell.</label>
+			<label index="title.description">Provide a title for the configuration.</label>
+			<label index="description.description">If needed, give it a description or put other important notes in this field.</label>
+			<label index="hidden.description">Disable the configuration by this checkbox. If disabled, the configuration will be bypassed by the crawlers cron job.</label>
+			<label index="hidden.details">Notice; Disabling the indexing process will not hide already indexed content in search results!</label>
+			<label index="starttime.description">Set a start time for the configuration. If set, the configuration will be bypassed by the crawlers cron job until this time is reached.</label>
+			<label index="timer_frequency.description">Use this setting to adjust how often you would like a re-indexing process to run for the configuration.</label>
+			<label index="timer_offset.description">The offset adjusts at what time of day you want the indexing process to run.</label>
+			<label index="timer_next_indexing.description">This field contains the date and time of the next occuring indexing session. If left blank the next indexing will occur as soon as the cron-script is run again (typically within the next minute) and afterwards set to the next time according to frequency and offset.</label>
+			<label index="type.description">Select the type of Indexing Configuration here.</label>
+			<label index="type.details">&lt;b&gt;Records&lt;/b&gt; - You will be able to index records on a specified page from a specified database table. You can determine which fields from that record you want to index and how additional GET parameters should look like when linking to the search result.
+&lt;b&gt;Files&lt;/b&gt; - Allows you to index a whole directory of files from the fileadmin/ folder. You can optionally specify how many levels of recursion you want.
+&lt;b&gt;External URL&lt;/b&gt; - Allows you to index an external site and search it from your TYPO3 installation! You can specify how deep the crawler should go on that external URL.
+&lt;b&gt;Page tree&lt;/b&gt; - Allows you to index the page tree using the cron script. This type will not be useful as a category for searching like the other types.
+&lt;b&gt;Meta configuration&lt;/b&gt; - Points to a collection of other indexing configurations in which the search will be done. Cannot be used for cron-job based indexing.
+&lt;b&gt;Custom&lt;/b&gt; - Other extensions might register custom types of configurations.</label>
+			<label index="table2index.description">Specify the database table to index records from.</label>
+			<label index="alternative_source_pid.description">By default the indexer will select records from the page id where the Indexing Configuration is stored. If you want an alternative page as the source of your records you can enter it here.</label>
+			<label index="get_params.description">Enter the GET parameters necessary to display the search results. You can use ###UID### as a marker in the parameter template.</label>
+			<label index="get_params.details">Notice: The GET parameters are appended to the URL of the page where the Indexing Configuration is stored (which must be the page where a plugin exists that can display the records with the given parameters!).
+Example value: &quot;&amp;showUid=###UID###&quot;</label>
+			<label index="fieldlist.description">Enter a comma-list of fields to be indexed. The first field name will be used for the search result title.</label>
+			<label index="fieldlist.details">&lt;b&gt;Example:&lt;/b&gt; &quot;header,bodytext,image_caption&quot; would index the Header, Bodytext and Image Caption fields from &quot;tt_content&quot;. Notice that you must use the real database field names, don't spell them wrong!</label>
+			<label index="chashcalc.description">If checked, the URL in the search result for records will be encoded with a &quot;&amp;cHash&quot; parameter to make it cachable. Use only if supported by the plugin!</label>
+			<label index="recordsbatch.description">Enter how many records to index for each instance of the indexing process (how many per minute). Default is 100 records.</label>
+			<label index="records_indexonchange.description">If set, new and changed records from this table will be indexed through a hook in the core (TCEmain) meaning that they will be searchable immediately after addition to the system.</label>
+			<label index="externalUrl.description">Enter the URL of the external website you want to index.</label>
+			<label index="url_deny.description">Enter a URL on each line inside of which the crawler should not decend.</label>
+			<label index="url_deny.details">Example: 
+If you wish to index &quot;http://typo3.org/&quot; but not &quot;http://typo3.org/extensions/&quot; and &quot;http://typo3.org/downloads/&quot; then you simply enter those two URLs into the box like this:
+
+http://typo3.org/downloads/
+http://typo3.org/extensions/</label>
+			<label index="filepath.description">Enter a filepath inside fileadmin/ where you want the files to be indexed.</label>
+			<label index="filepath.details">Example: &quot;fileadmin/newsletters/&quot;</label>
+			<label index="extensions.description">If you want to index only specific files in the directory, enter a list of file extensions here. For example: &quot;html,pdf,doc&quot;</label>
+			<label index="depth.description">Levels of recursion.</label>
+			<label index="depth.details">For file indexing it is the level of directories to decend. For External URLs it's the depth to which the crawler will go with links.</label>
+			<label index="indexcfgs.description">When a search is conducted in this indexing configuration the actual search will take place in the indexed content from the configurations listed here. You can also enter pages and if you do so the search will take place in indexing configurations found on those pages.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

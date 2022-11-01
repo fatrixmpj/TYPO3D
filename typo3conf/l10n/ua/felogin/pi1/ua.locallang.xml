@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ua" type="array">
+			<label index="ll_welcome_header">Увійти в систему</label>
+			<label index="ll_welcome_message">Введіть ім'я користувача і пароль для входу в систему</label>
+			<label index="ll_logout_header">Ви вийшли з системи</label>
+			<label index="ll_logout_message">Ви тільки-но вийшли з цього вебсайту. Ви можете зайти під тим самим чи іншим користувачем, заповнивши форму нижче.</label>
+			<label index="ll_error_header">Вхід до системи неуспішний</label>
+			<label index="ll_error_message">Помилка виникла під час входу в систему. Набільш вірогідно, що ви ввели неправильно ваше ім'я користувача або пароль. Будь-ласка, впевніться, що ви ввели їх такими, як вони є, враховуючи верхній/нижній регістр. Також можливо, що cookies відключені в вашому браузері.</label>
+			<label index="ll_success_header">Вхід успішний!</label>
+			<label index="ll_success_message">Ви ввійшли в систему як '###USER###'</label>
+			<label index="ll_status_header">Теперішній статус</label>
+			<label index="ll_status_message">Це ваш теперішній статус:</label>
+			<label index="cookie_warning">Увага! Можливо в вашому браузері не ввімкнені cookies. Якщо ваш віхд систему пропаде на наступній сторінці, то вам треба ввімкнути cookies (або прийняти cookies цього вебсайту) у вашом бразурі якнайшвидше.</label>
+			<label index="username">Ім'я користувача:</label>
+			<label index="password">Пароль:</label>
+			<label index="login">Вхід в систему</label>
+			<label index="permalogin">Запам'ятати мене:</label>
+			<label index="logout">Вийти з системи</label>
+			<label index="send_password">Надіслати пароль</label>
+			<label index="reset_password">Скидання паролю</label>
+			<label index="ll_change_password_header">Змінити ваш пароль</label>
+			<label index="ll_change_password_message">Будь-ласка, введіть ваш новий пароль двічі. Пароль має складатися з більш ніж %s символів.</label>
+			<label index="ll_change_password_notvalid_message">Посилання, на яке ви натиснули, неправильне. Будь-ласка, повторіть процедуру з відновленню паролю.</label>
+			<label index="ll_change_password_notequal_message">Паролі не сходяться. Будь-ласка, введіть ваш новий пароль двічі. Пароль має складатися з більш ніж %s символів.</label>
+			<label index="ll_change_password_tooshort_message">Введений вами пароль занадто короткий. Пароль має складатися з більш ніж %s символів.</label>
+			<label index="ll_change_password_done_message">Ваш пароль було збережено. Тепер ви можете увійти в систему з новим паролем.</label>
+			<label index="change_password">Змінити ваш пароль</label>
+			<label index="newpassword_label1">Введіть ваш пароль</label>
+			<label index="newpassword_label2">Повторіть ваш пароль</label>
+			<label index="your_email">Ваш еmail:</label>
+			<label index="ll_forgot_header">Забули ваш пароль?</label>
+			<label index="ll_forgot_email_password">Ваш пароль
+Здраствуйте, %s
+
+Ваше ім'я користувача: &quot;%s&quot;
+Ваш пароль:  &quot;%s&quot;</label>
+			<label index="ll_forgot_email_nopassword">Ваш пароль
+Здраствуйте, %s
+
+Ми не змогли знайти ваше ім'я користувача до цієї email адреси, і тому не можемо вислати вам новий пароль. Мабуть, ви вказали неправильну адресу (верхній/нижній регістр відрізняються) або, можливо, ви ще не реєструвалися?</label>
+			<label index="ll_forgot_message">Будь ласка, введіть email адресу за допомогую якої ви реєструвалися. Тоді натисніть на &quot;Надіслати пароль&quot; і ваш пароль буде миттєво висланий на вашу email адресу. Впевніться, що ви ввели правильну email адресу.</label>
+			<label index="ll_forgot_message_emailSent">Ваш пароль був висланий на вашу email адресу %s</label>
+			<label index="ll_forgot_header_backToLogin">Повернутися до форми входу у систему</label>
+			<label index="ll_enter_your_data">Ім'я користувача або пароль</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ua" type="array">
+			<label index="ll_welcome_header" type="integer">236929731</label>
+			<label index="ll_welcome_message" type="integer">165291194</label>
+			<label index="ll_logout_header" type="integer">128821468</label>
+			<label index="ll_logout_message" type="integer">246637860</label>
+			<label index="ll_error_header" type="integer">165006287</label>
+			<label index="ll_success_header" type="integer">236890074</label>
+			<label index="ll_success_message" type="integer">127181223</label>
+			<label index="ll_status_header" type="integer">261174419</label>
+			<label index="ll_status_message" type="integer">110223230</label>
+			<label index="cookie_warning" type="integer">70334511</label>
+			<label index="username" type="integer">212632006</label>
+			<label index="password" type="integer">187963993</label>
+			<label index="login" type="integer">161344120</label>
+			<label index="permalogin" type="integer">192836582</label>
+			<label index="logout" type="integer">3292644</label>
+			<label index="ll_error_message" type="integer">91350987</label>
+			<label index="send_password" type="integer">244443771</label>
+			<label index="reset_password" type="integer">101133955</label>
+			<label index="ll_change_password_header" type="integer">21487294</label>
+			<label index="ll_change_password_message" type="integer">36773711</label>
+			<label index="ll_change_password_notvalid_message" type="integer">34343696</label>
+			<label index="ll_change_password_notequal_message" type="integer">80071035</label>
+			<label index="ll_change_password_tooshort_message" type="integer">45129470</label>
+			<label index="ll_change_password_done_message" type="integer">116196406</label>
+			<label index="change_password" type="integer">21487294</label>
+			<label index="newpassword_label1" type="integer">165306039</label>
+			<label index="newpassword_label2" type="integer">206168884</label>
+			<label index="your_email" type="integer">165004462</label>
+			<label index="ll_forgot_header" type="integer">1726109</label>
+			<label index="ll_forgot_email_password" type="integer">100562706</label>
+			<label index="ll_forgot_email_nopassword" type="integer">213987733</label>
+			<label index="ll_forgot_message" type="integer">194258101</label>
+			<label index="ll_forgot_message_emailSent" type="integer">214484910</label>
+			<label index="ll_forgot_header_backToLogin" type="integer">71375192</label>
+			<label index="ll_enter_your_data" type="integer">17378791</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ua" type="array">
+			<label index="ll_welcome_header">User login</label>
+			<label index="ll_welcome_message">Enter your username and password here in order to log in on the website:</label>
+			<label index="ll_logout_header">You have logged out.</label>
+			<label index="ll_logout_message">You just logged out from your user session on this website. You can login again or as another user by the form below.</label>
+			<label index="ll_error_header">Login failure</label>
+			<label index="ll_success_header">Login successful</label>
+			<label index="ll_success_message">You are now logged in as '###USER###'</label>
+			<label index="ll_status_header">Current status</label>
+			<label index="ll_status_message">This is your current status:</label>
+			<label index="cookie_warning">Warning: There is a possibility that cookies are not enabled in your web browser! If your login disappears on your next click that is the case and you should enable cookies (or accept cookies from this website) immediately!</label>
+			<label index="username">Username:</label>
+			<label index="password">Password:</label>
+			<label index="login">Login</label>
+			<label index="permalogin">Stay logged in:</label>
+			<label index="logout">Logout</label>
+			<label index="ll_error_message">An error occurred during login. Most likely you didn't enter the username or password correctly.
+Be certain that you enter them precisely as they are, including upper/lower case.
+Another possibility is that cookies might be disabled in your web browser.</label>
+			<label index="send_password">Send password</label>
+			<label index="reset_password">Reset Password</label>
+			<label index="ll_change_password_header">Change your password</label>
+			<label index="ll_change_password_message">Please enter your new password twice. Password needs a minimum length of %s chars.</label>
+			<label index="ll_change_password_notvalid_message">The link you clicked is not valid. Please repeat the forgot message procedure.</label>
+			<label index="ll_change_password_notequal_message">The passwords are not equal, please enter your new password twice. Password needs a minimum length of %s chars.</label>
+			<label index="ll_change_password_tooshort_message">The password length is too short. Please enter your new password twice. Password needs a minimum length of %s chars.</label>
+			<label index="ll_change_password_done_message">Your password has been saved. You can now login with your new password.</label>
+			<label index="change_password">Change your password</label>
+			<label index="newpassword_label1">Enter new password</label>
+			<label index="newpassword_label2">Repeat new password</label>
+			<label index="your_email">Your email:</label>
+			<label index="ll_forgot_header">Forgot your password?</label>
+			<label index="ll_forgot_email_password">Your password
+Hi %s
+
+Your username is &quot;%s&quot;
+Your password is &quot;%s&quot;
+			</label>
+			<label index="ll_forgot_email_nopassword">Your password
+Hi %s
+
+We couldn't find a username for this email address and so cannot send the password to you. Probably you misspelled the email address (upper/lower case makes a difference) or maybe you even didn't register yet?
+			</label>
+			<label index="ll_forgot_message">Please enter the email address by which you registered your user account. Then press &quot;Send password&quot; and your password will immediately be emailed to you. Make sure to spell your email address correctly.</label>
+			<label index="ll_forgot_message_emailSent">Your password has now been sent to the email address %s</label>
+			<label index="ll_forgot_header_backToLogin">Return to login form</label>
+			<label index="ll_enter_your_data">Username or email address:</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

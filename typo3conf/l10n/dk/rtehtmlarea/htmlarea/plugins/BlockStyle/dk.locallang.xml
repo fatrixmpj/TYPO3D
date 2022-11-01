@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="dk" type="array">
+			<label index="No style">Ingen afsnit stil</label>
+			<label index="Remove style">Fjern afsnit stil</label>
+			<label index="Unknown style">Ukendt afsnit stil</label>
+			<label index="Element style">Afsnit element stil</label>
+			<label index="frame-frame1">Ramme med grå baggrund</label>
+			<label index="frame-frame2">Ramme med gul baggrund</label>
+			<label index="important">Vigtigt</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="dk" type="array">
+			<label index="frame-frame1" type="integer">227775000</label>
+			<label index="frame-frame2" type="integer">132443473</label>
+			<label index="important" type="integer">11245645</label>
+			<label index="No style" type="integer">231295103</label>
+			<label index="Remove style" type="integer">144427347</label>
+			<label index="Unknown style" type="integer">202384002</label>
+			<label index="Element style" type="integer">34161661</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="dk" type="array">
+			<label index="frame-frame1">Frame with grey background</label>
+			<label index="frame-frame2">Frame with yellow background</label>
+			<label index="important">Important</label>
+			<label index="No style">No block style</label>
+			<label index="Remove style">Remove block style</label>
+			<label index="Unknown style">Unknown block style</label>
+			<label index="Element style">Block element style</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

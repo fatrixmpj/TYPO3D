@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index=".description">กำหนดพื้นที่ทำงานที่กำหนดเองใน TYPO3 ซึ่งช่วยให้กลุ่มคนทำงานร่วมกันในการประกาศกับร่างเนื้อหา ข้อมูลเพิ่มเติมเกี่ยวกับพื้นที่ทำงานสามารถพบได้ในเอกสาร&quot;ภายใน TYPO3&quot;</label>
+			<label index="title.description">กรุณาใส่ชื่อของพื้นที่ทำงาน ค่านี้จะปรากฏในกล่องเลือกพื้นที่ทำงานในส่วนหลัง</label>
+			<label index="description.description">ให้คำอธิบายเพื่อพื้นที่ทำงานที่นี่ ข้อมูลนี้จะปรากฏในพื้นที่ทำงาน Manager และควรสั่งใช้พื้นที่ทำงานเกี่ยวกับวัตถุประสงค์ของพื้นที่ทำงาน</label>
+			<label index="adminusers.description">เจ้าของพื้นที่คือบรรดาผู้ที่ได้รับอนุญาตให้เพิ่มสมาชิกและตรวจทานกับพื้นที่ทำงานและรับต้นไม้หน้าจุดเริ่มต้นเป็นต้น</label>
+			<label index="adminusers.details">เจ้าของยังสามารถเพิ่มและลบเจ้าของอื่นๆ หากผู้ใช้ที่สามารถสร้างพื้นที่ทำงานเองโดยอัตโนมัติเขาจะกลายเป็นผู้เจ้าของเริ่มต้นของพื้นที่ทำงาน พวกเขายังเป็นคนเดียวที่ในที่สุดสามารถเผยแพร่เนื้อหาพื้นที่ทำงาน (ยกเว้นทั่วไป admin&quot;TYPO3 ผู้ใช้&quot;) และทำให้ผู้มีอำนาจตรวจสอบสูงสุด (ยกเว้นสมาชิกตรวจทาน / สามารถเข้าถึงพื้นที่ Live)</label>
+			<label index="members.description">สมาชิกสามารถใช้แบ็กเอนด์หรือกลุ่มและจะสามารถเข้าทำงานในพื้นที่ทำงาน ไม่สามารถเผยแพร่เนื้อหา (เว้นแต่จะได้เข้าถึงพื้นที่ Live) แต่แก้ไขหลังจากที่พวกเขาจะส่งเพื่อขออนุมัติโดยผู้ตรวจทาน</label>
+			<label index="reviewers.description">เนื้อหาต้องผ่านการอนุมัติตรวจทานก่อนที่จะสามารถสุดท้ายถูกเผยแพร่โดยเจ้าของพื้นที่ ตรวจทานสามารถใช้แบ็กเอนด์หรือกลุ่มและจะสามารถเข้าถึงพื้นที่เช่นเดียวกับสมาชิกมี แต่นอกเหนือสามารถอนุมัติเนื้อหาสำหรับสิ่งพิมพ์สุดท้าย</label>
+			<label index="reviewers.details">ในกรณีที่คุณจำเป็นต้องตรวจสอบชั้นไม่ระหว่างบรรณาธิการ (ปกติพื้นที่ทำงาน&quot;สมาชิก&quot;) และเจ้าของพื้นที่สิ่งที่คุณทำเพียงเพื่อเพิ่มแก้ไขทั้งหมดเป็นผู้ตรวจทาน นี้ให้พวกเขาใช้เพื่อเพิ่มเนื้อหาตลอดทางเจ้าของพื้นที่ทำงาน ตั้งแต่เนื้อหาโดยเริ่มต้นขึ้นจากการแก้ไขตรวจสอบในการเผยแพร่แม้รัฐจะให้ความเป็นไปได้ของทางการ&quot;ทบทวน&quot;สี่ตาที่เจ้าของพื้นที่สามารถกำหนดให้เนื้อหาที่ได้รับการยกโดยการตรวจทานจากสองที่แตกต่างกัน</label>
+			<label index="stagechg_notification.description">เมื่อขั้นตอนของการเปลี่ยนแปลงเนื้อหาผู้ใช้ในพื้นที่ที่ได้รับการแจ้งเตือนทางอีเมล เฉพาะสมาชิกเท่านั้นตรวจทาน / ผู้ติดพื้นที่ที่ผู้ใช้และไม่ผ่านกลุ่มของพวกเขาจะได้รับแจ้ง</label>
+			<label index="stagechg_notification.details">&quot;ผู้ใช้แจ้งในขั้นตอนต่อไปเท่านั้น&quot;เมื่อเนื้อหาฟื้น&quot;แก้ไข&quot;เพื่อ&quot;ตรวจสอบ&quot;ผู้ตรวจทานได้รับแจ้ง เมื่อเนื้อหายก&quot;ประกาศ&quot;เจ้าของได้รับแจ้ง เมื่อเนื้อหาถูกปฏิเสธสมาชิกและตรวจทานได้รับแจ้ง เมื่อเนื้อหาที่จะเพิ่มขึ้นจากรัฐปฏิเสธสมาชิกได้รับแจ้ง 
+ทั้งหมดแจ้งให้ผู้ใช้&quot;ใน&quot;ที่เปลี่ยนแปลง : ผู้ใช้ทั้งหมดในพื้นที่ได้รับแจ้งโดยไม่คำนึงถึงการเปลี่ยนแปลง</label>
+			<label index="db_mountpoints.description">หากหนึ่งหรือ DB mounts ที่ระบุต้นหน้า backend จะล็อคเป็นจุดรากเหล่านี้ในระหว่างการทำงานในพื้นที่ทำงาน</label>
+			<label index="db_mountpoints.details">DB ไม่ติดที่นี่จะต้องระบุภายใน DB ติดตั้งสำหรับผู้ใช้แบ็กเอนด์ที่บันทึกสิ่งต่อไปนี้หากที่ไม่ได้กรณีพื้นที่ทำงาน DB ภูเขาจะเพียงไม่สามารถติดตั้งสำหรับผู้ใช้ DB ถ้าไม่ mounts ที่ระบุไว้ในพื้นที่ทำงานผู้ใช้จะเข้าถึง DB mounts ของข้อมูลส่วนตัวของ</label>
+			<label index="file_mountpoints.description">Filemounts ผู้ใช้สามารถใช้พื้นที่ทำงาน โปรดดูรายละเอียดข้อมูลความปลอดภัย!</label>
+			<label index="file_mountpoints.details">สำคัญ : โดยปกติพื้นที่ทำงานร่างมีทั้งหมด filemounts พิการ! เพราะเวอร์ชันใช้ไม่ได้กับไฟล์ที่แก้ไขผ่าน filemounts ใน TYPO3 ดังนั้นการเข้าถึงไฟล์ใด ๆ เหล่านี้จะละเมิดเผยแพร่หลักการไม่ว่าเนื้อหาการจัดการร่างในพื้นที่จะอยู่ก่อน 
+แต่สำหรับโครงการโดยเฉพาะการละเมิดนี้อาจจะยอมรับได้หรือจำเป็นและทำให้คุณสามารถเพิ่ม filemount นี้จะถูกบังคับตามพื้นที่ที่ผู้ใช้ใน filemounts ไม่ว่าเขารับมาจากโปรไฟล์ของกลุ่มผู้ใช้และ!</label>
+			<label index="publish_time.description">ระบุเวลาของการเผยแพร่เนื้อหาพื้นที่ทำงาน</label>
+			<label index="publish_time.details">เผยแพร่และยกเลิกการเผยแพร่ครั้งมีการใช้งานเท่านั้นหาก&quot;ผู้ใช้ / mod ws / CLI ws_cli.phpsh /&quot;การตั้งค่าเป็น cronjob ทำงานทุกนาที ตัวอย่างการกำหนดค่าอาจจะ&quot;* * * * * / PATH ABSOLUTE [TO] เว็บไซต์ TYPO3 / typo3/mod/user/ws/cli/ws_cli.phpsh&quot;</label>
+			<label index="unpublish_time.description">ระบุเวลาเพิ่มเติม (ยกเลิก) สิ่งพิมพ์ของเนื้อหาพื้นที่ทำงาน</label>
+			<label index="unpublish_time.details">โดย&quot;เพิ่ม&quot;คือหมายความว่าทั้งสองครั้งการประกาศใช้ในลักษณะคล้ายกัน แต่ถ้าหาก&quot;ประกาศ&quot;ระบุจะใช้เวลาเหนือกว่า&quot;ยกเลิกการเผยแพร่&quot; Anyway, จุดสองครั้งการประกาศเป็นพื้นที่ที่เนื้อหาสามารถสลับไปมาในระยะเวลา จำกัด แล้วออกอีกครั้ง แต่แจ้งให้ทราบ; สำหรับการทำงานในโหมด Swap จะต้องตั้งค่า&quot;Swap - Into - พื้นที่ทำงานใน Auto - ประกาศ&quot;</label>
+			<label index="freeze.description">ตั้งหากแก้ไขไม่ได้ภายในพื้นที่</label>
+			<label index="live_edit.description">หากตั้งระเบียนจากตารางที่เวอร์ชันไม่ได้เปิดใช้ยังสามารถแก้ไข&quot;อยู่&quot;ภายในพื้นที่ทำงาน</label>
+			<label index="review_stage_edit.description">หากตั้งขึ้นเพื่อบันทึกขั้นตอนตรวจสอบยังสามารถแก้ไขได้โดยสมาชิกพื้นที่ นี้จะช่วยให้การเปลี่ยนแปลงสายที่จะทำในขณะที่รอการตรวจสอบ เมื่อขั้นตอนจะยกประกาศบันทึกถูกล็อคสมบูรณ์สำหรับการแก้ไขสำหรับสมาชิกและตรวจทาน</label>
+			<label index="disable_autocreate.description">หากตั้งไม่ได้สร้างบันทึกโดยอัตโนมัติรุ่นใหม่เมื่อแก้ไขในพื้นที่ทำงาน รุ่นใหม่จะต้องสร้างด้วยตนเองก่อน</label>
+			<label index="swap_modes.description">โหมดกำหนดสำหรับการประกาศเป็น swap&quot;&quot;การกระทำที่เนื้อหาออนไลน์จะถูกย้ายเข้าพื้นที่ทำงานในการแลกเปลี่ยนสำหรับเนื้อหาพื้นที่ทำงาน</label>
+			<label index="swap_modes.details">โดยเริ่มต้นการแลกเปลี่ยนรับอนุญาต จึงสองรุ่นสามารถเผยแพร่&quot;ในและนอก&quot;ของหลายครั้งพื้นที่ให้เสมอกันแทน ถ้าไม่ต้องการก็สามารถใช้งานกับ&quot;Disable Swap - Into - Workspace&quot; 
+โหมดอื่น&quot;Swap - Into - พื้นที่ทำงานใน Auto - ประกาศ&quot;จะแรงเผยแพร่โดยอัตโนมัติผ่าน cronjob เพื่อแลกเปลี่ยนรุ่น นี้จำเป็นต้องใช้หากคุณระบุทั้งประกาศยกเลิกการประกาศและเวลาอื่นเพราะพื้นที่ทำงานจะว่างเปล่าหลังจากที่ก่อนการประกาศ!</label>
+			<label index="vtypes.description">เลือกประเภทเวอร์ชันที่คุณต้องการปิดใช้งานการแก้ไขพื้นที่ตรวจทาน (ผู้ดูแลระบบและเจ้าของไม่ จำกัด )</label>
+			<label index="vtypes.details">&quot;ธาตุ&quot;เป็นรูปแบบที่พบบ่อยที่สุดเวอร์ชันที่องค์ประกอบเดียว versionized เดี่ยว 
+&quot;หน้า&quot;เป็นเวอร์ชันที่พิมพ์บันทึกหน้าและบันทึกเด็กจากตารางที่ระบุ (เช่น&quot;เนื้อหา Elements&quot;และ&quot;ภาษาการแสดงข้อมูลบน Records&quot;) จะถูกคัดลอก ตาม แบบนี้ซับซ้อน แต่มีความยืดหยุ่นในแง่ของการปรับปรุงใหม่ขององค์ประกอบในหน้า 
+&quot;เวอร์ชันสาขาคือที่หน้าเป็น versionized และ subpages และเนื้อหาจะถูกคัดลอกตาม ซึ่งอาจมีข้อหนักมากในการทำสำเนาข้อมูลและแนะนำให้เฉพาะในกรณีพิเศษ 
+
+ข้อมูลเพิ่มเติมเกี่ยวกับเวอร์ชันชนิดสามารถอ่านได้ใน&quot;Inside TYPO3&quot;</label>
+			<label index="publish_access.description">กลั่นกฎของการประกาศ</label>
+			<label index="publish_access.details">&quot;เนื้อหาเพียงเผยแพร่ในเวทีประกาศ&quot;เฉพาะเมื่อเนื้อหาในประกาศขั้นสามารถจะถูกเผยแพร่ 
+&quot;เฉพาะเจ้าของพื้นที่สามารถประกาศ&quot;เฉพาะเจ้าของพื้นที่ได้ประกาศพื้นที่ทำงานเนื้อหาในแม้ว่าสมาชิกหรือผู้ตรวจทานได้เข้าถึง พื้นที่ Live</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index=".description" type="integer">82101164</label>
+			<label index="title.description" type="integer">158098838</label>
+			<label index="description.description" type="integer">189422282</label>
+			<label index="adminusers.description" type="integer">256927453</label>
+			<label index="adminusers.details" type="integer">142331935</label>
+			<label index="members.description" type="integer">263329389</label>
+			<label index="reviewers.description" type="integer">257046881</label>
+			<label index="reviewers.details" type="integer">23289423</label>
+			<label index="stagechg_notification.description" type="integer">111614725</label>
+			<label index="stagechg_notification.details" type="integer">231947139</label>
+			<label index="db_mountpoints.description" type="integer">207068827</label>
+			<label index="db_mountpoints.details" type="integer">10256613</label>
+			<label index="file_mountpoints.description" type="integer">53529306</label>
+			<label index="file_mountpoints.details" type="integer">211718238</label>
+			<label index="publish_time.description" type="integer">20570038</label>
+			<label index="publish_time.details" type="integer">166719901</label>
+			<label index="unpublish_time.description" type="integer">144362633</label>
+			<label index="unpublish_time.details" type="integer">12639267</label>
+			<label index="freeze.description" type="integer">134717254</label>
+			<label index="live_edit.description" type="integer">186857343</label>
+			<label index="review_stage_edit.description" type="integer">36072538</label>
+			<label index="disable_autocreate.description" type="integer">65404858</label>
+			<label index="swap_modes.description" type="integer">27751603</label>
+			<label index="swap_modes.details" type="integer">144319789</label>
+			<label index="vtypes.description" type="integer">252816145</label>
+			<label index="vtypes.details" type="integer">190592685</label>
+			<label index="publish_access.description" type="integer">79106280</label>
+			<label index="publish_access.details" type="integer">130330045</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+			<label index=".description">Defines custom workspaces in TYPO3 which allows for groups of people to work together in a publishing process with draft content. More information about workspaces can be found in the document &quot;Inside TYPO3&quot;.</label>
+			<label index="title.description">Enter the name of the workspace. This value is shown in the workspace selector box in the backend.</label>
+			<label index="description.description">Make a description of the workspace purpose here. This information is shown in the Workspace Manager and should instruct the workspace users about the purpose of the workspace.</label>
+			<label index="adminusers.description">Owners of the workspace are those who are allowed to add members and reviewers to the workspace and pick the page tree starting points etc.</label>
+			<label index="adminusers.details">Owners can also add and delete other owners. If a user is allowed to create workspaces himself he will automatically become the initial owner user of the workspace. They are also the only ones who can eventually publish the workspace content (except general TYPO3 &quot;admin&quot; users) and thus the highest review authority (unless members/reviewers have access to the Live workspace).</label>
+			<label index="members.description">Members can be backend users or groups and will have access to work in the workspace. They cannot publish content (unless they have access to the Live workspace) but only edit it after which they will forward it for approval by a reviewer.</label>
+			<label index="reviewers.description">Content have to pass through reviewers approval before it can finally be published by a workspace owner. Reviewers can be backend users or groups and will have access to the workspace just as members have, but can in addition approve content for final publication.</label>
+			<label index="reviewers.details">In case you need no review layer between editors (normally workspace &quot;members&quot;) and the workspace owners what you simply do is to add all editors as reviewers. This give them access to raise content all the way to the workspace owners. Since content is by default raised from editing to review to publish state it even gives the possibility of informal &quot;four-eye&quot; review where workspace owners can require that content has  been raised by action from two different reviewers.</label>
+			<label index="stagechg_notification.description">When the stage of content changes, users in the workspace can receive a notification by email. Only members/reviewers who are attached to the workspace as users and not through their groups will be notified.</label>
+			<label index="stagechg_notification.details">&quot;Notify users on next stage only&quot;: When content is raised from &quot;Editing&quot; to &quot;Review&quot;, reviewers are notified. When content is raised to &quot;Publish&quot;, owners are notified. When content is rejected, members and reviewers are notified. When content is raised from rejected state, members are notified.
+
+&quot;Notify all users on any change&quot; : All users in workspace are notified regardless of change.</label>
+			<label index="db_mountpoints.description">If one or more DB mounts are specified the page tree of the backend will be locked into these root points during work in the workspace.</label>
+			<label index="db_mountpoints.details">Any DB mount specified here must be inside the DB mount set for the backend user who logs in. If that is not the case the workspace DB mount will simply not be mounted for the user. If no DB mounts are specified for the workspace the users will access the DB mounts of their user profile.</label>
+			<label index="file_mountpoints.description">Filemounts available for workspace users. Please see details for security information!</label>
+			<label index="file_mountpoints.details">IMPORTANT: By default a draft workspace has all filemounts disabled! This is because versioning does not apply to any files edited through filemounts in TYPO3. Hence any access to those files would violate the principle that no content managed in a draft workspace will be live before published.
+			However, for specific projects this violation might be acceptable or necessary and therefore you can add a filemount. This will be forced upon any user in the workspace regardless of his filemounts inherited from his groups and user profile!</label>
+			<label index="publish_time.description">Specify a time of publication of the workspace content.</label>
+			<label index="publish_time.details">The publish and unpublish times are active only if &quot;mod/user/ws/cli/ws_cli.phpsh&quot; is set up as a cronjob running every minute. Example configuration could be &quot;* * * * * /[ABSOLUTE PATH TO TYPO3 SITE]/typo3/mod/user/ws/cli/ws_cli.phpsh&quot;</label>
+			<label index="unpublish_time.description">Specify an additional time of (un)publication of the workspace content.</label>
+			<label index="unpublish_time.details">By &quot;additional&quot; is meant that both publishing times are used in a similar way, but if &quot;Publish&quot; is specified it takes precedence over &quot;Unpublish&quot;. Anyway, the point of two publishing times is that workspace content could be swapped in for a limited period and then out again. But notice; for this to work the Swap mode must be set to &quot;Swap-Into-Workspace on Auto-publish&quot;.</label>
+			<label index="freeze.description">If set, no editing is allowed inside workspace.</label>
+			<label index="live_edit.description">If set, records from tables where versioning is not enabled can still be edited &quot;live&quot; inside the workspace.</label>
+			<label index="review_stage_edit.description">If set, records raised to Review stage can still be edited by workspace members. This allows late changes to be made while waiting for the review. Only when the stage is raised to Publish the record is completely locked for editing for members and reviewers.</label>
+			<label index="disable_autocreate.description">If set, records are not automatically created as new versions when edited in the workspace. A new version must be manually created first.</label>
+			<label index="swap_modes.description">Defines modes for publishing as a &quot;swap&quot; action where the online content is moved into the workspace in exchange for the workspace content.</label>
+			<label index="swap_modes.details">By default swapping is allowed. Thereby two versions can be published &quot;in and out&quot; of a workspace multiple times, always substituting each other. If this is not desired, it can be disabled with &quot;Disable Swap-Into-Workspace&quot;.
+Another mode &quot;Swap-Into-Workspace on Auto-publish&quot; will force the automatic publishing through the cronjob to swap versions. This is necessary to use if you specify both a publish AND un-publish time because otherwise the workspace will be empty after the first publish action!</label>
+			<label index="vtypes.description">Select versioning types you want to disable for workspace editors/reviewers (admin users and owners are not limited).</label>
+			<label index="vtypes.details">&quot;Element&quot; is the most common form of versioning where a single element is versionized solo.
+&quot;Page&quot; is a versioning type where a page record and child records from specified tables (like &quot;Content Elements&quot; and &quot;Language Overlay Records&quot;) are copied along. This form is more complex but offers flexibility in terms of rearrangement of elements on the page.
+&quot;Branch&quot; versioning is where a page is versionized and all subpages and content is copied along. This can have quite heavy implications on data duplication and is recommended only in special circumstances.
+
+More information about versioning types can be read in &quot;Inside TYPO3&quot;</label>
+			<label index="publish_access.description">Refines the rules of publishing</label>
+			<label index="publish_access.details">&quot;Publish only content in publish stage&quot; : Only when content is in publish stage can it be published. 
+&quot;Only workspace owner can publish&quot; : Only the workspace owner can publish the content in the workspace, even if members or reviewers have access to the Live workspace.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,244 @@
+plugin.tx_imagecycle_pi2 {
+
+	linkTarget = {$plugin.tx_imagecycle_pi1.linkTarget}
+	extlinkTarget = {$plugin.tx_imagecycle_pi1.extlinkTarget}
+	jQueryNoConflict = {$plugin.tx_imagecycle_pi1.jQueryNoConflict}
+	jsInFooter = {$plugin.tx_imagecycle_pi1.jsInFooter}
+	jsMinify = {$plugin.tx_imagecycle_pi1.jsMinify}
+	jsInline = {$plugin.tx_imagecycle_pi1.jsInline}
+	cssMinify = {$plugin.tx_imagecycle_pi1.cssMinify}
+	disableRecursion = {$plugin.tx_imagecycle_pi1.disableRecursion}
+
+	jQueryLibrary = {$plugin.tx_imagecycle_pi1.file.jQueryLibrary}
+	jQueryCoin = {$plugin.tx_imagecycle_pi2.file.jQueryCoin}
+	templateFileJS = {$plugin.tx_imagecycle_pi1.file.templateFileJS}
+
+	coinEffect = {$plugin.tx_imagecycle_pi2.coinEffect}
+	imagewidth = {$plugin.tx_imagecycle_pi2.imagewidth}
+	imageheight = {$plugin.tx_imagecycle_pi2.imageheight}
+	onlyFirstImage = {$plugin.tx_imagecycle_pi2.onlyFirstImage}
+	coinSpw = {$plugin.tx_imagecycle_pi2.coinSpw}
+	coinSph = {$plugin.tx_imagecycle_pi2.coinSph}
+	coinDelay = {$plugin.tx_imagecycle_pi2.coinDelay}
+	coinSDelay = {$plugin.tx_imagecycle_pi2.coinSDelay}
+	coinOpacity = {$plugin.tx_imagecycle_pi2.coinOpacity}
+	coinTitleSpeed = {$plugin.tx_imagecycle_pi2.coinTitleSpeed}
+	coinNavigation = {$plugin.tx_imagecycle_pi2.coinNavigation}
+	coinLinks = {$plugin.tx_imagecycle_pi2.coinLinks}
+	coinHoverPause = {$plugin.tx_imagecycle_pi2.coinHoverPause}
+
+	options = {$plugin.tx_imagecycle_pi2.options}
+	optionsOverride = {$plugin.tx_imagecycle_pi2.optionsOverride}
+
+	damCaptionFields = {$plugin.tx_imagecycle_pi1.damCaptionFields}
+	damCaptionObject = TEXT
+	damCaptionObject {
+		data = register:dam_caption
+		ifEmpty {
+			data = register:dam_description
+			ifEmpty {
+				data = register:dam_title
+			}
+		}
+		
+	}
+	damHrefFields = {$plugin.tx_imagecycle_pi1.damHrefFields}
+
+	integerWidthWrap {
+		wrap = |
+	}
+	integerHeightWrap {
+		wrap = |
+	}
+
+	coin {
+		normal {
+			image {
+				file.import.data = register:file
+				file.width.data = register:imagewidth
+				file.height.data = register:imageheight
+				imageLinkWrap < tt_content.image.20.1.imageLinkWrap
+				imageLinkWrap = 1
+				imageLinkWrap {
+					enable.data = register:href
+					stdWrap {
+						dataWrap = | <span>{register:caption}</span>
+					}
+				}
+				altText {
+					data = register:caption
+					stripHtml = 1
+				}
+				titleText < .altText
+				longdescURL >
+			}
+			// If the link is not image_zoom...
+			imageWrap {
+				dataWrap = | <span>{register:caption}</span>
+			}
+			imageLink {
+				parameter.data = register:href
+				title {
+					data = register:caption
+					stripHtml = 1
+				}
+				target = {$plugin.tx_imagecycle_pi1.linkTarget}
+				extTarget = {$plugin.tx_imagecycle_pi1.extlinkTarget}
+			}
+			// stdWrap around all images
+			stdWrap {
+				dataWrap = <div class="tx-imagecycle-pi2"><div class="tx-imagecycle-pi2-images" id="{register:key}"> | </div></div>
+				required = 1
+			}
+			noscriptWrap {
+				dataWrap = <noscript><div class="tx-imagecycle-pi2"><div class="tx-imagecycle-pi2-images" id="{register:key}"> | </div></div></noscript>
+				required = 1
+			}
+		}
+		header < .normal
+		content < .normal
+	}
+
+	dataConf {
+		tt_content {
+			image >
+			href >
+			caption = RECORDS
+			caption {
+				source.data = register:source
+				tables = tt_content
+				dontCheckPid = 1
+				conf.tt_content = COA
+				conf.tt_content {
+					10 = TEXT
+					10 {
+						field = header
+						wrap = <strong> | </strong>
+					}
+					20 = TEXT
+					20 {
+						field = bodytext
+						wrap = <br /> |
+						cropHTML = 160|...|1
+						required = 1
+					}
+				}
+			}
+		}
+		fe_users {
+			image >
+			href >
+			caption = RECORDS
+			caption {
+				source.data = register:source
+				tables = fe_users
+				dontCheckPid = 1
+				conf.fe_users = COA
+				conf.fe_users {
+					10 = TEXT
+					10 {
+						field = username
+						wrap = <strong> | </strong>
+					}
+					20 = TEXT
+					20 {
+						field = email
+						typolink {
+							parameter.field = email
+						}
+						noTrimWrap = |<br />E-Mail: ||
+						required = 1
+					}
+				}
+			}
+		}
+		tt_address {
+			image >
+			href >
+			caption = RECORDS
+			caption {
+				source.data = register:source
+				tables = tt_address
+				dontCheckPid = 1
+				conf.tt_address = COA
+				conf.tt_address {
+					10 = TEXT
+					10 {
+						field = name
+						wrap = <strong> | </strong>
+					}
+					20 = TEXT
+					20 {
+						field = address
+						wrap = <br /> |
+						required = 1
+					}
+					30 = TEXT
+					30 {
+						field = zip
+						dataWrap = <br /> | &nbsp;{field:city}
+						required = 1
+					}
+				}
+			}
+		}
+		tt_news {
+			image >
+			href >
+			caption = RECORDS
+			caption {
+				source.data = register:source
+				tables = tt_news
+				dontCheckPid = 1
+				conf.tt_news = COA
+				conf.tt_news {
+					10 = TEXT
+					10 {
+						field = title
+						wrap = <strong>|</strong>
+					}
+					20 = TEXT
+					20 {
+						field = bodytext
+						wrap = <br />|
+						cropHTML = 160|...|1
+						required = 1
+					}
+					30 = TEXT
+					30 {
+						wrap = <br />|
+						htmlSpecialChars = 0
+						data = LLL:EXT:tt_news/pi/locallang.xml:more
+						typolink {
+							parameter = {$plugin.tt_news.singlePid}
+							useCacheHash = 1
+							additionalParams.cObject = COA
+							additionalParams.cObject {
+								10 = TEXT
+								10 {
+									field = uid
+									wrap = &tx_ttnews[tt_news]=|
+								}
+							}  
+						}
+					}
+				}
+			}
+		}
+	}
+
+	_CSS_DEFAULT_STYLE (
+.tx-imagecycle-pi2-images { display: none; }
+noscript .tx-imagecycle-pi2-images { display: block; }
+.coin-slider { overflow: hidden; zoom: 1; position: relative; }
+.coin-slider a { text-decoration: none; outline: none; border: none; }
+.cs-buttons { font-size: 0px; padding: 10px; float: left; }
+.cs-buttons a { margin-left: 5px; height: 10px; width: 10px; float: left; border: 1px solid #B8C4CF; color: #B8C4CF; text-indent: -1000px; }
+.cs-active { background-color: #B8C4CF; color: #FFFFFF; }
+.cs-title { width: 100%; padding: 10px; background-color: #000000; color: #FFFFFF; }
+.cs-prev,
+.cs-prev:visited,
+.cs-next,
+.cs-next:visited { background-color: #000000; color: #FFFFFF; padding: 0px 10px; }
+	)
+}

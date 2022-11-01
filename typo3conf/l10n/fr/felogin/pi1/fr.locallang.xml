@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index="ll_welcome_header">Identification de l'utilisateur</label>
+			<label index="ll_welcome_message">Entrez votre nom d'utilisateur et votre mot de passe pour vous identifier:</label>
+			<label index="ll_logout_header">Vous êtes déconnecté</label>
+			<label index="ll_logout_message">Vous vous êtes déconnecté avec succès. Vous pouvez vous identifier à nouveau en utilisant le formulaire ci-dessous.</label>
+			<label index="ll_error_header">Identification incorrecte</label>
+			<label index="ll_error_message">Une erreur est survenue durant la connexion. Vraisemblablement le nom d'utilisateur ou le mot de passe étaient faux.
+Faites attention à être précis, en particulier en ce qui concerne l'usage des minuscules et des majuscules.
+Il est aussi possible que les cookies soient désactivés.</label>
+			<label index="ll_success_header">Identification correcte</label>
+			<label index="ll_success_message">Vous êtes maintenant connecté en tant que '###USER###'</label>
+			<label index="ll_status_header">Etat actuel</label>
+			<label index="ll_status_message">Votre état actuel:</label>
+			<label index="cookie_warning">Attention: Il est possible que les cookies ne soient pas activés dans votre navigateur! C'est le cas si votre connexion se perd lorsque vous naviguez sur le site. Dans ce cas, vous devriez immédiatement accepter les cookies, au moins pour ce site web!</label>
+			<label index="username">Nom d'utilisateur:</label>
+			<label index="password">Mot de passe:</label>
+			<label index="login">Identification</label>
+			<label index="permalogin">Rester connecté:</label>
+			<label index="logout">Déconnexion</label>
+			<label index="send_password">Envoyer le mot de passe</label>
+			<label index="reset_password">Réinitialiser le mot de passe</label>
+			<label index="ll_change_password_header">Modifier votre mot de passe</label>
+			<label index="ll_change_password_message">Veuillez saisir votre nouveau mot de passe deux fois. Les mots de passe doivent avoir une longueur minimum de %s caractères.</label>
+			<label index="ll_change_password_nolinkprefix_message">Erreur : le lien n'a pas de préfixe. Veuillez configurer l'un de ces paramètres dans votre gabarit typoscript : plugin.tx_felogin_pi1.feloginBaseURL = http://votredomain/, config.baseURL = http://votredomain/, config.absRelPrefix = http://votredomain/</label>
+			<label index="ll_change_password_notvalid_message">Le lien que vous venez de cliquer n'est pas valide. Veuillez recommencer la procédure.</label>
+			<label index="ll_change_password_notequal_message">Les mots de passe sont différents. Veuillez saisir votre nouveau mot de passe deux fois. Les mots de passe doivent avoir une longueur minimum de %s caractères.</label>
+			<label index="ll_change_password_tooshort_message">Le mot de passe est trop court. Veuillez saisir votre nouveau mot de passe deux fois. Les mots de passe doivent avoir une longueur minimum de %s caractères.</label>
+			<label index="ll_change_password_done_message">Votre mot de passe a été enregistré. Vous pouvez maintenant vous connecter avec votre nouveau mot de passe.</label>
+			<label index="change_password">Changez votre mot de passe</label>
+			<label index="newpassword_label1">Saisissez le nouveau mot de passe</label>
+			<label index="newpassword_label2">Saisissez une seconde fois le nouveau mot de passe</label>
+			<label index="your_email">Votre adresse e-mail:</label>
+			<label index="ll_forgot_header">Mot de passe oublié ?</label>
+			<label index="ll_forgot_email_password">Votre mot de passe
+Bonjour %s
+
+Votre nom d'utilisateur est &quot;%s&quot;
+Votre mot de passe est &quot;%s&quot;</label>
+			<label index="ll_forgot_email_nopassword">Votre mot de passe
+Bonjour %s,
+
+Aucun nom d'utilisateur n'a été trouvé pour cette adresse de courriel ainsi aucun mot de passe ne peut vous être envoyé. Une erreur s'est probablement glissée dans votre adresse de courriel (la casse est importante !) ou bien vous n'êtes pas encore enregistré sur le site ?</label>
+			<label index="ll_forgot_validate_reset_password">Votre nouveau mot de passe
+Cher %s,
+
+Cet email vous a été envoyé suite à votre demande de réinitialisation de mot de passe. Veuillez cliquer sur le lien ci-dessous.
+%s
+
+Pour des raisons de sécurité, ce lien n'est valide que jusqu'au %s. Si vous ne cliquez pas sur ce lien avant ce délai, vous devrez recommencer la procédure de réinitialisation de mot de passe.</label>
+			<label index="ll_forgot_message">Veuillez indiquer l'adresse mail que vous avez utilisée lors de la création de votre compte. Appuyez ensuite sur le bouton &quot;Envoyer le mot de passe&quot; et votre mot de passe vous sera directement envoyé par courrier électronique. Veillez à saisir correctement votre adresse mail.</label>
+			<label index="ll_forgot_message_emailSent">Votre mot de passe a été envoyé à l'adresse %s</label>
+			<label index="ll_forgot_reset_message">Veuillez saisir votre nom d'utilisateur ou votre email. Les instructions nécessaires à la réinitialisation de votre mot de passe vous seront immédiatement envoyées par mail.</label>
+			<label index="ll_forgot_reset_message_emailSent">Un email a été envoyé à l'adresse correspondant à votre compte. Ce mail contient un lien vous permettant de réinitialiser votre mot de passe. Si vous ne recevez pas de mail, c'est que votre compte ou votre adresse mail n'a pas été trouvé.</label>
+			<label index="ll_forgot_header_backToLogin">Retourner au formulaire d'identification</label>
+			<label index="ll_enter_your_data">Nom d'utilisateur ou adresse mail:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="ll_welcome_header" type="integer">236929731</label>
+			<label index="ll_welcome_message" type="integer">165291194</label>
+			<label index="ll_logout_header" type="integer">128821468</label>
+			<label index="ll_logout_message" type="integer">246637860</label>
+			<label index="ll_error_header" type="integer">165006287</label>
+			<label index="ll_error_message" type="integer">91350987</label>
+			<label index="ll_success_header" type="integer">236890074</label>
+			<label index="ll_success_message" type="integer">127181223</label>
+			<label index="ll_status_header" type="integer">261174419</label>
+			<label index="ll_status_message" type="integer">110223230</label>
+			<label index="cookie_warning" type="integer">70334511</label>
+			<label index="username" type="integer">212632006</label>
+			<label index="password" type="integer">187963993</label>
+			<label index="login" type="integer">161344120</label>
+			<label index="permalogin" type="integer">192836582</label>
+			<label index="logout" type="integer">3292644</label>
+			<label index="send_password" type="integer">244443771</label>
+			<label index="your_email" type="integer">165004462</label>
+			<label index="ll_forgot_header" type="integer">1726109</label>
+			<label index="ll_forgot_email_password" type="integer">100562706</label>
+			<label index="ll_forgot_message" type="integer">194258101</label>
+			<label index="ll_forgot_message_emailSent" type="integer">214484910</label>
+			<label index="ll_forgot_header_backToLogin" type="integer">71375192</label>
+			<label index="ll_forgot_email_nopassword" type="integer">213987733</label>
+			<label index="reset_password" type="integer">101133955</label>
+			<label index="ll_change_password_header" type="integer">21487294</label>
+			<label index="ll_change_password_message" type="integer">36773711</label>
+			<label index="ll_change_password_nolinkprefix_message" type="integer">213020004</label>
+			<label index="ll_change_password_notvalid_message" type="integer">34343696</label>
+			<label index="ll_change_password_notequal_message" type="integer">80071035</label>
+			<label index="ll_change_password_tooshort_message" type="integer">45129470</label>
+			<label index="ll_change_password_done_message" type="integer">116196406</label>
+			<label index="change_password" type="integer">21487294</label>
+			<label index="newpassword_label1" type="integer">165306039</label>
+			<label index="newpassword_label2" type="integer">206168884</label>
+			<label index="ll_forgot_validate_reset_password" type="integer">30237957</label>
+			<label index="ll_forgot_reset_message" type="integer">15767315</label>
+			<label index="ll_forgot_reset_message_emailSent" type="integer">34970071</label>
+			<label index="ll_enter_your_data" type="integer">17378791</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+			<label index="ll_welcome_header">User login</label>
+			<label index="ll_welcome_message">Enter your username and password here in order to log in on the website:</label>
+			<label index="ll_logout_header">You have logged out.</label>
+			<label index="ll_logout_message">You just logged out from your user session on this website. You can login again or as another user by the form below.</label>
+			<label index="ll_error_header">Login failure</label>
+			<label index="ll_error_message">An error occurred during login. Most likely you didn't enter the username or password correctly.
+Be certain that you enter them precisely as they are, including upper/lower case.
+Another possibility is that cookies might be disabled in your web browser.</label>
+			<label index="ll_success_header">Login successful</label>
+			<label index="ll_success_message">You are now logged in as '###USER###'</label>
+			<label index="ll_status_header">Current status</label>
+			<label index="ll_status_message">This is your current status:</label>
+			<label index="cookie_warning">Warning: There is a possibility that cookies are not enabled in your web browser! If your login disappears on your next click that is the case and you should enable cookies (or accept cookies from this website) immediately!</label>
+			<label index="username">Username:</label>
+			<label index="password">Password:</label>
+			<label index="login">Login</label>
+			<label index="permalogin">Stay logged in:</label>
+			<label index="logout">Logout</label>
+			<label index="send_password">Send password</label>
+			<label index="your_email">Your email:</label>
+			<label index="ll_forgot_header">Forgot your password?</label>
+			<label index="ll_forgot_email_password">Your password
+Hi %s
+
+Your username is &quot;%s&quot;
+Your password is &quot;%s&quot;
+			</label>
+			<label index="ll_forgot_message">Please enter the email address by which you registered your user account. Then press &quot;Send password&quot; and your password will immediately be emailed to you. Make sure to spell your email address correctly.</label>
+			<label index="ll_forgot_message_emailSent">Your password has now been sent to the email address %s</label>
+			<label index="ll_forgot_header_backToLogin">Return to login form</label>
+			<label index="ll_forgot_email_nopassword">Your password
+Hi %s
+
+We couldn't find a username for this email address and so cannot send the password to you. Probably you misspelled the email address (upper/lower case makes a difference) or maybe you even didn't register yet?
+			</label>
+			<label index="reset_password">Reset Password</label>
+			<label index="ll_change_password_header">Change your password</label>
+			<label index="ll_change_password_message">Please enter your new password twice. Password needs a minimum length of %s chars.</label>
+			<label index="ll_change_password_nolinkprefix_message">Error: there is no prefix for the link. Please set one of the following in your typoscript template: plugin.tx_felogin_pi1.feloginBaseURL = http://yourdomain/, config.baseURL = http://yourdomain/, config.absRelPrefix = http://yourdomain/</label>
+			<label index="ll_change_password_notvalid_message">The link you clicked is not valid. Please repeat the forgot message procedure.</label>
+			<label index="ll_change_password_notequal_message">The passwords are not equal, please enter your new password twice. Password needs a minimum length of %s chars.</label>
+			<label index="ll_change_password_tooshort_message">The password length is too short. Please enter your new password twice. Password needs a minimum length of %s chars.</label>
+			<label index="ll_change_password_done_message">Your password has been saved. You can now login with your new password.</label>
+			<label index="change_password">Change your password</label>
+			<label index="newpassword_label1">Enter new password</label>
+			<label index="newpassword_label2">Repeat new password</label>
+			<label index="ll_forgot_validate_reset_password">Your new password
+Dear %s,
+
+This email was sent in response to your request to reset your password. Please click on the link below. 
+%s
+
+For security reasons, this link is only active until %s. If you do not visit the link before then, you will need to repeat the password reset steps.
+			</label>
+			<label index="ll_forgot_reset_message">Please enter your username or email address. Instructions for reseting the password will be immediately emailed to you.</label>
+			<label index="ll_forgot_reset_message_emailSent">An email has been sent to the address stored in your account and contains a link to reset your password. If you do not receive an email, your account or email address was not found.</label>
+			<label index="ll_enter_your_data">Username or email address:</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

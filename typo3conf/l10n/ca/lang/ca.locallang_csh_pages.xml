@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ca" type="array">
+			<label index=".description">Un registre 'Pàgina' normalment representa una pàgina web en TYPO3. Totes les pàgines contenen un nombre d'identificació (id) pel qual poden ser enllaçades i referenciades. El registre 'Pàgina' no conté per si mateix el contingut de la pàgina - per a aquesta fi has de crear registres 'Contingut de pàgina'.</label>
+			<label index="title.description">Introdueix el títol de la pàgina o carpeta.</label>
+			<label index="doktype.description">Selecciona el tipus de pàgina. Això afecta a si la pàgina representa una pàgina visible en la web o si és utilitzada per a altres propòsits.</label>
+			<label index="TSconfig.description">Configuració TypoScript de la pàgina.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ca" type="array">
+			<label index=".description" type="integer">118490002</label>
+			<label index="title.description" type="integer">16113526</label>
+			<label index="doktype.description" type="integer">238659907</label>
+			<label index="TSconfig.description" type="integer">129650006</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ca" type="array">
+			<label index=".description">A 'Page' record usually represents a webpage in TYPO3. All pages have an id-number by which they can be linked and referenced. The 'Page' record does not itself contain the content of the page - for this purpose you should create 'Page content' records (Content Elements).</label>
+			<label index="title.description">Enter the title of the page or folder. You must enter a page title. The field is required.</label>
+			<label index="doktype.description">Select the page type. This affects whether the page represents a visible webpage or is used for other purposes.</label>
+			<label index="TSconfig.description">Page TypoScript configuration.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

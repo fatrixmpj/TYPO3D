@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Titel</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<link href="shop/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/struktur.css" rel="stylesheet" type="text/css" />
+	<link href="shop/aimeos.css" rel="stylesheet" type="text/css" />
+	
+
+<link href="css/rte.css" rel="stylesheet" type="text/css" />
+<link href="shop/aimeoseigen.css" rel="stylesheet" type="text/css" />
+	
+<link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+<link href="shop/media_shop.css" rel="stylesheet" type="text/css" />
+<link href="css/druck.css" rel="stylesheet" type="text/css" media="print" />
+
+<script src="shop/bootstrap.min.js" type="text/javascript"></script> 
+<script src="scripts/jquery.slicknav.js" type="text/javascript"></script>
+<script src="scripts/jquery.matchHeight.min.js" type="text/javascript"></script>
+</head>
+<body >
+
+
+<div id="wrapper">
+
+<div id="wrapper-header">
+	
+	<div id="wrapper-topbild">
+	   <div id="topbild"></div>
+	</div>
+	
+   <div id="header" class="clearfix">
+	   <div id="header-left">
+		   <div id="topnav">
+			   <div id="bestellung" class="dbox"></div>
+			   <div id="jobs" class="dbox"></div>
+			   <div id="wgarten" class="dbox"></div>
+		   </div>
+	   </div> 
+		 
+	   <div id="header-right">
+			 <div id="wrapper-logo" class="pull-right clearfix">
+			     <div id="logo-gartenbau"></div>
+				 <div id="logo-floristik"></div> 
+				 <div id="logo-kombiniert"></div>
+	   </div> 	 
+	</div> 
+	</div>
+		 
+    <div id="navigation-opacity"></div>
+</div>
+
+ 
+
+<div id="inhalt" class="container">
+  
+    <div id="navigation" class="container"><ul class="menu"></ul></div>
+
+	<div class="row clearfix row-1 row-height item">
+		<div class="col-md-2 col-sm-12 col-sm-height item" id="shoplinks">
+			 <div id="warenmobil"></div>
+			 <div id="r1-col2-0"></div>
+		</div>
+		<div class="col-md-8 col-sm-12 col-sm-height item" id="shopmitte">
+			 <div id="r1-col1"></div>
+		</div>
+		<div class="col-md-2 col-sm-12 col-sm-height item" id="shoprechts">
+			<div id="r1-col2-1"></div>
+		</div>
+	</div>  
+	
+
+  
+</div>
+
+
+
+<div id="wrap-footer">
+
+	<div id="footer">
+		   <div class="container">
+				<div class="row clearfix">
+				  <div id="footer-m1" class="col-sm-6 col-xs-12"></div>
+				  <div id="footer-m2" class="col-sm-3 col-xs-12"></div>
+				  <div id="footer-m3" class="col-sm-3 col-xs-12"></div>
+			   </div>	
+	      </div>
+		 <div class="container show-mobile">
+				<div class="row clearfix">
+				  <div id="stablinks" class="col-xs-12"></div>
+		     </div>		
+	   </div>
+	<div id="meguralink"></div>
+	<a href="tel:+41628918138" title="Rufen Sie uns an" class="phone pull-right"><span class="fa fa-phone-square fa-5x"></span></a>
+</div>
+
+
+</div>
+
+</div>
+
+
+<div align="justify">
+  <script type="text/javascript">
+
+$(document).ready(function(){
+	
+	/* initialize menu for mobile devices */
+	$('#menu').slicknav({allowParentLinks: true, prependTo: '#header'}); 
+	$('.slicknav_nav li ul').removeClass( "menu" );  
+	
+	  //set equal height of content containers
+	$(function() {
+    	$('.dl-icon').matchHeight();
+	});
+	
+});  
+
+
+
+/* menu active & caret when dropdown */
+$("#navigation ul li ul").hover(
+  function(){ // Mouse Over
+   $(this).parent().addClass("act");
+  },
+  function(){ // Mouse Out
+    $(this).parent().removeClass("act");
+  }
+);
+
+
+/*  Mobile mobile menu parent div */
+var wWidth = $( window ).width();
+if ( wWidth < 768 ) {
+   $( "#wrapper-topbild" ).insertBefore( $( "#inhalt" ) );
+}
+
+if ( wWidth > 767 ) {
+  	$(function() {
+			//$('.item').matchHeight();
+	});
+}
+
+
+</script>
+	
+	
+
+  
+</div>
+</body>
+</html>

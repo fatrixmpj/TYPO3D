@@ -1,0 +1,169 @@
+/******************************************************************************/
+/** VENUS **/
+/******************************************************************************/
+
+
+/* Common style */
+.venus figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 1%;
+	text-align: center;
+}
+
+.venus figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 1.0;
+}
+
+.venus figure figcaption {
+	padding: 0.4em 1em 1em 1em;
+	color: #fff !important;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.venus figure figcaption::before,
+.venus figure figcaption::after {
+	pointer-events: none;
+}
+
+.venus figure figcaption,
+.venus figure figcaption > a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.venus figure figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+
+
+
+
+.venus figure {
+	background: #162633;
+	text-align: left;
+}
+
+.venus figure img {
+	-webkit-transition: opacity 0.45s;
+	transition: opacity 0.45s;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.venus figure figcaption::before {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin-left:-23px;
+	margin-bottom:-79px;
+	background: url('/fileadmin/templates/trophymain/css/sass/effekte/img/triangle.svg') no-repeat center center;
+	background-size: 100% 100%;
+	content: '';
+	-webkit-transition: opacity 0.45s, -webkit-transform 0.45s;
+	transition: opacity 0.45s, transform 0.45s;
+	-webkit-transform: rotate3d(0,0,1,45deg);
+	transform: rotate3d(0,0,1,45deg);
+	-webkit-transform-origin: 0 100%;
+	transform-origin: 0 100%;
+}
+
+.venus figure h1 {
+	font-size:24px !important;
+	color:#fff !important;
+	text-align:center !important;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,10px,0);
+	transform: translate3d(0,10px,0);
+}
+
+.venus figure p {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 20px 0px 4px 0;
+}
+
+.venus figure a {
+	margin: 0 4px;
+	color: #5d504f;
+	font-size: 170%;
+}
+
+.venus figure a:hover,
+.venus figure a:focus {
+	color: #cc6055;
+}
+
+.venus figure p a em {
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(0,50px,0);
+	transform: translate3d(0,50px,0);
+}
+
+.venus figure:hover img {
+	opacity: 0.8;
+}
+
+.venus figure:hover h1 {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.venus figure:hover figcaption::before {
+	opacity: 0.7;
+	-webkit-transform: rotate3d(0,0,1,16deg);
+	transform: rotate3d(0,0,1,16deg);
+}
+.venus figure:hover p em {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.venus figure:hover p a:nth-child(3) em {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+.venus figure:hover p a:nth-child(2) em {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.venus figure:hover p a:first-child em {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+.venus figure a, .venus figure a em, .venus figure a:hover em {
+	color:#333 !important;
+}
+
+
+.venus .fa {
+	font-size:0.8em !important; 
+}

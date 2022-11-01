@@ -1,0 +1,87 @@
+
+# omnipay/helcim (Helcim-JS, success path)
+# Author: Jason Judge <jason@academe.co.uk>
+#
+# It is going to be helpful to list the important
+# data items in each flow. These items all have two
+# names - the gateway name, and the OmniPay abstracted
+# name. I'm not sure if those items should be listed
+# on the diagram, but they really should be close-by.
+
+msc {
+    # Options
+    hscale=auto;
+    #wordwraparcs=1;
+
+    # Title
+    title: OmniPay-Helcim;
+    subtitle: Helcim-JS (Authorize, success path);
+
+    # Entities
+    App [label="Application"],
+    OP [label="OmniPay"],
+    HD [label="Helcim Driver"],
+    UB [label="User Browser"],
+    HJS [label="Helcim JS API"];
+    HDG [label="Helcim Direct"];
+
+
+    # Process/Arcs
+
+    App..App: User Authorization
+    {
+        UB..UB: AJAX Form
+        {
+            App -> UB [label="Present Form To User"];
+            comment: Some helper methods to aid construction\nof the form would be good here.;
+            UB -> HJS [label="Get JavaScript"];
+            HJS -> UB [label="version1.js"];
+
+            UB -- UB [label="User Enters Card Details"];
+            UB -- UB [label="User Submits Form"];
+
+
+            UB -> HJS [label="AJAX Authorization"];
+            comment: There is no 3D-secure or equivalent\nhere at this time.;
+            HJS -> UB [label="Authorization Response"];
+
+            UB -- UB [label="Response Embedded into Form"];
+
+            UB -> App [label="JavaScript POST of Completed Form"];
+        };
+        App -> OP [label="gateway::authorize()"];
+        OP -> HD [label="JSAuthorizeRequest()"];
+        HD -> OP -> App [label="JSAuthorizeResponse()"];
+    };
+
+    App..App: Security Check
+    {
+        App -> OP [label="gateway::completeAthorize()"];
+        OP -> HD [label="JSCompleteAuthorizeRequest()"];
+        OP..HDG: Check the Transaction
+        {
+            HD -> OP [label="direct::fetchTransaction()"];
+            OP -> HD [label="DirectFetchTransactionRequest()"];
+            HD -> HDG [label="GET transaction"];
+            comment: A secret token is used to access\nthe direct back-end services.;
+            HDG -> HD [label="Transaction details"];
+            HD -> HD [label="DirectFetchTransactionResponse()"];
+            HD -- HD [label="Validate Transaction Details"];
+        };
+        comment: The transaction can potentially be\nmanipulated by the user during the POSTs\nin both directions, so it is\nnecessary to check the transaction\nlogged on Helcim via the Helcim Direct API.;
+        HD -> OP -> App [label="JSCompleteAuthorizeResponse()"];
+        comment: It does seem that ONLY a successful payment\nor authorisation will ever return by this path.;
+    }
+
+    App..App: Cart Processing
+    {
+        App -- App [label="Process Cart According to Result"];
+        App -- App [label="Notify User"];
+    };
+
+    App -- App [label="Capture Payment (when shipped)"];
+
+    #SP -> App [label="Order Complete"];
+    #App -- App [label="(alt2) Process Complete Basket Items"];
+    #App -- App [label="Clear Basket from Session"];
+}

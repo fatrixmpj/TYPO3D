@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lv" type="array">
+			<label index="labels.username">Lietotāja vārds</label>
+			<label index="labels.openId">OpenID</label>
+			<label index="labels.password">Parole</label>
+			<label index="labels.interface">Interfeiss</label>
+			<label index="labels.submitLogin">Ieiet</label>
+			<label index="labels.submitLogout">Iziet</label>
+			<label index="labels.donate">Ziedot</label>
+			<label index="labels.whatIsOpenId">Kas ir OpenID?</label>
+			<label index="labels.switchToOpenId">Pārslēgties uz OpenID</label>
+			<label index="labels.switchToDefault">Pārslēgties uz noklusēto autorizāciju</label>
+			<label index="info.reset">Attīrīt šo formu</label>
+			<label index="info.cookies_and_js">(Piezīme: Cookies un JavaScript ir jābūt aktivizētiem!)</label>
+			<label index="clear">Attīrīt šo laukumu!</label>
+			<label index="newsheadline">Svarīgas ziņas:</label>
+			<label index="error.javascript">Lūdzu aktivizējiet JavaScript!</label>
+			<label index="error.cookies">Lūdzu aktivizējiet Cookies!</label>
+			<label index="error.cookies_ignore">Ignorēt!</label>
+			<label index="error.capslock">Uzmanību: Ir ieslēgts Caps lock taustiņš!</label>
+			<label index="error.furtherInformation">Sīkākai informācijai klikšķiniet šeit</label>
+			<label index="warranty.by">Garantiju nodrošina %s; %sklikšķiniet, lai apskatītu detalizētu informāciju.%s</label>
+			<label index="typo3.logo">TYPO3 logo</label>
+			<label index="typo3.cms">TYPO3 SVS</label>
+			<label index="version.short">ver.</label>
+			<label index="copyright">Kopēšanas tiesības</label>
+			<label index="extension.copyright">Paplašinājumu autortiesības pieder to īpašniekiem.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lv" type="array">
+			<label index="labels.username" type="integer">257964500</label>
+			<label index="labels.openId" type="integer">17662508</label>
+			<label index="labels.password" type="integer">231098347</label>
+			<label index="labels.interface" type="integer">63023816</label>
+			<label index="labels.submitLogin" type="integer">161344120</label>
+			<label index="labels.submitLogout" type="integer">185346853</label>
+			<label index="labels.donate" type="integer">5787204</label>
+			<label index="labels.whatIsOpenId" type="integer">105762531</label>
+			<label index="labels.switchToOpenId" type="integer">159789141</label>
+			<label index="labels.switchToDefault" type="integer">47057790</label>
+			<label index="info.reset" type="integer">155169575</label>
+			<label index="info.cookies_and_js" type="integer">258680830</label>
+			<label index="clear" type="integer">226364655</label>
+			<label index="newsheadline" type="integer">32077743</label>
+			<label index="error.javascript" type="integer">213516707</label>
+			<label index="error.cookies" type="integer">87593890</label>
+			<label index="error.cookies_ignore" type="integer">208422426</label>
+			<label index="error.capslock" type="integer">125844377</label>
+			<label index="error.furtherInformation" type="integer">1511581</label>
+			<label index="warranty.by" type="integer">39543108</label>
+			<label index="typo3.logo" type="integer">9122974</label>
+			<label index="typo3.cms" type="integer">46966526</label>
+			<label index="version.short" type="integer">134263603</label>
+			<label index="copyright" type="integer">100756011</label>
+			<label index="extension.copyright" type="integer">137085499</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lv" type="array">
+			<label index="labels.username">Username</label>
+			<label index="labels.openId">OpenID</label>
+			<label index="labels.password">Password</label>
+			<label index="labels.interface">Interface</label>
+			<label index="labels.submitLogin">Login</label>
+			<label index="labels.submitLogout">Log Out</label>
+			<label index="labels.donate">Donate</label>
+			<label index="labels.whatIsOpenId">What is OpenId?</label>
+			<label index="labels.switchToOpenId">Switch to OpenID</label>
+			<label index="labels.switchToDefault">Switch to default login</label>
+			<label index="info.reset">Reset this form</label>
+			<label index="info.cookies_and_js">(Note: Cookies and JavaScript must be enabled!)</label>
+			<label index="clear">Clear this field!</label>
+			<label index="newsheadline">Important Messages:</label>
+			<label index="error.javascript">Activate JavaScript, please!</label>
+			<label index="error.cookies">Activate Cookies, please!</label>
+			<label index="error.cookies_ignore">Ignore!</label>
+			<label index="error.capslock">Attention: Caps lock enabled!</label>
+			<label index="error.furtherInformation">For more information or further help click here</label>
+			<label index="warranty.by">Warranty is supplied by %s; %sclick for details.%s</label>
+			<label index="typo3.logo">TYPO3 logo</label>
+			<label index="typo3.cms">TYPO3 CMS</label>
+			<label index="version.short">ver.</label>
+			<label index="copyright">Copyright</label>
+			<label index="extension.copyright">Extensions are copyright of their respective owners.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

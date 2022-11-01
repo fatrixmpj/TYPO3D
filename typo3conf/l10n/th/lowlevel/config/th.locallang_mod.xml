@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index="mlang_labels_tablabel">การตั้งค่าดูจาก localconf.php และ tables.php</label>
+			<label index="mlang_labels_tabdescr">ช่วยให้คุณสามารถเรียกดูค่าของ array TCA $ (ค่าตาราง) และ $ TYPO3_CONF_VARS คุณไม่สามารถกำหนดค่าใด ๆ เรียกพวกเขาเท่านั้น &lt;br /&gt; &lt;em&gt;'admin'สำหรับผู้ใช้ Access เท่านั้น&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">การตั้งค่า</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index="mlang_labels_tablabel" type="integer">205342864</label>
+			<label index="mlang_labels_tabdescr" type="integer">172430134</label>
+			<label index="mlang_tabs_tab" type="integer">39122498</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+			<label index="mlang_labels_tablabel">View configuration from localconf.php and tables.php</label>
+			<label index="mlang_labels_tabdescr">Allows you to browse the values of the $TCA array (table configuration) and $TYPO3_CONF_VARS. You cannot set any values, only browse them.&lt;br /&gt;&lt;em&gt;Access for 'admin' users only!&lt;/em&gt;</label>
+			<label index="mlang_tabs_tab">Configuration</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

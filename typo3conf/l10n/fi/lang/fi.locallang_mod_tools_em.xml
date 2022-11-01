@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fi" type="array">
+			<label index="mlang_labels_tablabel">TYPO3:n lisäohjelmien hallinta</label>
+			<label index="mlang_labels_tabdescr">TYPO3:n lisäohjelmien hallinta keskuspalvelimilta (TER); pluginit, modulit, luokkien lisäykset, konfigurointikoodit ym.</label>
+			<label index="mlang_tabs_tab">Lisäohjelmat</label>
+			<label index="display_nle">Sisällytä listaukseen myös ei-asennetut lisäohjelmat</label>
+			<label index="display_files">Näytä lista muokatuista tiedostoista.</label>
+			<label index="header_upd_ext">Seuraavista lisäohjelmista on olemassa päivitys keskuspalvelimella</label>
+			<label index="header_vers_ret">Versiotiedot</label>
+			<label index="tab_mod_name">Lisäohjelma</label>
+			<label index="tab_mod_key">Lisäohjelma-avain</label>
+			<label index="tab_mod_loc_ver">Paikallinen</label>
+			<label index="tab_mod_rem_ver">Etä</label>
+			<label index="tab_mod_location">Sijainti</label>
+			<label index="msg_modified">Muokatut tiedostot</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fi" type="array">
+			<label index="mlang_labels_tablabel" type="integer">107630623</label>
+			<label index="mlang_labels_tabdescr" type="integer">182827319</label>
+			<label index="mlang_tabs_tab" type="integer">199372037</label>
+			<label index="display_nle" type="integer">76478189</label>
+			<label index="display_files" type="integer">249361233</label>
+			<label index="header_upd_ext" type="integer">181851683</label>
+			<label index="header_vers_ret" type="integer">56356629</label>
+			<label index="tab_mod_name" type="integer">104746642</label>
+			<label index="tab_mod_key" type="integer">13174148</label>
+			<label index="tab_mod_loc_ver" type="integer">84509186</label>
+			<label index="tab_mod_rem_ver" type="integer">260376821</label>
+			<label index="tab_mod_location" type="integer">216383317</label>
+			<label index="msg_modified" type="integer">76649526</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fi" type="array">
+			<label index="mlang_labels_tablabel">TYPO3 Extension Manager</label>
+			<label index="mlang_labels_tabdescr">Manages TYPO3 extensions from a central repository,  which includes plugins, modules, class extensions, configuration code etc.</label>
+			<label index="mlang_tabs_tab">Ext Manager</label>
+			<label index="display_nle">Include not loaded extensions into listing</label>
+			<label index="display_files">Display the list of changed files</label>
+			<label index="header_upd_ext">There are new versions of the following extensions in the TER</label>
+			<label index="header_vers_ret">Version information</label>
+			<label index="tab_mod_name">Extension</label>
+			<label index="tab_mod_key">Ext-Key</label>
+			<label index="tab_mod_loc_ver">Local</label>
+			<label index="tab_mod_rem_ver">Remote</label>
+			<label index="tab_mod_location">Location</label>
+			<label index="msg_modified">Modified Files:</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

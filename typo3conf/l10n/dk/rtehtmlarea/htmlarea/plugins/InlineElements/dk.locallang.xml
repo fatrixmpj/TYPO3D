@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="dk" type="array">
+			<label index="No markup">Ingen tekstformattering</label>
+			<label index="Remove markup">Fjern tekstformattering</label>
+			<label index="FormatText-Tooltip">Anvend stil på den valgte tekst</label>
+			<label index="Big-Tooltip">Stor tekst</label>
+			<label index="Bold-Tooltip">Fed</label>
+			<label index="Citation-Tooltip">Citat</label>
+			<label index="Definition-Tooltip">Defination</label>
+			<label index="InsertedText-Tooltip">Indsat tekst</label>
+			<label index="Italic-Tooltip">Kursiv</label>
+			<label index="Small-Tooltip">Mindre tekst</label>
+			<label index="StrikeThrough-Tooltip">Gennemstreget tekst</label>
+			<label index="Subscript-Tooltip">Sænket</label>
+			<label index="Superscript-Tooltip">Hævet</label>
+			<label index="Underline-Tooltip">Understreget</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="dk" type="array">
+			<label index="No markup" type="integer">438135</label>
+			<label index="Remove markup" type="integer">160564254</label>
+			<label index="FormatText-Tooltip" type="integer">68174344</label>
+			<label index="Big-Tooltip" type="integer">219697374</label>
+			<label index="Bold-Tooltip" type="integer">18137861</label>
+			<label index="Citation-Tooltip" type="integer">92773637</label>
+			<label index="Definition-Tooltip" type="integer">12095665</label>
+			<label index="InsertedText-Tooltip" type="integer">189297700</label>
+			<label index="Italic-Tooltip" type="integer">30962801</label>
+			<label index="Small-Tooltip" type="integer">116401167</label>
+			<label index="StrikeThrough-Tooltip" type="integer">107675429</label>
+			<label index="Subscript-Tooltip" type="integer">153638286</label>
+			<label index="Superscript-Tooltip" type="integer">103903129</label>
+			<label index="Underline-Tooltip" type="integer">139620890</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="dk" type="array">
+			<label index="No markup">No text format</label>
+			<label index="Remove markup">Remove text format</label>
+			<label index="FormatText-Tooltip">Apply format to selected text</label>
+			<label index="Big-Tooltip">Large text</label>
+			<label index="Bold-Tooltip">Bold</label>
+			<label index="Citation-Tooltip">Citation</label>
+			<label index="Definition-Tooltip">Definition</label>
+			<label index="InsertedText-Tooltip">Inserted text</label>
+			<label index="Italic-Tooltip">Italic</label>
+			<label index="Small-Tooltip">Small text</label>
+			<label index="StrikeThrough-Tooltip">Strike-through text</label>
+			<label index="Subscript-Tooltip">Subscript</label>
+			<label index="Superscript-Tooltip">Superscript</label>
+			<label index="Underline-Tooltip">Underline</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

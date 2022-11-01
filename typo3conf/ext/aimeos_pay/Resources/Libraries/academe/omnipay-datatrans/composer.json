@@ -1,0 +1,36 @@
+{
+    "name": "academe/omnipay-datatrans",
+    "type": "library",
+    "description": "Datatrans Gateway for the Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "datatrans",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "homepage": "https://github.com/academe/omnipay-datatrans",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dominik Pfaffenbauer",
+            "email": "dominik@pfaffenbauer.at"
+        },
+        {
+            "name": "Jason Judge",
+            "email": "jason@academe.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\Datatrans\\" : "src/"
+        }
+    },
+    "require": {
+        "omnipay/common": "~2.5"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    }
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="gr" type="array">
+			<label index="permissions">Άδειες</label>
+			<label index="ch_permissions">Αλλαγή αδειών</label>
+			<label index="Legend">Υπόμνημα</label>
+			<label index="Owner">Ιδιοκτήτης</label>
+			<label index="Group">Ομάδα</label>
+			<label index="Everybody">Καθένας</label>
+			<label index="EditLock">Κλείδωμα</label>
+			<label index="EditLock_descr">Αυτή η σελίδα και όλο της το περιεχόμενο είναι κλειδωμένο για επεξεργασία από χρήστες μη-Διαχειριστές</label>
+			<label index="Save">Αποθήκευση</label>
+			<label index="Abort">Διακοπή</label>
+			<label index="Edit">ΕΠΕΞΕΡΓΑΣΙΑ</label>
+			<label index="recursive">Αναδρομικός ορισμός</label>
+			<label index="pages_affected">σελίδες που επηρεάστηκαν</label>
+			<label index="user_overview">Επισκόπηση χρήστη</label>
+			<label index="Mode">Κατάσταση</label>
+			<label index="Depth">Βάθος</label>
+			<label index="levels">επίπεδα</label>
+			<label index="User">Χρήστης</label>
+			<label index="def">Ορισμός: 'περιεχόμενο' είναι εγγραφές από όλους τους πίνακες σε μία σελίδα - εκτός από τις εγγραφές του πίνακα 'pages' (Σελίδες).</label>
+			<label index="A_Granted">Η δυνατότητα πρόσβαση παραχωρήθηκε</label>
+			<label index="A_Denied">Η δυνατότητα πρόσβασης απαγορεύθηκε</label>
+			<label index="1">Εμφάνιση σελίδας</label>
+			<label index="16">Επεξεργασία περιεχομένου</label>
+			<label index="2">Επεξεργασία σελίδας</label>
+			<label index="4">Διαγραφή σελίδας</label>
+			<label index="8">Νέες σελίδες</label>
+			<label index="1_t">Εμφάνιση/Αντιγραφή σελίδας και περιεχόμενου.</label>
+			<label index="16_t">Αλλαγή/Προσθήκη/Διαγραφή/Μετακίνηση περιεχόμενου.</label>
+			<label index="2_t">Αλλαγή/Μετακίνιση σελίδας, πχ αλλαγή τίτλου σελίδας κλπ.</label>
+			<label index="4_t">Διαγραφή σελίδας και περιεχομένου</label>
+			<label index="8_t">Δημιουργία νέων σελίδων κάτω από αυτήν τη σελίδα</label>
+			<label index="mlang_labels_tablabel">Άδειες επεξεργασίας σελίδας</label>
+			<label index="mlang_labels_tabdescr">Ο ορισμός των αδειών των σελίδων είναι καθοριστικής σημασίας για την διαχείριση της πρόσβασης των backend χρηστών στις σελίδες. Μπορείτε να αντιστοιχίσετε ένα χρήστη και μία ομάδα χρηστών ως ιδιοκτήτες μίας σελίδας και να ορίσετε άδειες πρόσβασης για την κάθε μία σελίδα.</label>
+			<label index="mlang_tabs_tab">Πρόσβαση</label>
+			<label index="WorkspaceWarning">Προειδοποίηση χώρου εργασίας</label>
+			<label index="WorkspaceWarningText">Οι άδειες που θέτετε στον χώρο εργασίας έχουν αντίκτυπο στα στοιχεία μόνο &lt;em&gt; εφόσον &lt;/em&gt; δημοσιευθούν! Εάν χρειάζεστε να ορίσετε άδειες που να έχουν αντίκτυπο τώρα αμέσως, τότε αυτό πρέπει να το κάνετε στο Live χώρο εργασίας. (Οι άδειες πάντα αποτιμώνται στο Live χώρο εργασίας, σε εγγραφές μίας πρόχειρης έκδοσης)</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="gr" type="array">
+			<label index="permissions" type="integer">218680565</label>
+			<label index="ch_permissions" type="integer">210014620</label>
+			<label index="Legend" type="integer">162692626</label>
+			<label index="Owner" type="integer">191842862</label>
+			<label index="Group" type="integer">3749651</label>
+			<label index="Everybody" type="integer">2223491</label>
+			<label index="EditLock" type="integer">189288807</label>
+			<label index="EditLock_descr" type="integer">122566549</label>
+			<label index="Save" type="integer">211601612</label>
+			<label index="Abort" type="integer">120043061</label>
+			<label index="Edit" type="integer">154624728</label>
+			<label index="recursive" type="integer">8697959</label>
+			<label index="pages_affected" type="integer">104651805</label>
+			<label index="user_overview" type="integer">52124806</label>
+			<label index="Mode" type="integer">105954913</label>
+			<label index="Depth" type="integer">108332394</label>
+			<label index="levels" type="integer">137816926</label>
+			<label index="User" type="integer">150585321</label>
+			<label index="def" type="integer">262383439</label>
+			<label index="A_Granted" type="integer">203576344</label>
+			<label index="A_Denied" type="integer">9809855</label>
+			<label index="1" type="integer">256624387</label>
+			<label index="16" type="integer">102695873</label>
+			<label index="2" type="integer">66732081</label>
+			<label index="4" type="integer">220131191</label>
+			<label index="8" type="integer">146653009</label>
+			<label index="1_t" type="integer">41719375</label>
+			<label index="16_t" type="integer">5382347</label>
+			<label index="2_t" type="integer">81453433</label>
+			<label index="4_t" type="integer">38381151</label>
+			<label index="8_t" type="integer">102802306</label>
+			<label index="mlang_labels_tablabel" type="integer">237456773</label>
+			<label index="mlang_labels_tabdescr" type="integer">6517083</label>
+			<label index="mlang_tabs_tab" type="integer">200750040</label>
+			<label index="WorkspaceWarning" type="integer">247709981</label>
+			<label index="WorkspaceWarningText" type="integer">82844557</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="gr" type="array">
+			<label index="permissions">Permissions</label>
+			<label index="ch_permissions">Change permissions</label>
+			<label index="Legend">Legend</label>
+			<label index="Owner">Owner</label>
+			<label index="Group">Group</label>
+			<label index="Everybody">Everybody</label>
+			<label index="EditLock">Lock</label>
+			<label index="EditLock_descr">The page and all content is locked for editing by all non-Admin users.</label>
+			<label index="Save">Save</label>
+			<label index="Abort">Abort</label>
+			<label index="Edit">EDIT</label>
+			<label index="recursive">Set recursively</label>
+			<label index="pages_affected">pages affected</label>
+			<label index="user_overview">User overview</label>
+			<label index="Mode">Mode</label>
+			<label index="Depth">Depth</label>
+			<label index="levels">levels</label>
+			<label index="User">User</label>
+			<label index="def">Definition: 'content' is records from all tables on a page - except from records from the table 'pages' (Pages).</label>
+			<label index="A_Granted">Access Granted</label>
+			<label index="A_Denied">Access Denied</label>
+			<label index="1">Show page</label>
+			<label index="16">Edit content</label>
+			<label index="2">Edit page</label>
+			<label index="4">Delete page</label>
+			<label index="8">New pages</label>
+			<label index="1_t">Show/Copy page and content.</label>
+			<label index="16_t">Change/Add/Delete/Move content.</label>
+			<label index="2_t">Change/Move page, eg. change pagetitle etc.</label>
+			<label index="4_t">Delete page and content.</label>
+			<label index="8_t">Create new pages under this page.</label>
+			<label index="mlang_labels_tablabel">Page editing permissions</label>
+			<label index="mlang_labels_tabdescr">Setting of page permissions is vital for controlling backend user access to pages. You can assign a user and a group as owners of a page and set access permissions for each.</label>
+			<label index="mlang_tabs_tab">Access</label>
+			<label index="WorkspaceWarning">Workspace Warning</label>
+			<label index="WorkspaceWarningText">Permissions you set in the workspace are effective on the elements only &lt;em&gt;after&lt;/em&gt; they are published! If you need to set permissions which are effective right now, you must do so in the Live workspace. (Permissions are always evaluated on the Live workspace record/placeholder of a draft version)</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

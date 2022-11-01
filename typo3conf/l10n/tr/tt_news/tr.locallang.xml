@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="tr" type="array">
+			<label index="pi_title">Haberler</label>
+			<label index="pi_plus_wiz_description">TYPO3 için çok yönlü haber sistemi</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="tr" type="array">
+			<label index="pi_title" type="integer">231848472</label>
+			<label index="pi_plus_wiz_description" type="integer">69242695</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="tr" type="array">
+			<label index="pi_title">News</label>
+			<label index="pi_plus_wiz_description">Versatile news system for TYPO3</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

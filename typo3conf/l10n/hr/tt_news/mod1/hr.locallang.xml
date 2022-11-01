@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hr" type="array">
+			<label index="first">Prva</label>
+			<label index="last">Posljednja</label>
+			<label index="next">Sljedeća</label>
+			<label index="previous">Prethodna</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hr" type="array">
+			<label index="first" type="integer">133912045</label>
+			<label index="last" type="integer">223720198</label>
+			<label index="next" type="integer">17482704</label>
+			<label index="previous" type="integer">231864181</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hr" type="array">
+			<label index="first">First</label>
+			<label index="last">Last</label>
+			<label index="next">Next</label>
+			<label index="previous">Previous</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

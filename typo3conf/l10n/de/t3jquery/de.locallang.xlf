@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2014-05-06T01:03:25Z" product-name="t3jquery" target-language="de">
+    <header/>
+    <body>
+      <trans-unit id="pi1_title" xml:space="preserve">
+        <source>T3 jQuery</source>
+      <target></target></trans-unit>
+      <trans-unit id="extmng.checkConfigHeader" xml:space="preserve">
+        <source>Warning!</source>
+      <target></target></trans-unit>
+      <trans-unit id="extmng.checkConfig" xml:space="preserve">
+        <source>You have to use the "Update"-Button below to ensure proper working for all functions in this extension.</source>
+      <target></target></trans-unit>
+      <trans-unit id="extmng.updatermsgHeader" xml:space="preserve">
+        <source>Important!</source>
+      <target></target></trans-unit>
+      <trans-unit id="extmng.updatermsg" xml:space="preserve">
+        <source>The version you are using, is no longer supported by T3 jQuery, please change to a supported version and create your library again!</source>
+      <target></target></trans-unit>
+      <trans-unit id="extmng.updatermsgHeader2" xml:space="preserve">
+        <source>Warning!</source>
+      <target></target></trans-unit>
+      <trans-unit id="extmng.updatermsg2" xml:space="preserve">
+        <source>The jQuery library '%s' was not found, please choose the version of your library and create it with the needed components!</source>
+      <target></target></trans-unit>
+    </body>
+  </file>
+</xliff>

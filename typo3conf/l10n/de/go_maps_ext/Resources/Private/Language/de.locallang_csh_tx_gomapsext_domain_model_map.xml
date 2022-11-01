@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+		<label index="_marker_cluster_style.seeAlso"/>
+		<label index="_styled_map_code.seeAlso"/>
+		<label index="addresses.description">Datensätze können ausgewählt, angelegt oder bearbeitet werden. Neue Addressen werden auf der aktuellen Seite gespeichert.</label>
+		<label index="calc_route.description">Nur eine Zieladresse muss angegeben werden. Zeigt einen Texteingabefeld für Startangabe.</label>
+		<label index="class.description">Die CSS-Klasse des DIV-Containers.</label>
+		<label index="default_type.description">Typ der Karte am Anfang.</label>
+		<label index="double_click_zoom.description">Bei Doppelklick wird hereingezoomt. 'Verschiebbare Karte' muss aktiviert sein!</label>
+		<label index="draggable.description">Die Position der Karte kann verändert werden.</label>
+		<label index="fullscreen_control.description">Zeigt ein Symbol zum Aktivieren von StreetView.</label>
+		<label index="height.description">Die Höhe der Karte. Standard in Pixeln, für Prozentangaben geben Sie ein '%' an, z.B. '100%'.</label>
+		<label index="kml_local.description">Die KML-Datei ist auf diesem Server gespeichert. Der angegeben Pfad ist relativ. Nur Marker werden angezeigt.</label>
+		<label index="kml_preserve_viewport.description">Der Kartenbereich der KML-Datei wird ignoriert. Mindestens eine Adresse ist erforderlich, um die Karte richtig zu zentrieren.</label>
+		<label index="kml_url.description">Geben Sie die URL einer KML-Datei an, z.B. "http://gmaps-samples.googlecode.com/svn/trunk/ggeoxml/cta.kml".</label>
+		<label index="latitude.description"/>
+		<label index="longitude.description"/>
+		<label index="geolocation.description"/>
+		<label index="map_type_control.description">Ermöglicht das Ändern der Kartentypen.</label>
+		<label index="map_types.description">Mögliche Kartentypen. Kartentyp-Steuerung muss aktiviert sein.</label>
+		<label index="marker_cluster.description">Viele Marker in der gleichen Region werden zusammengefasst und als ein Cluster dargestellt.</label>
+		<label index="marker_cluster_size.description">Die Größe bzw. der Radius der Cluster.</label>
+		<label index="marker_cluster_style.description"/>
+		<label index="marker_cluster_zoom.description">Bis zu diesem Zoom-Level werden die Cluster dargestellt.</label>
+		<label index="marker_search.description">Zeigt ein Formular im Frontend, in dem der Benutzer ein Suchwort eingeben kann. Durchsucht werden Titel und Info-Fenster-Inhalt der Marker. Das Info-Fenster des zuerst gefundenen Markers öffnet sich.</label>
+		<label index="preview_image.description"/>
+		<label index="scale_control.description">Zeigt einen Maßstab.</label>
+		<label index="scroll_zoom.description">Aktiviert die Zoomkontrolle via Scrollrad.</label>
+		<label index="show_addresses.description"/>
+		<label index="show_categories.description"/>
+		<label index="show_route.description">Zwei Adress-Datensätze werden benötigt! Zeigt die Route zwischen den beiden Punkten.</label>
+		<label index="streetview_control.description">Zeigt ein Symbol zum Aktivieren von StreetView.</label>
+		<label index="styled_map_code.description">JSON, z.B. von http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html</label>
+		<label index="styled_map_name.description">Wird in der Kartensteuerung angezeigt.</label>
+		<label index="title.description">Wird als ID genutzt (ohne Sonder- und Leerzeichen!).</label>
+		<label index="tooltip_title.description">Wird bei Mouseover angezeigt.</label>
+		<label index="travel_mode.description">Wählen Sie einen Reisemodus oder lassen Sie den Frontend-Benutzer einen aussuchen.</label>
+		<label index="unit_system.description">Wählen Sie eine Einheit oder lassen Sie den Frontend-Benutzer eine aussuchen.</label>
+		<label index="width.description">Die Breite der Karte. Standard in Pixeln, für Prozentangaben geben Sie ein '%' an, z.B. '100%'.</label>
+		<label index="zoom.description">Sollte nur gesetzt werden, wenn der Standardzoom nicht gewünscht ist.</label>
+		<label index="zoom_control.description">Zeigt Schaltflächen zum Ändern der Zoomstufe.</label>
+		<label index="zoom_max.description"/>
+		<label index="zoom_min.description"/>
+		</languageKey>
+  </data>
+</T3locallangExt>

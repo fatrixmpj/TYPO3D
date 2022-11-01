@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="dk" type="array">
+			<label index="No markup">Ingen tekst formatering</label>
+			<label index="Bold">Fed</label>
+			<label index="Large text">Stor tekst</label>
+			<label index="Citation">Henvisning</label>
+			<label index="Code">Kode</label>
+			<label index="Definition">Defination</label>
+			<label index="Deleted text">Slettet tekst</label>
+			<label index="Inserted text">Indsat tekst</label>
+			<label index="Italic">Kursiv</label>
+			<label index="Keyboard">Tastatur</label>
+			<label index="Quotation">Notering</label>
+			<label index="Sample">Eksempel</label>
+			<label index="Small text">Lille tekst</label>
+			<label index="Strike-through">Gennemstreget</label>
+			<label index="Subscript">Sænket</label>
+			<label index="Superscript">Hævet</label>
+			<label index="Underline">Understreget</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="dk" type="array">
+			<label index="Bold" type="integer">18137861</label>
+			<label index="Large text" type="integer">219697374</label>
+			<label index="Citation" type="integer">92773637</label>
+			<label index="Code" type="integer">211868589</label>
+			<label index="Definition" type="integer">12095665</label>
+			<label index="Deleted text" type="integer">203450772</label>
+			<label index="Inserted text" type="integer">189297700</label>
+			<label index="Italic" type="integer">30962801</label>
+			<label index="Keyboard" type="integer">114183557</label>
+			<label index="Quotation" type="integer">120591795</label>
+			<label index="Sample" type="integer">207475122</label>
+			<label index="Small text" type="integer">116401167</label>
+			<label index="Strike-through" type="integer">223909343</label>
+			<label index="Subscript" type="integer">153638286</label>
+			<label index="Superscript" type="integer">103903129</label>
+			<label index="Underline" type="integer">139620890</label>
+			<label index="No markup" type="integer">438135</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="dk" type="array">
+			<label index="Bold">Bold</label>
+			<label index="Large text">Large text</label>
+			<label index="Citation">Citation</label>
+			<label index="Code">Code</label>
+			<label index="Definition">Definition</label>
+			<label index="Deleted text">Deleted text</label>
+			<label index="Inserted text">Inserted text</label>
+			<label index="Italic">Italic</label>
+			<label index="Keyboard">Keyboard</label>
+			<label index="Quotation">Quotation</label>
+			<label index="Sample">Sample</label>
+			<label index="Small text">Small text</label>
+			<label index="Strike-through">Strike-through</label>
+			<label index="Subscript">Subscript</label>
+			<label index="Superscript">Superscript</label>
+			<label index="Underline">Underline</label>
+			<label index="No markup">No text format</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

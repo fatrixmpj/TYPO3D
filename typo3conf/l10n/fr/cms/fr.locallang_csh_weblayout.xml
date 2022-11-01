@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index=".alttitle">Module Web &gt; Page</label>
+			<label index=".description">Ce module est activé depuis le menu backend et est le principal module permettant d'effectuer les opérations de base de l'édition d'un site web.</label>
+			<label index="quickEdit.alttitle">Edition rapide</label>
+			<label index="quickEdit.description">L'éditeur rapide vous donne un accès rapide aux champs de formulaire du contenu de la page.</label>
+			<label index="quickEdit.details">L'éditeur rapide a pour but de réduire le nombre de clic nécessaire pour éditer le contenu d'une page. Simplement en cliquant sur le titre d'une page, vous aurez le premier élément de la colonne normal chargé. Dans la barre d'outil en haut, vous pouvez séléctionner les autres éléments dans le menu déroulant.</label>
+			<label index="quickEdit_selElement.alttitle">Eléments de contenu</label>
+			<label index="quickEdit_selElement.description">C'est un aperçu des éléments de cette page dans le mode d'édition rapide. Sélectionnez un autre élément pour l'éditer ou cliquez sur l'icône &quot;Nouveau&quot; pour créer un nouvel élément.</label>
+			<label index="columns_1.alttitle">Tri par colonne</label>
+			<label index="columns_1.description">Avec la vue &quot;Colonnes&quot;, le contenu de la page est séparé en fonction de la colonne dans laquelle il se trouve.</label>
+			<label index="columns_2.alttitle">Tri par langue</label>
+			<label index="columns_2.description">Avec la vue &quot;Langues&quot;, le contenu de la page est séparé en fonction de sa langue et de sa colonne.</label>
+			<label index="columns_3.alttitle">Information sur la page</label>
+			<label index="columns_3.description">Avec la vue &quot;Information sur la page&quot;, vous pouvez visualiser différentes statistiques concernant la page.</label>
+			<label index="language_list.alttitle">Vue par langue</label>
+			<label index="language_list.description">Cette vue affiche les traductions existantes des blocs de contenu côte à côte. Elle permet également de créer une nouvelle version de la page.</label>
+			<label index="columns_single.alttitle">Les blocs de contenus dans une colonne unique</label>
+			<label index="columns_single.description">La vue dans une colonne unique affiche les blocs de contenus de la page courante. Cliquez sur un icône d'édition ou sur le texte du bloc pour éditer le bloc.</label>
+			<label index="columns_multi.alttitle">Les blocs de contenu dans plusieurs colonnes</label>
+			<label index="columns_multi.description">La vue dans plusieurs colonne affiche les blocs de contenus tels qu'ils sont organisés dans les colonnes de la page. Cette vue est utilisée si votre site web contient plus d'une zone de contenu et que le contenu de ces zones est organisé en &quot;colonne&quot;.</label>
+			<label index="button_panel.alttitle">Les &quot;gros boutons&quot;</label>
+			<label index="button_panel.description">Ces boutons vous permettent d'accéder aux fonctions les plus utilisées lors de l'édition des pages. Vous pouvez modifier les propriétés de la page (son titre par exemple), déplacer la page courante dans l'arborescence, créer une nouvelle page ou créer de nouveaux blocs de contenu dans cette page.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="quickEdit.description" type="integer">106439756</label>
+			<label index="quickEdit.details" type="integer">195162147</label>
+			<label index="quickEdit_selElement.description" type="integer">67419128</label>
+			<label index="columns_1.description" type="integer">179278107</label>
+			<label index="quickEdit.alttitle" type="integer">121600477</label>
+			<label index="quickEdit_selElement.alttitle" type="integer">57410074</label>
+			<label index="columns_1.alttitle" type="integer">183363228</label>
+			<label index="columns_2.alttitle" type="integer">8205541</label>
+			<label index="button_panel.alttitle" type="integer">66291190</label>
+			<label index=".alttitle" type="integer">87780763</label>
+			<label index=".description" type="integer">255949225</label>
+			<label index="columns_2.description" type="integer">120555273</label>
+			<label index="columns_3.alttitle" type="integer">263392300</label>
+			<label index="columns_3.description" type="integer">128375441</label>
+			<label index="language_list.alttitle" type="integer">5495420</label>
+			<label index="language_list.description" type="integer">59701089</label>
+			<label index="columns_single.alttitle" type="integer">177139761</label>
+			<label index="columns_single.description" type="integer">13095439</label>
+			<label index="columns_multi.alttitle" type="integer">129089861</label>
+			<label index="columns_multi.description" type="integer">150957199</label>
+			<label index="button_panel.description" type="integer">160878502</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+			<label index="quickEdit.description">The Quick Editor gives you direct access to the form fields of the page content.</label>
+			<label index="quickEdit.details">The Quick Editor is designed to cut down the number of clicks involved in getting to edit the page content. Simply by clicking the page title in the page tree you've got the first content element in the normal column loaded in the list frame. In the toolbar in the top you can select the other content elements on the page in the selector box.</label>
+			<label index="quickEdit_selElement.description">This is an overview of the content elements on this page in QuickEdit mode. Select another element to edit or click a &quot;New&quot; icon to create a new content element.</label>
+			<label index="columns_1.description">In the &quot;Columns&quot; view you can control the content of the web page as it is positioned in columns.</label>
+			<label index="quickEdit.alttitle">Quick Edit</label>
+			<label index="quickEdit_selElement.alttitle">Content Elements</label>
+			<label index="columns_1.alttitle">Listing by Column</label>
+			<label index="columns_2.alttitle">Listing by Language</label>
+			<label index="button_panel.alttitle">The &quot;Big Buttons&quot;</label>
+			<label index=".alttitle">Web &gt; Page Module</label>
+			<label index=".description">The page module is activated from the backend menu and is the primary module for all basic CMS operations you need to perform when maintaining website content.</label>
+			<label index="columns_2.description">In the &quot;Languages&quot; view you can control the content of the web page as it is divided into languages and columns.</label>
+			<label index="columns_3.alttitle">Page Information</label>
+			<label index="columns_3.description">In the &quot;Page Information&quot; view you can see various statistics about a page.</label>
+			<label index="language_list.alttitle">Language view</label>
+			<label index="language_list.description">This view will display the available translations of the page content side-by-side. It enables users to create a new translation of a page.</label>
+			<label index="columns_single.alttitle">Page content elements in a single column</label>
+			<label index="columns_single.description">The single column view will show the page content elements that define the content on this page of your website. Click an edit icon or element text to edit an element.</label>
+			<label index="columns_multi.alttitle">Page content elements in a multiple columns</label>
+			<label index="columns_multi.description">The multiple column view will show the content of your website arranged in multiple columns. This is the case if your website supports more than one content zone and the content elements from each zone is arranged in &quot;columns&quot;.</label>
+			<label index="button_panel.description">These buttons will bring you to four most used functions in relation to building pages. From here you can edit the page properties (eg. the page title), you can move the current page to another position in the page tree, create a new page somewhere in the page tree or create new content elements on this page.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

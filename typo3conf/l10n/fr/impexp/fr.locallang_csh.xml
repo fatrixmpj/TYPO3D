@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index=".alttitle">Import/Export</label>
+			<label index=".description">Module d'import/export natif pour les données de TYPO3. Permet l'export d'enregistrements, de contenus de tables, de pages ou de branches complètes de l'arborescence. Inclu les fichiers médias attachés comme les images et préserve les relations entre les enregistrements. Exporte uniquement dans un format spécifique à TYPO3 (soit en binaire &quot;.T3D&quot; soit en XML). Le format est prévu pour l'échange entre systèmes TYPO3.</label>
+			<label index=".image_descr">Exemple de prévisualisation durant la configuration de l'export d'une page. Voyez comment les enregistrements d'une page sont inclus et comment les références à l'intérieur de ces enregistrements sont trouvées et inclues (bas de l'écran).</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index=".alttitle" type="integer">260906242</label>
+			<label index=".description" type="integer">68307774</label>
+			<label index=".image_descr" type="integer">70436675</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+			<label index=".alttitle">Import/Export</label>
+			<label index=".description">Native Import/Export module for TYPO3 data. Can export single records, content of tables, single pages or whole branches of the page tree. Includes attached media like image and preserves relations between records. Exports only to TYPO3 specific format, either a binary format (.T3D) or XML. The format is meant for exchange between TYPO3 systems.</label>
+			<label index=".image_descr">Example of the preview display during export configuration of a page. Notice how records on the page are include plus how references inside the record is found and included as well (bottom of screen).</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

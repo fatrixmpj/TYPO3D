@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="gr" type="array">
+			<label index="mlang_labels_tablabel">Διαχειριστής Εφαρμογών Επέκτασης του TYPO3</label>
+			<label index="mlang_labels_tabdescr">Διαχειρίζεται τις εφαρμογές επεκτάσεων του TYPO3 από ένα κεντρικό αποθετήριο, το οποίο περιλαμβάνει υπομονάδες, μονάδες, επεκτάσεις κλάσεων, κώδικα διαμόρφωσης κλπ.</label>
+			<label index="mlang_tabs_tab">Διαχειριστής Εφαρμογών Επέκτασης</label>
+			<label index="display_nle">Συμπερίληψη των μη φορτωμένων επεκτάσεων στην λίστα</label>
+			<label index="display_files">Εμφάνιση λίστας αλλαγμένων αρχείων</label>
+			<label index="header_upd_ext">Υπάρχουν νέες εκδόσεις των παρακάτω επεκτάσεων στο TER</label>
+			<label index="header_vers_ret">Πληροφοριες έκδοσης</label>
+			<label index="tab_mod_name">Επέκταση</label>
+			<label index="tab_mod_key">κλειδί επέκτασης</label>
+			<label index="tab_mod_loc_ver">Τοπικό</label>
+			<label index="tab_mod_rem_ver">Απομακρυσμένο</label>
+			<label index="tab_mod_comment">Σχόλιο μεταφόρτωσης</label>
+			<label index="tab_mod_location">Τοποθεσία</label>
+			<label index="msg_warn_diff">Μία διαφορά ανάμεσα στην πρωτότυπη εγκατεστημένη έκδοση και στο υπάρχων παρατηρήθηκε</label>
+			<label index="msg_modified">Τροποποιημένα αρχεία:</label>
+			<label index="note_last_update">Τελευταία ενημέρωση της λίστας των επεκτάσεων:</label>
+			<label index="note_last_update2">Για να λάβετε την ενημερωμένη λίστα πηγαίνεται στην ενότητα &quot;Εισαγωγή Επεκτάσεων&quot; και χρησιμοποιήστε την επιλογή &quot;Ανάκτηση/Ενημέρωση&quot;.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="gr" type="array">
+			<label index="mlang_labels_tablabel" type="integer">107630623</label>
+			<label index="mlang_labels_tabdescr" type="integer">61213035</label>
+			<label index="mlang_tabs_tab" type="integer">199372037</label>
+			<label index="display_nle" type="integer">76478189</label>
+			<label index="display_files" type="integer">249361233</label>
+			<label index="header_upd_ext" type="integer">181851683</label>
+			<label index="header_vers_ret" type="integer">56356629</label>
+			<label index="tab_mod_name" type="integer">104746642</label>
+			<label index="tab_mod_key" type="integer">13174148</label>
+			<label index="tab_mod_loc_ver" type="integer">84509186</label>
+			<label index="tab_mod_rem_ver" type="integer">260376821</label>
+			<label index="tab_mod_comment" type="integer">111200332</label>
+			<label index="tab_mod_location" type="integer">216383317</label>
+			<label index="msg_warn_diff" type="integer">64279198</label>
+			<label index="msg_modified" type="integer">76649526</label>
+			<label index="note_last_update" type="integer">21754082</label>
+			<label index="note_last_update2" type="integer">164114497</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="gr" type="array">
+			<label index="mlang_labels_tablabel">TYPO3 Extension Manager</label>
+			<label index="mlang_labels_tabdescr">Manages TYPO3 extensions from a central repository, which includes plugins, modules, class extensions, configuration code etc.</label>
+			<label index="mlang_tabs_tab">Ext Manager</label>
+			<label index="display_nle">Include not loaded extensions into listing</label>
+			<label index="display_files">Display the list of changed files</label>
+			<label index="header_upd_ext">There are new versions of the following extensions in the TER</label>
+			<label index="header_vers_ret">Version information</label>
+			<label index="tab_mod_name">Extension</label>
+			<label index="tab_mod_key">Ext-Key</label>
+			<label index="tab_mod_loc_ver">Local</label>
+			<label index="tab_mod_rem_ver">Remote</label>
+			<label index="tab_mod_comment">Upload-Comment</label>
+			<label index="tab_mod_location">Location</label>
+			<label index="msg_warn_diff">A difference between the originally installed version and the current was detected!</label>
+			<label index="msg_modified">Modified Files:</label>
+			<label index="note_last_update">Last update of the list of extensions:</label>
+			<label index="note_last_update2">To get and update the list, go to the section &quot;Import extensions&quot; and use the button &quot;Retrieve/Update&quot;.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

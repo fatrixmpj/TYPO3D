@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fr" type="array">
+			<label index="LeftToRight-Tooltip">Le texte de gauche à droite</label>
+			<label index="RightToLeft-Tooltip">Le texte de droite à gauche</label>
+			<label index="Language-Tooltip">Langue</label>
+			<label index="ShowLanguageMarks-Tooltip">Afficher les marqueurs de langue</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="LeftToRight-Tooltip" type="integer">1013968</label>
+			<label index="RightToLeft-Tooltip" type="integer">206570525</label>
+			<label index="Language-Tooltip" type="integer">77154959</label>
+			<label index="ShowLanguageMarks-Tooltip" type="integer">156353131</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+			<label index="LeftToRight-Tooltip">Direction left to right</label>
+			<label index="RightToLeft-Tooltip">Direction right to left</label>
+			<label index="Language-Tooltip">Language</label>
+			<label index="ShowLanguageMarks-Tooltip">Show language marks</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

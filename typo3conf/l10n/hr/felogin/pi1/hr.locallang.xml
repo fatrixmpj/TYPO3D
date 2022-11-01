@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="hr" type="array">
+			<label index="ll_welcome_header">Korisnička prijava</label>
+			<label index="ll_welcome_message">Unesite vaše korisničko ime i lozinku kako bi se prijavili na website.</label>
+			<label index="ll_logout_header">Odjavili ste se.</label>
+			<label index="ll_logout_message">Upravo ste se odjavili s ovih stranica. Možete se prijaviti ponovo ili kao drugi korisnik koristeći sljedeći formular.</label>
+			<label index="ll_error_header">Prijava neuspješna</label>
+			<label index="ll_error_message">Greška se dogodila pri logiranju. Najvjerovatnije niste ispravno unijeli korisničko ime ili lozinku.
+Provjerite da budu uneseni točno onako kako  su napisani, uključujući velika i mala slova.
+Druga je mogućnost da su &quot;cookies&quot; onemogućeni na vašem web pregledniku.</label>
+			<label index="ll_success_header">Prijava uspješna</label>
+			<label index="ll_success_message">Prijavljeni se kao '###USER###'</label>
+			<label index="ll_status_header">Trenutni status</label>
+			<label index="ll_status_message">Ovo je vaš trenutni status:</label>
+			<label index="cookie_warning">Pažnja: Postoji mogućnost da &quot;cookies&quot; nisu omogućeni na vašem web pregledniku. Ako vaša prijava nestane pri sljedećem kliku miša to je to i trebali bi omogućiti &quot;cookies&quot; (accept cookies from this website).</label>
+			<label index="username">Korisničko ime:</label>
+			<label index="password">Lozinka:</label>
+			<label index="login">Prijava</label>
+			<label index="logout">Odjava</label>
+			<label index="send_password">Pošalji lozinku</label>
+			<label index="your_email">Vaša e-mail adresa:</label>
+			<label index="ll_forgot_header">Zaboravili ste lozinku?</label>
+			<label index="ll_forgot_email_password">Vaša lozinka
+Hi %s
+
+Vaše korisničko ime je  &quot;%s&quot;
+Vaša lozinka je &quot;%s&quot;</label>
+			<label index="ll_forgot_email_nopassword">Vaša lozinka
+Hi %s
+
+Nismo uspjeli pronaći korisničko ime za vašu e-mail adresu pa vam ne možemo poslati ni lozinku. Vjerovatno ste krivo ukucali e-mail adresu (velika/mala slova se razlikuju) ili se može niste još ni registrirali?</label>
+			<label index="ll_forgot_message">Molimo unesite e-mail adresu s kojom ste se registrirali. Potom pristisnite &quot;Pošalji lozinku&quot; i vaša će vam lozinka biti odmah poslana. Pripazite da e-mail adresu unesete ispravno.</label>
+			<label index="ll_forgot_message_emailSent">Vaša je lozinka poslana na e-mail sdresu %s</label>
+			<label index="ll_forgot_header_backToLogin">Povratak na formular za prijavu</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="hr" type="array">
+			<label index="ll_welcome_header" type="integer">236929731</label>
+			<label index="ll_welcome_message" type="integer">165291194</label>
+			<label index="ll_logout_header" type="integer">128821468</label>
+			<label index="ll_logout_message" type="integer">246637860</label>
+			<label index="ll_error_header" type="integer">165006287</label>
+			<label index="ll_error_message" type="integer">162066914</label>
+			<label index="ll_success_header" type="integer">236890074</label>
+			<label index="ll_success_message" type="integer">127181223</label>
+			<label index="ll_status_header" type="integer">261174419</label>
+			<label index="ll_status_message" type="integer">110223230</label>
+			<label index="cookie_warning" type="integer">70277754</label>
+			<label index="username" type="integer">212632006</label>
+			<label index="password" type="integer">187963993</label>
+			<label index="login" type="integer">161344120</label>
+			<label index="logout" type="integer">3292644</label>
+			<label index="send_password" type="integer">244443771</label>
+			<label index="your_email" type="integer">165004462</label>
+			<label index="ll_forgot_header" type="integer">1726109</label>
+			<label index="ll_forgot_email_password" type="integer">100562706</label>
+			<label index="ll_forgot_email_nopassword" type="integer">213987733</label>
+			<label index="ll_forgot_message" type="integer">194258101</label>
+			<label index="ll_forgot_message_emailSent" type="integer">214484910</label>
+			<label index="ll_forgot_header_backToLogin" type="integer">71375192</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="hr" type="array">
+			<label index="ll_welcome_header">User login</label>
+			<label index="ll_welcome_message">Enter your username and password here in order to log in on the website:</label>
+			<label index="ll_logout_header">You have logged out.</label>
+			<label index="ll_logout_message">You just logged out from your user session on this website. You can login again or as another user by the form below.</label>
+			<label index="ll_error_header">Login failure</label>
+			<label index="ll_error_message">An error occurred during login. Most likely you didn't enter the username or password correctly.
+Be certain that you enter them precisely as they are, including upper/lower case.
+Another possibility is that cookies might be disabled in your webbrowser.</label>
+			<label index="ll_success_header">Login successful</label>
+			<label index="ll_success_message">You are now logged in as '###USER###'</label>
+			<label index="ll_status_header">Current status</label>
+			<label index="ll_status_message">This is your current status:</label>
+			<label index="cookie_warning">Warning: There is a possibility that cookies are not enabled in your webbrowser! If your login disappears on your next click that is the case and you should enable cookies (or accept cookies from this website) immediately!</label>
+			<label index="username">Username:</label>
+			<label index="password">Password:</label>
+			<label index="login">Login</label>
+			<label index="logout">Logout</label>
+			<label index="send_password">Send password</label>
+			<label index="your_email">Your email:</label>
+			<label index="ll_forgot_header">Forgot your password?</label>
+			<label index="ll_forgot_email_password">Your password
+Hi %s
+
+Your username is &quot;%s&quot;
+Your password is &quot;%s&quot;
+			</label>
+			<label index="ll_forgot_email_nopassword">Your password
+Hi %s
+
+We couldn't find a username for this email address and so cannot send the password to you. Probably you misspelled the email address (upper/lower case makes a difference) or maybe you even didn't register yet?
+			</label>
+			<label index="ll_forgot_message">Please enter the email address by which you registered your user account. Then press &quot;Send password&quot; and your password will immediately be emailed to you. Make sure to spell your email address correctly.</label>
+			<label index="ll_forgot_message_emailSent">Your password has now been sent to the email address %s</label>
+			<label index="ll_forgot_header_backToLogin">Return to login form</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

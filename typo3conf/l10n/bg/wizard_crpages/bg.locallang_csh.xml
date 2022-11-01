@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="bg" type="array">
+			<label index="tx_wizardcrpages.alttitle">Помощник за създаване на страници</label>
+			<label index="tx_wizardcrpages.description">Позволява ви да създадете група от нови, празни страници за бързо изграждане на ново дърво от страници. Просто въведете заглавията на необходимите ви страници. Единствено за попълнените полета ще се създадат страници.</label>
+			<label index="tx_wizardcrpages.details">Новите страници винаги ще бъдат създадени като подстраници на текущо активната страница от дървото от страници. Тази страница е показана в началото на страницата. В примера по-долу тя е &quot;/Intro/Startpage/&quot;.
+
+&lt;b&gt;&quot;Постави нови страници след съществуващите подстраници&quot;&lt;/b&gt;
+Ако изберете тази възможност страниците ще бъдат създадени &lt;em&gt;след&lt;/em&gt; съществуващите подстраници.
+
+&lt;b&gt;&quot;Скриване на нови страници&quot;&lt;/b&gt;
+Изберете това, ако новите страници трябва да бъдат сткири по подразбиране. Тази опция може да бъде ви бъде забранена, ако нямате права за създаване на нови, онлайн страници.
+
+&lt;b&gt;Lorem Ipsum...&lt;/b&gt;
+Помощникът за създаване на страници поддържа Lorem Ipsum разширение, осигурявайки примерно съдържание за полетата.</label>
+			<label index="tx_wizardcrpages.image_descr">Въведете заглавията за новите страници в полетата. Единствено за попълнените полета ще бъдат създадени страници.
+След натискане на бутона &quot;Създай страници&quot; дървото от страници в ляво автоматично ще се обнови, показвайки ви позицията на новите страници!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="bg" type="array">
+			<label index="tx_wizardcrpages.alttitle" type="integer">61381807</label>
+			<label index="tx_wizardcrpages.description" type="integer">139514396</label>
+			<label index="tx_wizardcrpages.details" type="integer">190128195</label>
+			<label index="tx_wizardcrpages.image_descr" type="integer">257127828</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="bg" type="array">
+			<label index="tx_wizardcrpages.alttitle">Create Pages wizard</label>
+			<label index="tx_wizardcrpages.description">Enables you to create a batch of new, empty pages for quickly building up a new page tree. 
+Just enter the titles for the pages you need. Only filled in fields will be created as pages.</label>
+			<label index="tx_wizardcrpages.details">The new pages will always be created as subpages to the currently active page from the page tree. This page is shown in the top of the page. In the example image below it is &quot;/Intro/Startpage/&quot;.
+
+&lt;b&gt;&quot;Place new pages after the existing subpages&quot;&lt;/b&gt;
+If you select this option the pages will be create &lt;em&gt;after&lt;/em&gt; any existing subpages.
+
+&lt;b&gt;&quot;Hide new pages&quot;&lt;/b&gt;
+Select this if the new pages should be hidden by default. This option may be forced upon you if you do not have credentials to create new, online pages.
+
+
+&lt;b&gt;Lorem Ipsum...&lt;/b&gt;
+The Create new page wizard supports the Lorem Ipsum extension providing dummy content for the fields.</label>
+			<label index="tx_wizardcrpages.image_descr">You simply enter the new page titles in the fields. Only fields you fill in will be created as pages.
+After pressing the &quot;Create pages&quot; button the page tree to the left will update instantly, showing you the position of the new pages!</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

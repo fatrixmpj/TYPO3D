@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ua" type="array">
+			<label index="submit_button_label">Пошук</label>
+			<label index="opt_type_0">Цілі слова</label>
+			<label index="opt_type_1">Частини слів</label>
+			<label index="opt_type_2">Початок слів</label>
+			<label index="opt_type_3">Кінець слів</label>
+			<label index="opt_type_10">Звучить як</label>
+			<label index="opt_type_20">Речення</label>
+			<label index="opt_defOp_0">Всі слова ( і )</label>
+			<label index="opt_defOp_1">Будь-які слова (або)</label>
+			<label index="opt_sections_0">Весь сайт</label>
+			<label index="opt_sections_-1">Тільки ця сторінка</label>
+			<label index="opt_sections_-2">Основна + перший рівень</label>
+			<label index="opt_sections_-3">Другий та більші рівні</label>
+			<label index="opt_freeIndexUid_-2">Всі, по категоріям</label>
+			<label index="opt_freeIndexUid_0">Сторінки</label>
+			<label index="opt_freeIndexUid_header_0">Сторінки вебсайту</label>
+			<label index="opt_order_rank_count">Кількість слів</label>
+			<label index="opt_order_mtime">Дата останньої зміни</label>
+			<label index="opt_order_crdate">Дата створення</label>
+			<label index="opt_lang_-1">Всі мови</label>
+			<label index="opt_lang_0">По замовченню</label>
+			<label index="form_legend">Шукати від</label>
+			<label index="form_searchFor">Шукати:</label>
+			<label index="form_orderBy">Группувати по:</label>
+			<label index="form_fromSection">Від секціїї:</label>
+			<label index="form_freeIndexUid">Категорія:</label>
+			<label index="form_searchIn">Шукати в:</label>
+			<label index="form_style">Стиль:</label>
+			<label index="rules_header">Правила:</label>
+			<label index="searchFor_or">або</label>
+			<label index="searchFor_and">та</label>
+			<label index="searchFor_butNot">але не</label>
+			<label index="noResults">Незнайдено нічого</label>
+			<label index="inSection">в секції</label>
+			<label index="word_page">сторінка</label>
+			<label index="word_pages">сторінки</label>
+			<label index="unnamedSection">Інші</label>
+			<label index="link_regularSearch">Звичайний пошук</label>
+			<label index="link_advancedSearch">Розширений пошук</label>
+			<label index="res_path">Шлях:</label>
+			<label index="res_modified">Змінено:</label>
+			<label index="res_created">Створено:</label>
+			<label index="res_size">Об'єм:</label>
+			<label index="pi_list_browseresults_prev">&lt; Попередня</label>
+			<label index="pi_list_browseresults_page">Сторінка</label>
+			<label index="pi_list_browseresults_next">Наступна &gt;</label>
+			<label index="local_operator_AND">І</label>
+			<label index="local_operator_OR">АБО</label>
+			<label index="local_operator_NOT">НЕ</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ua" type="array">
+			<label index="submit_button_label" type="integer">20138052</label>
+			<label index="opt_type_0" type="integer">222720720</label>
+			<label index="opt_type_1" type="integer">172284783</label>
+			<label index="opt_type_2" type="integer">11548209</label>
+			<label index="opt_type_3" type="integer">194788751</label>
+			<label index="opt_type_10" type="integer">257918215</label>
+			<label index="opt_type_20" type="integer">6717355</label>
+			<label index="opt_defOp_0" type="integer">19166264</label>
+			<label index="opt_defOp_1" type="integer">88959896</label>
+			<label index="opt_sections_0" type="integer">161604964</label>
+			<label index="opt_sections_-1" type="integer">203612347</label>
+			<label index="opt_sections_-2" type="integer">136579338</label>
+			<label index="opt_sections_-3" type="integer">29488068</label>
+			<label index="opt_freeIndexUid_-2" type="integer">196704853</label>
+			<label index="opt_freeIndexUid_0" type="integer">72592619</label>
+			<label index="opt_freeIndexUid_header_0" type="integer">131617847</label>
+			<label index="opt_order_rank_count" type="integer">117255308</label>
+			<label index="opt_order_mtime" type="integer">135056589</label>
+			<label index="opt_order_crdate" type="integer">51454473</label>
+			<label index="opt_lang_-1" type="integer">180223936</label>
+			<label index="opt_lang_0" type="integer">128029197</label>
+			<label index="form_legend" type="integer">184654558</label>
+			<label index="form_searchFor" type="integer">123652778</label>
+			<label index="form_orderBy" type="integer">126205067</label>
+			<label index="form_fromSection" type="integer">122193277</label>
+			<label index="form_freeIndexUid" type="integer">90868382</label>
+			<label index="form_searchIn" type="integer">248140624</label>
+			<label index="form_style" type="integer">6624914</label>
+			<label index="rules_header" type="integer">150084822</label>
+			<label index="searchFor_or" type="integer">243385572</label>
+			<label index="searchFor_and" type="integer">199611859</label>
+			<label index="searchFor_butNot" type="integer">38330962</label>
+			<label index="noResults" type="integer">189977502</label>
+			<label index="inSection" type="integer">57548980</label>
+			<label index="word_page" type="integer">119038151</label>
+			<label index="word_pages" type="integer">188428962</label>
+			<label index="unnamedSection" type="integer">103881441</label>
+			<label index="link_regularSearch" type="integer">208110947</label>
+			<label index="link_advancedSearch" type="integer">130779860</label>
+			<label index="res_path" type="integer">266188054</label>
+			<label index="res_modified" type="integer">206911454</label>
+			<label index="res_created" type="integer">97474279</label>
+			<label index="res_size" type="integer">183911828</label>
+			<label index="pi_list_browseresults_prev" type="integer">20121992</label>
+			<label index="pi_list_browseresults_page" type="integer">26464201</label>
+			<label index="pi_list_browseresults_next" type="integer">232350798</label>
+			<label index="local_operator_AND" type="integer">89718728</label>
+			<label index="local_operator_OR" type="integer">30412413</label>
+			<label index="local_operator_NOT" type="integer">17691606</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ua" type="array">
+			<label index="submit_button_label">Search</label>
+			<label index="opt_type_0">Distinct word</label>
+			<label index="opt_type_1">Part of word</label>
+			<label index="opt_type_2">First part of word</label>
+			<label index="opt_type_3">Last part of word</label>
+			<label index="opt_type_10">Sounds like</label>
+			<label index="opt_type_20">Sentence</label>
+			<label index="opt_defOp_0">All words (AND)</label>
+			<label index="opt_defOp_1">Any words (OR)</label>
+			<label index="opt_sections_0">Whole site</label>
+			<label index="opt_sections_-1">Only this page</label>
+			<label index="opt_sections_-2">Top + level 1</label>
+			<label index="opt_sections_-3">Level 2 and out</label>
+			<label index="opt_freeIndexUid_-2">All, categorized</label>
+			<label index="opt_freeIndexUid_0">Pages</label>
+			<label index="opt_freeIndexUid_header_0">Website Pages</label>
+			<label index="opt_order_rank_count">Number of words</label>
+			<label index="opt_order_mtime">Date Modified</label>
+			<label index="opt_order_crdate">Creation date</label>
+			<label index="opt_lang_-1">All languages</label>
+			<label index="opt_lang_0">Default</label>
+			<label index="form_legend">Search form</label>
+			<label index="form_searchFor">Search for:</label>
+			<label index="form_orderBy">Order by:</label>
+			<label index="form_fromSection">From section:</label>
+			<label index="form_freeIndexUid">Category:</label>
+			<label index="form_searchIn">Search in:</label>
+			<label index="form_style">Style:</label>
+			<label index="rules_header">Rules:</label>
+			<label index="searchFor_or">or</label>
+			<label index="searchFor_and">and</label>
+			<label index="searchFor_butNot">but not</label>
+			<label index="noResults">NO results found.</label>
+			<label index="inSection">in the section</label>
+			<label index="word_page">page</label>
+			<label index="word_pages">pages</label>
+			<label index="unnamedSection">Other</label>
+			<label index="link_regularSearch">Regular search</label>
+			<label index="link_advancedSearch">Advanced search</label>
+			<label index="res_path">Path:</label>
+			<label index="res_modified">Modified:</label>
+			<label index="res_created">Created:</label>
+			<label index="res_size">Size:</label>
+			<label index="pi_list_browseresults_prev">&lt; Previous</label>
+			<label index="pi_list_browseresults_page">Page</label>
+			<label index="pi_list_browseresults_next">Next &gt;</label>
+			<label index="local_operator_AND">AND</label>
+			<label index="local_operator_OR">OR</label>
+			<label index="local_operator_NOT">NOT</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index=".alttitle">โมดูลเว็บ&gt; admin ข่าว</label>
+			<label index="list_module.alttitle">admin module News</label>
+			<label index="list_module.description">ให้ข่าวรายการโมดูลและผู้จัดการประเภท tt_news</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index=".alttitle" type="integer">18464561</label>
+			<label index="list_module.alttitle" type="integer">31980085</label>
+			<label index="list_module.description" type="integer">46953261</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+			<label index=".alttitle">Web &gt; News admin module</label>
+			<label index="list_module.alttitle">News admin module</label>
+			<label index="list_module.description">Provides a news list-module and the tt_news category manager</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+		<label index="address.description">Bitte geben Sie eine Adresse oder Koordinaten in das Feld 'Postion' ein und drücken Sie 'Aktualisieren'.</label>
+		<label index="close_by_click.description">Info-Fenster mit Klicken statt Mouseout schließen.</label>
+		<label index="configuration_map.description">Geben Sie eine Adresse [Straße Nr., PLZ Ort] oder Koordinaten [Breite,Länge] ein und drücken Sie 'Aktualisieren' oder verschieben Sie den Marker.</label>
+		<label index="image_height.description">Benutzerdefinierte Höhe des Markers in Pixeln.</label>
+		<label index="image_size.description">Aktivieren Sie die Checkbox, wenn die Größe des Markers von der Standardgröße abweicht.</label>
+		<label index="image_width.description">Benutzerdefinierte Breite des Markers in Pixeln.</label>
+		<label index="info_window_content.description">Der Text, welcher im Info-Fenster dargstellt wird.</label>
+		<label index="info_window_link.description">Link zur Routenberechnung auf Google Maps wird an das Ende des Info-Fenster-Textes angehängt.</label>
+		<label index="latitude.description">Bitte geben Sie eine Adresse oder Koordinaten in das Feld 'Postion' ein und drücken Sie 'Aktualisieren'.</label>
+		<label index="longitude.description">Bitte geben Sie eine Adresse oder Koordinaten in das Feld 'Postion' ein und drücken Sie 'Aktualisieren'.</label>
+		<label index="marker.description">Wählen Sie ein indiduelles Bild für den Marker.</label>
+		<label index="open_by_click.description">Info-Fenster mit Klicken statt Mouseover öffnen.</label>
+		<label index="opened.description">Das Info-Fenster ist geöffnet, wenn die Karte erscheint. Es wird je Karte nur ein Info-Fenster geöffnet erscheinen.</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

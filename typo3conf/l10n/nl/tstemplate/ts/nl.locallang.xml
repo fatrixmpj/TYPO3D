@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index="moduleTitle">Template werkset</label>
+			<label index="templateAnalyzer">Template Analyzer</label>
+			<label index="constantEditor">Constant Editor</label>
+			<label index="infoModify">Info/Modificeer</label>
+			<label index="objectBrowser">TypoScript Object Browser</label>
+			<label index="viewTemplates">Toon templates van</label>
+			<label index="pageName">Paginanaam</label>
+			<label index="templates"># Templates</label>
+			<label index="isRoot">Is Root?</label>
+			<label index="isExt">Is Ext?</label>
+			<label index="overview">Dit is een overzicht van pagina's in de database die een of meer template records bevatten. Klik op een paginatitel om naar de betreffende pagina te gaan.</label>
+			<label index="areYouSure">Weet u zeker dat u dit wilt doen?</label>
+			<label index="noTemplate">Geen template</label>
+			<label index="noTemplateDescription">Er bevindt zich geen template op deze pagina!</label>
+			<label index="createTemplate">Maak eerst een template aan om de constanten te kunnen bewerken!</label>
+			<label index="newWebsite">Maak een nieuwe website</label>
+			<label index="newWebsiteDescription">Als deze pagina de root van een nieuwe website moet worden, klik dan op onderstaande knop.</label>
+			<label index="newWebsiteAction">Maak template voor een nieuwe site aan</label>
+			<label index="extTemplate">Maak extensie template aan</label>
+			<label index="extTemplateDescription">Een extensie template maakt het mogelijk dat alleen voor deze en onderliggende pagina's TypoScript waarden ingevoerd kunnen worden die alleen op deze pagina's werken.</label>
+			<label index="extTemplateAction">Klik hier om met een extensie template aan te maken.</label>
+			<label index="goToClosest">Ga naar de dichtstbijzijnde pagina die een template bevat.</label>
+			<label index="goToClosestDescription">De dichtstbijzijnde pagina bevindt zich op pagina '%s' (uid %s).</label>
+			<label index="goToClosestAction">Klik hier om uit te voeren</label>
+			<label index="titleNewSiteStandard">NIEUWE SITE, gebaseerd op standaard</label>
+			<label index="titleNewSite">NIEUWE SITE</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index="moduleTitle" type="integer">25422173</label>
+			<label index="viewTemplates" type="integer">147171339</label>
+			<label index="templateAnalyzer" type="integer">99845697</label>
+			<label index="constantEditor" type="integer">6299451</label>
+			<label index="infoModify" type="integer">54689582</label>
+			<label index="objectBrowser" type="integer">103980788</label>
+			<label index="pageName" type="integer">201990046</label>
+			<label index="templates" type="integer">238742573</label>
+			<label index="isRoot" type="integer">251629950</label>
+			<label index="isExt" type="integer">130245860</label>
+			<label index="overview" type="integer">236778785</label>
+			<label index="areYouSure" type="integer">98783804</label>
+			<label index="noTemplate" type="integer">8182736</label>
+			<label index="noTemplateDescription" type="integer">40670108</label>
+			<label index="createTemplate" type="integer">48618724</label>
+			<label index="newWebsite" type="integer">18468574</label>
+			<label index="newWebsiteDescription" type="integer">230498313</label>
+			<label index="newWebsiteAction" type="integer">260099072</label>
+			<label index="extTemplate" type="integer">405812</label>
+			<label index="extTemplateDescription" type="integer">53295941</label>
+			<label index="extTemplateAction" type="integer">29079988</label>
+			<label index="goToClosest" type="integer">111276478</label>
+			<label index="goToClosestDescription" type="integer">219139555</label>
+			<label index="goToClosestAction" type="integer">19590923</label>
+			<label index="titleNewSiteStandard" type="integer">44728116</label>
+			<label index="titleNewSite" type="integer">13205855</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index="moduleTitle">Template tools</label>
+			<label index="viewTemplates">Viewing templates of</label>
+			<label index="templateAnalyzer">Template Analyzer</label>
+			<label index="constantEditor">Constant Editor</label>
+			<label index="infoModify">Info/Modify</label>
+			<label index="objectBrowser">TypoScript Object Browser</label>
+			<label index="pageName">Page name</label>
+			<label index="templates"># Templates</label>
+			<label index="isRoot">Is Root?</label>
+			<label index="isExt">Is Ext?</label>
+			<label index="overview">This is an overview of the pages in the database containing one or more template records. Click a page title to go to the page.</label>
+			<label index="areYouSure">Are you sure you want to do this?</label>
+			<label index="noTemplate">No template</label>
+			<label index="noTemplateDescription">There was no template on this page!</label>
+			<label index="createTemplate">Create a template record first in order to edit constants!</label>
+			<label index="newWebsite">Create new website</label>
+			<label index="newWebsiteDescription">If you want this page to be the root of a new website, optionally based on one of the standard templates, then press the button below:</label>
+			<label index="newWebsiteAction">Create template for a new site</label>
+			<label index="extTemplate">Create extension template</label>
+			<label index="extTemplateDescription">An extension template allows you to enter TypoScript values that will affect only this page and subpages.</label>
+			<label index="extTemplateAction">Click here to create an extension template.</label>
+			<label index="goToClosest">Go to closest page with template</label>
+			<label index="goToClosestDescription">Closest template is on page '%s' (uid %s).</label>
+			<label index="goToClosestAction">Click here to go.</label>
+			<label index="titleNewSiteStandard">NEW SITE, based on standard</label>
+			<label index="titleNewSite">NEW SITE</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

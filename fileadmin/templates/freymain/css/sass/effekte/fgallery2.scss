@@ -1,0 +1,84 @@
+/* Scss Document */
+
+
+
+.row.fotogallery2 {
+	margin-right:10px !important;
+	margin-left:10px !important;
+}
+
+.fotogallery2  .fcol {
+	padding-left:0px !important;
+	padding-right:0px !important;
+	position:relative;
+}
+
+
+.fotogallery2 .frow {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box !important;
+	-moz-box-sizing: border-box !important;
+	-ms-box-sizing: border-box !important;
+	box-sizing: border-box !important;
+}
+
+
+.fotogallery2 .f1,   {
+	width:100%;
+	padding-top:100%; /* 1:1 Aspect Radio */
+	position:relative; 
+	overflow:hidden; 
+}
+
+
+.fotogallery2 .f2.frow, .fotogallery2 .f3.frow, .fotogallery2 .f4.frow, .fotogallery2 .f5.frow  {
+	float:left !important; 
+	width:50% !important;
+	padding-top:50%; 
+	position:relative !important; 
+	overflow:hidden; 
+}
+
+.fotogallery2 .f6.frow, .fotogallery2 .f7.frow, .fotogallery2 .f8.frow, .fotogallery2 .f9.frow  {
+	float:left !important; 
+	width:50% !important;
+	padding-top:50%; 
+	position:relative !important; 
+	overflow:hidden; 
+}
+
+
+
+.fotogallery2 .frow > div {
+	position:absolute; 
+	top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+	border: 5px solid #fff !important;
+	overflow: hidden !important;
+}
+
+
+
+
+
+.fotogallery2 .f2 img, .fotogallery2 .f3 img, .fotogallery2 .f4 img, .fotogallery2 .f5 img  {
+	/*width:50%;
+	height:50%;*/
+}
+
+
+
+
+
+
+@media screen and (max-width: 680px) { 
+
+	.fotogallery1 div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
+		margin-top: 0px !important;
+	}
+	
+}
+

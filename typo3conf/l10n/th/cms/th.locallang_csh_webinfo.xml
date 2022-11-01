@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index="pagetree_overview.alttitle">ภาพรวม Pagetree</label>
+			<label index="pagetree_overview.description">Pagetree ข้อมูลแสดงข้อมูลที่เกี่ยวข้องกับหน้าเว็บสำหรับสาขาของต้นไม้หน้า ซึ่งรวมถึงการเริ่มต้นและหยุดเท่าตั้งค่าแคชฯลฯ</label>
+			<label index="pagetree_overview.image_descr">หนึ่งในคุณสมบัติของโมดูล Pagetree ภาพรวมคือที่คุณสามารถดูประเภทของระเบียนจะพบในหน้าในสาขา นี่นับระเบียนแสดงสำหรับต้นไม้หน้า 2 ระดับลง</label>
+			<label index="func_0.alttitle">การตั้งค่าพื้นฐาน</label>
+			<label index="func_0.description">แสดงการเลือกเขตข้อมูลจากระเบียนหน้าซึ่งถือเป็นพื้นฐานสำหรับการตั้งค่าหน้า ที่มีชื่อแทนเริ่มต้นและหยุดครั้งการ จำกัด การเข้าถึงข้อมูลอื่นๆ</label>
+			<label index="func_0.details">การตั้งค่าดูพื้นฐานลักษณะ Cache และอายุดูค่อนข้างมาก พวกเขาจะแตกต่างกันเพียงฟิลด์ที่เลือกจะแสดง &lt;b&gt;
+
+Batch เขตหน้าการแก้ไข&lt;/b&gt; 
+คุณจะพบหลายแก้ไขไอคอน - รอบอินเตอร์เฟส แก้ไขไอคอนทั้งหมดในสายหัวจะนำคุณไปโต้ตอบแก้ไขซึ่งคุณสามารถเปลี่ยนตรงช่องว่าสำหรับตารางแสดงทั้งหมด! มีประโยชน์มากสำหรับ batch แก้ไขครั้งว่าทั้งหมด&quot;Start&quot;
+ถ้าคุณคลิกแก้ไขไอคอนที่หมายเลข ID ของหน้าคุณจะได้รับตรงกับการแก้ไขปกติของหน้าบันทึกรวม</label>
+			<label index="func_0.image_descr">การตั้งค่าดู Basic เสนอภาพรวมสะดวกมากแทนหน้าเวลาเริ่มต้นและการตั้งค่าการ จำกัด การเข้าถึงในสาขาต้นไม้ 
+หากคุณคลิกที่ไอคอนแก้ไขในส่วนหัวคุณจะสามารถแก้ไขข้อมูลที่สำหรับหน้าเว็บที่แสดงทั้งหมด</label>
+			<label index="func_1.alttitle">ภาพรวมรายการ</label>
+			<label index="func_1.description">ภาพรวมรายการให้ภาพรวมจำเป็นของการกระจายตัวของระเบียนในต้นไม้หน้า ตารางฐานข้อมูลแต่ละระบบจะแสดงด้วยคอลัมน์และสำหรับแต่ละหน้าคุณสามารถดูจำนวนของระเบียนจากตารางอยู่ที่หน้า</label>
+			<label index="func_1.details">&lt;b&gt;หมายเหตุ :&lt;/b&gt; ระวังกับระดับการ การตั้งค่าระดับสูงอาจทำให้โมดูลที่จะตอบสนองช้ามากหากมีหลายหน้าและบันทึกจำนวนมากในฐานข้อมูลด้วย! 
+
+&lt;b&gt;หยุด Tree?&lt;/b&gt; 
+Notice สีแดง&quot;+&quot;ถัดจากต้นไม้หน้าใน? นี้เกิดจากการตั้งค่าที่บันทึกหน้าซึ่งหมายความว่าต้นไม้หน้าจะไม่ขยายสำหรับหน้านี้ โดยปกติจะเป็นชุดสำหรับการป้องกันเมื่อมีจำนวนมาก subpages ใต้ (ร้อยหน้าปกติ) หากคุณคลิกที่ไอคอนชื่อเรื่อง / ภาพรวมจะกระโดดเพื่อให้ข้อมูลภาพรวมนี้หน้าใหม่รากขอ</label>
+			<label index="func_1.image_descr">คุณสามารถดูการกระจายของเนื้อหาองค์ประกอบบนหน้าเว็บ คุณยังสามารถดูที่แม่แบบ Records -- และพื้นบันทึกใดๆ -- อยู่ในต้นไม้หน้า!</label>
+			<label index="func_2.alttitle">Cache และอายุ</label>
+			<label index="func_2.description">แสดงการเลือกเขตข้อมูลจากระเบียนหน้าเกี่ยวกับแคชหน้าและการตั้งค่าเวลา</label>
+			<label index="func_2.image_descr">&quot;Cache และอายุ&quot;ดู 
+ที่นี่คุณจะเห็น&quot;คอลัมน์ TSconfig ภาพรวม exposes ที่ทั้งสองหน้ามีบาง TSconfig รหัส Page!</label>
+			<label index="stat.alttitle">Page Hit สถิติ</label>
+			<label index="stat.description">แสดงเว็บไซต์ hit สถิติสำหรับสาขาของต้นไม้หน้า ตามแบบตารางสถิติ MySQL ภายในระเบียนแสดงผลหน้าและรอบเท่านั้น</label>
+			<label index="stat.details">&lt;b&gt;หมายเหตุ :&lt;/b&gt; ฟังก์ชันนี้ต้องขยาย&quot;สถิติ hit Simple&quot;(sys_stat) ที่จะติดตั้ง นอกจากนี้คุณต้องกำหนดค่า TypoScript ลงทะเบียนเข้าชมหน้าในฐานข้อมูลตารางสถิติ</label>
+			<label index="lang.alttitle">ภาพรวม Localization</label>
+			<label index="lang.description">ที่ให้ภาพรวมของหน้าในต้นไม้หน้าแปลงให้ระบบติดตั้งภาษา</label>
+			<label index="lang.details">ภาพรวมใช้สีสัญญาณว่างและถอยกลับสถานการณ์สำหรับหน้าเว็บที่ระบุ นี่คือคำอธิบายสำหรับแต่ละรหัสสี : 
+&lt;b&gt;พื้นหลังสีเขียว :&lt;/b&gt; หน้าแปลและสามารถดูได้ในภาษานี้ สำหรับการแปลก็หมายความว่าการแสดงข้อมูลการบันทึกหน้างานมีการแสดง 
+&lt;b&gt;พื้นหลังสีแดง :&lt;/b&gt; &lt;em&gt;หน้าไม่สามารถดูได้ในภาษานี้และคุณจะเห็นข้อความแสดงข้อผิดพลาดถ้าคุณพยายาม&lt;/em&gt; เมนูอัตโนมัติควรกรองลิงก์ไปยังหน้าเว็บที่มีการแปลนี้ 
+&lt;b&gt;พื้นหลังสีเทา (ไม่สามารถใช้ภาษาดีฟอลต์) :&lt;/b&gt; หน้าจะถอยกลับไปยังโหมด fallback ระบุเนื้อหา ขึ้นอยู่กับการกำหนดค่า (sys_language_mode content_fallback = เหมาะสำหรับ fallback ความยืดหยุ่นมากที่สุด sys_language_mode = เคร่งครัดจะป้องกันไม่ให้ปัญหานี้และข้อผิดพลาดแทน!) 
+
+&lt;b&gt;หน้า&quot;การตั้งค่า Localization :&quot;&lt;/b&gt; 
+มันเป็น&quot;การตั้งค่า Localization&quot;การบันทึกเพจที่กำหนดโหมดข้างต้น ในคอลัมน์ของการแปลเริ่มต้นของแต่ละการตั้งค่าเหล่านี้จะแทนด้วย&quot;N&quot;(หน้าซ่อนถ้าไม่มีการแปลภาษาปัจจุบันสำหรับอยู่) หรือ&quot;D&quot;(แปลเริ่มต้นซ่อนของหน้า) 
+ที่คุณสามารถดูหน้า&quot;Startpage &quot;มีตั้งธง N จึงหน้าใดใช้ภาษาเยอรมันเป็นเวอร์ชันที่ของจะถูกบล็อกด้วยข้อความแสดงข้อผิดพลาดเนื่องจากมีการแปลในเยอรมันไม่มี โดยเริ่มต้นเข้าเยอรมัน&quot;ที่ไม่ใช่แค่แปลหน้าจะแสดงเนื้อหาภาษาอังกฤษ 
+นอกจากนี้ยังมี&quot;หน้ากับ D flag (&quot;[Dummy]) ธง D หมายถึงหน้านั้นจะใช้ได้เฉพาะในการแปลในกรณีนี้เดนมาร์ก ดังนั้นเยอรมันใดพยายามหรือเข้าถึงในหน้าเริ่มต้นภาษาจะแสดงข้อความแสดงข้อผิดพลาด 
+
+ดังนั้นเมื่อ&quot;การตั้งค่า Localization ช่องทำเครื่องหมายสำหรับเพจที่ใช้คุณจะได้รับข้อความแสดงข้อผิดพลาดเมื่อคุณพยายามขอมาหน้าซึ่งมี ถูกบล็อค นี้คือคุณลักษณะ เคล็ดลับคือไม่สร้างการเชื่อมโยงไปยังหน้าเว็บที่ 
+
+เมนูที่สร้างขึ้นจากวัตถุ HMENU เสมอจะ sys_language&quot;เข้าบัญชีและแสดงหน้าเท่านั้นที่สามารถเข้าถึงได้สำหรับภาษาที่ &lt;em&gt;แต่รวมกับ&quot;การตั้งค่าการแปล&quot;ของหน้าเว็บที่อาจป้องกันการเข้าถึงหน้านี้เป็นพื้นหลังปัญหากับหน้าเว็บที่ไม่ได้แปล&lt;/em&gt; (สีเทามี) คุณอาจได้รับรายการเมนูที่เชื่อมโยงไปยังสามารถเข้าถึงหน้าเว็บที่ไม่มี 
+ปัญหาโดยทั่วไปคือ&quot; และ L = xx&quot;จะแตกต่างจาก sys_language&quot;ภายใน&quot; คุณต้องการหลีกเลี่ยงที่จะทำและคุณควรกำหนดค่า sys_language_mode&quot;&quot;ถึง&quot;content_fallback&quot; หากคุณสิทธิ์ที่จะปฏิบัติตามสิ่งที่ sys_language &lt;em&gt;เสมอ&quot;และ&lt;/em&gt; L =&quot;สั่งให้คุณและเมนูจะ ในเวลาเดียวกันคุณจะได้รับเนื้อหาเริ่มต้นที่ปรากฏหากไม่มีการแปล (เพราะการเลือกเนื้อหาตรงกลับ) 
+
+สุดท้ายจำนวนที่พบในแต่ละคอลัมน์จะบอกคุณว่าเนื้อหาหลายองค์ประกอบที่พบในภาษาที่ระบุ</label>
+			<label index="lang.image_descr">ในภาพรวม Localization&gt; ข้อมูล module Web ใช้ปุ่มเพื่อแก้ไขดูและสร้างหัวแปลหน้าใหม่ ใช้โมดูลหน้าปกติที่จะนำเนื้อหาที่เป็นภาษาท้องถิ่นในหน้า 
+&quot;ตั้งค่า Localization&quot;ที่มีผลต่อความพร้อมของหน้าเว็บในภาษาต่างๆ</label>
+			<label index="func_hits.alttitle">สถิติเข้าชม</label>
+			<label index="func_hits.description">คุณสามารถเลือกระหว่างสามมุมมองของสถิติในช่องตัวเลือกนั้น&quot;หน้านิยม&quot;,&quot;รวมฮิต&quot;ฮิต&quot;ในส่วนหลัก&quot; ใช้กล่องตัวเลือกที่เหมาะสมในการเลือกความลึกของภาพรวมใน pagetree นั้น</label>
+			<label index="func_hits.details">คุณสามารถดูหน้า hit สถิติ 30 วันกลับ แต่ละวันจะปรากฏในคอลัมน์ของตัวเอง 
+สำหรับต้นไม้แต่ละหน้าของคุณสามารถดูหน้าความนิยมในแต่ละวันเป็นจำนวนหน้าในรูปแบบ [เช่น hits] / [ครั้งผู้ใช้] ดังนั้นถ้าตัวเลขคือ&quot;286/34&quot;หมายความว่าหน้ามี 286 hits หน้าวันที่และว่ามีอย่างน้อย 34 ผู้เข้าชมไม่ซ้ำกัน (วัดจากอย่างน้อยสองครั้งโดยผู้ใช้เว็บไซต์รับจากคุกกี้) 
+
+นี้ ภาพรวมของโหมดความหมายแต่ละมุมมองของ : &lt;b&gt;
+
+Page นิยม&lt;/b&gt; 
+ชมหน้านี้แสดงครั้ง / แต่ละหน้า 
+
+&lt;b&gt;hits ทั้งหมด&lt;/b&gt; 
+นี้จะแสดงสถิติของหน้าเว็บเท่านั้นที่มีแม่แบบ Record (กับชุด flag Root) ในนั้น ซึ่งหมายความว่าครั้งหน้าจะปรากฏเป็นผลรวมทั้งหมดเว็บไซต์ 
+
+&lt;b&gt;ชมในส่วนหลัก&lt;/b&gt; 
+จะแสดงจำนวนการชมหน้าครั้ง / ภายในส่วนหลักของเว็บไซต์ &quot;ส่วนใหญ่&quot;เป็น subpages ทั้งหมดกำหนดหน้าแรกในระดับธงของเว็บไซต์ (กำหนดโดยแม่แบบรายการที่มีราก)</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index="pagetree_overview.alttitle" type="integer">92312309</label>
+			<label index="pagetree_overview.description" type="integer">23585608</label>
+			<label index="pagetree_overview.image_descr" type="integer">102428178</label>
+			<label index="func_0.alttitle" type="integer">44646530</label>
+			<label index="func_0.description" type="integer">251798588</label>
+			<label index="func_0.details" type="integer">218228585</label>
+			<label index="func_0.image_descr" type="integer">11485985</label>
+			<label index="func_1.alttitle" type="integer">188466761</label>
+			<label index="func_1.description" type="integer">22684429</label>
+			<label index="func_1.details" type="integer">146909237</label>
+			<label index="func_1.image_descr" type="integer">220215848</label>
+			<label index="func_2.alttitle" type="integer">198333821</label>
+			<label index="func_2.description" type="integer">84825514</label>
+			<label index="func_2.image_descr" type="integer">218934546</label>
+			<label index="stat.alttitle" type="integer">172665738</label>
+			<label index="stat.description" type="integer">51774969</label>
+			<label index="stat.details" type="integer">220484491</label>
+			<label index="lang.alttitle" type="integer">255687278</label>
+			<label index="lang.description" type="integer">112171997</label>
+			<label index="lang.details" type="integer">33472106</label>
+			<label index="lang.image_descr" type="integer">102823687</label>
+			<label index="func_hits.alttitle" type="integer">100802615</label>
+			<label index="func_hits.description" type="integer">64485459</label>
+			<label index="func_hits.details" type="integer">207091212</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+			<label index="pagetree_overview.alttitle">Pagetree Overview</label>
+			<label index="pagetree_overview.description">The Pagetree Overview shows information related to pages for a branch of the page tree. This includes start- and stop-times, cache settings etc.</label>
+			<label index="pagetree_overview.image_descr">One of the features of the Pagetree Overview module is that you can see what types of records are found on pages in a branch. Here record counts are shown for a page tree branch 2 levels down.</label>
+			<label index="func_0.alttitle">Basic Settings</label>
+			<label index="func_0.description">Displays a selection of fields from page records which are regarded as foundational settings for pages. That includes aliases, start- and stop times, access restriction information etc.</label>
+			<label index="func_0.details">The Basic Settings view resembles the Cache and Age view quite a lot. They are different only by the selection of fields they show.
+
+&lt;b&gt;Batch editing page fields&lt;/b&gt;
+You will find multiple edit-icons around the interface. All edit icons in head lines will bring you to an editing dialog where you can change exactly that field for all listed tables! Very useful for batch-editing of say all &quot;Start&quot; times.
+If you click the edit icon at the ID numbers of pages you will get straight to the regular editing of a whole page record.</label>
+			<label index="func_0.image_descr">The Basic Settings view offers a very convenient overview of page aliases, start times and access restriction settings in the tree branch.
+If you click an edit-icon in the header you will be able to edit that field for all listed pages.</label>
+			<label index="func_1.alttitle">Record Overview</label>
+			<label index="func_1.description">Record overview gives you an indispensable overview of the distribution of records in the page tree. Each database table in the system is represented with a column and for each page you can see the number of records from that table located on the page.</label>
+			<label index="func_1.details">&lt;b&gt;Notice:&lt;/b&gt; Be careful with the level-setting. A high level-setting may cause the module to respond very slowly if there are many pages and many records in the database as well!
+
+&lt;b&gt;Tree stop?&lt;/b&gt;
+Notice the red &quot;+&quot; next to a page in the page tree? This is due to a setting for that page record which means that the page tree will not expand for this page. Typically this is set for protection when there are a large amount of subpages underneath (hundreds of pages typically). If you click the icon/title the overview will jump to make this page the new root of the overview.</label>
+			<label index="func_1.image_descr">You can easily see the distribution of Content Elements on a page. You can also see where Template Records - and basically any record! - are located in the page tree!</label>
+			<label index="func_2.alttitle">Cache and Age</label>
+			<label index="func_2.description">Displays a selection of fields from page records related to page caching and time settings.</label>
+			<label index="func_2.image_descr">The &quot;Cache and Age&quot; view.
+Here you see the &quot;TSconfig&quot; column. The overview exposes that these two pages include some Page TSconfig code!</label>
+			<label index="stat.alttitle">Page Hit statistics</label>
+			<label index="stat.description">Displays website hit statistics for a branch of the page tree. Based on the simple, internal MySQL statistics table which records page impressions and sessions only.</label>
+			<label index="stat.details">&lt;b&gt;Notice:&lt;/b&gt; This function requires the extension &quot;Simple hit statistics&quot; (sys_stat) to be installed. Also you must configure TypoScript to register page hits in the statistics database table.</label>
+			<label index="lang.alttitle">Localization overview</label>
+			<label index="lang.description">Gives an overview of which pages in the page tree are translated to the system languages installed.</label>
+			<label index="lang.details">The overview uses colors to signal the availability and fall back situation for a given page. Here is a description for each color code:
+&lt;b&gt;Green background:&lt;/b&gt; Page is translated and viewable in this language. For translations it means that an active page overlay record is present.
+&lt;b&gt;Red background:&lt;/b&gt; Page &lt;em&gt;cannot&lt;/em&gt; be viewed in this language and you will see an error message if you try. Menus should automatically filter out links to pages with this translation.
+&lt;b&gt;Gray background (not available for default language):&lt;/b&gt; Page will fall back to the specified fallback mode for content. Depends on configuration. (sys_language_mode = content_fallback is recommended for most flexible fallback, sys_language_mode = strict will prevent this and issue an error instead!)
+
+&lt;b&gt;The pages &quot;Localization settings:&quot;&lt;/b&gt;
+It is the &quot;Localization settings&quot; of the page record that determines the modes above. In the column of the default translation each of these settings are represented by a &quot;N&quot; (Hide page if no translation for current language exists) or a &quot;D&quot; (Hide default translation of page).
+As you can see the page &quot;Startpage&quot; has the N flag set and therefore any access to the german version of that page will be blocked with an error message because there is no translation in german. By default &quot;german access&quot; to a non-translated page will just show the english content.
+There is also a page with the D flag (&quot;[Dummy]&quot;). The D flag means that the page is only available in one of the translations, in this case Danish. So any attempt to access the page in the default language or german will show an error message.
+
+So, when the &quot;Localization settings&quot; checkboxes for a page are used, you will get an error message when you try to request a page which has been blocked. This is a feature. The trick is not to create links to those pages.
+
+Menus generated from HMENU objects will always take &quot;sys_language&quot; into account and display only pages which can be accessed for that language. But combined with the &quot;localization settings&quot; of pages which may block page access this becomes a problem with pages which are &lt;em&gt;not&lt;/em&gt; translated (has gray background); You might get menu items which links to non-accessible pages.
+The problem basically is that &quot;&amp;L=xx&quot; is different from internal &quot;sys_language&quot;. You would like to avoid that and to do so you should configure &quot;sys_language_mode&quot; to &quot;content_fallback&quot;. If you do that sys_language will &lt;em&gt;always&lt;/em&gt; follow what &quot;&amp;L=&quot; instructs it to and your menus will be right. At the same time you will get the default content displayed if no translation exists (because content selection falls back).
+
+Finally, the number found in each column tells you how many content elements are found in the specified language.</label>
+			<label index="lang.image_descr">Localization overview in the Web&gt;Info module. Use the buttons to edit, view and create new page translation headers. Use the regular page module to put localized content on the pages.
+The &quot;Localization settings&quot; that affect availability of pages in the various languages.</label>
+			<label index="func_hits.alttitle">Statistic Views</label>
+			<label index="func_hits.description">You can select between three views of the statistics in the selector box; &quot;Page hits&quot;, &quot;Total hits&quot;, &quot;Hits in main sections&quot;. Use the right selector box to select the depth of the overview in the pagetree.</label>
+			<label index="func_hits.details">You can view the page hit statistics 30 days back. Each day is shown in its own column.
+For each page in the page tree you can see the page hits each day as a number formatted like [page hits]/[user sessions]. So if the number is &quot;286/34&quot; it means that the page had 286 page hits that day and that there were at least 34 unique visitors (measured by at least two hits by a user accepting a cookie from the site).
+
+This is an overview of the meaning of each view mode:
+
+&lt;b&gt;Page hits&lt;/b&gt;
+This shows page hits/sessions for each page.
+
+&lt;b&gt;Total hits&lt;/b&gt;
+This will show statistics for only pages that have a Template Record (with Root-flag set) on it. This means that page hits are shown as totals for a whole website.
+
+&lt;b&gt;Hits in main sections&lt;/b&gt;
+Will show the total number of page hits/sessions within main sections of a website. A &quot;main section&quot; is all subpages to a page on the first level of a website (defined by a Template Record with the Root flag set)</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

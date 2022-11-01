@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="pi1_title"/>
+      <label index="extmng.checkConfigHeader"/>
+      <label index="extmng.checkConfig"/>
+      <label index="extmng.updatermsgHeader"/>
+      <label index="extmng.updatermsg"/>
+      <label index="extmng.updatermsgHeader2"/>
+      <label index="extmng.updatermsg2"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

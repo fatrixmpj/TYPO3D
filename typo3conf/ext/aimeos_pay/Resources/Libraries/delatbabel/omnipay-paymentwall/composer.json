@@ -1,0 +1,40 @@
+{
+    "name": "delatbabel/omnipay-paymentwall",
+    "type": "library",
+    "description": "PaymentWall driver for the Omnipay payment processing library",
+    "keywords": [
+        "PaymentWall",
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "homepage": "https://github.com/incube8/omnipay-paymentwall",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Del",
+            "email": "del@incube8.sg"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "omnipay/common": "~2.0",
+        "paymentwall/paymentwall-php": "^2.2"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0",
+        "omnipay/dummy": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\PaymentWall\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ru" type="array">
+			<label index="Path">Путь</label>
+			<label index="TEXT_MODE">Вы работает в текстовом режиме. Чтобы перейти в визуальное редактирование, нажмите [&lt;&gt;]</label>
+			<label index="ActiveX-required">Для загрузки редактора в Internet Explorer необходимо, чтобы выполнение компонентов ActiveX было разрешено.</label>
+			<label index="HTML-document-not-well-formed">HTML документ содержит ошибки (нарушены требования well-formed).</label>
+			<label index="Moz-Clipboard">Обычные (непривелигированые) скрипты не могут работать с буфером обмена (выполнять копирование/вырезку/вставку) из-за запретов системы безопасности броузера. Нажмите ОК, чтобы узнать (на английском языке) как включить использование буфера обмена.</label>
+			<label index="Moz-Extension">Из соображений безопасности, непривилегированные приложения не могут использовать буфер обмена. Нажмите OK, чтобы установить компонент, позволяющий приложениям с этого сайта использовать буфер обмена для операций копирования, вырезания и вставки.</label>
+			<label index="Moz-Extension-Success">Установка успешно завершена. Для того, чтобы изменения вступили в силу Вам необходимо перезагрузить браузер.</label>
+			<label index="Moz-Extension-Failure">Установка неудачна.</label>
+			<label index="Moz-Extension-Install-Not-Enabled">Невозможно провести установку. Пожалуйста, измените настройки вашего браузера, чтобы разрешить установку программного обеспечения с этого сайта.</label>
+			<label index="Allow-Clipboard-Helper-Extension">Из соображений безопасности, непривилегированные приложения не могут использовать буфер обмена. Нажмите OK, чтобы установить компонент, позволяющий указать сайты или страницы, которым будет разрешён доступ к буферу обмена для операций копирования, вырезания и вставки.</label>
+			<label index="Mozilla-Org-Install-Not-Enabled">Невозможно провести установку. Пожалуйста, измените настройки вашего браузера, чтобы разрешить установку программного обеспечения с http://ftp.mozilla.org.</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success">Установка успешно завершена. Для того, чтобы изменения вступили в силу Вам необходимо перезагрузить браузер. После этого используйте помощник подключения буфера обмена (AllowClipboard Helper) из меню инструментов, для указания сайтов, которым будет разрешён доступ к буферу обмена.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ru" type="array">
+			<label index="Path" type="integer">180814866</label>
+			<label index="TEXT_MODE" type="integer">198018641</label>
+			<label index="ActiveX-required" type="integer">47968430</label>
+			<label index="HTML-document-not-well-formed" type="integer">210864763</label>
+			<label index="Moz-Clipboard" type="integer">72587076</label>
+			<label index="Moz-Extension" type="integer">188084394</label>
+			<label index="Moz-Extension-Success" type="integer">117468361</label>
+			<label index="Moz-Extension-Failure" type="integer">209906991</label>
+			<label index="Moz-Extension-Install-Not-Enabled" type="integer">266145806</label>
+			<label index="Allow-Clipboard-Helper-Extension" type="integer">198542700</label>
+			<label index="Mozilla-Org-Install-Not-Enabled" type="integer">100556857</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success" type="integer">197915820</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ru" type="array">
+			<label index="TEXT_MODE">You are in TEXT MODE.  Use the [&lt;&gt;] button to switch back to WYSIWYG.</label>
+			<label index="ActiveX-required">Loading the editor in Internet Explorer requires the execution of ActiveX controls to be enabled.</label>
+			<label index="Moz-Clipboard">Unprivileged scripts cannot access Cut/Copy/Paste programatically for security reasons. Click OK to see a technical note at mozilla.org which shows you how to allow a script to access the clipboard.</label>
+			<label index="Moz-Extension">For security reasons, unprivileged applications cannot access the clipboard. Click OK to install a component that will enable applications from this site to access the clipboard and perform copy, cut and paste operations.</label>
+			<label index="Moz-Extension-Success">The installation was successful. You need to exit and restart your browser for the change to take effect.</label>
+			<label index="Moz-Extension-Failure">Sorry, the installation failed.</label>
+			<label index="Moz-Extension-Install-Not-Enabled">The installation cannot be performed. Please change your browser preferences in order to allow installation of sofware from this site.</label>
+			<label index="Allow-Clipboard-Helper-Extension">For security reasons, unprivileged applications cannot access the clipboard. Click OK to install a component that will enable you to specify the sites or pages that will be allowed to access the clipboard and perform copy, cut and paste operations.</label>
+			<label index="Mozilla-Org-Install-Not-Enabled">The installation cannot be performed. Please change your browser preferences in order to allow installation of sofware from http://ftp.mozilla.org.</label>
+			<label index="Allow-Clipboard-Helper-Extension-Success">The installation was successful. You need to exit and restart your browser for the change to take effect. Afterwards, use the AllowClipboard Helper from the tools menu to allow specific sites to use the clipboard.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

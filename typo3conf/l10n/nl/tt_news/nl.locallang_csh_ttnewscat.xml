@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index=".description">Categorieën van tt_news.</label>
+			<label index="title.description">De categorietitel voor de standaardtaal. De title kan als een snelkoppeling dienen naar een bepaalde pagina of als categoriekiezer (geconfigureerd middels &quot;categoryMode&quot;).</label>
+			<label index="title.details">Het tonen van de categorietitel op de website is ingesteld in het tt_news inhoudselement (blad: catgorie-instellingen) of door TypoScript (&quot;categoryMode&quot;). De titel van de toegevoegde website talen worden ingevoegd in het veld &quot;Titels in andere talen&quot;
+
+De categorie titels/afbeeldingen kunnen dienen als een snelkoppeling naar een pagina of als &quot;categorie kiezer&quot;. dat wil zeggen dat de inhoud van een lijst wordt gefilterd aan de hand van categorie. Filteren aan de hand van categorieën werkt recursief voor subcategorieën.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index=".description" type="integer">157870280</label>
+			<label index="title.description" type="integer">266611085</label>
+			<label index="title.details" type="integer">244788100</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index=".description">tt_news categories.</label>
+			<label index="title.description">The category title for the default language. The title can act as shortcut to a certain page or as category selector (configured by &quot;categoryMode&quot;).</label>
+			<label index="title.details">The display of the category title on the website is configured in the tt_news content element (sheet: category settings) or by TypoScript (&quot;categoryMode&quot;). The titles for additional website languages are inserted in the field &quot;title language overlays&quot;.
+
+The category titles/images can act as shortcut to a page or as &quot;category selector&quot; which means: the contents of a news-list ist filtered by category. Filtering by category works recursive for subcategories.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

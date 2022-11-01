@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index=".description">ประเภท tt_news</label>
+			<label index="title.description">ชื่อหมวดภาษาเริ่มต้น ชื่อนี้สามารถทำหน้าที่เป็นทางลัดไปยังหน้าบางหรือเป็นตัวเลือกประเภท (กำหนดโดย categoryMode&quot;)</label>
+			<label index="title.details">เว็บไซต์ที่แสดงประเภทของชื่อที่มีการกำหนดองค์ประกอบในเนื้อหา tt_news (แผ่น : การตั้งค่าประเภท) หรือ TypoScript (&quot;categoryMode&quot;) ชื่อภาษาเว็บไซต์เพิ่มเติมที่แทรกในเขตข้อมูลภาษาชื่อ&quot;ทับ&quot; 
+
+ชื่อหมวดหมู่ / images สามารถทำหน้าที่เป็นทางลัดไปยังหน้าหรือเป็นตัวเลือกประเภท&quot;ซึ่งหมายถึงเนื้อหาของ a - ist รายการข่าวกรองตามประเภท กรองตามประเภทงาน recursive สำหรับหมวด</label>
+			<label index="title_lang_ol.description">ในช่อง&quot;ชื่อภาษาทับ&quot;คุณสามารถกำหนดชื่อหมวดหมู่ภาษาเว็บไซต์อื่นๆ</label>
+			<label index="title_lang_ol.details">ถ้าคุณมีมากกว่าหนึ่งภาษาเว็บไซต์เพิ่มเติมคุณสามารถแยกชื่อกับ&quot;|&quot;ตัว &lt;strong&gt;
+
+ตัวอย่าง :&lt;/strong&gt; 
+ถ้าคุณมีเว็บไซต์ภาษา 3 ภาษา (en, de fr) ก็ต้องประเภทเขียนชื่อเริ่มต้นสำหรับ ในเขตข้อมูลชื่อ&quot;&quot; ชื่อสำหรับฝรั่งเศสเยอรมันเขียนที่ช่อง&quot;ชื่อภาษาทับ&quot;เช่นที่ปรากฏในภาพด้านล่าง</label>
+			<label index="title_lang_ol.image_descr">รายการลำดับของการแสดงข้อมูลได้ที่จะเหมือนกับภาษาสั่งซื้อระบบของคุณ 
+ในตัวอย่างนี้ : en = 0, = 1 เยอรมัน, ฝรั่งเศส = 2</label>
+			<label index="parent_category.description">ทำให้ปัจจุบันประเภทหลักของประเภทในฟิลด์นี้</label>
+			<label index="parent_category.details">ในช่อง&quot;Parent category&quot;คุณสามารถกำหนดประเภทปัจจุบันเป็นเขตย่อยนี้ของประเภทที่อยู่ในที่เลือก ที่จะรวมประเภทปัจจุบันและ newsitems ที่เลือกนี้กำหนดประเภทแม่เมื่อประเภทคือ นี้ทำงาน recursive 
+แม่ประเภทใหม่สำหรับประเภทปัจจุบันยังสามารถสร้างโดยตรงกับ&quot;เพิ่ม&quot;วิซาร์ด (ปุ่มบวก) 
+บางประเภทในต้นไม้จะพิมพ์เป็นสีเทาและไม่เลือก : ประเภทปัจจุบันไม่เลือก, นอกจากนี้ยังสามารถกำหนด fe รายการประเภทที่ได้รับอนุญาตสำหรับผู้ใช้แบ็กเอนด์บางกลุ่มในกลุ่มนี้ TSconfig ของ (: tt_newsPerms.tt_news_cat.allowedItems = 7,8,9) ทุกประเภทที่ไม่อยู่ในกลุ่มนี้จะแสดงรายการไม่ถูกเลือกของสมาชิกนี้</label>
+			<label index="hidden.description">นี้ใช้ชั่วคราวยกเว้นหมวดนี้ tt_news จากการแสดงและข่าวสารที่เป็นสมาชิกประเภทนี้ทั้งหมด</label>
+			<label index="hidden.details">การตั้งค่าตัวเลือกนี้จะปฏิบัติแก้ไขในขณะที่ tt_news ใหม่ db ระเบียน เมื่อมีการตั้ง newsitem จะไม่ปรากฏจนกว่าคุณ -- หากคุณเข้าสู่ระบบผู้ใช้แบ็กเอนด์เป็น -- เปิดตัวเลือก Admin Panel&gt; Preview&gt; แสดงรายการที่ซ่อนอยู่</label>
+			<label index="starttime.description">&quot;เวลา&quot;เริ่มจากกำหนดวันที่หมวดบทความที่จะมองเห็นได้ออนไลน์ ใช้นี้&quot;ประกาศ&quot;บทความจากประเภทหนึ่งในวันหนึ่ง ถ้า&quot;เวลา&quot;เริ่มต้นไม่ได้กำหนดประเภทจะออนไลน์ทันที (เว้นแต่จะถูกซ่อนไว้)</label>
+			<label index="starttime.syntax">รูปแบบเป็น DD - MM - YYYY คุณอาจป้อนวิธีค่าอื่น ๆ -- จะประเมินผลทันที 
+หากคุณใส่เช่น &quot;d&quot;วันที่ปัจจุบันถูกแทรก คุณยังสามารถผนวกค่าใด ๆ ในสนามด้วยเช่น &quot;+10&quot;ซึ่งจะเพิ่ม 10 วันค่าปัจจุบัน เช่นการตั้งค่าให้&quot;d +10&quot;จะเลือกวันวันที่ 10 นับจากนี้</label>
+			<label index="endtime.description">&quot;เวลาหยุด&quot;เป็นวันที่ซึ่งประเภทและข่าวที่มีการกำหนดประเภทจะไม่ออนไลน์อีกต่อไปนี้</label>
+			<label index="endtime.syntax">ดู tt_news_cat / Start (คลิกด้านล่าง)</label>
+			<label index="fe_group.description">นี้ใช้เพื่อซ่อนประเภท tt_news และข่าวที่มีหมวดหมู่ที่กำหนดสำหรับผู้ใช้ที่ไม่ได้เป็นสมาชิกของเว็บไซต์นี้ทั้งหมด usergroup (fe_groups) ที่ถูกเลือกในสาขานี้</label>
+			<label index="fe_group.details">ถ้า&quot;Access&quot;ตั้งชื่อ usergroup เฉพาะผู้ใช้เว็บไซต์ที่เป็นสมาชิกของ usergroup ที่เลือกจะสามารถดูข่าวกับประเภทเมื่อมีการเข้าสู่ระบบค่ะตัวเลือกพิเศษ&quot;ซ่อนที่เข้าสู่ระบบนี้หมายถึงข่าวจากประเภทนี้ จะมองไม่เห็นผู้ใช้เว็บไซต์ที่มีการเข้าระบบเช่นเดียวกัน&quot;แสดงที่เข้า&quot;จะทำให้ข่าวที่ปรากฏสำหรับผู้ใช้เข้าสู่ระบบ frontend ใด</label>
+			<label index="image.description">ภาพที่จะแสดงแทน (หรือเพิ่มเติมให้) ชื่อประเภท</label>
+			<label index="image.details">คุณสามารถอัปโหลดหรือกำหนดภาพข่าวแต่ละประเภทที่จะแสดง fe แทนชื่อประเภท รายการพฤติกรรมของชนิด / images สามารถกำหนดค่าในแผ่น&quot;การตั้งค่าหมวด&quot;ในองค์ประกอบเนื้อหาข่าว 
+
+รายการประเภท / images สามารถทำหน้าที่เป็นทางลัดไปยังหน้าหรือเป็นตัวเลือกประเภท&quot;ซึ่งหมายถึงเนื้อหาของข่าว ist รายการกรองตามประเภท กรองตามประเภทงาน recursive สำหรับหมวด</label>
+			<label index="shortcut.description">หน้าภายในที่ชื่อหมวดหมู่และ / หรือภาพที่เชื่อมโยงกับ</label>
+			<label index="shortcut.details">ชื่อประเภทหรือภาพยังสามารถกระทำเป็นทางลัดไปหน้าภายใน หากมีการใช้งานและหน้าเห็นถูกกำหนดเป็นทางลัดเชื่อมโยงจากชื่อประเภทหรือจุดภาพไปยังหน้านี้</label>
+			<label index="shortcut_target.description">เป้าหมายทางลัดประเภทข่าว</label>
+			<label index="shortcut_target.details">กับช่อง&quot;Target for ... &quot; คุณสามารถกำหนดเป้าหมายทางลัดประเภท (การตั้งค่านี้จะมีความสำคัญมากกว่าการทั่วโลกสำหรับเป้าหมายการเชื่อมโยงในเว็บไซต์ของคุณ)</label>
+			<label index="single_pid.description">หน้าซึ่งหมายนี่แทนที่การกำหนดค่าทั่วโลก&quot;singlePid&quot;</label>
+			<label index="single_pid.details">เขตข้อมูล&quot;ดูหน้าเดียวสำหรับข่าวจากหมวดหมู่นี้&quot;ให้ประเภทเป็นไปได้เพื่อกำหนดมุมมองเดียวหน้าละ ถ้าคุณต้องการใช้คุณลักษณะการตั้งค่านี้จะต้องเพิ่ม&quot;useSPidFromCategory = 1&quot;เพื่อ TypoScript 
+ถ้าข่าวระเบียนมี 2 ประเภทหรือมากกว่าที่กำหนด SinglePid จะมาจากประเภทแรกที่กำหนดให้บันทึกข่าว</label>
+			<label index="description.description">ที่นี่คุณสามารถป้อนคำอธิบายสำหรับประเภทปัจจุบันซึ่งจะแสดงเป็นคำแนะนำเครื่องมือในต้นไม้ชนิด</label>
+			<label index="description.details">หากคุณมีข้อความอธิบายยาว (&gt; 70 ตัวอักษร) และ Mozilla Firefox จะไม่แสดงคำแนะนำเครื่องมือได้อย่างถูกต้อง 
+Solution : 
+มีบางส่วนขยายของ Firefox ที่แก้ไขปัญหานี้ ฉันพยายาม&quot;Popup Alt Attribute&quot;ซึ่งงานสมบูรณ์แบบสำหรับฉัน</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index=".description" type="integer">157870280</label>
+			<label index="title.description" type="integer">266611085</label>
+			<label index="title.details" type="integer">244788100</label>
+			<label index="title_lang_ol.description" type="integer">97624453</label>
+			<label index="title_lang_ol.details" type="integer">214479957</label>
+			<label index="title_lang_ol.image_descr" type="integer">246945865</label>
+			<label index="parent_category.description" type="integer">156085422</label>
+			<label index="parent_category.details" type="integer">204000736</label>
+			<label index="hidden.description" type="integer">183184707</label>
+			<label index="hidden.details" type="integer">223516146</label>
+			<label index="starttime.description" type="integer">24253135</label>
+			<label index="starttime.syntax" type="integer">141141936</label>
+			<label index="endtime.description" type="integer">2001333</label>
+			<label index="endtime.syntax" type="integer">131110551</label>
+			<label index="fe_group.description" type="integer">101943889</label>
+			<label index="fe_group.details" type="integer">12024309</label>
+			<label index="image.description" type="integer">259887125</label>
+			<label index="image.details" type="integer">88972951</label>
+			<label index="shortcut.description" type="integer">177455732</label>
+			<label index="shortcut.details" type="integer">235767635</label>
+			<label index="shortcut_target.description" type="integer">110099690</label>
+			<label index="shortcut_target.details" type="integer">62054161</label>
+			<label index="single_pid.description" type="integer">144853978</label>
+			<label index="single_pid.details" type="integer">85734700</label>
+			<label index="description.description" type="integer">229227382</label>
+			<label index="description.details" type="integer">188796137</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+			<label index=".description">tt_news categories.</label>
+			<label index="title.description">The category title for the default language. The title can act as shortcut to a certain page or as category selector (configured by &quot;categoryMode&quot;).</label>
+			<label index="title.details">The display of the category title on the website is configured in the tt_news content element (sheet: category settings) or by TypoScript (&quot;categoryMode&quot;). The titles for additional website languages are inserted in the field &quot;title language overlays&quot;.
+
+The category titles/images can act as shortcut to a page or as &quot;category selector&quot; which means: the contents of a news-list ist filtered by category. Filtering by category works recursive for subcategories.</label>
+			<label index="title_lang_ol.description">In the field &quot;title language overlays&quot; you can define category titles for other website languages.</label>
+			<label index="title_lang_ol.details">If you have more than one additional website language, you can split the titles with the &quot;|&quot; character.
+
+&lt;strong&gt;Example:&lt;/strong&gt;
+if you have a website with 3 languages (en,de,fr) it's required to write the category title for the default language in the field &quot;title&quot;. The titles for german an french are written to the field &quot;title language overlays&quot; like shown in the image below.</label>
+			<label index="title_lang_ol.image_descr">the order of the overlay titles has to be the same as the order of your system languages.
+In this example: en=0, german=1, french=2 </label>
+			<label index="parent_category.description">Make the current category to a subcategory of the category in this field.</label>
+			<label index="parent_category.details">In the field &quot;Parent category&quot; you can define the current category as a subcategory of the category which is selected in this field. That will include the current category and the newsitems which have this category assigned when the parent category is selected. This works recursive.
+A new parent category for the current category can also be created directly with the &quot;add&quot; wizard (the plus button).
+Some categories in the tree are printed in grey and are not selectable: the current category is never selectable, additionally it is possible to define a list of categories that are allowed for a certain BackEnd user group in the TSconfig of this group (f.e.: tt_newsPerms.tt_news_cat.allowedItems = 7,8,9). All categories that are not in this list will not be selectable for members of this group.
+
+
+</label>
+			<label index="hidden.description">Use this to temporarily exclude this tt_news category from display and all news which are member of this category.</label>
+			<label index="hidden.details">Setting this option is practical while editing a new tt_news db-record. When it is set, the newsitem will not be displayed unless you - if you're logged in as backend user - enable the Admin Panel&amp;gt;Preview&amp;gt;Show hidden records option.</label>
+			<label index="starttime.description">The &quot;Start&quot; time determines the date from which the category an its news articles will be visible online. Use this to &quot;publish&quot; news articles from a certain category on a certain date. If &quot;Start&quot; time is not set, the category will be online instantly (unless it is hidden otherwise).</label>
+			<label index="starttime.syntax">Format is DD-MM-YYYY. You may enter the value in other ways - it will be evaluated immediately.
+If you insert eg. a &quot;d&quot; the current date is inserted. You can also append any value in the field with eg. &quot;+10&quot; which will add 10 days to the current value. For instance setting the value to &quot;d+10&quot; would select a date 10 days from now.</label>
+			<label index="endtime.description">The &quot;Stop&quot; time is the date from which the category and the news which have this category assigned will not be online anymore.</label>
+			<label index="endtime.syntax">See tt_news_cat / Start (click below).</label>
+			<label index="fe_group.description">Use this to hide the tt_news category and all news which have this category assigned for users that are not member of the website usergroup (fe_groups) which is selected in this field.</label>
+			<label index="fe_group.details">If &quot;Access&quot; is set to a usergroup name, only website users which are members of the selected usergroup will be able to view news with this category when they are logged in. The special option &quot;Hide at login&quot; means the news from this category will not be visible for website users that are logged in. Likewise &quot;Show at login&quot; will make those news visible for any logged in frontend user.</label>
+			<label index="image.description">An image which can be shown instead of (or additionally to) the category title.</label>
+			<label index="image.details">You can upload or assign an image for each news category which is shown f.e. instead of the category title. The behaviour of the category titles/images can be configured in the sheet &quot;Category settings&quot; in the news content element.
+
+The category titles/images can act as shortcut to a page or as &quot;category selector&quot; which means: the contents of a news-list ist filtered by category. Filtering by category works recursive for subcategories.</label>
+			<label index="shortcut.description">An internal page where the category titles and/or images are linked to.</label>
+			<label index="shortcut.details">Category titles or images can also act as shortcut to an internal page. If this is enabled and a visible page is defined as shortcut, the link from the category title or image points to this page.</label>
+			<label index="shortcut_target.description">Target for news category shortcut.</label>
+			<label index="shortcut_target.details">With the field &quot;Target for ...&quot; you can configure a target for the category shortcut (this setting will have priority over a global setting for link targets in your website).</label>
+			<label index="single_pid.description">The page which is defined here overrides the globally configured &quot;singlePid&quot;.</label>
+			<label index="single_pid.details">The field &quot;Single-view page for news from this category&quot; gives you the possibility to define a single-view page for each category. If you want to use this feature it is required to add &quot;useSPidFromCategory = 1&quot; to the TypoScript setup.
+If a news-record has 2 or more categories assigned the SinglePid will be taken from the first category which is assigned to the news record.</label>
+			<label index="description.description">Here you can enter a description for the current category which will be shown as tooltip in the category tree.</label>
+			<label index="description.details">If you have long description texts (&gt;70 chars) Firefox and Mozilla will not display the tooltips correctly.
+		Solution:
+		There are some Firefox extensions which correct this problem. I tried &quot;Popup Alt Attribute&quot; which works flawless for me.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,53 @@
+
+.jupiter .modul {
+	background-color:#F2F2F2;
+}
+
+.jupiter a, .jupiter a:hover, .jupiter a:focus {
+	text-decoration:none !important;
+	color:#234C96 !important; 
+} 
+
+
+.jupiter h2 {
+	font-size:18px !important;
+}
+
+.jupiter p {
+	font-size:14px !important;
+	line-height:120% !important; 
+	margin-bottom:0px !important; 
+}
+
+
+.txtwrap {
+	padding:5px 6px 8px 6px;
+}
+
+.imgwrap {
+	overflow:hidden; 
+}
+
+
+
+.jupiter img { width:100% !important; height:auto !important; max-width:100% !important; }
+
+
+.jupiter img {
+	max-width: none;
+	width: -webkit-calc(100% + 60px);
+	width: calc(100% + 60px);
+	opacity: 1;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-0px,0,0) scale(1.12);
+	transform: translate3d(-0px,0,0) scale(1.12);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.jupiter:hover img {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0) scale(1);
+	transform: translate3d(0,0,0) scale(1);
+}

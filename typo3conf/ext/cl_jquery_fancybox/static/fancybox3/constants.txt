@@ -1,0 +1,64 @@
+
+plugin.cljqueryfancybox {
+
+	# cat=plugin.cl_jqueryfancybox; type=boolean; label=Include jQuery core: Incluse jQuery core script
+	includejquerycore = 0
+
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=Speed: Animation duration in ms
+	speed = 330
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=Loop: Enable infinite gallery navigation
+	loop = true
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=opacity:
+	opacity = auto
+	
+	# cat=plugin.cl_jqueryfancybox; type=int+; label=gutter:Horizontal space between slides
+	gutter = 30
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=Infobar
+	infobar = true
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=Buttons
+	buttons = true
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=slideShow:
+	slideShow = true
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=fullScreen:
+	fullScreen = true
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=thumbs:
+	thumbs = true
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=closeBtn:
+	closeBtn = true
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=smallBtn:
+	smallBtn = auto
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=baseClass:
+	baseClass =
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=slideClass:
+	slideClass =
+	
+	# cat=plugin.cl_jqueryfancybox; type=string; label=parentEl:Container is injected into this element
+	parentEl = body
+
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=touch:Enable gestures (tap, zoom, pan and pinch)
+	touch = true
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=keyboard:Enable keyboard navigation
+	keyboard = true
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=focus:Try to focus on first focusable element after opening
+	focus = true
+	
+	# cat=plugin.cl_jqueryfancybox; type=options[true,false]; label=closeClickOutside:Close when clicked outside of the content
+	closeClickOutside = true
+
+
+}
+
+styles.content.imgtext.linkWrap.lightboxEnabled = 1

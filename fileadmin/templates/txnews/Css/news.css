@@ -1,0 +1,416 @@
+@charset "utf-8";
+
+
+/*****  NEWS LATEST / TEASER BOXES ****/
+.news-latest {
+	margin:10px; 
+	overflow:hidden; 
+}
+
+.news-latest figcaption {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width:100%;
+  padding:0px 10px 0px 10px; 
+  background: rgba(0,81,55,0.75); 
+  text-align:center !important; 
+  height:26%; 
+
+  webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;   
+	overflow: hidden; 
+}
+
+
+.news-latest figcaption h3 {
+	font-weight: 400 !important;
+	color: #fff !important;
+	text-transform:none;
+	font-size:14px !important; 
+	font-wight:700 !important;
+	letter-spacing:1px; 
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	text-align:center !important;
+	width:88%; 
+}
+
+.news-latest a:hover figcaption {
+	  background: rgba(0,81,55,1.0); 
+	height:100%;
+	text-decoration:none !important;
+	text-align:center !important; 
+}
+
+.news-latest img {
+	width:100%;
+	max-width:100%;
+	height:auto; 
+}
+
+.news-latest p.datetime {
+	margin-top:36px; 
+	font-weight: 400 !important;
+	color: #fff !important;
+	font-size:14px !important; 
+	display:none;
+}
+
+.news-latest a:hover p.datetime {
+	display:block !important; 
+}
+
+
+
+/* AGENDA LATEST */
+.agenda-latest {
+	padding:0px 0px; 
+	border-bottom:1px solid #ccc; 
+	margin-bottom:15px;
+}
+
+.agenda-latest a {
+	padding:6px 3px !important;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+	.news-latest figcaption h3 {
+		font-size: 14px !important;
+	}
+
+}
+/*** END ***/
+
+
+
+
+
+/*****  NEWS & EVENT LIST ****/
+
+#event-quickmenu .news {
+	float:right; 
+}
+
+.news-list-view .row {
+	margin-left:0px !important;
+	margin-right:0px !important;
+}
+
+.row.news-list {
+	margin-bottom:25px; 
+	padding:0px; 
+}
+
+.news-list-view .row .col-sm-3 {
+	padding-left:0px !important; 
+}
+
+.news-list-view .row .col-sm-9 {
+	padding-top:10px !important; 
+	padding-bottom:10px !important; 
+}
+
+.news-list:nth-child(odd) {
+    background-color: #E8E8E8;
+}
+.news-list:nth-child(even) {
+  /* background-color: transparent;*/
+	background-color: #E8E8E8;
+}
+
+.news-list-view a {
+	display:block;
+	height:100%;
+	overflow:hidden;
+	color:#000 !important; 
+	text-decoration: none !important;
+}
+
+.news-list-view a:hover {
+	color:#000 !important; 
+}
+
+.news-list h3 {
+	font-size:20px !important;
+	font-weight:700 !important;
+	margin-bottom:6px !important; 
+	color: #19694C;
+}
+
+.news-list h5{
+	font-size:14px !important;
+	font-weight:400 !important;
+}
+
+.nlist-body p {
+	margin:0px !important;
+	line-height:120%; 
+}
+
+
+.nlist-filiale {
+	margin-top:20px; 
+}
+
+
+.morebutton  {
+	display:inline-block;
+	padding:3px 8px;
+	color:#fff !important;
+	background-color:#5D5D5D;
+	font-size:16px; 
+	margin-top:25px; 
+}
+
+.news-list-view a:hover .morebutton {
+	background-color: #000;
+	color:#afca00;
+	-webkit-transition: background-color 150ms linear;
+    -ms-transition: background-color 150ms linear;
+    transition: background-color 150ms linear;
+}
+
+
+.morebutton2  {
+	display:block;
+	padding:3px 8px;
+	color:#fff !important;
+	background-color:#000;
+	font-size:16px; 
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+
+
+
+.item-link {
+	padding-top:0px !important;
+}
+
+
+.item-link:hover  {
+/*    background-color:#afca00;*/
+	background-color:#C8C8C8;
+	-webkit-transition: background-color 250ms linear;
+    -ms-transition: background-color 250ms linear;
+    transition: background-color 250ms linear;
+} 
+	
+
+.backlink {
+	margin-top:25px; 
+}
+
+
+.news-list .news-img-wrap {
+	overflow:hidden;
+	width:100%;
+	height:100%; 
+	}
+
+.news-list .news-img-wrap img {
+			width:120%; 
+			height:120%;
+			max-width:120%;
+	object-fit: cover;
+	}
+
+
+
+
+.teaser-text {
+	font-weight:700 !important;
+}
+
+
+@media screen and (max-width: 1140px) { 
+
+	.news-list .news-img-wrap img {
+			width:120%; 
+			height:120%;
+			max-width:120%;
+		   object-fit: cover;
+	}
+}
+
+
+
+@media screen and (max-width: 940px) { 
+	
+	.news-list .news-img-wrap img {
+		width:135%; 
+		height:135%;
+		max-width:135% !important;
+		object-fit: cover;
+		margin-left:-20%;
+	}
+	
+	
+	.shops .news-list .news-img-wrap img {
+		 object-fit: cover;
+		margin-left:-20%;
+	}
+	
+	
+}
+
+
+@media screen and (max-width: 900px) { 
+	
+	
+
+}
+
+
+
+
+@media screen and (max-width: 767px) { 
+	.news .row {
+		margin-bottom: 32px !important;
+	}
+	
+	.news-list-view .row .col-sm-3 {
+		padding-right:0px !important; 
+	}
+	
+	.news-img-wrap {
+		max-height:280px; 
+		overflow:hidden; 
+	}
+	
+	.news-img-wrap img {
+		object-fit:cover;
+		width:100% !important;
+		max-width:100% !important;
+		height:auto;
+		margin-top: -50px;
+		margin-left:0% !important;
+	}
+	
+	.news-list:nth-child(odd), .news-list:nth-child(even) {
+		background-color: #E8E8E8;
+	}
+	
+	.shops .news-list .news-img-wrap img {
+		margin-left:0%;
+	}
+
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+
+	#event-quickmenu {
+		margin-bottom:20px; 
+	}
+	
+	.news { width:100% !important; }
+	
+	#event-quickmenu .morebutton {
+			display: inline-block;
+			padding: 8px 4px 8px 4px !important;
+			color: #fff !important;
+			background-color: #5D5D5D;
+			font-size: 14px;
+			margin-top: 0px !important;
+			margin-right: 5px !important;
+		    margin-bottom:6px !important;
+		line-height:100% !important; 
+		width: calc(50% - 5px);
+		text-align:center; 
+		}
+}
+
+
+
+@media screen and (max-width: 520px) {
+
+	.news-img-wrap {
+		max-height: 200px !important;
+	}
+
+}
+
+/*** END ***/
+
+
+
+
+
+
+
+/*****  NEWS & EVENT SINGLE ****/
+.news-single figcaption.csc-textpic-caption {
+	font-size:15px !important;
+	line-height:120% !important;
+}
+
+
+
+
+/* Tourentipps */
+.tourentipps .news-img-wrap {
+	display:none !important; 
+}
+
+.ttips {
+	width:100%;
+}
+
+.ttips td:first-child {
+	width:60%;
+} 
+
+.ttips td:last-child {
+	text-align:right; 
+} 
+
+.ttips tr:last-child td {
+	border-bottom: 1px solid #ddd;
+}
+
+.tourentipps h5 {
+	font-weight:700 !important;
+	font-size:18px !important; 
+}
+
+/*.tourentipps .news-related-files {
+	margin:30px 0px 60px 0px !important; 
+}
+
+.tourentipps .news-related-files li {
+	list-style-type:none !important; 
+}*/
+
+#download-gpx {
+	position:absolute;
+	top:0px;
+	right:30px; 
+}
+
+.gpx-download {
+	padding-left:70px;
+}
+
+.gpx-download a {
+	margin-left:40px;
+	display:block; 
+}
+
+/*** END ***/

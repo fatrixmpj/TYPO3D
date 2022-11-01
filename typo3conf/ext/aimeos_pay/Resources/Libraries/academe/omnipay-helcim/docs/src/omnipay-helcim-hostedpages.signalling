@@ -1,0 +1,81 @@
+
+# omnipay/helcim (Helcim-HostedPaged, success path)
+# Author: Jason Judge <jason@academe.co.uk>
+#
+# Version: very rough first draft for comment.
+# It kind of mixes up data flows and process calls
+# in the arcs, so be wary of that, until it is
+# refined.
+#
+# It is going to be helpful to list the important
+# data items in each flow. These items all have two
+# names - the gateway name, and the OmniPay abstracted
+# name. I'm not sure if those items should be listed
+# on the diagram, but they really should be close-by.
+
+msc {
+    # Options
+    hscale=auto;
+    #wordwraparcs=1;
+
+    # Title
+    title: OmniPay-Helcim;
+    subtitle: Helcim-HostedPages (Purchase, success path);
+
+    # Entities
+    App [label="Application"],
+    OP [label="OmniPay"],
+    HD [label="Helcim Driver"],
+    HHP [label="Helcim HostedPages"];
+    HDG [label="Helcim Direct"];
+
+
+    # Process/Arcs
+    App -- App [label="Collect Personal Details"];
+
+    App..App: Initialisation
+    {
+        App -> OP [label="gateway::purchase()"];
+        OP -> HD [label="HostedPagesPurchaseRequest()"];
+        HD -> OP -> App [label="HostedPagesResponse()"];
+        App -> HHP [label="POST redirect"];
+        comment: Each form will have a unique and\npublic token of its own.;
+
+        HHP -- HHP [label="Get Card Details"];
+        HHP -- HHP [label="Authenticate Card Details"];
+    };
+
+        HHP -> App [label="POST redirect"];
+        comment: The POST comes back to the "Approvment URL"\ndefined in the hosted form;
+
+    App..App: Security Check
+    {
+        App -> OP [label="gateway::completePurchase()"];
+        comment: The completePurchase() will read\nthe data POSted from Helcim;
+        OP -> HD [label="HostedPagesCompleteRequest()"];
+        OP..HDG: Check the Transaction
+        {
+            HD -> OP [label="direct::fetchTransaction()"];
+            OP -> HD [label="DirectFetchTransactionRequest()"];
+            HD -> HDG [label="GET transaction"];
+            comment: A secret token is used to access\nthe direct back-end services.;
+            HDG -> HD [label="Transaction details"];
+            HD -> HD [label="DirectFetchTransactionResponse()"];
+            HD -- HD [label="Validate Transaction Details"];
+        };
+        comment: The transaction can potentially be\nmanipulated by the user during the POSTs\nin both directions, so it is\nnecessary to check the transaction\nlogged on Helcim via the Helcim Direct API.;
+        HD -> OP -> App [label="HostedPagesCompleteResponse()"];
+        comment: It does seem that ONLY a successful payment\nor authorisation will ever return by this path.;
+    }
+
+    App..App: Cart Processing
+    {
+        App -- App [label="Process Cart According to Result"];
+        App -- App [label="Notify User"];
+    };
+
+
+    #SP -> App [label="Order Complete"];
+    #App -- App [label="(alt2) Process Complete Basket Items"];
+    #App -- App [label="Clear Basket from Session"];
+}

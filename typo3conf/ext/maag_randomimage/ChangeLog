@@ -1,0 +1,53 @@
+2013-01-02 Urs Maag	 <info@maagit.ch>
+	* make it obsolete (no further development)
+	
+2012-11-30 Urs Maag  <info@maagit.ch>
+	* make it compatible with typo3 version 6
+
+2012-11-26 Urs Maag  <info@maagit.ch>
+	* fix fading effect with captions (hide caption before fading effect)
+
+2012-11-25 Urs Maag  <urs@maag-matzingen.ch>
+	* fix depreachted functions (check version number)
+
+2012-06-30 Urs Maag  <urs@maag-matzingen.ch>
+	* add property titleText
+
+2012-04-04 Urs Maag  <urs@maag-matzingen.ch>
+	* bug fix for setting id of the link tag, if there are txt-files with links available (thanks to Ewout de Boer)
+
+2012-03-14 Urs Maag	 <urs@maag-matzingen.ch>
+	* bug fix for setting conf variables to suerly enable imageLinkWrap for image links (thanks to Stefan Froemken)
+
+2011-11-15 Urs Maag	 <urs@maag-matzingen.ch>
+	* bug fix on dynamic change of images on typo3 4.6.0 (only first image is shown an then no new images are loaded, current image changes to "undefined")
+	
+2011-11-09 Urs Maag	 <urs@maag-matzingen.ch>
+	* implementing the property “httpsBackend” for make dynamic changes of images with ssl secured Backend working
+
+2011-01-30 Urs Maag  <urs@maag-matzingen.ch>
+	* using the altText (not alttext) for newer versions of typo3
+
+2011-01-27 Urs Maag  <urs@maag-matzingen.ch>
+	* correction of blemishes of the javascript part
+
+2010-05-12 Urs Maag  <urs@maag-matzingen.ch>
+	* changed security issue with path variable (now checks of beginning path to fileadmin or user_upload)
+
+2010-04-30 Urs Maag  <urs@maag-matzingen.ch>
+	* bug fix on path security check with php 5.3.0
+
+2010-04-24 Urs Maag  <urs@maag-matzingen.ch>
+	* make it compatible with php 5.3.0
+
+2009-11-15 Urs Maag  <urs@maag-matzingen.ch>
+	* fixed security issues with path variable (going over apache's document root)
+
+2009-08-02 Urs Maag  <urs@maag-matzingen.ch>
+	* fixed security issues with imcommand
+
+2008-04-28 Urs Maag  <urs@maag-matzingen.ch>
+	* bug fix of imcommand configuration initialization
+
+2006-04-23 Urs Maag  <urs@maag-matzingen.ch>
+	* Initial release

@@ -1,0 +1,252 @@
+plugin.tx_imagecycle_pi5 {
+
+	linkTarget = {$plugin.tx_imagecycle_pi1.linkTarget}
+	extlinkTarget = {$plugin.tx_imagecycle_pi1.extlinkTarget}
+	jQueryNoConflict = {$plugin.tx_imagecycle_pi1.jQueryNoConflict}
+	jsInFooter = {$plugin.tx_imagecycle_pi1.jsInFooter}
+	jsMinify = {$plugin.tx_imagecycle_pi1.jsMinify}
+	jsInline = {$plugin.tx_imagecycle_pi1.jsInline}
+	cssMinify = {$plugin.tx_imagecycle_pi1.cssMinify}
+	disableRecursion = {$plugin.tx_imagecycle_pi1.disableRecursion}
+
+	jQueryLibrary = {$plugin.tx_imagecycle_pi1.file.jQueryLibrary}
+	jQueryEasing = {$plugin.tx_imagecycle_pi1.file.jQueryEasing}
+	jQuerySlice = {$plugin.tx_imagecycle_pi5.file.jQuerySlice}
+	modernizer = {$plugin.tx_imagecycle_pi5.file.modernizer}
+	cssFileSlice = {$plugin.tx_imagecycle_pi5.file.cssFileSlice}
+	templateFileJS = {$plugin.tx_imagecycle_pi1.file.templateFileJS}
+
+	imagewidth = {$plugin.tx_imagecycle_pi5.imagewidth}
+	imageheight = {$plugin.tx_imagecycle_pi5.imageheight}
+	onlyFirstImage = {$plugin.tx_imagecycle_pi5.onlyFirstImage}
+
+	sliceOrientation = {$plugin.tx_imagecycle_pi5.sliceOrientation}
+	slicePerspective = {$plugin.tx_imagecycle_pi5.slicePerspective}
+	sliceSlicesCount = {$plugin.tx_imagecycle_pi5.sliceSlicesCount}
+	sliceDisperseFactor = {$plugin.tx_imagecycle_pi5.sliceDisperseFactor}
+	sliceColorHiddenSides = {$plugin.tx_imagecycle_pi5.sliceColorHiddenSides}
+	sliceSequentialRotation = {$plugin.tx_imagecycle_pi5.sliceSequentialRotation}
+	sliceSequentialFactor = {$plugin.tx_imagecycle_pi5.sliceSequentialFactor}
+	sliceSpeed3d = {$plugin.tx_imagecycle_pi5.sliceSpeed3d}
+	sliceSlideshow = {$plugin.tx_imagecycle_pi5.sliceSlideshow}
+	sliceSlideshowTime = {$plugin.tx_imagecycle_pi5.sliceSlideshowTime}
+	sliceEasing = {$plugin.tx_imagecycle_pi5.sliceEasing}
+
+	sliceSpeed = {$plugin.tx_imagecycle_pi5.sliceSpeed}
+
+	options = {$plugin.tx_imagecycle_pi5.options}
+	optionsOverride = {$plugin.tx_imagecycle_pi5.optionsOverride}
+
+	damCaptionFields = {$plugin.tx_imagecycle_pi1.damCaptionFields}
+
+	integerWidthWrap {
+		wrap = |
+	}
+	integerHeightWrap {
+		wrap = |
+	}
+
+	slice {
+		normal {
+			image {
+				file.import.data = register:file
+				file.width.data = register:imagewidth
+				file.height.data = register:imageheight
+				imageLinkWrap < tt_content.image.20.1.imageLinkWrap
+				imageLinkWrap = 1
+				imageLinkWrap {
+					enable.data = register:href
+				}
+				imageHrefWrap {
+					enable.data = register:href
+					typolink {
+						parameter.data = register:href
+						title {
+							data = register:caption
+							stripHtml = 1
+						}
+						target = {$plugin.tx_imagecycle_pi1.linkTarget}
+						extTarget = {$plugin.tx_imagecycle_pi1.extlinkTarget}
+					}
+				}
+				altText {
+					data = register:caption
+					stripHtml = 1
+				}
+				titleText < .altText
+				longdescURL >
+				stdWrap {
+					outerWrap = <li> | </li>
+					append = TEXT
+					append.data = register:caption
+					append.wrap = <div class="sb-description"> | </div>
+					append.required = 1
+				}
+			}
+			captionWrap {
+				dataWrap = <div class="sb-description"> | </div>
+				required = 1
+			}
+			stdWrap {
+				dataWrap (
+<div class="tx-imagecycle-pi5">
+	<ul class="tx-imagecycle-pi5-images sb-slider" id="{register:key}"> | </ul>
+	<div class="sb-shadow"></div>
+	<div class="sb-nav-arrows">
+		<a href="#">{LLL:EXT:imagecycle/pi5/locallang.xml:next}</a>
+		<a href="#">{LLL:EXT:imagecycle/pi5/locallang.xml:previous}</a>
+	</div>
+	<div class="sb-nav-options">
+		<span id="navPlay">{LLL:EXT:imagecycle/pi5/locallang.xml:play}</span>
+		<span id="navPause">{LLL:EXT:imagecycle/pi5/locallang.xml:pause}</span>
+	</div>
+</div>
+)
+				required = 1
+			}
+			noscriptWrap {
+				dataWrap (
+<noscript>
+	<div class="tx-imagecycle-pi5 slider-wrapper {register:themeclass}">
+		<div class="tx-imagecycle-pi5-images sb-slider"> | </div>
+	</div>
+</noscript>
+)
+				required = 1
+			}
+		}
+		header < .normal
+		content < .normal
+	}
+
+	dataConf {
+		tt_content {
+			image >
+			href >
+			caption = RECORDS
+			caption {
+				source.data = register:source
+				tables = tt_content
+				dontCheckPid = 1
+				conf.tt_content = COA
+				conf.tt_content {
+					10 = TEXT
+					10 {
+						field = header
+						wrap = <strong> | </strong>
+					}
+					20 = TEXT
+					20 {
+						field = bodytext
+						wrap = <br /> |
+						cropHTML = 160|...|1
+						required = 1
+					}
+				}
+			}
+		}
+		fe_users {
+			image >
+			href >
+			caption = RECORDS
+			caption {
+				source.data = register:source
+				tables = fe_users
+				dontCheckPid = 1
+				conf.fe_users = COA
+				conf.fe_users {
+					10 = TEXT
+					10 {
+						field = username
+						wrap = <strong> | </strong>
+					}
+					20 = TEXT
+					20 {
+						field = email
+						typolink {
+							parameter.field = email
+						}
+						noTrimWrap = |<br />E-Mail: ||
+						required = 1
+					}
+				}
+			}
+		}
+		tt_address {
+			image >
+			href >
+			caption = RECORDS
+			caption {
+				source.data = register:source
+				tables = tt_address
+				dontCheckPid = 1
+				conf.tt_address = COA
+				conf.tt_address {
+					10 = TEXT
+					10 {
+						field = name
+						wrap = <strong> | </strong>
+					}
+					20 = TEXT
+					20 {
+						field = address
+						wrap = <br /> |
+						required = 1
+					}
+					30 = TEXT
+					30 {
+						field = zip
+						dataWrap = <br /> | &nbsp;{field:city}
+						required = 1
+					}
+				}
+			}
+		}
+		tt_news {
+			image >
+			href >
+			caption = RECORDS
+			caption {
+				source.data = register:source
+				tables = tt_news
+				dontCheckPid = 1
+				conf.tt_news = COA
+				conf.tt_news {
+					10 = TEXT
+					10 {
+						field = title
+						wrap = <strong>|</strong>
+					}
+					20 = TEXT
+					20 {
+						field = bodytext
+						wrap = <br />|
+						cropHTML = 160|...|1
+						required = 1
+					}
+					30 = TEXT
+					30 {
+						wrap = <br />|
+						htmlSpecialChars = 0
+						data = LLL:EXT:tt_news/pi/locallang.xml:more
+						typolink {
+							parameter = {$plugin.tt_news.singlePid}
+							useCacheHash = 1
+							additionalParams.cObject = COA
+							additionalParams.cObject {
+								10 = TEXT
+								10 {
+									field = uid
+									wrap = &tx_ttnews[tt_news]=|
+								}
+							}  
+						}
+					}
+				}
+			}
+		}
+	}
+
+	_CSS_DEFAULT_STYLE (
+	)
+}

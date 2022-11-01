@@ -1,0 +1,131 @@
+.icons div.csc-textpic .csc-textpic-imagewrap figure, 
+.icons div.csc-textpic figure.csc-textpic-imagewrap {
+	margin-left:0% !important;
+}
+
+
+.icons figure {
+	width:100% !important;
+
+}
+
+.icons figure.csc-textpic-imagewrap {
+	margin: 0;
+	display: initial !important;
+}
+
+.icons figure img {
+	max-width:120px !important;
+	background-color: #fff !important;
+	display: inline-block;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+
+.icons a:hover figure img {
+	background-color:#afca00 !important;
+	-webkit-transition: background-color 180ms linear;
+    -ms-transition: background-color 180ms linear;
+    transition: background-color 180ms linear;
+}
+
+.icons div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
+	 margin-bottom: 10px !important;
+}
+
+.icons h1, .icons h3 {
+	font-size:20px !important;
+	font-weight:700; 
+	text-align:center;
+	margin-bottom: 8px !important;
+	margin-top:8px !important;
+}
+
+.icons a {
+	text-decoration:none !important;
+}
+
+
+.icons a:hover h1, .icons a:hover h3 {
+	color:#afca00 !important;
+	background-color:transparent !important;
+	-webkit-transition: color 180ms linear;
+    -ms-transition: color 180ms linear;
+    transition: color 180ms linear;
+}
+
+
+
+
+
+@media screen and (max-width: 560px) { 
+
+	.icons figure img {
+		max-width:100px !important;
+		height:auto;
+	}
+	
+	.icons h1, .icons h3 {
+		font-size: 17px !important;
+	}
+	
+	#gridrow .icons div[class*="col-sm"] {
+		margin-bottom: 5px !important;
+	}
+
+}
+
+
+
+
+
+/**** Standalone icon ***/
+.icon {
+	width:180px;
+	max-width:180px;
+	display:block;
+}
+a.icon, a.icon:hover {
+	background-color:transparent;
+	text-decoration:none;
+}
+
+.icon div.csc-textpic .csc-textpic-imagewrap figure, 
+.icon div.csc-textpic figure.csc-textpic-imagewrap {
+	margin-left:50% !important;
+}
+
+.icon figure {
+	background-color: #fff !important;
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+
+a.icon:hover figure {
+	background-color:#afca00 !important;
+	-webkit-transition: background-color 180ms linear;
+    -ms-transition: background-color 180ms linear;
+    transition: background-color 180ms linear;
+}
+
+.icon div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
+	 margin-bottom: 10px !important;
+}
+
+.icon h1, .icon h3 {
+	font-size:20px !important;
+	font-weight:700; 
+	text-align:center;
+}
+
+a.icon:hover h1, a.icon:hover h3 {
+	color:#afca00 !important;
+	background-color:transparent !important;
+	-webkit-transition: color 180ms linear;
+    -ms-transition: color 180ms linear;
+    transition: color 180ms linear;
+}

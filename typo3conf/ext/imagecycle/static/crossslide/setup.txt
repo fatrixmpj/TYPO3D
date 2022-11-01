@@ -1,0 +1,232 @@
+plugin.tx_imagecycle_pi4 {
+
+	linkTarget = {$plugin.tx_imagecycle_pi1.linkTarget}
+	extlinkTarget = {$plugin.tx_imagecycle_pi1.extlinkTarget}
+	jQueryNoConflict = {$plugin.tx_imagecycle_pi1.jQueryNoConflict}
+	jsInFooter = {$plugin.tx_imagecycle_pi1.jsInFooter}
+	jsMinify = {$plugin.tx_imagecycle_pi1.jsMinify}
+	jsInline = {$plugin.tx_imagecycle_pi1.jsInline}
+	cssMinify = {$plugin.tx_imagecycle_pi1.cssMinify}
+	disableRecursion = {$plugin.tx_imagecycle_pi1.disableRecursion}
+
+	jQueryLibrary = {$plugin.tx_imagecycle_pi1.file.jQueryLibrary}
+	jQueryEasing = {$plugin.tx_imagecycle_pi1.file.jQueryEasing}
+	jQueryCross = {$plugin.tx_imagecycle_pi4.file.jQueryCross}
+	templateFileJS = {$plugin.tx_imagecycle_pi1.file.templateFileJS}
+
+	imagewidth = {$plugin.tx_imagecycle_pi4.imagewidth}
+	imageheight = {$plugin.tx_imagecycle_pi4.imageheight}
+	onlyFirstImage = {$plugin.tx_imagecycle_pi4.onlyFirstImage}
+	crossTransition = {$plugin.tx_imagecycle_pi4.crossTransition}
+	crossTransitionDir = {$plugin.tx_imagecycle_pi4.crossTransitionDir}
+	crossTime = {$plugin.tx_imagecycle_pi4.crossTime}
+	crossFade = {$plugin.tx_imagecycle_pi4.crossFade}
+	crossVariant = {$plugin.tx_imagecycle_pi4.crossVariant}
+	crossFromTo (
+100% 80% 1x   | 100% 0% 1.7x
+top left      | bottom right 1.5x
+100% 80% 1.5x | 80% 0% 1.1x
+100% 50%      | 30% 50% 1.5x
+	)
+	options = {$plugin.tx_imagecycle_pi4.options}
+	optionsOverride = {$plugin.tx_imagecycle_pi4.optionsOverride}
+
+	damCaptionFields = {$plugin.tx_imagecycle_pi1.damCaptionFields}
+	damCaptionObject = TEXT
+	damCaptionObject {
+		data = register:dam_caption
+		ifEmpty {
+			data = register:dam_description
+			ifEmpty {
+				data = register:dam_title
+			}
+		}
+		
+	}
+	damHrefFields = {$plugin.tx_imagecycle_pi1.damHrefFields}
+
+	integerWidthWrap {
+		wrap = |
+	}
+	integerHeightWrap {
+		wrap = |
+	}
+
+	cross {
+		normal {
+			image {
+				file.import.data = register:file
+				file.width.data  = register:imagewidth
+				file.height.data = register:imageheight
+			}
+			stdWrap {
+				dataWrap = <div class="tx-imagecycle-pi4"><div class="tx-imagecycle-pi4-images" id="{register:key}"> | </div><div class="caption"></div></div>
+				required = 1
+			}
+			noscriptWrap {
+				dataWrap = <noscript><div class="tx-imagecycle-pi4"><div class="tx-imagecycle-pi4-images" id="{register:key}"> | </div></div></noscript>
+				required = 1
+			}
+		}
+		header < .normal
+		content < .normal
+	}
+
+	dataConf {
+		tt_content {
+			image >
+			href >
+			caption = RECORDS
+			caption {
+				source.data = register:source
+				tables = tt_content
+				dontCheckPid = 1
+				conf.tt_content = COA
+				conf.tt_content {
+					10 = TEXT
+					10 {
+						field = header
+						wrap = <strong> | </strong>
+					}
+					20 = TEXT
+					20 {
+						field = bodytext
+						wrap = <br /> |
+						cropHTML = 160|...|1
+						required = 1
+					}
+				}
+			}
+		}
+		fe_users {
+			image >
+			href >
+			caption = RECORDS
+			caption {
+				source.data = register:source
+				tables = fe_users
+				dontCheckPid = 1
+				conf.fe_users = COA
+				conf.fe_users {
+					10 = TEXT
+					10 {
+						field = username
+						wrap = <strong> | </strong>
+					}
+					20 = TEXT
+					20 {
+						field = email
+						typolink {
+							parameter.field = email
+						}
+						noTrimWrap = |<br />E-Mail: ||
+						required = 1
+					}
+				}
+			}
+		}
+		tt_address {
+			image >
+			href >
+			caption = RECORDS
+			caption {
+				source.data = register:source
+				tables = tt_address
+				dontCheckPid = 1
+				conf.tt_address = COA
+				conf.tt_address {
+					10 = TEXT
+					10 {
+						field = name
+						wrap = <strong> | </strong>
+					}
+					20 = TEXT
+					20 {
+						field = address
+						wrap = <br /> |
+						required = 1
+					}
+					30 = TEXT
+					30 {
+						field = zip
+						dataWrap = <br /> | &nbsp;{field:city}
+						required = 1
+					}
+				}
+			}
+		}
+		tt_news {
+			image >
+			href >
+			caption = RECORDS
+			caption {
+				source.data = register:source
+				tables = tt_news
+				dontCheckPid = 1
+				conf.tt_news = COA
+				conf.tt_news {
+					10 = TEXT
+					10 {
+						field = title
+						wrap = <strong>|</strong>
+					}
+					20 = TEXT
+					20 {
+						field = bodytext
+						wrap = <br />|
+						cropHTML = 160|...|1
+						required = 1
+					}
+					30 = TEXT
+					30 {
+						wrap = <br />|
+						htmlSpecialChars = 0
+						data = LLL:EXT:tt_news/pi/locallang.xml:more
+						typolink {
+							parameter = {$plugin.tt_news.singlePid}
+							useCacheHash = 1
+							additionalParams.cObject = COA
+							additionalParams.cObject {
+								10 = TEXT
+								10 {
+									field = uid
+									wrap = &tx_ttnews[tt_news]=|
+								}
+							}  
+						}
+					}
+				}
+			}
+		}
+	}
+
+	_CSS_DEFAULT_STYLE (
+.tx-imagecycle-pi4-images {
+	display: none;
+}
+noscript .tx-imagecycle-pi4-images {
+	display: block;
+}
+.tx-imagecycle-pi4 .caption {
+	position: relative;
+	margin-top: -75px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+	text-align: center;
+	padding: 5px 10px;
+	background: black;
+	color: white;
+	font-family: sans-serif;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-o-border-radius: 5px;
+	display: none;
+}
+.tx-imagecycle-pi4 .caption p {
+	margin: 0;
+}
+	)
+}

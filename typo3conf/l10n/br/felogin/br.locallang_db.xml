@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="br" type="array">
+			<label index="tt_content.pi_flexform.sheet_general">Geral</label>
+			<label index="tt_content.pi_flexform.show_forgot_password">Exibir o link &quot;Esqueci minha senha?&quot;:</label>
+			<label index="tt_content.pi_flexform.field_manualOrder">Utilizando os campos abaixo:</label>
+			<label index="tt_content.pi_flexform.field_orderList">Campos de Usuário/Lista:</label>
+			<label index="tt_content.pi_flexform.field_orderDetails">Campos de Usuário/Detalhes:</label>
+			<label index="tt_content.pi_flexform.header">Cabeçalho:</label>
+			<label index="tt_content.pi_flexform.message">Mensagem:</label>
+			<label index="tt_content.pi_flexform.sheet_welcome">Bem-vindo</label>
+			<label index="tt_content.pi_flexform.sheet_success">Identificação com Sucesso</label>
+			<label index="tt_content.pi_flexform.sheet_error">Erro de Identificação</label>
+			<label index="tt_content.pi_flexform.sheet_status">Situação</label>
+			<label index="tt_content.pi_flexform.sheet_logout">Encerrar</label>
+			<label index="felogin_redirPid">Ao logar, redirecionar para Página:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="br" type="array">
+			<label index="tt_content.pi_flexform.sheet_general" type="integer">14366585</label>
+			<label index="tt_content.pi_flexform.show_forgot_password" type="integer">8907633</label>
+			<label index="tt_content.pi_flexform.field_manualOrder" type="integer">10735835</label>
+			<label index="tt_content.pi_flexform.field_orderList" type="integer">36548182</label>
+			<label index="tt_content.pi_flexform.field_orderDetails" type="integer">41652539</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="br" type="array">
+			<label index="tt_content.pi_flexform.sheet_general">General</label>
+			<label index="tt_content.pi_flexform.show_forgot_password">Show &quot;Forgot password?&quot; link:</label>
+			<label index="tt_content.pi_flexform.field_manualOrder">Using fieldlists below:</label>
+			<label index="tt_content.pi_flexform.field_orderList">User Fields/list:</label>
+			<label index="tt_content.pi_flexform.field_orderDetails">User Fields/details:</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

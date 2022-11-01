@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="fi" type="array">
+			<label index="tt_content.CType_pi1">Www-käyttäjän kirjautuminen</label>
+			<label index="felogin_redirectPid">Edelleenohjaa sivulle (felogin):</label>
+			<label index="tt_content.pi_flexform.general_header">Yleisotsikko:</label>
+			<label index="tt_content.pi_flexform.general_message">Yleisteksti:</label>
+			<label index="tt_content.pi_flexform.redirect_header">Edelleenohjauksen otsikko:</label>
+			<label index="tt_content.pi_flexform.redirect_message">Edelleenohjauksen teksti:</label>
+			<label index="tt_content.pi_flexform.welcome_header">Tervetuloa-otsikko:</label>
+			<label index="tt_content.pi_flexform.welcome_message">Tervetuloa-teksti:</label>
+			<label index="tt_content.pi_flexform.success_header">Onnistunut kirjautuminen -otsikko:</label>
+			<label index="tt_content.pi_flexform.success_message">Onnistunut kirjautuminen -teksti:</label>
+			<label index="tt_content.pi_flexform.error_header">Virhe kirjautumisessa -otsikko:</label>
+			<label index="tt_content.pi_flexform.error_message">Virhe kirjautumisessa -teksti:</label>
+			<label index="tt_content.pi_flexform.status_header">Kirjautumistila-otsikko:</label>
+			<label index="tt_content.pi_flexform.status_message">Kirjautumistila-teksti:</label>
+			<label index="tt_content.pi_flexform.logout_header">Uloskirjautumis-otsikko:</label>
+			<label index="tt_content.pi_flexform.logout_message">Uloskirjautumis-teksti:</label>
+			<label index="tt_content.pi_flexform.forgot_header">Unohtunut salasana -otsikko:</label>
+			<label index="tt_content.pi_flexform.forgot_message">Unohtunut salasana -teksti:</label>
+			<label index="tt_content.pi_flexform.sheet_general">Yleistä</label>
+			<label index="tt_content.pi_flexform.sheet_redirect">Edelleenohjauksen asetukset</label>
+			<label index="tt_content.pi_flexform.sheet_messages">Viestit</label>
+			<label index="tt_content.pi_flexform.show_forgot_password">Näytä &quot;Unohditko salasanasi ?&quot; linkki:</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_showAll">Näytä kaikki</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_showSelected">Näytä valitut</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_DontShowSelected">Älä näytä valittuja</label>
+			<label index="tt_content.pi_flexform.field_manualOrder">Käytetään allaolevaa tietolistaa:</label>
+			<label index="tt_content.pi_flexform.field_orderList">Käyttäjän tiedot/lista:</label>
+			<label index="tt_content.pi_flexform.field_orderDetails">Käyttäjän tiedot/tarkat tiedot:</label>
+			<label index="tt_content.pi_flexform.header">Otsikko:</label>
+			<label index="tt_content.pi_flexform.message">Viesti</label>
+			<label index="tt_content.pi_flexform.sheet_welcome">Tervetulotoivotus</label>
+			<label index="tt_content.pi_flexform.sheet_success">Onnistunut sisäänkirjoitus</label>
+			<label index="tt_content.pi_flexform.sheet_error">Epäonnistunut sisäänkirjoitus</label>
+			<label index="tt_content.pi_flexform.sheet_status">Tila</label>
+			<label index="tt_content.pi_flexform.sheet_logout">Ulos kirjoittautuminen</label>
+			<label index="felogin_redirPid">Edelleen ohjaus loginissa sivulle:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fi" type="array">
+			<label index="tt_content.pi_flexform.sheet_general" type="integer">14366585</label>
+			<label index="tt_content.pi_flexform.show_forgot_password" type="integer">8907633</label>
+			<label index="tt_content.pi_flexform.field_manualOrder" type="integer">10735835</label>
+			<label index="tt_content.pi_flexform.field_orderList" type="integer">36548182</label>
+			<label index="tt_content.pi_flexform.field_orderDetails" type="integer">41652539</label>
+			<label index="tt_content.CType_pi1" type="integer">149928857</label>
+			<label index="felogin_redirectPid" type="integer">105993943</label>
+			<label index="tt_content.pi_flexform.general_header" type="integer">226801925</label>
+			<label index="tt_content.pi_flexform.general_message" type="integer">130825698</label>
+			<label index="tt_content.pi_flexform.redirect_header" type="integer">141739412</label>
+			<label index="tt_content.pi_flexform.redirect_message" type="integer">240399116</label>
+			<label index="tt_content.pi_flexform.welcome_header" type="integer">102836539</label>
+			<label index="tt_content.pi_flexform.welcome_message" type="integer">185552832</label>
+			<label index="tt_content.pi_flexform.success_header" type="integer">30258077</label>
+			<label index="tt_content.pi_flexform.success_message" type="integer">242404921</label>
+			<label index="tt_content.pi_flexform.error_header" type="integer">169827989</label>
+			<label index="tt_content.pi_flexform.error_message" type="integer">2663263</label>
+			<label index="tt_content.pi_flexform.status_header" type="integer">140751115</label>
+			<label index="tt_content.pi_flexform.status_message" type="integer">239415468</label>
+			<label index="tt_content.pi_flexform.logout_header" type="integer">223134195</label>
+			<label index="tt_content.pi_flexform.logout_message" type="integer">45329943</label>
+			<label index="tt_content.pi_flexform.forgot_header" type="integer">158921063</label>
+			<label index="tt_content.pi_flexform.forgot_message" type="integer">119891940</label>
+			<label index="tt_content.pi_flexform.sheet_redirect" type="integer">211764841</label>
+			<label index="tt_content.pi_flexform.sheet_messages" type="integer">69068502</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_showAll" type="integer">247013413</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_showSelected" type="integer">19200228</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_DontShowSelected" type="integer">104849576</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fi" type="array">
+			<label index="tt_content.pi_flexform.sheet_general">General</label>
+			<label index="tt_content.pi_flexform.show_forgot_password">Show &quot;Forgot password?&quot; link:</label>
+			<label index="tt_content.pi_flexform.field_manualOrder">Using fieldlists below:</label>
+			<label index="tt_content.pi_flexform.field_orderList">User Fields/list:</label>
+			<label index="tt_content.pi_flexform.field_orderDetails">User Fields/details:</label>
+			<label index="tt_content.CType_pi1">Website User Login</label>
+			<label index="felogin_redirectPid">Redirect at Login to Page (felogin):</label>
+			<label index="tt_content.pi_flexform.general_header">General Header:</label>
+			<label index="tt_content.pi_flexform.general_message">General Message:</label>
+			<label index="tt_content.pi_flexform.redirect_header">Redirect Header:</label>
+			<label index="tt_content.pi_flexform.redirect_message">Redirect Message:</label>
+			<label index="tt_content.pi_flexform.welcome_header">Welcome Header:</label>
+			<label index="tt_content.pi_flexform.welcome_message">Welcome Message:</label>
+			<label index="tt_content.pi_flexform.success_header">Login Success Header:</label>
+			<label index="tt_content.pi_flexform.success_message">Login Success Message:</label>
+			<label index="tt_content.pi_flexform.error_header">Login Error Header:</label>
+			<label index="tt_content.pi_flexform.error_message">Login Error Message:</label>
+			<label index="tt_content.pi_flexform.status_header">Status Display Header:</label>
+			<label index="tt_content.pi_flexform.status_message">Status Display Message:</label>
+			<label index="tt_content.pi_flexform.logout_header">Logout Header:</label>
+			<label index="tt_content.pi_flexform.logout_message">Logout Message:</label>
+			<label index="tt_content.pi_flexform.forgot_header">Forgot Password Header:</label>
+			<label index="tt_content.pi_flexform.forgot_message">Forgot Password Message:</label>
+			<label index="tt_content.pi_flexform.sheet_redirect">Redirect Options</label>
+			<label index="tt_content.pi_flexform.sheet_messages">Messages</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_showAll">Show all</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_showSelected">Show selected</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_DontShowSelected">Dont show selected</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+			<label index="pages.titletag">&lt;title&gt;-Tag:</label>
+			<label index="moduleFunction.tx_seobasics_modfunc1">SEO Management</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

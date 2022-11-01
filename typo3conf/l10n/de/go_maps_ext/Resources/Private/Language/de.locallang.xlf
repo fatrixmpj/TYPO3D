@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2018-10-22T11:26:16Z" target-language="de">
+		<header>
+			<description>Language labels for the Google Maps API Extbase extension in the FRONTEND</description>
+			<authorName>Marc Hirdes</authorName>
+			<authorEmail>marc_hirdes@gmx.de</authorEmail>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+			<trans-unit id="partials.map.form.error">
+				<source><![CDATA[No addresses were found.]]></source>
+			<target></target><alt-trans xml:space="preserve" origin="philipp@cron-it_de"><target>Es konnten keine Adressen gefunden werden.</target></alt-trans></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_address" approved="yes">
+				<source><![CDATA[Google Maps Address]]></source>
+			<target state="translated">Google-Maps-Adresse</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_address.address" approved="yes">
+				<source><![CDATA[address]]></source>
+			<target state="translated">Adresse</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_address.close_by_click" approved="yes">
+				<source><![CDATA[closeByClick]]></source>
+			<target state="translated">Schließen mit Klick</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_address.configuration_map" approved="yes">
+				<source><![CDATA[configurationMap]]></source>
+			<target state="translated">Karte</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_address.image_height" approved="yes">
+				<source><![CDATA[imageHeight]]></source>
+			<target state="translated">Bildhöhe</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_address.image_size" approved="yes">
+				<source><![CDATA[imageSize]]></source>
+			<target state="translated">Bildgröße</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_address.image_width" approved="yes">
+				<source><![CDATA[imageWidth]]></source>
+			<target state="translated">Bildbreite</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_address.info_window_content" approved="yes">
+				<source><![CDATA[infoWindowContent]]></source>
+			<target state="translated">Inhalt des Info-Fensters</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_address.info_window_link" approved="yes">
+				<source><![CDATA[infoWindowLink]]></source>
+			<target state="translated">Info-Fenster-Link</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_address.latitude" approved="yes">
+				<source><![CDATA[latitude]]></source>
+			<target state="translated">Breite</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_address.longitude" approved="yes">
+				<source><![CDATA[longitude]]></source>
+			<target state="translated">Länge</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_address.marker" approved="yes">
+				<source><![CDATA[marker]]></source>
+			<target state="translated">Marker</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_address.open_by_click" approved="yes">
+				<source><![CDATA[openByClick]]></source>
+			<target state="translated">Mit Klicken öffnen</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_address.title" approved="yes">
+				<source><![CDATA[title]]></source>
+			<target state="translated">Titel</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map" approved="yes">
+				<source><![CDATA[Map]]></source>
+			<target state="translated">Karte</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.addresses" approved="yes">
+				<source><![CDATA[addresses]]></source>
+			<target state="translated">Adressen</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.calc_route" approved="yes">
+				<source><![CDATA[calcRoute]]></source>
+			<target state="translated">Benutzerdefinierte Route berechnen</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.class" approved="yes">
+				<source><![CDATA[class]]></source>
+			<target state="translated">Klasse</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.default_type" approved="yes">
+				<source><![CDATA[defaultType]]></source>
+			<target state="translated">Kartentyp am Anfang</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.double_click_zoom" approved="yes">
+				<source><![CDATA[doubleClickZoom]]></source>
+			<target state="translated">Doppelklick-Zoom</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.draggable" approved="yes">
+				<source><![CDATA[draggable]]></source>
+			<target state="translated">Karte verschiebbar</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.fullscreen_control">
+				<source><![CDATA[fullscreenControl]]></source>
+			<target></target><alt-trans xml:space="preserve" origin="mhirdes"><target>Vollbild Steuerung</target></alt-trans></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.height" approved="yes">
+				<source><![CDATA[in px]]></source>
+			<target state="translated">in Pixeln</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.kml_url">
+				<source><![CDATA[kmlUrl]]></source>
+			<target></target><alt-trans xml:space="preserve" origin="mhirdes"><target>KML URL</target></alt-trans></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.map_type_control" approved="yes">
+				<source><![CDATA[mapTypeControl]]></source>
+			<target state="translated">Kartentyp Kontrolle</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.map_types" approved="yes">
+				<source><![CDATA[mapTypes]]></source>
+			<target state="translated">Kartentypen</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.scale_control">
+				<source><![CDATA[scaleControl]]></source>
+			<target></target><alt-trans xml:space="preserve" origin="mhirdes"><target>Steuerung der Skalierung</target></alt-trans></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.scroll_zoom" approved="yes">
+				<source><![CDATA[scrollZoom]]></source>
+			<target state="translated">Durch Scrollen zoomen</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.show_route" approved="yes">
+				<source><![CDATA[showRoute]]></source>
+			<target state="translated">Zeige Route</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.streetview_control">
+				<source><![CDATA[streetviewControl]]></source>
+			<target></target><alt-trans xml:space="preserve" origin="mhirdes"><target>Streetview-Steuerung</target></alt-trans></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.styled_map_code">
+				<source><![CDATA[styledMapCode]]></source>
+			<target></target><alt-trans xml:space="preserve" origin="mhirdes"><target>Code für individuelle Karte</target></alt-trans></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.styled_map_name">
+				<source><![CDATA[styledMapName]]></source>
+			<target></target><alt-trans xml:space="preserve" origin="mhirdes"><target>Name der individuellen Karte</target></alt-trans></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.title" approved="yes">
+				<source><![CDATA[Title* (without space character, special character!)]]></source>
+			<target state="translated">Titel* (ohne Leerzeichen und Sonderzeichen)</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.tooltip_title" approved="yes">
+				<source><![CDATA[tooltipTitle]]></source>
+			<target state="translated">Tooltip-Titel</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.travel_mode.0" approved="yes">
+				<source><![CDATA[Driving]]></source>
+			<target state="translated">Mit dem Auto</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.travel_mode.2" approved="yes">
+				<source><![CDATA[Bicycling]]></source>
+			<target state="translated">Mit dem Fahrrad</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.travel_mode.3" approved="yes">
+				<source><![CDATA[Transit]]></source>
+			<target state="translated">Öffentliche Verkehrsmittel</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.travel_mode.4" approved="yes">
+				<source><![CDATA[Walking]]></source>
+			<target state="translated">Zu Fuß</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.unit_system.2" approved="yes">
+				<source><![CDATA[km]]></source>
+			<target state="translated">km</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.unit_system.3" approved="yes">
+				<source><![CDATA[mil]]></source>
+			<target state="translated">mil</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.width" approved="yes">
+				<source><![CDATA[in px]]></source>
+			<target state="translated">in px</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.zoom" approved="yes">
+				<source><![CDATA[zoom]]></source>
+			<target state="translated">Zoom</target></trans-unit>
+			<trans-unit id="tx_gomapsext_domain_model_map.zoom_control">
+				<source><![CDATA[zoomControl]]></source>
+			<target></target><alt-trans xml:space="preserve" origin="mhirdes"><target>Zoom-Steuerung</target></alt-trans></trans-unit>
+			<trans-unit id="tx_gomapsext_flexform_settings" approved="yes">
+				<source><![CDATA[Settings]]></source>
+			<target state="translated">Einstellungen</target></trans-unit>
+			<trans-unit id="tx_gomapsext_flexform_settings.map" approved="yes">
+				<source><![CDATA[Map]]></source>
+			<target state="translated">Karte</target></trans-unit>
+			<trans-unit id="tx_gomapsext_partials_map_assign.alert" approved="yes">
+				<source><![CDATA[Please enter a valid address.]]></source>
+			<target state="translated">Bitte geben Sie eine gültige Adresse ein.</target></trans-unit>
+			<trans-unit id="tx_gomapsext_partials_map_assign.infoWindowLinkText" approved="yes">
+				<source><![CDATA[Calculate Route]]></source>
+			<target state="translated">Route berechnen</target></trans-unit>
+			<trans-unit id="tx_gomapsext_partials_map_assign.noSearchResults" approved="yes">
+				<source><![CDATA[No results found.]]></source>
+			<target state="translated">Die Suche lieferte keine Ergebnisse.</target></trans-unit>
+			<trans-unit id="tx_gomapsext_partials_map_assign.submit" approved="yes">
+				<source><![CDATA[Calculate Route]]></source>
+			<target state="translated">Route berechnen</target></trans-unit>
+			<trans-unit id="tx_gomapsext_partials_map_assign.submitSearch" approved="yes">
+				<source><![CDATA[Search]]></source>
+			<target state="translated">Suchen</target></trans-unit>
+			<trans-unit id="tx_gomapsext_templates_map_preview.link">
+				<source><![CDATA[show map]]></source>
+			<target></target><alt-trans xml:space="preserve" origin="mhirdes"><target>Karte anzeigen</target></alt-trans></trans-unit>
+			<trans-unit id="update_by_address">
+				<source><![CDATA[Update By Address]]></source>
+			<target></target></trans-unit>
+			<trans-unit id="update_by_position">
+				<source><![CDATA[Update by Position]]></source>
+			<target></target></trans-unit>
+		</body>
+	</file>
+</xliff>

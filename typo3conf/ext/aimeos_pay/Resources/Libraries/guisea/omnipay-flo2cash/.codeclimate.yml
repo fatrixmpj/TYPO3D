@@ -1,0 +1,23 @@
+engines:
+  fixme:
+    enabled: true
+    checks:
+      bug:
+        enabled: false
+  phpcodesniffer:
+    enabled: true
+  phpmd:
+    enabled: true
+ratings:
+  paths:
+  - src/**
+  - lib/**
+  - bin/**
+  - "**.php"
+  - "**.pl"
+  - "**.pm"
+exclude_paths:
+- "**/*.md"
+- "*.md"
+- "**/*.yml"
+- "*.yml"

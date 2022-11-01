@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="tr" type="array">
+			<label index="tt_content.pi_flexform.sheet_general">Genel</label>
+			<label index="tt_content.pi_flexform.show_forgot_password">'Parola kayıp?' linkini göster:</label>
+			<label index="tt_content.pi_flexform.field_manualOrder">Altdaki alan listelerini kullan:</label>
+			<label index="tt_content.pi_flexform.field_orderList">Liste görüntüsü</label>
+			<label index="tt_content.pi_flexform.field_orderDetails">Detaylı görüntü</label>
+			<label index="tt_content.pi_flexform.header">Başlık:</label>
+			<label index="tt_content.pi_flexform.message">Mesaj:</label>
+			<label index="tt_content.pi_flexform.sheet_welcome">Hoşgeldin</label>
+			<label index="tt_content.pi_flexform.sheet_success">Oturum başarıyla açıldı</label>
+			<label index="tt_content.pi_flexform.sheet_error">Oturum açmada hata</label>
+			<label index="tt_content.pi_flexform.sheet_status">Statü</label>
+			<label index="tt_content.pi_flexform.sheet_logout">Oturumu kapat</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="tr" type="array">
+			<label index="tt_content.pi_flexform.sheet_general" type="integer">14366585</label>
+			<label index="tt_content.pi_flexform.show_forgot_password" type="integer">8907633</label>
+			<label index="tt_content.pi_flexform.field_manualOrder" type="integer">10735835</label>
+			<label index="tt_content.pi_flexform.field_orderList" type="integer">36548182</label>
+			<label index="tt_content.pi_flexform.field_orderDetails" type="integer">41652539</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="tr" type="array">
+			<label index="tt_content.pi_flexform.sheet_general">General</label>
+			<label index="tt_content.pi_flexform.show_forgot_password">Show &quot;Forgot password?&quot; link:</label>
+			<label index="tt_content.pi_flexform.field_manualOrder">Using fieldlists below:</label>
+			<label index="tt_content.pi_flexform.field_orderList">User Fields/list:</label>
+			<label index="tt_content.pi_flexform.field_orderDetails">User Fields/details:</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

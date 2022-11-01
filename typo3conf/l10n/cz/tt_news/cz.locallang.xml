@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="cz" type="array">
+			<label index="pi_title">Zprávy</label>
+			<label index="pi_plus_wiz_description">Univerzální zpravodajský systém pro TYPO3</label>
+			<label index="cms_layout.mode">Zobrazují: %s</label>
+			<label index="cms_layout.not_configured">Plugin není nastaven!</label>
+			<label index="updater.back">[&lt;- zpět]</label>
+			<label index="updater.reload">[obnovit tuto stránku]</label>
+			<label index="updater.lbl_searchOutdatedTempl">Vyhledat zastaralé statické TS šablony</label>
+			<label index="updater.msg_searchOutdatedTempl">Vyhledat TypoScript šablony, které zahrnují jednu z tt_news statických šablon (např. &quot;CSS based tmpl&quot;), ale se zastaralou cestou:</label>
+			<label index="updater.foundMsg_searchOutdatedTempl">Nalezeno ###COUNT### záznamů šablon.</label>
+			<label index="updater.question_searchOutdatedTempl">Měl by aktualizátor aktualizovat tyto záznamy?</label>
+			<label index="updater.questionInfo_searchOutdatedTempl">(Pokud klepnete na tlačítko &quot;DO IT&quot;, aktualizační skript zaktualizuje tyto záznamy šablon s pevnou cestou)</label>
+			<label index="updater.lbl_searchNonExistingHtml">Vyhledat neexistující HTML šablony</label>
+			<label index="updater.msg_searchNonExistingHtml">Vyhledat tt_news prvky obsahu s nakonfigurovanou HTML šablonou ve flexforms, který neexistuje ve vašem souborovém systému:</label>
+			<label index="updater.foundMsg_searchNonExistingHtml">Nalezeno ###COUNT### prvků obsahu.</label>
+			<label index="updater.question_searchNonExistingHtml">Měl by aktualizátor vyčistit tato nastavení?</label>
+			<label index="updater.question_searchMovedPidlist">Měl by aktualizátor opravit tato nastavení?</label>
+			<label index="updater.foundMsg_searchMovedRecursive">Nalezeno ###COUNT### prvků obsahu.</label>
+			<label index="updater.question_searchMovedRecursive">Měl by aktualizátor opravit tato nastavení?</label>
+			<label index="updater.foundMsg_searchMovedNoPageBrowser">Nalezeno ###COUNT### prvků obsahu.</label>
+			<label index="updater.question_searchMovedNoPageBrowser">Měl by aktualizátor opravit tato nastavení?</label>
+			<label index="updater.foundMsg_searchMovedListLimit">Nalezeno ###COUNT### prvků obsahu.</label>
+			<label index="updater.question_searchMovedListLimit">Měl by aktualizátor opravit tato nastavení?</label>
+			<label index="updater.warningHeader">Důležité! Přečtěte si prosím!</label>
+			<label index="updater.nothingtodo">Nic k provedení</label>
+			<label index="updater.actions">Akce:</label>
+			<label index="updater.updateresults">Výsledky aktualizace:</label>
+			<label index="extmng.updatermsgHeader">Důležité!</label>
+			<label index="extmng.updatermsgLink">[Klikněte zde pro otevření aktualizátoru]</label>
+			<label index="extmng.updatermsgOption">Aktualizátor</label>
+			<label index="tsce.singlePid">SinglePid: stránka, na které by se měly zobrazit jednotlivé zprávy.</label>
+			<label index="tsce.backPid">BackPid: stránka, kam vede odkaz &quot;zpět na seznam&quot; u zobrazení jednotlivých zpráv.</label>
+			<label index="tsce.xmlLimit">XML-Limit newsfeedu: max počet zpráv v RSS kanálech.</label>
+			<label index="tsce.xmlCaching">XML-Caching newsfeedu: Povolit kešování pro RSS kanál</label>
+			<label index="tsce.rss2_tmplFile">RSS-News RSS v2 soubor šablony: XML šablona pro RSS 2.0 kanál</label>
+			<label index="tsce.rss091_tmplFile">RSS-News RSS v0.91 soubor šablony: XML šablona pro RSS 0.91 kanál.</label>
+			<label index="tsce.rdf_tmplFile">RDF-News RDF soubor šablony: XML šablona pro RDF kanál.</label>
+			<label index="tsce.atom03_tmplFile">Atom-News Atom v0.3 soubor šablony: XML šablona pro Atom 0.3 kanál.</label>
+			<label index="tsce.atom1_tmplFile">Atom-News Atom v1.0 soubor šablony: XML šablona pro Atom 1.0 kanál.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="cz" type="array">
+			<label index="pi_title" type="integer">231848472</label>
+			<label index="pi_plus_wiz_description" type="integer">69242695</label>
+			<label index="cms_layout.mode" type="integer">120700661</label>
+			<label index="cms_layout.not_configured" type="integer">90124966</label>
+			<label index="updater.back" type="integer">213818842</label>
+			<label index="updater.reload" type="integer">230089958</label>
+			<label index="updater.lbl_searchOutdatedTempl" type="integer">199273812</label>
+			<label index="updater.msg_searchOutdatedTempl" type="integer">137793196</label>
+			<label index="updater.foundMsg_searchOutdatedTempl" type="integer">69933028</label>
+			<label index="updater.question_searchOutdatedTempl" type="integer">65809272</label>
+			<label index="updater.questionInfo_searchOutdatedTempl" type="integer">237737375</label>
+			<label index="updater.lbl_searchNonExistingHtml" type="integer">84861414</label>
+			<label index="updater.msg_searchNonExistingHtml" type="integer">226603195</label>
+			<label index="updater.foundMsg_searchNonExistingHtml" type="integer">207490268</label>
+			<label index="updater.question_searchNonExistingHtml" type="integer">14787031</label>
+			<label index="tsce.xmlLimit" type="integer">253951804</label>
+			<label index="tsce.xmlCaching" type="integer">112570189</label>
+			<label index="tsce.rss2_tmplFile" type="integer">104475458</label>
+			<label index="tsce.rss091_tmplFile" type="integer">45700026</label>
+			<label index="tsce.rdf_tmplFile" type="integer">140948511</label>
+			<label index="tsce.atom03_tmplFile" type="integer">250327320</label>
+			<label index="tsce.atom1_tmplFile" type="integer">219741005</label>
+			<label index="updater.question_searchMovedPidlist" type="integer">208420396</label>
+			<label index="updater.foundMsg_searchMovedRecursive" type="integer">207490268</label>
+			<label index="updater.question_searchMovedRecursive" type="integer">208420396</label>
+			<label index="updater.foundMsg_searchMovedNoPageBrowser" type="integer">207490268</label>
+			<label index="updater.question_searchMovedNoPageBrowser" type="integer">208420396</label>
+			<label index="updater.foundMsg_searchMovedListLimit" type="integer">207490268</label>
+			<label index="updater.question_searchMovedListLimit" type="integer">208420396</label>
+			<label index="updater.warningHeader" type="integer">201185884</label>
+			<label index="updater.nothingtodo" type="integer">36441756</label>
+			<label index="updater.actions" type="integer">86716437</label>
+			<label index="updater.updateresults" type="integer">247515149</label>
+			<label index="extmng.updatermsgHeader" type="integer">13960575</label>
+			<label index="extmng.updatermsgLink" type="integer">167393323</label>
+			<label index="extmng.updatermsgOption" type="integer">129708285</label>
+			<label index="tsce.singlePid" type="integer">74800364</label>
+			<label index="tsce.backPid" type="integer">257409623</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="cz" type="array">
+			<label index="pi_title">News</label>
+			<label index="pi_plus_wiz_description">Versatile news system for TYPO3</label>
+			<label index="cms_layout.mode">Displaying: %s</label>
+			<label index="cms_layout.not_configured">Plugin is not configured!</label>
+			<label index="updater.back">[&lt;- back]</label>
+			<label index="updater.reload">[reload this page]</label>
+			<label index="updater.lbl_searchOutdatedTempl">Search for outdated static TS templates</label>
+			<label index="updater.msg_searchOutdatedTempl">Search for TypoScript templates which include one of the tt_news static templates (e.g. &quot;CSS based tmpl&quot;) but with an outdated path:</label>
+			<label index="updater.foundMsg_searchOutdatedTempl">Found ###COUNT### template records.</label>
+			<label index="updater.question_searchOutdatedTempl">Should the updater update these records?</label>
+			<label index="updater.questionInfo_searchOutdatedTempl">(If you click &quot;DO IT&quot; the updater script will update these template records with a fixed path)</label>
+			<label index="updater.lbl_searchNonExistingHtml">Search for non existing HTML templates</label>
+			<label index="updater.msg_searchNonExistingHtml">Search for tt_news content elements with a configured HTML template in flexforms which doesn't exist in your filesystem:</label>
+			<label index="updater.foundMsg_searchNonExistingHtml">Found ###COUNT### content elements.</label>
+			<label index="updater.question_searchNonExistingHtml">Should the updater clean this settings?</label>
+			<label index="tsce.xmlLimit">News-Feed XML-Limit: max news items in RSS feeds.</label>
+			<label index="tsce.xmlCaching">News-Feed XML-Caching: Allow caching for the RSS feed</label>
+			<label index="tsce.rss2_tmplFile">RSS-News rss v2 Template File: XML template for RSS 2.0 feed</label>
+			<label index="tsce.rss091_tmplFile">RSS-News rss v0.91 Template File: XML template for RSS 0.91 feed.</label>
+			<label index="tsce.rdf_tmplFile">RDF-News RDF Template File: XML template for RDF feed.</label>
+			<label index="tsce.atom03_tmplFile">Atom-News Atom v0.3 Template File: XML template for Atom 0.3 feed.</label>
+			<label index="tsce.atom1_tmplFile">Atom-News Atom v1.0 Template File: XML template for Atom 1.0 feed.</label>
+			<label index="updater.question_searchMovedPidlist">Should the updater fix this settings?</label>
+			<label index="updater.foundMsg_searchMovedRecursive">Found ###COUNT### content elements.</label>
+			<label index="updater.question_searchMovedRecursive">Should the updater fix this settings?</label>
+			<label index="updater.foundMsg_searchMovedNoPageBrowser">Found ###COUNT### content elements.</label>
+			<label index="updater.question_searchMovedNoPageBrowser">Should the updater fix this settings?</label>
+			<label index="updater.foundMsg_searchMovedListLimit">Found ###COUNT### content elements.</label>
+			<label index="updater.question_searchMovedListLimit">Should the updater fix this settings?</label>
+			<label index="updater.warningHeader">Important! Please Read!</label>
+			<label index="updater.nothingtodo">Nothing to do</label>
+			<label index="updater.actions">Actions:</label>
+			<label index="updater.updateresults">Update results:</label>
+			<label index="extmng.updatermsgHeader">Important!</label>
+			<label index="extmng.updatermsgLink">[Click here to open the updater]</label>
+			<label index="extmng.updatermsgOption">Updater</label>
+			<label index="tsce.singlePid">SinglePid: Page on which single news items should be displayed.</label>
+			<label index="tsce.backPid">BackPid: Page where the &quot;back to list&quot; link in single view links to.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

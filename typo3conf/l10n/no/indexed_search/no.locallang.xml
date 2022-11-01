@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="no" type="array">
+			<label index="mod_indexed_search">Indeksert søk</label>
+			<label index="mod2_indexed_search">Statistikk for indeksert søk</label>
+			<label index="ignoreExtensions">Extension %s vil bli ignorert.</label>
+			<label index="pdfToolsNotFound">PDFverktøy ble ikke funnet i sti '%1$spdftotext' og/eller '%1$spdfinfo'&quot;</label>
+			<label index="pdfToolsDisabled">PDFverktøy slått av</label>
+			<label index="pdfToolsFailed">PDFtoText slo feil på dette dokumentet: '%s'. Muligens er  pdf-filen løåst for utskrift eller kryptert</label>
+			<label index="catdocNotFound">'catdoc'verktøy for lesing av Word-filer ble ikke funnet i sti '%scatdoc'</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="no" type="array">
+			<label index="mod_indexed_search" type="integer">108129979</label>
+			<label index="mod2_indexed_search" type="integer">252429738</label>
+			<label index="ignoreExtensions" type="integer">129990630</label>
+			<label index="pdfToolsNotFound" type="integer">139780392</label>
+			<label index="pdfToolsDisabled" type="integer">133455367</label>
+			<label index="pdfToolsFailed" type="integer">199532090</label>
+			<label index="catdocNotFound" type="integer">122226442</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="no" type="array">
+			<label index="mod_indexed_search">Indexed search</label>
+			<label index="mod2_indexed_search">Indexed search statistics</label>
+			<label index="ignoreExtensions">Extension %s was set to be ignored.</label>
+			<label index="pdfToolsNotFound">PDF tools was not found in paths '%1$spdftotext' and/or '%1$spdfinfo'&quot;</label>
+			<label index="pdfToolsDisabled">PDF tools disabled</label>
+			<label index="pdfToolsFailed">PDFtoText Failed on this document: '%s'. Maybe the PDF file is locked for printing or encrypted.</label>
+			<label index="catdocNotFound">'catdoc' tool for reading Word-files was not found in path '%scatdoc'</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

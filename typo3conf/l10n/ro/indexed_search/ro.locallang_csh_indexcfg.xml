@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ro" type="array">
+			<label index="title.description">Specificaţi titlul configuraţiei.</label>
+			<label index="description.description">Dacă e necesar, introduceţi o descriere sau alte informaţii importante în acest câmp.</label>
+			<label index="timer_frequency.description">Folosiţi această setare pentru a ajusta cât de des doriţi ca procesul de reindexare să ruleze pentru configuraţia făcută.</label>
+			<label index="type.description">Selectaţi tipul de configurare indexată aici.</label>
+			<label index="table2index.description">Specificaţi tabela din baza de date din care să fie indexate înregistrările.</label>
+			<label index="fieldlist.description">Introduceţi o listă de valori separate prin virgulă ce doriţi să fie indexate.
+Primul câmp va fi folosit ca şi titlul rezultatului căutării.</label>
+			<label index="externalUrl.description">Introduceţi adresa sitului extern pe care doriţi să îl indexaţi.</label>
+			<label index="filepath.description">Introduceţi calea în interiorul fileadmin/ unde vreţi să fie indexate fişierele.</label>
+			<label index="filepath.details">Exemplu: &quot;fileadmin/newsletters/&quot;</label>
+			<label index="extensions.description">Dacă doriţi să indexaţi doar anumite fişiere dintr-un director, introduceţi o listă de extensii de fişiere aici.
+Exemplu: &quot;html,pdf,doc&quot;</label>
+			<label index="depth.description">Nivele recursivitate.</label>
+			<label index="depth.details">Pentru indxarea fişierelor acesta este nivelul de directoare în care să se parcurgă. Pentru URL extern este adâncimea la care crawler-ul va avansa în linkurile de pe pagină.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ro" type="array">
+			<label index="title.description" type="integer">101115713</label>
+			<label index="description.description" type="integer">71563733</label>
+			<label index="timer_frequency.description" type="integer">217866213</label>
+			<label index="type.description" type="integer">17983076</label>
+			<label index="table2index.description" type="integer">12518999</label>
+			<label index="fieldlist.description" type="integer">145915429</label>
+			<label index="externalUrl.description" type="integer">166464570</label>
+			<label index="filepath.description" type="integer">22108393</label>
+			<label index="filepath.details" type="integer">73154051</label>
+			<label index="extensions.description" type="integer">255817846</label>
+			<label index="depth.description" type="integer">199251578</label>
+			<label index="depth.details" type="integer">106342963</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ro" type="array">
+			<label index="title.description">Provide a title for the configuration.</label>
+			<label index="description.description">If needed, give it a description or put other important notes in this field.</label>
+			<label index="timer_frequency.description">Use this setting to adjust how often you would like a re-indexing process to run for the configuration.</label>
+			<label index="type.description">Select the type of Indexing Configuration here.</label>
+			<label index="table2index.description">Specify the database table to index records from.</label>
+			<label index="fieldlist.description">Enter a comma-list of fields to be indexed. The first field name will be used for the search result title.</label>
+			<label index="externalUrl.description">Enter the URL of the external website you want to index.</label>
+			<label index="filepath.description">Enter a filepath inside fileadmin/ where you want the files to be indexed.</label>
+			<label index="filepath.details">Example: &quot;fileadmin/newsletters/&quot;</label>
+			<label index="extensions.description">If you want to index only specific files in the directory, enter a list of file extensions here. For example: &quot;html,pdf,doc&quot;</label>
+			<label index="depth.description">Levels of recursion.</label>
+			<label index="depth.details">For file indexing it is the level of directories to decend. For External URLs it's the depth to which the crawler will go with links.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

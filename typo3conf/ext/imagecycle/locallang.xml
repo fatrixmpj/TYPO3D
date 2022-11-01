@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'imagecycle'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi1_title">Image cycle</label>
+			<label index="pi1_plus_wiz_description">Add an image cycle to your content</label>
+
+			<label index="pi2_title">Coin-Slider</label>
+			<label index="pi2_plus_wiz_description">Add a Coin-Slider to your content</label>
+
+			<label index="pi3_title">Nivo-Slider</label>
+			<label index="pi3_plus_wiz_description">Add a Nivo-Slider to your content</label>
+			<label index="pi3_theme_info">Theme information</label>
+			<label index="pi3_theme_orman">Note: Images used in the slider for the Orman Theme should have the dimensions 568px x 268px</label>
+			<label index="pi3_theme_pascal">Note: Images used in the slider for the Pascal Theme should have the dimensions 630px x 235px and works best with 4 images</label>
+
+			<label index="pi4_title">Cross-Slider</label>
+			<label index="pi4_plus_wiz_description">Add a Cross-Slider to your content</label>
+
+			<label index="pi5_title">Slice-Box</label>
+			<label index="pi5_plus_wiz_description">Add a Slice-Box to your content</label>
+
+			<label index="cms_layout.style">Display: %s</label>
+			<label index="cms_layout.not_configured">Plugin is not configured!</label>
+			<label index="cms_layout.from_ts">From Typoscript</label>
+
+			<label index="extmng.classInnerHeader">Warning!</label>
+			<label index="extmng.classInner">You have to use the "Update"-Button below to ensure proper working for all functions in this extension.</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="pi1_title">Image cycle</label>
+			<label index="pi1_plus_wiz_description">Image Cycle hinzufügen</label>
+
+			<label index="pi2_title">Coin-Slider</label>
+			<label index="pi2_plus_wiz_description">Coin-Slider hinzufügen</label>
+
+			<label index="pi3_title">Nivo-Slider</label>
+			<label index="pi3_plus_wiz_description">Nivo-Slider hinzufügen</label>
+			<label index="pi3_theme_info">Theme Information</label>
+			<label index="pi3_theme_orman">Notiz: Das Orman Theme funktioniert am besten mit der Auflösung 568px x 268px</label>
+			<label index="pi3_theme_pascal">Notiz: Das Pascal Theme funktioniert am besten mit der Auflösung 630px x 235px und 4 Bilder</label>
+
+			<label index="pi4_title">Cross-Slider</label>
+			<label index="pi4_plus_wiz_description">Cross-Slider hinzufügen</label>
+
+			<label index="pi5_title">Slice-Box</label>
+			<label index="pi5_plus_wiz_description">Slice-Box hinzufügen</label>
+
+			<label index="cms_layout.style">Anzeige: %s</label>
+			<label index="cms_layout.not_configured">Plugin ist nicht Konfiguriert!</label>
+			<label index="cms_layout.from_ts">Vom Typoscript</label>
+
+			<label index="extmng.classInnerHeader">Warnung!</label>
+			<label index="extmng.classInner">Sie müssen den "Update"-Knopf drücken um das korrekte Funktionieren der Erweiterung zu gewährleisten.</label>
+		</languageKey>
+	</data>
+</T3locallang>

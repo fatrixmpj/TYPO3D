@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="bg" type="array">
+			<label index="moduleFunction.tx_ttnews_modfunc1">tt_news мениджър на категории</label>
+			<label index="title">Мениджър на категории</label>
+			<label index="moveCategoryinto">премести категория в</label>
+			<label index="copyCategoryinto">копирай категория в</label>
+			<label index="copyCategoryafter">копирай категория след</label>
+			<label index="edit">Редактиране на запис</label>
+			<label index="showInfo">Показване на информация</label>
+			<label index="unHide">Разреши запис</label>
+			<label index="hide">Скрий запис</label>
+			<label index="deleteWarning">Сигурни ли сте, че желаете да изтриете този запис?</label>
+			<label index="delete">Изтриване на запис (!)</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="bg" type="array">
+			<label index="moduleFunction.tx_ttnews_modfunc1" type="integer">141629002</label>
+			<label index="title" type="integer">247215777</label>
+			<label index="moveCategoryinto" type="integer">26137556</label>
+			<label index="copyCategoryinto" type="integer">174822379</label>
+			<label index="copyCategoryafter" type="integer">142635098</label>
+			<label index="edit" type="integer">148343509</label>
+			<label index="showInfo" type="integer">123490643</label>
+			<label index="unHide" type="integer">252474335</label>
+			<label index="hide" type="integer">64415334</label>
+			<label index="deleteWarning" type="integer">75838368</label>
+			<label index="delete" type="integer">257712260</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="bg" type="array">
+			<label index="moduleFunction.tx_ttnews_modfunc1">tt_news category manager</label>
+			<label index="title">News category manager</label>
+			<label index="moveCategoryinto">move category into</label>
+			<label index="copyCategoryinto">copy category into</label>
+			<label index="copyCategoryafter">copy category after</label>
+			<label index="edit">Edit record</label>
+			<label index="showInfo">Show information</label>
+			<label index="unHide">Unhide Record</label>
+			<label index="hide">Hide Record</label>
+			<label index="deleteWarning">Are you sure you want to delete this record?</label>
+			<label index="delete">Delete record (!)</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

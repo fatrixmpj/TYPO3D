@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index=".alttitle">โมดูลเว็บ&gt; ข้อมูล</label>
+			<label index=".description">ความคิดของโมดูลเว็บ&gt; ข้อมูลเพื่อเป็นโมดูลโฮสต์สำหรับการใช้แบ็กเอนด์ที่ต้องการนำเสนอข้อมูลการวิเคราะห์ / หน้าหรือสาขาของต้นไม้หน้า ซึ่งอาจเป็นสถิติเว็บไซต์แคชข้อมูลสถานะเป็นต้น</label>
+			<label index=".details">แนวคิดโมดูลเว็บ&gt; ข้อมูลจะแตกต่างจากเว็บ&gt; หน้าที่โมดูลเท่านั้นโดยหลักแสดงข้อมูลแทนที่จะนำเสนอการทำงาน มันขึ้นอยู่กับโปรแกรมเมอร์ต่อการตัดสินใจที่ทั้งสองโมดูลที่ต้องการแทรกฟังก์ชัน</label>
+			<label index=".image_descr">Web&gt; โมดูลให้ข้อมูลตามหลักเป็นเชลล์ว่างเปล่า มันมี API ที่ขยายสามารถใช้แนบรายการเมนูฟังก์ชันในโมดูลข้อมูล ที่นี่คุณจะเห็น&quot;Page TSconfig ภาพรวม&quot;จากนามสกุล&quot;info_pagetsconfig&quot;</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index=".alttitle" type="integer">100519543</label>
+			<label index=".description" type="integer">76935227</label>
+			<label index=".details" type="integer">130648442</label>
+			<label index=".image_descr" type="integer">62510793</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+			<label index=".alttitle">Web &gt; Info module</label>
+			<label index=".description">The idea of the Web&gt;Info module is to be a host module for backend applications that wish to present information / analysis of pages or branches of the page tree. This could be website statistics, caching status information etc.</label>
+			<label index=".details">Conceptually the Web&gt;Info module is different from the Web&gt;Functions module only by primarily showing information rather than offering functionality. It is up to extension programmers to decide in which of these two modules they want to insert functionality.</label>
+			<label index=".image_descr">The Web&gt;Info module as provided by the core is an empty shell. It provides an API that extensions can use to attach function menu items to the Info module. Here you see the &quot;Page TSconfig&quot; overview from the extension &quot;info_pagetsconfig&quot;.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+			<label index="partials.map.form.error"/>
+			<label index="tx_gomapsext_domain_model_address">Google-Maps-Adresse</label>
+			<label index="tx_gomapsext_domain_model_address.address">Adresse</label>
+			<label index="tx_gomapsext_domain_model_address.close_by_click">Schließen mit Klick</label>
+			<label index="tx_gomapsext_domain_model_address.configuration_map">Karte</label>
+			<label index="tx_gomapsext_domain_model_address.image_height">Bildhöhe</label>
+			<label index="tx_gomapsext_domain_model_address.image_size">Bildgröße</label>
+			<label index="tx_gomapsext_domain_model_address.image_width">Bildbreite</label>
+			<label index="tx_gomapsext_domain_model_address.info_window_content">Inhalt des Info-Fensters</label>
+			<label index="tx_gomapsext_domain_model_address.info_window_link">Info-Fenster-Link</label>
+			<label index="tx_gomapsext_domain_model_address.latitude">Breite</label>
+			<label index="tx_gomapsext_domain_model_address.longitude">Länge</label>
+			<label index="tx_gomapsext_domain_model_address.marker">Marker</label>
+			<label index="tx_gomapsext_domain_model_address.open_by_click">Mit Klicken öffnen</label>
+			<label index="tx_gomapsext_domain_model_address.title">Titel</label>
+			<label index="tx_gomapsext_domain_model_map">Karte</label>
+			<label index="tx_gomapsext_domain_model_map.addresses">Adressen</label>
+			<label index="tx_gomapsext_domain_model_map.calc_route">Benutzerdefinierte Route berechnen</label>
+			<label index="tx_gomapsext_domain_model_map.class">Klasse</label>
+			<label index="tx_gomapsext_domain_model_map.default_type">Kartentyp am Anfang</label>
+			<label index="tx_gomapsext_domain_model_map.double_click_zoom">Doppelklick-Zoom</label>
+			<label index="tx_gomapsext_domain_model_map.draggable">Karte verschiebbar</label>
+			<label index="tx_gomapsext_domain_model_map.fullscreen_control"/>
+			<label index="tx_gomapsext_domain_model_map.height">in Pixeln</label>
+			<label index="tx_gomapsext_domain_model_map.kml_url"/>
+			<label index="tx_gomapsext_domain_model_map.map_type_control">Kartentyp Kontrolle</label>
+			<label index="tx_gomapsext_domain_model_map.map_types">Kartentypen</label>
+			<label index="tx_gomapsext_domain_model_map.scale_control"/>
+			<label index="tx_gomapsext_domain_model_map.scroll_zoom">Durch Scrollen zoomen</label>
+			<label index="tx_gomapsext_domain_model_map.show_route">Zeige Route</label>
+			<label index="tx_gomapsext_domain_model_map.streetview_control"/>
+			<label index="tx_gomapsext_domain_model_map.styled_map_code"/>
+			<label index="tx_gomapsext_domain_model_map.styled_map_name"/>
+			<label index="tx_gomapsext_domain_model_map.title">Titel* (ohne Leerzeichen und Sonderzeichen)</label>
+			<label index="tx_gomapsext_domain_model_map.tooltip_title">Tooltip-Titel</label>
+			<label index="tx_gomapsext_domain_model_map.travel_mode.0">Mit dem Auto</label>
+			<label index="tx_gomapsext_domain_model_map.travel_mode.2">Mit dem Fahrrad</label>
+			<label index="tx_gomapsext_domain_model_map.travel_mode.3">Öffentliche Verkehrsmittel</label>
+			<label index="tx_gomapsext_domain_model_map.travel_mode.4">Zu Fuß</label>
+			<label index="tx_gomapsext_domain_model_map.unit_system.2">km</label>
+			<label index="tx_gomapsext_domain_model_map.unit_system.3">mil</label>
+			<label index="tx_gomapsext_domain_model_map.width">in px</label>
+			<label index="tx_gomapsext_domain_model_map.zoom">Zoom</label>
+			<label index="tx_gomapsext_domain_model_map.zoom_control"/>
+			<label index="tx_gomapsext_flexform_settings">Einstellungen</label>
+			<label index="tx_gomapsext_flexform_settings.map">Karte</label>
+			<label index="tx_gomapsext_partials_map_assign.alert">Bitte geben Sie eine gültige Adresse ein.</label>
+			<label index="tx_gomapsext_partials_map_assign.infoWindowLinkText">Route berechnen</label>
+			<label index="tx_gomapsext_partials_map_assign.noSearchResults">Die Suche lieferte keine Ergebnisse.</label>
+			<label index="tx_gomapsext_partials_map_assign.submit">Route berechnen</label>
+			<label index="tx_gomapsext_partials_map_assign.submitSearch">Suchen</label>
+			<label index="tx_gomapsext_templates_map_preview.link"/>
+			<label index="update_by_address"/>
+			<label index="update_by_position"/>
+		</languageKey>
+  </data>
+</T3locallangExt>

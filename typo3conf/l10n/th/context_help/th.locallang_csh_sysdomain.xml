@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index=".description">กำหนด entrypoint ของชื่อโฮสต์บาง</label>
+			<label index=".details">เมื่อฐานข้อมูล TYPO3 มีมากกว่าเว็บไซต์เดียวคุณมักจะมีการกำหนดชื่อโดเมนแต่ละเว็บไซต์ใหม่&quot;root หน้า&quot; ในทางปฏิบัติคุณจุดโดเมนทั้งหมดในฐานข้อมูล TYPO3 เดียวกันบนเซิร์ฟเวอร์ แต่คุณแทรกระเบียน Domain เหล่านี้ที่ตำแหน่งในต้นไม้หน้าที่คุณต้องการตรงหน้าไปยังโดเมน และหน้าจึง'ภายนอก'ที่จุดจะไม่สามารถเข้าถึงได้จากโดเมนที่ 
+นี้เช่น&quot;Virtual hosts&quot;ในเซิร์ฟเวอร์ Apache 
+
+(อาจจะควรสำหรับ admin เท่านั้น . )</label>
+			<label index="domainName.description">ป้อนชื่อโฮสต์เช่น &quot;www.my domain.com&quot;</label>
+			<label index="domainName.details">ก่อนที่บันทึกโดเมนจะมีเซิร์ฟเวอร์ใด ๆ ผลที่คุณจะต้องตรวจสอบให้แน่ใจว่าโดเมน - A บันทึกเป็นแหลมที่มีต่อการที่เซิร์ฟเวอร์ของคุณตั้งค่าการร้องขอโดยตรงไปยังฐานข้อมูล TYPO3 ดังนั้นโดยทั่วไปก่อนเข้าอะไรที่นี่ให้แน่ใจว่าป้อนขอไปยังโดเมนที่คุณต้องการมาถึงต้นไม้รากปัจจุบันของหน้า
+เมื่อคุณสร้างระเบียนโดเมนและชื่อโฮสต์ในนั้น (ไม่ว่าจะเป็นชื่อโดเมนจริงหรือ IP ที่อยู่) ตรงปลาย hostname ของ URL ตามหน้า TypoScript จะ จำกัด หน้าใช้ได้เฉพาะผู้ที่อยู่ในต้นไม้หน้าจากจุดนี้ไปข้างนอก ผลคุณ'จะมาถึง'ที่สาขาหน้านี้ที่บันทึกได้นอกจากนี้ผู้ใช้จะไม่สามารถดูหน้าเว็บที่มีรหัสนี้นอก 
+
+&lt;strong&gt;Notice ถ้าคุณใช้&lt;/strong&gt; TYPO3 จากไดเรกทอรีย่อยชื่อโดเมนของคุณต้องมีไดเรกทอรีย่อยเป็นอย่างดีเช่น &quot;www.my-domain.org/typo3_subdir/&quot;</label>
+			<label index="redirectTo.description">แสดงทั้งหมดไปยังโดเมนที่จะนำไปยัง URL นี้หากค่าใดเข้า</label>
+			<label index="redirectTo.details">ให้แน่ใจว่าย่อหน้า&quot;http://&quot;หรือเท่ากันค่า! ทั่วไป&quot;สถานที่ : หัว&quot;ออกแค่ค่านี้ 
+&lt;strong&gt;คำเตือน :&lt;/strong&gt; คุณไม่สามารถใช้นี้'เปลี่ยนเส้นทางไปยังหน้าเฉพาะ id ภายในโดเมนเดียวกับบันทึกได้! ถ้าคุณว่าแค่เข้า loop ไม่รู้จบเพราะมีการเปลี่ยนเส้นทางการเปลี่ยนเส้นทางเพื่อตัวเอง! 
+
+ดีตัวอย่าง : 
+โดเมน :&quot;domain.org ของฉัน&quot; 
+Redirect&quot;www.my - domain.org&quot; 
+
+นี้เปลี่ยนเส้นทางการร้องขอเพื่ออะไร infact ชื่อโดเมนอื่นคือ&quot;www.my - domain.org&quot; 
+
+Bad Example : 
+Domain :&quot;www.my - domain.org&quot; 
+Redirect&quot;www.my-domain.org/?id=10&quot; 
+
+นี้จะเข้า วงนิรันดร์เพราะชื่อโดเมนได้ในความเป็นจริงไม่มีการเปลี่ยนแปลง! 
+
+
+ไดเรกทอรี Virtual : 
+หากคุณใช้ TYPO3 ในคอมพิวเตอร์ unix คุณสามารถ'ไดเรกทอรีย่อยเสมือน'ในเว็บไซต์ยังคงอยู่ในฐานข้อมูลเดียวกัน รายการเอกสารดูรายละเอียดเพิ่มเติม ในกรณีที่คุณควรป้อนนี้โฮสต์ที่มีไดเรกทอรีย่อยต่อท้ายเช่น : my-domain.org/subdir&quot;/&quot; หากการรวมกันของชื่อโฮสต์และไดเรกทอรีปัจจุบันตรงกับค่าที่บันทึกโดเมนจะได้รับการตรวจอย่างถูกต้องและ จำกัด การเข้าถึงหน้าไปที่ต้นไม้หน้าด้านล่างบันทึก Domain</label>
+			<label index="hidden.description">ใช้ตัวเลือกนี้เพื่อปิดชั่วคราวระเบียน Domain</label>
+			<label index="prepend_params.description">หากตั้งใด GET พารามิเตอร์ในการเรียก URL จะถูกโอนไปยัง URL การเปลี่ยนเส้นทาง</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index=".description" type="integer">102441634</label>
+			<label index=".details" type="integer">232530587</label>
+			<label index="domainName.description" type="integer">15093983</label>
+			<label index="domainName.details" type="integer">164327412</label>
+			<label index="redirectTo.description" type="integer">191995947</label>
+			<label index="redirectTo.details" type="integer">253314629</label>
+			<label index="hidden.description" type="integer">31618732</label>
+			<label index="prepend_params.description" type="integer">132631349</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+			<label index=".description">Determines the entrypoint of a certain host name.</label>
+			<label index=".details">When a TYPO3 database contains more than a single website, you'll typically have to assign a domain name to each new websites &quot;root-page&quot;. In practice you point all the domains to the same TYPO3 database on the server, but then you insert these Domain records at the positions in the page tree where you want to direct requests to the domain. And thus pages 'outside' that point will not be accessible from that domain.
+This is like &quot;Virtual hosts&quot; in Apache servers.
+
+(Should probably be available for admin only.)</label>
+			<label index="domainName.description">Enter the host name, eg. &quot;www.my-domain.com&quot;.</label>
+			<label index="domainName.details">Before a domain record will have any effect you must make sure that the domains A-record is pointed towards the server and that your server is setup to direct requests to this TYPO3 database. So basically before entering anything here, make sure a request to the domain you wish to enter arrives at the root of the current page tree.
+When you create a domain record and the host name in it (be it a real domain name or an IP address) matches the hostname of the URL, the TypoScript based front end will limit the available page to only those in the page tree from this point and outwards. In effect you will 'arrive' at the page where this record is and furthermore users cannot see pages with ids outside this branch.
+
+&lt;strong&gt;Notice, &lt;/strong&gt;if you run TYPO3 from a subdirectory of the domain name, you must include the subdirectory as well, eg. &quot;www.my-domain.org/typo3_subdir/&quot;</label>
+			<label index="redirectTo.description">All requests to the domain will be redirected to this URL, if any value is entered.</label>
+			<label index="redirectTo.details">Make sure to prepend &quot;http://&quot; or equally to the value! Basically a &quot;Location: &quot; header is just issued to this value!
+&lt;strong&gt;Warning:&lt;/strong&gt; You cannot use this to 'redirect' to a specific page id within the same domain as the record has! If you do that it'll just go into an endless loop because the redirect is redirecting to itself!
+
+Good Example:
+Domain: &quot;my-domain.org&quot;
+Redirect: &quot;www.my-domain.org&quot;
+
+This redirects requests to what is infact another domain name, namely &quot;www.my-domain.org&quot;
+
+Bad Example:
+Domain: &quot;www.my-domain.org&quot;
+Redirect: &quot;www.my-domain.org/?id=10&quot;
+
+This will go into an eternal loop because the domain name has in fact not changed!
+
+
+Virtual directories:
+If you're using TYPO3 on a unix computer you can make 'virtual subdirectories' to a website, still within the same database. See document list for more information. In that case you should enter the hostname with the subdirectory appended, like this: &quot;my-domain.org/subdir/&quot;. If the combination of host name and current subdirectory matches the value, the domain record will be correctly detected and limit page access to the page tree below the Domain record.</label>
+			<label index="hidden.description">Use this option to temporarily disable the Domain record.</label>
+			<label index="prepend_params.description">If set, any GET parameters in the calling URL will be transferred to the redirect URL.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

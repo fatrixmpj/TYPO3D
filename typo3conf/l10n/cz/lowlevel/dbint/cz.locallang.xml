@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="cz" type="array">
+			<label index="menu">[ MENU ]</label>
+			<label index="recordStatistics">Statistika záznamů</label>
+			<label index="totalPageTree">Celkový strom stránek</label>
+			<label index="databaseRelations">Databázové relace</label>
+			<label index="fullSearch">Kompletní prohledávání</label>
+			<label index="findFilename">Hledat název souboru</label>
+			<label index="manageRefIndex">Spravovat referenční index</label>
+			<label index="rawSearch">Surové hledání ve všech polích</label>
+			<label index="advancedQuery">Rozšířený dotaz</label>
+			<label index="selectRecords">Vyberte záznamy</label>
+			<label index="countResults">Počet výsledků</label>
+			<label index="explainQuery">Vysvětlit dotaz</label>
+			<label index="csvExport">CSV Export</label>
+			<label index="xmlExport">XML Export</label>
+			<label index="clickToUpdateRefIndex">Klikněte zde pro aktualizaci referenčního indexu:</label>
+			<label index="updateNow">Aktualizovat teď!</label>
+			<label index="clickToTestRefIndex">Klikněte zde pro kontrolu referenčního indexu:</label>
+			<label index="checkNow">Zkontrolovat teď!</label>
+			<label index="checkScript">Kontrolu můžete spustit také jako shell skript pomocí CLI, pokud zpracování trvá déle, než umožňuje PHP max_execution_time.</label>
+			<label index="checkScript_check_description">Chcete-li zkontrolovat referenční index, použijte:</label>
+			<label index="checkScript_check_example">php /cesta/k/vašemu/typo3/cli_dispatch.phpsh lowlevel_refindex -c</label>
+			<label index="checkScript_update_description">Chcete-li aktualizovat referenční index, použijte:</label>
+			<label index="checkScript_update_example">php /cesta/k/vašemu/typo3/cli_dispatch.phpsh lowlevel_refindex -e</label>
+			<label index="checkScript_more">Ujistěte se, že existuje uživatel s názvem _cli_lowlevel. Pro více informací viz: /cesta/k/vašemu/typo3/sysext/lowlevel/HOWTO_clean_up_TYPO3_installations.txt</label>
+			<label index="updateRefIndex">Aktualizovat referenční index</label>
+			<label index="showSQL">Zobrazit SQL části</label>
+			<label index="useFormattedStrings">Použít pro výsledky místo původních hodnot formátované řetězce, označení a data</label>
+			<label index="dontUseOrigValues">Nepoužít původní hodnoty v závorkách jako předponu pro označené výsledky</label>
+			<label index="sortOptions">Třídit možnosti v selectboxu relací podle označení, a nikoli podle hodnoty</label>
+			<label index="showDeleted">Zobrazit i vymazané položky (s tlačítky pro obnovení)</label>
+			<label index="searchOptions">Možnosti hledání:</label>
+			<label index="result">Výsledek:</label>
+			<label index="tables">Tabulky:</label>
+			<label index="references">reference:</label>
+			<label index="isMissing">chybí!</label>
+			<label index="referencedFrom">Odkazováno z:</label>
+			<label index="enterRegexPattern">Zadejte řetězec regex:</label>
+			<label index="searchButton">Hledat</label>
+			<label index="pattern">Řetězec</label>
+			<label index="beingChecked">probíhá kontrola...</label>
+			<label index="directories">Adresáře:</label>
+			<label index="directoriesTooDeep">CHYBA: Adresáře jsou hlubší, než následující počet úrovní:</label>
+			<label index="files">Soubory:</label>
+			<label index="matchingFiles">Odpovídající soubory:</label>
+			<label index="notChecked">nekontrolované.</label>
+			<label index="searchingForFilenames">Vyhledávání názvů souborů:</label>
+			<label index="fixLostRecord">Klikněte pro přesunutí ztraceného záznamu na nejvyšší úroveň (pid=0)</label>
+			<label index="doktype">Typy dokumentů:</label>
+			<label index="doktype_value">Typy dokumentů (hodnota)</label>
+			<label index="pages">Stránky:</label>
+			<label index="total_pages">Celkový počet stran:</label>
+			<label index="deleted_pages">Označené vymazané strany:</label>
+			<label index="hidden_pages">Skryté strany:</label>
+			<label index="count">Počet</label>
+			<label index="label">Jmenovka</label>
+			<label index="tablename">Jméno tabulky</label>
+			<label index="total_lost">Záznamy celkem / ztracené</label>
+			<label index="relations">Relace:</label>
+			<label index="relations_description">Provede analýzu obsahu tabulek a zkontroluje, zda existují &quot;prázdné&quot; relace mezi záznamy, nebo zda chybí soubory na jejich očekávaných místech.</label>
+			<label index="files_many_ref">Soubory propojené s více než jedním záznamem:</label>
+			<label index="files_no_ref">Soubory bez odkazů (vymazat!):</label>
+			<label index="files_no_file">Chybějící soubory:</label>
+			<label index="select_db">Vybraná pole:</label>
+			<label index="group_db">Skupinová pole:</label>
+			<label index="tree">Strom stránek:</label>
+			<label index="tree_description">Ukáže strukturu všech stránek v systému v jednom velkém stromu. Pozor, výsledkem může být velmi dlouhý dokument, jehož vytvoření bude chvíli trvat!</label>
+			<label index="records">Statistiky záznamů:</label>
+			<label index="records_description">Ukáže statistiky záznamů v databázi. Protože prochází kompletní strom stránek, poměrně zatíží server.</label>
+			<label index="search">Prohledat celou databázi</label>
+			<label index="search_description">V celé databázi hledá zadaný textový řetězec.</label>
+			<label index="filesearch">Hledat všechny názvy souborů podle zadání</label>
+			<label index="filesearch_description">Bude hledat rekurzívně soubory v PATH_site (podadresáře vztaženo k websajtu) odpovídající danému regex vzoru.</label>
+			<label index="refindex">Zkontrolovat a aktualizovat globální referenční index</label>
+			<label index="refindex_description">Dovoluje vám udržovat referenční index, uchovávaný systémem TYPO3.</label>
+			<label index="title">Kontrola integrity databáze</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="cz" type="array">
+			<label index="tables" type="integer">267355363</label>
+			<label index="fixLostRecord" type="integer">264598103</label>
+			<label index="doktype" type="integer">59646372</label>
+			<label index="pages" type="double">9915692</label>
+			<label index="total_pages" type="integer">120516512</label>
+			<label index="deleted_pages" type="integer">251989828</label>
+			<label index="hidden_pages" type="integer">56221326</label>
+			<label index="relations" type="integer">158458960</label>
+			<label index="files_many_ref" type="integer">253873964</label>
+			<label index="files_no_ref" type="integer">51429792</label>
+			<label index="files_no_file" type="integer">103076812</label>
+			<label index="select_db" type="integer">222215195</label>
+			<label index="group_db" type="integer">89872761</label>
+			<label index="tree" type="integer">254322778</label>
+			<label index="relations_description" type="integer">98163255</label>
+			<label index="tree_description" type="double">13437987</label>
+			<label index="records" type="integer">107937849</label>
+			<label index="records_description" type="integer">36151804</label>
+			<label index="search" type="integer">123541641</label>
+			<label index="search_description" type="integer">44447557</label>
+			<label index="filesearch" type="integer">138409460</label>
+			<label index="title" type="integer">152428276</label>
+			<label index="filesearch_description" type="integer">206400326</label>
+			<label index="refindex" type="integer">67579080</label>
+			<label index="refindex_description" type="integer">26536462</label>
+			<label index="menu" type="integer">117231524</label>
+			<label index="recordStatistics" type="integer">2212397</label>
+			<label index="totalPageTree" type="integer">38682901</label>
+			<label index="databaseRelations" type="integer">18893124</label>
+			<label index="fullSearch" type="integer">72811897</label>
+			<label index="findFilename" type="integer">174834893</label>
+			<label index="manageRefIndex" type="integer">187534436</label>
+			<label index="rawSearch" type="integer">164874396</label>
+			<label index="advancedQuery" type="integer">194603634</label>
+			<label index="selectRecords" type="integer">268424673</label>
+			<label index="countResults" type="integer">201253193</label>
+			<label index="explainQuery" type="integer">55224898</label>
+			<label index="csvExport" type="integer">161014981</label>
+			<label index="xmlExport" type="integer">154322955</label>
+			<label index="clickToUpdateRefIndex" type="integer">96122843</label>
+			<label index="updateNow" type="integer">65121896</label>
+			<label index="clickToTestRefIndex" type="integer">214997929</label>
+			<label index="checkNow" type="integer">32692252</label>
+			<label index="doktype_value" type="integer">88548429</label>
+			<label index="count" type="integer">244578708</label>
+			<label index="label" type="integer">184688118</label>
+			<label index="tablename" type="integer">97699254</label>
+			<label index="total_lost" type="integer">229932186</label>
+			<label index="checkScript" type="integer">147393908</label>
+			<label index="checkScript_check_description" type="integer">131872783</label>
+			<label index="checkScript_check_example" type="integer">112484120</label>
+			<label index="checkScript_update_description" type="integer">19574226</label>
+			<label index="checkScript_update_example" type="integer">252079053</label>
+			<label index="checkScript_more" type="integer">224618815</label>
+			<label index="updateRefIndex" type="integer">263776139</label>
+			<label index="showSQL" type="integer">39739107</label>
+			<label index="useFormattedStrings" type="integer">124317883</label>
+			<label index="dontUseOrigValues" type="integer">228502809</label>
+			<label index="sortOptions" type="integer">242481251</label>
+			<label index="showDeleted" type="integer">2530761</label>
+			<label index="searchOptions" type="integer">171952094</label>
+			<label index="result" type="integer">95077261</label>
+			<label index="references" type="integer">161423135</label>
+			<label index="isMissing" type="integer">87532334</label>
+			<label index="referencedFrom" type="integer">30307645</label>
+			<label index="enterRegexPattern" type="integer">257265137</label>
+			<label index="searchButton" type="integer">20138052</label>
+			<label index="pattern" type="integer">91459865</label>
+			<label index="beingChecked" type="integer">189917242</label>
+			<label index="directories" type="integer">190776856</label>
+			<label index="directoriesTooDeep" type="integer">173817256</label>
+			<label index="files" type="integer">147226768</label>
+			<label index="matchingFiles" type="integer">21408337</label>
+			<label index="notChecked" type="integer">68538461</label>
+			<label index="searchingForFilenames" type="integer">200259704</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="cz" type="array">
+			<label index="tables">Tables:</label>
+			<label index="fixLostRecord">Click to move this lost record to rootlevel (pid=0)</label>
+			<label index="doktype">Document types:</label>
+			<label index="pages">Pages:</label>
+			<label index="total_pages">Total number of pages:</label>
+			<label index="deleted_pages">Marked-deleted pages:</label>
+			<label index="hidden_pages">Hidden pages:</label>
+			<label index="relations">Relations:</label>
+			<label index="files_many_ref">Files referenced from more than one record:</label>
+			<label index="files_no_ref">Files with no references at all (delete them!):</label>
+			<label index="files_no_file">Missing files:</label>
+			<label index="select_db">Select fields:</label>
+			<label index="group_db">Group fields:</label>
+			<label index="tree">The Page Tree:</label>
+			<label index="relations_description">This will analyse the content of the tables and check if there are 'empty' relations between records or if files are missing from their expected position.</label>
+			<label index="tree_description">This shows all pages in the system in one large tree. Beware that this will probably result in a very long document which will also take some time for the server to compute!</label>
+			<label index="records">Records Statistics:</label>
+			<label index="records_description">This shows some statistics for the records in the database. This runs through the entire page-tree and therefore it will also load the server heavily!</label>
+			<label index="search">Search whole Database</label>
+			<label index="search_description">This searches through all database tables and records for a text string.</label>
+			<label index="filesearch">Search all filenames for pattern</label>
+			<label index="title">Database integrity check</label>
+			<label index="filesearch_description">Will search recursively for filenames in the PATH_site (subdirs to the website path) matching a certain regex pattern.</label>
+			<label index="refindex">Check and update global reference index</label>
+			<label index="refindex_description">Allows you to maintain the reference index kept by TYPO3.</label>
+			<label index="menu">[ MENU ]</label>
+			<label index="recordStatistics">Record Statistics</label>
+			<label index="totalPageTree">Total Page Tree</label>
+			<label index="databaseRelations">Database Relations</label>
+			<label index="fullSearch">Full search</label>
+			<label index="findFilename">Find filename</label>
+			<label index="manageRefIndex">Manage Reference Index</label>
+			<label index="rawSearch">Raw search in all fields</label>
+			<label index="advancedQuery">Advanced query</label>
+			<label index="selectRecords">Select records</label>
+			<label index="countResults">Count results</label>
+			<label index="explainQuery">Explain query</label>
+			<label index="csvExport">CSV Export</label>
+			<label index="xmlExport">XML Export</label>
+			<label index="clickToUpdateRefIndex">Click here to update reference index:</label>
+			<label index="updateNow">Update now!</label>
+			<label index="clickToTestRefIndex">Click here to test reference index:</label>
+			<label index="checkNow">Check now!</label>
+			<label index="doktype_value">Document types (value)</label>
+			<label index="count">Count</label>
+			<label index="label">Label</label>
+			<label index="tablename">Table name</label>
+			<label index="total_lost">Records total / lost</label>
+			<label index="checkScript">You can also run the check as a shell script using CLI if the processing takes longer than the PHP max_execution_time allows.</label>
+			<label index="checkScript_check_description">To check the reference index use:</label>
+			<label index="checkScript_check_example">php /path/to/your/typo3/cli_dispatch.phpsh lowlevel_refindex -c</label>
+			<label index="checkScript_update_description">To update the reference index use:</label>
+			<label index="checkScript_update_example">php /path/to/your/typo3/cli_dispatch.phpsh lowlevel_refindex -e</label>
+			<label index="checkScript_more">Make sure that a BE user with the name _cli_lowlevel exists. For more details see: /path/to/your/typo3/sysext/lowlevel/HOWTO_clean_up_TYPO3_installations.txt</label>
+			<label index="updateRefIndex">Update reference index</label>
+			<label index="showSQL">Show SQL parts</label>
+			<label index="useFormattedStrings">Use formatted strings, labels and dates instead of original values for results</label>
+			<label index="dontUseOrigValues">Don't use original values in brackets as prefix for labelled results</label>
+			<label index="sortOptions">Sort selectbox-options for relations by label and not by value</label>
+			<label index="showDeleted">Show even deleted entries (with undelete buttons)</label>
+			<label index="searchOptions">Search options:</label>
+			<label index="result">Result:</label>
+			<label index="references">references:</label>
+			<label index="isMissing">is missing!</label>
+			<label index="referencedFrom">Referenced from:</label>
+			<label index="enterRegexPattern">Enter regex pattern:</label>
+			<label index="searchButton">Search</label>
+			<label index="pattern">Pattern</label>
+			<label index="beingChecked">being checked...</label>
+			<label index="directories">Dirs:</label>
+			<label index="directoriesTooDeep">ERROR: Directories deeper than the following number of levels:</label>
+			<label index="files">Files:</label>
+			<label index="matchingFiles">Matching files:</label>
+			<label index="notChecked">not checked.</label>
+			<label index="searchingForFilenames">Searching for filenames:</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

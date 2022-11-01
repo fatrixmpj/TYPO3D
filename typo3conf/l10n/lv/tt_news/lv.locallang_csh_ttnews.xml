@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lv" type="array">
+			<label index=".description">Jaunumu sistēma</label>
+			<label index=".details">&quot;Jaunumu&quot; ieraksti - parasti ievietoti mājaslapas pirmajā lapā, un satur saites uz pilniem jaunumu ierakstiem (pilna skata lapā). Tie attiecīgi var piedāvāt arī rakstu funkcionalitāti, saites uz pilnā skata lapām sistēmā, vai arī uz ārējiem resursiem.</label>
+			<label index="editlock.description">Ja šis ir aktivizēts, lietotāji, kas nav administrātori, vairs nevarēs atvērt ierakstu.</label>
+			<label index="datetime.description">Šeit ievadītā vērtība tiks parādīta kā datums un/vai laiks jaunumu ieraktos.</label>
+			<label index="sys_language_uid.description">Jaunumu ieraksta valoda.</label>
+			<label index="author.description">Jaunumu ieraksta autors.</label>
+			<label index="author_email.description">Jaunumu ieraksta autora e-pasta adrese.</label>
+			<label index="short.description">Neliels ievadteksts jaunumu ierakstam.</label>
+			<label index="bodytext.description">Šis ir pamata teksts jaunumu ierakstam.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lv" type="array">
+			<label index=".description" type="integer">175288138</label>
+			<label index=".details" type="integer">202181729</label>
+			<label index="editlock.description" type="integer">215647851</label>
+			<label index="datetime.description" type="integer">47151714</label>
+			<label index="sys_language_uid.description" type="integer">165373654</label>
+			<label index="author.description" type="integer">121595033</label>
+			<label index="author_email.description" type="integer">221235019</label>
+			<label index="short.description" type="integer">221863442</label>
+			<label index="bodytext.description" type="integer">138969162</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lv" type="array">
+			<label index=".description">Versatile news system for TYPO3.</label>
+			<label index=".details">&quot;News&quot; items are typically those which goes on your frontpage on the websites and allows you to link down to a page with the full story (the &quot;single view&quot;). They may also represent links to internal pages in the system or links to external pages.</label>
+			<label index="editlock.description">If this is enabled non-admin users can't open the record anymore.</label>
+			<label index="datetime.description">The value entered here will be shown as date and/or time in news articles.</label>
+			<label index="sys_language_uid.description">The language of the news record.</label>
+			<label index="author.description">The author of the news record.</label>
+			<label index="author_email.description">The email address of the news author.</label>
+			<label index="short.description">A short teaser text for the news article.</label>
+			<label index="bodytext.description">This is the main text for the news article.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

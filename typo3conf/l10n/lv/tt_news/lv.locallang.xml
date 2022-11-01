@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lv" type="array">
+			<label index="pi_title">Jaunumi</label>
+			<label index="pi_plus_wiz_description">Elastīga jaunumu sistēma</label>
+			<label index="cms_layout.mode">Rāda: %s</label>
+			<label index="cms_layout.not_configured">Paplašinājums nav konfigurēts!</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lv" type="array">
+			<label index="pi_title" type="integer">231848472</label>
+			<label index="pi_plus_wiz_description" type="integer">69242695</label>
+			<label index="cms_layout.mode" type="integer">120700661</label>
+			<label index="cms_layout.not_configured" type="integer">90124966</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lv" type="array">
+			<label index="pi_title">News</label>
+			<label index="pi_plus_wiz_description">Versatile news system for TYPO3</label>
+			<label index="cms_layout.mode">Displaying: %s</label>
+			<label index="cms_layout.not_configured">Plugin is not configured!</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

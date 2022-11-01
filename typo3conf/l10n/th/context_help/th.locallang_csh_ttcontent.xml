@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index=".description">เนื้อหาที่ปรากฏบนหน้าเว็บใน TYPO3 ทำโดยทั่วไป&quot;Pagecontent&quot;บันทึก พวกเขามักจะเรียกว่า&quot;เนื้อหาองค์ประกอบ&quot; มักจะมีเนื้อหาองค์ประกอบจัดการโดย&quot;module Page&quot;ที่ถูกออกแบบมาเพื่อจัดการเนื้อหาองค์ประกอบในหลายคอลัมน์และภาษา</label>
+			<label index=".details">&quot;บันทึก&quot;Pagecontent สามารถสั่งซื้อและสามารถทำให้การจัดรูปใหม่ แจ้งให้ทราบอีกว่า&quot;ภาษา&quot;และ&quot;เลือกคอลัมน์&quot;ใน&quot;บันทึก&quot;Pagecontent ที่กำหนดและในสถานการณ์ที่ปรากฏ หากคุณไม่เปลี่ยนแปลงค่าของภาษา&quot;ที่&quot;และ&quot;คอลัมน์ selectors&quot;คุณแน่ใจว่าองค์ประกอบส่วนใหญ่จะปรากฏขึ้นตามค่าเริ่มต้น</label>
+			<label index=".image_descr">โมดูลหน้าจะใช้เพื่อจัดการเนื้อหาองค์ประกอบได้อย่างมีประสิทธิภาพตามที่ปรากฏในคอลัมน์จัดและภาษา 
+Content Element มีการแก้ไขฟอร์มใหญ่ที่มีหลายทางเลือก &quot;พิมพ์&quot;จะกำหนดตัวเลือกจะปรากฏ 
+ใน frontend -- บนหน้าเว็บ -- Content Element เช่นข้างต้นจะมีลักษณะเช่นนี้</label>
+			<label index="CType.description">เลือกประเภทเนื้อหาหน้าธาตุนี้แทน ตัวเลือก New จะปรากฏขึ้นเมื่อคุณบันทึกบันทึก</label>
+			<label index="CType.details">'ประเภท'ของเนื้อหาที่คุณเลือกจะกำหนดตัวคุณได้ใน editform เพื่อให้แน่ใจว่าบันทึกบันทึกก่อนที่จะเปลี่ยนแปลง 
+
+นี้เป็นคำอธิบายของประเภทต่างๆ : &lt;strong&gt;
+
+หัว&lt;/strong&gt; 
+ชนิดนี้จะทำให้คุณใส่องค์ประกอบมาตรฐานส่วนหัวและเนื้อหา ไม่มีอะไรมาก 
+เกือบทุกประเภทอื่นอธิบายด้านล่างนี้ยังมีตัวเลือกที่หัวตรงกับ &lt;em&gt;ดังนั้นชนิดหัวแค่ให้หัวไปทางแทรกเท่านั้นไม่มีสิ่งอื่น&lt;/em&gt; 
+
+&lt;strong&gt;Text&lt;/strong&gt; 
+พิมพ์ข้อความคุณสามารถแทรกเนื้อหาปกติหน้า 
+
+&lt;strong&gt;กว้าง Text image /&lt;/strong&gt; 
+นี้จะเหมือนกับประเภท Text (เนื้อหาหน้าปกติ) แต่มีตัวเลือก ภาพแนบ 
+
+&lt;strong&gt;รูปภาพ&lt;/strong&gt; 
+เดียว w Text image / แต่ไม่มีช่องข้อความ -- ภาพเท่านั้นดังนั้น 
+
+&lt;strong&gt;Bullet รายการ&lt;/strong&gt; 
+ช่วยให้คุณสร้างรายการ bullet เขตข้อมูลแต่ละสายใน - ข้อความจะปรากฏเป็นเส้นเดียวใน bulletlist 
+
+&lt;strong&gt;ตาราง&lt;/strong&gt; 
+&lt;em&gt;ช่วยให้ท่านสร้างตารางง่าย&lt;/em&gt; แต่ละเส้นแทน tablerow และแถบแนวตั้ง'|'คั่นแต่ละคอลัมน์ 
+
+&lt;strong&gt;Filelinks&lt;/strong&gt; 
+อนุญาตคุณแสดงรายการของไฟล์สำหรับการดาวน์โหลด คุณสามารถแนบภาพขนาดเล็กขนาดรายการรวมถึง 
+
+&lt;strong&gt;มัลติมีเดีย&lt;/strong&gt; 
+ช่วยให้ท่านแทรกองค์ประกอบมัลติมีเดียเช่นเสียงวิดีโอและภาพเคลื่อนไหวจาวา flash 
+
+&lt;strong&gt;แบบฟอร์ม&lt;/strong&gt; 
+ช่วยให้คุณสร้างฟอร์ม mail มีสาขาเป็นพิเศษไวยากรณ์ใช้เมื่อคุณต้องการสร้างฟอร์ม 
+
+&lt;strong&gt;ค้นหา&lt;/strong&gt; 
+แทรกนี้ช่องค้นหาและยังจะแสดงผลลัพธ์ที่ถ้าจะทำแบบสอบถามไปยังหน้า 
+
+&lt;strong&gt;เข้าสู่ระบบ&lt;/strong&gt; 
+แสดงกล่องเข้าสู่ระบบสำหรับผู้ใช้เว็บไซต์ คุณต้องสร้างอย่างน้อยหนึ่งผู้ใช้เว็บไซต์และกลุ่มผู้ใช้ก่อนหน้านี้ทำให้รู้สึกใด ๆ ที่ใช้ 
+
+&lt;strong&gt;Textbox&lt;/strong&gt; 
+นี้เป็นหลักในการออกแบบกำหนด customly ซึ่งรวมถึงปกติบางข้อความและรูปภาพ ดังนั้นคำอื่นทำงานไม่ได้กำหนดโดยทั่วไป แต่ชนิดย่อยเริ่มต้นจะทำให้คุณสามารถเลือกหลายวิธีในการแสดงด้วยข้อความบางภาพ 
+ใช้เฉพาะกรณีสั่งให้ 
+
+&lt;strong&gt;เมนูแผนผังเว็บไซต์&lt;/strong&gt; 
+เสนอเมนูให้เลือกหลากหลายและเชื่อมโยงหน้า sitemap คุณสามารถแทรกใน 
+
+&lt;strong&gt;บันทึกแทรก&lt;/strong&gt; 
+เป็นตัวยึด สำหรับรายการอื่น ในคำอื่นโดยองค์ประกอบนี้คุณสามารถแนบองค์ประกอบเนื้อหาจากที่อื่นและทำให้พวกเขาแทรกหน้านี้ 
+
+&lt;strong&gt;ปลั๊กอินแทรก&lt;/strong&gt; 
+นี้จะทำให้คุณสามารถแทรก forum, &lt;em&gt;สมุดรายชื่อที่อยู่ตะกร้าเป็นต้นคุณสมบัติต่างมีเฉพาะ&lt;/em&gt; มีการกำหนดค่าถูกต้องในแม่แบบของเว็บไซต์ ดังนั้นก่อนที่คุณจะใช้ให้ตรวจสอบเป็นกรณีนี้ 
+
+&lt;strong&gt;Script&lt;/strong&gt; 
+นี้สำหรับวัตถุประสงค์ที่กำหนดเองที่แม่แบบนักพัฒนาสามารถทำให้คุณสามารถแทรกเนื้อหาหน้าโดยเฉพาะองค์ประกอบของชนิดนี้พร้อมกับรหัสเพื่อระบุเนื้อหาที่คุณต้องการพิเศษ 
+
+&lt;strong&gt;HTML&lt;/strong&gt; 
+นี้ เป็นธรรมดา HTML เนื้อหา ใส่ทุกอย่างที่นี่จะปรากฏในเพจโดยตรงโดยไม่ preprocessing ใด</label>
+			<label index="hidden.description">เลือกช่องนี้หากคุณต้องการซ่อนธาตุเนื้อหาจากการแสดง</label>
+			<label index="starttime.description">ใส่วันซึ่งองค์ประกอบของเนื้อหาที่จะมองเห็น</label>
+			<label index="endtime.description">ใส่วันซึ่งองค์ประกอบของเนื้อหาจะหายไปจากเว็บไซต์ของ</label>
+			<label index="fe_group.description">เลือก usergroup เว็บไซต์ที่อนุญาตให้เฉพาะเพื่อดูองค์ประกอบ</label>
+			<label index="fe_group.details">ตัวเลือกในกล่องนี้ขึ้นอยู่ที่กลุ่มที่เว็บไซต์มีการสร้างและใช้งานได้ เมื่อคุณเลือกกลุ่มผู้ใช้ที่นี่องค์ประกอบเนื้อหาอีกต่อไปจะไม่ปรากฏแก่ผู้ใช้ที่ไม่ได้เข้าระบบสมาชิกเว็บไซต์เท่านั้นที่เข้าสู่ระบบและเลือกสมาชิกในกลุ่มจะได้รับอนุญาตให้ดูองค์ประกอบ 
+หากคุณเลือก&quot; ซ่อนที่ &lt;em&gt;login&quot;มีผลเป็นชนิดกลับในองค์ประกอบที่จะหายไปถ้ามีผู้ใช้เว็บไซต์สามารถเข้าระบบนี้มีประโยชน์หากคุณต้องการนำเสนอข้อมูลเช่น&quot;วิธีการเข้าสู่ระบบและที่ไม่เกี่ยวข้องเช่นถ้าผู้ใช้สามารถเข้าสู่ระบบในที่สุด&lt;/em&gt;</label>
+			<label index="sys_language_uid.description">เลือกภาษาระบบนี้นี้องค์ประกอบ . &lt;strong&gt;แจ้งว่าจะมีผลต่อองค์ประกอบที่มองเห็น&lt;/strong&gt;</label>
+			<label index="sys_language_uid.details">นี้ทำให้คุณสามารถกำหนดภาษาเฉพาะองค์ประกอบเนื้อหา หากคุณเลือกอะไร &lt;em&gt;แต่ค่าเริ่มต้นขององค์ประกอบจะมองไม่เห็นเว้นแต่กำหนดภาษาที่มีการกำหนดค่าได้โดย&lt;/em&gt; TypoScript แม่แบบ 
+ระบบภาษาใช้ได้ถูกสร้างขึ้นโดยผู้ดูแลระบบ</label>
+			<label index="layout.description">เลือกเค้าโครง</label>
+			<label index="layout.details">ตัวเลือกนี้ไม่ใช้ในการเริ่มต้นแม่แบบ แต่อาจจะใช้การแสดงที่กำหนดเองที่ 
+
+มีจำนวนชนิดเริ่มต้นของการใช้งานขึ้นอยู่กับเนื้อหาองค์ประกอบ on : &lt;b&gt;
+
+&quot;Filelinks&quot;:&lt;/b&gt; 
+&quot;ปกติ&quot;จะให้ filelinks รายการกับภาพไม่ 
+&quot; 1 เค้าโครง&quot;เพิ่มไอคอนไฟล์ที่ด้านซ้ายของการเชื่อมโยง 
+เค้าโครง&quot;2&quot;เพิ่มภาพถ้าไฟล์เป็นไฟล์ภาพและถ้าไม่ไอคอน ขอบสีดำห่อรอบ 
+เค้าโครง&quot;3&quot;เหมือน Layout 2 แต่ไม่มีขอบดำ</label>
+			<label index="colPos.description">เลือกคอลัมน์ตำแหน่งองค์ประกอบนี้ . &lt;strong&gt;ข้อนี้จะมีผลว่าองค์ประกอบที่มองเห็น&lt;/strong&gt;</label>
+			<label index="colPos.details">เว็บไซต์ส่วนใหญ่ใช้เฉพาะหนึ่งคอลัมน์ของเนื้อหา แต่บางแม่ทำให้คุณสามารถนำเนื้อหาในหลายคอลัมน์และตัวเลือกนี้คุณสามารถเลือกองค์ประกอบอื่นคอลัมน์เพื่อ 
+
+&lt;strong&gt;สังเกตว่าการเลือกมากกว่าหนึ่งคอลัมน์&quot;ปกติ&quot;จะทำให้องค์ประกอบเนื้อหาหายไปจนกว่าคอลัมน์ที่แสดงได้ในเว็บไซต์แม่แบบ&lt;/strong&gt; ถ้าองค์ประกอบของเนื้อหาของคุณ'แปลก'ไม่เห็นโปรดให้แน่ใจว่าคอลัมน์และ selectors ภาษาเป็นชุดอย่างถูกต้อง</label>
+			<label index="date.description">ใส่วันที่ที่จะแสดงบนหัว</label>
+			<label index="header.description">ใส่หัวเรื่องสำหรับองค์ประกอบเนื้อหา</label>
+			<label index="header.details">เกือบทุกองค์ประกอบเนื้อหา (ยกเว้นประเภท HTML เป็นต้น) จะแสดงเนื้อหานี้ส่วนหัวด้านบน หากคุณไม่ได้ต้องการแสดงส่วนหัวเลือกเค้าโครงส่วนหัวที่&quot;ซ่อน&quot; หรือคุณสามารถเลือกที่จะไม่กรอกข้อมูลเนื้อหานี้ใน 
+
+บางประเภทองค์ประกอบเนื้อหาไม่แสดงเริ่มต้นด้วยส่วนหัว ในกรณีที่ฟิลด์ Header เป็นข้อความทั่วไป&quot;ชื่อ&quot;แทน เหล่านี้เป็นหนึ่งในประเภทองค์ประกอบเนื้อหา HTML</label>
+			<label index="header_position.description">ที่ส่วนหัวไปทางซ้าย, กึ่งกลางหรือขวา</label>
+			<label index="header_link.description">สร้าง link จากส่วนหัว แทรก id หน้า, ที่อยู่อีเมลหรือ URL</label>
+			<label index="header_link.syntax">หากคุณใส่หมายเลข id เช่น &quot;51&quot;, link จะดูที่หน้ากับ id = 51 &lt;em&gt;ภายใน&lt;/em&gt; TYPO3 
+หากคุณใส่ที่อยู่อีเมลเช่น &quot;name@my-domain.test&quot;ลิงค์จะชี้ไปที่ที่อยู่อีเมลที่ 
+หากคุณใส่ URL หรือโดเมนเช่น www.typo3.com&quot;หรือ&quot;http://www.my-domain.org&quot;ลิงค์จะชี้ไปที่เว็บไซต์ที่</label>
+			<label index="header_layout.description">เลือกภาพเพื่อการออกแบบส่วนหัว</label>
+			<label index="header_layout.details">หากคุณเลือก&quot;Default&quot;การออกแบบมาตรฐาน (ซึ่งเป็นหนึ่งในเค้าโครง 1-5) จะใช้ 
+หรือคุณสามารถเลือกจากเค้าโครง 1 ถึง 5 ซึ่งมีการกำหนดค่าในเว็บไซต์แม่แบบการออกแบบภาพบุคคล 
+หากคุณเลือก&quot;ซ่อน &quot;ส่วนหัวจะแค่ไม่ปรากฏ นี้มีประโยชน์หากคุณต้องการธาตุหัวเนื้อหาสำหรับ (เพื่อระบุไว้ในส่วนหลัง) แต่ไม่ต้องการหัวที่จะแสดงบนเว็บไซต์</label>
+			<label index="subheader.description">ใส่ส่วนหัวย่อย นี้จะปรากฏด้านล่างสามัญทั่วไป ถ้าชนิดองค์ประกอบเนื้อหา&quot;แบบฟอร์ม&quot;ฟิลด์นี้เป็นอีเมลผู้รับ</label>
+			<label index="subheader.details">ส่วนหัวย่อยจะปรากฏเฉพาะกับ&quot;องค์ประกอบ Header ชนิดเนื้อหา 
+
+&lt;b&gt;หมายเหตุ :&lt;/b&gt; ขณะใช้องค์ประกอบชนิดเนื้อหาแบบฟอร์ม&quot;, ข้อมูลนี้มีชื่อว่า'ผู้รับ email :'และมีที่อยู่อีเมลของผู้รับจดหมายแบบฟอร์ม จึงเป็นสิ่งสำคัญที่จะช่วยให้เข้าถึงข้อมูลนี้สำหรับผู้ใช้</label>
+			<label index="bodytext.description">body ข้อความใส่</label>
+			<label index="bodytext.details">ที่นี่คุณใส่ข้อความตัวขององค์ประกอบเนื้อหา คุณมักจะใช้การจัดรูปแบบแท็กบางหากคุณใช้ Internet Explorer คุณสามารถจัดรูปแบบได้เห็นเนื้อหา 
+ข้อมูลจะนำมาใช้ซ้ำในประเภทอื่นมากที่สุดและเพื่อสลับประเภทองค์ประกอบเนื้อหาจะนำข้อมูลของค่านี้ด้วย 
+
+เมื่อคุณใช้ข้อมูลนี้กับ&quot;ข้อความ&quot;และ&quot;image / ประเภท&quot;w ข้อความเนื้อหาที่จะใช้เป็นข้อความตัวสามัญ linebreak แต่ละปกติหมายย่อหน้าใหม่คุณจะใช้แท็ก TYPO3 พิเศษ &lt;LINK&gt; สำหรับการเชื่อมโยง คุณสามารถแท็กมาก แต่มีข้อ จำกัด เช่นกัน นี้จะขึ้นกับการดำเนิน &lt;b&gt;
+
+Bulletlists :&lt;/b&gt; 
+ถ้าชนิดคือ&quot;Bulletlist&quot;แต่ละเขตข้อมูลในบรรทัดนี้เป็นรายการ bulletlist 
+
+&lt;b&gt;ตาราง :&lt;/b&gt; 
+ถ้าชนิดคือ&quot;ตาราง&quot;แต่ละบรรทัดเป็นแถวของตาราง ภายในแต่ละบรรทัดคุณแบ่งคอลัมน์โดยการใส่แถบแนวตั้ง | เพื่อทำแถวของตารางด้วย 3 คอลัมน์สามารถลักษณะนี้คือคอลัมน์ 1 | คอลัมน์ 2 คอลัมน์ที่นี่สาม |&quot; ใช้ตัวช่วยสร้างตารางการสร้างตาราง -- ที่ง่ายกว่า&quot;รหัส&quot;เขา 
+
+&lt;b&gt;Parameters :&lt;/b&gt; 
+ประเภทชอบ&quot;Script&quot;,&quot;แบบฟอร์ม&quot;และ&quot;Multimedia&quot;ใช้ข้อมูลนี้สำหรับพารามิเตอร์ที่คุณสามารถส่งผ่านไปยังองค์ประกอบ และ&quot;พิมพ์&quot;ยอมรับ HTML preprocessing ใดเข้าวัตถุดิบเป็น HTML ที่ง่ายปรากฏในเว็บไซต์โดยไม่ &lt;strong&gt;
+
+Rich Text Editor :&lt;/strong&gt; 
+ด้วยประเภท&quot;ข้อความ&quot;และ&quot;w / ข้อความภาพ&quot;Rich Text editor ใช้สำหรับการแก้ไขถ้าคุณ เบราว์เซอร์สนับสนุนและแก้ไขได้เปิดการใช้งานในระบบโดยทั่วไป ทราบว่าเนื้อหานั้น&quot;สะอาด&quot;ก่อนที่จะเข้าสู่ประเภทฐานข้อมูลเมื่อคุณกำลังใช้&quot;ข้อความ&quot;และ&quot;ข้อความ&quot;/ w&quot;ภาพ 
+
+&lt;b&gt;การฟอร์ม mail :&lt;/b&gt; 
+เมื่อคุณเลือกองค์ประกอบชนิดเนื้อหาแบบฟอร์ม&quot;คุณ ควรใส่เส้นของพารามิเตอร์ในฟิลด์นี้ นี้เป็นตัวอย่างโดยย่อ 
+
+ชื่อ : = ชื่อ * input | 40 | [ใส่ชื่อ!] 
+email ของคุณ : = อีเมล์ * ใส่ | 40 
+Your address : | = Textarea, 40,10 
+ย้อมปิดผมของคุณ : ผม | = วิทยุ | สี = ฟ้า, Red = แดง 
+
+formtype_mail | = submit ส่งฟอร์ม | 
+เรื่อง | = | ที่ซ่อนใส่หัวเรื่องที่นี่ 
+| html_enabled = ซ่อน | 1 
+
+สองบรรทัดแรกจะทำให้ช่อง - ใส่ชื่อและอีเมลทั้งสองระบุว่า&quot;ต้อง&quot; โดย * และชื่อเขตข้อมูลที่มีค่าเริ่มต้นของ&quot;[ใส่ชื่อ!]&quot; 
+บรรทัดที่สามเป็นกล่องข้อความและสี่ทำให้ radiobuttons เลือกย้อมปิดผม 
+นั้นมีสามสายสำคัญในที่สุด แรกทำให้ submit ปุ่มกับป้ายกำกับ&quot;ฟอร์มส่ง&quot;บรรทัดที่สองคือเรื่องของอีเมลที่รับได้รับและสายที่สามทำให้แสดงผลลัพธ์แบบในตาราง HTML 
+มันง่ายมากที่จะใช้ตัวช่วยสร้างฟอร์ม สำหรับการสร้างฟอร์ม 
+
+&lt;b&gt;หมายเหตุ :&lt;/b&gt; ก่อนที่ทุกรูปแบบเดิมจะทำงานคุณต้องป้อนที่อยู่อีเมลผู้รับ &quot;email - ผู้รับ :&quot;ข้อมูลที่ใช้สำหรับ (นี้คือในความเป็นจริงส่วนหัวย่อยของเขตข้อมูลที่ใช้!)</label>
+			<label index="text_align.description">ข้อความที่ร่างกายไปทางซ้าย, กึ่งกลางหรือขวา</label>
+			<label index="text_align.details">ดู Pagecontent / Fontface ความคิดเห็น 
+&lt;b&gt;Notice :&lt;/b&gt; ตัวเลือกนี้จะล้าสมัยเมื่อคุณใช้ CSS สำหรับการแสดง</label>
+			<label index="text_face.description">เลือกครอบครัวความจริงแบบอักษรสำหรับตัวอักษร</label>
+			<label index="text_face.details">&lt;strong&gt;สังเกตว่าตัวเลือกเหล่านี้หมายถึงเฉพาะการออกแบบพิเศษ&lt;/strong&gt; ทั่วไป (ค่าเริ่มต้น) การออกแบบควรกำหนดค่าในแม่แบบแทน นอกจากคุณไม่ได้ควรใช้ตัวเลือกนี้ถ้าคุณแม่ดำเนิน stylesheets และอยู่บนพื้นฐานของการใช้แบบทั่วไป</label>
+			<label index="text_size.description">ข้อความเลือกขนาดตัวอักษรสำหรับร่างกาย</label>
+			<label index="text_size.details">ดู Pagecontent / Fontface ความคิดเห็น 
+&lt;b&gt;Notice :&lt;/b&gt; ตัวเลือกนี้จะล้าสมัยเมื่อคุณใช้ CSS สำหรับการแสดง</label>
+			<label index="text_color.description">เลือกสีสำหรับตัวข้อความ</label>
+			<label index="text_color.details">ดู Pagecontent / Fontface ความคิดเห็น 
+&lt;b&gt;Notice :&lt;/b&gt; ตัวเลือกนี้จะล้าสมัยเมื่อคุณใช้ CSS สำหรับการแสดง</label>
+			<label index="text_properties.description">เลือกคุณสมบัติ font เพิ่มเติม</label>
+			<label index="text_properties.details">ตัวเลือกเหล่านี้จะเลือกคุณสมบัติแบบอักษรสำหรับข้อความทั้งหมดของร่างกาย แต่คุณอาจจะทำเครื่องหมายเฉพาะส่วนของตัวหนา bodytext เป็นหรือขีดเส้นใต้ในกรณีที่คุณควรใช้ตัวเลือกจัดรูปแบบใน Rich Text Editor หรือคุณสามารถแท็กที่นี่ : 
+
+&lt;b&gt; &lt;strong&gt;นี้เป็นตัวหนา&lt;/strong&gt; &lt;b&gt;
+&lt;i&gt; &lt;em&gt;นี้เอียง&lt;/em&gt; &lt;i&gt; 
+&lt;u&gt; &lt;u&gt;นี้ถูกขีดเส้นใต้&lt;/u&gt; &lt;u&gt; 
+
+ดู Pagecontent / Fontface ความคิดเห็น 
+&lt;b&gt;Notice :&lt;/b&gt; ตัวเลือกนี้จะล้าสมัยเมื่อ คุณใช้ CSS สำหรับการแสดง</label>
+			<label index="image.description">แทรกหนึ่งหรือหลายภาพ</label>
+			<label index="image.details">คุณสามารถแนบภาพในองค์ประกอบเนื้อหาและเกือบได้มากเท่าที่คุณต้องการ 
+ขึ้นกับ TYPO3 การตั้งค่าของคุณสามารถแนบไว้ในทุกรูปแบบเช่นคุณ โดยเฉพาะอย่างยิ่งคุณไม่จำเป็นต้องกังวลเกี่ยวกับขนาดและการบีบอัดเพราะปัจจัยเหล่านี้จะจัดการตามปกติโดย TYPO3 ภายใน 
+
+เมื่อคุณใช้&quot;w Text image /&quot;พิมพ์เป็นสิ่งสำคัญเพื่อเลือกตำแหน่งที่เหมาะสมของ imageblock ในการนี้ใช้ตัวเลือกในตำแหน่งที่แสดงด้านล่าง (หรือถ้าคุณคลิกในรายการภาพสนามใน backend คลาสสิค) See link to&quot;Pagecontent / ตำแหน่ง&quot;ด้านล่างนี้ 
+คุณยังสามารถแสดงภาพในหลายคอลัมน์และใช้รุ่นตัวเลือกที่ช่วยให้การเชื่อมโยงเพื่อให้คุณสามารถคลิกดูภาพใหญ่ แค่ชื่อตัวเลือกต่างๆ 
+ส่วนมากคุณไม่มีตัวเลือกทั้งหมดที่ใช้ได้ ขึ้นกับสิทธิ์ของคุณในระบบ</label>
+			<label index="image.image_descr">นี้จะแสดงตัวเลือกทั้งหมดที่เกี่ยวข้องกับภาพที่แทรกในเนื้อหาองค์ประกอบ คุณอาจไม่สามารถที่จะใช้พวกเขาทั้งหมด</label>
+			<label index="imagewidth.description">ใส่ความกว้างเป็นพิกเซลของภาพ</label>
+			<label index="imagewidth.details">แม่แบบการกำหนดค่าความกว้างปกติสูงสุดของภาพและทำให้คุณไม่จำเป็นต้องกำหนดความกว้างหากภาพที่เหมาะอย่างสมบูรณ์ในมิติที่ แต่นี้จะให้โอกาสในการกำหนดความกว้างเฉพาะ</label>
+			<label index="imageheight.description">ใส่ความสูงของภาพเป็นพิกเซล</label>
+			<label index="imageorient.description">เลือกข้อความ imageblock ตำแหน่งที่สัมพันธ์กับร่างกาย</label>
+			<label index="imageorient.details">ตำแหน่งด้านบนและด้านล่างข้อความตัวสวยตรงไปตรงมา 
+ตัวเลือก&quot;ในข้อความ&quot;หมายความว่าป้องกันภาพจะปรากฏมีข้อความกันได้ เมื่อคุณเลือกตัวเลือกเหล่านี้อาจจะแบบแรงภาพขนาดเล็กเป็นเพราะพวกเขาไม่สามารถใช้เวลาเดียวกันพื้นที่เมื่อข้อความควรจะลอยรอบๆ 
+เมื่อคุณเลือก&quot;ในข้อความ&quot;คุณสามารถเลือกตัวเลือกทั้งด้านบนหรือด้านล่างแบ่ง &quot;ห่อ No&quot; ถ้าคุณเลือก&quot;ในข้อความตัวเลือก&quot;ด้านบน bodytext &lt;em&gt;จะลอยตามบล็อกภาพเมื่อ&lt;/em&gt; bodytext ถึงบล็อกปลายภาพของ ดังนั้นคำอื่น text ร่างกาย &lt;em&gt;wraps รอบ&lt;/em&gt; block ภาพ หากคุณเลือก&quot;ในข้อความ&quot;ด้าน&quot;ห่อไม่ divider&quot;เนื้อความจะไม่ลอยตามบล็อกภาพ แต่เพียงอย่างต่อเนื่องในคอลัมน์ที่ 
+นอกเหนือจากความแตกต่างภาพมีลักษณะทางเทคนิคเช่นกัน เพราะถ้าคุณเลือกที่จะให้ข้อมูลในการตัดบล็อกภาพที่คุณจะได้สัมผัสกับปรากฏการณ์ที่แปลกเมื่อคุณไม่ได้ bodytext พอที่จะทำให้ลอยรอบภาพ : คุณพบว่าองค์ประกอบของเนื้อหาในหน้าถัดไปคือชั้นใดบน ภาพบล็อก -- และนี้แน่นอนดูเหมือนว่าปัญหา แต่มันแก้ไขได้ง่ายโดยการเปลี่ยน&quot;ในข้อความตำแหน่ง&quot;เพื่อค่าเท่ากัน แต่ด้านล่าง&quot;ตัดไม่ divider&quot;</label>
+			<label index="imageborder.description">เครื่องหมายนี้ถ้าคุณต้องการสีเส้นขอบรอบภาพ</label>
+			<label index="image_noRows.description">ปิด tablerows อย่างเข้มงวดในการบล็อกภาพ</label>
+			<label index="image_noRows.details">ตัวนี้เป็นชนิดยากที่จะอธิบาย แต่คิดคุณมี 2 &lt;em&gt;หรือมากกว่าคอลัมน์และแถวของภาพ&lt;/em&gt; หากภาพในแถวบนเป็นบิตสูงกว่าที่สองนี้จะสร้างช่องว่างเปล่าใต้ภาพที่สอง นี้เนื่องจากขั้นตอนปกติที่ภาพจะอยู่ในเซลล์ของตารางแต่ละ 
+ถ้าคุณกำหนดตัวเลือกนี้ตารางจะวางภาพทั้งหมดในคอลัมน์ในตารางเซลล์เดียวที่ทำให้ระยะห่างระหว่างแนวตั้งเหมือนกันตลอด นี้อาจให้มองดีกว่าถ้าเลือกดูงี่เง่า</label>
+			<label index="image_link.description">ใส่ลิงค์ภาพ</label>
+			<label index="image_link.details">โดยปกติภาพทั้งหมดหุ้นที่ลิงค์เดียวกัน แต่คุณอาจขอให้ผู้ดูแลระบบเพื่อกำหนดค่า TypoScript แม่แบบเพื่อให้เชื่อมโยงกันสำหรับแต่ละภาพ ถ้าเป็นกรณีนี้คุณก็แยกค่าเชื่อมโยงด้วยจุลภาค 
+
+Pagecontent&gt; Link ด้านล่างเพื่อดูรายละเอียดเกี่ยวกับไวยากรณ์</label>
+			<label index="image_zoom.description">ตรวจสอบตัวเลือกนี้และภาพจะเชื่อมโยงไปยังหน้าต่างใหม่กับรุ่นใหญ่</label>
+			<label index="image_zoom.details">ตัวเลือกแทนที่ค่าในลิงค์ฟิลด์ที่นี้</label>
+			<label index="image_effects.description">เลือกลักษณะการประมวลผลภาพพิเศษ</label>
+			<label index="image_frames.description">เลือกตัวเลือกกรอบภาพพิเศษ</label>
+			<label index="image_compression.description">อัดเลือก / ตัวเลือกที่มีคุณภาพ</label>
+			<label index="imagecols.description">เลือกจำนวนคอลัมน์ในบล็อกภาพ</label>
+			<label index="imagecaption.description">ใส่คำอธิบายสำหรับการป้องกันภาพ</label>
+			<label index="imagecaption.details">โดยเริ่มต้นคำอธิบายเป็นตำแหน่งด้านล่างภาพบล็อกทั้งหมด แต่เว็บไซต์ของคุณแม่อาจจะตั้งค่าเพื่อให้คำอธิบายภาพบุคคลโดยการ&quot;styles.content.imgtext.captionSplit = 1&quot;ในค่าคงที่ของคุณแม่ 
+ในกรณีที่แต่ละเขตข้อมูลในบรรทัดนี้จะมีคำอธิบายภาพของภาพที่สอดคล้องกันในรายการ 
+
+เขตข้อมูลข้อความคำอธิบายโดยยังใช้องค์ประกอบประเภทเนื้อหา&quot;Filelinks&quot;ที่แต่ละบรรทัดแสดงคำอธิบายรายการของในแฟ้ม</label>
+			<label index="imagecaption_position.description">ที่คำบรรยายภาพไปทางซ้าย, กึ่งกลางหรือขวา</label>
+			<label index="cols.description">เลือกจำนวนถาวรของคอลัมน์ของตาราง</label>
+			<label index="pages.description">แทรก page (s)</label>
+			<label index="pages.details">กับ TYPO3 นี้สนามสามารถคุณโดยทั่วไปสร้างความสัมพันธ์ไปยังหน้า (หรือมากกว่า) ใน ฟิลด์นี้จะใช้หลายประเภทเนื้อหาองค์ประกอบ ถ้าคุณไม่ระบุหน้านี่หน้าปัจจุบันโดยทั่วไปจะใช้ 
+
+การใช้&quot;พิมพ์ค้นหาหน้าใสคุณจะกำหนดเป้าหมายที่หน้าเพื่อที่จะค้นหา คุณต้องให้แน่ใจว่าหน้านี้มีคล้าย&quot;องค์ประกอบเนื้อหา Search (หรือสิ่งที่คล้ายกัน) เพื่อแสดงผลลัพธ์ค้นหา อื่นมันรู้สึกไม่ทำให้ 
+
+&quot;Login&quot;องค์ประกอบเนื้อหาประเภทยังใช้ข้อมูลนี้ไปตรงหน้าเข้าสู่บาง แต่ที่หน้าไม่จำเป็นต้องมีองค์ประกอบของเนื้อหา Login เพื่อดำเนินการตรวจสอบสิทธิ -- คุณสามารถในความเป็นจริงส่งคำขอเข้าสู่ระบบใด ๆ หน้า TYPO3 และจะประเมิน! 
+ถ้าคุณระบุหน้าที่สองในรายการนี้จะ id ถูกส่งไปยังระบบเข้าสู่ระบบว่าเป็นหน้าภายใน TYPO3 ที่ผู้ใช้ฐานข้อมูลเพื่อค้นหาพบ คุณควรใช้เฉพาะนี้หากในแม่แบบของคุณไม่ได้กำหนดค่านี้ผ่านค่า 
+เพื่อให้การเข้าสู่ระบบการทำงานคุณต้องให้แน่ใจว่า 1) คุณได้สร้างอย่างน้อยหนึ่งผู้ใช้เว็บไซต์และ usergroup สมาชิกและใช้ชื่อผู้ใช้ที่ถูกต้อง password และ 2) คุณได้กำหนดค่าของคุณ TypoScript ในเทมเพลทที่เพจ (ปกติ SysFolder) ผู้ใช้สามารถพบ -- หรือมิฉะนั้นได้ระบุโดยหน้าที่สองในรายการหน้านี้, 3) คุกกี้ต้องเปิด 
+
+&quot; เมนู&quot;องค์ประกอบแผนผังเว็บไซต์ยังใช้ข้อมูลนี้ ในกรณีที่เพจ (s) จะพิจารณาจากจุดเมนูจะวาดหรืออาจจะได้แสดงหน้าจริงที่เชื่อมโยงเมนู ทั้งหมดนี้ขึ้นกับเลือก subtype ของเมนูแผนผังเว็บไซต์คุณได้ 
+
+ในที่สุด&quot;แบบฟอร์ม&quot;องค์ประกอบใช้ข้อมูลนี้เป็นที่หน้าแบบฟอร์มการส่ง คุณอาจทำให้ mail แทรกหน้าซึ่งเป็น&quot;ขอบคุณ&quot;คุณหน้าของฟอร์ม</label>
+			<label index="recursive.description">เลือกจำนวน subleves ควรจะเลือกสำหรับหน้าเพิ่มเติมในแต่ละรายการ</label>
+			<label index="recursive.details">ว่าคุณสมบัตินี้ทำให้รู้สึกหรือไม่ขึ้นอยู่ แต่เพียงผู้เดียวในการใช้แม่แบบและ / หรือประเภทองค์ประกอบเนื้อหา แต่โดยทั่วไปหากมีการใช้งานคุณลักษณะนี้หมายความว่าสำหรับแต่ละหน้าอยู่ในส่ง&quot;ไปยังหน้า / จุดเริ่มต้น&quot;subpages กล่อง -- ไปที่นี่ลึกระบุ -- &lt;em&gt;จะถูกเลือก!&lt;/em&gt; 
+
+&lt;strong&gt;คำเตือน :&lt;/strong&gt; หากมี subpages จำนวนมากจะตระหนักถึงเรื่องนี้ ตัวเลือก อาจเลือกจำนวนเหลือเชื่อของหน้าสิ!</label>
+			<label index="menu_type.description">เลือกประเภทของเมนูที่คุณต้องการสร้าง</label>
+			<label index="menu_type.details">นี่คือคำอธิบายสั้น ๆ ของแต่ละชนิด : &lt;strong&gt;
+
+เมนูของหน้าเว็บเหล่านี้&lt;/strong&gt; 
+จะสร้างรายชื่อของการเชื่อมโยงไปยังหน้าเว็บคุณแทรกในรายการ Startingpoint 
+
+&lt;strong&gt;เมนูของ subpages ในหน้านี้&lt;/strong&gt; 
+ในรายการนี้ในรายการของการเชื่อมโยงไปยัง subpages ของหน้า ในรายการ Startingpoint ถ้าคุณไม่ระบุ startingpoint, subpages ไปยังเพจปัจจุบันจะถูกเลือก 
+
+&lt;strong&gt;เมนูของ subpages ในหน้าเว็บนี้ (กับนามธรรม)&lt;/strong&gt; 
+เช่นเดียวกับก่อนหน้านี้ แต่จะมีหน้าเนื้อหาบทคัดย่อของเขตของ 
+
+&lt;strong&gt;Menu ของ subpages เหล่านี้ หน้า + ส่วน&lt;/strong&gt; 
+เช่นเดียวกับก่อนหน้านี้ แต่รวมถึง'เมนูย่อย'เชื่อมโยงองค์ประกอบทั้งหมดของเนื้อหาในชุดหน้าซึ่งมีดัชนี&quot;ช่องทำเครื่องหมาย 
+
+&lt;strong&gt;แผนผัง&lt;/strong&gt; 
+ต้นไม้สร้างการ sitemap คลาสสิก อาจ TypoScript แม่แบบของคุณการกำหนดค่าให้แผนที่เว็บไซต์อื่นการออกแบบของ แต่ถึงอย่างไรก็ตามคุณจะได้รับ sitemap ออกจากนี้ พบว่าแผนผังเว็บไซต์จะเริ่มจากหน้าปัจจุบันถ้าคุณระบุอีก&quot;หน้า Startingpoint ในด้านล่างรายการ 
+
+&lt;strong&gt;ดัชนีมาตรา (w pagecontent ดัชนีตรวจสอบ)&lt;/strong&gt; 
+นี้ทำให้เมนูกับองค์ประกอบเนื้อหาในหน้านี้ (หรือที่ระบุไว้ในหน้า เริ่มรายการจุด) วิธีที่ดีเพื่อให้ดัชนีในหน้าบนสุดของ 
+สังเกตว่าองค์ประกอบทั้งหมดของเนื้อหากับ&quot;ตั้งช่องทำเครื่องหมายเลือก Index ดังนั้นถ้าคุณไม่อยากองค์ประกอบเนื้อหาบางปรากฏในรายการเพิ่งยกเลิกการตรวจสอบช่องทำเครื่องหมายสำหรับองค์ประกอบของดัชนีที่ 
+
+&lt;strong&gt;หน้าปรับปรุงล่าสุด&lt;/strong&gt; 
+แสดงนี้ 10 ปรับปรุงหน้าเมื่อเร็ว ๆ นี้มากที่สุด 
+&lt;strong&gt;หมายเหตุ :&lt;/strong&gt; ถ้าคุณ update หน้าและรายการนี้ดูเหมือนว่า ไม่ได้รับการปรับปรุงทันทีแค่ล้างหน้า cache ของและแก้ปัญหาเป็น 
+
+&lt;strong&gt;หน้าที่ที่เกี่ยวข้อง (ตามคำสำคัญ)&lt;/strong&gt; 
+แสดงหน้าอื่นที่เกี่ยวข้องตามคำหลักที่ตั้งไว้สำหรับหน้านี้หน้าจับคู่กับคำอื่น 
+
+
+&lt;b&gt;Notice :&lt;/b&gt; ด้วย หลายชนิดเมนูด้านบนเริ่มต้นที่จุดเริ่มต้นหน้าเป็นปัจจุบัน แต่คุณสามารถระบุ startingpoint อื่น (หรือมากกว่าหนึ่งในความเป็นจริง!) โดยการเพิ่มหน้าไป&quot;&quot;รายการ Startingpoint See link ด้านล่างนี้</label>
+			<label index="list_type.description">เลือกปลั๊กอินที่จะแทรก</label>
+			<label index="list_type.details">ชื่อของปลั๊กอินที่คุณสามารถแทรกบนหน้าเว็บ ปลั๊กอินที่ใช้ได้ขึ้นกับที่มีการติดตั้งส่วนขยาย</label>
+			<label index="select_key.description">ใส่รหัสสตริง</label>
+			<label index="select_key.details">หรือไม่เนื้อหาของข้อมูลนี้จะถูกใช้และวิธีการของ intepreted ขึ้นกับบริบท และถือว่าเป็นสมัยนี้</label>
+			<label index="table_bgColor.description">เลือกสีพื้นหลังตาราง</label>
+			<label index="table_border.description">ความหนาของเส้นขอบตารางเลือก</label>
+			<label index="table_cellspacing.description">เซลล์ตารางเลือกระยะห่าง</label>
+			<label index="table_cellspacing.details">ระยะห่างเซลล์เป็นระยะห่างระหว่างเซลล์ในตารางแถวคอลัมน์ เป็นระยะทางที่ใช้กันในทุกทิศทางด้านบนด้านล่างด้านซ้ายและขวา</label>
+			<label index="table_cellpadding.description">cellpadding ตารางเลือก</label>
+			<label index="table_cellpadding.details">Cell padding คือ'ภายใน'ขอบของเซลล์ของตาราง เป็นระยะทางที่ใช้กันในทุกทิศทางด้านบนด้านล่างด้านซ้ายและขวา</label>
+			<label index="media.description">เพิ่มไฟล์ลงในรายการที่นี่</label>
+			<label index="multimedia.description">แทรกองค์ประกอบมัลติมีเดียเช่น หนังแฟลชที่นี่</label>
+			<label index="filelink_size.description">เครื่องหมายนี้หากคุณต้องการ filesizes ที่จะแสดง</label>
+			<label index="records.description">relations แทรกระเบียน</label>
+			<label index="spaceBefore.description">ใส่จำนวนช่องว่าง (เป็นพิกเซล) &lt;em&gt;แทรกก่อน&lt;/em&gt; element เนื้อหานี้</label>
+			<label index="spaceAfter.description">ใส่จำนวนช่องว่าง (เป็นพิกเซล) &lt;em&gt;แทรกหลังจากองค์ประกอบเนื้อหานี้&lt;/em&gt;</label>
+			<label index="section_frame.description">เลือกตัวเลือกกรอบสำหรับองค์ประกอบเนื้อหา</label>
+			<label index="splash_layout.description">เลือกการออกแบบกล่องข้อความ</label>
+			<label index="splash_layout.details">&lt;strong&gt;หมายเหตุ :&lt;/strong&gt; ชนิด Textbox ได้เริ่มต้น renderings น้อย แต่ได้รับการออกแบบมาเพื่อใช้สำหรับวัตถุประสงค์ที่กำหนดเอง จึงว่างของคุณสมบัติจะขึ้นกับเว็บไซต์ปัจจุบันแม่แบบ</label>
+			<label index="sectionIndex.description">หากตั้งองค์ประกอบของเนื้อหาที่จะปรากฏในส่วนดัชนี</label>
+			<label index="sectionIndex.details">ดูรายละเอียดของตัวเลือกเมนูชนิด (คลิกด้านล่าง)</label>
+			<label index="linkToTop.description">หากตรวจสอบ, เล็กน้อยลิงก์&quot;ไปด้านบนจะใส่หลังจากองค์ประกอบเนื้อหา</label>
+			<label index="rte_enabled.description">หากตรวจสอบ, Rich Text Editor จะปิดการใช้งานสำหรับ&quot;ข้อความ&quot;และ&quot;Image Text w / &lt;em&gt;ประเภท&quot;(ในองค์ประกอบนี้เท่านั้น)&lt;/em&gt;</label>
+			<label index="pi_flexform.description">Configuration FlexForm ของปลั๊กอิน</label>
+			<label index="pi_flexform.details">ปลั๊กอินบางคนอาจต้องกำหนดค่าตัวเลือกของ อาจใช้ข้อมูลนี้สำหรับ FlexForm การตั้งค่าตาม (เก็บเป็น XML)</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index=".description" type="integer">112696006</label>
+			<label index=".details" type="integer">87408744</label>
+			<label index=".image_descr" type="integer">101723614</label>
+			<label index="CType.description" type="integer">234975124</label>
+			<label index="CType.details" type="integer">102208438</label>
+			<label index="hidden.description" type="integer">25976972</label>
+			<label index="starttime.description" type="integer">77152936</label>
+			<label index="endtime.description" type="integer">186022731</label>
+			<label index="fe_group.description" type="integer">12088306</label>
+			<label index="fe_group.details" type="integer">238179426</label>
+			<label index="sys_language_uid.description" type="integer">83193306</label>
+			<label index="sys_language_uid.details" type="integer">236252156</label>
+			<label index="layout.description" type="integer">228016604</label>
+			<label index="layout.details" type="integer">186116634</label>
+			<label index="colPos.description" type="integer">247799393</label>
+			<label index="colPos.details" type="integer">36180560</label>
+			<label index="date.description" type="integer">172838477</label>
+			<label index="header.description" type="integer">258566451</label>
+			<label index="header.details" type="integer">241858941</label>
+			<label index="header_position.description" type="integer">129245045</label>
+			<label index="header_link.description" type="integer">192941932</label>
+			<label index="header_link.syntax" type="integer">58311088</label>
+			<label index="header_layout.description" type="integer">177798699</label>
+			<label index="header_layout.details" type="integer">210804488</label>
+			<label index="subheader.description" type="integer">258436767</label>
+			<label index="subheader.details" type="integer">89143048</label>
+			<label index="bodytext.description" type="integer">16432077</label>
+			<label index="bodytext.details" type="integer">31968824</label>
+			<label index="text_align.description" type="integer">238240695</label>
+			<label index="text_align.details" type="integer">63899888</label>
+			<label index="text_face.description" type="integer">117416805</label>
+			<label index="text_face.details" type="integer">166251742</label>
+			<label index="text_size.description" type="integer">229916089</label>
+			<label index="text_size.details" type="integer">63899888</label>
+			<label index="text_color.description" type="integer">35741196</label>
+			<label index="text_color.details" type="integer">63899888</label>
+			<label index="text_properties.description" type="integer">87881120</label>
+			<label index="text_properties.details" type="integer">2350345</label>
+			<label index="image.description" type="integer">161474510</label>
+			<label index="image.details" type="integer">69654330</label>
+			<label index="image.image_descr" type="integer">142853685</label>
+			<label index="imagewidth.description" type="integer">158161907</label>
+			<label index="imagewidth.details" type="integer">133097899</label>
+			<label index="imageheight.description" type="integer">114105674</label>
+			<label index="imageorient.description" type="integer">200966363</label>
+			<label index="imageorient.details" type="integer">140490777</label>
+			<label index="imageborder.description" type="integer">50620620</label>
+			<label index="image_noRows.description" type="integer">21457470</label>
+			<label index="image_noRows.details" type="integer">149921441</label>
+			<label index="image_link.description" type="integer">249648538</label>
+			<label index="image_link.details" type="integer">122933738</label>
+			<label index="image_zoom.description" type="integer">161499693</label>
+			<label index="image_zoom.details" type="integer">6620959</label>
+			<label index="image_effects.description" type="integer">177685340</label>
+			<label index="image_frames.description" type="integer">89442767</label>
+			<label index="image_compression.description" type="integer">8480021</label>
+			<label index="imagecols.description" type="integer">70204645</label>
+			<label index="imagecaption.description" type="integer">259744768</label>
+			<label index="imagecaption.details" type="integer">206087202</label>
+			<label index="imagecaption_position.description" type="integer">196983678</label>
+			<label index="cols.description" type="integer">11984393</label>
+			<label index="pages.description" type="integer">57504831</label>
+			<label index="pages.details" type="integer">226716837</label>
+			<label index="recursive.description" type="integer">165135760</label>
+			<label index="recursive.details" type="integer">52636494</label>
+			<label index="menu_type.description" type="integer">78467976</label>
+			<label index="menu_type.details" type="integer">14324298</label>
+			<label index="list_type.description" type="integer">72710976</label>
+			<label index="list_type.details" type="integer">253928229</label>
+			<label index="select_key.description" type="integer">172652721</label>
+			<label index="select_key.details" type="integer">6713527</label>
+			<label index="table_bgColor.description" type="integer">62940699</label>
+			<label index="table_border.description" type="integer">186608350</label>
+			<label index="table_cellspacing.description" type="integer">194710286</label>
+			<label index="table_cellspacing.details" type="integer">181817887</label>
+			<label index="table_cellpadding.description" type="integer">101686341</label>
+			<label index="table_cellpadding.details" type="integer">197299652</label>
+			<label index="media.description" type="integer">29319306</label>
+			<label index="multimedia.description" type="integer">128801529</label>
+			<label index="filelink_size.description" type="integer">167875412</label>
+			<label index="records.description" type="integer">10597434</label>
+			<label index="spaceBefore.description" type="integer">263512294</label>
+			<label index="spaceAfter.description" type="integer">130971741</label>
+			<label index="section_frame.description" type="integer">240647342</label>
+			<label index="splash_layout.description" type="integer">240182781</label>
+			<label index="splash_layout.details" type="integer">35858092</label>
+			<label index="sectionIndex.description" type="integer">263148287</label>
+			<label index="sectionIndex.details" type="integer">258232061</label>
+			<label index="linkToTop.description" type="integer">218183690</label>
+			<label index="rte_enabled.description" type="integer">266861622</label>
+			<label index="pi_flexform.description" type="integer">105562012</label>
+			<label index="pi_flexform.details" type="integer">5162299</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+			<label index=".description">All visible content on webpages in TYPO3 is typically made by &quot;Pagecontent&quot; records. They are typically referred to as &quot;Content Elements&quot;. Often Content Elements are managed by the &quot;Page&quot; module which is designed to handle Content Elements in multiple columns and languages.</label>
+			<label index=".details">&quot;Pagecontent&quot; records is ordered and can thus be rearranged. Also notice that the &quot;Language&quot; and &quot;Column&quot; selector of the &quot;Pagecontent&quot; records determines where and in which situation they appear. If you do not change the value of the &quot;Language&quot; and &quot;Column&quot; selectors you are most sure that the element will appear by default.</label>
+			<label index=".image_descr">The Page module is used to manage Content Elements effectively as they appear arranged in columns and languages.
+A Content Element has a large editing form with many options. The &quot;Type&quot; determines which options are visible.
+In the frontend - on the webpage - a Content Element like the above could look like this.</label>
+			<label index="CType.description">Select the kind of page content this element represents. New options will appear when you save the record.</label>
+			<label index="CType.details">The 'Type' of content you select determines which options you have in the editform, so make sure to save the record before you make changes.
+
+This is a description of the various types:
+
+&lt;strong&gt;Header&lt;/strong&gt;
+This type allows you insert a standard content element header and nothing more.
+Almost all the other types described below also includes the header with the exact same options. So the Header type just provides a way to insert a header &lt;em&gt;only&lt;/em&gt; without anything else.
+
+&lt;strong&gt;Text&lt;/strong&gt;
+The Text type allows you to insert regular page content.
+
+&lt;strong&gt;Text w/image&lt;/strong&gt;
+This is the same as the Text type (regular page content) but with the option of attaching images.
+
+&lt;strong&gt;Image&lt;/strong&gt;
+The same as Text w/image but without the text field - so only images.
+
+&lt;strong&gt;Bullet list&lt;/strong&gt;
+Lets you create a bullet list. Each line in the text-field will appear as a single line in the bulletlist.
+
+&lt;strong&gt;Table&lt;/strong&gt;
+Lets you create &lt;em&gt;simple&lt;/em&gt; tables. Each line represents a tablerow and vertical bars '|' separates each column.
+
+&lt;strong&gt;Filelinks&lt;/strong&gt;
+Allows you to present a list of files for download. You can have thumbnails attached to the list including filesize.
+
+&lt;strong&gt;Multimedia&lt;/strong&gt;
+Lets you insert multimedia elements such as sound, video, java applets and flash animations.
+
+&lt;strong&gt;Form&lt;/strong&gt;
+Lets you create mail forms. There is a special syntax to use when you wish to create form fields.
+
+&lt;strong&gt;Search&lt;/strong&gt;
+This inserts a search box and it will also display the search result if a query is performed to the page.
+
+&lt;strong&gt;Login&lt;/strong&gt;
+Displays a login box for website users. You must create at least one Website user and user group before this makes any sense to use.
+
+&lt;strong&gt;Textbox&lt;/strong&gt;
+This is mainly for customly defined design which includes typically some text and an image. So in other words the function is not generally defined. However the default subtypes will let you choose various ways to display some text with an image.
+Use only if instructed to.
+
+&lt;strong&gt;Menu/Sitemap&lt;/strong&gt;
+Offers a selection of various link menus and a sitemap you can insert on a page.
+
+&lt;strong&gt;Insert records&lt;/strong&gt;
+This is a placeholder for other records. In other words, by this element you can attach other content elements from elsewhere and thus insert them this page.
+
+&lt;strong&gt;Insert plugin&lt;/strong&gt;
+This will allow you to insert a forum, guestbook, list of addresses, shopping basket etc. The various features are available &lt;em&gt;only&lt;/em&gt; if they are configured correctly in the template of your website. So before you use it, make sure this is the case.
+
+&lt;strong&gt;Script&lt;/strong&gt;
+This is reserved for custom purposes where the template developer can allow you to insert specialized page content by this element type along with a code to identify which special content you want.
+
+&lt;strong&gt;HTML&lt;/strong&gt;
+This is plain HTML content. Everything put here will be displayed directly on the page without any preprocessing.</label>
+			<label index="hidden.description">Check this box if you wish to hide the content element from being displayed.</label>
+			<label index="starttime.description">Enter the date from which the content element will be visible.</label>
+			<label index="endtime.description">Enter the date from which the content element will disappear from the website.</label>
+			<label index="fe_group.description">Select a Website usergroup which is exclusively allowed to view the element.</label>
+			<label index="fe_group.details">The options in this box depends on which Website usergroups are created and available for you. When you select a user group here, the content element will no longer be visible to users which are not logged in. Only Website users which are logged in and members of the group you selected will be allowed to see the element.
+If you select &quot;Hide at login&quot; the effect is kind of reversed in that the element &lt;em&gt;disappears&lt;/em&gt; if &lt;em&gt;any&lt;/em&gt; Website user is logged in. This is useful if you want to present information like &quot;How to login&quot; and such which is irrelevant if a user is finally logged in.</label>
+			<label index="sys_language_uid.description">Select the system language of this element. &lt;strong&gt;Notice&lt;/strong&gt; this will affect whether the element is visible.</label>
+			<label index="sys_language_uid.details">This allows you to assign a specific language to the content element. If you select anything but the default value, the element will &lt;em&gt;not&lt;/em&gt; be visible unless the language assigned is also configured by the TypoScript template.
+The available system languages are created by the administrator.</label>
+			<label index="layout.description">Select a layout.</label>
+			<label index="layout.details">This option is not used in the default templates but may be used by any custom rendering.
+
+There are a number of default implementations depending on the content element type:
+
+&lt;b&gt;&quot;Filelinks&quot;:&lt;/b&gt;
+&quot;Normal&quot; will provide a list of filelinks with no thumbnail.
+&quot;Layout 1&quot; adds a file icon to the left of the link
+&quot;Layout 2&quot; adds a thumbnail if the file is an image file and if not an icon. A black border is wrapped around.
+&quot;Layout 3&quot; is like Layout 2, but without the black border.</label>
+			<label index="colPos.description">Select the column position this element. &lt;strong&gt;Notice&lt;/strong&gt; this will affect whether the element is visible.</label>
+			<label index="colPos.details">Most websites use only one column of content. However some templates lets you put content in multiple columns and this option allows you to select another column for the element.
+
+&lt;strong&gt;Notice&lt;/strong&gt; that selecting another column than &quot;Normal&quot; will make the content element disappear unless that column is also displayed in the website template. If your content element is 'strangely' not visible please make sure the Column and Language selectors are set correctly.</label>
+			<label index="date.description">Enter a date to be displayed above the header.</label>
+			<label index="header.description">Enter a headline for the content element.</label>
+			<label index="header.details">Almost all content elements (except the HTML type for instance) will display this header above the content. If you don't want a header displayed, select the header Layout to &quot;Hidden&quot;. Alternatively you can choose not to enter any content in this field.
+
+Some content element types do not display the header by default. In those cases the Header field is typically labeled &quot;Name&quot; instead. One of these are the HTML type content element.</label>
+			<label index="header_position.description">Places the header to the left, centered or to the right.</label>
+			<label index="header_link.description">Creates a link from the header. Insert a page id, email address or URL.</label>
+			<label index="header_link.syntax">If you insert an id-number, eg. &quot;51&quot;, the link will refer to page with id=51 &lt;em&gt;inside&lt;/em&gt; TYPO3.
+If you insert an email address, eg. &quot;name@my-domain.test&quot;, the link will point to that email address.
+If you insert an URL or domain, eg. &quot;www.typo3.com&quot; or &quot;http://www.my-domain.org&quot;, the link will point to that website.</label>
+			<label index="header_layout.description">Select a visual design for the header.</label>
+			<label index="header_layout.details">If you select &quot;Default&quot; the standard design (which is one of the layouts 1-5) will be used.
+Alternatively you can select from Layout 1 through 5 which are configured in the website template with individual visual designs.
+If you select &quot;Hidden&quot; the header will simply not appear. This is usefull if you wish a header for the content element (in order to identify it in the backend) but do not wish the header to be displayed on the website.</label>
+			<label index="subheader.description">Enter a subheader. This is displayed below the ordinary headline. If the content element type is &quot;Form&quot; this field is the recipient email.</label>
+			<label index="subheader.details">A subheader is displayed only with the &quot;Header&quot; content element type.
+
+&lt;b&gt;Notice:&lt;/b&gt; When using the content element type &quot;Form&quot;, this field is named 'Recipient-email:' and contains the email address of the form mail recipient. It's therefore important to allow access to this field for the users.</label>
+			<label index="bodytext.description">Enter the body text.</label>
+			<label index="bodytext.details">Here you enter the body text of the content element. Usually you can use some HTML formatting tags, if you're using Internet Explorer you can even format the content visually.
+The field is reused in most other types and so switching between the content element types will bring the value of this field with it.
+
+When you're using this field with the &quot;Text&quot; and &quot;Text w/image&quot; types, the content is used as ordinary body text. Each linebreak normally signifies a new paragraph, you can use the special TYPO3 tag, &amp;lt;LINK&amp;gt;, for making links. You can use many HTML tags but there are limitations as well. This will depend on the implementation.
+
+&lt;b&gt;Bulletlists:&lt;/b&gt;
+If the type is &quot;Bulletlist&quot; each line in this field is a bulletlist entry.
+
+&lt;b&gt;Tables:&lt;/b&gt;
+If the type is &quot;Table&quot; each line represents a table row. Within each line you divide the columns by inserting a vertical bar, |. So making a table row with 3 columns could look like &quot;This is column 1 | Column 2 here | Third column!&quot;. Use the table wizard for creating tables - that is much easier than &quot;coding&quot; them.
+
+&lt;b&gt;Parameters:&lt;/b&gt;
+Types like &quot;Script&quot;, &quot;Form&quot; and &quot;Multimedia&quot; use this field for parameters you can pass to the element. And the &quot;HTML&quot; type accepts any input as raw HTML which is simply displayed on the website without any preprocessing.
+
+&lt;strong&gt;Rich Text Editor:&lt;/strong&gt;
+With the types &quot;Text&quot; and &quot;Text w/image&quot; the Rich Text editor is used for editing if your browser supports it and the editor is generally enabled in the system. Be aware that the content is &quot;cleansed&quot; before it goes into the database when you're using the &quot;Text&quot; and &quot;Text w/image&quot; types.
+
+&lt;b&gt;Making a mail form:&lt;/b&gt;
+When you have selected the content element type &quot;Form&quot; you should enter lines of parameters into this field. This is a brief example:
+
+Your name: | *name=input,40 | [Enter name!]
+Your email: | *email=input,40
+Your address: | address=textarea,40,10
+Your haircolor: |hair=radio|Blue=blue, Red=red
+
+|formtype_mail = submit | Send form
+|subject=hidden| Enter a subject here!
+|html_enabled=hidden | 1
+
+The first two lines makes input-fields for name and email, both are marked &quot;required&quot; by the * and the name field has a default value of &quot;[Enter name!]&quot;.
+The third line is a text box and the fourth makes radiobuttons to select haircolor.
+Then there are three important lines in the end. The first makes a submit button with the label &quot;Send form&quot;, the second line is the subject of the email the receiver gets and the third line makes the form result render in an HTML-table.
+It is much easier to use the Form Wizard for creating forms.
+
+&lt;b&gt;Notice:&lt;/b&gt; Before any form will ever work, you must enter a recipient email address. The &quot;Recipient-email:&quot; field is used for that (this is in fact the Subheader field used!).</label>
+			<label index="text_align.description">Places the body text to the left, centered or to the right.</label>
+			<label index="text_align.details">See Pagecontent / Fontface for comments.
+&lt;b&gt;Notice:&lt;/b&gt; This option is obsolete when you are using CSS for rendering.</label>
+			<label index="text_face.description">Select a font fact family for the body text.</label>
+			<label index="text_face.details">&lt;strong&gt;Notice&lt;/strong&gt; that these options are only meant for special design. The general (default) design should be configured in the template instead. Furthermore you should NOT use these options if your template implements stylesheets and are based on using styles in general.</label>
+			<label index="text_size.description">Select a font size for the body text.</label>
+			<label index="text_size.details">See Pagecontent / Fontface for comments.
+&lt;b&gt;Notice:&lt;/b&gt; This option is obsolete when you are using CSS for rendering.</label>
+			<label index="text_color.description">Select a color for the body text.</label>
+			<label index="text_color.details">See Pagecontent / Fontface for comments.
+&lt;b&gt;Notice:&lt;/b&gt; This option is obsolete when you are using CSS for rendering.</label>
+			<label index="text_properties.description">Select additional font properties.</label>
+			<label index="text_properties.details">These options will select font properties for all the body text. However you may wish to mark only a part of the bodytext as bold or underline in which case you should use the formatting options in the Rich Text Editor. Alternatively you can use the HTML tags here:
+
+&amp;lt;b&amp;gt;&lt;strong&gt;This is bold&lt;/strong&gt;&amp;lt;b&amp;gt;
+&amp;lt;i&amp;gt;&lt;em&gt;This is italics&lt;/em&gt;&amp;lt;i&amp;gt;
+&amp;lt;u&amp;gt;&lt;u&gt;This is underlined&lt;/u&gt;&amp;lt;u&amp;gt;
+
+See Pagecontent / Fontface for comments.
+&lt;b&gt;Notice:&lt;/b&gt; This option is obsolete when you are using CSS for rendering.</label>
+			<label index="image.description">Insert one or more images.</label>
+			<label index="image.details">You can attach images to the content element and almost as many as you like.
+Depending on the configuration of TYPO3 you can even attach them in any format you like. Especially you do not need to worry about size and compression because these factors are normally handled by TYPO3 internally.
+
+When you use the &quot;Text w/image&quot; type, it's important to select a proper position of the imageblock. For this purpose, use the Position selector which is displayed below (or if you click in the image list field in the Classic backend). See link to &quot;Pagecontent / Position&quot; below.
+You can also display images in multiple columns and enable an option which enables a link so you can click the image and see a bigger version. Just to name a few options.
+Most likely you don't have all options available. This depends on your permissions in the system.</label>
+			<label index="image.image_descr">This shows all the options related to inserting images in Content Elements. You might not be able to use all of them.</label>
+			<label index="imagewidth.description">Enter the width in pixels of the image.</label>
+			<label index="imagewidth.details">The template is normally configured to a max width of an image and so you don't need to specify the width if the image fits perfectly into those dimensions. However this does give you an opportunity to specify a specific width.</label>
+			<label index="imageheight.description">Enter the height of the image in pixels.</label>
+			<label index="imageorient.description">Select the position of the imageblock relative to the body text.</label>
+			<label index="imageorient.details">The position above and below the body text is pretty straight forward.
+The options &quot;In text&quot; means that the image block is displayed with text aside it. When you select this option the template will probably force the images into smaller dimensions because they cannot take up the same space when text is supposed to float around them.
+When you select &quot;In text&quot; you can choose the options either above or below the divider &quot;No wrap&quot;. If you select the &quot;In text&quot; option above, the bodytext will float &lt;em&gt;under&lt;/em&gt; the image block when the bodytext reaches the end of the image block. So in other words the body text &lt;em&gt;wraps around&lt;/em&gt; the image block. If you select &quot;In text&quot; below the &quot;No wrap&quot; divider, the body text will not float under the image block, but simply continue in its column.
+Apart from the visual difference there is a technical aspect as well. Because if you choose to allow the content to wrap the image block you will experience a strange phenomenon when you do not have enough bodytext to make it float around the image: You experience that the subsequent content elements on the page is somehow layered on top of the image block - and this certainly looks like a bug. However it's easily solved by changing the &quot;In text&quot; position to the equal value but below the &quot;No wrap&quot; divider.</label>
+			<label index="imageborder.description">Check this, if you wish a colored border around the images.</label>
+			<label index="image_noRows.description">Disables strict tablerows in the image block.</label>
+			<label index="image_noRows.details">This options is kind of hard to explain, but imagine you have 2 or more columns &lt;em&gt;and&lt;/em&gt; rows of images. If one image in the upper row is a bit taller than the second this will generate an empty extra space beneath the second image. This is due to the normal procedure in which the images are placed in a table cell each.
+If you set this option, the table will place all images in a column in a single table cell which make the distance between them vertically identical throughout. This may provide a better look if the alternative looks stupid.</label>
+			<label index="image_link.description">Enter a link for the images.</label>
+			<label index="image_link.details">By default all images share the same link. However you may ask the administrator to configure the TypoScript template to allow a separate link for each image. If this is the case, you simply separate the link values by a comma.
+
+See Pagecontent&gt;Link below for details on syntax.</label>
+			<label index="image_zoom.description">Check this option, and the image will link to a new window with a bigger version.</label>
+			<label index="image_zoom.details">This option overrides the value in the Link-field.</label>
+			<label index="image_effects.description">Select special image processing effects.</label>
+			<label index="image_frames.description">Select special image framing options.</label>
+			<label index="image_compression.description">Select compression/quality options.</label>
+			<label index="imagecols.description">Select the number of columns in the image block.</label>
+			<label index="imagecaption.description">Enter a caption for the image block</label>
+			<label index="imagecaption.details">By default the caption is positioned below the whole image block. However your website template may be configured to allow individual image captions by setting &quot;styles.content.imgtext.captionSplit=1&quot; in your template constants.
+			In that case each line in this field will be the image caption of the corresponding image in the list.
+
+The caption text field is also used by the content element type &quot;Filelinks&quot; where each line represents a description of a file in the list.</label>
+			<label index="imagecaption_position.description">Places the image caption to the left, centered or to the right.</label>
+			<label index="cols.description">Select a fixed number of table columns</label>
+			<label index="pages.description">Insert page(s)</label>
+			<label index="pages.details">With this field you can generally create a relation to a page (or more) in TYPO3. This field is used by many of the content element types. If you don't specify a page here, the current page will generally be used.
+
+Using the &quot;Search&quot; type, the page you insert will be the page to which the search is targeted. You must make sure that this page has a similar &quot;Search&quot; content element (or something similar) to render a search result. Else it makes no sense.
+
+The &quot;Login&quot; type content element also uses this field to direct the login to a certain page. However that page does not need to contain a Login content element in order to perform the authentication - you can in fact submit a login request to any TYPO3 page and it will be evaluated!
+If you specify a second page in this list, the id will be passed to the login system as being the page inside TYPO3 where the database of users to look up is found. You should use this only if your template is not configured to pass this value on.
+In order for the login procedure to work, you must make sure that 1) you have created at least one Website user and member usergroup and is using the correct username and password, 2) you have configured in your TypoScript template on which page (typically a SysFolder) the users can be found - or alternatively have specified this by the second page in the this page list, 3) cookies must be enabled.
+
+The &quot;Menu/Sitemap&quot; element also uses this field. In that case the page(s) will determine from which point the menu is drawn or maybe even represent the actual pages to which the menu links. All this depends on the subtype of Menu/Sitemap you have selected.
+
+Finally the &quot;Form&quot; element uses this field as the page to which the form is submitted. You might thus insert a page which is the &quot;Thank you&quot; page of the form mail.</label>
+			<label index="recursive.description">Select how many subleves should be additionally selected for each page in the list.</label>
+			<label index="recursive.details">Whether this feature makes sense or not depends solely on the template implementation and/or content element type. But basically if this feature is enabled it means that for each page listed in the &quot;Send to page/Starting point&quot; box subpages - to the depth specified here - will &lt;em&gt;also&lt;/em&gt; be selected!
+
+&lt;strong&gt;Warning:&lt;/strong&gt; If there are many subpages, be aware of this option. It may select an incredible amount of pages then!</label>
+			<label index="menu_type.description">Select which kind of menu you wish to create.</label>
+			<label index="menu_type.details">This is a short description of each type:
+
+&lt;strong&gt;Menu of these pages&lt;/strong&gt;
+This will create a list of links to the pages you insert in the Startingpoint list.
+
+&lt;strong&gt;Menu of subpages to these pages&lt;/strong&gt;
+This results in a list of links to the subpages of the pages in the Startingpoint list. If you do not specify a startingpoint, subpages to the current page will be selected.
+
+&lt;strong&gt;Menu of subpages to these pages (with abstract)&lt;/strong&gt;
+Like the previous, but this will include the content of the Abstract field of the pages.
+
+&lt;strong&gt;Menu of subpages to these pages + sections&lt;/strong&gt;
+Like the previous, but including 'submenu' links to all content elements on the page which has the &quot;Index&quot; checkbox set.
+
+&lt;strong&gt;Sitemap&lt;/strong&gt;
+Generates a classic tree sitemap. Maybe your TypoScript template is configured to another design of the sitemap, but anyhow you'll get a sitemap out of this. Notice that the sitemap will begin from the current page unless you specify another &quot;Startingpoint&quot; page in the list below.
+
+&lt;strong&gt;Section index (pagecontent w/Index checked)&lt;/strong&gt;
+This makes a menu to the content elements on this page (or the page specified in the Starting point list). Great way to make an index in the top of the page.
+Notice that all content elements with the &quot;Index&quot; checkbox set is selected. So if you don't want certain content elements to appear in the list, just un-check the Index checkbox for those elements.
+
+&lt;strong&gt;Recently updated pages&lt;/strong&gt;
+This displays the 10 most recently updated pages.
+&lt;strong&gt;Notice:&lt;/strong&gt; If you update a page and this list seems not to be updated instantly, just clear the cache of the page and the problem is solved.
+
+&lt;strong&gt;Related pages (based on keywords)&lt;/strong&gt;
+Displays other related pages based on the keywords set for this page matched up with the keywords on other pages.
+
+
+&lt;b&gt;Notice:&lt;/b&gt; With many of the above menu types, the default starting point is the current page. However you can specify another startingpoint (or more than one in fact!) by adding pages to the &quot;Startingpoint&quot; list. See link below.</label>
+			<label index="list_type.description">Select a plugin to insert.</label>
+			<label index="list_type.details">The list of plugins you can insert on a page. The available plugins depends on which extensions are installed.</label>
+			<label index="select_key.description">Enter a code string.</label>
+			<label index="select_key.details">Whether or not the content of this field is used and how it's intepreted depends on the context. It is considered obsolete today.</label>
+			<label index="table_bgColor.description">Select table background color.</label>
+			<label index="table_border.description">Select table border thickness.</label>
+			<label index="table_cellspacing.description">Select table cell spacing.</label>
+			<label index="table_cellspacing.details">Cell spacing is the distance between table cells in rows an columns. The distance is equally applied in all directions, top, bottom, left and right.</label>
+			<label index="table_cellpadding.description">Select table cellpadding.</label>
+			<label index="table_cellpadding.details">Cell padding is the 'internal' margin of a table cell. The distance is equally applied in all directions, top, bottom, left and right.</label>
+			<label index="media.description">Add files to the list here.</label>
+			<label index="multimedia.description">Insert the multimedia element, eg. a flash movie here.</label>
+			<label index="filelink_size.description">Check this, if you wish the filesizes to be displayed.</label>
+			<label index="records.description">Insert relations to records.</label>
+			<label index="spaceBefore.description">Enter the amount of whitespace (in pixels) to insert &lt;em&gt;before&lt;/em&gt; this content element.</label>
+			<label index="spaceAfter.description">Enter the amount of whitespace (in pixels) to insert &lt;em&gt;after&lt;/em&gt; this content element.</label>
+			<label index="section_frame.description">Select a framing option for the content element.</label>
+			<label index="splash_layout.description">Select the design for the Text box.</label>
+			<label index="splash_layout.details">&lt;strong&gt;Notice:&lt;/strong&gt; The Textbox type has a few default renderings but are primarily designed to be used for custom purposes. Therefore the availability of features will depend on the current website template.</label>
+			<label index="sectionIndex.description">If set, the content element will appear in section indices.</label>
+			<label index="sectionIndex.details">See details for the Menu-type selector (click below).</label>
+			<label index="linkToTop.description">If checked, a little &quot;To top&quot; link will be inserted after the content element.</label>
+			<label index="rte_enabled.description">If checked, the Rich Text Editor will be disabled for the &quot;Text&quot; and &quot;Text w/Image&quot; types (&lt;em&gt;in this element only&lt;/em&gt;).</label>
+			<label index="pi_flexform.description">FlexForm Configuration of Plugins</label>
+			<label index="pi_flexform.details">Some plugins may require configuration of their options. They may use this field for FlexForm based configuration settings (stored as XML).</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

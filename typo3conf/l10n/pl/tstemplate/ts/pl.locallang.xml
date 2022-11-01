@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="pl" type="array">
+			<label index="moduleTitle">Narzędzia szablonów</label>
+			<label index="templateAnalyzer">Analizator szablonów</label>
+			<label index="constantEditor">Edytor stałych (Constants)</label>
+			<label index="infoModify">Info/Modyfikacja</label>
+			<label index="viewTemplates">Przeglądasz szablony</label>
+			<label index="pageName">Tytuł strony</label>
+			<label index="templates"># Szablonów</label>
+			<label index="isRoot">Root</label>
+			<label index="isExt">Dodatkowy</label>
+			<label index="overview">Oto przegląd stron zawierających co najmniej jeden szablon. Kliknij w tytuł strony aby do niej przejść.</label>
+			<label index="areYouSure">Jesteś pewien, że chcesz to zrobić?</label>
+			<label index="noTemplate">Brak szablonów</label>
+			<label index="noTemplateDescription">Na tej stronie nie znajduą się żadne szablony!</label>
+			<label index="createTemplate">Aby edytować stałe najpierw utwórz szablon!</label>
+			<label index="newWebsite">Utwórz nowy serwis</label>
+			<label index="newWebsiteDescription">Jeśli chcesz, by ta strona była stroną root nowego serwisu, ewentualnie opartą na standardowym szablonie skorzystaj z poniższych przycisków:</label>
+			<label index="newWebsiteAction">Utwórz szablon dla nowego serwisu</label>
+			<label index="extTemplate">Utwórz szablon dodatkowy</label>
+			<label index="extTemplateDescription">Szablon dodatkowy pozawala Ci na podanie wartości TypoScript, które będą dostępne wyłącznie na tej stronie oraz jej podstronach.</label>
+			<label index="extTemplateAction">Kliknij tu, by utworzyć szablon dodatkowy.</label>
+			<label index="goToClosest">Przejdź do najbliższej strony zawierającej szablon</label>
+			<label index="goToClosestDescription">Najbliższy szablon znajduje się na stronie '%s' (uid: $s).</label>
+			<label index="goToClosestAction">Przejdź tam teraz.</label>
+			<label index="titleNewSiteStandard">NOWA STRONA, bazująca na standardzie</label>
+			<label index="titleNewSite">NOWA STRONA</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="pl" type="array">
+			<label index="moduleTitle" type="integer">25422173</label>
+			<label index="viewTemplates" type="integer">147171339</label>
+			<label index="templateAnalyzer" type="integer">99845697</label>
+			<label index="constantEditor" type="integer">6299451</label>
+			<label index="infoModify" type="integer">54689582</label>
+			<label index="pageName" type="integer">201990046</label>
+			<label index="templates" type="integer">238742573</label>
+			<label index="isRoot" type="integer">251629950</label>
+			<label index="isExt" type="integer">130245860</label>
+			<label index="overview" type="integer">236778785</label>
+			<label index="areYouSure" type="integer">98783804</label>
+			<label index="noTemplate" type="integer">8182736</label>
+			<label index="noTemplateDescription" type="integer">40670108</label>
+			<label index="createTemplate" type="integer">48618724</label>
+			<label index="newWebsite" type="integer">18468574</label>
+			<label index="newWebsiteDescription" type="integer">230498313</label>
+			<label index="newWebsiteAction" type="integer">260099072</label>
+			<label index="extTemplate" type="integer">405812</label>
+			<label index="extTemplateDescription" type="integer">53295941</label>
+			<label index="extTemplateAction" type="integer">29079988</label>
+			<label index="goToClosest" type="integer">111276478</label>
+			<label index="goToClosestDescription" type="integer">219139555</label>
+			<label index="goToClosestAction" type="integer">19590923</label>
+			<label index="titleNewSiteStandard" type="integer">44728116</label>
+			<label index="titleNewSite" type="integer">13205855</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="pl" type="array">
+			<label index="moduleTitle">Template tools</label>
+			<label index="viewTemplates">Viewing templates of</label>
+			<label index="templateAnalyzer">Template Analyzer</label>
+			<label index="constantEditor">Constant Editor</label>
+			<label index="infoModify">Info/Modify</label>
+			<label index="pageName">Page name</label>
+			<label index="templates"># Templates</label>
+			<label index="isRoot">Is Root?</label>
+			<label index="isExt">Is Ext?</label>
+			<label index="overview">This is an overview of the pages in the database containing one or more template records. Click a page title to go to the page.</label>
+			<label index="areYouSure">Are you sure you want to do this?</label>
+			<label index="noTemplate">No template</label>
+			<label index="noTemplateDescription">There was no template on this page!</label>
+			<label index="createTemplate">Create a template record first in order to edit constants!</label>
+			<label index="newWebsite">Create new website</label>
+			<label index="newWebsiteDescription">If you want this page to be the root of a new website, optionally based on one of the standard templates, then press the button below:</label>
+			<label index="newWebsiteAction">Create template for a new site</label>
+			<label index="extTemplate">Create extension template</label>
+			<label index="extTemplateDescription">An extension template allows you to enter TypoScript values that will affect only this page and subpages.</label>
+			<label index="extTemplateAction">Click here to create an extension template.</label>
+			<label index="goToClosest">Go to closest page with template</label>
+			<label index="goToClosestDescription">Closest template is on page '%s' (uid %s).</label>
+			<label index="goToClosestAction">Click here to go.</label>
+			<label index="titleNewSiteStandard">NEW SITE, based on standard</label>
+			<label index="titleNewSite">NEW SITE</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

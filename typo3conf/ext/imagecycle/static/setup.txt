@@ -1,0 +1,386 @@
+plugin.tx_imagecycle_pi1 {
+
+	linkTarget = {$plugin.tx_imagecycle_pi1.linkTarget}
+	extlinkTarget = {$plugin.tx_imagecycle_pi1.extlinkTarget}
+	random = {$plugin.tx_imagecycle_pi1.random}
+	cleartypeNoBg = {$plugin.tx_imagecycle_pi1.cleartypeNoBg}
+	stopOnMousover = {$plugin.tx_imagecycle_pi1.stopOnMousover}
+	stopAfterOneCycle = {$plugin.tx_imagecycle_pi1.stopAfterOneCycle}
+	pausedBegin = {$plugin.tx_imagecycle_pi1.pausedBegin}
+	disableRecursion = {$plugin.tx_imagecycle_pi1.disableRecursion}
+	jQueryNoConflict = {$plugin.tx_imagecycle_pi1.jQueryNoConflict}
+	jsInFooter = {$plugin.tx_imagecycle_pi1.jsInFooter}
+	jsMinify = {$plugin.tx_imagecycle_pi1.jsMinify}
+	jsInline = {$plugin.tx_imagecycle_pi1.jsInline}
+	cssMinify = {$plugin.tx_imagecycle_pi1.cssMinify}
+	fixSlowConnection = {$plugin.tx_imagecycle_pi1.fixSlowConnection}
+
+	jQueryLibrary = {$plugin.tx_imagecycle_pi1.file.jQueryLibrary}
+	jQueryEasing = {$plugin.tx_imagecycle_pi1.file.jQueryEasing}
+	jQueryCycle = {$plugin.tx_imagecycle_pi1.file.jQueryCycle}
+	templateFileJS = {$plugin.tx_imagecycle_pi1.file.templateFileJS}
+	cssFile = {$plugin.tx_imagecycle_pi1.file.cssFile}
+
+	imagewidth = {$plugin.tx_imagecycle_pi1.imagewidth}
+	imageheight = {$plugin.tx_imagecycle_pi1.imageheight}
+	onlyFirstImage = {$plugin.tx_imagecycle_pi1.onlyFirstImage}
+
+	type = {$plugin.tx_imagecycle_pi1.type}
+	transition = {$plugin.tx_imagecycle_pi1.transition}
+	transitionDir = {$plugin.tx_imagecycle_pi1.transitionDir}
+	transitionDuration = {$plugin.tx_imagecycle_pi1.transitionDuration}
+	displayDuration = {$plugin.tx_imagecycle_pi1.displayDuration}
+	delayDuration = {$plugin.tx_imagecycle_pi1.delayDuration}
+	fastOnEvent = {$plugin.tx_imagecycle_pi1.fastOnEvent}
+	sync = {$plugin.tx_imagecycle_pi1.sync}
+	showControl = {$plugin.tx_imagecycle_pi1.showControl}
+	showPager = {$plugin.tx_imagecycle_pi1.showPager}
+	options = {$plugin.tx_imagecycle_pi1.options}
+	optionsOverride = {$plugin.tx_imagecycle_pi1.optionsOverride}
+
+	showcaption = {$plugin.tx_imagecycle_pi1.showcaption}
+	captionAnimate = {$plugin.tx_imagecycle_pi1.captionAnimate}
+	captionTypeOpacity = {$plugin.tx_imagecycle_pi1.captionTypeOpacity}
+	captionTypeHeight = {$plugin.tx_imagecycle_pi1.captionTypeHeight}
+	captionTypeWidth = {$plugin.tx_imagecycle_pi1.captionTypeWidth}
+	captionSync = {$plugin.tx_imagecycle_pi1.captionSync}
+	captionTransition = {$plugin.tx_imagecycle_pi1.captionTransition}
+	captionTransitionDir = {$plugin.tx_imagecycle_pi1.captionTransitionDir}
+	captionSpeed = {$plugin.tx_imagecycle_pi1.captionSpeed}
+
+	damCaptionFields = {$plugin.tx_imagecycle_pi1.damCaptionFields}
+	damCaptionObject = TEXT
+	damCaptionObject {
+		data = register:dam_caption
+		ifEmpty {
+			data = register:dam_description
+			ifEmpty {
+				data = register:dam_title
+			}
+		}
+	}
+	damHrefFields = {$plugin.tx_imagecycle_pi1.damHrefFields}
+
+	integerWidthWrap {
+		wrap = |
+	}
+	integerHeightWrap {
+		wrap = |
+	}
+
+	cycle {
+		normal {
+			image {
+				file.import.data = register:file
+				file.width.data = register:imagewidth
+				file.height.data = register:imageheight
+				imageLinkWrap < tt_content.image.20.1.imageLinkWrap
+				imageLinkWrap = 1
+				imageLinkWrap {
+					enable.data = register:href
+				}
+				imageHrefWrap {
+					enable.data = register:href
+					typolink {
+						parameter.data = register:href
+						title {
+							data = register:caption
+							stripHtml = 1
+						}
+						target = {$plugin.tx_imagecycle_pi1.linkTarget}
+						extTarget = {$plugin.tx_imagecycle_pi1.extlinkTarget}
+					}
+				}
+				altText {
+					data = register:caption
+					stripHtml = 1
+				}
+				titleText < .altText
+				longdescURL >
+			}
+			pager = TEXT
+			pager {
+				value = <a href="#" rev="{register:IMAGE_NUM_CURRENT}">{register:CURRENT_ID}</a>
+				insertData = 1
+			}
+			pagerWrap {
+				dataWrap = <div id="{register:key}_pager" class="tx-imagecycle-pi1-pager"> | </div>
+				required = 1
+			}
+			stdWrap {
+				dataWrap = <div class="tx-imagecycle-pi1">###PAGER###<ul id="{register:key}" class="tx-imagecycle-pi1-images"> | </ul></div>
+				required = 1
+			}
+			captionWrap {
+				dataWrap = | <div class="imagecycle-caption">{register:caption}</div>
+				required = 1
+			}
+			captionTag = div
+			itemWrap {
+				wrap = <li> | </li>
+				required = 1
+			}
+			noscriptWrap {
+				dataWrap = <noscript><ul class="tx-imagecycle-pi1-images"><li> | </li></ul></noscript>
+				required = 1
+			}
+		}
+
+		header < .normal
+
+		content < .normal
+
+		ttnews {
+			image = IMAGE
+			image {
+				file {
+					maxW = {$plugin.tt_news.singleMaxW}
+					maxH = {$plugin.tt_news.singleMaxH}
+				}
+				imageLinkWrap = 1
+				imageLinkWrap {
+					enable.ifEmpty.typolink {
+						parameter.field = links
+						parameter.listNum.splitChar = 10
+						parameter.listNum.stdWrap.data = register : IMAGE_NUM_CURRENT
+						returnLast = url
+					}
+					typolink {
+						parameter.field = links
+						parameter.listNum.splitChar = 10
+						parameter.listNum.stdWrap.data = register : IMAGE_NUM_CURRENT
+						target = {$styles.content.links.target}
+						extTarget = {$styles.content.links.extTarget}
+					}
+				}
+				altText >
+				altText {
+					data = register:imagecaption
+					stripHtml = 1
+				}
+				titleText < .altText
+			}
+			stdWrap {
+				dataWrap = <div class="tx-imagecycle-pi1"><ul id="{register:key}" class="tx-imagecycle-pi1-images"> | </ul></div>
+				preUserFunc = tx_imagecycle->getSlideshow
+				preUserFunc.instanceClass = EXT:imagecycle/pi1/class.tx_imagecycle_pi1.php
+				preUserFunc.instance = tx_imagecycle_pi1
+				preUserFunc.type = ttnews
+			}
+			captionWrap {
+				dataWrap = | <div class="imagecycle-caption">{register:caption}</div>
+				required = 1
+			}
+			captionTag = div
+			itemWrap {
+				wrap = <li> | </li>
+				required = 1
+			}
+			noscriptWrap {
+				dataWrap = <noscript><ul class="tx-imagecycle-pi1-images"><li> | </li></ul></noscript>
+				required = 1
+			}
+		}
+	}
+
+	dataConf {
+		tt_content {
+			image >
+			href >
+			caption = RECORDS
+			caption {
+				source.data = register:source
+				tables = tt_content
+				dontCheckPid = 1
+				conf.tt_content = COA
+				conf.tt_content {
+					10 = TEXT
+					10 {
+						field = header
+						wrap = <strong> | </strong>
+					}
+					20 = TEXT
+					20 {
+						field = bodytext
+						wrap = <br /> |
+						cropHTML = 160|...|1
+						required = 1
+					}
+				}
+			}
+		}
+		fe_users {
+			image >
+			href >
+			caption = RECORDS
+			caption {
+				source.data = register:source
+				tables = fe_users
+				dontCheckPid = 1
+				conf.fe_users = COA
+				conf.fe_users {
+					10 = TEXT
+					10 {
+						field = username
+						wrap = <strong> | </strong>
+					}
+					20 = TEXT
+					20 {
+						field = email
+						typolink {
+							parameter.field = email
+						}
+						noTrimWrap = |<br />E-Mail: ||
+						required = 1
+					}
+				}
+			}
+		}
+		tt_address {
+			image >
+			href >
+			caption = RECORDS
+			caption {
+				source.data = register:source
+				tables = tt_address
+				dontCheckPid = 1
+				conf.tt_address = COA
+				conf.tt_address {
+					10 = TEXT
+					10 {
+						field = name
+						wrap = <strong> | </strong>
+					}
+					20 = TEXT
+					20 {
+						field = address
+						wrap = <br /> |
+						required = 1
+					}
+					30 = TEXT
+					30 {
+						field = zip
+						dataWrap = <br /> | &nbsp;{field:city}
+						required = 1
+					}
+				}
+			}
+		}
+		tt_news {
+			image >
+			href >
+			caption = RECORDS
+			caption {
+				source.data = register:source
+				tables = tt_news
+				dontCheckPid = 1
+				conf.tt_news = COA
+				conf.tt_news {
+					10 = TEXT
+					10 {
+						field = title
+						wrap = <strong>|</strong>
+					}
+					20 = TEXT
+					20 {
+						field = bodytext
+						wrap = <br />|
+						cropHTML = 160|...|1
+						required = 1
+					}
+					30 = TEXT
+					30 {
+						wrap = <br />|
+						htmlSpecialChars = 0
+						data = LLL:EXT:tt_news/pi/locallang.xml:more
+						typolink {
+							parameter = {$plugin.tt_news.singlePid}
+							useCacheHash = 1
+							additionalParams.cObject = COA
+							additionalParams.cObject {
+								10 = TEXT
+								10 {
+									field = uid
+									wrap = &tx_ttnews[tt_news]=|
+								}
+							}  
+						}
+					}
+				}
+			}
+		}
+	}
+
+	_CSS_DEFAULT_STYLE (
+.tx-imagecycle-pi1-images {
+	display: none;
+	position: relative;
+	overflow: hidden;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.tx-imagecycle-pi1-images img {
+	display: block;
+}
+.tx-imagecycle-pi1-images li {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+.tx-imagecycle-pi1-images li,
+.tx-imagecycle-pi1-images a {
+	display: block;
+	position: relative;
+}
+.tx-imagecycle-pi1-images a:hover {
+	background: none;
+	border: 0 !important;
+}
+.tx-imagecycle-pi1-images .imagecycle-caption {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	/* remove the below 'width' line if you want the caption background to be just the width of the caption text */
+	width: 100%;
+	padding: 5px;
+	color: #fff;
+	background: #000;
+	opacity: 0.8;
+	white-space: nowrap;
+	display: none;
+}
+.tx-imagecycle-pi1-images .imagecycle-caption a {
+	display: inline;
+	color: #9bd;
+}
+.tx-imagecycle-pi1-images .imagecycle-caption a:hover {
+	color: #acf;
+}
+.tx-imagecycle-pi1-pager {
+	margin: 0 0 5px 0;
+	text-align: center;
+}
+.tx-imagecycle-pi1-pager a {
+	border: 1px solid #ccc;
+	background: #fc0;
+	text-decoration: none;
+	margin: 0 5px;
+	padding: 3px 5px;
+}
+.tx-imagecycle-pi1-pager a.activeSlide {
+	background: #ea0;
+}
+/* noscript will be displayed */
+noscript .tx-imagecycle-pi1-images {
+	display: block;
+}
+noscript .tx-imagecycle-pi1-images li {
+	float: left;
+	overflow: hidden;
+}
+noscript .tx-imagecycle-pi1-images .imagecycle-caption {
+	display: block;
+}
+	)
+}

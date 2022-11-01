@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="lv" type="array">
+			<label index="user">Lietotājs:</label>
+			<label index="group">Grupa:</label>
+			<label index="everybody">Visi:</label>
+			<label index="thisUser">Šis lietotājs:</label>
+			<label index="mainGroup">Pamata grupa:</label>
+			<label index="live">[TIEŠSAISTE]</label>
+			<label index="defaultDraft">[Noklusētais melnraksts]</label>
+			<label index="compareUserSettings">Salīdzināt lietotāju uzstādījumus</label>
+			<label index="listUsersOnline">Parādīt tiešsaistē esošos lietotājus</label>
+			<label index="backendUserAdministration">Backend lietotāju administrēšana</label>
+			<label index="selectTables">Izvēlēties tabulas</label>
+			<label index="limitToLanguages">Ierobežot valodas</label>
+			<label index="workspacePermissions">Darba vides atļaujas</label>
+			<label index="workspaceMembership">Darba vides lietotāja dalība</label>
+			<label index="modules">Moduļi</label>
+			<label index="tsconfig">TSconfig</label>
+			<label index="backToOverview">&lt; Atpakaļ uz pārskatu</label>
+			<label index="userInfo">Lietotāja informācija</label>
+			<label index="groupBy">Grupēt pēc:</label>
+			<label index="update">Atjaunināt</label>
+			<label index="groupAndCompareUsers">Grupēt un salīdzināt lietotājus</label>
+			<label index="tooManyUsers">Par daudz lietotāju:</label>
+			<label index="canOnlyDisplay">Šis rīks spēj parādīt maksimālo lietotāju skaitu, kas ir:</label>
+			<label index="newUser">Izveidot jaunu lietotāju</label>
+			<label index="usernames">Lietotājvārdi:</label>
+			<label index="switchUserTo">Pārslēgties uz lietotāju:</label>
+			<label index="result">rezultāts</label>
+			<label index="showInformation">Rādīt informāciju</label>
+			<label index="delete">Dzēst(!)</label>
+			<label index="timestamp">Laika nospiedums:</label>
+			<label index="host">Hosts:</label>
+			<label index="username">Lietotājvārds:</label>
+			<label index="whoIsOnline">Kurš ir tiešsaistē</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="lv" type="array">
+			<label index="user" type="integer">100638193</label>
+			<label index="group" type="integer">27937892</label>
+			<label index="everybody" type="integer">15655333</label>
+			<label index="thisUser" type="integer">138389859</label>
+			<label index="mainGroup" type="integer">177224527</label>
+			<label index="live" type="integer">92369862</label>
+			<label index="defaultDraft" type="integer">105965277</label>
+			<label index="compareUserSettings" type="integer">212545481</label>
+			<label index="listUsersOnline" type="integer">10753523</label>
+			<label index="backendUserAdministration" type="integer">1134652</label>
+			<label index="selectTables" type="integer">185925222</label>
+			<label index="limitToLanguages" type="integer">111675549</label>
+			<label index="workspacePermissions" type="integer">220363531</label>
+			<label index="workspaceMembership" type="integer">80420453</label>
+			<label index="modules" type="integer">200374977</label>
+			<label index="tsconfig" type="integer">258585102</label>
+			<label index="backToOverview" type="integer">220470287</label>
+			<label index="userInfo" type="integer">213666707</label>
+			<label index="groupBy" type="integer">103901916</label>
+			<label index="update" type="integer">6894342</label>
+			<label index="groupAndCompareUsers" type="integer">165767256</label>
+			<label index="tooManyUsers" type="integer">143398085</label>
+			<label index="canOnlyDisplay" type="integer">56232059</label>
+			<label index="newUser" type="integer">63765912</label>
+			<label index="usernames" type="integer">166454520</label>
+			<label index="switchUserTo" type="integer">266555586</label>
+			<label index="result" type="integer">189433921</label>
+			<label index="showInformation" type="integer">123490643</label>
+			<label index="delete" type="integer">95822415</label>
+			<label index="timestamp" type="integer">172890</label>
+			<label index="host" type="integer">142065542</label>
+			<label index="username" type="integer">212632006</label>
+			<label index="whoIsOnline" type="integer">238633576</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="lv" type="array">
+			<label index="user">User:</label>
+			<label index="group">Group:</label>
+			<label index="everybody">Everybody:</label>
+			<label index="thisUser">This user:</label>
+			<label index="mainGroup">Main group:</label>
+			<label index="live">[LIVE]</label>
+			<label index="defaultDraft">[Default Draft]</label>
+			<label index="compareUserSettings">Compare User Settings</label>
+			<label index="listUsersOnline">List Users Online</label>
+			<label index="backendUserAdministration">Backend User Administration</label>
+			<label index="selectTables">Select tables</label>
+			<label index="limitToLanguages">Limit to languages</label>
+			<label index="workspacePermissions">Workspace permissions</label>
+			<label index="workspaceMembership">Workspace membership</label>
+			<label index="modules">Modules</label>
+			<label index="tsconfig">TSconfig</label>
+			<label index="backToOverview">&lt; Back to overview</label>
+			<label index="userInfo">User Info</label>
+			<label index="groupBy">Group by:</label>
+			<label index="update">Update</label>
+			<label index="groupAndCompareUsers">Group and Compare Users</label>
+			<label index="tooManyUsers">There were too many users:</label>
+			<label index="canOnlyDisplay">This tool can only display the following number of users at a time:</label>
+			<label index="newUser">Create new user</label>
+			<label index="usernames">Usernames:</label>
+			<label index="switchUserTo">Switch user to:</label>
+			<label index="result">result</label>
+			<label index="showInformation">Show information</label>
+			<label index="delete">Delete(!)</label>
+			<label index="timestamp">Timestamp:</label>
+			<label index="host">Host:</label>
+			<label index="username">Username:</label>
+			<label index="whoIsOnline">Who Is Online</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

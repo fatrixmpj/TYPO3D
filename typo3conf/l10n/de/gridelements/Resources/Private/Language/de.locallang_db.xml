@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+		<label index="allowedElementTypes">Erlaubte CE</label>
+		<label index="allowedElementTypesHelp">Inhaltselemente auswählen die hier erstellt oder hierher bewegt werden dürfen.</label>
+		<label index="allowedGridElementTypes">Zulässige Raster-Elemente</label>
+		<label index="allowedGridElementTypesHelp">Alle Gridelement-Typen angeben, die hier erstellt oder hierher bewegt werden dürfen.</label>
+		<label index="dragAndDropHideNewElementWizardInfoOverlay">Info-Overlays beim Drag-In-Wizard für neue Inhaltselemente ausblenden.</label>
+		<label index="gridElements">Raster-Elemente</label>
+		<label index="hideColumnHeaders">Spaltenüberschriften verbergen.</label>
+		<label index="hideContentPreview">Vorschaubereich der Inhaltselemente ausblenden.</label>
+		<label index="list.collapseElement">Liste der Kind-Elemente einklappen</label>
+		<label index="list.expandElement">Liste der Kind-Elemente ausklappen</label>
+		<label index="list.collapseAllElements">Alle Raster-Container einklappen</label>
+		<label index="list.expandAllElements">Alle Raster-Container ausklappen</label>
+		<label index="list.columnName">Spalte:</label>
+		<label index="showGridInformation">Raster-Layout-Informationen einblenden.</label>
+		<label index="tt_content.CType_pi1">Raster-Element</label>
+		<label index="tt_content.tx_gridelements_backend_layout">Raster-Layout</label>
+		<label index="tt_content.tx_gridelements_backend_layout.I.horizontal">Dynamische Spalten (horizontal)</label>
+		<label index="tt_content.tx_gridelements_backend_layout.I.none">Keins</label>
+		<label index="tt_content.tx_gridelements_backend_layout.I.vertical">Dynamische Zeilen (vertikal)</label>
+		<label index="tt_content.tx_gridelements_children">Inhaltselemente</label>
+		<label index="tt_content.tx_gridelements_columns">Raster-Container-Spalten</label>
+		<label index="tt_content.tx_gridelements_container">Raster-Container</label>
+		<label index="tx_gridelements_backend_layout">CE Backend Layout</label>
+		<label index="tx_gridelements_backend_layout.alias">Alias</label>
+		<label index="tx_gridelements_backend_layout.ce_configuration">Konfiguration der Inhaltselemente</label>
+		<label index="tx_gridelements_backend_layout.config">Raster-Konfiguration</label>
+		<label index="tx_gridelements_backend_layout.description">Beschreibung</label>
+		<label index="tx_gridelements_backend_layout.div.configuration">Konfiguration</label>
+		<label index="tx_gridelements_backend_layout.frame">Rahmen</label>
+		<label index="tx_gridelements_backend_layout.frame.I.-1">Neutral</label>
+		<label index="tx_gridelements_backend_layout.frame.I.0">-</label>
+		<label index="tx_gridelements_backend_layout.frame.I.1">Rot</label>
+		<label index="tx_gridelements_backend_layout.frame.I.2">Grün</label>
+		<label index="tx_gridelements_backend_layout.frame.I.3">Blau</label>
+		<label index="tx_gridelements_backend_layout.horizontal">Kinder anordnen</label>
+		<label index="tx_gridelements_backend_layout.horizontal.I.0">Nebeneinander</label>
+		<label index="tx_gridelements_backend_layout.icon">Icon</label>
+		<label index="tx_gridelements_backend_layout.palette.appearance">Erscheinungsbild</label>
+		<label index="tx_gridelements_backend_layout.pi_flexform_ds">Flexform-Konfiguration</label>
+		<label index="tx_gridelements_backend_layout.pi_flexform_ds_file">Flexform-Konfigurationsdatei (überschreibt die direkte Eingabe)</label>
+		<label index="tx_gridelements_backend_layout.title">Titel</label>
+		<label index="tx_gridelements_backend_layout.top_level_layout">Top Level Layout</label>
+		<label index="tx_gridelements_backend_layout_wizard_label">Raster-Elemente</label>
+		<label index="tx_gridelements_clickmenu_pastereference">Als Referenz danach einfügen</label>
+		<label index="tx_gridelements_js.allowedElementTypes">Zulässige CE</label>
+		<label index="tx_gridelements_js.allowedGridElementTypes">Zulässige Raster-Elemente</label>
+		<label index="tx_gridelements_js.copyfrompage">Inhalt von einer anderen Seite hierhin kopieren</label>
+		<label index="tx_gridelements_js.drophere">Hier ablegen</label>
+		<label index="tx_gridelements_js.missingcontenttemplate">Fehlendes Inhalts-Template</label>
+		<label index="tx_gridelements_js.newcontentelementheader">Neu</label>
+		<label index="tx_gridelements_js.pasteinto">In diese Spalte einfügen</label>
+		<label index="tx_gridelements_js.pasteafter">Nach diesem Datensatz einfügen</label>
+		<label index="tx_gridelements_js.pastecopy">Kopie in diese Spalte einfügen</label>
+		<label index="tx_gridelements_js.modal.pastecopy">Wie wollen Sie den Inhalt der Zwischenablage hier einfügen?</label>
+		<label index="tx_gridelements_js.modal.button.pastecopy">Kopie einfügen</label>
+		<label index="tx_gridelements_js.pastereference">Referenz in diese Spalte einfügen</label>
+		<label index="tx_gridelements_js.modal.button.pastereference">Referenz einfügen</label>
+		<label index="tx_gridelements_collapsecontent">Inhalt dieser Spalte einklappen</label>
+		<label index="tx_gridelements_expandcontent">Inhalt dieser Spalte ausklappen</label>
+		<label index="tx_gridelements_contentcollapsed">Diese Spalte ist eingeklappt!</label>
+		</languageKey>
+  </data>
+</T3locallangExt>

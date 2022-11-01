@@ -1,0 +1,106 @@
+/*******************************************************************************/
+/* M O D U L E  */
+/******************************************************************************/
+
+
+/******************************************************************************/
+/** TEAM **/
+/******************************************************************************/
+
+@import "effekte/merkur.scss";
+.team {
+    @extend .merkur;
+}
+
+/* end team 	
+/******************************************************************************/
+
+
+
+
+
+
+
+/******************************************************************************/
+/** FOTOGALLERY I  **/
+/******************************************************************************/
+
+//@import "effekte/fgallery2.scss";
+/*.fotogallery2 {    @extend .fgallery2; }*/
+
+/******************************************************************************/
+
+
+
+
+
+
+
+/*******************************************************************************/
+/* GLOBAL CLASSES */  
+/*******************************************************************************/
+
+.gridcontainer:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+#gridrow div[class*="col-sm"] { margin-bottom:30px; }
+
+#gridrow div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
+	margin-bottom: 0px !important;
+}
+
+.gridcol img {
+	width:100% !important;
+	max-width:100% !important;
+	height:auto;
+}
+
+
+/*******************************************************************************/
+/* MEDIA QUERIES */  
+/*******************************************************************************/
+
+@media screen and (max-width: 767px) {
+	#gridrow div[class*="col-sm-3"] {  width:33.333% !important; float:left !important; }
+	#gridrow div[class*="col-sm-4"] {  width:33.333% !important; float:left !important; }
+	#gridrow div[class*="col-sm-6"] {  width:50% !important; float:left !important; }
+	#gridrow h2 {font-size:16px !important;}
+}
+
+@media screen and (max-width: 680px) {
+	#gridrow.row {
+		margin-right: -7.5px;
+		margin-left: -7.5px;
+	}
+		
+	#gridrow div[class*="col-sm"] {  
+		width:50% !important; 
+		float:left !important;
+		padding-right: 7.5px;
+		padding-left: 7.5px;
+	}
+	#gridrow div[class*="col-sm-12"] {  width:100% !important; float:left !important; }
+}
+
+@media screen and (max-width: 500px) {
+	#gridrow h2 {font-size:16px !important; }
+	#gridrow p { font-size:15px;	}
+	#gridrow div[class*="col-sm"] { margin-bottom:15px;}
+	
+}
+
+
+
+
+
+
+
+
+
+

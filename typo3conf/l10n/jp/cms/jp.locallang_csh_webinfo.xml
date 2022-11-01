@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="jp" type="array">
+			<label index="pagetree_overview.alttitle">ページツリーの概要</label>
+			<label index="pagetree_overview.description">ページツリーの概要では、開始時間、停止時間、キャッシュ設定などの、ページツリーから枝分かれ(ブランチ)しているページに関連した情報を表示します。</label>
+			<label index="pagetree_overview.image_descr">モジュール「ページツリーの概要」では、あるブランチのページにあるレコードを表示できます。ここでは、あるページツリーの2階層下までに含まれるレコード数が表示されています。</label>
+			<label index="func_0.alttitle">基本設定</label>
+			<label index="func_0.description">ページレコードから、別名,開始日時,終了日時,アクセス制限情報など選ばれたフィールドを表示します。</label>
+			<label index="func_0.details">”基本設定”は、”キャッシュと保存期間”表示と非常に多くの共通点があります。表示されるフィールドだけが違います。
+
+&lt;b&gt;ページフィールド編集バッチ&lt;/b&gt;
+あなたは、インターフェース周りでマルチ編集アイコンを見つける。ヘッドラインにあるすべての編集アイコンは、フィールドを変更できる編集ダイアログを提供する。たとえば、すべての&quot;開始時間”をバッチ編集するのに非常に便利です。
+もし、ページIDの編集アイコンをクリックするとすべてのページレコードの定量的な編集ができる。</label>
+			<label index="func_0.image_descr">基本設定表示は、ページの別名、開始時間とアクセス制限設定のたいへん便利な概説を提供します。もし、編集アイコンをクリックするとページをすべてのフィーるを編集することが可能です。</label>
+			<label index="func_1.alttitle">レコードの概要</label>
+			<label index="func_2.alttitle">キャッシュと保存期間</label>
+			<label index="func_2.description">ページキャッシュと時間設定に関係するページレコードのフィールを表示する。</label>
+			<label index="func_2.image_descr">キャッシュと保存期間
+&quot;TSConfig&quot; カラムを参照。その概要は、いくつかのページ TSConfig コードを含んだ２つのページを公開する。</label>
+			<label index="stat.alttitle">ページヒット統計</label>
+			<label index="stat.description">ページツリーのウェブサイトのヒット統計を表示する。</label>
+			<label index="lang.alttitle">ローカライズの概要</label>
+			<label index="func_hits.alttitle">統計表示</label>
+			<label index="func_hits.description">セレクトボックスから”ページのヒット数”,&quot;トータルのヒット数&quot;,&quot;メインセッション中のヒット数&quot;の３つを選択することができる。ページツリーの階層を選択するために右側のセレクトボックスを使います。</label>
+			<label index="func_hits.details">30日前のページのヒット統計を見ることができます。各日にち毎には、カラムから見ることができます。各ページごとに対して、[ページのヒット数]/[ユーザセッション]のように各日にち毎に見ることができます。もし、&quot;286/34&quot;となっていたら、その日に286ページヒットして、すくなくとも34ユニーク訪問者が見たことになります。
+
+ここからは、各表示モードの解説になります：
+
+&lt;b&gt;ページビュー&lt;/b&gt;
+ここでは、各ページごとのページビューとユーザセッションを見ることができます。
+
+&lt;b&gt;トータルビュー&lt;/b&gt;
+(Root-Flagをセットした)テンプレートレコードをもったページに対する統計をみることができます。これは、すべてのウェブサイトに対するトータルのヒット件数になります。
+
+&lt;b&gt;セッションビュー&lt;/b&gt;
+ウェブサイトにおけるメインセッションのページビューとセッションビューのトータルの数値を見ることができます。メインセッションとは、ウェブサイトの最上位の階層のページのすべてのサブページです。</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="jp" type="array">
+			<label index="pagetree_overview.alttitle" type="integer">92312309</label>
+			<label index="pagetree_overview.description" type="integer">23585608</label>
+			<label index="pagetree_overview.image_descr" type="integer">102428178</label>
+			<label index="func_0.alttitle" type="integer">44646530</label>
+			<label index="func_0.description" type="integer">251798588</label>
+			<label index="func_1.alttitle" type="integer">188466761</label>
+			<label index="lang.alttitle" type="integer">255687278</label>
+			<label index="func_0.image_descr" type="integer">11485985</label>
+			<label index="stat.alttitle" type="integer">172665738</label>
+			<label index="func_0.details" type="integer">218228585</label>
+			<label index="func_2.alttitle" type="integer">198333821</label>
+			<label index="func_2.description" type="integer">84825514</label>
+			<label index="func_2.image_descr" type="integer">218934546</label>
+			<label index="stat.description" type="integer">51774969</label>
+			<label index="func_hits.alttitle" type="integer">100802615</label>
+			<label index="func_hits.description" type="integer">64485459</label>
+			<label index="func_hits.details" type="integer">207091212</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="jp" type="array">
+			<label index="pagetree_overview.alttitle">Pagetree Overview</label>
+			<label index="pagetree_overview.description">The Pagetree Overview shows information related to pages for a branch of the page tree. This includes start- and stop-times, cache settings etc.</label>
+			<label index="pagetree_overview.image_descr">One of the features of the Pagetree Overview module is that you can see what types of records are found on pages in a branch. Here record counts are shown for a page tree branch 2 levels down.</label>
+			<label index="func_0.alttitle">Basic Settings</label>
+			<label index="func_0.description">Displays a selection of fields from page records which are regarded as foundational settings for pages. That includes aliases, start- and stop times, access restriction information etc.</label>
+			<label index="func_1.alttitle">Record Overview</label>
+			<label index="lang.alttitle">Localization overview</label>
+			<label index="func_0.image_descr">The Basic Settings view offers a very convenient overview of page aliases, start times and access restriction settings in the tree branch.
+If you click an edit-icon in the header you will be able to edit that field for all listed pages.</label>
+			<label index="stat.alttitle">Page Hit statistics</label>
+			<label index="func_0.details">The Basic Settings view resembles the Cache and Age view quite a lot. They are different only by the selection of fields they show.
+
+&lt;b&gt;Batch editing page fields&lt;/b&gt;
+You will find multiple edit-icons around the interface. All edit icons in head lines will bring you to an editing dialog where you can change exactly that field for all listed tables! Very useful for batch-editing of say all &quot;Start&quot; times.
+If you click the edit icon at the ID numbers of pages you will get straight to the regular editing of a whole page record.</label>
+			<label index="func_2.alttitle">Cache and Age</label>
+			<label index="func_2.description">Displays a selection of fields from page records related to page caching and time settings.</label>
+			<label index="func_2.image_descr">The &quot;Cache and Age&quot; view.
+Here you see the &quot;TSconfig&quot; column. The overview exposes that these two pages include some Page TSconfig code!</label>
+			<label index="stat.description">Displays website hit statistics for a branch of the page tree. Based on the simple, internal MySQL statistics table which records page impressions and sessions only.</label>
+			<label index="func_hits.alttitle">Statistic Views</label>
+			<label index="func_hits.description">You can select between three views of the statistics in the selector box; &quot;Page hits&quot;, &quot;Total hits&quot;, &quot;Hits in main sections&quot;. Use the right selector box to select the depth of the overview in the pagetree.</label>
+			<label index="func_hits.details">You can view the page hit statistics 30 days back. Each day is shown in its own column.
+For each page in the page tree you can see the page hits each day as a number formatted like [page hits]/[user sessions]. So if the number is &quot;286/34&quot; it means that the page had 286 page hits that day and that there were at least 34 unique visitors (measured by at least two hits by a user accepting a cookie from the site).
+
+This is an overview of the meaning of each view mode:
+
+&lt;b&gt;Page hits&lt;/b&gt;
+This shows page hits/sessions for each page.
+
+&lt;b&gt;Total hits&lt;/b&gt;
+This will show statistics for only pages that have a Template Record (with Root-flag set) on it. This means that page hits are shown as totals for a whole website.
+
+&lt;b&gt;Hits in main sections&lt;/b&gt;
+Will show the total number of page hits/sessions within main sections of a website. A &quot;main section&quot; is all subpages to a page on the first level of a website (defined by a Template Record with the Root flag set)</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

@@ -1,0 +1,741 @@
+<T3DataStructure>
+  <meta>
+    <langDisable>1</langDisable>
+  </meta>
+  <sheets>
+    <sDEF>
+      <ROOT>
+        <TCEforms>
+          <sheetTitle>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_general</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+          <uniqueKey>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_general.uniqueKey</label>
+              <config>
+                <type>input</type>
+                <size>50</size>
+                <max>255</max>
+                <default></default>
+              </config>
+            </TCEforms>
+          </uniqueKey>
+          <path>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_general.path</label>
+              <config>
+                <type>input</type>
+                <size>50</size>
+                <max>255</max>
+                <default>fileadmin/pict/</default>
+              </config>
+            </TCEforms>
+          </path>
+          <bigImagePath>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_general.bigImagePath</label>
+              <config>
+                <type>input</type>
+                <size>50</size>
+                <max>255</max>
+                <default>fileadmin/pict/big/</default>
+              </config>
+            </TCEforms>
+          </bigImagePath>
+          <ignore>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_general.ignore</label>
+              <config>
+                <type>input</type>
+                <size>50</size>
+                <max>255</max>
+                <default></default>
+              </config>
+            </TCEforms>
+          </ignore>
+          <ignorefolder>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_general.ignorefolder</label>
+              <config>
+                <type>input</type>
+                <size>50</size>
+                <max>255</max>
+                <default></default>
+              </config>
+            </TCEforms>
+          </ignorefolder>
+          <ignorefile>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_general.ignorefile</label>
+              <config>
+                <type>input</type>
+                <size>50</size>
+                <max>255</max>
+                <default></default>
+              </config>
+            </TCEforms>
+          </ignorefile>
+          <useImagemagick>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_general.useImagemagick</label>
+              <config>
+                <type>check</type>
+                <default>1</default>
+              </config>
+            </TCEforms>
+          </useImagemagick>
+          <imparams>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_general.imageMagickParams</label>
+              <config>
+                <type>input</type>
+                <size>50</size>
+                <max>1000</max>
+                <default></default>
+              </config>
+            </TCEforms>
+          </imparams>
+          <bigimageimparams>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_general.imageMagickParamsBigImage</label>
+              <config>
+                <type>input</type>
+                <size>50</size>
+                <max>1000</max>
+                <default></default>
+              </config>
+            </TCEforms>
+          </bigimageimparams>
+          <imcommand>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_general.imageMagickCommand</label>
+              <config>
+                <type>select</type>
+                <items>
+                  <numindex index="1">
+                    <numindex index="0">(none)</numindex>
+                    <numindex index="1"></numindex>					    
+                  </numindex>
+                  <numindex index="2">
+                    <numindex index="0">animate</numindex>
+                    <numindex index="1">animate</numindex>					    
+                  </numindex>
+                  <numindex index="3">
+                    <numindex index="0">compare</numindex>
+                    <numindex index="1">compare</numindex>					    
+                  </numindex>
+                  <numindex index="4">
+                    <numindex index="0">composite</numindex>
+                    <numindex index="1">composite</numindex>					    
+                  </numindex>
+                  <numindex index="5">
+                    <numindex index="0">conjure</numindex>
+                    <numindex index="1">conjure</numindex>					    
+                  </numindex>
+                  <numindex index="6">
+                    <numindex index="0">convert</numindex>
+                    <numindex index="1">convert</numindex>					    
+                  </numindex>
+                  <numindex index="7">
+                    <numindex index="0">display</numindex>
+                    <numindex index="1">display</numindex>					    
+                  </numindex>
+                  <numindex index="8">
+                    <numindex index="0">identify</numindex>
+                    <numindex index="1">identify</numindex>					    
+                  </numindex>
+                  <numindex index="9">
+                    <numindex index="0">import</numindex>
+                    <numindex index="1">import</numindex>					    
+                  </numindex>
+                  <numindex index="10">
+                    <numindex index="0">mogrify</numindex>
+                    <numindex index="1">mogrify</numindex>					    
+                  </numindex>
+                  <numindex index="11">
+                    <numindex index="0">montage</numindex>
+                    <numindex index="1">montage</numindex>					    
+                  </numindex>
+                  <numindex index="12">
+                    <numindex index="0">stream</numindex>
+                    <numindex index="1">stream</numindex>					    
+                  </numindex>
+                </items>
+                <size>1</size>
+                <minitems>0</minitems>
+                <maxitems>1</maxitems>
+              </config>
+            </TCEforms>
+          </imcommand>
+          <imcommandparams>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_general.imageMagickCommandParams</label>
+              <config>
+                <type>input</type>
+                <size>50</size>
+                <max>1000</max>
+                <default></default>
+              </config>
+            </TCEforms>
+          </imcommandparams>
+          <bigimageimcommand>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_general.imageMagickCommandBigImage</label>
+              <config>
+                <type>select</type>
+                <items>
+                  <numindex index="1">
+                    <numindex index="0">(none)</numindex>
+                    <numindex index="1"></numindex>					    
+                  </numindex>
+                  <numindex index="2">
+                    <numindex index="0">animate</numindex>
+                    <numindex index="1">animate</numindex>					    
+                  </numindex>
+                  <numindex index="3">
+                    <numindex index="0">compare</numindex>
+                    <numindex index="1">compare</numindex>					    
+                  </numindex>
+                  <numindex index="4">
+                    <numindex index="0">composite</numindex>
+                    <numindex index="1">composite</numindex>					    
+                  </numindex>
+                  <numindex index="5">
+                    <numindex index="0">conjure</numindex>
+                    <numindex index="1">conjure</numindex>					    
+                  </numindex>
+                  <numindex index="6">
+                    <numindex index="0">convert</numindex>
+                    <numindex index="1">convert</numindex>					    
+                  </numindex>
+                  <numindex index="7">
+                    <numindex index="0">display</numindex>
+                    <numindex index="1">display</numindex>					    
+                  </numindex>
+                  <numindex index="8">
+                    <numindex index="0">identify</numindex>
+                    <numindex index="1">identify</numindex>					    
+                  </numindex>
+                  <numindex index="9">
+                    <numindex index="0">import</numindex>
+                    <numindex index="1">import</numindex>					    
+                  </numindex>
+                  <numindex index="10">
+                    <numindex index="0">mogrify</numindex>
+                    <numindex index="1">mogrify</numindex>					    
+                  </numindex>
+                  <numindex index="11">
+                    <numindex index="0">montage</numindex>
+                    <numindex index="1">montage</numindex>					    
+                  </numindex>
+                  <numindex index="12">
+                    <numindex index="0">stream</numindex>
+                    <numindex index="1">stream</numindex>					    
+                  </numindex>
+                </items>
+                <size>1</size>
+                <minitems>0</minitems>
+                <maxitems>1</maxitems>
+              </config>
+            </TCEforms>
+          </bigimageimcommand>
+          <bigimageimcommandparams>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_general.imageMagickCommandBigImageParams</label>
+              <config>
+                <type>input</type>
+                <size>50</size>
+                <max>1000</max>
+                <default></default>
+              </config>
+            </TCEforms>
+          </bigimageimcommandparams>
+		  <httpsBackend>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_general.httpsBackend</label>
+              <config>
+                <type>check</type>
+                <default>0</default>
+              </config>
+            </TCEforms>
+          </httpsBackend>
+        </el>
+      </ROOT>
+    </sDEF>
+    <display>
+      <ROOT>
+        <TCEforms>
+          <sheetTitle>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+          <dynamic>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.dynamic</label>
+              <config>
+                <type>check</type>
+                <default>1</default>
+              </config>
+            </TCEforms>
+          </dynamic>
+          <imageFading>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.imageFading</label>
+              <config>
+                <type>check</type>
+                <default>0</default>
+              </config>
+            </TCEforms>
+          </imageFading>
+          <imageFadingStyle>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.imageFadingStyle</label>
+              <config>
+                <type>input</type>
+                <size>50</size>
+                <max>255</max>
+                <default></default>
+              </config>
+            </TCEforms>
+          </imageFadingStyle>
+          <count>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.count</label>
+              <config>
+                <type>input</type>
+                <size>5</size>
+                <max>3</max>
+                <eval>int</eval>
+                <default>3</default>
+              </config>
+            </TCEforms>
+          </count>
+          <interval>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.interval</label>
+              <config>
+                <type>input</type>
+                <size>5</size>
+                <max>5</max>
+                <eval>int</eval>
+                <range type="array">
+                  <lower>1000</lower>
+                  <upper>99999</upper>
+                </range>
+                <default>2000</default>
+              </config>
+            </TCEforms>
+          </interval>
+          <recursive>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.recursive</label>
+              <config>
+                <type>check</type>
+                <default>0</default>
+              </config>
+            </TCEforms>
+          </recursive>
+          <altText>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.altText</label>
+              <config>
+                <type>input</type>
+                <size>50</size>
+                <max>255</max>
+              </config>
+            </TCEforms>
+          </altText>
+		  <titleText>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.titleText</label>
+              <config>
+                <type>input</type>
+                <size>50</size>
+                <max>255</max>
+              </config>
+            </TCEforms>
+          </titleText>
+          <caption>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.caption</label>
+              <config>
+                <type>input</type>
+                <size>50</size>
+                <max>255</max>
+              </config>
+            </TCEforms>
+          </caption>
+          <imageCaptionStyle>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.imageCaptionStyle</label>
+              <config>
+                <type>input</type>
+                <size>50</size>
+                <max>255</max>
+              </config>
+            </TCEforms>
+          </imageCaptionStyle>
+          <stdWrap>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.stdwrap</label>
+              <config>
+                <type>input</type>
+                <size>50</size>
+                <max>255</max>
+              </config>
+            </TCEforms>
+          </stdWrap>
+          <wrap>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.wrap</label>
+              <config>
+                <type>input</type>
+                <size>50</size>
+                <max>255</max>
+              </config>
+            </TCEforms>
+          </wrap>
+          <link>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.link</label>
+              <config>
+                <type>input</type>
+                <size>50</size>
+                <max>255</max>
+              </config>
+            </TCEforms>
+          </link>
+          <sort>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.sort</label>
+              <config>
+                <type>select</type>
+                <items>
+                  <numindex index="1">
+                    <numindex index="0">LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.sort.1</numindex>
+                    <numindex index="1">1</numindex>					    
+                  </numindex>
+                  <numindex index="2">
+                    <numindex index="0">LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.sort.2</numindex>
+                    <numindex index="1">2</numindex>					    
+                  </numindex>
+                  <numindex index="3">
+                    <numindex index="0">LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.sort.3</numindex>
+                    <numindex index="1">3</numindex>					    
+                  </numindex>
+                  <numindex index="4">
+                    <numindex index="0">LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.sort.4</numindex>
+                    <numindex index="1">4</numindex>					    
+                  </numindex>
+                </items>
+                <size>1</size>
+                <minitems>0</minitems>
+                <maxitems>1</maxitems>
+              </config>
+            </TCEforms>
+          </sort>
+          <sortorder>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.sortorder</label>
+              <config>
+                <type>select</type>
+                <items>
+                  <numindex index="1">
+                    <numindex index="0">LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.sortorder.1</numindex>
+                    <numindex index="1">1</numindex>					    
+                  </numindex>
+                  <numindex index="2">
+                    <numindex index="0">LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.sortorder.2</numindex>
+                    <numindex index="1">2</numindex>					    
+                  </numindex>
+                </items>
+                <size>1</size>
+                <minitems>0</minitems>
+                <maxitems>1</maxitems>
+              </config>
+            </TCEforms>
+          </sortorder>
+          <sortOnDynamicChange>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.sortOnDynamicChange</label>
+              <config>
+                <type>check</type>
+                <default>0</default>
+              </config>
+            </TCEforms>
+          </sortOnDynamicChange>
+          <maxwidth>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.maxwidth</label>
+              <config>
+                <type>input</type>
+                <size>4</size>
+                <max>4</max>
+                <eval>int</eval>
+                <range type="array">
+                  <lower>0</lower>
+                  <upper>99999</upper>
+                </range>
+                <default></default>
+              </config>
+            </TCEforms>
+          </maxwidth>
+          <maxheight>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.maxheight</label>
+              <config>
+                <type>input</type>
+                <size>4</size>
+                <max>4</max>
+                <eval>int</eval>
+                <range type="array">
+                  <lower>0</lower>
+                  <upper>99999</upper>
+                </range>
+                <default></default>
+              </config>
+            </TCEforms>
+          </maxheight>
+        </el>
+      </ROOT>
+    </display>
+    <hovereffect>
+      <ROOT>
+        <TCEforms>
+          <sheetTitle>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_hovereffect</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+          <showBigImageOnHover>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_hovereffect.showBigImageOnHover</label>
+              <config>
+                <type>check</type>
+                <default>0</default>
+              </config>
+            </TCEforms>
+          </showBigImageOnHover>
+          <hideBigImageOnOut>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_hovereffect.hideBigImageOnOut</label>
+              <config>
+                <type>check</type>
+                <default>1</default>
+              </config>
+            </TCEforms>
+          </hideBigImageOnOut>
+          <changeBigImage>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_hovereffect.changeBigImage</label>
+              <config>
+                <type>check</type>
+                <default>1</default>
+              </config>
+            </TCEforms>
+          </changeBigImage>
+          <positionLeft>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_hovereffect.positionLeft</label>
+              <config>
+                <type>select</type>
+                <items>
+                  <numindex index="1">
+                    <numindex index="0">LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_hovereffect.positionLeft.1</numindex>
+                    <numindex index="1">relative</numindex>					    
+                  </numindex>
+                  <numindex index="2">
+                    <numindex index="0">LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_hovereffect.positionLeft.2</numindex>
+                    <numindex index="1">fixed</numindex>					    
+                  </numindex>
+                  <numindex index="3">
+                    <numindex index="0">LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_hovereffect.positionLeft.3</numindex>
+                    <numindex index="1">relativefixed</numindex>
+                  </numindex>
+                </items>
+                <size>1</size>
+                <minitems>0</minitems>
+                <maxitems>1</maxitems>
+              </config>
+            </TCEforms>
+          </positionLeft>
+          <marginLeft>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_hovereffect.marginLeft</label>
+              <config>
+                <type>input</type>
+                <size>5</size>
+                <max>5</max>
+                <eval>int</eval>
+                <default>0</default>
+              </config>
+            </TCEforms>
+          </marginLeft>
+          <positionTop>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_hovereffect.positionTop</label>
+              <config>
+                <type>select</type>
+                <items>
+                  <numindex index="1">
+                    <numindex index="0">LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_hovereffect.positionTop.1</numindex>
+                    <numindex index="1">relative</numindex>					    
+                  </numindex>
+                  <numindex index="2">
+                    <numindex index="0">LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_hovereffect.positionTop.2</numindex>
+                    <numindex index="1">fixed</numindex>					    
+                  </numindex>
+                  <numindex index="3">
+                    <numindex index="0">LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_hovereffect.positionTop.3</numindex>
+                    <numindex index="1">relativefixed</numindex>
+                  </numindex>
+                </items>
+                <size>1</size>
+                <minitems>0</minitems>
+                <maxitems>1</maxitems>
+              </config>
+            </TCEforms>
+          </positionTop>
+          <marginTop>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_hovereffect.marginTop</label>
+              <config>
+                <type>input</type>
+                <size>5</size>
+                <max>5</max>
+                <eval>int</eval>
+                <default>0</default>
+              </config>
+            </TCEforms>
+          </marginTop>
+          <loadingImageText>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_hovereffect.loadingImageText</label>
+              <config>
+                <type>input</type>
+                <size>50</size>
+                <max>255</max>
+                <default>Loading Image ...</default>
+              </config>
+            </TCEforms>
+          </loadingImageText>
+          <loadingImageStyle>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_hovereffect.loadingImageStyle</label>
+              <config>
+                <type>input</type>
+                <size>50</size>
+                <max>255</max>
+                <default>padding: 10px; background-color: white; color: silver; border: 2px solid silver; font-weight: bold;</default>
+              </config>
+            </TCEforms>
+          </loadingImageStyle>
+          <bigImageWrap>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_hovereffect.bigImageWrap</label>
+              <config>
+                <type>input</type>
+                <size>50</size>
+                <max>255</max>
+                <default></default>
+              </config>
+            </TCEforms>
+          </bigImageWrap>
+        </el>
+      </ROOT>
+    </hovereffect>
+    <bigImage>
+      <ROOT>
+        <TCEforms>
+          <sheetTitle>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_bigimage</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+          <displayonload>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_bigimage.displayonload</label>
+              <config>
+                <type>check</type>
+                <default>0</default>
+              </config>
+            </TCEforms>
+          </displayonload>
+          <imagenumber>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_bigimage.imagenumber</label>
+              <config>
+                <type>input</type>
+                <size>5</size>
+                <max>5</max>
+                <eval>int</eval>
+                <default>0</default>
+              </config>
+            </TCEforms>
+          </imagenumber>
+          <imagename>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_bigimage.imagename</label>
+              <config>
+                <type>input</type>
+                <size>50</size>
+                <max>255</max>
+                <default></default>
+              </config>
+            </TCEforms>
+          </imagename>
+          <bigimagemaxwidth>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.bigimagemaxwidth</label>
+              <config>
+                <type>input</type>
+                <size>4</size>
+                <max>4</max>
+                <eval>int</eval>
+                <range type="array">
+                  <lower>0</lower>
+                  <upper>99999</upper>
+                </range>
+                <default></default>
+              </config>
+            </TCEforms>
+          </bigimagemaxwidth>
+          <bigimagemaxheight>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_display.bigimagemaxheight</label>
+              <config>
+                <type>input</type>
+                <size>4</size>
+                <max>4</max>
+                <eval>int</eval>
+                <range type="array">
+                  <lower>0</lower>
+                  <upper>99999</upper>
+                </range>
+                <default></default>
+              </config>
+            </TCEforms>
+          </bigimagemaxheight>
+        </el>
+      </ROOT>
+    </bigImage>
+    <debug>
+      <ROOT>
+        <TCEforms>
+          <sheetTitle>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_debug</sheetTitle>
+        </TCEforms>
+        <type>array</type>
+        <el>
+          <showDebugInfo>
+            <TCEforms>
+              <label>LLL:EXT:maag_randomimage/locallang_db.php:tt_content.pi_flexform.sheet_debug.showdebuginfo</label>
+              <config>
+                <type>check</type>
+                <default>0</default>
+              </config>
+            </TCEforms>
+          </showDebugInfo>
+        </el>
+      </ROOT>
+    </debug>
+  </sheets>
+</T3DataStructure>

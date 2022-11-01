@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="ca" type="array">
+			<label index=".description">Aquesta és la taula d'administració d'operadors.</label>
+			<label index="username.description">Introdueix el nom d'usuari de l'operador.</label>
+			<label index="username.details">Un nom d'usuari és necessari i ha d'estar en minúscules i sense espais intermedis. A més, ha de ser únic. Si no és únic se li afegirà un nombre al principi automàticament.</label>
+			<label index="usergroup.description">Assigna grups d'operadors a l'usuari.</label>
+			<label index="usergroup.details">Els grups d'operadors defineixen els permisos que l'usuari operador heretarà. Així que tret que l'operador sigui un usuari Administrador és necessari que sigui membre d'un o més grups per a tenir qualsevol permís assignat.
+Les propietats establertes en els grups d'operadors solen sumar-se.
+El primer grup en la llista (superior) és el grup que, per defecte, serà l'amo de les pàgines que creu l'operador.</label>
+			<label index="lockToDomain.description">Introdueix el nom de l'equip des del qual l'usuari està forçat a autenticar-se.</label>
+			<label index="lockToDomain.details">Un sistema TYPO3 pot tenir diversos dominis que li apuntin. Aquesta opció assegura que els operadors només puguin accedir des d'un cert domini.</label>
+			<label index="disableIPlock.description">Deshabilita el bloqueig als usuaris del rerefons per a l'adreça IP remota.</label>
+			<label index="disableIPlock.details">Has de deshabilitar aquest bloqueig si els usuaris del rerefons estan accedint a TYPO3 des de connexions RDSI o mòdem que puguin desconnectar-se i tornar a connectar-se amb una nova adreça IP. Això també aplica a assignacions DHCP d'adreces IP on hi ha gran rotació d'assignacions.</label>
+			<label index="db_mountpoints.description">Assigna punts d'entrada per a l'arbre de pàgines dels usuaris.</label>
+			<label index="file_mountpoints.description">Assigna punts d'entrada per a l'arbre de carpetes de fitxers.</label>
+			<label index="file_mountpoints.details">L'arbre de carpetes de fitxers és utilitzat per tots els submòduls de Fitxer per a navegar entre les carpetes de servidor web.
+Com ocorre amb els punts de muntatge de BBDD, els punts de muntatge de fitxers poden ser heretats pels usuaris que són membres d'aquest grup.</label>
+			<label index="email.description">Introdueix l'adreça de correu electrònic de l'usuari.</label>
+			<label index="realName.description">Introdueix el nom de pila de l'usuari. Exemple: Pepe Pardo.</label>
+			<label index="disable.description">Aquesta opció incapacitarà temporalment l'usuari per a entrar al sistema.</label>
+			<label index="admin.description">Els usuaris 'Administradors' tenen accés TOTAL al sistema!</label>
+			<label index="admin.details">Els 'Administradors' poden fer tot el que TYPO3 permet, així que aquest tipus d'usuari solament ha d'estar actiu per a labors d'administració. Tot l'ús diari ha de ser realitzat per operadors normals.
+Els 'Administradors' no necessiten ser membres de cap grup d'operadors. De totes maneres has de saber que qualsevol pàgina creada per un 'Administrador' sense un grup d'operadors assignat no tindrà cap grup propietari, amb el que probablement quedi invisible a altres operadors. Si això és un problema pots resoldre'l de manera senzilla assignant un grup d'operadors al 'Administrador'. Això no afecta als permisos ja que són il·limitats, però el primer grup llistat és per defecte el grup propietari de les noves pàgines creades.
+Els usuaris 'Administradors' són fàcilment recognoscibles ja que apareixen amb una icona vermella en lloc de la icona blava habitual.
+
+No hauries d'assignar un usuari 'Administrador' a altres usuaris, solament a tu en tot cas.</label>
+			<label index="options.description">Selecciona si l'usuari ha d'heretar els punts de muntatge de pàgines o carpetes des dels grups membres.</label>
+			<label index="options.details">És un gran avantatge permetre als usuaris heretar punts de muntatge des dels grups membres ja que fa que l'administració d'aquests punts de muntatge sigui extremadament senzilla.
+Si no marques aquestes opcions, has d'assegurar-te que els punts de muntatge per a l'arbre de pàgines i les carpetes de fitxers estan establerts específicament per a aquest usuari.</label>
+			<label index="fileoper_perms.description">Selecciona permisos d'operacions sobre fitxers per a l'operador.</label>
+			<label index="starttime.description">Introdueix la data des de la qual el compte està actiu.</label>
+			<label index="endtime.description">Introdueix la data des de la qual el compte està desactivat.</label>
+			<label index="userMods.description">Selecciona els mòduls del rerefons disponibles per a l'operador.</label>
+			<label index="userMods.details">Això determina quins elements del menú estan disponibles per a l'usuari.
+Aquesta mateixa llisa pot estar configurada per als grups d'operadors i aquestes seran heretades per l'usuari a més de les quals seleccions aquí. És bastant probable que no hagis d'establir cap mòdul per a l'operador i seleccionar-los en els grups dels quals és membre. De qualsevol manera, aquesta llista, ofereix una estupenda manera d'afegir un únic mòdul per a certs operadors.</label>
+			<label index="TSconfig.description">Introdueix codi TSconfig addicional per a l'usuari (avançat).</label>
+			<label index="TSconfig.details">Aquest camp permet estendre la configuració de l'usuari en diversos detalls. Com exemples d'aquestes opcions tenim que incloure una configuració més detallada dels mòduls de rerefons, establir valors per defecte de taules per a usuaris, establir opcions del RTE, etc... La llista anirà creixent en el temps i està plenament documentada en la documentació d'administració, en particular ?adminguide.pdf? (veure enllaç sota).</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="ca" type="array">
+			<label index=".description" type="integer">174805996</label>
+			<label index="username.description" type="integer">169225297</label>
+			<label index="username.details" type="integer">26517555</label>
+			<label index="usergroup.description" type="integer">162325927</label>
+			<label index="usergroup.details" type="integer">30843346</label>
+			<label index="lockToDomain.description" type="integer">139426379</label>
+			<label index="lockToDomain.details" type="integer">140149042</label>
+			<label index="disableIPlock.description" type="integer">204135236</label>
+			<label index="disableIPlock.details" type="integer">27220559</label>
+			<label index="db_mountpoints.description" type="integer">83626085</label>
+			<label index="file_mountpoints.description" type="integer">103273463</label>
+			<label index="file_mountpoints.details" type="integer">170613745</label>
+			<label index="email.description" type="integer">102465996</label>
+			<label index="realName.description" type="integer">49868929</label>
+			<label index="disable.description" type="integer">36519200</label>
+			<label index="admin.description" type="integer">200276487</label>
+			<label index="admin.details" type="integer">124287279</label>
+			<label index="options.description" type="integer">91490880</label>
+			<label index="options.details" type="integer">184652761</label>
+			<label index="fileoper_perms.description" type="integer">25345447</label>
+			<label index="starttime.description" type="integer">167831915</label>
+			<label index="endtime.description" type="integer">184097136</label>
+			<label index="userMods.description" type="integer">247677460</label>
+			<label index="userMods.details" type="integer">132513125</label>
+			<label index="TSconfig.description" type="integer">177543566</label>
+			<label index="TSconfig.details" type="integer">220754092</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="ca" type="array">
+			<label index=".description">This is the table of backend administration users. Backend users can login in the backend of TYPO3 and are typically producers of content on a website.</label>
+			<label index="username.description">Enter the login name of the backend user.</label>
+			<label index="username.details">A username is required and must be in lowercase without spaces in it. Furthermore the username must be unique. If it is not unique a number will be appended automatically.</label>
+			<label index="usergroup.description">Assign backend user groups to the user.</label>
+			<label index="usergroup.details">The backend user groups defines the permissions which the backend user will inherit. So unless the backend user is an 'Admin' user, he needs to be a member of one or more user groups in order to have practically any permissions assigned. The properties set in the user groups are mostly added together.
+The first (top) group in the list is the group which will, by default, be the owner of pages the user creates.</label>
+			<label index="lockToDomain.description">Enter the host name from which the user is forced to login.</label>
+			<label index="lockToDomain.details">A TYPO3 system may have multiple domains pointing to it. Therefore this option secures that users can login only from a certain host name.</label>
+			<label index="disableIPlock.description">Disable the lock of the backend users session to the remote IP number.</label>
+			<label index="disableIPlock.details">You will have to disable this lock if backend users are accessing TYPO3 from ISDN or modem connections which may shutdown and reconnect with a new IP. The same would be true for DHCP assignment of IP numbers where new IP numbers are frequently assigned.</label>
+			<label index="db_mountpoints.description">Assign startpoints for the users page tree.</label>
+			<label index="file_mountpoints.description">Assign startpoints for the file folder tree.</label>
+			<label index="file_mountpoints.details">The file folder tree is used by all File-submodules to navigate between the file folders on the webserver.
+Notice as with 'DB mounts' the file folder mounts may be inherited from the member groups of the user.
+See Backend Groups for details</label>
+			<label index="email.description">Enter the email address of the user.</label>
+			<label index="realName.description">Enter the ordinary name of the user, eg. John Doe.</label>
+			<label index="disable.description">This option will temporarily disable the user from logging in.</label>
+			<label index="admin.description">'Admin' users have TOTAL access to the system!</label>
+			<label index="admin.details">'Admin' can do anything TYPO3 allows and this kind of user should be used only for administrative purposes. All daily handling should be done with regular users.
+'Admin' users don't need to be members of any backend user groups. However you should be aware that any page created by an admin user without a group will not have any owner-group assigned and thus it will probably be invisible for other users. If this becomes a problem you can easily solve it by assigning a user group to the 'Admin' user anyway. This does of course not affect the permissions since they are unlimited, but the first group listed is by default the owner group of newly created pages.
+'Admin' users are easily recognized as they appear with a red icon instead of the ordinary blue user-icon.
+
+You should probably not assign any other users than yourself as an 'Admin' user.</label>
+			<label index="options.description">Select if the user should inherit page tree or folder tree mountpoints from member groups.</label>
+			<label index="options.details">It's a great advantage to let users inherit mountpoints from membergroups because it makes administration of the same mountpoints for many users extremely easy.
+If you don't check these options, you must make sure the mount points for the page tree and file folder tree is set specifically for the user.</label>
+			<label index="fileoper_perms.description">Select file operation permissions for the user.</label>
+			<label index="starttime.description">Enter the date from which the account is active.</label>
+			<label index="endtime.description">Enter the date from which the account is disabled.</label>
+			<label index="userMods.description">Select available backend modules for the user.</label>
+			<label index="userMods.details">This determines which 'menu items' are available for the user in the backend.
+
+Notice that the same list of modules may be configured for the backend user groups and that these will be inherited by the user in addition to the modules you select here. It's highly likely that you should not set any modules for the user himself but rather select the modules in the backend groups he's a member of. However this list provides a great way to add a single module for specific users.</label>
+			<label index="TSconfig.description">Enter additional TSconfig for the user (advanced).</label>
+			<label index="TSconfig.details">This field allows you to extend the configuration of the user in severe details. A brief summary of the options include a more detailed configuration of the backend modules, setting of user specific default table field values, setting of Rich Text Editor options etc.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

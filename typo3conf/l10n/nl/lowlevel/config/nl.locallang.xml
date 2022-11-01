@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="nl" type="array">
+			<label index="configuration">Configuratie</label>
+			<label index="typo3ConfVars">$TYPO3_CONF_VARS (Globale Configuratie)</label>
+			<label index="tca">$TCA (Table configuration array)</label>
+			<label index="tcaDescr">$TCA_DESCR (Table Help Omschrijving)</label>
+			<label index="loadedExt">$TYPO3_LOADED_EXT (Geladen Extensies)</label>
+			<label index="tbeStyles">$TBE_STYLES (Skin Stijlen)</label>
+			<label index="beUser">$BE_USER-&gt;uc (Gebruikersinstellingen)</label>
+			<label index="usersettings">$TYPO3_USER_SETTINGS (Configuratie Gebruikersinstellingen)</label>
+			<label index="t3services">$T3_SERVICES (Geregistreerde Services)</label>
+			<label index="tbemodulesext">$TBE_MODULES_EXT (Backend Modules Extensies)</label>
+			<label index="tbemodules">$TBE_MODULES (Backend Modules)</label>
+			<label index="cropLines">Regels inkorten</label>
+			<label index="variable">Variabele:</label>
+			<label index="copyPaste">(Knip/plak deze waarde in het te gebruiken configuratiebestand. Voorlopig is dit het enige dat kan.....)</label>
+			<label index="enterSearchPhrase">Zoekterm invullen:</label>
+			<label index="search">Zoeken</label>
+			<label index="useRegExp">Gebruik reguliere expressie</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="nl" type="array">
+			<label index="configuration" type="integer">39122498</label>
+			<label index="typo3ConfVars" type="integer">24608630</label>
+			<label index="tca" type="integer">112104202</label>
+			<label index="tcaDescr" type="integer">31895736</label>
+			<label index="loadedExt" type="integer">217897957</label>
+			<label index="tbeStyles" type="integer">26483667</label>
+			<label index="beUser" type="integer">204622345</label>
+			<label index="usersettings" type="integer">116051623</label>
+			<label index="t3services" type="integer">96162651</label>
+			<label index="tbemodulesext" type="integer">257833324</label>
+			<label index="tbemodules" type="integer">137099168</label>
+			<label index="cropLines" type="integer">209144187</label>
+			<label index="variable" type="integer">75836440</label>
+			<label index="copyPaste" type="integer">33346391</label>
+			<label index="enterSearchPhrase" type="integer">39481534</label>
+			<label index="search" type="integer">20138052</label>
+			<label index="useRegExp" type="integer">122187545</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="nl" type="array">
+			<label index="configuration">Configuration</label>
+			<label index="typo3ConfVars">$TYPO3_CONF_VARS (Global Configuration)</label>
+			<label index="tca">$TCA (Table configuration array)</label>
+			<label index="tcaDescr">$TCA_DESCR (Table Help Description)</label>
+			<label index="loadedExt">$TYPO3_LOADED_EXT (Loaded Extensions)</label>
+			<label index="tbeStyles">$TBE_STYLES (Skinning Styles)</label>
+			<label index="beUser">$BE_USER-&gt;uc (User Settings)</label>
+			<label index="usersettings">$TYPO3_USER_SETTINGS (User Settings Configuration)</label>
+			<label index="t3services">$T3_SERVICES (Registered Services)</label>
+			<label index="tbemodulesext">$TBE_MODULES_EXT (BE Modules Extensions)</label>
+			<label index="tbemodules">$TBE_MODULES (BE Modules)</label>
+			<label index="cropLines">Crop lines</label>
+			<label index="variable">Variable:</label>
+			<label index="copyPaste">(Now, copy/paste this value into the configuration file where you can set it. This is all you can do from here...)</label>
+			<label index="enterSearchPhrase">Enter search phrase:</label>
+			<label index="search">Search</label>
+			<label index="useRegExp">Use regular expression</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

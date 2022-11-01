@@ -1,0 +1,130 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+	  xmlns:n="http://typo3.org/ns/GeorgRinger/News/ViewHelpers"
+	  data-namespace-typo3-fluid="true">
+
+<!--
+	=====================
+		Partials/List/Item.html
+-->
+
+<!--	 {newsItem.mediaPreviews}-->
+
+<f:if condition="{newsItem}">
+        <f:then>
+			    <!-- Latest View: Home Slider  -->
+                <f:if condition="{settings.templateLayout} == 100">
+                        <f:then>
+ 							<!-- Latest News Teaser Boxes -->
+							<div class="news-latest">
+								<n:link newsItem="{newsItem}" settings="{settings}" title="{newsItem.title}">
+									<h5><span itemprop="headline">{newsItem.author}</span></h5>
+												<h3><span itemprop="headline">{newsItem.title}</span></h3>
+									<div class="nteaser">
+										<f:format.html><f:format.crop maxCharacters="{settings.cropMaxCharacters}" >{newsItem.teaser}</f:format.crop></f:format.html>
+									</div>
+								</n:link>
+							</div>
+							
+                        </f:then>
+					 </f:if>
+			
+			
+			<!-- Latest View: Home Agenda  -->
+                <f:if condition="{settings.templateLayout} == 150">
+                        <f:then>
+ 							<div class="agenda-latest">
+								<n:link newsItem="{newsItem}" settings="{settings}" title="{newsItem.title}">
+									<h5><span itemprop="headline">{newsItem.author}</span></h5>
+										<h2><span itemprop="headline">{newsItem.title}</span></h2>								
+									<div class="">
+												<f:alias map="{mediaElement: '{newsItem.mediaPreviews.0}'}">
+												<f:if condition="{mediaElement.originalResource.type} == 2">
+													<f:image image="{mediaElement}" title="{mediaElement.originalResource.title}" alt="{mediaElement.originalResource.alternative}" maxWidth="{f:if(condition: settings.media.maxWidth, then: settings.media.maxWidth, else: settings.list.media.image.maxWidth)}" maxHeight="{f:if(condition: 
+													settings.media.maxHeight, then: settings.media.maxHeight, else: settings.list.media.image.maxHeight)}"/>
+												</f:if>
+											</f:alias>
+									</div>
+				
+
+									<div class="more-agenda">mehr</div>
+								</n:link>
+							</div>
+							
+                        </f:then>
+					 </f:if>
+			
+				
+                    <!-- News List --> 
+			          <f:if condition="{settings.templateLayout} == 200">
+                         <f:then>
+    		
+							<div class="row news-list">
+								<n:link newsItem="{newsItem}" settings="{settings}" title="{newsItem.title}" class="item-link">
+
+								<div class="col-sm-9 col-sm-push-3 ncol">
+									<h5>
+										<f:if condition="{newsItem.author}">
+										<span class="news-list-date">{newsItem.author}</span> 
+										</f:if>
+									</h5>
+									
+                                     <h3>{newsItem.title}</h3>
+									
+									 <f:if condition="{newsItem.teaser">
+										   <div class="nlist-body">									 
+	 <f:format.html><f:format.crop maxCharacters="{settings.cropMaxCharacters}" >{newsItem.teaser}</f:format.crop></f:format.html>
+										 </div>
+									</f:if>
+									
+									<div class="morebutton">mehr</div>
+									
+			    
+								</div>
+									
+								<div class="col-sm-3 col-sm-pull-9 gridimg ncol">
+									<div class="news-img-wrap">
+												<f:alias map="{mediaElement: '{newsItem.mediaPreviews.0}'}">
+												<f:if condition="{mediaElement.originalResource.type} == 2">
+													<f:image image="{mediaElement}" title="{mediaElement.originalResource.title}" alt="{mediaElement.originalResource.alternative}" maxWidth="{f:if(condition: settings.media.maxWidth, then: settings.media.maxWidth, else: settings.list.media.image.maxWidth)}" maxHeight="{f:if(condition: 
+													settings.media.maxHeight, then: settings.media.maxHeight, else: settings.list.media.image.maxHeight)}"/>
+												</f:if>
+											</f:alias>
+									</div>
+								</div>
+									
+									
+								</n:link>	
+							</div> 
+							 
+				   		</f:then>
+	                </f:if>
+			
+	
+	
+    
+
+			
+			
+			
+			
+			
+        </f:then>
+        <f:else>
+            
+<f:if condition="{settings.templateLayout} == 400">
+<f:then>
+    <div class="no-news-found"><f:translate key="list_nonewsfound" /> Hallo</div>
+</f:then>
+</f:if>
+		
+			
+			
+			
+        </f:else>
+</f:if>
+	
+	
+	
+
+
+</html>

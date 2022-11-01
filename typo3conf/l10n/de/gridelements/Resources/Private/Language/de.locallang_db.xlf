@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-09-21T18:41:55Z" product-name="gridelements" target-language="de">
+		<header>
+			<type>database</type>
+			<description>Language labels for database tables/fields belonging to extension 'gridelements'</description>
+			<generator>LFEditor</generator>
+		</header>
+		<body>
+		<trans-unit id="allowedElementTypes" approved="yes">
+			<source>Allowed CE</source>
+		<target state="translated">Erlaubte CE</target></trans-unit>
+		<trans-unit id="allowedElementTypesHelp" approved="yes">
+			<source>Select the content element types that may be created or moved here.</source>
+		<target state="translated">Inhaltselemente auswählen die hier erstellt oder hierher bewegt werden dürfen.</target><alt-trans xml:space="preserve" origin="artus70"><target>Inhaltselemente auswählen, die hier erstellt oder hierher bewegt werden dürfen.</target></alt-trans></trans-unit>
+		<trans-unit id="allowedGridElementTypes" approved="yes">
+			<source>Allowed Grids</source>
+		<target state="translated">Zulässige Raster-Elemente</target></trans-unit>
+		<trans-unit id="allowedGridElementTypesHelp" approved="yes">
+			<source>Fill in the Gridelements types that may be created or moved here.</source>
+		<target state="translated">Alle Gridelement-Typen angeben, die hier erstellt oder hierher bewegt werden dürfen.</target></trans-unit>
+		<trans-unit id="dragAndDropHideNewElementWizardInfoOverlay" approved="yes">
+			<source>Hide info overlays for the new content element drag in wizard.</source>
+		<target state="translated">Info-Overlays beim Drag-In-Wizard für neue Inhaltselemente ausblenden.</target><alt-trans xml:space="preserve" origin="artus70"><target>Info-Overlays beim Drag-In-Assistenten für neue Inhaltselemente ausblenden.</target></alt-trans></trans-unit>
+		<trans-unit id="gridElements" approved="yes">
+			<source>Grid Elements</source>
+		<target state="translated">Raster-Elemente</target></trans-unit>
+		<trans-unit id="hideColumnHeaders" approved="yes">
+			<source>Hide column headers.</source>
+		<target state="translated">Spaltenüberschriften verbergen.</target></trans-unit>
+		<trans-unit id="hideContentPreview" approved="yes">
+			<source>Hide content element preview.</source>
+		<target state="translated">Vorschaubereich der Inhaltselemente ausblenden.</target></trans-unit>
+		<trans-unit id="list.collapseElement" approved="yes">
+			<source>Collapse list of child elements</source>
+		<target state="translated">Liste der Kind-Elemente einklappen</target></trans-unit>
+		<trans-unit id="list.expandElement" approved="yes">
+			<source>Expand list of child elements</source>
+		<target state="translated">Liste der Kind-Elemente ausklappen</target></trans-unit>
+		<trans-unit id="list.collapseAllElements" approved="yes">
+			<source>Collapse all grid containers</source>
+		<target state="translated">Alle Raster-Container einklappen</target></trans-unit>
+		<trans-unit id="list.expandAllElements" approved="yes">
+			<source>Expand all grid containers</source>
+		<target state="translated">Alle Raster-Container ausklappen</target></trans-unit>
+		<trans-unit id="list.columnName" approved="yes">
+			<source>Column:</source>
+		<target state="translated">Spalte:</target></trans-unit>
+		<trans-unit id="showGridInformation" approved="yes">
+			<source>Show grid layout information.</source>
+		<target state="translated">Raster-Layout-Informationen einblenden.</target></trans-unit>
+		<trans-unit id="tt_content.CType_pi1" approved="yes">
+			<source>Grid Element</source>
+		<target state="translated">Raster-Element</target></trans-unit>
+		<trans-unit id="tt_content.tx_gridelements_backend_layout" approved="yes">
+			<source>Grid Layout</source>
+		<target state="translated">Raster-Layout</target></trans-unit>
+		<trans-unit id="tt_content.tx_gridelements_backend_layout.I.horizontal" approved="yes">
+			<source>Dynamic Columns (horizontal)</source>
+		<target state="translated">Dynamische Spalten (horizontal)</target></trans-unit>
+		<trans-unit id="tt_content.tx_gridelements_backend_layout.I.none" approved="yes">
+			<source>None</source>
+		<target state="translated">Keins</target></trans-unit>
+		<trans-unit id="tt_content.tx_gridelements_backend_layout.I.vertical" approved="yes">
+			<source>Dynamic Rows (vertical)</source>
+		<target state="translated">Dynamische Zeilen (vertikal)</target></trans-unit>
+		<trans-unit id="tt_content.tx_gridelements_children" approved="yes">
+			<source>Content elements</source>
+		<target state="translated">Inhaltselemente</target></trans-unit>
+		<trans-unit id="tt_content.tx_gridelements_columns" approved="yes">
+			<source>Grid Container Columns</source>
+		<target state="translated">Raster-Container-Spalten</target></trans-unit>
+		<trans-unit id="tt_content.tx_gridelements_container" approved="yes">
+			<source>Grid Container</source>
+		<target state="translated">Raster-Container</target></trans-unit>
+		<trans-unit id="tx_gridelements_backend_layout" approved="yes">
+			<source>CE Backend Layout</source>
+		<target state="translated">CE Backend Layout</target></trans-unit>
+		<trans-unit id="tx_gridelements_backend_layout.alias" approved="yes">
+			<source>Alias</source>
+		<target state="translated">Alias</target></trans-unit>
+		<trans-unit id="tx_gridelements_backend_layout.ce_configuration" approved="yes">
+			<source>Content Element Configuration</source>
+		<target state="translated">Konfiguration der Inhaltselemente</target></trans-unit>
+		<trans-unit id="tx_gridelements_backend_layout.config" approved="yes">
+			<source>Grid Configuration</source>
+		<target state="translated">Raster-Konfiguration</target></trans-unit>
+		<trans-unit id="tx_gridelements_backend_layout.description" approved="yes">
+			<source>Description</source>
+		<target state="translated">Beschreibung</target></trans-unit>
+		<trans-unit id="tx_gridelements_backend_layout.div.configuration" approved="yes">
+			<source>Configuration</source>
+		<target state="translated">Konfiguration</target></trans-unit>
+		<trans-unit id="tx_gridelements_backend_layout.frame" approved="yes">
+			<source>Frame</source>
+		<target state="translated">Rahmen</target></trans-unit>
+		<trans-unit id="tx_gridelements_backend_layout.frame.I.-1" approved="yes">
+			<source>Neutral</source>
+		<target state="translated">Neutral</target></trans-unit>
+		<trans-unit id="tx_gridelements_backend_layout.frame.I.0" approved="yes">
+			<source>-</source>
+		<target state="translated">-</target></trans-unit>
+		<trans-unit id="tx_gridelements_backend_layout.frame.I.1" approved="yes">
+			<source>Red</source>
+		<target state="translated">Rot</target></trans-unit>
+		<trans-unit id="tx_gridelements_backend_layout.frame.I.2" approved="yes">
+			<source>Green</source>
+		<target state="translated">Grün</target></trans-unit>
+		<trans-unit id="tx_gridelements_backend_layout.frame.I.3" approved="yes">
+			<source>Blue</source>
+		<target state="translated">Blau</target></trans-unit>
+		<trans-unit id="tx_gridelements_backend_layout.horizontal" approved="yes">
+			<source>Group children</source>
+		<target state="translated">Kinder anordnen</target><alt-trans xml:space="preserve" origin="artus70"><target>Kinder gruppieren</target></alt-trans></trans-unit>
+		<trans-unit id="tx_gridelements_backend_layout.horizontal.I.0" approved="yes">
+			<source>Side by side</source>
+		<target state="translated">Nebeneinander</target></trans-unit>
+		<trans-unit id="tx_gridelements_backend_layout.icon" approved="yes">
+			<source>Icon</source>
+		<target state="translated">Icon</target></trans-unit>
+		<trans-unit id="tx_gridelements_backend_layout.palette.appearance" approved="yes">
+			<source>Appearance</source>
+		<target state="translated">Erscheinungsbild</target></trans-unit>
+		<trans-unit id="tx_gridelements_backend_layout.pi_flexform_ds" approved="yes">
+			<source>Flexform Configuration</source>
+		<target state="translated">Flexform-Konfiguration</target></trans-unit>
+		<trans-unit id="tx_gridelements_backend_layout.pi_flexform_ds_file" approved="yes">
+			<source>Flexform Configuration File (overrides direct input)</source>
+		<target state="translated">Flexform-Konfigurationsdatei (überschreibt die direkte Eingabe)</target></trans-unit>
+		<trans-unit id="tx_gridelements_backend_layout.title" approved="yes">
+			<source>Title</source>
+		<target state="translated">Titel</target></trans-unit>
+		<trans-unit id="tx_gridelements_backend_layout.top_level_layout" approved="yes">
+			<source>Top Level Layout</source>
+		<target state="translated">Top Level Layout</target></trans-unit>
+		<trans-unit id="tx_gridelements_backend_layout_wizard_label" approved="yes">
+			<source>Grid Elements</source>
+		<target state="translated">Raster-Elemente</target></trans-unit>
+		<trans-unit id="tx_gridelements_clickmenu_pastereference" approved="yes">
+			<source>Paste reference after</source>
+		<target state="translated">Als Referenz danach einfügen</target></trans-unit>
+		<trans-unit id="tx_gridelements_js.allowedElementTypes" approved="yes">
+			<source>Allowed CE</source>
+		<target state="translated">Zulässige CE</target></trans-unit>
+		<trans-unit id="tx_gridelements_js.allowedGridElementTypes" approved="yes">
+			<source>Allowed Grids</source>
+		<target>Zulässige Raster-Elemente</target></trans-unit>
+		<trans-unit id="tx_gridelements_js.copyfrompage" approved="yes">
+			<source>Copy content from another page to this place</source>
+		<target state="translated">Inhalt von einer anderen Seite hierhin kopieren</target></trans-unit>
+		<trans-unit id="tx_gridelements_js.drophere" approved="yes">
+			<source>Drop Here</source>
+		<target state="translated">Hier ablegen</target></trans-unit>
+		<trans-unit id="tx_gridelements_js.missingcontenttemplate" approved="yes">
+			<source>Missing Content Template</source>
+		<target state="translated">Fehlendes Inhalts-Template</target></trans-unit>
+		<trans-unit id="tx_gridelements_js.newcontentelementheader" approved="yes">
+			<source>New</source>
+		<target state="translated">Neu</target></trans-unit>
+		<trans-unit id="tx_gridelements_js.pasteinto" approved="yes">
+			<source>Paste into this column</source>
+		<target state="translated">In diese Spalte einfügen</target></trans-unit>
+		<trans-unit id="tx_gridelements_js.pasteafter" approved="yes">
+			<source>Paste after this record</source>
+		<target state="translated">Nach diesem Datensatz einfügen</target></trans-unit>
+		<trans-unit id="tx_gridelements_js.pastecopy" approved="yes">
+			<source>Paste copy into this column</source>
+		<target state="translated">Kopie in diese Spalte einfügen</target></trans-unit>
+		<trans-unit id="tx_gridelements_js.modal.pastecopy" approved="yes">
+			<source>How do you want to paste that clipboard content here?</source>
+		<target state="translated">Wie wollen Sie den Inhalt der Zwischenablage hier einfügen?</target></trans-unit>
+		<trans-unit id="tx_gridelements_js.modal.button.pastecopy" approved="yes">
+			<source>Paste copy</source>
+		<target state="translated">Kopie einfügen</target></trans-unit>
+		<trans-unit id="tx_gridelements_js.pastereference" approved="yes">
+			<source>Paste reference into this column</source>
+		<target state="translated">Referenz in diese Spalte einfügen</target></trans-unit>
+		<trans-unit id="tx_gridelements_js.modal.button.pastereference" approved="yes">
+			<source>Paste reference</source>
+		<target state="translated">Referenz einfügen</target></trans-unit>
+		<trans-unit id="tx_gridelements_collapsecontent" approved="yes">
+			<source>Collapse content in column</source>
+		<target state="translated">Inhalt dieser Spalte einklappen</target></trans-unit>
+		<trans-unit id="tx_gridelements_expandcontent" approved="yes">
+			<source>Expand content in column</source>
+		<target state="translated">Inhalt dieser Spalte ausklappen</target></trans-unit>
+		<trans-unit id="tx_gridelements_contentcollapsed" approved="yes">
+			<source>This column is collapsed!</source>
+		<target state="translated">Diese Spalte ist eingeklappt!</target></trans-unit>
+		</body>
+	</file>
+</xliff>

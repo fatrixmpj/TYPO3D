@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="de" type="array">
+      <label index="pi1_title"/>
+      <label index="pi1_plus_wiz_description"/>
+      <label index="pi2_title"/>
+      <label index="pi2_plus_wiz_description"/>
+      <label index="pi3_title"/>
+      <label index="pi3_plus_wiz_description"/>
+      <label index="pi3_theme_info"/>
+      <label index="pi3_theme_orman"/>
+      <label index="pi3_theme_pascal"/>
+      <label index="pi4_title"/>
+      <label index="pi4_plus_wiz_description"/>
+      <label index="pi5_title"/>
+      <label index="pi5_plus_wiz_description"/>
+      <label index="cms_layout.style"/>
+      <label index="cms_layout.not_configured"/>
+      <label index="cms_layout.from_ts"/>
+      <label index="extmng.classInnerHeader"/>
+      <label index="extmng.classInner"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

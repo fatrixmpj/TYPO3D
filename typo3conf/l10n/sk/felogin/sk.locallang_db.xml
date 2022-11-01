@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="sk" type="array">
+			<label index="tt_content.pi_flexform.general_header">Hlavný nadpis:</label>
+			<label index="tt_content.pi_flexform.general_message">Hlavný text:</label>
+			<label index="tt_content.pi_flexform.welcome_header">Uvítací nadpis:</label>
+			<label index="tt_content.pi_flexform.welcome_message">Uvítací text:</label>
+			<label index="tt_content.pi_flexform.sheet_general">Hlavný</label>
+			<label index="tt_content.pi_flexform.sheet_messages">Správy</label>
+			<label index="tt_content.pi_flexform.show_forgot_password">Ukáž odkaz &quot;Zabudli ste heslo?&quot;:</label>
+			<label index="tt_content.pi_flexform.redirectDisable">Vypni presmerovanie:</label>
+			<label index="tt_content.pi_flexform.redirectPageLogin">Po správnom prihlásení presmeruj na stránku:</label>
+			<label index="tt_content.pi_flexform.redirectPageLoginError">Po nesprávnom prihlásení presmeruj na stránku:</label>
+			<label index="tt_content.pi_flexform.redirectPageLogout">Po odhlásení presmeruj na stránku:</label>
+			<label index="tt_content.pi_flexform.template_file">Šablóna:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="sk" type="array">
+			<label index="tt_content.pi_flexform.general_header" type="integer">226801925</label>
+			<label index="tt_content.pi_flexform.general_message" type="integer">130825698</label>
+			<label index="tt_content.pi_flexform.welcome_header" type="integer">102836539</label>
+			<label index="tt_content.pi_flexform.welcome_message" type="integer">185552832</label>
+			<label index="tt_content.pi_flexform.sheet_general" type="integer">14366585</label>
+			<label index="tt_content.pi_flexform.sheet_messages" type="integer">69068502</label>
+			<label index="tt_content.pi_flexform.show_forgot_password" type="integer">8907633</label>
+			<label index="tt_content.pi_flexform.redirectDisable" type="integer">154281997</label>
+			<label index="tt_content.pi_flexform.redirectPageLogin" type="integer">151827554</label>
+			<label index="tt_content.pi_flexform.redirectPageLoginError" type="integer">108631546</label>
+			<label index="tt_content.pi_flexform.redirectPageLogout" type="integer">165970280</label>
+			<label index="tt_content.pi_flexform.template_file" type="integer">7886713</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="sk" type="array">
+			<label index="tt_content.pi_flexform.general_header">General Header:</label>
+			<label index="tt_content.pi_flexform.general_message">General Message:</label>
+			<label index="tt_content.pi_flexform.welcome_header">Welcome Header:</label>
+			<label index="tt_content.pi_flexform.welcome_message">Welcome Message:</label>
+			<label index="tt_content.pi_flexform.sheet_general">General</label>
+			<label index="tt_content.pi_flexform.sheet_messages">Messages</label>
+			<label index="tt_content.pi_flexform.show_forgot_password">Show &quot;Forgot password?&quot; link:</label>
+			<label index="tt_content.pi_flexform.redirectDisable">Disable redirect:</label>
+			<label index="tt_content.pi_flexform.redirectPageLogin">After successful login redirect to page:</label>
+			<label index="tt_content.pi_flexform.redirectPageLoginError">After login with error redirect to page:</label>
+			<label index="tt_content.pi_flexform.redirectPageLogout">After logout redirect to page:</label>
+			<label index="tt_content.pi_flexform.template_file">Template file:</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

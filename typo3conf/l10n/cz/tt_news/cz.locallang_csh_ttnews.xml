@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="cz" type="array">
+			<label index=".description">Univerzální systém zpráv pro TYPO3.</label>
+			<label index=".details">'Zprávy' jdou typicky na přední stránku webu a dovolují prokliknout na stránku s celým textem (&quot;single view&quot;). Také mohou představovat odkazy na interní stránky v systému nebo odkazy na externí stránky</label>
+			<label index="title.description">Zadejte záhlaví pro db-záznam tt_news</label>
+			<label index="title.details">Zde zadaná hodnota bude nahrazovat značku ###NEWS_TITLE### v html vzoru. Je-li v TS setupu povolen &quot;substitutePageTitle&quot; bude titul stránky se singleview nastaven na titul daného článku (titul výsledků indexovaného vyhledávání rovněž zobrazí název daného článku).</label>
+			<label index="type.description">Zde můžete definovat &quot;typ&quot; položky novinek (normální novinkový článek, link na interní stránku, link na externí stránku).</label>
+			<label index="type.details">Možné typy jsou následující:
+- Zprávy: Tento typ se používá pro normální novinkové články. Tyto zprávy budou mít také odkaz na single view.
+- Odkaz na externí stránku: tyto záznamy se ukazují pouze v zobrazeních seznamu (=LIST a LATEST). Odkazy z těchto  záznamů povedou přímo k URL, která je nastavena v políčku &quot;Externí URL&quot;.
+Odkaz na interní stránku: Tyto záznamy se také ukazují pouze v seznamech (list, latest, search). Cíl pro tyto okazy je celkově nastaven v Constant editoru (pokročilé -&gt; cíl pro interní odkazy).</label>
+			<label index="hidden.description">Použít pro dočasné vyloučení tohoto tt_news db-záznamu ze zobrazení.</label>
+			<label index="hidden.details">Nastavení této možnosti je praktické při úpravách tt_news db-záznamu. Při tomto nastavení se novinková položka nezobrazí pokud - jste-li registrováni jako back end uživatel - povolíte možnost Admin Panel&amp;gt;Preview&amp;gt;Zobrazit skryté záznamy.</label>
+			<label index="starttime.description">Čas &quot;počátku&quot; určuje datum, od kterého bude tt_news db záznam dostupný online.</label>
+			<label index="endtime.description">Čas &quot;ukončení&quot; určuje datum, od kterého tt_news db záznam již NEBUDE dostupný online.</label>
+			<label index="editlock.description">Je-li toto povoleno, uživatelé bez administrátorských práv nemohou tento záznam již otevřít.</label>
+			<label index="fe_group.description">Je-li &quot;přístup&quot; nastaven na jméno uživatelské skupiny, pouze ti uživatelé, kteří jsou členy zvolené uživatelské skupiny, uvidí po přihlášení daný článek. Zvláštní možnost &quot;skrýt při přihlášení&quot; znamená, že článek bude &amp;lt;em&amp;gt;not&amp;lt;/em&amp;gt; viditelný pro přihlášené uživatele. Mimo to &amp;quot;Show at login&amp;quot; zviditelní článek pro jakéhokoli přihlášeného front end uživatele.</label>
+			<label index="datetime.description">Zde zadaná hodnota se v článcích zobrazí jako datum a/nebo čas.</label>
+			<label index="datetime.details">Hodnota tohoto pole ovlivní několik věcí:
+
+- novinkové položky v seznamech a v menu archivu jsou tímto polem pořádány dle výchozího nastavení. 
+- je-li hodnota pro &quot;datetimeDaysToArchive&quot; nastavena, přidá se tato hodnota k hodnotě pole datetime a je s ní zacházeno jako s datem archivu. (zkontrolujte sekci &quot;Archiv&quot; v tt_news manuálu)
+- hodnota těchto polí je zadána pro značky html vzoru ###NEWS_DATE###, ###NEWS_TIME### a ###NEWS_AGE###. (vše odděleno pomocí stdWrap funkce &quot;strftime&quot;)
+Pro nově vytvořené záznamy je aktulní čas automaticky vložen jako datetime.</label>
+			<label index="archivedate.description">Datum zadané v tomto poli určí, jeslti jsou novinky brány jako &quot;archivované&quot; nebo nikoli.</label>
+			<label index="archivedate.details">Jestliže datum archivu ukazuje hodnotu z minulosti, bude novinkový záznam zobrazen v seznamech zobrazujících pouze archivované novinky. Samozřejmě zmizí ze seznamů zobrazujících jen nearchivované novinky.</label>
+			<label index="sys_language_uid.description">Jazyk záznamu novinek.</label>
+			<label index="sys_language_uid.details">Toto by měl být výchozí jazyk, pokud tento záznam neí překladem jiného záznamu.</label>
+			<label index="l18n_parent.description">Novinkový záznam ve výchozím jazyce, z něhož je aktuální záznam překladem.</label>
+			<label index="l18n_parent.details">Toto pole byste neměli měnit manuálně, jelikož je ovládáno lokalizačním systémem TYPO 3.</label>
+			<label index="author.description">Autor záznamu.</label>
+			<label index="author.details">Hodnota tohoto pole nahradí značku html vzoru ###NEWS_AUTHOR###. Ve výchozím TS setupu bude autorovo jméno spjato s jeho emailovou adresou.</label>
+			<label index="t3ver_label.description">Označení verze tohoto záznamu.</label>
+			<label index="t3ver_label.details">Toto pole můžete upravit v modulu versioning nebo v modulu workspace. Pole se objeví pouze pokud má nějakou hodnotu.</label>
+			<label index="author_email.description">Emailová adresa autora.</label>
+			<label index="author_email.details">Ve výchozím TS setupu bude hodnota tohoto pole brána jako typolink parametr pro autorovo jméno (je-li emailová adresa platná). Hodnota tohoto pole nahradí značku html vzoru ###NEWS_EMAIL###.</label>
+			<label index="short.description">Krátký teaser ke článku.</label>
+			<label index="short.details">Hodnota tohoto pole nahradí značku html vzoru ###NEWS_SUBHEADER###. Je-li toto pole prázdné vezme se místo toho hodnota pole &quot;text&quot;.
+Obsah sub-záhlaví je také zapsán do typoscript registru (&quot;newsSubheader&quot;), který může být použit pro vložení sub-záhlaví jako &quot;&amp;lt;meta&amp;gt; popis&quot; k záhlaví stránky (plugin &quot;metatagy&quot; vyžadován)</label>
+			<label index="bodytext.description">Toto je hlavní text článku.</label>
+			<label index="bodytext.details">U typu &quot;zprávy&quot; se pro úpravu tohoto pole používá Rich Text Editor (RTE) (pokud to prohlížeč podporuje a RTE je obecně v systému povoleno). Mějte na vědomí, že obsah je &quot;očištěn&quot;, než jde do databáze. Obsah tohoto pole nahradí značku html vzoru ###NEWS_CONTENT###.
+
+V rámci &quot;singleview&quot; zpráv může být obsah pole &quot;text&quot; rozdělen do několika stránek.</label>
+			<label index="keywords.description">zde můžete zadat některá klíčová slova, která budou zadána jako &amp;lt;meta&amp;gt; klíčová slova v záhlaví stránky (plugin &quot;metatags&quot; vyžadován).</label>
+			<label index="keywords.details">Obsah tohoto pole zapsán do typoscript registru (&quot;newsKeywords&quot;), který může být použit pro vložení klíčových slov jako &quot;&amp;lt;meta&amp;gt; klíčová slova&quot; k záhlaví stránky (vyžaduje plugin &quot;metatags&quot;).
+Jestli toto pole nepotřebujete pro &quot;&amp;lt;meta&amp;gt; klíčová slova&quot; můžete jej použít jako pole pro druhé &quot;sub-záhlaví&quot; (nahradí to značku vzoru ###NEWS_KEYWORDS###).</label>
+			<label index="no_auto_pb.description">Zde můžete pro tento záznam vypnout &quot;automatické lámání stránek&quot;.</label>
+			<label index="no_auto_pb.details">Zalamování stránek může být vloženo automaticky v single view (je-li v TS setupu nastavena hodnota &quot;maxWordsInSIngleView&quot; ). Jestli tuto možnost pro daný článek nechcete, můžete jí vypnout zde.</label>
+			<label index="category.description">Zde můžete k aktuálním záznamům přiřadit kategorie (v případě, že tento záznam není překladem nějakého jiného záznamu).</label>
+			<label index="category.details">K záznamům, které nejsou překladem jiných záznamů můžete přiřazovat kategorie. To vám umožní zvolit položku pro zobrazení podle její přiřazené kategorie nebo subkategorie. TT_news záznam může náležet do různých kategorií.
+Je-li aktuální záznam překladem (jestliže má &quot;překladový originál&quot; a ne-výchozí syslanguage), kateogrie nejsou upravitelné, pouze budou vypsány v tt_news formuláři.
+
+Kategorie mohou mít kategorie vyšší úrovně. Například kategorie &quot;Frontend plugins&quot; je subkategorií kategorie &quot;Extensions&quot;. Ve výsledku se pak záznam kategorie &quot;Frontend plugins&quot; objeví v seznamu zobrazujícím pouze kategorii &quot;Extensions&quot;. Pomocí ikony &quot;+&quot; vedle rozcestníku kategorie je možné vytvářet kategorie přímo z novinkového záznamu.
+
+Názvy přiřazených kategorií nahradí značku html vzoru ###NEWS_CATEGORY###, obrazy kategorie budou zapsány do značky ###NEWS_CATEGORY_IMAGE###.
+
+&lt;strong&gt;Poznámka:&lt;/strong&gt;
+Použití subkategorií musí být povoleno v typoscript setupu:
+&lt;em&gt;
+plugin.tt_news.useSubCategories = 1&lt;/em&gt;
+
+&lt;strong&gt;Kontrola povolení upravovat přiřazené kategorie:&lt;/strong&gt;
+Je možné kontrolovat povolení k úpravám záznamů s přiřazenými kategoriemi. Je-li tato možnost povolena, může back end uživatel měnit záznamy s přiřazenými kategoriemi a které jsou definovány v seznamu povolených kategorií pro tohoto BE uživatele. V případě, že BE uživatel provede nějakou akci (přesunout, smazat, skrýt, lokalizovat, kopírovat, převést, modifikovat) se záznamem, který ma přiřazeny nepovolené kategorie, zobrazí se v záznamu nad poli &quot;Název&quot; a &quot;Kategorie&quot; chybová hláška. Nevolitelné kategorie se zobrazí v šedém textu bez odkazu. Viz. druhý screenshot níže.
+
+Velikost obou polí volby kategorie může být nastaven v manažeru rozšíření.</label>
+			<label index="category.image_descr">pole &quot;Kategorie&quot; v db záznamu tt_news. Otevře-li BE uživatel záznam, který má přiřazeny nepovolené kategorie, zobrazí se tento vzkaz.</label>
+			<label index="image.description">Zde můžete přidávat obrázky, které se zobrazí v záznamu.</label>
+			<label index="image.details">Všechny přiřazené obrázky budou renderovány do značky vzoru ###NEWS_IMAGE###. Obrázky budou nahrány/zkopírovány do složky nahrané/obrázky/.
+Množství obrázků, které se zobrazují v daném zobrazení (single, list, latest) může být kontrolováno pomocí TS vlastnosti &quot;imageCount&quot;.</label>
+			<label index="imagecaption.description">Popis, který se zobrazuje pod obrázky.</label>
+			<label index="imagecaption.details">Pole bude rozděleno zalomením řádků.</label>
+			<label index="imagealttext.description">Text zde zadaný bude vložen jako atribut &quot;alt&quot; v rámci html tagu daného obrázku.</label>
+			<label index="imagealttext.details">Pole bude rozděleno zalomením řádků.</label>
+			<label index="imagetitletext.description">Text zde zadaný bude vložen jako atribut &quot;title&quot; v rámci html tagu daného obrázku.</label>
+			<label index="imagetitletext.details">Pole bude rozděleno zalomením řádků.</label>
+			<label index="links.description">Odkazy zde zadané se zobrazí pod &quot;tělem textu&quot; v single view zpráv.</label>
+			<label index="links.details">Toto pole je odděleno pomocí stdWrap funkce &quot;parseFunc&quot;, takže bude možné zadávat linky jako typolink. 
+Např.: &lt;em&gt;&amp;lt;LINK http://typo3.org _blank&amp;gt;open typo3.org&amp;lt;/LINK&amp;gt;&lt;/em&gt;</label>
+			<label index="related.description">Související články nebo stránky.</label>
+			<label index="related.details">V tomto poli můžete zvolit záznamy nebo stránky, které se zobrazí jako související zprávy. Související zprávy typu &quot;zprávy&quot; budou odkazovat k single view související položky. Související zprávy typu &quot;Externí URL&quot;  nebo &quot;interní odkaz&quot; budou odkazovat na url nebo id stránky, které je zadáno do záznamu. Související stránky budou používány jako zprávy s odkazem na interní stránky.
+
+tt_news lze nakonfigurovat na vkládání odkazů směrujících automaticky ze souvisejího záznamu zpět k tomuto záznamu. Pro povolení těchto &quot;dvousměrných vztahů&quot; nastavte &quot;useBidirectionalRelations&quot; v constant editoru na hodnotu 1 nebo pomocí TS.</label>
+			<label index="news_files.description">Zde můžete k záznamu přikládat soubory.</label>
+			<label index="news_files.details">Přiložené soubory budou renderovány pomocí stdWrap funkce &quot;filelink&quot;. Viz. např. výchozí TS setup.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="cz" type="array">
+			<label index=".description" type="integer">175288138</label>
+			<label index=".details" type="integer">202181729</label>
+			<label index="title.description" type="integer">56318264</label>
+			<label index="title.details" type="integer">22231131</label>
+			<label index="type.description" type="integer">149265505</label>
+			<label index="type.details" type="integer">82927742</label>
+			<label index="hidden.description" type="integer">6132646</label>
+			<label index="hidden.details" type="integer">223516146</label>
+			<label index="starttime.description" type="integer">24586625</label>
+			<label index="endtime.description" type="integer">130304282</label>
+			<label index="editlock.description" type="integer">215647851</label>
+			<label index="fe_group.description" type="integer">156697366</label>
+			<label index="datetime.description" type="integer">47151714</label>
+			<label index="datetime.details" type="integer">76934079</label>
+			<label index="archivedate.description" type="integer">172799812</label>
+			<label index="archivedate.details" type="integer">230982094</label>
+			<label index="sys_language_uid.description" type="integer">165373654</label>
+			<label index="sys_language_uid.details" type="integer">74726112</label>
+			<label index="l18n_parent.description" type="integer">137796876</label>
+			<label index="l18n_parent.details" type="integer">110456952</label>
+			<label index="author.description" type="integer">121595033</label>
+			<label index="author.details" type="integer">75819042</label>
+			<label index="t3ver_label.description" type="integer">230424280</label>
+			<label index="t3ver_label.details" type="integer">47443713</label>
+			<label index="author_email.description" type="integer">221235019</label>
+			<label index="author_email.details" type="integer">87660660</label>
+			<label index="short.description" type="integer">221863442</label>
+			<label index="short.details" type="integer">208233905</label>
+			<label index="bodytext.description" type="integer">138969162</label>
+			<label index="bodytext.details" type="integer">40946248</label>
+			<label index="keywords.description" type="integer">198346701</label>
+			<label index="keywords.details" type="integer">245660226</label>
+			<label index="no_auto_pb.description" type="integer">140470210</label>
+			<label index="no_auto_pb.details" type="integer">149670211</label>
+			<label index="category.description" type="integer">202103109</label>
+			<label index="category.details" type="integer">130215619</label>
+			<label index="category.image_descr" type="integer">126622122</label>
+			<label index="image.description" type="integer">164360171</label>
+			<label index="image.details" type="integer">103102892</label>
+			<label index="imagecaption.description" type="integer">75144587</label>
+			<label index="imagecaption.details" type="integer">265539770</label>
+			<label index="imagealttext.description" type="integer">218565992</label>
+			<label index="imagealttext.details" type="integer">265539770</label>
+			<label index="imagetitletext.description" type="integer">54171941</label>
+			<label index="imagetitletext.details" type="integer">265539770</label>
+			<label index="links.description" type="integer">30750913</label>
+			<label index="links.details" type="integer">95884505</label>
+			<label index="related.description" type="integer">14923382</label>
+			<label index="related.details" type="integer">142131449</label>
+			<label index="news_files.description" type="integer">22096386</label>
+			<label index="news_files.details" type="integer">190461475</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="cz" type="array">
+			<label index=".description">Versatile news system for TYPO3.</label>
+			<label index=".details">&quot;News&quot; items are typically those which goes on your frontpage on the websites and allows you to link down to a page with the full story (the &quot;single view&quot;). They may also represent links to internal pages in the system or links to external pages.</label>
+			<label index="title.description">Enter a headline for the tt_news db-record.</label>
+			<label index="title.details">The value inserted here will substitute the marker ###NEWS_TITLE### in the html template. If &quot;substitutePageTitle&quot; is enabled in TS setup the title of the page with the single view on it will be set to the title of the news article (the title of the indexed search result will also show the title of the news article).</label>
+			<label index="type.description">Here you can define the &quot;type&quot; of the newsitem (normal news article, link to internal page, link to external page).</label>
+			<label index="type.details">Possible types are:
+- News: This type is used for normal news articles. Only these news will have a link to a SINGLE view.
+- Link External page: These news records are only showing in list views (= LIST and LATEST). The links from these news records will point directly to the URL which is configured in the field &quot;External URL&quot;.
+- Link internal page: This news records are also showing only in lists (list, latest, search). The target for these links is configured globally in the Constant editor (advanced-&gt;target for internal links).</label>
+			<label index="hidden.description">Use this to temporarily exclude this tt_news db-record from display.</label>
+			<label index="hidden.details">Setting this option is practical while editing a new tt_news db-record. When it is set, the newsitem will not be displayed unless you - if you're logged in as backend user - enable the Admin Panel&amp;gt;Preview&amp;gt;Show hidden records option.</label>
+			<label index="starttime.description">The &quot;Start&quot; time determines the date from which the tt_news db-record will be available online.</label>
+			<label index="endtime.description">The &quot;End&quot; time determines the date from which the tt_news db-record will NOT be available online anymore.</label>
+			<label index="editlock.description">If this is enabled non-admin users can't open the record anymore.</label>
+			<label index="fe_group.description">If &quot;Access&quot; is set to a usergroup name, only website users which are members of the selected usergroup will be able to view the news article when they are logged in. The special option &quot;Hide at login&quot; means the news article will &amp;lt;em&amp;gt;not&amp;lt;/em&amp;gt; be visible for website users that are logged in. Likewise &amp;quot;Show at login&amp;quot; will make the news article visible for any logged in frontend user.</label>
+			<label index="datetime.description">The value entered here will be shown as date and/or time in news articles.</label>
+			<label index="datetime.details">The value of this field affects several things:
+
+- newsitems in lists and in the archivemenu are ordered by this field by default.
+- if a value for &quot;datetimeDaysToArchive&quot; is set, this value is added to the value of the datetime field and handled as archivedate. (see section &quot;The archive&quot; in the tt_news manual)
+- the value of these field is taken for the html-template markers ###NEWS_DATE###, ###NEWS_TIME### and ###NEWS_AGE###. (all parsed through the stdWrap function &quot;strftime&quot;)
+For new created records the current time is automatically inserted as datetime.</label>
+			<label index="archivedate.description">The date entered in this field will determine if news are handled as &quot;archived&quot; or not.</label>
+			<label index="archivedate.details">If archivedate shows a value in the past, the news record will be shown in lists showing only archived news. Of course it will disappear from lists showing only non-archived news.</label>
+			<label index="sys_language_uid.description">The language of the news record.</label>
+			<label index="sys_language_uid.details">This should be the default language unless this record is a translation of another record.</label>
+			<label index="l18n_parent.description">The news record in the default language where the current record is a translation from.</label>
+			<label index="l18n_parent.details">You should not change this field manually because it is handled by the TYPO3 localization system.</label>
+			<label index="author.description">The author of the news record.</label>
+			<label index="author.details">The value of this field will substitute the html-template marker ###NEWS_AUTHOR###. In the default TS setup the author name will be linked to the author's email address.</label>
+			<label index="t3ver_label.description">The versioning label of this record.</label>
+			<label index="t3ver_label.details">You can edit this field in the versioning module or in the workspaces module. This field appears only if it has a value.</label>
+			<label index="author_email.description">The email address of the news author.</label>
+			<label index="author_email.details">In the default TS setup the value of this field will be taken as typolink parameter for the author name (if it is a valid email address). The value of this field will substitute the html-template marker ###NEWS_EMAIL###.</label>
+			<label index="short.description">A short teaser text for the news article.</label>
+			<label index="short.details">The value of this field will substitute the html-template marker ###NEWS_SUBHEADER###. If this field is empty the value of the field &quot;Text&quot; is taken instead.
+The conten of subheader is also written to a TypoScript register (&quot;newsSubheader&quot;) which can be used to insert the subheader as &quot;&amp;lt;meta&amp;gt; description&quot; to the page header (plugin &quot;metatags&quot; required)</label>
+			<label index="bodytext.description">This is the main text for the news article.</label>
+			<label index="bodytext.details">With the type &quot;news&quot; the Rich Text editor (RTE) is used for editing this field (if your browser supports it and a RTE is generally enabled in the system). Be aware that the content is &quot;cleaned&quot; before it goes into the database.
+The content of this field will substite the html-template marker ###NEWS_CONTENT###.
+
+In the news &quot;single view&quot; the content of the field &quot;Text&quot; can be divided to multiple pages with a pagebrowser.</label>
+			<label index="keywords.description">Here you can enter some keywords that will be inserted as &amp;lt;meta&amp;gt; keywords in the page header (plugin &quot;metatags&quot; required).</label>
+			<label index="keywords.details">The content of this field is written to a TypoScript register (&quot;newsKeywords&quot;) which can be used to insert the keywords as &quot;&amp;lt;meta&amp;gt; keywords&quot; to the page header (plugin &quot;metatags&quot; required).
+If you don't need this field for &quot;&amp;lt;meta&amp;gt; keywords&quot; you can use it as a second &quot;subheader&quot; field (it will substitute the template marker ###NEWS_KEYWORDS###).</label>
+			<label index="no_auto_pb.description">Here you can disable &quot;automatic pagebreaks&quot; for this record.</label>
+			<label index="no_auto_pb.details">Pagebreaks can be inserted automatically in the single view (if a value for &quot;maxWordsInSIngleView&quot; is set in TS setup). If this is not wanted for the current news article you can disable it here.</label>
+			<label index="category.description">Here you can assign categories to the current news record (if this record is no translation of another record).</label>
+			<label index="category.details">You can assign categories to news records that are not translations of other records. That allows you to select newsitems for display by their assigned categories or subcategories. A tt_news record can be member of multiple categories.
+If the current record is a translation (if it has a &quot;translation original&quot; and a non-default syslanguage) the categories are not editable, they will only be listed in the tt_news form.
+
+Categories can have parent categories. F.e the category &quot;FrontEnd plugins&quot; in the screenshot below does have category &quot;Extensions&quot; selected as &quot;parent category&quot;, so &quot;FrontEnd plugins&quot; is a subcategory of &quot;Extensions&quot;. That has the result, that the record in this example which has category &quot;FrontEnd plugins&quot; will also appear in a list that shows only category &quot;Extensions&quot;.
+With &quot;+&quot; icon next to the categoy tree it's possible to create categories directly from the news record.
+
+The titles of the assigned categories will substite the html-template marker ###NEWS_CATEGORY###, the category images will be written to the marker ###NEWS_CATEGORY_IMAGE###.
+
+&lt;strong&gt;Note:&lt;/strong&gt;
+The use of subcategories has to be enabled in the TypoScript setup:
+&lt;em&gt;
+plugin.tt_news.useSubCategories = 1&lt;/em&gt;
+
+&lt;strong&gt;Controlling editing permissions with assigned categories:&lt;/strong&gt;
+It's possible to control the editing permissions of news records with the assigned categories. If this feature is enabled a BE user can only change news records that have categories assigned that are defined in the list of allowed categories for this BE-user. If a BE-user performs any action (move,delete,hide,localize,copy,version,modify) with a record that has non-allowed categories assigned an error message will be displayed and the action will be ignored. Another message will be displayed in the news record above the fields &quot;Title&quot; and &quot;Category&quot;. Non-selectable categories will be displayed in grey text and not linked. See second screenshot below.
+
+The size of both fields for the category selection can be configured in the extension manager.
+</label>
+			<label index="category.image_descr">the field &quot;Category&quot; in the tt_news db-record.
+		If a BE-user opens a record that has non-allowed categories assigned this message will be displayed.</label>
+			<label index="image.description">Here you can assign images that will be shown in the news record.</label>
+			<label index="image.details">All assigned images will be rendered to the template marker ###NEWS_IMAGE###.
+The images will be uploaded/copied to the folder uploads/pics/.
+The amount of images that are shown in a certain view (single,list,latest) can be controlled with the TS property &quot;imageCount&quot;.</label>
+			<label index="imagecaption.description">The caption which is shown under the image(s).</label>
+			<label index="imagecaption.details">The field will be split by linebreaks.</label>
+			<label index="imagealttext.description">The text entered here will be inserted as &quot;alt&quot; attribure of the image HTML-tag.</label>
+			<label index="imagealttext.details">The field will be split by linebreaks.</label>
+			<label index="imagetitletext.description">The text entered here will be inserted as &quot;title&quot; attribure of the image HTML-tag.</label>
+			<label index="imagetitletext.details">The field will be split by linebreaks.</label>
+			<label index="links.description">The links that are inserted here will be displayed under the &quot;bodytext&quot; in the news single view.</label>
+			<label index="links.details">This field is parsed through the stdWrap function &quot;parseFunc&quot; so it will be possible to enter links as typolink.
+F.e.: &lt;em&gt;&amp;lt;LINK http://typo3.org _blank&amp;gt;open typo3.org&amp;lt;/LINK&amp;gt;&lt;/em&gt;</label>
+			<label index="related.description">Related news articles or pages.</label>
+			<label index="related.details">In this field you can select news records or pages that will be displayed as related news. Related news with type &quot;news&quot; will point to the single view of the related news item. Related news with type &quot;External URL&quot; or &quot;internal Link&quot; will point to the url or page id that is inserted in the newsrecord. Related pages will be handled as news with type link to internal pages.
+
+tt_news can be configured to insert the link which points back from the related record to this record automatically. To enable this &quot;bi-directional relations&quot; set &quot;useBidirectionalRelations&quot; to 1 in  the constant editor or by TS.</label>
+			<label index="news_files.description">Here you can attach files to a news record.</label>
+			<label index="news_files.details">The atached files will be rendered through the stdWrap function &quot;filelink&quot;. See default TS setup for an example.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

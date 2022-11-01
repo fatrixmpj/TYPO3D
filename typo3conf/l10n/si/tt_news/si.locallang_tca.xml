@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="si" type="array">
+			<label index="tt_news">Novice</label>
+			<label index="tt_news.type.I.0">Novica</label>
+			<label index="tt_news.type.I.1">Članek</label>
+			<label index="tt_news.datetime">Datum/Ura:</label>
+			<label index="tt_news.archivedate">Arhivski datum:</label>
+			<label index="tt_news.related">Sorodne novice:</label>
+			<label index="tt_news.category">Kategorija</label>
+			<label index="tt_news_cat">Kategorija novic</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="si" type="array">
+			<label index="tt_news" type="integer">231848472</label>
+			<label index="tt_news.type.I.0" type="integer">231848472</label>
+			<label index="tt_news.type.I.1" type="integer">227555672</label>
+			<label index="tt_news.datetime" type="integer">101224737</label>
+			<label index="tt_news.archivedate" type="integer">19612986</label>
+			<label index="tt_news.related" type="integer">113077112</label>
+			<label index="tt_news_cat" type="integer">251615162</label>
+			<label index="tt_news.category" type="integer">61717939</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="si" type="array">
+			<label index="tt_news">News</label>
+			<label index="tt_news.type.I.0">News</label>
+			<label index="tt_news.type.I.1">Link internal Page</label>
+			<label index="tt_news.datetime">Date/Time:</label>
+			<label index="tt_news.archivedate">Archive date:</label>
+			<label index="tt_news.related">Related news:</label>
+			<label index="tt_news.category">Category</label>
+			<label index="tt_news_cat">News category</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

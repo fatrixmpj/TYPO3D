@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="se" type="array">
+			<label index="tt_content.CType_pi1">Användarinloggning på webbplats</label>
+			<label index="felogin_redirectPid">Omdirigera vid inloggning till sida (felogin):</label>
+			<label index="tt_content.pi_flexform.general_header">Generell rubrik:</label>
+			<label index="tt_content.pi_flexform.general_message">Generellt meddelande:</label>
+			<label index="tt_content.pi_flexform.redirect_header">Rubrik för omdirigering:</label>
+			<label index="tt_content.pi_flexform.redirect_message">Meddelande för omdirigering:</label>
+			<label index="tt_content.pi_flexform.welcome_header">Välkomstrubrik:</label>
+			<label index="tt_content.pi_flexform.welcome_message">Välkomstmeddelande:</label>
+			<label index="tt_content.pi_flexform.success_header">Rubrik för lyckad inloggning:</label>
+			<label index="tt_content.pi_flexform.success_message">Meddelande för lyckad inloggning:</label>
+			<label index="tt_content.pi_flexform.error_header">Rubrik för misslyckad inloggning:</label>
+			<label index="tt_content.pi_flexform.error_message">Meddelande för misslyckad inloggning:</label>
+			<label index="tt_content.pi_flexform.status_header">Statusrubrik:</label>
+			<label index="tt_content.pi_flexform.status_message">Statusmeddelande:</label>
+			<label index="tt_content.pi_flexform.logout_header">Rubrik för utloggning:</label>
+			<label index="tt_content.pi_flexform.logout_message">Meddelande för utloggning:</label>
+			<label index="tt_content.pi_flexform.forgot_header">Rubrik för glömt lösenord:</label>
+			<label index="tt_content.pi_flexform.forgot_message">Meddelande för glömt lösenord:</label>
+			<label index="tt_content.pi_flexform.sheet_general">Allmänt</label>
+			<label index="tt_content.pi_flexform.sheet_redirect">Omdirigering</label>
+			<label index="tt_content.pi_flexform.sheet_messages">Meddelanden</label>
+			<label index="tt_content.pi_flexform.show_forgot_password">Visa länk &quot;Glömt lösenord?&quot;:</label>
+			<label index="tt_content.pi_flexform.show_permalogin">Visa kryssruta &quot;Permanent inloggning&quot; (om aktiverad i installationen):</label>
+			<label index="tt_content.pi_flexform.groupSelectmode">Metod för val av FE-grupp:</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_showAll">Visa alla</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_showSelected">Visa valda</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_DontShowSelected">Visa inte valda</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_FromTS">(från TypoScript)</label>
+			<label index="tt_content.pi_flexform.groupSelection">Val av FE-grupp:</label>
+			<label index="tt_content.pi_flexform.groupSelection_noGroup">ingen grupp</label>
+			<label index="tt_content.pi_flexform.field_manualOrder">Använder fältlistor nedan:</label>
+			<label index="tt_content.pi_flexform.field_orderList">Användarfält/lista:</label>
+			<label index="tt_content.pi_flexform.field_orderDetails">Användarfält/detaljer:</label>
+			<label index="tt_content.pi_flexform.redirectMode">Omdirigeringsmetod (du måste välja alternativ, utan definierad metod görs ingen omdirigering):</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.0">Definierat av användargrupppost</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.1">Definierat av användarpost</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.2">Efter inloggning (TS eller Flexform)</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.3">Efter utloggning (TS eller Flexform)</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.4">Efter inloggningsfel (TS eller Flexform)</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.5">Definierat av GET/POST-variabler</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.6">Definierat av Referrer</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.7">Definierat av domänposter</label>
+			<label index="tt_content.pi_flexform.redirectFirstMethod">Använd första funna metoden:</label>
+			<label index="tt_content.pi_flexform.redirectDisable">Inaktivera omdirigering:</label>
+			<label index="tt_content.pi_flexform.redirectPageLogin">Efter lyckad inloggning omdirigera till sida:</label>
+			<label index="tt_content.pi_flexform.redirectPageLoginError">Efter misslyckad inloggning omdirigera till sida:</label>
+			<label index="tt_content.pi_flexform.redirectPageLogout">Efter utloggning omdirigera till sida:</label>
+			<label index="tt_content.pi_flexform.template_file">Mallfil:</label>
+			<label index="felogin_redirPid">Vidareskicka vid inloggning till sidan:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="se" type="array">
+			<label index="tt_content.CType_pi1" type="integer">149928857</label>
+			<label index="felogin_redirectPid" type="integer">105993943</label>
+			<label index="tt_content.pi_flexform.general_header" type="integer">226801925</label>
+			<label index="tt_content.pi_flexform.general_message" type="integer">130825698</label>
+			<label index="tt_content.pi_flexform.redirect_header" type="integer">141739412</label>
+			<label index="tt_content.pi_flexform.redirect_message" type="integer">240399116</label>
+			<label index="tt_content.pi_flexform.welcome_header" type="integer">102836539</label>
+			<label index="tt_content.pi_flexform.welcome_message" type="integer">185552832</label>
+			<label index="tt_content.pi_flexform.success_header" type="integer">30258077</label>
+			<label index="tt_content.pi_flexform.success_message" type="integer">242404921</label>
+			<label index="tt_content.pi_flexform.error_header" type="integer">169827989</label>
+			<label index="tt_content.pi_flexform.error_message" type="integer">2663263</label>
+			<label index="tt_content.pi_flexform.status_header" type="integer">140751115</label>
+			<label index="tt_content.pi_flexform.status_message" type="integer">239415468</label>
+			<label index="tt_content.pi_flexform.logout_header" type="integer">223134195</label>
+			<label index="tt_content.pi_flexform.logout_message" type="integer">45329943</label>
+			<label index="tt_content.pi_flexform.forgot_header" type="integer">158921063</label>
+			<label index="tt_content.pi_flexform.forgot_message" type="integer">119891940</label>
+			<label index="tt_content.pi_flexform.sheet_general" type="integer">14366585</label>
+			<label index="tt_content.pi_flexform.sheet_redirect" type="integer">211764841</label>
+			<label index="tt_content.pi_flexform.sheet_messages" type="integer">69068502</label>
+			<label index="tt_content.pi_flexform.show_forgot_password" type="integer">8907633</label>
+			<label index="tt_content.pi_flexform.show_permalogin" type="integer">253853093</label>
+			<label index="tt_content.pi_flexform.groupSelectmode" type="integer">118280502</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_showAll" type="integer">247013413</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_showSelected" type="integer">19200228</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_DontShowSelected" type="integer">104849576</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_FromTS" type="integer">234833160</label>
+			<label index="tt_content.pi_flexform.groupSelection" type="integer">124947190</label>
+			<label index="tt_content.pi_flexform.groupSelection_noGroup" type="integer">37932999</label>
+			<label index="tt_content.pi_flexform.field_manualOrder" type="integer">10735835</label>
+			<label index="tt_content.pi_flexform.field_orderList" type="integer">36548182</label>
+			<label index="tt_content.pi_flexform.field_orderDetails" type="integer">41652539</label>
+			<label index="tt_content.pi_flexform.redirectMode" type="integer">228544128</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.0" type="integer">135767199</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.1" type="integer">38190304</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.2" type="integer">47429707</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.3" type="integer">121847809</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.4" type="integer">231267966</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.5" type="integer">46525083</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.6" type="integer">184109750</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.7" type="integer">216282502</label>
+			<label index="tt_content.pi_flexform.redirectFirstMethod" type="integer">3192322</label>
+			<label index="tt_content.pi_flexform.redirectDisable" type="integer">154281997</label>
+			<label index="tt_content.pi_flexform.redirectPageLogin" type="integer">151827554</label>
+			<label index="tt_content.pi_flexform.redirectPageLoginError" type="integer">108631546</label>
+			<label index="tt_content.pi_flexform.redirectPageLogout" type="integer">165970280</label>
+			<label index="tt_content.pi_flexform.template_file" type="integer">7886713</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="se" type="array">
+			<label index="tt_content.CType_pi1">Website User Login</label>
+			<label index="felogin_redirectPid">Redirect at Login to Page (felogin):</label>
+			<label index="tt_content.pi_flexform.general_header">General Header:</label>
+			<label index="tt_content.pi_flexform.general_message">General Message:</label>
+			<label index="tt_content.pi_flexform.redirect_header">Redirect Header:</label>
+			<label index="tt_content.pi_flexform.redirect_message">Redirect Message:</label>
+			<label index="tt_content.pi_flexform.welcome_header">Welcome Header:</label>
+			<label index="tt_content.pi_flexform.welcome_message">Welcome Message:</label>
+			<label index="tt_content.pi_flexform.success_header">Login Success Header:</label>
+			<label index="tt_content.pi_flexform.success_message">Login Success Message:</label>
+			<label index="tt_content.pi_flexform.error_header">Login Error Header:</label>
+			<label index="tt_content.pi_flexform.error_message">Login Error Message:</label>
+			<label index="tt_content.pi_flexform.status_header">Status Display Header:</label>
+			<label index="tt_content.pi_flexform.status_message">Status Display Message:</label>
+			<label index="tt_content.pi_flexform.logout_header">Logout Header:</label>
+			<label index="tt_content.pi_flexform.logout_message">Logout Message:</label>
+			<label index="tt_content.pi_flexform.forgot_header">Forgot Password Header:</label>
+			<label index="tt_content.pi_flexform.forgot_message">Forgot Password Message:</label>
+			<label index="tt_content.pi_flexform.sheet_general">General</label>
+			<label index="tt_content.pi_flexform.sheet_redirect">Redirect Options</label>
+			<label index="tt_content.pi_flexform.sheet_messages">Messages</label>
+			<label index="tt_content.pi_flexform.show_forgot_password">Show &quot;Forgot password?&quot; link:</label>
+			<label index="tt_content.pi_flexform.show_permalogin">Show &quot;Stay logged in&quot; checkbox (if switched on for the installation):</label>
+			<label index="tt_content.pi_flexform.groupSelectmode">FE group select mode:</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_showAll">Show all</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_showSelected">Show selected</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_DontShowSelected">Dont show selected</label>
+			<label index="tt_content.pi_flexform.groupSelectmode_FromTS">(from Typoscript)</label>
+			<label index="tt_content.pi_flexform.groupSelection">FE group selection:</label>
+			<label index="tt_content.pi_flexform.groupSelection_noGroup">no group</label>
+			<label index="tt_content.pi_flexform.field_manualOrder">Using fieldlists below:</label>
+			<label index="tt_content.pi_flexform.field_orderList">User Fields/list:</label>
+			<label index="tt_content.pi_flexform.field_orderDetails">User Fields/details:</label>
+			<label index="tt_content.pi_flexform.redirectMode">Redirect Mode (you have to choose the options, without defined Mode there is no redirect):</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.0">defined by Usergroup Record</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.1">defined by User Record</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.2">after Login (TS or Flexform)</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.3">after Logout (TS or Flexform)</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.4">after Login Error (TS or Flexform)</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.5">defined by GET/POST-Vars</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.6">defined by Referrer</label>
+			<label index="tt_content.pi_flexform.redirectMode.I.7">defined by Domain entries</label>
+			<label index="tt_content.pi_flexform.redirectFirstMethod">Use the first mode found:</label>
+			<label index="tt_content.pi_flexform.redirectDisable">Disable redirect:</label>
+			<label index="tt_content.pi_flexform.redirectPageLogin">After successful login redirect to page:</label>
+			<label index="tt_content.pi_flexform.redirectPageLoginError">After login with error redirect to page:</label>
+			<label index="tt_content.pi_flexform.redirectPageLogout">After logout redirect to page:</label>
+			<label index="tt_content.pi_flexform.template_file">Template file:</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

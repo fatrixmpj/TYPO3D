@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="is" type="array">
+			<label index="latestHeader">Nýjar fréttir:</label>
+			<label index="textCatLatest">Flokkar:</label>
+			<label index="textCat">Flokkur:</label>
+			<label index="textNewsAge">Aldur</label>
+			<label index="more">[meira]</label>
+			<label index="preAuthor">Eftir:</label>
+			<label index="backToList">&lt;- Til baka á %s</label>
+			<label index="goToArchive">eldri fréttir -&gt;</label>
+			<label index="archiveHeader">Eldri fréttir:</label>
+			<label index="noNewsToListMsg">engar fréttir á þessum lista</label>
+			<label index="textRelated">Tengdar fréttir:</label>
+			<label index="textLinks">Tenglar:</label>
+			<label index="textFiles">Skrár:</label>
+			<label index="pi_list_browseresults_prev">&lt; fyrri</label>
+			<label index="pi_list_browseresults_next">næstu &gt;</label>
+			<label index="pi_list_browseresults_displays">Sýni frétt ###SPAN_BEGIN###%s til %s&lt;/span&gt; af ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+			<label index="pi_list_browseresults_displays_advanced">Sýni frétt ###FROM### til ###TO### af ###OUT_OF###</label>
+			<label index="catmenuHeader">Veldu flokk:</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="is" type="array">
+			<label index="latestHeader" type="integer">131879361</label>
+			<label index="textCatLatest" type="integer">139144993</label>
+			<label index="textCat" type="integer">90868382</label>
+			<label index="textNewsAge" type="integer">38941977</label>
+			<label index="more" type="integer">185882405</label>
+			<label index="preAuthor" type="integer">150297700</label>
+			<label index="backToList" type="integer">94203432</label>
+			<label index="goToArchive" type="integer">128701237</label>
+			<label index="archiveHeader" type="integer">230880370</label>
+			<label index="pi_list_browseresults_prev" type="integer">20121992</label>
+			<label index="pi_list_browseresults_next" type="integer">232350798</label>
+			<label index="pi_list_browseresults_displays" type="integer">152851483</label>
+			<label index="pi_list_browseresults_displays_advanced" type="integer">3894331</label>
+			<label index="catmenuHeader" type="integer">105811375</label>
+			<label index="noNewsToListMsg" type="integer">207723737</label>
+			<label index="textRelated" type="integer">77990475</label>
+			<label index="textLinks" type="integer">167557397</label>
+			<label index="textFiles" type="integer">147226768</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="is" type="array">
+			<label index="latestHeader">Breaking News:</label>
+			<label index="textCatLatest">Cat:</label>
+			<label index="textCat">Category:</label>
+			<label index="textNewsAge">Age:</label>
+			<label index="more">[more]</label>
+			<label index="preAuthor">By:</label>
+			<label index="backToList">&lt;- Back to: %s</label>
+			<label index="goToArchive">go to Archive -&gt;</label>
+			<label index="archiveHeader">ARCHIVE:</label>
+			<label index="pi_list_browseresults_prev">&lt; Previous</label>
+			<label index="pi_list_browseresults_next">Next &gt;</label>
+			<label index="pi_list_browseresults_displays">Displaying results ###SPAN_BEGIN###%s to %s&lt;/span&gt; out of ###SPAN_BEGIN###%s&lt;/span&gt;</label>
+			<label index="pi_list_browseresults_displays_advanced">Displaying results ###FROM### to ###TO### out of ###OUT_OF###</label>
+			<label index="catmenuHeader">Select a category:</label>
+			<label index="noNewsToListMsg">no news in this list.</label>
+			<label index="textRelated">Related News:</label>
+			<label index="textLinks">Links:</label>
+			<label index="textFiles">Files:</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

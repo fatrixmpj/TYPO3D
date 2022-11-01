@@ -1,0 +1,484 @@
+/* BASE - Base Variable file along with starting point Mixins and Placeholders.
+ ========================================================================== */
+/* Typo3 Settings */
+div.csc-textpic-imagecolumn, td.csc-textpic-imagecolumn .csc-textpic-image {
+  margin-right: 20px !important; }
+
+div.csc-textpic-imagecolumn.csc-textpic-lastcol {
+  margin-right: 20px !important; }
+
+.csc-textpic-imagerow {
+  display: inline !important; }
+
+div.csc-textpic div[data-csc-cols="2"] .csc-textpic-imagecolumn {
+  width: 48%;
+  width: calc(50% - 20px); }
+
+div.csc-textpic div[data-csc-cols="3"] .csc-textpic-imagecolumn {
+  width: 31%;
+  width: calc(33.333% - 20px); }
+
+div.csc-textpic div[data-csc-cols="4"] .csc-textpic-imagecolumn {
+  width: 22%;
+  width: calc(25% - 20px); }
+
+div.csc-textpic div[data-csc-cols="5"] .csc-textpic-imagecolumn {
+  width: 18%;
+  width: calc(20% - 20px); }
+
+div.csc-textpic div[data-csc-cols="6"] .csc-textpic-imagecolumn {
+  width: 15%;
+  width: calc(16.666% - 20px); }
+
+div.csc-textpic div[data-csc-cols="7"] .csc-textpic-imagecolumn {
+  width: 13%;
+  width: calc(14.285% - 20px); }
+
+div.csc-textpic div[data-csc-cols="8"] .csc-textpic-imagecolumn {
+  width: 12%;
+  width: calc(12.5% - 20px); }
+
+div.csc-textpic-imagecolumn, td.csc-textpic-imagecolumn .csc-textpic-image {
+  margin-right: 20px !important; }
+
+.csc-textpic-lastcol {
+  magin-right: 0px !important; }
+
+div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
+  margin-bottom: 20px !important; }
+
+div.csc-textpic .csc-textpic-imagewrap .csc-textpic-imagerow-last .csc-textpic-image {
+  margin-bottom: 20px !important; }
+
+.csc-textpic-imagecolumn img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important; }
+
+.modul div.csc-textpic div[data-csc-cols] .csc-textpic-imagecolumn {
+  width: 100% !important; }
+
+@media screen and (max-width: 880px) {
+  div.csc-textpic div[data-csc-cols="4"] .csc-textpic-imagecolumn {
+    width: 31%;
+    width: calc(25% - 20px); }
+
+  div.csc-textpic div[data-csc-cols="5"] .csc-textpic-imagecolumn {
+    width: 31%;
+    width: calc(25% - 20px); }
+
+  div.csc-textpic div[data-csc-cols="6"] .csc-textpic-imagecolumn {
+    width: 31%;
+    width: calc(25% - 20px); }
+
+  div.csc-textpic div[data-csc-cols="7"] .csc-textpic-imagecolumn {
+    width: 31%;
+    width: calc(25% - 20px); }
+
+  div.csc-textpic div[data-csc-cols="8"] .csc-textpic-imagecolumn {
+    width: 31%;
+    width: calc(25% - 20px); } }
+
+@media screen and (max-width: 680px) {
+  /* Typo3 Bild Text Reset für Mobile */
+  /* Image Rows */
+    div.csc-textpic-imagewrap {
+      float: none;
+      clear: both;
+      display: block; }
+    div.csc-textpic-text {
+      float: none;
+      clear: both;
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      padding-bottom: 10px !important; }
+    div.csc-textpic-intext-right .csc-textpic-imagewrap, div.csc-textpic-intext-right-nowrap .csc-textpic-imagewrap {
+      margin-left: 0px; }
+    div.csc-textpic-intext-left .csc-textpic-imagewrap, div.csc-textpic-intext-left-nowrap .csc-textpic-imagewrap {
+      margin-right: 0px; }
+    div.csc-textpic-intext-right-nowrap .csc-textpic-imagewrap {
+      float: left; }
+    div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
+      margin-top: 8px; }
+    #topbild div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
+      margin-top: 0px !important; }
+    .csc-textpic-imagerow .csc-textpic-image {
+      margin: 0px !important; }
+    .modul div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image, .news-item div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
+      margin-top: 0px !important; }
+    div.csc-textpic div[data-csc-cols="4"] .csc-textpic-imagecolumn {
+      width: 31%;
+      width: calc(33.333% - 20px); }
+    div.csc-textpic div[data-csc-cols="5"] .csc-textpic-imagecolumn {
+      width: 31%;
+      width: calc(33.333% - 20px); }
+    div.csc-textpic div[data-csc-cols="6"] .csc-textpic-imagecolumn {
+      width: 31%;
+      width: calc(33.333% - 20px); }
+    div.csc-textpic div[data-csc-cols="7"] .csc-textpic-imagecolumn {
+      width: 31%;
+      width: calc(33.333% - 20px); }
+    div.csc-textpic div[data-csc-cols="8"] .csc-textpic-imagecolumn {
+      width: 31%;
+      width: calc(33.333% - 20px); } }
+
+@media screen and (max-width: 480px) {
+  /* Image Rows */
+    div.csc-textpic div[data-csc-cols="3"] .csc-textpic-imagecolumn {
+      width: 31%;
+      width: calc(50% - 20px); }
+    div.csc-textpic div[data-csc-cols="4"] .csc-textpic-imagecolumn {
+      width: 31%;
+      width: calc(50% - 20px); }
+    div.csc-textpic div[data-csc-cols="5"] .csc-textpic-imagecolumn {
+      width: 31%;
+      width: calc(50% - 20px); }
+    div.csc-textpic div[data-csc-cols="6"] .csc-textpic-imagecolumn {
+      width: 31%;
+      width: calc(50% - 20px); }
+    div.csc-textpic div[data-csc-cols="7"] .csc-textpic-imagecolumn {
+      width: 31%;
+      width: calc(50% - 20px); }
+    div.csc-textpic div[data-csc-cols="8"] .csc-textpic-imagecolumn {
+      width: 31%;
+      width: calc(50% - 20px); } }
+/*******************************************************************************/
+/* M O D U L E  */
+/******************************************************************************/
+/******************************************************************************/
+/** TEAM **/
+/******************************************************************************/
+/******************************************************************************/
+/** MERKUR **/
+/******************************************************************************/
+.merkur, .team {
+  position: relative; }
+
+.merkur .csc-textpic-imagewrap, .team .csc-textpic-imagewrap {
+  position: relative; }
+
+.merkur div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image, .team div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
+  margin-bottom: 0px !important;
+  margin-top: 0px !important; }
+
+.merkur .csc-textpic-text, .team .csc-textpic-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 42px;
+  background-color: rgba(25, 105, 76, 0.70);
+  padding: 10px 0px 15px 15px;
+  color: #fff;
+  font-weight: 700;
+  text-align: left !important;
+  webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  overflow: hidden; }
+
+.merkur .txtwrap, .team .txtwrap {
+  table-layout: fixed;
+  width: 100%;
+  word-wrap: break-word;
+  color: #ffe500 !important; }
+
+.merkur h1, .team h1 {
+  font-family: 'Fira Sans', sans-serif !important;
+  font-size: 18px;
+  color: #fff !important;
+  font-weight: 500;
+  margin-bottom: 4px !important;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased; }
+
+.merkur p, .team p {
+  webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff !important;
+  line-height: 130% !important;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  /* IE 8 */
+  filter: alpha(opacity=0);
+  /* IE 5-7 */
+  -moz-opacity: 0;
+  /* Mozilla */
+  -khtml-opacity: 0;
+  /* Safari 1.x */
+  opacity: 0;
+  /* Good browsers */ }
+
+.anim {
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  /* IE 8 */
+  filter: alpha(opacity=0);
+  /* IE 5-7 */
+  -moz-opacity: 0;
+  /* Mozilla */
+  -khtml-opacity: 0;
+  /* Safari 1.x */
+  opacity: 0;
+  /* Good browsers */ }
+
+.merkur .csc-textpic-imagewrap:hover .csc-textpic-text, .team .csc-textpic-imagewrap:hover .csc-textpic-text {
+  background-color: rgba(25, 105, 76, 0.70);
+  height: 100%; }
+
+.merkur .csc-textpic-imagewrap:hover p, .team .csc-textpic-imagewrap:hover p {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  /* IE 8 */
+  filter: alpha(opacity=100);
+  /* IE 5-7 */
+  -moz-opacity: 1;
+  /* Mozilla */
+  -khtml-opacity: 1;
+  /* Safari 1.x */
+  opacity: 1;
+  /* Good browsers */ }
+
+.merkur .csc-textpic-imagewrap:hover h2, .team .csc-textpic-imagewrap:hover h2 {
+  margin-top: 30px !important; }
+
+.merkur .csc-textpic-imagewrap:hover .anim, .team .csc-textpic-imagewrap:hover .anim {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  /* IE 8 */
+  filter: alpha(opacity=100);
+  /* IE 5-7 */
+  -moz-opacity: 1;
+  /* Mozilla */
+  -khtml-opacity: 1;
+  /* Safari 1.x */
+  opacity: 1;
+  /* Good browsers */ }
+
+.merkur a, .team a {
+  margin-top: 8px;
+  outline: none !important; }
+
+.merkur a .fa, .team a .fa {
+  font-size: 2em;
+  color: #fff;
+  margin-right: 15px; }
+
+.merkur a .fa:hover, .team a .fa:hover {
+  color: #fff; }
+
+.merkur img:not(.mailimg), .team img:not(.mailimg) {
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important; }
+
+#gridrow div[class*="col-sm"] {
+  margin-bottom: 30px !important; }
+
+.team figcaption {
+  padding-top: 0px !important; }
+
+.row-1 .team a:hover, .row-1 .team a.download:hover, .row-1 .team a.internal-link:hover, .row-1 .team a.external-link-new-window:hover, .row-1 .team a.mail:hover a {
+  background-color: transparent !important; }
+/*******************************************************************************/
+/* ANTIQUE BROWSER FIX */
+/*******************************************************************************/
+/* IE 9 + IE 10 + 11 */
+@media screen and (min-width:0\0) {
+  .merkur img, .team img {
+    max-width: none;
+    width: 100% !important;
+    -ms-transition: none !important;
+    transition: none !important;
+    -ms-transform: none !important;
+    transform: none !important; }
+
+  .merkur .csc-textpic-imagewrap:hover:hover img, .team .csc-textpic-imagewrap:hover:hover img {
+    -ms-transition: none !important;
+    transition: none !important;
+    -ms-transform: none !important;
+    transform: none !important; } }
+/*******************************************************************************/
+/* MEDIA QUERIES */
+/*******************************************************************************/
+@media screen and (max-width: 800px) {
+  .merkur .csc-textpic-imagewrap:hover h2, .team .csc-textpic-imagewrap:hover h2 {
+    margin-top: 15px !important; } }
+
+@media screen and (max-width: 767px) {
+  #gridrow div[class*="col-sm-3"] {
+    width: 33.333% !important;
+    float: left !important; }
+
+  #gridrow div[class*="col-sm-4"] {
+    width: 33.333% !important;
+    float: left !important; }
+
+  #gridrow div[class*="col-sm-6"] {
+    width: 33.333% !important;
+    float: left !important; } }
+
+@media screen and (max-width: 680px) {
+  #gridrow div[class*="col-sm"] {
+    width: 50% !important;
+    float: left !important; } }
+
+@media screen and (max-width: 520px) {
+  /*width:100% !important;*/
+    #gridrow div[class*="col-sm"] {
+      float: left !important; }
+    #gridrow p {
+      font-size: 15px; }
+    .merkur h1, .team h1, .ref h1 {
+      font-size: 16px !important; }
+    .merkur a .fa, .team a .fa {
+      font-size: 2.6em;
+      color: #fff;
+      margin-right: 25px; } }
+
+@media screen and (max-width: 420px) {
+  .merkur .csc-textpic-text, .team .csc-textpic-text {
+    padding: 10px 0px 10px 10px; }
+
+  .merkur .csc-textpic-text, .team .csc-textpic-text {
+    width: 100%;
+    height: 60px; } }
+/*******************************************************************************/
+/* PRINT CSS */
+/*******************************************************************************/
+@media print {
+  #gridrow div[class*="col-sm"] {
+    margin-bottom: 5px !important; }
+
+  .ref, .merkur, .team {
+    height: auto !important; }
+
+  .merkur .csc-textpic-text, .team .csc-textpic-text {
+    position: relative !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100%;
+    height: auto;
+    background: none !important;
+    padding: 5px 0px 0px 0px;
+    color: #000 !important;
+    font-weight: 400;
+    text-align: left !important;
+    transition: none !important;
+    overflow: auto; }
+
+  .merkur img:not(.mailimg), .team img:not(.mailimg) {
+    max-width: 250px !important;
+    height: auto;
+    opacity: 1;
+    -webkit-transition: none !important;
+    transition: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    page-break-before: auto;
+    page-break-after: auto;
+    page-break-inside: avoid !important; }
+
+  .merkur, .team, .merkur h1, .team h1, .merkur p, .team p {
+    color: #000 !important;
+    background-color: #fff; }
+
+  .merkur p, .team p {
+    opacity: 1 !important;
+    webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000 !important; }
+
+  .anim, .mailimg {
+    position: relative;
+    display: none !important; }
+
+  .txtwrap {
+    padding: 0px !important; }
+
+  div {
+    /*border:1px solid grey*/ } }
+
+/* end team 	
+ /******************************************************************************/
+/******************************************************************************/
+/** FOTOGALLERY I  **/
+/******************************************************************************/
+/*.fotogallery2 {    @extend .fgallery2; }*/
+/******************************************************************************/
+/*******************************************************************************/
+/* GLOBAL CLASSES */
+/*******************************************************************************/
+.gridcontainer:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+#gridrow div[class*="col-sm"] {
+  margin-bottom: 30px; }
+
+#gridrow div.csc-textpic .csc-textpic-imagewrap .csc-textpic-image {
+  margin-bottom: 0px !important; }
+
+.gridcol img {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto; }
+/*******************************************************************************/
+/* MEDIA QUERIES */
+/*******************************************************************************/
+@media screen and (max-width: 767px) {
+  #gridrow div[class*="col-sm-3"] {
+    width: 33.333% !important;
+    float: left !important; }
+
+  #gridrow div[class*="col-sm-4"] {
+    width: 33.333% !important;
+    float: left !important; }
+
+  #gridrow div[class*="col-sm-6"] {
+    width: 50% !important;
+    float: left !important; }
+
+  #gridrow h2 {
+    font-size: 16px !important; } }
+
+@media screen and (max-width: 680px) {
+  #gridrow.row {
+    margin-right: -7.5px;
+    margin-left: -7.5px; }
+
+  #gridrow div[class*="col-sm"] {
+    width: 50% !important;
+    float: left !important;
+    padding-right: 7.5px;
+    padding-left: 7.5px; }
+
+  #gridrow div[class*="col-sm-12"] {
+    width: 100% !important;
+    float: left !important; } }
+
+@media screen and (max-width: 500px) {
+  #gridrow h2 {
+    font-size: 16px !important; }
+
+  #gridrow p {
+    font-size: 15px; }
+
+  #gridrow div[class*="col-sm"] {
+    margin-bottom: 15px; } }

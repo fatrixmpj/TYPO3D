@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="bg" type="array">
+			<label index="pageTitle">Заглавие на страница:</label>
+			<label index="path">Път:</label>
+			<label index="user">Потребител:</label>
+			<label index="group">Група:</label>
+			<label index="everybody">Всеки:</label>
+			<label index="thisUser">Този потребител:</label>
+			<label index="mainGroup">Основна група:</label>
+			<label index="editLock">Edit lock предотвратява всякакви промени</label>
+			<label index="noReadAccess">Потребителят няма права за четене за тези DB-mounts!</label>
+			<label index="live">[РЕАЛЕН]</label>
+			<label index="defaultDraft">[РАБОТЕН ПО ПОДРАЗБИРАНЕ]</label>
+			<label index="notAccessible">Предупреждение: Workspace Webmount page id не е достъпен:</label>
+			<label index="compareUserSettings">Сравняване на потребителски настройки</label>
+			<label index="listUsersOnline">Показване на онлайн потребителите</label>
+			<label index="backendUserAdministration">Backend потребителска администрация</label>
+			<label index="filemounts">Filemounts</label>
+			<label index="webmounts">Webmounts</label>
+			<label index="defaultUploadPath">Път за качване по подразбиране</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="bg" type="array">
+			<label index="pageTitle" type="integer">54388573</label>
+			<label index="path" type="integer">266188054</label>
+			<label index="user" type="integer">100638193</label>
+			<label index="group" type="integer">27937892</label>
+			<label index="everybody" type="integer">15655333</label>
+			<label index="thisUser" type="integer">138389859</label>
+			<label index="mainGroup" type="integer">177224527</label>
+			<label index="editLock" type="integer">182576271</label>
+			<label index="noReadAccess" type="integer">72841515</label>
+			<label index="live" type="integer">92369862</label>
+			<label index="defaultDraft" type="integer">105965277</label>
+			<label index="notAccessible" type="integer">110797567</label>
+			<label index="compareUserSettings" type="integer">212545481</label>
+			<label index="listUsersOnline" type="integer">10753523</label>
+			<label index="backendUserAdministration" type="integer">1134652</label>
+			<label index="filemounts" type="integer">208929282</label>
+			<label index="webmounts" type="integer">32273745</label>
+			<label index="defaultUploadPath" type="integer">95580064</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="bg" type="array">
+			<label index="pageTitle">Page title:</label>
+			<label index="path">Path:</label>
+			<label index="user">User:</label>
+			<label index="group">Group:</label>
+			<label index="everybody">Everybody:</label>
+			<label index="thisUser">This user:</label>
+			<label index="mainGroup">Main group:</label>
+			<label index="editLock">Edit lock prevents all editing</label>
+			<label index="noReadAccess">The user has no read-access to these DB-mounts!</label>
+			<label index="live">[LIVE]</label>
+			<label index="defaultDraft">[Default Draft]</label>
+			<label index="notAccessible">WARNING: Workspace Webmount page id not accessible:</label>
+			<label index="compareUserSettings">Compare User Settings</label>
+			<label index="listUsersOnline">List Users Online</label>
+			<label index="backendUserAdministration">Backend User Administration</label>
+			<label index="filemounts">Filemounts</label>
+			<label index="webmounts">Webmounts</label>
+			<label index="defaultUploadPath">Default upload path</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

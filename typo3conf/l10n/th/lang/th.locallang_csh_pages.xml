@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index=".description">บันทึกหน้า'A'จะแสดงหน้าเว็บใน TYPO3 หน้าทั้งหมดที่มีตัวเลข id โดยที่พวกเขาสามารถเชื่อมโยงและอ้างอิง 'บันทึกหน้า'ไม่ได้ตัวเองมีเนื้อหาของหน้า -- เพื่อคุณควรสร้าง'เนื้อหา Page'บันทึก (Content ชิ้นนี้)</label>
+			<label index=".details">ตารางหน้าเป็นที่สำคัญมากใน TYPO3 บันทึกทั้งหมดที่สามารถแก้ไขได้โดยโมดูลหลักใน TYPO3 ต้อง'อยู่'ในเพจ ก็เหมือนกับไฟล์และโฟลเดอร์ในคอมพิวเตอร์ของคุณ harddrive
+&lt;b&gt; &lt;ต้นไม้หน้า / b&gt;
+หน้าเว็บที่มีการจัดโครงสร้างต้นไม้ซึ่งไม่เพียง แต่เป็นวิธีที่สะดวกมากการจัดโดยทั่วไป แต่ยังสะท้อนวิธีที่ดีที่สุดของคุณควรจัดหน้าเว็บไซต์ของคุณ และทำให้คุณมักจะพบว่าต้นไม้หน้าคือภาพสะท้อนของนาวิเกตเว็บไซต์เอง
+
+ uid, pid และ &lt;root pagetree / b&gt;
+เทคนิคองค์ประกอบทั้งหมดของฐานข้อมูลที่มีฟิลด์'uid'ซึ่งเป็นหมายเลขประจำตัวที่ไม่ซ้ำกัน ต่อไปจะต้องมี pid เขต'a'ซึ่งถือตัวเลข uid ของหน้า id หน้า () เพื่อที่พวกเขาอยู่ ถ้าช่อง'pid'เป็นศูนย์การบันทึกพบในรากเรียกว่า'การ เฉพาะผู้บริหารได้รับอนุญาตเข้าถึงรากและนอกจากระเบียนตารางจะต้องกำหนดให้ทั้งสองเป็นของเพจหรือถูกพบในราก
+
+&lt;b&gt; เก็บบันทึกฐานข้อมูล &lt;/ b&gt;
+ขึ้นอยู่กับ'ประเภท'ของหน้ามันอาจเป็นตัวแทนจัดเก็บฐานข้อมูลทั่วไปขององค์ประกอบใน TYPO3 ในกรณีที่ไม่จำเป็นต้องใช้เป็นหน้าเว็บ แต่ภายในเท่านั้นในต้นไม้หน้าเป็นสถานที่เก็บรายการเช่นใช้เป็นแหล่งข้อมูลอื่น ๆ หน้าดังกล่าวมักจะประเภท&quot;SysFolder&quot;</label>
+			<label index=".image_descr">เขตข้อมูลขั้นพื้นฐานที่สุดของหน้าเว็บเป็นธงซ่อนหน้าประเภท (doktype&quot;) และชื่อหน้า เขตอื่น ๆ ยังมี แต่มักจะเพิ่มโดยขยายใน TYPO3 
+หน้าจะจัดในต้นไม้หน้าใน TYPO3 หน้าจอหน้าการแก้ไขจากแบบฟอร์มก่อนในคือ&quot;&quot;หน้า Intro จากต้นไม้หน้านี้ ที่คุณสามารถเห็นมันอยู่ในต้นไม้รากของหน้าและมีหน้าจำนวน&quot;เด็ก&quot;ตามนั้น</label>
+			<label index="title.description">ป้อนชื่อของเพจหรือโฟลเดอร์ คุณต้องป้อนชื่อหน้า เขตข้อมูลต้อง</label>
+			<label index="title.details">ชื่อหน้าจะใช้เพื่อแสดงหน้าสายตาในระบบเช่นในต้นไม้หน้า ยังเป็นชื่อหน้าจะใช้ค่าเริ่มต้นสำหรับลิงค์การนำทางบนหน้าเว็บ 
+คุณสามารถเปลี่ยนชื่อหน้าโดยไม่กระทบเชื่อมโยงไปยังหน้า เพราะหน้าเว็บที่มีการอ้างอิงเสมอโดย uid ของจำนวน&quot;ไม่ชื่อเรื่องของ 
+คุณสามารถใช้ตัวอักษรใดในชื่อหน้า</label>
+			<label index="title.image_descr">ข้อมูลสำหรับชื่อหน้าจะมีน้อย&quot;ไอคอน&quot;ต้องติดมันคุณต้องจ่ายชื่อหน้าและไม่สามารถบันทึกหน้าใหม่จนกว่าคุณจะป้อนชื่อของมัน</label>
+			<label index="doktype.description">เลือกประเภทเพจ นี้จะมีผลว่าหน้าเป็นหน้าเว็บที่มองเห็นหรือใช้เพื่อวัตถุประสงค์อื่น</label>
+			<label index="doktype.details">'การพิมพ์มาตรฐานเป็นหน้าเว็บ 
+'SysFolder นี้เป็นหน้าเว็บที่ไม่ -- เลือกโฟลเดอร์กระทำของคุณเป็นเก็บระเบียน 
+'รีไซเคิล'ถังเป็นขยะ 
+
+&lt;b&gt;Notice :&lt;/b&gt; แต่ละชนิดจะมีไอคอนเฉพาะที่แนบ นอกจากนี้บางชนิดอาจไม่สามารถใช้ได้สำหรับผู้ใช้ (ดังนั้นคุณอาจพบว่าบางตัวเลือกไม่สามารถใช้ได้สำหรับคุณ!) และสุดท้ายแต่ละประเภทมีการกำหนดให้บันทึกเฉพาะบางตารางใน (หน้า SysFolder จะอนุญาตให้บันทึกหรือหากคุณมีปัญหาใด ๆ ) 
+
+&lt;b&gt;$ PAGES_TYPES [Technical]&lt;/b&gt; 
+ข้อ จำกัด ที่ใช้กับแต่ละประเภทเพจที่กำหนดไว้ใน array $ PAGES_TYPES โลก นี่คือการกำหนดตารางที่ได้รับอนุญาตบนหน้าเว็บ เมื่อขยายเพิ่มตารางการ TYPO3 อาจต้องลงทะเบียนในตาราง $ PAGES_TYPES เพื่อให้สามารถสร้างบนหน้าเว็บมาตรฐาน</label>
+			<label index="doktype.image_descr">ตัวอย่างของต้นไม้หน้านี้แสดงหน้าปกติซึ่งมักจะมีไอคอนสีเหลืองในด้านบนของหน้าจอนี้ คุณยังเห็นหน้าถังขยะมูลฝอย บันทึกใดที่เก็บไว้ในถังขยะควรจะถือเป็นขยะและไม่ปรากฏในเว็บไซต์ ฯลฯ สุดท้ายโฟลเดอร์เป็นสีเทา&quot;SysFolders&quot; พวกเขาไม่สามารถดูหน้าเว็บตามปกติ แต่เป็นหน้าที่เก็บบันทึกฐานข้อมูลบางประเภท</label>
+			<label index="TSconfig.description">ตั้งค่าหน้า TypoScript</label>
+			<label index="TSconfig.details">โดยทั่วไป'TypoScript'โครงสร้าง - เป็นแนวคิดสำหรับการป้อนค่าในต้นไม้ นี้เรียกโดยเฉพาะที่เกี่ยวข้องกับการสร้างแม่แบบสำหรับเว็บไซต์ TYPO3 
+แต่หลักการเดียวกันสำหรับการป้อนค่าลำดับของที่นี่จะใช้การกำหนดค่าคุณสมบัติต่าง ๆ ที่เกี่ยวข้องกับแบ็กเอนด์ที่ทำงานในโมดูล, Rich Text Editor เป็นต้น 
+ทำให้'TSconfig สำหรับหน้าเป็นจริงสะสมทั้งหมด'ค่า TSconfig จากหน้าหน้ารากของต้นไม้และภายนอกเพื่อปัจจุบัน และ subpages จึงได้รับผลกระทบเช่นกัน TSconfig พิมพ์หน้าของใช้ได้จาก'TSconfig'เมนู Page ใน'&gt; ข้อมูล'module Web (ต้องขยาย&quot;info_pagetsconfig&quot;ที่จะติดตั้ง)</label>
+			<label index="TSconfig.syntax">TypoScript &lt;em&gt;ไวยากรณ์พื้นฐานโดย'เงื่อนไข'และ'ค่าคงที่'&lt;/em&gt; 
+
+It 's ขอแนะนำให้ admin - ผู้ใช้เท่านั้นจะได้รับอนุญาตเข้าถึงข้อมูลนี้</label>
+			<label index="TSconfig.image_descr">หน้า TSconfig กำหนด Editors Rich Text พฤติกรรมในสาขาของต้นไม้หน้านี้ สิ่งดีๆเกี่ยวกับ Page TSconfig เป็นที่ตั้งอยู่เฉพาะที่หน้าและ subpages ตั้งแต่การตั้งค่าที่สืบทอดลงต้นไม้หน้า</label>
+			<label index="php_tree_stop.description">หยุด backend แสดงผลของต้นไม้หน้าในการนำและรายการ</label>
+			<label index="php_tree_stop.details">ถ้าคุณตั้งธงนี้ต้นไม้หน้าในกรอบ navigation จะไม่ขยายสาขาที่ แต่คุณจะเห็น +&quot;สีแดง&quot;ซึ่งแสดงให้เห็นว่าต้นไม้ที่นี่หยุดเนื่องจาก flag นี้จะกำหนด 
+
+จุดที่มีธงนี้เพื่อป้องกัน descendence เข้า) สาขาที่อาจจะผิดปกติจำนวน subpages (ร้อย 
+
+คุณสามารถคลิก สีแดง&quot;+&quot;และหน้าจะเป็นจุดยึดชั่วคราวในกรอบนำทาง</label>
+			<label index="php_tree_stop.image_descr">ที่นี่&quot;หน้าต้นไม้หยุด flag&quot;ตั้ง เป็นสนามจานสีตาม&quot;TSconfig&quot; 
+ในกับ pagetree การสะท้อนสีแดง&quot;+&quot;และจะไม่สามารถขยายต้นที่สาขาของ 
+ถ้าคุณคลิกสีแดง&quot;+&quot;คุณจะได้รับหน้าติดตั้ง ชั่วคราวในกรอบนำทาง</label>
+			<label index="storage_pid.description">General Storage Folder มีขึ้นเป็นหน้าของโลกสำหรับการจัดเก็บองค์ประกอบของฐานข้อมูลทั่วไปของเว็บไซต์ ที่อาจเป็นแม่แบบ, frontend เป็นต้นผู้ใช้ที่ไม่จริงเกี่ยวข้องกับหน้าเดียว แต่ต่อไปยังเว็บไซต์ทั้งหมด</label>
+			<label index="storage_pid.details">ขอแนะนำให้สนับสนุนการใช้งาน&quot;เก็บหน้า General&quot;เพื่อให้ดูบันทึกในโฟลเดอร์เก็บเว็บไซต์ทั่วไปตามค่าเริ่มต้นและที่เขาควรจะเฉพาะเจาะจงไปดูที่อื่น 
+
+ทั่วไปบันทึกเก็บหน้าเป็นปกติ SysFolder หน้า&quot;&quot; ชนิด</label>
+			<label index="editlock.description">หากการตั้งค่าผู้ใช้ไม่ Admin ไม่สามารถแก้ไขคุณสมบัติของเพจหรือระเบียนใด ๆ บนหน้า (ยกเว้น subpages) พวกเขาไม่สามารถสร้างระเบียนใหม่หรือเพจในเพจใด</label>
+			<label index="fe_login_mode.description">Login Mode ปิดความสามารถในการ&quot;เข้าสู่ระบบใน&quot;ที่หน้านี้</label>
+			<label index="fe_login_mode.details">โดยปกติเมื่อผู้ใช้เข้าสู่ระบบ TYPO3 ของภาคส่วนหน้าได้รับการดำเนินการประมาณและดูแต่ละหน้าผู้ใช้ที่เข้าชมก็คิดว่ามีเนื้อหาที่ผู้ใช้สามารถ 
+โดยปกติเมื่อผู้ใช้เข้าสู่ระบบ TYPO3 ของภาคส่วนหน้าได้รับการดำเนินการประมาณและดูแต่ละหน้าผู้ใช้ที่เข้าชมก็คิดว่ามีเนื้อหาที่ผู้ใช้สามารถ</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index=".description" type="integer">118490002</label>
+			<label index=".details" type="integer">266524571</label>
+			<label index=".image_descr" type="integer">154282212</label>
+			<label index="title.description" type="integer">16113526</label>
+			<label index="title.details" type="integer">92653950</label>
+			<label index="title.image_descr" type="integer">103204111</label>
+			<label index="doktype.description" type="integer">238659907</label>
+			<label index="doktype.details" type="integer">173538316</label>
+			<label index="doktype.image_descr" type="integer">177111079</label>
+			<label index="TSconfig.description" type="integer">129650006</label>
+			<label index="TSconfig.details" type="integer">216590510</label>
+			<label index="TSconfig.syntax" type="integer">6236841</label>
+			<label index="TSconfig.image_descr" type="integer">213516592</label>
+			<label index="php_tree_stop.description" type="integer">87402840</label>
+			<label index="php_tree_stop.details" type="integer">49793750</label>
+			<label index="php_tree_stop.image_descr" type="integer">38957251</label>
+			<label index="storage_pid.description" type="integer">154894460</label>
+			<label index="storage_pid.details" type="integer">263556132</label>
+			<label index="editlock.description" type="integer">82976191</label>
+			<label index="fe_login_mode.description" type="integer">72744972</label>
+			<label index="fe_login_mode.details" type="integer">30620296</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+			<label index=".description">A 'Page' record usually represents a webpage in TYPO3. All pages have an id-number by which they can be linked and referenced. The 'Page' record does not itself contain the content of the page - for this purpose you should create 'Page content' records (Content Elements).</label>
+			<label index=".details">The pages table is the very backbone in TYPO3. All records editable by the mainstream modules in TYPO3 must 'belong' to a page. It's exactly like files and folders on your computers harddrive.
+
+&lt;b&gt;The page tree&lt;/b&gt;
+The pages are organized in a tree structure which is not only a very handy way of organizing in general but also a optimal reflection of how you should organize the pages on your website. And thus you'll normally find that the page tree is a reflection of the website navigation itself.
+
+&lt;p&gt;uid, pid and the pagetree root&lt;/b&gt;
+Technically all database elements has a field 'uid' which is a unique identification number. Further they must have a field 'pid' which holds the uid-number of the page (page id) to which they belong. If the 'pid' field is zero the record is found in the so called 'root'. Only administrators are allowed access to the root and furthermore table records must be configured to either belonging to a page or being found in the root.
+
+&lt;b&gt;Storage of database records&lt;/b&gt;
+Depending on the 'Type' of the page, it may also represent a general storage for database elements in TYPO3. In that case it is not necessarily available as a webpage but only internally in the page tree as a place to store items such as users, subscriptions etc. Such pages are typically of the type &quot;SysFolder&quot;.</label>
+			<label index=".image_descr">The most basic fields of a page is the hidden flag, the type of page (&quot;doktype&quot;) and the page title. Other fields are also available but typically added by extensions in TYPO3.
+Pages are arranged in a page tree in TYPO3. The page from the editing form in the previous screenshot was the &quot;Intro&quot; page from this page tree. As you can see it belongs in the root of the page tree and has a number of &quot;child&quot; pages under it.</label>
+			<label index="title.description">Enter the title of the page or folder. You must enter a page title. The field is required.</label>
+			<label index="title.details">The page title is used to represent the page visually in the system, for example in the page tree. Also the page title is used by default for navigation links on webpages.
+You can always change a page title without affecting links to a page. This is because pages are always referenced by their &quot;uid&quot; number, not their title.
+You can use any characters in the page title.</label>
+			<label index="title.image_descr">The field for the page title has a little &quot;required&quot; icon next to it; You must supply a page title and you cannot save the new page unless you enter a title for it.</label>
+			<label index="doktype.description">Select the page type. This affects whether the page represents a visible webpage or is used for other purposes.</label>
+			<label index="doktype.details">The 'Standard' type represents a webpage.
+'SysFolder' represents a non-webpage - a folder acting as a storage for records of your choice.
+'Recycler' is a garbage bin.
+
+&lt;b&gt;Notice:&lt;/b&gt; Each type usually has a specific icon attached. Also certain types may not be available for a user (so you may experience that some of the options are not available for you!). And finally each type is configured to allow only certain table records in the page (SysFolder will allow any record if you have any problems).
+
+&lt;b&gt;$PAGES_TYPES [Technical]&lt;/b&gt;
+The restrictions that apply to each page type is defined in the global array $PAGES_TYPES. Here it is defined which tables are allowed on a page. When extensions adds tables to TYPO3 they may need to register their tables in $PAGES_TYPES so they can be created on standard pages.</label>
+			<label index="doktype.image_descr">This snippet of the page tree shows regular pages which usually have the yellow icons in top of this screenshot. You also see a Garbage bin page. Any records stored in a garbage bin should be regarded as waste and therefore not shown on the website etc. Finally the gray folders are &quot;SysFolders&quot;. They cannot be viewed as regular webpages but serve as storage pages for database records of some kind.</label>
+			<label index="TSconfig.description">Page TypoScript configuration.</label>
+			<label index="TSconfig.details">Basically 'TypoScript' is a concept for entering values in a tree-structure. This is known especially in relation to creating templates for TYPO3 websites.
+However the same principle for entering the hierarchy of values is used here to configure various features in relation to the backend, functions in modules, the Rich Text Editor etc.
+The resulting 'TSconfig' for a page is actually an accumulation of all 'TSconfig' values from the root of the page tree and outwards to the current page. And thus all subpages are affected as well. A print of the page TSconfig is available from the 'Page TSconfig' menu in the 'Web&gt;Info' module (requires the extension &quot;info_pagetsconfig&quot; to be installed).</label>
+			<label index="TSconfig.syntax">Basic TypoScript syntax &lt;em&gt;without&lt;/em&gt; 'Conditions' and 'Constants'.
+
+It's recommended that only admin-users are allowed access to this field!</label>
+			<label index="TSconfig.image_descr">Page TSconfig customizing the Rich Text Editors behaviour in this branch of the page tree. The cool thing about Page TSconfig is that the configuration is specific for that page and subpages since the configuration settings are inherited down the page tree.</label>
+			<label index="php_tree_stop.description">Stops backend rendering of the page tree in navigation and lists.</label>
+			<label index="php_tree_stop.details">If you set this flag the page tree in the navigation frame will not expand that branch. Rather you will see a red &quot;+&quot; which indicates that the tree stopped here due to this flag being set.
+
+The point with this flag is to prevent descendence into a branch that might have an unusual amount of subpages (hundreds).
+
+You can click the red &quot;+&quot; and the page will become a temporary mount point in the navigation frame.</label>
+			<label index="php_tree_stop.image_descr">Here the &quot;Stop page tree&quot; flag is set. It is a palette field under &quot;TSconfig&quot;.
+In the pagetree the setting is reflected with the red &quot;+&quot; and it is not possible to expand that branch of the tree.
+If you click the red &quot;+&quot; you will get the page mounted temporarily in the navigation frame.</label>
+			<label index="storage_pid.description">A General Storage Folder is meant to be a global page for storage of general database elements of a website. That could be for templates, frontend users etc. which does not really relate to a single page but more to the whole site.</label>
+			<label index="storage_pid.details">It is recommended that applications support &quot;General Storage pages&quot; so that they look for records in the sites general storage folder by default and that they should be specifically configured to look elsewhere.
+
+A General Record Storage Page is typically a page of the &quot;SysFolder&quot; type.</label>
+			<label index="editlock.description">If set, non-Admin users cannot edit the page properties or any records on the page (except subpages). They cannot create new records or pages on the page either.</label>
+			<label index="fe_login_mode.description">The Login Mode disables the ability to &quot;be logged in&quot; at this page.</label>
+			<label index="fe_login_mode.details">Usually, if the user logs into TYPO3's Frontend the session gets carried around and for each page that user visits, it's calculated whether there is content that the user can see.
+
+By disabling the login, this check does not happen anymore. So the content is the same for all states whether logged in or not or for different FE user groups. This again results in being able to send cache headers.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

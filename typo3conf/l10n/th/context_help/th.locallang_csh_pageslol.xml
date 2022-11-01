@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="th" type="array">
+			<label index=".description">เป็นภาษาทางเลือกสำหรับหน้า</label>
+			<label index=".details">บันทึกเหล่านี้มีช่องคล้ายกับรายการหน้า, ตรงสาขาที่ซึ่งควรจะแปลเป็นภาษาอื่นในกรณีที่คุณต้องการรุ่นท้องถิ่นของหน้า 
+สร้างเพียงหน้าเดียว Alternative Language บันทึกภาษาที่ระบุในแต่ละหน้า มีมากกว่าหนึ่งรายการจะออกมันไม่แน่นอนที่พวกเขาจะใช้เมื่อหน้าจะปรากฏ 
+
+ก่อนที่คุณจะสามารถสร้างทางเลือก Page Language บันทึกคุณควรสร้าง'ภาษา'ต้นแบบจะมีอยู่ในเว็บไซต์ของรากของ (&quot;เว็บไซต์ภาษา&quot; ) 
+TypoScript แม่แบบต้องกำหนดค่าเพื่อให้ภาษาอื่น ๆ รวมทั้ง 
+
+เทคนิคเมื่อเป็นภาษาทางเลือกดูจะถูกบันทึกเนื้อหาทดแทน Page ภาษาเป็นเพียงซ้อนทับบนบันทึกหน้าจริงจึงแทนภาษาเนื้อหาของเขตข้อมูลเริ่มต้นใน</label>
+			<label index="hidden.description">นี้เพื่อปิดการใช้ชั่วคราวแสดงข้อมูลภาษาทางเลือกสำหรับหน้านี้</label>
+			<label index="hidden.details">การตั้งค่าตัวเลือกนี้จะปฏิบัติในช่วงของการเพิ่มภาษาพิเศษ เมื่อมีการกำหนดเนื้อหาทางเลือกจะไม่ปรากฏจนกว่าคุณจะ -- เป็นผู้ใช้ที่ล็อกอิน backend -- enableds Admin Panel&gt; Preview&gt; แสดงรายการที่ซ่อนตัวเลือก</label>
+			<label index="starttime.description">'เวลา'เริ่มกำหนดวันที่ซึ่งภาษาทางเลือกจะสามารถออนไลน์</label>
+			<label index="endtime.description">'ครั้งสุดท้าย'กำหนดวันที่ซึ่งภาษาทางเลือกจะสามารถออนไลน์</label>
+			<label index="title.description">ป้อนชื่อของภาษาทางเลือกที่</label>
+			<label index="subtitle.description">ป้อนคำบรรยายภาษาทางเลือกที่</label>
+			<label index="keywords.description">ป้อนคำหลักของภาษาทางเลือก</label>
+			<label index="description.description">ป้อนคำอธิบายของภาษาทางเลือกที่</label>
+			<label index="abstract.description">ใส่บทคัดย่อภาษาทางเลือก</label>
+			<label index="author.description">ป้อนผู้เขียนภาษาทางเลือกที่</label>
+			<label index="author_email.description">ป้อนที่อยู่อีเมลของผู้เขียนภาษาทางเลือก</label>
+			<label index="media.description">ใส่ไฟล์มีเดียของภาษาทางเลือก</label>
+			<label index="sys_language_uid.description">เลือก Alternative Language แทนด้วยบันทึกนี้</label>
+			<label index="nav_title.description">ป้อนชื่อ navigation เลือกภาษาทางเลือก</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="th" type="array">
+			<label index=".description" type="integer">230200392</label>
+			<label index=".details" type="integer">27958106</label>
+			<label index="hidden.description" type="integer">148737156</label>
+			<label index="hidden.details" type="integer">56904419</label>
+			<label index="starttime.description" type="integer">162646530</label>
+			<label index="endtime.description" type="integer">213075354</label>
+			<label index="title.description" type="integer">168754082</label>
+			<label index="subtitle.description" type="integer">249795538</label>
+			<label index="keywords.description" type="integer">81696492</label>
+			<label index="description.description" type="integer">137311270</label>
+			<label index="abstract.description" type="integer">114774738</label>
+			<label index="author.description" type="integer">135693417</label>
+			<label index="author_email.description" type="integer">230171675</label>
+			<label index="media.description" type="integer">117106707</label>
+			<label index="sys_language_uid.description" type="integer">76275608</label>
+			<label index="nav_title.description" type="integer">132510765</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="th" type="array">
+			<label index=".description">Represents an alternative language for the page.</label>
+			<label index=".details">These records contains fields very similar to the Page records, exactly those fields which should be translated to another language in case you want a localized version of the page.
+Create only ONE Alternative Page Language record of a specific language in each page. Having more than one record will leave it uncertain which of them is used when the page is displayed.
+
+Before you can create Alternative Page Language records you should create a 'master' language to be available in the root of the website (&quot;Website Language&quot;)
+The TypoScript template must be configured to allow other languages as well.
+
+Technically when an alternative language is being viewed, the content of the Alternative Page Language record is simply overlaid on the actual page records thus substituting the content of the fields in the default language.</label>
+			<label index="hidden.description">Use this to temporarily disable the alternative language overlay for this page.</label>
+			<label index="hidden.details">Setting this option is practical in the phase of adding the extra language. When it is set, the alternative content will not be displayed unless you - as an logged in backend user - enableds the Admin Panel&gt;Preview&gt;Show hidden records option.</label>
+			<label index="starttime.description">The 'Start' time determines the date from which the alternative language will be available online.</label>
+			<label index="endtime.description">The 'End' time determines the date from which the alternative language will be available online.</label>
+			<label index="title.description">Enter the title of the alternative language.</label>
+			<label index="subtitle.description">Enter the subtitle of the alternative language.</label>
+			<label index="keywords.description">Enter the keywords of the alternative language.</label>
+			<label index="description.description">Enter the description of the alternative language.</label>
+			<label index="abstract.description">Enter the abstract of the alternative language.</label>
+			<label index="author.description">Enter the author of the alternative language.</label>
+			<label index="author_email.description">Enter the author email address of the alternative language.</label>
+			<label index="media.description">Enter the media files of the alternative language.</label>
+			<label index="sys_language_uid.description">Select the Alternative Language represented by this record.</label>
+			<label index="nav_title.description">Enter optional navigation title of the alternative language.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>

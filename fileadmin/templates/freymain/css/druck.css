@@ -1,0 +1,254 @@
+@page { 
+
+    size:21.0cm 29.7cm;
+    margin-top:2cm;
+    margin-bottom:1cm;
+    margin-left:1cm;
+    margin-right:2.2cm;
+}
+
+
+html, body,
+p, body p, table p , #inhalt p,
+a, a:link, #inhalt a, #inhalt a:link,
+ul a, ul li a, ul ul li a    {
+  height:auto; 
+    background-color:#FFFFFF;
+    background:none !important;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:10pt !important;
+    color:#000 !important;
+    overflow:visible;
+}
+
+h1, h2, h3, h4, h5, h6   {
+    color:#000000 !important;
+}  
+
+h1 {
+  font-size:15pt;
+  font-weight:700;
+}
+
+h2 {
+  font-size:13pt;
+}
+
+h3 {
+  font-size:13pt;
+}
+
+h5 {
+  font-size:12pt;
+  font-weight:700;
+}
+
+
+
+
+#wrapper:before {
+    content:" H.P. Frey Gartenbau und Blumengeschäft";
+    color:#000;
+    font-weight:700;
+    font-size:18pt;
+    display:block;
+    margin-left:0px;
+}
+
+
+#wrapper-header,
+#header-bg,
+#header,
+#wrap-topbild,
+#wrap-claim,
+#claim-bg,
+#claim,
+#home-boxes,
+#mleft,
+#navcontainer,
+#navigation,
+#mobilenavi,
+.slicknav_menu,
+#nav,
+#subnav3,
+#slideshow,
+#topbild,
+#megura,
+#r1-r2,
+#r2-col1,
+#r1-col2-1,
+#r1-col2-2,
+#subnavi,
+#meguralink,
+#news,
+#fright,
+#footer-desk,
+#footer-m2,
+#footer-m3,
+#footer-m4    {
+    display:none;
+    height:0px !important; 
+    width:0px !important;
+}
+
+#wrapper, #wrap-element, #inhalt, .container, #r1-col1, #r1-r2 {
+   display: static;
+    height: auto !important;
+    min-height: 0;
+    width:100%;
+   margin-top:0px;
+   word-wrap:break-word;
+}
+
+
+#inhalt,
+.inhalt,
+#adresse,
+.row
+ {
+    /*width:75% !important;  */
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:10pt !important;
+}
+
+.inhalt, #inhalt { margin-top:20px !important; height:auto; }
+
+
+
+#mleft { display:none !important;}
+
+#mright {
+  display:block;
+  float:none;  
+  width:100%;
+}
+ 
+#footer-mobile, #footer-m1 {
+  display:block;
+  position:static;
+}
+
+
+
+a[href]:after, img:after {
+    content: none !important;
+  }
+
+  .home #col-1, .home #col-2, .home #col-3 {
+       min-height:auto !important;
+    }
+
+
+
+.row {
+width:100%;
+position:static !important;
+}
+
+.row:after {
+  clear:both;
+}
+
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, 
+.col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, 
+.col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    min-height: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position:static !important;
+    width:100% !important;
+    padding:0 !important;
+    margin:0 !important;
+    height:auto !important;
+}
+
+
+.col-xs-1:after,
+.col-xs-2:after,
+.col-xs-3:after,
+.col-xs-4:after,
+.col-xs-5:after,
+.col-xs-6:after,
+.col-xs-7:after,
+.col-xs-8:after,
+.col-xs-9:after,
+.col-xs-10:after,
+.col-xs-11:after,
+.col-xs-12:after,
+.col-sm-1:after,
+.col-sm-2:after,
+.col-sm-3:after,
+.col-sm-4:after, 
+.col-sm-5:after,
+.col-sm-6:after,
+.col-sm-7:after,
+.col-sm-8:after,
+.col-sm-9:after,
+.col-sm-10:after,
+.col-sm-11:after,
+.col-sm-12:after,
+.col-md-1:after,
+.col-md-2:after,
+.col-md-3:after,
+.col-md-4:after,
+.col-md-5:after,
+.col-md-6:after,
+.col-md-7:after,
+.col-md-8:after,
+.col-md-9:after,
+.col-md-10:after,
+.col-md-11:after,
+.col-md-12:after,
+.col-lg-1:after,
+.col-lg-2:after,
+.col-lg-3:after,
+.col-lg-4:after,
+.col-lg-5:after,
+.col-lg-6:after,
+.col-lg-7:after,
+.col-lg-8:after,
+.col-lg-9:after,
+.col-lg-10:after,
+.col-lg-11:after,
+.col-lg-12:after {
+  content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 20px;
+   clear: both;
+}
+
+
+div { }
+
+.row1,
+.row1 .col-sm-9,
+.row1 .col-sm-3 {
+   display: static;
+    height: auto !important;
+    min-height: 0;
+    width:100%;
+   margin-top:0px;
+   word-wrap:break-word;
+}
+
+.row-1 > .col-sm-9::after {
+display:none;
+height:0;
+
+}
+
+.row-1 > .col-sm-9 {
+    padding-right: 0px !important;
+}
+.col-sm-9 {
+    width: 100%;
+    height:auto !important;
+}
+
+
+
+

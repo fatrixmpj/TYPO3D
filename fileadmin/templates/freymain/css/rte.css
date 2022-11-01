@@ -1,0 +1,332 @@
+@import url(https://fonts.googleapis.com/css?family=Vollkorn:400,700);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300,500);
+
+
+/* DEFAULT FONTS & RTE ELEMENTS-------------------------------------------------- */
+
+* {
+  margin:0px;
+  padding:0px;
+}
+
+
+body  {
+font-family: 'Fira Sans', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 140%;
+color: #666;
+}
+
+p {  margin-bottom:15px;  }
+
+h1, h2, h3, h4, h5 {
+    margin-top: 0px !important;
+ }
+
+
+
+h1, .h1  {
+font-family: 'Vollkorn', serif;
+font-size:34px;
+margin-bottom:20px;
+font-style:normal;
+font-weight:700;
+color: #19694C !important;
+text-transform:none;
+padding: 0px;
+}
+ 
+
+h2, .h2  {
+font-family: 'Fira Sans', sans-serif;
+font-size: 24px;
+font-weight: 400;
+line-height: 140%;
+color: #A1C1B4 !important;
+text-transform:none;
+padding: 0px;
+}
+
+
+h3, .h3  {
+font-family: 'Fira Sans', sans-serif;
+font-size: 26px;
+font-weight: 400;
+line-height: 140%;
+color: #A1C1B4;
+text-transform:none;
+padding: 0px;
+}
+
+
+h4, .h4  {
+font-family: 'Fira Sans', sans-serif !important;
+font-size: 18px;
+font-weight: 400;
+line-height: 140%;
+color: #A1C1B4 !important;
+text-transform:none;
+padding: 0px;
+}
+
+
+/* Rechte Spalte */
+#r1-col2-1 h1, #r1-col2-2 h1 {
+font-family: 'Fira Sans', sans-serif !important;
+font-size: 26px;
+font-weight: 400;
+line-height: 140%;
+color: #A1C1B4 !important;
+text-transform:none;
+padding: 0px;
+}
+
+#r1-col2-1 h2, #r1-col2-2 h2 {
+font-family: 'Fira Sans', sans-serif !important;
+font-size: 18px;
+font-weight: 400;
+line-height: 140%;
+color: #A1C1B4 !important;
+text-transform:none;
+padding: 0px;
+margin-bottom:3px !important;
+}
+
+#r1-col2-1 div p:first-child { margin-bottom:0px !important;}
+#r1-col2-2 h1 { margin-bottom:0px !important; }
+
+
+
+
+
+ul {
+	margin-left:15px;
+  margin-top:-4px;
+}
+
+li {	
+	margin-bottom:2px;
+	margin-top:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+} 
+
+
+
+
+ul#spezial {
+  margin-left:0px;
+  list-style-type:none;
+  margin-top:-4px;
+}
+
+ul#spezial li {  
+  margin-bottom:5px;
+  margin-top:0px;
+  padding-top:0px;
+  padding-bottom:0px;
+} 
+
+
+/*Button*/
+.linkbutton, .linkbutton:visited {
+	background-color:#19694C !important;
+	color: #fff !important;
+	display: inline-block;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
+	margin-bottom: 0;
+	font-weight: normal;
+	line-height: 100%;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 0px solid #999;
+	border-radius: 0px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	text-decoration:none !important;
+	transition: all 0.15s ease;
+	margin-bottom:8px;
+}
+
+
+.linkbutton:hover {
+	background-color:#2DBD89 !important;
+	color:#fff !important; 
+}
+
+/*Button Ende*/
+
+
+/* Homepage */
+/*
+.home h1 {
+font-size:14px !important;
+margin-bottom:10px;
+font-weight:400 !important;
+text-transform:uppercase !important;
+}
+
+.home h2 {
+font-size:15px !important;
+margin-bottom:10px;
+font-weight:700;
+text-transform:normal;
+}
+*/
+
+
+/* Fusszeile */
+#footer h1 {
+font-family: 'Vollkorn', serif !important;
+font-size:16px;
+margin-bottom:12px;
+font-style:normal;
+font-weight:700;
+color: #fff !important;
+text-transform:none;
+padding: 0px;
+}
+
+#footer, #footer p {
+font-family: 'Fira Sans', sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 140%;
+color: #fff;
+}
+
+
+
+
+
+/*maps*/
+.overlay_map {
+   background:transparent;
+   position:relative; 
+   width:100%;
+   height:480px; /* your iframe height */
+   top:480px;  /* your iframe height */
+   margin-top:-480px;  /* your iframe height */
+}
+
+
+
+/* Linkstyle */
+
+a img { border:0px;}
+
+.row-1 a,
+.row-1 a.download, 
+.row-1 a.internal-link,
+.row-1 a.external-link-new-window, 
+.row-1 a.external-link-new-window, 
+.row-1 a.mail  a { color:#666; text-decoration:underline; padding-top:2px; }
+
+.row-1 a:hover,
+.row-1 a.download:hover, 
+.row-1 a.internal-link:hover,
+.row-1 a.external-link-new-window:hover, 
+.row-1 a.external-link-new-window:hover, 
+.row-1 a.mail:hover  a { color: #000; text-decoration:none; background-color:#CBDCD6; }
+
+
+#footer a { color:#fff; text-decoration:underline;}
+#footer a:hover { color:#DCD1B1; text-decoration:underline;}
+
+/*
+#stablink-icons a { color:#0065AC !important; text-decoration:none;}
+#stablink-icons a:hover { color:#0065AC !important; text-decoration:none;}
+*/
+
+.fa:hover {  color: #dcd1b1 !important;}
+
+
+
+a.megura, a.fdesk  { font-size:10px; color:#fff; text-decoration:none !important;  }
+a.megura:hover, a.fdesk:hover {color:#fff; text-decoration:underline !important; }
+
+
+
+
+
+
+
+/* RESPONSIVE FONTS
+-------------------------------------------------- */
+
+
+@media screen and (max-width: 767px) { 
+
+  h1, .h1 { font-size: 28px;  }
+}
+
+
+
+
+@media screen and (max-width: 480px) { 
+
+  h1, .h1 { font-size: 24px; line-height:120%; }
+  h2, .h2 { font-size: 20px; line-height:120%;  }
+}
+
+
+
+
+
+
+
+
+/* Backende RTE Settings */
+.htmlarea-content-body { background-color:#fff; }
+
+.htmlarea-content-body {
+    font-family: 'Open Sans', sans-serif !important;
+ 
+}
+
+.htmlarea-content-body {
+font-family: 'Open Sans', sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 140%;
+margin: 0;
+padding: 3px;
+}
+
+
+.htmlarea-content-body a.linkbox {
+    border: 1px solid #6D7478 !important;
+    color: #6D7478;
+    text-decoration:none !important;
+}
+
+.htmlarea-content-body,
+.htmlarea-content-body h1,
+.htmlarea-content-body h2,
+.htmlarea-content-body h3,
+.htmlarea-content-body h4,
+.htmlarea-content-body p   {
+  /*color:#333 !important */
+}
+
+.htmlarea-content-body a.linkbox {
+  color:#6D7478 !important;
+}
+
+
+.htmlarea-content-body a,
+.htmlarea-content-body a:hover  {
+  color:#6D7478;
+  text-decoration:underline;
+}
+
+

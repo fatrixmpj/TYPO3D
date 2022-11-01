@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallangExt>
+	<data type="array">
+		<languageKey index="gr" type="array">
+			<label index="ll_welcome_header">Σύνδεση χρήστη</label>
+			<label index="ll_welcome_message">Εισάγετε εδώ το όνομα χρήστη και τον κωδικό πρόσβασής σας για να συνδεθείτε στο δικτυακό τόπο:</label>
+			<label index="ll_logout_header">Έχετε αποσυνδεθεί.</label>
+			<label index="ll_logout_message">Μόλις αποσυνδεθήκατε από αυτό το δικτυακό τόπο. Μπορείτε να απανασυνδεθείτε είτε να συνδεθείτε ως άλλος χρήστης, χρησιμοποιώντας την παρακάτω φόρμα.</label>
+			<label index="ll_error_header">Αποτυχία σύνδεσης</label>
+			<label index="ll_error_message">Κάποιο λάθος συνέβη κατά τη διαδικασία σύνδεσης. Το πιο πιθανό είναι ότι δεν καταχωρήσατε σωστά το όνομα χρήστη και τον κωδικό πρόσβασής σας. Σιγουρευτείτε ότι εισάγετε τα στοιχεία σας ακριβώς όπως είναι, συμπεριλαμβανομένης της διάκρισης πεζών/κεφαλαίων. Μία άλλη πιθανότητα είναι ότι τα cookies μπορεί να είναι απενεργοποιημένα στο φυλλομετρητή σας.</label>
+			<label index="ll_success_header">Επιτυχής Σύνδεση</label>
+			<label index="ll_success_message">Έχετε συνδεθεί ως '###USER###'</label>
+			<label index="ll_status_header">Τρέχουσα κατάσταση</label>
+			<label index="ll_status_message">Αυτή είναι η τρέχουσα κατάστασή σας:</label>
+			<label index="username">Όνομα χρήστη:</label>
+			<label index="password">Κωδικός πρόσβασης:</label>
+			<label index="login">Σύνδεση</label>
+			<label index="permalogin">Διατήρηση σύνδεσης:</label>
+			<label index="logout">Αποσύνδεση</label>
+			<label index="send_password">Αποστολή κωδικού πρόσβασης</label>
+			<label index="reset_password">Αρχικοποίηση κωδικού</label>
+			<label index="ll_change_password_header">Αλλαγή κωδικού</label>
+			<label index="change_password">Αλάξτε τον κωδικό</label>
+			<label index="newpassword_label1">Εισάγετε νέο κωδικό</label>
+			<label index="newpassword_label2">Επανάληψη κωδικού</label>
+			<label index="your_email">Το e-mail σας:</label>
+			<label index="ll_forgot_header">Ξεχάσατε τον κωδικό σας;</label>
+			<label index="ll_forgot_message_emailSent">Ο κωδικός πρόσβασής σας έχει σταλεί στην διεύθυνση email σας %s.</label>
+			<label index="ll_forgot_header_backToLogin">Επιστροφή στη φόρμα σύνδεσης</label>
+			<label index="cookie_warning">Προσοχή: Υπάρχει περίπτωση τα cookies να μην είναι ενεργοποιημένα στο φυλλομετρητή σας! Αν η φόρμα σύνδεσης εξαφανιστεί στο επόμενο κλικ τότε θα πρέπει να ενεργοποιήσετε τα cookies (ή να αποδεχθείτε τα cookies από αυτό το δικτυακό τόπο) αμέσως!</label>
+			<label index="ll_forgot_email_password">Ο κωδικός σας
+Γεια σας %s
+
+To όνομα χρήστη σας είναι &quot;%s&quot;
+Ο κωδικός πρόσβασης είναι &quot;%s&quot;</label>
+			<label index="ll_forgot_email_nopassword">Ο κωδικός πρόσβασής σας
+Γεια σας %s
+
+Δεν μπορέσαμε να βρούμε κάποιο όνομα χρήστη που να σχετίζεται με αυτή τη διεύθυνση email, γι' αυτό δε μπορούμε να στείλουμε τον κωδικό πρόσβασης σε εσάς. Ίσως δε γράψατε σωστά τη διεύθυνση email (συμπεριλαμβανομένης διάκρισης πεζών/κεφαλαίων) ή ίσως δεν έχετε εγγραφεί ακόμη;</label>
+			<label index="ll_forgot_message">Παρακαλώ εισάγετε τη διεύθυνση e-mail την οποία χρησιμοποιήσατε κατά την εγγραφή του λογαριασμού σας. Στη συνέχεια επιλέξτε &quot;Αποστολή Κωδικού Πρόσβασης&quot; και ο κωδικός πρόσβασής σας αμέσως θα αποσταλλεί στο email σας. Σιγουρευτείτε για την σωστή ορθογραφία του email σας.</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="gr" type="array">
+			<label index="ll_welcome_header" type="integer">236929731</label>
+			<label index="ll_welcome_message" type="integer">165291194</label>
+			<label index="ll_logout_header" type="integer">128821468</label>
+			<label index="ll_logout_message" type="integer">246637860</label>
+			<label index="ll_error_header" type="integer">165006287</label>
+			<label index="ll_error_message" type="integer">91350987</label>
+			<label index="ll_success_header" type="integer">236890074</label>
+			<label index="ll_success_message" type="integer">127181223</label>
+			<label index="ll_status_header" type="integer">261174419</label>
+			<label index="ll_status_message" type="integer">110223230</label>
+			<label index="username" type="integer">212632006</label>
+			<label index="password" type="integer">187963993</label>
+			<label index="login" type="integer">161344120</label>
+			<label index="logout" type="integer">3292644</label>
+			<label index="send_password" type="integer">244443771</label>
+			<label index="your_email" type="integer">165004462</label>
+			<label index="ll_forgot_header" type="integer">1726109</label>
+			<label index="ll_forgot_message_emailSent" type="integer">214484910</label>
+			<label index="ll_forgot_header_backToLogin" type="integer">71375192</label>
+			<label index="permalogin" type="integer">192836582</label>
+			<label index="reset_password" type="integer">101133955</label>
+			<label index="ll_change_password_header" type="integer">21487294</label>
+			<label index="change_password" type="integer">21487294</label>
+			<label index="newpassword_label1" type="integer">165306039</label>
+			<label index="newpassword_label2" type="integer">206168884</label>
+			<label index="cookie_warning" type="integer">70334511</label>
+			<label index="ll_forgot_email_password" type="integer">100562706</label>
+			<label index="ll_forgot_email_nopassword" type="integer">213987733</label>
+			<label index="ll_forgot_message" type="integer">194258101</label>
+		</languageKey>
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="gr" type="array">
+			<label index="ll_welcome_header">User login</label>
+			<label index="ll_welcome_message">Enter your username and password here in order to log in on the website:</label>
+			<label index="ll_logout_header">You have logged out.</label>
+			<label index="ll_logout_message">You just logged out from your user session on this website. You can login again or as another user by the form below.</label>
+			<label index="ll_error_header">Login failure</label>
+			<label index="ll_error_message">An error occurred during login. Most likely you didn't enter the username or password correctly.
+Be certain that you enter them precisely as they are, including upper/lower case.
+Another possibility is that cookies might be disabled in your web browser.</label>
+			<label index="ll_success_header">Login successful</label>
+			<label index="ll_success_message">You are now logged in as '###USER###'</label>
+			<label index="ll_status_header">Current status</label>
+			<label index="ll_status_message">This is your current status:</label>
+			<label index="username">Username:</label>
+			<label index="password">Password:</label>
+			<label index="login">Login</label>
+			<label index="logout">Logout</label>
+			<label index="send_password">Send password</label>
+			<label index="your_email">Your email:</label>
+			<label index="ll_forgot_header">Forgot your password?</label>
+			<label index="ll_forgot_message_emailSent">Your password has now been sent to the email address %s</label>
+			<label index="ll_forgot_header_backToLogin">Return to login form</label>
+			<label index="permalogin">Stay logged in:</label>
+			<label index="reset_password">Reset Password</label>
+			<label index="ll_change_password_header">Change your password</label>
+			<label index="change_password">Change your password</label>
+			<label index="newpassword_label1">Enter new password</label>
+			<label index="newpassword_label2">Repeat new password</label>
+			<label index="cookie_warning">Warning: There is a possibility that cookies are not enabled in your web browser! If your login disappears on your next click that is the case and you should enable cookies (or accept cookies from this website) immediately!</label>
+			<label index="ll_forgot_email_password">Your password
+Hi %s
+
+Your username is &quot;%s&quot;
+Your password is &quot;%s&quot;
+			</label>
+			<label index="ll_forgot_email_nopassword">Your password
+Hi %s
+
+We couldn't find a username for this email address and so cannot send the password to you. Probably you misspelled the email address (upper/lower case makes a difference) or maybe you even didn't register yet?
+			</label>
+			<label index="ll_forgot_message">Please enter the email address by which you registered your user account. Then press &quot;Send password&quot; and your password will immediately be emailed to you. Make sure to spell your email address correctly.</label>
+		</languageKey>
+	</orig_text>
+</T3locallangExt>
